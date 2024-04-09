@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/secret05/matchbox2.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Secret_05_TRS/matchbox2.xml"
+(format TRS)
+(fun f 2)
+(fun a 0)
+(rule (f (f x a) y) (f (f a y) (f a x)))

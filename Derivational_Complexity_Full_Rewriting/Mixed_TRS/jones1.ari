@@ -1,0 +1,10 @@
+; @origtpdbfilename ./TRS/LJB01/jones1.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Mixed_TRS/jones1.xml"
+(format TRS)
+(fun rev 1)
+(fun r1 2)
+(fun empty 0)
+(fun cons 2)
+(rule (rev ls) (r1 ls empty))
+(rule (r1 empty a) a)
+(rule (r1 (cons x k) a) (r1 k (cons x a)))

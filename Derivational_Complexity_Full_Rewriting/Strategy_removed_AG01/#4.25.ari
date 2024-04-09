@@ -1,0 +1,8 @@
+; @origtpdbfilename ./TRS/nontermin/AG01/#4.25.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Strategy_removed_AG01/#4.25.xml"
+(format TRS)
+(fun f 2)
+(fun g 1)
+(fun s 1)
+(rule (f x x) (f (g x) x))
+(rule (g x) (s x))

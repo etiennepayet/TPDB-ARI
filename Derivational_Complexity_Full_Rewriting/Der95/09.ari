@@ -1,0 +1,5 @@
+; @origtpdbfilename ./TRS/D33/09.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Der95/09.xml"
+(format TRS)
+(fun . 2)
+(rule (. (. x y) z) (. x (. y z)))

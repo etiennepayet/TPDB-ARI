@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/Rubio/mfp95.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Rubio_04/mfp95.xml"
+(format TRS)
+(fun f 2)
+(fun s 1)
+(fun h 1)
+(rule (f (s X) Y) (h (s (f (h Y) X))))

@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/Zantema/jw27.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Zantema_05/jw27.xml"
+(format TRS)
+(fun f 2)
+(fun a 0)
+(rule (f (f a x) a) (f a (f (f x (f a a)) a)))

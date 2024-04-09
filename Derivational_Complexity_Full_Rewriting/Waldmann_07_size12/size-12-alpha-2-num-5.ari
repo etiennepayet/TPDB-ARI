@@ -1,0 +1,7 @@
+; @origtpdbfilename ./SRS/Waldmann07a/size-12-alpha-2-num-5.srs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Waldmann_07_size12/size-12-alpha-2-num-5.xml"
+(format TRS)
+(fun a 1)
+(fun b 1)
+(rule (a (a x1)) x1)
+(rule (a (b (b (a x1)))) (a (a (b (a (b (b x1)))))))

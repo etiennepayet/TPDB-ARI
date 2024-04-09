@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/secret06/tpa01.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Secret_06_TRS/tpa01.xml"
+(format TRS)
+(fun f 2)
+(fun a 0)
+(rule (f y (f y x)) (f (f a y) (f a y)))

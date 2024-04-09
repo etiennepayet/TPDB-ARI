@@ -1,0 +1,9 @@
+; @origtpdbfilename ./TRS/secret06/jambox/5.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Secret_06_TRS/5.xml"
+(format TRS)
+(fun a 2)
+(fun 0 0)
+(fun c 1)
+(rule (a (a y 0) 0) y)
+(rule (c (c y)) y)
+(rule (c (a (c (c y)) x)) (a (c (c (c (a x 0)))) y))

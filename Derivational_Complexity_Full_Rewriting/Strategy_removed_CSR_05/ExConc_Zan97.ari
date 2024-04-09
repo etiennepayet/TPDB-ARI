@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/nontermin/CSR/ExConc_Zan97.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Strategy_removed_CSR_05/ExConc_Zan97.xml"
+(format TRS)
+(fun f 1)
+(fun g 1)
+(fun h 1)
+(rule (f X) (g (h (f X))))

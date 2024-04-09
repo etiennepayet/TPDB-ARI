@@ -1,0 +1,14 @@
+; @origtpdbfilename ./TRS/TRCSR/Ex4_7_77_Bor03_FR.trs./TRS/TRCSR/Ex4_7_77_Bor03_Z.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Transformed_CSR_04/Ex4_7_77_Bor03_FR.xml"
+(format TRS)
+(fun zeros 0)
+(fun cons 2)
+(fun 0 0)
+(fun n__zeros 0)
+(fun tail 1)
+(fun activate 1)
+(rule zeros (cons 0 n__zeros))
+(rule (tail (cons X XS)) (activate XS))
+(rule zeros n__zeros)
+(rule (activate n__zeros) zeros)
+(rule (activate X) X)

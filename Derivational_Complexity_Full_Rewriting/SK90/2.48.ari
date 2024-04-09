@@ -1,0 +1,15 @@
+; @origtpdbfilename ./TRS/SK90/2.48.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/SK90/2.48.xml"
+(format TRS)
+(fun d 1)
+(fun e 1)
+(fun u 1)
+(fun c 1)
+(fun b 1)
+(fun v 1)
+(fun a 1)
+(rule (d x) (e (u x)))
+(rule (d (u x)) (c x))
+(rule (c (u x)) (b x))
+(rule (v (e x)) x)
+(rule (b (u x)) (a (e x)))

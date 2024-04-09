@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/Waldmann/jwcime2.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Waldmann_06/jwcime2.xml"
+(format TRS)
+(fun f 2)
+(fun a 0)
+(fun h 1)
+(rule (f x (f y a)) (f (f (f (f a a) y) (h a)) x))

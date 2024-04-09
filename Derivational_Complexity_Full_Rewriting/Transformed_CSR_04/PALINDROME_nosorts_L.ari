@@ -1,0 +1,13 @@
+; @origtpdbfilename ./TRS/TRCSR/PALINDROME_nosorts_L.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Transformed_CSR_04/PALINDROME_nosorts_L.xml"
+(format TRS)
+(fun and 1)
+(fun tt 0)
+(fun __ 2)
+(fun nil 0)
+(fun isNePal 1)
+(rule (and tt) X)
+(rule (__ (__ X Y) Z) (__ X (__ Y Z)))
+(rule (__ X nil) X)
+(rule (__ nil X) X)
+(rule (isNePal (__ I (__ P I))) tt)

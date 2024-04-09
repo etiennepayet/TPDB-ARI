@@ -1,0 +1,13 @@
+; @origtpdbfilename ./TRS/TRCSR/Ex14_AEGL02_L.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Transformed_CSR_04/Ex14_AEGL02_L.xml"
+(format TRS)
+(fun from 1)
+(fun cons 1)
+(fun length 0)
+(fun 0 0)
+(fun s 1)
+(fun length1 0)
+(rule (from X) (cons X))
+(rule length 0)
+(rule length (s length1))
+(rule length1 length)

@@ -1,0 +1,11 @@
+; @origtpdbfilename ./TRS/SK90/4.07.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/SK90/4.07.xml"
+(format TRS)
+(fun * 2)
+(fun i 1)
+(fun 1 0)
+(fun 0 0)
+(rule (* (i x) x) 1)
+(rule (* 1 y) y)
+(rule (* x 0) 0)
+(rule (* (* x y) z) (* x (* y z)))

@@ -1,0 +1,10 @@
+; @origtpdbfilename ./TRS/SK90/2.38.trs
+; @xtcfilename "./Derivational_Complexity_Full_Rewriting/SK90/2.38.xml"
+(format TRS)
+(fun ++ 2)
+(fun nil 0)
+(fun . 2)
+(rule (++ nil y) y)
+(rule (++ x nil) x)
+(rule (++ (. x y) z) (. x (++ y z)))
+(rule (++ (++ x y) z) (++ x (++ y z)))
