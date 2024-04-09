@@ -1,0 +1,13 @@
+; @origtpdbfilename ./TRS/Rubio-inn/test76.trs
+; @xtcfilename "./TRS_Innermost/Mixed_innermost/test76.xml"
+(format TRS)
+(fun + 2)
+(fun 0 0)
+(fun s 1)
+(fun f 3)
+(fun g 2)
+(rule (+ X 0) X)
+(rule (+ X (s Y)) (s (+ X Y)))
+(rule (f 0 (s 0) X) (f X (+ X X) X))
+(rule (g X Y) X)
+(rule (g X Y) Y)

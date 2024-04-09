@@ -1,0 +1,12 @@
+; @origtpdbfilename ./TRS/TRCSR/inn/Ex6_Luc98_L.trs
+; @xtcfilename "./TRS_Innermost/Transformed_CSR_innermost_04/Ex6_Luc98_L.xml"
+(format TRS)
+(fun first 2)
+(fun 0 0)
+(fun nil 0)
+(fun s 1)
+(fun cons 1)
+(fun from 1)
+(rule (first 0 X) nil)
+(rule (first (s X) (cons Y)) (cons Y))
+(rule (from X) (cons X))

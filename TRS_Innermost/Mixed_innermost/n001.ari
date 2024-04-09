@@ -1,0 +1,8 @@
+; @origtpdbfilename ./TRS/HM/n001.trs
+; @xtcfilename "./TRS_Innermost/Mixed_innermost/n001.xml"
+(format TRS)
+(fun h 1)
+(fun f 1)
+(fun g 1)
+(rule (h (f (f x))) (h (f (g (f x)))))
+(rule (f (g (f x))) (f (f x)))

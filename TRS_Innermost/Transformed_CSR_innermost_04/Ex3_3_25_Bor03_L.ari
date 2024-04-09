@@ -1,0 +1,16 @@
+; @origtpdbfilename ./TRS/TRCSR/inn/Ex3_3_25_Bor03_L.trs
+; @xtcfilename "./TRS_Innermost/Transformed_CSR_innermost_04/Ex3_3_25_Bor03_L.xml"
+(format TRS)
+(fun app 2)
+(fun nil 0)
+(fun cons 1)
+(fun from 1)
+(fun zWadr 2)
+(fun prefix 1)
+(rule (app nil YS) YS)
+(rule (app (cons X) YS) (cons X))
+(rule (from X) (cons X))
+(rule (zWadr nil YS) nil)
+(rule (zWadr XS nil) nil)
+(rule (zWadr (cons X) (cons Y)) (cons (app Y (cons X))))
+(rule (prefix L) (cons nil))

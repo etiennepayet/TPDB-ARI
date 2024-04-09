@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/TRCSR/inn/Ex18_Luc06_L.trs
+; @xtcfilename "./TRS_Innermost/Transformed_CSR_innermost_04/Ex18_Luc06_L.xml"
+(format TRS)
+(fun f 1)
+(fun a 0)
+(fun g 0)
+(rule (f (f a)) (f g))

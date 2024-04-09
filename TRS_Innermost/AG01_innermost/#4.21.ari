@@ -1,0 +1,11 @@
+; @origtpdbfilename ./TRS/AG01/#4.21.trs
+; @xtcfilename "./TRS_Innermost/AG01_innermost/#4.21.xml"
+(format TRS)
+(fun f 1)
+(fun 1 0)
+(fun g 1)
+(fun 0 0)
+(rule (f 1) (f (g 1)))
+(rule (f (f x)) (f x))
+(rule (g 0) (g (f 0)))
+(rule (g (g x)) (g x))

@@ -1,0 +1,9 @@
+; @origtpdbfilename ./TRS/Rubio-inn/gkg.trs
+; @xtcfilename "./TRS_Innermost/Mixed_innermost/gkg.xml"
+(format TRS)
+(fun f 2)
+(fun g 1)
+(fun 1 0)
+(fun 0 0)
+(rule (f X (g X)) (f 1 (g X)))
+(rule (g 1) (g 0))
