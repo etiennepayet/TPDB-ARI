@@ -1,0 +1,6 @@
+; @origtpdbfilename /tmp/tmp0wpa0rnj.srs
+; @xtcfilename "./SRS_Standard/Wenzel_16/babbabbaba-ababbabbabba.srs.xml"
+(format TRS)
+(fun b 1)
+(fun a 1)
+(rule (b (a (b (b (a (b (b (a (b (a x1)))))))))) (a (b (a (b (b (a (b (b (a (b (b (a x1)))))))))))))
