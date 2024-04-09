@@ -1,0 +1,5 @@
+; @xtcfilename "./TRS_Standard/Zantema_15/delta.xml"
+(format TRS)
+(fun a 2)
+(fun delta 0)
+(rule (a (a delta x) y) (a y (a x y)))

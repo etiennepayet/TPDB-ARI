@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/D33/03.trs
+; @xtcfilename "./TRS_Standard/Der95/03.xml"
+(format TRS)
+(fun f 1)
+(fun g 1)
+(rule (f (f x)) (g (f x)))

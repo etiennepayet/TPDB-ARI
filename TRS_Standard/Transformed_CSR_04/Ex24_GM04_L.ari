@@ -1,0 +1,10 @@
+; @origtpdbfilename ./TRS/TRCSR/Ex24_GM04_L.trs
+; @xtcfilename "./TRS_Standard/Transformed_CSR_04/Ex24_GM04_L.xml"
+(format TRS)
+(fun f 0)
+(fun g 1)
+(fun b 0)
+(fun c 0)
+(rule f f)
+(rule (g b) c)
+(rule b c)

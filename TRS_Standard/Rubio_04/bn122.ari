@@ -1,0 +1,8 @@
+; @origtpdbfilename ./TRS/Rubio/bn122.trs
+; @xtcfilename "./TRS_Standard/Rubio_04/bn122.xml"
+(format TRS)
+(fun plus 2)
+(fun times 2)
+(fun s 1)
+(rule (plus (plus X Y) Z) (plus X (plus Y Z)))
+(rule (times X (s Y)) (plus X (times Y X)))

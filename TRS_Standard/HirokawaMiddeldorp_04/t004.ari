@@ -1,0 +1,10 @@
+; @origtpdbfilename ./TRS/HM/t004.trs
+; @xtcfilename "./TRS_Standard/HirokawaMiddeldorp_04/t004.xml"
+(format TRS)
+(fun f 1)
+(fun s 1)
+(fun p 1)
+(fun 0 0)
+(rule (f (s x)) (s (f (f (p (s x))))))
+(rule (f 0) 0)
+(rule (p (s x)) x)

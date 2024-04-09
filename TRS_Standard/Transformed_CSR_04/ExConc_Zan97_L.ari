@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/TRCSR/ExConc_Zan97_L.trs
+; @xtcfilename "./TRS_Standard/Transformed_CSR_04/ExConc_Zan97_L.xml"
+(format TRS)
+(fun f 1)
+(fun g 0)
+(rule (f X) g)

@@ -1,0 +1,9 @@
+; @origtpdbfilename ./TRS/LJB01/jones4.trs
+; @xtcfilename "./TRS_Standard/Mixed_TRS/jones4.xml"
+(format TRS)
+(fun p 3)
+(fun s 1)
+(fun 0 0)
+(rule (p m n (s r)) (p m r n))
+(rule (p m (s n) 0) (p 0 n m))
+(rule (p m 0 0) m)

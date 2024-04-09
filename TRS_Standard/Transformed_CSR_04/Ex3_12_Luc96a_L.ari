@@ -1,0 +1,11 @@
+; @origtpdbfilename ./TRS/TRCSR/Ex3_12_Luc96a_L.trs
+; @xtcfilename "./TRS_Standard/Transformed_CSR_04/Ex3_12_Luc96a_L.xml"
+(format TRS)
+(fun sel 2)
+(fun s 1)
+(fun cons 1)
+(fun from 1)
+(fun 0 0)
+(rule (sel (s X) (cons Y)) (sel X Z))
+(rule (from X) (cons X))
+(rule (sel 0 (cons X)) X)

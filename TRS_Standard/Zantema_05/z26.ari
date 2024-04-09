@@ -1,0 +1,9 @@
+; @origtpdbfilename ./TRS/Zantema/z26.trs
+; @xtcfilename "./TRS_Standard/Zantema_05/z26.xml"
+(format TRS)
+(fun a 1)
+(fun f 2)
+(fun b 1)
+(rule (a (a (f x y))) (f (a (b (a (b (a x))))) (a (b (a (b (a y)))))))
+(rule (f (a x) (a y)) (a (f x y)))
+(rule (f (b x) (b y)) (b (f x y)))

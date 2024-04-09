@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/Waldmann/jwno9.trs
+; @xtcfilename "./TRS_Standard/Waldmann_06/jwno9.xml"
+(format TRS)
+(fun f 2)
+(fun a 0)
+(rule (f x (f a y)) (f a (f (f (f a a) y) x)))

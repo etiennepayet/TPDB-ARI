@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/secret05/matchbox1.trs
+; @xtcfilename "./TRS_Standard/Secret_05_TRS/matchbox1.xml"
+(format TRS)
+(fun f 2)
+(fun a 0)
+(rule (f (f x a) y) (f y (f x y)))

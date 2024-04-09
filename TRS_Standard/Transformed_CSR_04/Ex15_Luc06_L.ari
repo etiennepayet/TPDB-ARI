@@ -1,0 +1,5 @@
+; @origtpdbfilename ./TRS/TRCSR/Ex15_Luc06_L.trs
+; @xtcfilename "./TRS_Standard/Transformed_CSR_04/Ex15_Luc06_L.xml"
+(format TRS)
+(fun f 0)
+(rule f f)

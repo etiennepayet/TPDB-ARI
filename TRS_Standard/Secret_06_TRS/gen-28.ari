@@ -1,0 +1,10 @@
+; @origtpdbfilename ./TRS/secret06/matchbox/gen-28.trs
+; @xtcfilename "./TRS_Standard/Secret_06_TRS/gen-28.xml"
+(format TRS)
+(fun b 2)
+(fun f 1)
+(fun c 3)
+(fun a 0)
+(rule (b y z) (f (c (c y z z) a a)))
+(rule (b (b z y) a) z)
+(rule (c (f z) (f (c a x a)) y) (c (f (b x z)) (c z y a) a))

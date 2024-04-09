@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/Zantema/jw20.trs
+; @xtcfilename "./TRS_Standard/Zantema_05/jw20.xml"
+(format TRS)
+(fun f 2)
+(fun a 0)
+(rule (f x (f a a)) (f (f a (f (f a a) a)) x))

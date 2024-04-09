@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/higher-order/AotoYam/017.trs
+; @xtcfilename "./TRS_Standard/AotoYamada_05/017.xml"
+(format TRS)
+(fun app 2)
+(fun uncurry 0)
+(rule (app (app (app uncurry f) x) y) (app (app f x) y))

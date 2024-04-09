@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/Endrullis/labeling.trs
+; @xtcfilename "./TRS_Standard/Endrullis_06/labeling.xml"
+(format TRS)
+(fun f 3)
+(fun a 0)
+(rule (f (f x y a) z w) (f z w (f y x z)))
