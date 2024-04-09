@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/D33/18.trs
+; @xtcfilename "./Runtime_Complexity_Innermost_Rewriting/Der95/18.xml"
+(format TRS)
+(fun * 2)
+(fun + 2)
+(rule (* x (+ y z)) (+ (* x y) (* x z)))

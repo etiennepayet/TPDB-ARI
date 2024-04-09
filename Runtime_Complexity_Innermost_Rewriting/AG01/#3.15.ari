@@ -1,0 +1,11 @@
+; @origtpdbfilename ./TRS/AG01/#3.15.trs
+; @xtcfilename "./Runtime_Complexity_Innermost_Rewriting/AG01/#3.15.xml"
+(format TRS)
+(fun average 2)
+(fun s 1)
+(fun 0 0)
+(rule (average (s x) y) (average x (s y)))
+(rule (average x (s (s (s y)))) (s (average (s x) y)))
+(rule (average 0 0) 0)
+(rule (average 0 (s 0)) 0)
+(rule (average 0 (s (s 0))) (s 0))

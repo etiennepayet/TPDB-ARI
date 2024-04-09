@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/SK90/2.50.trs
+; @xtcfilename "./Runtime_Complexity_Innermost_Rewriting/SK90/2.50.xml"
+(format TRS)
+(fun a 1)
+(fun b 1)
+(rule (a (b x)) (b (b (a x))))

@@ -1,0 +1,15 @@
+; @origtpdbfilename ./TRS/TRCSR/Ex23_Luc06_GM.trs
+; @xtcfilename "./Runtime_Complexity_Innermost_Rewriting/Transformed_CSR_04/Ex23_Luc06_GM.xml"
+(format TRS)
+(fun a__f 1)
+(fun f 1)
+(fun a 0)
+(fun c 1)
+(fun g 1)
+(fun mark 1)
+(rule (a__f (f a)) (c (f (g (f a)))))
+(rule (mark (f X)) (a__f (mark X)))
+(rule (mark a) a)
+(rule (mark (c X)) (c X))
+(rule (mark (g X)) (g (mark X)))
+(rule (a__f X) (f X))

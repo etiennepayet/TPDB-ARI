@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/Zantema06/test1.trs
+; @xtcfilename "./Runtime_Complexity_Innermost_Rewriting/Mixed_TRS/test1.xml"
+(format TRS)
+(fun f 2)
+(fun s 1)
+(rule (f (s x) y) (f x (s (s x))))
+(rule (f x (s (s y))) (f y x))

@@ -1,0 +1,5 @@
+; @origtpdbfilename ./TRS/HM/n005.trs
+; @xtcfilename "./Runtime_Complexity_Innermost_Rewriting/HirokawaMiddeldorp_04/n005.xml"
+(format TRS)
+(fun f 1)
+(rule (f x) (f (f x)))
