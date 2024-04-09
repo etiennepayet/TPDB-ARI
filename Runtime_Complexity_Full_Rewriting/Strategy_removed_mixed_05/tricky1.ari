@@ -1,0 +1,11 @@
+; @origtpdbfilename ./TRS/nontermin/cariboo/tricky1.trs
+; @xtcfilename "./Runtime_Complexity_Full_Rewriting/Strategy_removed_mixed_05/tricky1.xml"
+(format TRS)
+(fun f 2)
+(fun g 1)
+(fun p 1)
+(fun s 1)
+(fun 0 0)
+(rule (f (g x) (g y)) (f (p (f (g x) (s y))) (g (s (p x)))))
+(rule (p 0) (g 0))
+(rule (g (s (p x))) (p x))

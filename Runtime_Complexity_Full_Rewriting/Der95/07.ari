@@ -1,0 +1,9 @@
+; @origtpdbfilename ./TRS/D33/07.trs
+; @xtcfilename "./Runtime_Complexity_Full_Rewriting/Der95/07.xml"
+(format TRS)
+(fun w 1)
+(fun r 1)
+(fun b 1)
+(rule (w (r x)) (r (w x)))
+(rule (b (r x)) (r (b x)))
+(rule (b (w x)) (w (b x)))

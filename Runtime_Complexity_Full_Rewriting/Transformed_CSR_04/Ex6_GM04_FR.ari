@@ -1,0 +1,16 @@
+; @origtpdbfilename ./TRS/TRCSR/Ex6_GM04_FR.trs./TRS/TRCSR/Ex6_GM04_Z.trs
+; @xtcfilename "./Runtime_Complexity_Full_Rewriting/Transformed_CSR_04/Ex6_GM04_FR.xml"
+(format TRS)
+(fun c 0)
+(fun f 1)
+(fun n__g 1)
+(fun n__c 0)
+(fun g 1)
+(fun activate 1)
+(rule c (f (n__g n__c)))
+(rule (f (n__g X)) (g (activate X)))
+(rule (g X) (n__g X))
+(rule c n__c)
+(rule (activate (n__g X)) (g X))
+(rule (activate n__c) c)
+(rule (activate X) X)

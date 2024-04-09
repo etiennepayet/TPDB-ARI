@@ -1,0 +1,9 @@
+; @origtpdbfilename ./TRS/Zantema/z28.trs
+; @xtcfilename "./Runtime_Complexity_Full_Rewriting/Zantema_05/z28.xml"
+(format TRS)
+(fun f 2)
+(fun 0 0)
+(fun 1 0)
+(fun g 1)
+(rule (f (f 0 x) 1) (f (g (f x x)) x))
+(rule (f (g x) y) (g (f x y)))

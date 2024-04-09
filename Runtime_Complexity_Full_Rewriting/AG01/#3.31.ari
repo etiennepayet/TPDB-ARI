@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/AG01/#3.31.trs
+; @xtcfilename "./Runtime_Complexity_Full_Rewriting/AG01/#3.31.xml"
+(format TRS)
+(fun f 1)
+(fun g 1)
+(fun a 2)
+(rule (f (g x)) (f (a (g (g (f x))) (g (f x)))))

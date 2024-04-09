@@ -1,0 +1,12 @@
+; @origtpdbfilename ./TRS/TRCSR/ExConc_Zan97_Z.trs
+; @xtcfilename "./Runtime_Complexity_Full_Rewriting/Transformed_CSR_04/ExConc_Zan97_Z.xml"
+(format TRS)
+(fun f 1)
+(fun g 1)
+(fun n__h 1)
+(fun h 1)
+(fun activate 1)
+(rule (f X) (g (n__h (f X))))
+(rule (h X) (n__h X))
+(rule (activate (n__h X)) (h X))
+(rule (activate X) X)

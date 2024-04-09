@@ -1,0 +1,13 @@
+; @origtpdbfilename ./TRS/Rubio/gm.trs
+; @xtcfilename "./Runtime_Complexity_Full_Rewriting/Rubio_04/gm.xml"
+(format TRS)
+(fun minus 2)
+(fun 0 0)
+(fun s 1)
+(fun p 1)
+(fun div 2)
+(rule (minus X 0) X)
+(rule (minus (s X) (s Y)) (p (minus X Y)))
+(rule (p (s X)) X)
+(rule (div 0 (s Y)) 0)
+(rule (div (s X) (s Y)) (s (div (minus X Y) (s Y))))

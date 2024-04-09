@@ -1,0 +1,12 @@
+; @origtpdbfilename ./TRS/AG01/#3.22.trs
+; @xtcfilename "./Runtime_Complexity_Full_Rewriting/AG01/#3.22.xml"
+(format TRS)
+(fun times 2)
+(fun plus 2)
+(fun s 1)
+(fun 0 0)
+(rule (times x (plus y (s z))) (plus (times x (plus y (times (s z) 0))) (times x (s z))))
+(rule (times x 0) 0)
+(rule (times x (s y)) (plus (times x y) x))
+(rule (plus x 0) x)
+(rule (plus x (s y)) (s (plus x y)))

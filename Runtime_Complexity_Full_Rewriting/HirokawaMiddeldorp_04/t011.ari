@@ -1,0 +1,8 @@
+; @origtpdbfilename ./TRS/HM/t011.trs
+; @xtcfilename "./Runtime_Complexity_Full_Rewriting/HirokawaMiddeldorp_04/t011.xml"
+(format TRS)
+(fun g 2)
+(fun f 1)
+(fun h 2)
+(rule (g (f x) y) (f (h x y)))
+(rule (h x y) (g x (f y)))

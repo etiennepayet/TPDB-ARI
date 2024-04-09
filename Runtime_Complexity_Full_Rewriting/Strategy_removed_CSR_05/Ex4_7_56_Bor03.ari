@@ -1,0 +1,11 @@
+; @origtpdbfilename ./TRS/nontermin/CSR/Ex4_7_56_Bor03.trs
+; @xtcfilename "./Runtime_Complexity_Full_Rewriting/Strategy_removed_CSR_05/Ex4_7_56_Bor03.xml"
+(format TRS)
+(fun from 1)
+(fun cons 2)
+(fun s 1)
+(fun after 2)
+(fun 0 0)
+(rule (from X) (cons X (from (s X))))
+(rule (after 0 XS) XS)
+(rule (after (s N) (cons X XS)) (after N XS))

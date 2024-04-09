@@ -1,0 +1,16 @@
+; @origtpdbfilename ./TRS/TRCSR/Ex6_GM04_GM.trs
+; @xtcfilename "./Runtime_Complexity_Full_Rewriting/Transformed_CSR_04/Ex6_GM04_GM.xml"
+(format TRS)
+(fun a__c 0)
+(fun a__f 1)
+(fun g 1)
+(fun c 0)
+(fun mark 1)
+(fun f 1)
+(rule a__c (a__f (g c)))
+(rule (a__f (g X)) (g X))
+(rule (mark c) a__c)
+(rule (mark (f X)) (a__f X))
+(rule (mark (g X)) (g X))
+(rule a__c c)
+(rule (a__f X) (f X))

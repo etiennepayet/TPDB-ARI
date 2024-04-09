@@ -1,0 +1,8 @@
+; @origtpdbfilename ./TRS/SK90/4.45.trs
+; @xtcfilename "./Runtime_Complexity_Full_Rewriting/SK90/4.45.xml"
+(format TRS)
+(fun f 2)
+(fun a 0)
+(fun g 1)
+(rule (f x x) a)
+(rule (f (g x) y) (f x y))
