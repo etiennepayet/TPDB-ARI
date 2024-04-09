@@ -1,0 +1,13 @@
+; @origtpdbfilename ./TRS/CSR_Maude/palindrome/PALINDROME_nosorts.trs
+; @xtcfilename "./TRS_Contextsensitive/Maude_06/PALINDROME_nosorts.xml"
+(format CSTRS)
+(fun __ 2 :replacement-map (1 2))
+(fun nil 0 :replacement-map ())
+(fun and 2 :replacement-map (1))
+(fun tt 0 :replacement-map ())
+(fun isNePal 1 :replacement-map (1))
+(rule (__ (__ X Y) Z) (__ X (__ Y Z)))
+(rule (__ X nil) X)
+(rule (__ nil X) X)
+(rule (and tt X) X)
+(rule (isNePal (__ I (__ P I))) tt)

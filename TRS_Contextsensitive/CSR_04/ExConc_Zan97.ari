@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/CSR/ExConc_Zan97.trs
+; @xtcfilename "./TRS_Contextsensitive/CSR_04/ExConc_Zan97.xml"
+(format CSTRS)
+(fun f 1 :replacement-map (1))
+(fun g 1 :replacement-map ())
+(fun h 1 :replacement-map (1))
+(rule (f X) (g (h (f X))))

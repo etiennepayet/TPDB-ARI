@@ -1,0 +1,10 @@
+; @origtpdbfilename ./TRS/endrullis08/cariboo_ex4.trs
+; @xtcfilename "./TRS_Contextsensitive/Transformed_outermost_08/cariboo_ex4.xml"
+(format CSTRS)
+(fun f_1 1 :replacement-map ())
+(fun h_0 1 :replacement-map (1))
+(fun i_1 1 :replacement-map ())
+(fun a_0 0 :replacement-map ())
+(rule (f_1 (h_0 x)) (f_1 (i_1 x)))
+(rule (f_1 (i_1 x)) a_0)
+(rule (i_1 x) (h_0 x))

@@ -1,0 +1,14 @@
+; @origtpdbfilename ./TRS/CSR_Maude/my-nat/MYNAT_nosorts.trs
+; @xtcfilename "./TRS_Contextsensitive/Maude_06/MYNAT_nosorts.xml"
+(format CSTRS)
+(fun and 2 :replacement-map (1))
+(fun tt 0 :replacement-map ())
+(fun plus 2 :replacement-map (1 2))
+(fun 0 0 :replacement-map ())
+(fun s 1 :replacement-map (1))
+(fun x 2 :replacement-map (1 2))
+(rule (and tt X) X)
+(rule (plus N 0) N)
+(rule (plus N (s M)) (s (plus N M)))
+(rule (x N 0) 0)
+(rule (x N (s M)) (plus (x N M) N))

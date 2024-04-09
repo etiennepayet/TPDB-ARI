@@ -1,0 +1,18 @@
+; @origtpdbfilename ./TRS/CSR/Ex1_Luc04b.trs
+; @xtcfilename "./TRS_Contextsensitive/CSR_04/Ex1_Luc04b.xml"
+(format CSTRS)
+(fun nats 0 :replacement-map ())
+(fun cons 2 :replacement-map (1))
+(fun 0 0 :replacement-map ())
+(fun incr 1 :replacement-map (1))
+(fun pairs 0 :replacement-map ())
+(fun odds 0 :replacement-map ())
+(fun s 1 :replacement-map (1))
+(fun head 1 :replacement-map (1))
+(fun tail 1 :replacement-map (1))
+(rule nats (cons 0 (incr nats)))
+(rule pairs (cons 0 (incr odds)))
+(rule odds (incr pairs))
+(rule (incr (cons X XS)) (cons (s X) (incr XS)))
+(rule (head (cons X XS)) X)
+(rule (tail (cons X XS)) XS)

@@ -1,0 +1,11 @@
+; @origtpdbfilename ./TRS/CSR/Ex5_Zan97.trs
+; @xtcfilename "./TRS_Contextsensitive/CSR_04/Ex5_Zan97.xml"
+(format CSTRS)
+(fun f 1 :replacement-map (1))
+(fun if 3 :replacement-map (1 2))
+(fun c 0 :replacement-map ())
+(fun true 0 :replacement-map ())
+(fun false 0 :replacement-map ())
+(rule (f X) (if X c (f true)))
+(rule (if true X Y) X)
+(rule (if false X Y) Y)

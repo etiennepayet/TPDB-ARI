@@ -1,0 +1,18 @@
+; @origtpdbfilename ./TRS/CSR/ExIntrod_GM04.trs
+; @xtcfilename "./TRS_Contextsensitive/CSR_04/ExIntrod_GM04.xml"
+(format CSTRS)
+(fun nats 0 :replacement-map ())
+(fun adx 1 :replacement-map (1))
+(fun zeros 0 :replacement-map ())
+(fun cons 2 :replacement-map ())
+(fun 0 0 :replacement-map ())
+(fun incr 1 :replacement-map (1))
+(fun s 1 :replacement-map ())
+(fun hd 1 :replacement-map (1))
+(fun tl 1 :replacement-map (1))
+(rule nats (adx zeros))
+(rule zeros (cons 0 zeros))
+(rule (incr (cons X Y)) (cons (s X) (incr Y)))
+(rule (adx (cons X Y)) (incr (cons X (adx Y))))
+(rule (hd (cons X Y)) X)
+(rule (tl (cons X Y)) Y)

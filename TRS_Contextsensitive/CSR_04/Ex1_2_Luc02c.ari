@@ -1,0 +1,9 @@
+; @origtpdbfilename ./TRS/CSR/Ex1_2_Luc02c.trs
+; @xtcfilename "./TRS_Contextsensitive/CSR_04/Ex1_2_Luc02c.xml"
+(format CSTRS)
+(fun 2nd 1 :replacement-map (1))
+(fun cons 2 :replacement-map (1))
+(fun from 1 :replacement-map (1))
+(fun s 1 :replacement-map (1))
+(rule (2nd (cons X (cons Y Z))) Y)
+(rule (from X) (cons X (from (s X))))

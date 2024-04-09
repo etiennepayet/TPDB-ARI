@@ -1,0 +1,14 @@
+; @origtpdbfilename ./TRS/CSR/Ex4_Zan97.trs
+; @xtcfilename "./TRS_Contextsensitive/CSR_04/Ex4_Zan97.xml"
+(format CSTRS)
+(fun f 1 :replacement-map (1))
+(fun cons 2 :replacement-map (1))
+(fun g 1 :replacement-map (1))
+(fun 0 0 :replacement-map ())
+(fun s 1 :replacement-map (1))
+(fun sel 2 :replacement-map (1 2))
+(rule (f X) (cons X (f (g X))))
+(rule (g 0) (s 0))
+(rule (g (s X)) (s (s (g X))))
+(rule (sel 0 (cons X Y)) X)
+(rule (sel (s X) (cons Y Z)) (sel X Z))

@@ -1,0 +1,15 @@
+; @origtpdbfilename ./TRS/endrullis08/cariboo_ex2.trs
+; @xtcfilename "./TRS_Contextsensitive/Transformed_outermost_08/cariboo_ex2.xml"
+(format CSTRS)
+(fun cons_1 2 :replacement-map ())
+(fun big_0 0 :replacement-map ())
+(fun cons_0 2 :replacement-map (1 2))
+(fun *top*_0 1 :replacement-map (1))
+(fun inf_1 1 :replacement-map ())
+(fun s_0 1 :replacement-map (1))
+(rule (cons_1 x (cons_1 y z)) big_0)
+(rule (cons_1 x (cons_0 y z)) big_0)
+(rule (*top*_0 (inf_1 x)) (*top*_0 (cons_0 x (inf_1 (s_0 x)))))
+(rule (s_0 (inf_1 x)) (s_0 (cons_0 x (inf_1 (s_0 x)))))
+(rule (cons_0 (inf_1 x) x0) (cons_0 (cons_0 x (inf_1 (s_0 x))) x0))
+(rule (cons_0 x0 (inf_1 x)) (cons_1 x0 (cons_0 x (inf_1 (s_0 x)))))

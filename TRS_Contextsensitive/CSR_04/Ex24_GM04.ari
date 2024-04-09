@@ -1,0 +1,10 @@
+; @origtpdbfilename ./TRS/CSR/Ex24_GM04.trs
+; @xtcfilename "./TRS_Contextsensitive/CSR_04/Ex24_GM04.xml"
+(format CSTRS)
+(fun f 3 :replacement-map ())
+(fun g 1 :replacement-map (1))
+(fun b 0 :replacement-map ())
+(fun c 0 :replacement-map ())
+(rule (f X (g X) Y) (f Y Y Y))
+(rule (g b) c)
+(rule b c)

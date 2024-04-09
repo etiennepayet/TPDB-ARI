@@ -1,0 +1,17 @@
+; @origtpdbfilename ./TRS/endrullis08/ex5.5.trs
+; @xtcfilename "./TRS_Contextsensitive/Transformed_outermost_08/ex5.5.xml"
+(format CSTRS)
+(fun f_1 2 :replacement-map ())
+(fun c_0 0 :replacement-map ())
+(fun f_0 2 :replacement-map (1 2))
+(fun *top*_0 1 :replacement-map (1))
+(fun a_1 0 :replacement-map ())
+(rule (f_1 (f_1 x y) z) c_0)
+(rule (f_1 (f_0 x y) z) c_0)
+(rule (f_1 x (f_1 y z)) (f_1 (f_0 x y) z))
+(rule (f_1 x (f_1 y z)) (f_1 (f_1 x y) z))
+(rule (f_1 x (f_0 y z)) (f_1 (f_1 x y) z))
+(rule (f_1 x (f_0 y z)) (f_1 (f_0 x y) z))
+(rule (*top*_0 a_1) (*top*_0 (f_0 a_1 a_1)))
+(rule (f_0 a_1 x0) (f_1 (f_0 a_1 a_1) x0))
+(rule (f_0 x0 a_1) (f_1 x0 (f_0 a_1 a_1)))
