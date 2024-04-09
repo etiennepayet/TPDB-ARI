@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/outermost/nontermin/CSR/Ex4_4_Luc96b.trs
+; @xtcfilename "./TRS_Outermost/Strategy_outermost_added_08/Ex4_4_Luc96b.xml"
+(format TRS)
+(fun f 2)
+(fun g 1)
+(rule (f (g X) Y) (f X (f (g X) Y)))

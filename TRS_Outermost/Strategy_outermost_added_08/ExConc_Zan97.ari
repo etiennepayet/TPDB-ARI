@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/outermost/nontermin/CSR/ExConc_Zan97.trs
+; @xtcfilename "./TRS_Outermost/Strategy_outermost_added_08/ExConc_Zan97.xml"
+(format TRS)
+(fun f 1)
+(fun g 1)
+(fun h 1)
+(rule (f X) (g (h (f X))))

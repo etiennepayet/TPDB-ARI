@@ -1,0 +1,8 @@
+; @origtpdbfilename ./TRS/outermost/TRCSR/Ex1_2_Luc02c_L.trs
+; @xtcfilename "./TRS_Outermost/Strategy_outermost_added_08/Ex1_2_Luc02c_L.xml"
+(format TRS)
+(fun 2nd 1)
+(fun cons 1)
+(fun from 1)
+(rule (2nd (cons X)) Y)
+(rule (from X) (cons X))

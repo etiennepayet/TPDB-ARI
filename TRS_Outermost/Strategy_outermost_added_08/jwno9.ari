@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/outermost/Waldmann/jwno9.trs
+; @xtcfilename "./TRS_Outermost/Strategy_outermost_added_08/jwno9.xml"
+(format TRS)
+(fun f 2)
+(fun a 0)
+(rule (f x (f a y)) (f a (f (f (f a a) y) x)))

@@ -1,0 +1,10 @@
+; @origtpdbfilename ./TRS/outermost/nontermin/CSR/Ex24_GM04.trs
+; @xtcfilename "./TRS_Outermost/Strategy_outermost_added_08/Ex24_GM04.xml"
+(format TRS)
+(fun f 3)
+(fun g 1)
+(fun b 0)
+(fun c 0)
+(rule (f X (g X) Y) (f Y Y Y))
+(rule (g b) c)
+(rule b c)

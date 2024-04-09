@@ -1,0 +1,5 @@
+; @origtpdbfilename ./TRS/outermost/TRCSR/Ex15_Luc06_L.trs
+; @xtcfilename "./TRS_Outermost/Strategy_outermost_added_08/Ex15_Luc06_L.xml"
+(format TRS)
+(fun f 0)
+(rule f f)

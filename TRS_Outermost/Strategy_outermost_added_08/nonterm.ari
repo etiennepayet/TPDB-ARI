@@ -1,0 +1,10 @@
+; @origtpdbfilename ./TRS/outermost/Thiemann/nonterm.trs
+; @xtcfilename "./TRS_Outermost/Strategy_outermost_added_08/nonterm.xml"
+(format TRS)
+(fun f 3)
+(fun s 1)
+(fun id 1)
+(fun 0 0)
+(rule (f (s (s (s (s (s (s (s (s x)))))))) y y) (f (id (s (s (s (s (s (s (s (s x))))))))) y y))
+(rule (id (s x)) (s (id x)))
+(rule (id 0) 0)
