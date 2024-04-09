@@ -1,0 +1,12 @@
+; @origtpdbfilename ./TRS/Rubio/test4.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Rubio_04/test4.xml"
+(format TRS)
+(fun f 2)
+(fun a 0)
+(fun b 0)
+(fun s 1)
+(fun c 0)
+(rule (f a a) (f a b))
+(rule (f a b) (f (s a) c))
+(rule (f (s X) c) (f X c))
+(rule (f c c) (f a a))

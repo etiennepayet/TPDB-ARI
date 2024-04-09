@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/HM/n004.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/HirokawaMiddeldorp_04/n004.xml"
+(format TRS)
+(fun f 1)
+(fun a 0)
+(rule (f a) (f a))

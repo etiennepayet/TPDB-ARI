@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/higher-order/Bird/Ex2_6_1Composition.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Applicative_05/Ex2_6_1Composition.xml"
+(format TRS)
+(fun app 2)
+(fun compose 0)
+(rule (app (app (app compose f) g) x) (app f (app g x)))

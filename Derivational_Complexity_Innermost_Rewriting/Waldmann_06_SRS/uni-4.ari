@@ -1,0 +1,7 @@
+; @origtpdbfilename ./SRS/Waldmann/uni-4.srs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Waldmann_06_SRS/uni-4.xml"
+(format TRS)
+(fun a 1)
+(fun b 1)
+(rule (a (a (a (a x1)))) (b (a (a (a x1)))))
+(rule (b (b x1)) (a (a (b x1))))

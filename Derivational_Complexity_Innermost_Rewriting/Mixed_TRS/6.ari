@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/HofWald/6.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Mixed_TRS/6.xml"
+(format TRS)
+(fun f 2)
+(fun a 0)
+(rule (f (f a x) y) (f (f x (f a y)) a))

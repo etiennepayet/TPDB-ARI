@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/TRCSR/Ex23_Luc06_L.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Transformed_CSR_04/Ex23_Luc06_L.xml"
+(format TRS)
+(fun f 1)
+(fun a 0)
+(fun c 0)
+(rule (f (f a)) c)

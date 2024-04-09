@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/Waldmann/jwno6.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Waldmann_06/jwno6.xml"
+(format TRS)
+(fun f 2)
+(fun h 1)
+(fun a 0)
+(rule (f x (h y)) (h (f (f (h a) y) x)))

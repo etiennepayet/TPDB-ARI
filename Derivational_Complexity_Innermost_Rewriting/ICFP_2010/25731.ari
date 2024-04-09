@@ -1,0 +1,8 @@
+; @origtpdbfilename TRS//ICFP_2010/25731.srs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/ICFP_2010/25731.xml"
+(format TRS)
+(fun 0 1)
+(fun 1 1)
+(fun 2 1)
+(rule (0 (1 (2 (1 x1)))) (1 (2 (1 (1 (0 (1 (2 (0 (1 (2 x1)))))))))))
+(rule (0 (1 (2 (1 x1)))) (1 (2 (1 (1 (0 (1 (2 (0 (1 (2 (0 (1 (2 x1))))))))))))))

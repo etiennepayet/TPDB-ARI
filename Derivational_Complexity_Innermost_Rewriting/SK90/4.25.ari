@@ -1,0 +1,11 @@
+; @origtpdbfilename ./TRS/SK90/4.25.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/SK90/4.25.xml"
+(format TRS)
+(fun rev 1)
+(fun a 0)
+(fun b 0)
+(fun ++ 2)
+(rule (rev a) a)
+(rule (rev b) b)
+(rule (rev (++ x y)) (++ (rev y) (rev x)))
+(rule (rev (++ x x)) (rev x))

@@ -1,0 +1,16 @@
+; @origtpdbfilename ./TRS/nontermin/CSR/Ex8_BLR02.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Strategy_removed_CSR_05/Ex8_BLR02.xml"
+(format TRS)
+(fun fib 1)
+(fun sel 2)
+(fun fib1 2)
+(fun s 1)
+(fun 0 0)
+(fun cons 2)
+(fun add 2)
+(rule (fib N) (sel N (fib1 (s 0) (s 0))))
+(rule (fib1 X Y) (cons X (fib1 Y (add X Y))))
+(rule (add 0 X) X)
+(rule (add (s X) Y) (s (add X Y)))
+(rule (sel 0 (cons X XS)) X)
+(rule (sel (s N) (cons X XS)) (sel N XS))

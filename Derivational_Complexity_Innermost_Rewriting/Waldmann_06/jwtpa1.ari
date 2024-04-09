@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/Waldmann/jwtpa1.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Waldmann_06/jwtpa1.xml"
+(format TRS)
+(fun f 2)
+(fun a 0)
+(fun h 1)
+(rule (f (f a x) y) (f y (f x (f a (f (h a) a)))))

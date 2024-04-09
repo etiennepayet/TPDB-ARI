@@ -1,0 +1,7 @@
+; @origtpdbfilename ./SRS/Zantema06/loop1.srs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Zantema_06/loop1.xml"
+(format TRS)
+(fun a 1)
+(fun b 1)
+(rule (a (b (b x1))) (b (b (a (a x1)))))
+(rule (a (a x1)) (b x1))

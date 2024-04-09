@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/AProVE/rta2.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/AProVE_04/rta2.xml"
+(format TRS)
+(fun f 2)
+(fun s 1)
+(rule (f (s x) y) (f x (s x)))
+(rule (f x (s y)) (f y x))

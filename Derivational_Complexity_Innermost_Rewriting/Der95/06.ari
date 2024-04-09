@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/D33/06.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Der95/06.xml"
+(format TRS)
+(fun f 1)
+(fun g 1)
+(rule (f (g x)) (g (g (f x))))
+(rule (f (g x)) (g (g (g x))))

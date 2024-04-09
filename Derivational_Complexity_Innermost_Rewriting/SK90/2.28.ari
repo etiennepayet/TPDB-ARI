@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/SK90/2.28.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/SK90/2.28.xml"
+(format TRS)
+(fun dfib 2)
+(fun s 1)
+(rule (dfib (s (s x)) y) (dfib (s x) (dfib x y)))

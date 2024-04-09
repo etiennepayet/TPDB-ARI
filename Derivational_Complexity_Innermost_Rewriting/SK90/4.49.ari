@@ -1,0 +1,5 @@
+; @origtpdbfilename ./TRS/SK90/4.49.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/SK90/4.49.xml"
+(format TRS)
+(fun f 3)
+(rule (f x y (f z u v)) (f (f x y z) u (f x y v)))

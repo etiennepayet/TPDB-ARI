@@ -1,0 +1,10 @@
+; @origtpdbfilename ./TRS/Rubio/koen.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Rubio_04/koen.xml"
+(format TRS)
+(fun f 2)
+(fun s 1)
+(fun a 1)
+(fun c 1)
+(rule (f (s X) X) (f X (a X)))
+(rule (f X (c X)) (f (s X) X))
+(rule (f X X) (c X))

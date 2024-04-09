@@ -1,0 +1,6 @@
+; @origtpdbfilename ./TRS/higher-order/AotoYam/025.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/AotoYamada_05/025.xml"
+(format TRS)
+(fun app 2)
+(fun apply 0)
+(rule (app (app apply f) x) (app f x))

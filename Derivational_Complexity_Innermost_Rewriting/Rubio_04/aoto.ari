@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/Rubio/aoto.trs
+; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Rubio_04/aoto.xml"
+(format TRS)
+(fun f 1)
+(fun g 1)
+(rule (f (f X)) (f (g (f (g (f X))))))
+(rule (f (g (f X))) (f (g X)))
