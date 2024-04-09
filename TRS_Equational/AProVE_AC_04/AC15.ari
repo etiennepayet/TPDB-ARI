@@ -1,0 +1,8 @@
+; @origtpdbfilename ./TRS/AProVE_AC/AC15.trs
+; @xtcfilename "./TRS_Equational/AProVE_AC_04/AC15.xml"
+(format ETRS)
+(fun f 2 :theory AC)
+(fun g 1)
+(fun h 1)
+(rule (f (g (g x)) x) (f (g x) (g x)))
+(rule (f (f x x) (g x)) (f x (h x)))

@@ -1,0 +1,7 @@
+; @xtcfilename "./TRS_Equational/Mixed_AC/YWHM14_2.xml"
+(format ETRS)
+(fun f 1)
+(fun plus 2 :theory AC)
+(fun a 0)
+(rule (f (plus a a)) (plus (f a) (f a)))
+(rule (plus (f a) (f a)) (plus a (f (f a))))

@@ -1,0 +1,14 @@
+; @origtpdbfilename ./TRS/AProVE_AC/AC28.trs
+; @xtcfilename "./TRS_Equational/AProVE_AC_04/AC28.xml"
+(format ETRS)
+(fun union 2 :theory AC)
+(fun empty 0)
+(fun max 1)
+(fun singl 1)
+(fun 0 0)
+(fun s 1)
+(rule (union empty X) X)
+(rule (max (singl x)) x)
+(rule (max (union (singl x) (singl 0))) x)
+(rule (max (union (singl (s x)) (singl (s y)))) (s (max (union (singl x) (singl y)))))
+(rule (max (union (singl x) (union Y Z))) (max (union (singl x) (singl (max (union Y Z))))))

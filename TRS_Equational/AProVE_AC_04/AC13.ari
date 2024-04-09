@@ -1,0 +1,15 @@
+; @origtpdbfilename ./TRS/AProVE_AC/AC13.trs
+; @xtcfilename "./TRS_Equational/AProVE_AC_04/AC13.xml"
+(format ETRS)
+(fun plus 2 :theory AC)
+(fun 0 0)
+(fun i 1)
+(fun times 2 :theory AC)
+(rule (plus x 0) x)
+(rule (plus x (i x)) 0)
+(rule (i 0) 0)
+(rule (i (i x)) x)
+(rule (i (plus x y)) (plus (i x) (i y)))
+(rule (times x (plus y z)) (plus (times x y) (times x z)))
+(rule (times x 0) 0)
+(rule (times x (i y)) (i (times x y)))

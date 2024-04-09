@@ -1,0 +1,11 @@
+; @origtpdbfilename ./TRS/AProVE_AC/AC53.trs
+; @xtcfilename "./TRS_Equational/AProVE_AC_04/AC53.xml"
+(format ETRS)
+(fun p 1)
+(fun s 1)
+(fun fac 1)
+(fun 0 0)
+(fun times 2 :theory AC)
+(rule (p (s x)) x)
+(rule (fac 0) (s 0))
+(rule (fac (s x)) (times (s x) (fac (p (s x)))))

@@ -1,0 +1,14 @@
+; @origtpdbfilename ./TRS/AProVE_AC/AC19.trs
+; @xtcfilename "./TRS_Equational/AProVE_AC_04/AC19.xml"
+(format ETRS)
+(fun f 2 :theory AC)
+(fun g 1)
+(fun h 1)
+(fun a 0)
+(fun b 0)
+(fun i 2)
+(rule (f (g (f (h a) a)) a) (f (h a) (f a a)))
+(rule (f (h a) (g a)) (f (g (h a)) a))
+(rule (f (g (h a)) (f (f a a) a)) (f (g (f (h a) a)) a))
+(rule (f (h a) a) (f (h a) b))
+(rule (f (i x y) (f a y)) (f (g (i x y)) y))

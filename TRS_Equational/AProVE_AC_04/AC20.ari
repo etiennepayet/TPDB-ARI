@@ -1,0 +1,17 @@
+; @origtpdbfilename ./TRS/AProVE_AC/AC20.trs
+; @xtcfilename "./TRS_Equational/AProVE_AC_04/AC20.xml"
+(format ETRS)
+(fun plus 2 :theory AC)
+(fun 0 0)
+(fun s 1)
+(fun times 2 :theory AC)
+(fun minus 2)
+(fun div 2)
+(rule (plus x 0) x)
+(rule (plus x (s y)) (s (plus x y)))
+(rule (times x 0) 0)
+(rule (times x (s y)) (plus (times x y) x))
+(rule (minus x 0) x)
+(rule (minus (s x) (s y)) (minus x y))
+(rule (div 0 (s y)) 0)
+(rule (div (s x) (s y)) (s (div (minus x y) (s y))))

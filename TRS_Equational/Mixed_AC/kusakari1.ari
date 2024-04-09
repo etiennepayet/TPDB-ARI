@@ -1,0 +1,7 @@
+; @origtpdbfilename ./TRS/CimeAC/kusakari1.trs
+; @xtcfilename "./TRS_Equational/Mixed_AC/kusakari1.xml"
+(format ETRS)
+(fun + 2 :theory AC)
+(fun g 1)
+(fun a 0)
+(rule (+ (g x) (g y)) (g (+ (g a) (+ x y))))

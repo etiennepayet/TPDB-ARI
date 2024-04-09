@@ -1,0 +1,10 @@
+; @origtpdbfilename ./TRS/AProVE_AC/AC52.trs
+; @xtcfilename "./TRS_Equational/AProVE_AC_04/AC52.xml"
+(format ETRS)
+(fun times 2 :theory AC)
+(fun plus 2 :theory AC)
+(fun f 1)
+(fun g 2)
+(fun a 0)
+(rule (times (plus x y) z) (plus (times x z) (times y z)))
+(rule (times z (plus x (f y))) (times (g z y) (plus x a)))

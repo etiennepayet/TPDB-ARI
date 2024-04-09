@@ -1,0 +1,16 @@
+; @origtpdbfilename ./TRS/AProVE_AC/AC17.trs
+; @xtcfilename "./TRS_Equational/AProVE_AC_04/AC17.xml"
+(format ETRS)
+(fun 0 1)
+(fun S 0)
+(fun plus 2 :theory AC)
+(fun 1 1)
+(fun times 2 :theory AC)
+(rule (0 S) S)
+(rule (plus x S) x)
+(rule (plus (0 x) (0 y)) (0 (plus x y)))
+(rule (plus (0 x) (1 y)) (1 (plus x y)))
+(rule (plus (1 x) (1 y)) (0 (1 (plus (plus x y) S))))
+(rule (times x S) S)
+(rule (times x (0 y)) (0 (times x y)))
+(rule (times x (1 y)) (plus x (0 (times x y))))
