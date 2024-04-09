@@ -1,0 +1,12 @@
+; @xtcfilename "./TRS_Conditional/Mixed_CTRS_2014/jlap09-ex17.xml"
+(format CTRS oriented)
+(fun a 0)
+(fun h 1)
+(fun b 0)
+(fun c 0)
+(fun f 1)
+(fun g 2)
+(rule (f x) y (= a (h y)))
+(rule (g x b) (g (f c) x) (= (f b) x) (= x c))
+(rule a (h b))
+(rule a (h c))

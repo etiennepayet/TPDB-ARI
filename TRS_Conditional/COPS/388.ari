@@ -1,0 +1,9 @@
+; @xtcfilename "./TRS_Conditional/COPS/388.xml"
+(format CTRS oriented)
+(fun add 2)
+(fun 0 0)
+(fun s 1)
+(fun quad 1)
+(rule (quad x) z (= (add x x) y) (= (add y y) z))
+(rule (add x 0) x)
+(rule (add x (s y)) (s (add x y)))

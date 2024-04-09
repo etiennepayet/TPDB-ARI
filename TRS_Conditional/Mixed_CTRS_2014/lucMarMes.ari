@@ -1,0 +1,8 @@
+; @xtcfilename "./TRS_Conditional/Mixed_CTRS_2014/lucMarMes.xml"
+(format CTRS oriented)
+(fun c 0)
+(fun d 0)
+(fun a 0)
+(fun b 0)
+(fun f 1)
+(rule a b (= (f a) b))

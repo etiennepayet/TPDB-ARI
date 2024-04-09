@@ -1,0 +1,13 @@
+; @xtcfilename "./TRS_Conditional/COPS/288.xml"
+(format CTRS oriented)
+(fun pin 1)
+(fun a 0)
+(fun pout 1)
+(fun b 0)
+(fun c 0)
+(fun tc 1)
+(fun z 0)
+(rule (tc x) y (= (pin x) (pout z)) (= (tc z) y))
+(rule (pin a) (pout b))
+(rule (pin b) (pout c))
+(rule (tc x) x)

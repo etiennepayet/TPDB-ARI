@@ -1,0 +1,8 @@
+; @xtcfilename "./TRS_Conditional/COPS/326.xml"
+(format CTRS oriented)
+(fun isnoc 1)
+(fun cons 2)
+(fun nil 0)
+(fun tp2 2)
+(rule (isnoc (cons x ys)) (tp2 (cons x xs) y) (= (isnoc ys) (tp2 xs y)))
+(rule (isnoc (cons y nil)) (tp2 nil y))

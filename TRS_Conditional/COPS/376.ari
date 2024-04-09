@@ -1,0 +1,11 @@
+; @xtcfilename "./TRS_Conditional/COPS/376.xml"
+(format CTRS oriented)
+(fun A 0)
+(fun B 0)
+(fun f 1)
+(fun a 0)
+(fun g 1)
+(fun C 0)
+(rule (f x) x (= x a))
+(rule (g x) C (= A B))
+(rule A B)

@@ -1,0 +1,9 @@
+; @xtcfilename "./TRS_Conditional/COPS/266.xml"
+(format CTRS oriented)
+(fun App 2)
+(fun S 0)
+(fun I 0)
+(fun K 0)
+(rule (App (App (App S a) b) c) (App (App a c) (App b c)) (= a I) (= b I) (= c I))
+(rule (App (App K a) b) a (= a I) (= b I))
+(rule (App I a) a (= a I))

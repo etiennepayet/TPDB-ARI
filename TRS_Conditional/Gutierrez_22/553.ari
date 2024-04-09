@@ -1,0 +1,16 @@
+; @origtpdbfilename 553.trs
+; @xtcfilename "./TRS_Conditional/Gutierrez_22/553.xml"
+(format CTRS oriented)
+(fun c 0)
+(fun k 1)
+(fun f 1)
+(fun a 0)
+(fun g 1)
+(fun b 0)
+(fun h 1)
+(rule (f x) (g x) (= (h (f x)) (k (g b))))
+(rule c (k (f a)))
+(rule c (k (g b)))
+(rule (h x) (k x))
+(rule (h (f a)) c)
+(rule a b)

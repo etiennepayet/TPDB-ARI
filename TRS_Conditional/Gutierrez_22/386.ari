@@ -1,0 +1,7 @@
+; @origtpdbfilename 386.trs
+; @xtcfilename "./TRS_Conditional/Gutierrez_22/386.xml"
+(format CTRS oriented)
+(fun a 0)
+(fun b 0)
+(fun f 1)
+(rule a b (= (f a) b))

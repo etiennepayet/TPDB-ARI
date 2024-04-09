@@ -1,0 +1,12 @@
+; @xtcfilename "./TRS_Conditional/COPS/379.xml"
+(format CTRS oriented)
+(fun up 1)
+(fun down 1)
+(fun s 1)
+(fun between 3)
+(fun true 0)
+(rule (between x y z) true (= (up x) y) (= (down z) y))
+(rule (up x) x)
+(rule (down x) x)
+(rule (up x) (up (s x)))
+(rule (down (s x)) (down x))

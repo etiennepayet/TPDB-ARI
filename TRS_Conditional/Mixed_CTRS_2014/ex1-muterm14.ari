@@ -1,0 +1,8 @@
+; @xtcfilename "./TRS_Conditional/Mixed_CTRS_2014/ex1-muterm14.xml"
+(format CTRS oriented)
+(fun a 0)
+(fun b 0)
+(fun c 0)
+(fun d 0)
+(rule c d (= a x) (= b x))
+(rule a b)

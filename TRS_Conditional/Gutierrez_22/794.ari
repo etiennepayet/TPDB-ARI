@@ -1,0 +1,9 @@
+; @origtpdbfilename 794.trs
+; @xtcfilename "./TRS_Conditional/Gutierrez_22/794.xml"
+(format CTRS oriented)
+(fun f 1)
+(fun b 0)
+(fun a 0)
+(fun c 0)
+(rule a c (= (f a) (f b)))
+(rule (f b) b)

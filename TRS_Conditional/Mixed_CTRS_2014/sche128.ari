@@ -1,0 +1,10 @@
+; @xtcfilename "./TRS_Conditional/Mixed_CTRS_2014/sche128.xml"
+(format CTRS oriented)
+(fun f 1)
+(fun g 1)
+(fun a 0)
+(fun b 0)
+(fun h 1)
+(rule (h x) (h (g x)) (= (f x) (g x)))
+(rule (f (g a)) (g b))
+(rule (g a) b)

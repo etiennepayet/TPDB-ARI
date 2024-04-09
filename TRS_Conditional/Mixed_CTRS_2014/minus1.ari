@@ -1,0 +1,7 @@
+; @xtcfilename "./TRS_Conditional/Mixed_CTRS_2014/minus1.xml"
+(format CTRS oriented)
+(fun minus 2)
+(fun 0 0)
+(fun s 1)
+(rule (minus x (s y)) z (= (minus x y) (s z)))
+(rule (minus x 0) x)

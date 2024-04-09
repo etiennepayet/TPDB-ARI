@@ -1,0 +1,9 @@
+; @xtcfilename "./TRS_Conditional/Mixed_CTRS_2014/hosc08-ex5-aecc-p46.xml"
+(format CTRS oriented)
+(fun a 0)
+(fun b 0)
+(fun f 1)
+(fun g 1)
+(rule (g x) (g a) (= (f x) x))
+(rule a b)
+(rule (f a) b)
