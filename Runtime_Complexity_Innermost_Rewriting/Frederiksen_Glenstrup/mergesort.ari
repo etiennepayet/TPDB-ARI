@@ -1,7 +1,7 @@
 ; @origtpdbfilename Frederiksen_Glenstrup/mergesort.tml.trs
 ; @xtcfilename "./Runtime_Complexity_Innermost_Rewriting/Frederiksen_Glenstrup/mergesort.xml"
 (format TRS)
-(fun merge[Ite] 3)
+(fun |merge[Ite]| 3)
 (fun True 0)
 (fun mergesort 1)
 (fun Nil 0)
@@ -14,9 +14,9 @@
 (fun notEmpty 1)
 (fun goal 1)
 (fun False 0)
-(rule (mergesort (Cons x' (Cons x xs))) (splitmerge (Cons x' (Cons x xs)) Nil Nil))
+(rule (mergesort (Cons |x'| (Cons x xs))) (splitmerge (Cons |x'| (Cons x xs)) Nil Nil))
 (rule (mergesort (Cons x Nil)) (Cons x Nil))
-(rule (merge (Cons x' xs') (Cons x xs)) (merge[Ite] (<= x' x) (Cons x' xs') (Cons x xs)))
+(rule (merge (Cons |x'| |xs'|) (Cons x xs)) (|merge[Ite]| (<= |x'| x) (Cons |x'| |xs'|) (Cons x xs)))
 (rule (merge (Cons x xs) Nil) (Cons x xs))
 (rule (splitmerge (Cons x xs) xs1 xs2) (splitmerge xs (Cons x xs2) xs1))
 (rule (splitmerge Nil xs1 xs2) (merge (mergesort xs1) (mergesort xs2)))
@@ -28,5 +28,5 @@
 (rule (<= (S x) (S y)) (<= x y) :cost 0)
 (rule (<= 0 y) True :cost 0)
 (rule (<= (S x) 0) False :cost 0)
-(rule (merge[Ite] False xs1 (Cons x xs)) (Cons x (merge xs1 xs)) :cost 0)
-(rule (merge[Ite] True (Cons x xs) xs2) (Cons x (merge xs xs2)) :cost 0)
+(rule (|merge[Ite]| False xs1 (Cons x xs)) (Cons x (merge xs1 xs)) :cost 0)
+(rule (|merge[Ite]| True (Cons x xs) xs2) (Cons x (merge xs xs2)) :cost 0)

@@ -5,6 +5,6 @@
 (fun Nil 0)
 (fun goal 2)
 (rule (ack (Cons x xs) Nil) (ack xs (Cons Nil Nil)))
-(rule (ack (Cons x' xs') (Cons x xs)) (ack xs' (ack (Cons x' xs') xs)))
+(rule (ack (Cons |x'| |xs'|) (Cons x xs)) (ack |xs'| (ack (Cons |x'| |xs'|) xs)))
 (rule (ack Nil n) (Cons (Cons Nil Nil) n))
 (rule (goal m n) (ack m n))

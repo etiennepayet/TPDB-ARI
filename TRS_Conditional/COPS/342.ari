@@ -5,6 +5,6 @@
 (fun f 2)
 (fun h 2)
 (fun g 1)
-(rule (f x' x'') (h x (f x b)) (= x' x) (= x'' x))
-(rule (f (g y') y'') (h y (f (g y) a)) (= y' y) (= y'' y))
+(rule (f |x'| |x''|) (h x (f x b)) (= |x'| x) (= |x''| x))
+(rule (f (g |y'|) |y''|) (h y (f (g y) a)) (= |y'| y) (= |y''| y))
 (rule a b)

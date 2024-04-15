@@ -13,7 +13,7 @@
 (fun goal 3)
 (rule (@ (Cons x xs) ys) (Cons x (@ xs ys)))
 (rule (@ Nil ys) ys)
-(rule (game p1 (Cons x' xs') (Cons Capture xs)) (game (Cons x' p1) xs' xs))
+(rule (game p1 (Cons |x'| |xs'|) (Cons Capture xs)) (game (Cons |x'| p1) |xs'| xs))
 (rule (game p1 p2 (Cons Swap xs)) (game p2 p1 xs))
 (rule (equal Capture Capture) True)
 (rule (equal Capture Swap) False)

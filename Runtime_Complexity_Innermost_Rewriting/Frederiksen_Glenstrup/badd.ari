@@ -4,6 +4,6 @@
 (fun Cons 2)
 (fun Nil 0)
 (fun goal 2)
-(rule (badd x' (Cons x xs)) (badd (Cons Nil Nil) (badd x' xs)))
+(rule (badd |x'| (Cons x xs)) (badd (Cons Nil Nil) (badd |x'| xs)))
 (rule (badd x Nil) x)
 (rule (goal x y) (badd x y))

@@ -4,5 +4,5 @@
 (fun g 2)
 (fun h 3)
 (fun c 0)
-(rule (f x x') (g y y) (= x y) (= x' y))
-(rule (h x x' x'') c (= x y) (= x' y) (= x'' y))
+(rule (f x |x'|) (g y y) (= x y) (= |x'| y))
+(rule (h x |x'| |x''|) c (= x y) (= |x'| y) (= |x''| y))

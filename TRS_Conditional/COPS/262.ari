@@ -4,6 +4,6 @@
 (fun 0 0)
 (fun s 1)
 (fun f 2)
-(rule (f x y) z (= (plus x y) (plus z z')))
+(rule (f x y) z (= (plus x y) (plus z |z'|)))
 (rule (plus 0 y) y)
 (rule (plus (s x) y) (plus x (s y)))

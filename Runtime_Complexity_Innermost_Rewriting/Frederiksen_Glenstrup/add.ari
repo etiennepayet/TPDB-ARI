@@ -7,7 +7,7 @@
 (fun True 0)
 (fun False 0)
 (fun goal 2)
-(rule (add0 x' (Cons x xs)) (add0 (Cons (Cons Nil Nil) x') xs))
+(rule (add0 |x'| (Cons x xs)) (add0 (Cons (Cons Nil Nil) |x'|) xs))
 (rule (notEmpty (Cons x xs)) True)
 (rule (notEmpty Nil) False)
 (rule (add0 x Nil) x)

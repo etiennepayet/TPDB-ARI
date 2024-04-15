@@ -7,7 +7,7 @@
 (fun goal 2)
 (rule (@ (Cons x xs) ys) (Cons x (@ xs ys)))
 (rule (@ Nil ys) ys)
-(rule (binom (Cons x xs) (Cons x' xs')) (@ (binom xs xs') (binom xs (Cons x' xs'))))
+(rule (binom (Cons x xs) (Cons |x'| |xs'|)) (@ (binom xs |xs'|) (binom xs (Cons |x'| |xs'|))))
 (rule (binom (Cons x xs) Nil) (Cons Nil Nil))
 (rule (binom Nil k) (Cons Nil Nil))
 (rule (goal x y) (binom x y))
