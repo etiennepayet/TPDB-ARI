@@ -2,7 +2,7 @@
 ; @xtcfilename "./Runtime_Complexity_Innermost_Rewriting/Secret_05_TRS/ttt2.xml"
 (format TRS)
 (fun + 2)
-(fun 1 0)
-(fun 0 0)
-(rule (+ 1 x) (+ (+ 0 1) x))
-(rule (+ 0 x) x)
+(fun |1| 0)
+(fun |0| 0)
+(rule (+ |1| x) (+ (+ |0| |1|) x))
+(rule (+ |0| x) x)

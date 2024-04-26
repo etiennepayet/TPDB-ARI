@@ -2,7 +2,7 @@
 ; @xtcfilename "./TRS_Conditional/Gutierrez_22/790.xml"
 (format CTRS oriented)
 (fun + 2)
-(fun 0 0)
-(rule (+ x 0) 0 (= x 0))
-(rule (+ 0 x) x)
+(fun |0| 0)
+(rule (+ x |0|) |0| (= x |0|))
+(rule (+ |0| x) x)
 (rule (+ x y) (+ y x))

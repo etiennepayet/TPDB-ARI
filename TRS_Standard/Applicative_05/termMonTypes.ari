@@ -5,6 +5,6 @@
 (fun f 0)
 (fun g 0)
 (fun s 0)
-(fun 0 0)
+(fun |0| 0)
 (rule (ap f x) x)
-(rule (ap (ap (ap g x) y) (ap s z)) (ap (ap (ap g x) y) (ap (ap x y) 0)))
+(rule (ap (ap (ap g x) y) (ap s z)) (ap (ap (ap g x) y) (ap (ap x y) |0|)))

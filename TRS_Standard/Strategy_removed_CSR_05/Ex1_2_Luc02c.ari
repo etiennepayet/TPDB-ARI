@@ -1,9 +1,9 @@
 ; @origtpdbfilename ./TRS/nontermin/CSR/Ex1_2_Luc02c.trs
 ; @xtcfilename "./TRS_Standard/Strategy_removed_CSR_05/Ex1_2_Luc02c.xml"
 (format TRS)
-(fun 2nd 1)
+(fun |2nd| 1)
 (fun cons 2)
 (fun from 1)
 (fun s 1)
-(rule (2nd (cons X (cons Y Z))) Y)
+(rule (|2nd| (cons X (cons Y Z))) Y)
 (rule (from X) (cons X (from (s X))))

@@ -1,7 +1,7 @@
 ; @origtpdbfilename ./TRS/TRCSR/Ex6_9_Luc02c_FR.trs
 ; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Transformed_CSR_04/Ex6_9_Luc02c_FR.xml"
 (format TRS)
-(fun 2nd 1)
+(fun |2nd| 1)
 (fun cons1 2)
 (fun cons 2)
 (fun activate 1)
@@ -9,8 +9,8 @@
 (fun n__from 1)
 (fun n__s 1)
 (fun s 1)
-(rule (2nd (cons1 X (cons Y Z))) Y)
-(rule (2nd (cons X X1)) (2nd (cons1 X (activate X1))))
+(rule (|2nd| (cons1 X (cons Y Z))) Y)
+(rule (|2nd| (cons X X1)) (|2nd| (cons1 X (activate X1))))
 (rule (from X) (cons X (n__from (n__s X))))
 (rule (from X) (n__from X))
 (rule (s X) (n__s X))

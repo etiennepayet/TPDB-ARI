@@ -1,7 +1,7 @@
 ; @xtcfilename "./TRS_Conditional/COPS/343.xml"
 (format CTRS oriented)
 (fun add 2)
-(fun 0 0)
+(fun |0| 0)
 (fun s 1)
 (rule (add x (s y)) (s z) (= (add x y) z))
-(rule (add x 0) x)
+(rule (add x |0|) x)

@@ -2,10 +2,10 @@
 ; @xtcfilename "./TRS_Standard/SK90/2.18.xml"
 (format TRS)
 (fun sum 1)
-(fun 0 0)
+(fun |0| 0)
 (fun s 1)
 (fun + 2)
-(rule (sum 0) 0)
+(rule (sum |0|) |0|)
 (rule (sum (s x)) (+ (sum x) (s x)))
-(rule (+ x 0) x)
+(rule (+ x |0|) x)
 (rule (+ x (s y)) (s (+ x y)))

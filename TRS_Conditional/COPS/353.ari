@@ -1,7 +1,7 @@
 ; @xtcfilename "./TRS_Conditional/COPS/353.xml"
 (format CTRS oriented)
 (fun |ssp'| 2)
-(fun 0 0)
+(fun |0| 0)
 (fun nil 0)
 (fun sub 2)
 (fun get 1)
@@ -12,6 +12,6 @@
 (rule (|ssp'| (cons |x'| |xs'|) v) (cons |y'| |ys'|) (= (get |xs'|) (tp2 |y'| zs)) (= (sub v |y'|) w) (= (|ssp'| (cons |x'| zs) w) |ys'|))
 (rule (sub (s v) (s w)) z (= (sub v w) z))
 (rule (get (cons |x'| |xs'|)) (tp2 y (cons |x'| zs)) (= (get |xs'|) (tp2 y zs)))
-(rule (|ssp'| xs 0) nil)
-(rule (sub z 0) z)
+(rule (|ssp'| xs |0|) nil)
+(rule (sub z |0|) z)
 (rule (get (cons y ys)) (tp2 y ys))

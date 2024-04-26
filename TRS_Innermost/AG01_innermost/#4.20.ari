@@ -3,6 +3,6 @@
 (format TRS)
 (fun f 1)
 (fun g 1)
-(fun 0 0)
+(fun |0| 0)
 (rule (f (f x)) (f x))
-(rule (g 0) (g (f 0)))
+(rule (g |0|) (g (f |0|)))

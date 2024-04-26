@@ -2,9 +2,9 @@
 ; @xtcfilename "./Runtime_Complexity_Innermost_Rewriting/SK90/2.21.xml"
 (format TRS)
 (fun bin 2)
-(fun 0 0)
+(fun |0| 0)
 (fun s 1)
 (fun + 2)
-(rule (bin x 0) (s 0))
-(rule (bin 0 (s y)) 0)
+(rule (bin x |0|) (s |0|))
+(rule (bin |0| (s y)) |0|)
 (rule (bin (s x) (s y)) (+ (bin x (s y)) (bin x y)))

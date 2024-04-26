@@ -2,9 +2,9 @@
 ; @xtcfilename "./TRS_Standard/SK90/2.24.xml"
 (format TRS)
 (fun fib 1)
-(fun 0 0)
+(fun |0| 0)
 (fun s 1)
 (fun + 2)
-(rule (fib 0) 0)
-(rule (fib (s 0)) (s 0))
+(rule (fib |0|) |0|)
+(rule (fib (s |0|)) (s |0|))
 (rule (fib (s (s x))) (+ (fib (s x)) (fib x)))

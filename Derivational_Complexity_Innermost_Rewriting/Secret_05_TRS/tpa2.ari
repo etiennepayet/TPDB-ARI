@@ -2,11 +2,11 @@
 ; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Secret_05_TRS/tpa2.xml"
 (format TRS)
 (fun - 2)
-(fun 0 0)
+(fun |0| 0)
 (fun s 1)
 (fun p 1)
 (fun f 2)
-(rule (- x 0) x)
+(rule (- x |0|) x)
 (rule (- (s x) (s y)) (- x y))
 (rule (p (s x)) x)
 (rule (f (s x) y) (f (p (- (s x) y)) (p (- y (s x)))))

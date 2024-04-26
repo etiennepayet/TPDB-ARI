@@ -1,10 +1,10 @@
 ; @xtcfilename "./TRS_Conditional/COPS/364.xml"
 (format CTRS oriented)
 (fun even 1)
-(fun 0 0)
+(fun |0| 0)
 (fun true 0)
 (fun s 1)
 (fun odd 1)
 (rule (even (s x)) true (= (odd x) true))
 (rule (odd (s x)) true (= (even x) true))
-(rule (even 0) true)
+(rule (even |0|) true)

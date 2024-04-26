@@ -2,7 +2,7 @@
 ; @xtcfilename "./TRS_Standard/AG01/#3.23.xml"
 (format TRS)
 (fun f 2)
-(fun 0 0)
+(fun |0| 0)
 (fun s 1)
-(rule (f 0 y) 0)
+(rule (f |0| y) |0|)
 (rule (f (s x) y) (f (f x y) y))

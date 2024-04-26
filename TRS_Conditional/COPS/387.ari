@@ -3,6 +3,6 @@
 (fun g 1)
 (fun s 1)
 (fun f 1)
-(fun 0 0)
-(rule (f (g x)) x (= x (s 0)))
+(fun |0| 0)
+(rule (f (g x)) x (= x (s |0|)))
 (rule (g (s x)) (g x))

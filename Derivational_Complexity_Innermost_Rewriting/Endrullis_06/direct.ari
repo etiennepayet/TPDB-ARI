@@ -4,6 +4,6 @@
 (fun h 2)
 (fun c 2)
 (fun s 1)
-(fun 0 0)
+(fun |0| 0)
 (rule (h x (c y z)) (h (c (s y) x) z))
-(rule (h (c (s x) (c (s 0) y)) z) (h y (c (s 0) (c x z))))
+(rule (h (c (s x) (c (s |0|) y)) z) (h y (c (s |0|) (c x z))))

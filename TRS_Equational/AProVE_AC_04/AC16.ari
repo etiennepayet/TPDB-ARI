@@ -2,10 +2,10 @@
 ; @xtcfilename "./TRS_Equational/AProVE_AC_04/AC16.xml"
 (format ETRS)
 (fun plus 2 :theory AC)
-(fun 0 0)
+(fun |0| 0)
 (fun T 1)
 (fun L 1)
-(rule (plus x 0) x)
+(rule (plus x |0|) x)
 (rule (plus x x) x)
 (rule (plus (T x) x) (T x))
 (rule (plus (T (plus x y)) x) (T (plus x y)))
