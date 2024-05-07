@@ -1,0 +1,8 @@
+(format higher-order)
+(sort N)
+(fun f (-> (-> N N) N N))
+(fun g (-> N N))
+(fun h (-> N N))
+(rule (f g X) (h X))
+(rule (f F X) (F X))
+(rule (h X) (f (lambda ((z N)) z X))

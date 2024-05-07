@@ -1,0 +1,5 @@
+(format higher-order)
+(sort o)
+(fun fapp (-> o o o))
+(fun lam (-> (-> o o) o))
+(rule (fapp (lam X) Y) (X Y))

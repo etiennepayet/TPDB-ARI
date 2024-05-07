@@ -1,0 +1,8 @@
+(format higher-order)
+(sort a)
+(sort alist)
+(fun cons (-> a alist alist))
+(fun foldl (-> (-> a a a) a alist a))
+(fun nil alist)
+(rule (foldl F Y nil) Y)
+(rule (foldl G V (cons W P)) (foldl G (G V W) P))

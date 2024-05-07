@@ -1,0 +1,5 @@
+(format higher-order)
+(sort o)
+(fun f (-> (-> o o) o))
+(fun g (-> o o))
+(rule (f g) (f (lambda ((%X o)) (g %X)))

@@ -1,0 +1,8 @@
+(format higher-order)
+(sort a)
+(sort arrab)
+(sort b)
+(fun app (-> arrab a b))
+(fun lam (-> (-> a b) arrab))
+(rule (app (lam F) Y) (F Y))
+(rule (lam (lambda ((%Y a)) (app U %Y)) U)

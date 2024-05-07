@@ -1,0 +1,7 @@
+(format higher-order)
+(sort N)
+(fun @ (-> (-> N N) N N))
+(fun a N)
+(fun f (-> N N))
+(rule (@ X a) (f a))
+(rule (@ F X) (F X))

@@ -1,0 +1,5 @@
+(format higher-order)
+(sort o)
+(fun bar (-> (-> o o) o))
+(fun foo (-> o o))
+(rule (foo (bar F)) (F (bar F)))

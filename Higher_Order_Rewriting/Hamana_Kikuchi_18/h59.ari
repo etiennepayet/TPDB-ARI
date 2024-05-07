@@ -1,0 +1,8 @@
+(format higher-order)
+(sort a)
+(sort nat)
+(fun O nat)
+(fun rec (-> nat a (-> nat a a) a))
+(fun s (-> nat nat))
+(rule (rec O X Z) X)
+(rule (rec (s U) V I) (I U (rec U V I)))

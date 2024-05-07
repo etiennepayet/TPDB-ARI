@@ -1,0 +1,5 @@
+(format higher-order)
+(sort a)
+(sort b)
+(fun fapp (-> (-> a b) a b))
+(rule (fapp X Y) (X Y))

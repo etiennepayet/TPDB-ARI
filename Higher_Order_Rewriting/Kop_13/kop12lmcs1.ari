@@ -1,0 +1,8 @@
+(format higher-order)
+(sort nat)
+(fun f (-> nat nat nat nat))
+(fun g (-> nat (-> nat nat) nat))
+(fun h (-> nat nat nat))
+(fun s (-> nat nat))
+(rule (f X Y (s U)) (g (h X Y) (lambda ((%X nat)) (f %X X U)))
+(rule (h X X) (f X (s X) (s (s X))))

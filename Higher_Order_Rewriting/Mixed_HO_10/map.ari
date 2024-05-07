@@ -1,0 +1,8 @@
+(format higher-order)
+(sort a)
+(sort list)
+(fun cons (-> a list list))
+(fun map (-> list (-> a a) list))
+(fun nil list)
+(rule (map nil F) nil)
+(rule (map (cons x l) F) (cons (F x) (map l F)))

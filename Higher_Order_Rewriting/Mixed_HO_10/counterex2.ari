@@ -1,0 +1,5 @@
+(format higher-order)
+(sort nat)
+(fun f (-> nat nat nat))
+(fun g (-> (-> nat nat) nat))
+(rule (f (g X) (g X)) (X (g X)))

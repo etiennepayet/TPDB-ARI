@@ -1,0 +1,7 @@
+(format higher-order)
+(sort c)
+(sort t)
+(fun and (-> c c c))
+(fun arrow (-> t t t))
+(fun lessthan (-> t t c))
+(rule (lessthan (arrow X Y) (arrow U V)) (and (lessthan U X) (lessthan Y V)))

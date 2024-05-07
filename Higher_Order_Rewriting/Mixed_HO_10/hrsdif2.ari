@@ -1,0 +1,6 @@
+(format higher-order)
+(sort nat)
+(fun One nat)
+(fun Zero nat)
+(fun f (-> nat (-> nat nat) nat))
+(rule (f Zero F) (F (f (F One) F)))

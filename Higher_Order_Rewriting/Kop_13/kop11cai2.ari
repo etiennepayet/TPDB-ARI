@@ -1,0 +1,7 @@
+(format higher-order)
+(sort nat)
+(fun @ (-> (-> nat nat) nat nat))
+(fun pair (-> (-> nat nat) nat nat))
+(fun split (-> nat nat))
+(rule (split (@ F Y)) (pair F Y))
+(rule (@ F X) (F X))

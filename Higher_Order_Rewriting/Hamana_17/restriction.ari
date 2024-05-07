@@ -1,0 +1,6 @@
+(format higher-order)
+(sort A)
+(sort N)
+(fun New (-> (-> N A) A))
+(rule (New (lambda ((%X N)) X) X)
+(rule (New (lambda ((%Z N)) (New (lambda ((%Y N)) (Z %Z %Y))) (New (lambda ((%U N)) (New (lambda ((%V N)) (Z %V %U))))

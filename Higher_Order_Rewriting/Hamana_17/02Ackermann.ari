@@ -1,0 +1,8 @@
+(format higher-order)
+(sort N)
+(fun ack (-> N N N))
+(fun s (-> N N))
+(fun z N)
+(rule (ack z X) (s X))
+(rule (ack (s Y) z) (ack Y (s z)))
+(rule (ack (s U) (s V)) (ack U (ack (s U) V)))
