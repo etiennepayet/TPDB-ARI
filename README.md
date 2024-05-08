@@ -1,6 +1,6 @@
 # The Termination Problem Database (TPDB)
 
-**Note:** For all categories about from SRSs/TRSs, please submit new benchmarks to [this repository](https://github.com/TermCOMP/TPDB).
+**Note:** For all categories apart from SRSs/TRSs, please submit new benchmarks to [this repository](https://github.com/TermCOMP/TPDB).
 
 This repository maintains [TPDB](http://termination-portal.org/wiki/TPDB).
 Please post any questions and suggestions regarding TPDB at [termtools mailing list](mailto:termtools@lists.rwth-aachen.de).
