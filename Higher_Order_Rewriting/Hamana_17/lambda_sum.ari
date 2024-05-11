@@ -10,6 +10,6 @@
 (fun inr (-> B SAB))
 (fun lam (-> (-> A B) arrAB))
 (rule (app (lam F) Y) (F Y))
-(rule (lam (lambda ((%Y A)) (app U %Y)) U)
+(rule (lam (lambda ((y A)) (app U y)) U)
 (rule (case (inl V) I J) (I V))
 (rule (case (inr X1) Z1 G1) (G1 X1))

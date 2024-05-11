@@ -5,4 +5,4 @@
 (fun app (-> arrab a b))
 (fun lam (-> (-> a b) arrab))
 (rule (app (lam F) Y) (F Y))
-(rule (lam (lambda ((%Y a)) (app U %Y)) U)
+(rule (lam (lambda ((y a)) (app U y)) U)

@@ -8,6 +8,6 @@
 (fun box (-> a Boxa))
 (fun unbox (-> Boxa a))
 (rule (app (abs F) Y) (F Y))
-(rule (abs (lambda ((%Y a)) (app U %Y)) U)
+(rule (abs (lambda ((y a)) (app U y)) U)
 (rule (unbox (box V)) V)
 (rule (box (unbox W)) W)

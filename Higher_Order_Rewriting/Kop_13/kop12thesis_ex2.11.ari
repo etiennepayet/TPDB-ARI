@@ -6,5 +6,5 @@
 (fun nil list)
 (fun twice (-> (-> nat nat) nat nat))
 (rule (emap F nil) nil)
-(rule (emap Z (cons U V)) (cons (Z U) (emap (lambda ((%X nat)) (twice Z %X) V)))
-(rule (twice I P) (I (I P)))
+(rule (emap F (cons X L)) (cons (F X) (emap (lambda ((y nat)) (twice F y) L)))
+(rule (twice F X) (F (F X)))

@@ -4,5 +4,5 @@
 (fun g (-> nat (-> nat nat) nat))
 (fun h (-> nat nat nat))
 (fun s (-> nat nat))
-(rule (f X Y (s U)) (g (h X Y) (lambda ((%X nat)) (f %X X U)))
+(rule (f X Y (s U)) (g (h X Y) (lambda ((z nat)) (f z X U)))
 (rule (h X X) (f X (s X) (s (s X))))

@@ -5,5 +5,5 @@
 (fun s (-> nat nat))
 (fun twice (-> (-> nat nat) nat nat))
 (rule (I O) O)
-(rule (I (s X)) (s (twice (lambda ((%X nat)) (I %X) X)))
-(rule (twice Z) (lambda ((%Y nat)) (Z (Z %Y)))
+(rule (I (s X)) (s (twice (lambda ((y nat)) (I y) X)))
+(rule (twice Z) (lambda ((y nat)) (Z (Z y)))

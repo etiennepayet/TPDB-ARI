@@ -14,7 +14,7 @@
 (fun piA (-> PAB A))
 (fun piB (-> PAB B))
 (rule (app (lam F) Y) (F Y))
-(rule (lam (lambda ((%Y A)) (app U %Y)) U)
+(rule (lam (lambda ((y A)) (app U y)) U)
 (rule (piA (pair V W)) V)
 (rule (piB (pair P X1)) X1)
 (rule (pair (piA Y1) (piB Y1)) Y1)

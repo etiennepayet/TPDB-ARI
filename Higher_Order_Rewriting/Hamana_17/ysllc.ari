@@ -11,6 +11,6 @@
 (fun banga (-> a BGa))
 (fun let (-> BGa (-> a BGb) BGb))
 (rule (app (abs F) Y) (F Y))
-(rule (abs (lambda ((%Y a)) (app U %Y)) U)
+(rule (abs (lambda ((y a)) (app U y)) U)
 (rule (let (banga V) I) (I V))
-(rule (let P (lambda ((%U a)) (appBG X1 (banga %U))) (appBG X1 P))
+(rule (let P (lambda ((y a)) (appBG X1 (banga y))) (appBG X1 P))

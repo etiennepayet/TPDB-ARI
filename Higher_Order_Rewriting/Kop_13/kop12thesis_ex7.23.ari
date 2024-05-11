@@ -6,5 +6,5 @@
 (fun g (-> o o o))
 (fun s (-> o o))
 (rule (f F Y O) O)
-(rule (f G V (s W)) (g W (either W (G V))))
-(rule (g P X1) (f (lambda ((%X o)) (s O) X1 P))
+(rule (f F Y (s X)) (g X (either X (F Y))))
+(rule (g Y X) (f (lambda ((y o)) (s O) X Y))

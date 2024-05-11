@@ -14,6 +14,6 @@
 (fun true bool)
 (rule (if true F Z) F)
 (rule (if false F Z) Z)
-(rule (test (lambda ((%X nat)) (s %X)) true)
+(rule (test (lambda ((y nat)) (s y)) true)
 (rule (head (cons G V)) G)
 (rule (tail (cons G V)) V)
