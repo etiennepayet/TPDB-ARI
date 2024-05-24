@@ -1,0 +1,4 @@
+(format PTRS)
+(fun a 1)
+(fun b 1)
+(prule (a (a x)) (((a (a (a x))) :prob 1 ) ((a (b (a x))) :prob 1 )))

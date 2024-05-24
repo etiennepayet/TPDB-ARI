@@ -1,0 +1,7 @@
+(format PTRS)
+(fun walk 1)
+(fun a 0)
+(fun b 0)
+(fun c 0)
+(prule (walk a) (((walk b) :prob 1 )))
+(prule (walk b) (((walk a) :prob 1 ) ((walk c) :prob 1 )))
