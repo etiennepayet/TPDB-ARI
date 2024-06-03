@@ -1,0 +1,8 @@
+(format PTRS)
+(fun f 1)
+(fun b 2)
+(fun a 0)
+(fun c 3)
+(prule (f (b a z)) ((z :prob 1 )))
+(prule (f (f (f (c z x a)))) (((b (f x) z) :prob 1 )))
+(prule (b y (b a z)) (((b (f (c y y a)) (b (f z) a)) :prob 1 ) ((b y (b a (f (b a z)))) :prob 1 ) ((b y (b a (f (b a z)))) :prob 1 )))

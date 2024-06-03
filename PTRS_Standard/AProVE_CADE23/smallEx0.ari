@@ -1,0 +1,5 @@
+(format PTRS)
+(fun g 0)
+(fun O 0)
+(fun f 3)
+(prule g ((O :prob 1 ) ((f g g g) :prob 1 )))

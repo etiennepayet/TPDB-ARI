@@ -1,0 +1,4 @@
+(format PTRS)
+(fun rw 1)
+(fun tree 2)
+(prule (rw (tree x y)) (((rw (tree (tree x y) (tree x y))) :prob 1 ) ((rw x) :prob 1 )))
