@@ -1,0 +1,29 @@
+(format PTRS)
+
+(fun addNum 2)
+(fun cons 2)
+(fun nil 0)
+(fun s 1)
+(fun |0| 0)
+(fun createL 1)
+(fun len 1)
+(fun init 0)
+
+(fun app 2)
+(fun reverse 1)
+(fun shuffle 1)
+
+(prule (app nil y) ((y)))
+(prule (app (cons n x) y) (((cons n (app x y)))))
+
+(prule (reverse nil) ((nil)))
+(prule (reverse (cons n x)) (((app (reverse x) (cons n nil)))))
+
+(prule (shuffle nil) ((nil)))
+(prule (shuffle (cons n x)) (((cons n (reverse x)))))
+(prule (shuffle (cons n x)) (((cons n (shuffle (reverse x))))))
+
+(prule (addNum x xs) (((cons x xs) :prob 1 ) ((addNum (s x) xs) :prob 1 )))
+(prule (createL xs) (((addNum |0| xs) :prob 1 ) ((createL (addNum |0| xs)) :prob 1 )))
+
+(prule init (((shuffle (createL nil)) :prob 1)))

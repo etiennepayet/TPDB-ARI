@@ -1,0 +1,12 @@
+(format PTRS)
+
+(fun f 1)
+(fun g 0)
+(fun |0| 0)
+(fun c 4)
+(fun init 0)
+
+(prule (f (c x1 x2 x3 x4)) (((c (f x1) (f x2) (f x3) (f x4)))))
+(prule g (((c g g g g)) (|0|)))
+(prule init (((f g))))
+

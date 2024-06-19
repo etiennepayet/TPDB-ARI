@@ -1,0 +1,30 @@
+(format PTRS)
+
+(fun addNum 2)
+(fun cons 2)
+(fun nil 0)
+(fun s 1)
+(fun |0| 0)
+(fun createL 1)
+(fun len 1)
+(fun init 0)
+
+(fun app 2)
+(fun sum 1)
+(fun plus 2)
+
+(prule (app nil k) ((k)))
+(prule (app l nil) ((l)))
+(prule (app (cons x l) k) (((cons x (app l k)))))
+
+(prule (sum (cons x nil)) (((cons x nil))))
+(prule (sum (cons x (cons y l))) (((sum (cons (plus x y) l)))))
+(prule (sum (app l (cons x (cons y k)))) (((sum (app l (sum (cons x (cons y k))))))))
+
+(prule (plus |0| y) ((y)))
+(prule (plus (s x) y) (((s (plus x y)))))
+
+(prule (addNum x xs) (((cons (plus x x) xs) :prob 1 ) ((addNum (s x) xs) :prob 1 )))
+(prule (createL xs) (((addNum |0| xs) :prob 1 ) ((createL (addNum |0| xs)) :prob 1 )))
+
+(prule init (((sum (createL nil)) :prob 1)))

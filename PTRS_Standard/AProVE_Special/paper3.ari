@@ -1,0 +1,10 @@
+(format PTRS)
+
+(fun d 1)
+(fun g 0)
+(fun |0| 0)
+(fun c 2)
+
+(prule g (((d g) :prob 3 ) (|0| :prob 1 )))
+(prule (d |0|) ((|0|)))
+(prule (d (d x)) (((c x g))))

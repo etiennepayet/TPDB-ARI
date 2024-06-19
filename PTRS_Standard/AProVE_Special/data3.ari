@@ -1,0 +1,27 @@
+(format PTRS)
+
+(fun addNum 2)
+(fun tree 2)
+(fun leaf 0)
+(fun s 1)
+(fun |0| 0)
+(fun createT 1)
+(fun len 1)
+(fun init 0)
+
+(fun concat 2)
+(fun less_leaves 2)
+(fun true 0)
+(fun false 0)
+
+(prule (concat leaf y) ((y)))
+(prule (concat (tree u v) y) (((tree u (concat v y)))))
+
+(prule (less_leaves x leaf) ((false)))
+(prule (less_leaves leaf (tree x y)) ((true)))
+(prule (less_leaves (tree u v) (tree x y)) (((less_leaves (concat u v) (concat x y)))))
+
+(prule (createT xs) ((xs) ((createT (tree xs leaf))) ((createT (tree leaf xs)))))
+(prule (createT xs) ((xs)))
+
+(prule init (((less_leaves (createT leaf) (createT leaf)) :prob 1)))
