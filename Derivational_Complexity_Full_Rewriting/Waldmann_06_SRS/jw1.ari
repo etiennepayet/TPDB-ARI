@@ -1,4 +1,5 @@
-; @origtpdbfilename ./SRS/Waldmann/jw1.srs./SRS/Waldmann07a/size-12-alpha-2-num-9.srs
+; @origtpdbfilename ./SRS/Waldmann/jw1.srs
+; @origtpdbfilename ./SRS/Waldmann07a/size-12-alpha-2-num-9.srs
 ; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Waldmann_06_SRS/jw1.xml"
 (format TRS)
 (fun b 1)

@@ -1,4 +1,5 @@
-; @origtpdbfilename ./SRS/relative/zr03.srs./TRS/relative/rt2-6.trs
+; @origtpdbfilename ./SRS/relative/zr03.srs
+; @origtpdbfilename ./TRS/relative/rt2-6.trs
 ; @xtcfilename "./SRS_Relative/Mixed_relative_SRS/zr03.xml"
 (format TRS)
 (fun a 1)

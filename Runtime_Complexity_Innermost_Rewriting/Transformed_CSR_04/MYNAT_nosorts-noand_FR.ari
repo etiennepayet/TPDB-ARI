@@ -1,4 +1,5 @@
-; @origtpdbfilename ./TRS/TRCSR/MYNAT_nosorts-noand_FR.trs./TRS/TRCSR/MYNAT_nosorts-noand_Z.trs
+; @origtpdbfilename ./TRS/TRCSR/MYNAT_nosorts-noand_FR.trs
+; @origtpdbfilename ./TRS/TRCSR/MYNAT_nosorts-noand_Z.trs
 ; @xtcfilename "./Runtime_Complexity_Innermost_Rewriting/Transformed_CSR_04/MYNAT_nosorts-noand_FR.xml"
 (format TRS)
 (fun U11 3)

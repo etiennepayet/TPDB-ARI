@@ -1,4 +1,5 @@
-; @origtpdbfilename ./TRS/TRCSR/Ex6_GM04_FR.trs./TRS/TRCSR/Ex6_GM04_Z.trs
+; @origtpdbfilename ./TRS/TRCSR/Ex6_GM04_FR.trs
+; @origtpdbfilename ./TRS/TRCSR/Ex6_GM04_Z.trs
 ; @xtcfilename "./TRS_Standard/Transformed_CSR_04/Ex6_GM04_FR.xml"
 (format TRS)
 (fun c 0)

@@ -1,4 +1,5 @@
-; @origtpdbfilename ./SRS/secret07/others/dj.srs./TRS/secret07/others/dj.trs
+; @origtpdbfilename ./SRS/secret07/others/dj.srs
+; @origtpdbfilename ./TRS/secret07/others/dj.trs
 ; @xtcfilename "./SRS_Standard/Secret_07_SRS/dj.xml"
 (format TRS)
 (fun |1| 1)

@@ -1,4 +1,5 @@
-; @origtpdbfilename ./TRS/TRCSR/Ex4_7_77_Bor03_FR.trs./TRS/TRCSR/Ex4_7_77_Bor03_Z.trs
+; @origtpdbfilename ./TRS/TRCSR/Ex4_7_77_Bor03_FR.trs
+; @origtpdbfilename ./TRS/TRCSR/Ex4_7_77_Bor03_Z.trs
 ; @xtcfilename "./Derivational_Complexity_Full_Rewriting/Transformed_CSR_04/Ex4_7_77_Bor03_FR.xml"
 (format TRS)
 (fun zeros 0)

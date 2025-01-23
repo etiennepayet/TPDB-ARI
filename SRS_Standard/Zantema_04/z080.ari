@@ -1,4 +1,5 @@
-; @origtpdbfilename ./SRS/Zantema/z080.srs./TRS/nontermin/AG01/#4.31.trs
+; @origtpdbfilename ./SRS/Zantema/z080.srs
+; @origtpdbfilename ./TRS/nontermin/AG01/#4.31.trs
 ; @xtcfilename "./SRS_Standard/Zantema_04/z080.xml"
 (format TRS)
 (fun A 1)

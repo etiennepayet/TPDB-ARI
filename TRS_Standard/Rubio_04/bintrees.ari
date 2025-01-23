@@ -1,4 +1,5 @@
-; @origtpdbfilename ./TRS/Rubio/bintrees.trs./TRS/AG01/#3.14.trs
+; @origtpdbfilename ./TRS/Rubio/bintrees.trs
+; @origtpdbfilename ./TRS/AG01/#3.14.trs
 ; @xtcfilename "./TRS_Standard/Rubio_04/bintrees.xml"
 (format TRS)
 (fun concat 2)

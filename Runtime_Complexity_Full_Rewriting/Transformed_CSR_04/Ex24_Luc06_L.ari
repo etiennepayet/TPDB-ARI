@@ -1,4 +1,5 @@
-; @origtpdbfilename ./TRS/TRCSR/Ex24_Luc06_L.trs./TRS/TRCSR/Ex9_Luc06_L.trs
+; @origtpdbfilename ./TRS/TRCSR/Ex24_Luc06_L.trs
+; @origtpdbfilename ./TRS/TRCSR/Ex9_Luc06_L.trs
 ; @xtcfilename "./Runtime_Complexity_Full_Rewriting/Transformed_CSR_04/Ex24_Luc06_L.xml"
 (format TRS)
 (fun f 1)

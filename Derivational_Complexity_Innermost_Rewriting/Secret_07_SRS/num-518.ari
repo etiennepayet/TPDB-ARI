@@ -1,4 +1,5 @@
-; @origtpdbfilename ./SRS/secret07/matchbox/num-518.srs./SRS/Waldmann07b/size-12-alpha-3-num-518.srs
+; @origtpdbfilename ./SRS/secret07/matchbox/num-518.srs
+; @origtpdbfilename ./SRS/Waldmann07b/size-12-alpha-3-num-518.srs
 ; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Secret_07_SRS/num-518.xml"
 (format TRS)
 (fun a 1)

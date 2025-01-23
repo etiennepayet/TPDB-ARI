@@ -1,4 +1,6 @@
-; @origtpdbfilename ./SRS/secret07/matchbox/num-530.srs./SRS/Waldmann07b/size-12-alpha-3-num-530.srs./TRS/secret07/TTT2/6.trs
+; @origtpdbfilename ./SRS/secret07/matchbox/num-530.srs
+; @origtpdbfilename ./SRS/Waldmann07b/size-12-alpha-3-num-530.srs
+; @origtpdbfilename ./TRS/secret07/TTT2/6.trs
 ; @xtcfilename "./SRS_Standard/Secret_07_SRS/num-530.xml"
 (format TRS)
 (fun a 1)

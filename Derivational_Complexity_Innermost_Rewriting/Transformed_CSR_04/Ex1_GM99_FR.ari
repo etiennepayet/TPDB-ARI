@@ -1,4 +1,5 @@
-; @origtpdbfilename ./TRS/TRCSR/Ex1_GM99_FR.trs./TRS/TRCSR/Ex1_GM99_Z.trs
+; @origtpdbfilename ./TRS/TRCSR/Ex1_GM99_FR.trs
+; @origtpdbfilename ./TRS/TRCSR/Ex1_GM99_Z.trs
 ; @xtcfilename "./Derivational_Complexity_Innermost_Rewriting/Transformed_CSR_04/Ex1_GM99_FR.xml"
 (format TRS)
 (fun f 3)

@@ -1,4 +1,5 @@
-; @origtpdbfilename ./TRS/TRCSR/Ex1_Zan97_FR.trs./TRS/TRCSR/Ex1_Zan97_Z.trs
+; @origtpdbfilename ./TRS/TRCSR/Ex1_Zan97_FR.trs
+; @origtpdbfilename ./TRS/TRCSR/Ex1_Zan97_Z.trs
 ; @xtcfilename "./Runtime_Complexity_Full_Rewriting/Transformed_CSR_04/Ex1_Zan97_FR.xml"
 (format TRS)
 (fun g 1)

@@ -1,4 +1,5 @@
-; @origtpdbfilename ./SRS/secret06/jambox/3.srs./SRS/secret06/jambox/4.srs
+; @origtpdbfilename ./SRS/secret06/jambox/3.srs
+; @origtpdbfilename ./SRS/secret06/jambox/4.srs
 ; @xtcfilename "./SRS_Standard/Secret_06_SRS/3.xml"
 (format TRS)
 (fun a 1)

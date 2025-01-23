@@ -1,4 +1,5 @@
-; @origtpdbfilename ./TRS/TRCSR/PEANO_nosorts-noand_FR.trs./TRS/TRCSR/PEANO_nosorts-noand_Z.trs
+; @origtpdbfilename ./TRS/TRCSR/PEANO_nosorts-noand_FR.trs
+; @origtpdbfilename ./TRS/TRCSR/PEANO_nosorts-noand_Z.trs
 ; @xtcfilename "./TRS_Standard/Transformed_CSR_04/PEANO_nosorts-noand_FR.xml"
 (format TRS)
 (fun U11 3)
