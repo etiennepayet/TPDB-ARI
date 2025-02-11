@@ -1,0 +1,56 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_speedFails2_0 (-> Int Int Int Int))
+(fun eval_speedFails2_1 (-> Int Int Int Int))
+(fun eval_speedFails2_2 (-> Int Int Int Int))
+(fun eval_speedFails2_3 (-> Int Int Int Int))
+(fun eval_speedFails2_4 (-> Int Int Int Int))
+(fun eval_speedFails2_bb0_in (-> Int Int Int Int))
+(fun eval_speedFails2_bb1_in (-> Int Int Int Int))
+(fun eval_speedFails2_bb2_in (-> Int Int Int Int))
+(fun eval_speedFails2_bb3_in (-> Int Int Int Int))
+(fun eval_speedFails2_start (-> Int Int Int Int))
+(fun eval_speedFails2_stop (-> Int Int Int Int))
+(entrypoint eval_speedFails2_start)
+(rule
+  (eval_speedFails2_start v_i_0 v_n v_x)
+  (eval_speedFails2_bb0_in v_i_0 v_n v_x))
+
+(rule
+  (eval_speedFails2_bb0_in v_i_0 v_n v_x)
+  (eval_speedFails2_0 v_i_0 v_n v_x))
+
+(rule (eval_speedFails2_0 v_i_0 v_n v_x) (eval_speedFails2_1 v_i_0 v_n v_x))
+(rule (eval_speedFails2_1 v_i_0 v_n v_x) (eval_speedFails2_2 v_i_0 v_n v_x))
+(rule (eval_speedFails2_2 v_i_0 v_n v_x) (eval_speedFails2_3 v_i_0 v_n v_x))
+(rule (eval_speedFails2_3 v_i_0 v_n v_x) (eval_speedFails2_4 v_i_0 v_n v_x))
+(rule
+  (eval_speedFails2_4 v_i_0 v_n v_x)
+  (eval_speedFails2_bb1_in v_x v_n v_x))
+
+(rule
+  (eval_speedFails2_bb1_in v_i_0 v_n v_x)
+  (eval_speedFails2_bb2_in v_i_0 v_n v_x)
+  :guard
+  (< v_i_0 v_n))
+
+(rule
+  (eval_speedFails2_bb1_in v_i_0 v_n v_x)
+  (eval_speedFails2_bb2_in v_i_0 v_n v_x)
+  :guard
+  (> v_i_0 v_n))
+
+(rule
+  (eval_speedFails2_bb1_in v_i_0 v_n v_x)
+  (eval_speedFails2_bb3_in v_i_0 v_n v_x)
+  :guard
+  (= v_i_0 v_n))
+
+(rule
+  (eval_speedFails2_bb2_in v_i_0 v_n v_x)
+  (eval_speedFails2_bb1_in (+ v_i_0 1) v_n v_x))
+
+(rule
+  (eval_speedFails2_bb3_in v_i_0 v_n v_x)
+  (eval_speedFails2_stop v_i_0 v_n v_x))
+

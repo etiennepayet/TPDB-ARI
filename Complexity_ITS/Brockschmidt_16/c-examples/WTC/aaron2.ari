@@ -1,0 +1,48 @@
+(format LCTRS)
+(theory Ints)
+(fun evalaaron2bb3in (-> Int Int Int Int))
+(fun evalaaron2bb4in (-> Int Int Int Int))
+(fun evalaaron2bb5in (-> Int Int Int Int))
+(fun evalaaron2bb6in (-> Int Int Int Int))
+(fun evalaaron2entryin (-> Int Int Int Int))
+(fun evalaaron2returnin (-> Int Int Int Int))
+(fun evalaaron2start (-> Int Int Int Int))
+(fun evalaaron2stop (-> Int Int Int Int))
+(entrypoint evalaaron2start)
+(rule (evalaaron2start A B C) (evalaaron2entryin A B C))
+(rule (evalaaron2entryin A B C) (evalaaron2bb6in A C B) :guard (>= A 0))
+(rule
+  (evalaaron2entryin A B C)
+  (evalaaron2returnin A B C)
+  :guard
+  (>= 0 (+ A 1)))
+
+(rule
+  (evalaaron2bb6in A B C)
+  (evalaaron2returnin A B C)
+  :guard
+  (>= B (+ C 1)))
+
+(rule
+  (evalaaron2bb6in A B C)
+  (evalaaron2returnin A B C)
+  :guard
+  (>= 0 (+ A 1)))
+
+(rule
+  (evalaaron2bb6in A B C)
+  (evalaaron2bb3in A B C)
+  :guard
+  (and (>= C B) (>= A 0)))
+
+(rule
+  (evalaaron2bb3in A B C)
+  (evalaaron2bb4in A B C)
+  :guard
+  (>= 0 (+ D 1)))
+
+(rule (evalaaron2bb3in A B C) (evalaaron2bb4in A B C) :guard (>= D 1))
+(rule (evalaaron2bb3in A B C) (evalaaron2bb5in A B C))
+(rule (evalaaron2bb4in A B C) (evalaaron2bb6in A B (- (- C A) 1)))
+(rule (evalaaron2bb5in A B C) (evalaaron2bb6in A (+ (+ B A) 1) C))
+(rule (evalaaron2returnin A B C) (evalaaron2stop A B C))

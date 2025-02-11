@@ -1,0 +1,70 @@
+(format LCTRS)
+(theory Ints)
+(fun f0 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun f17 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun f27 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun f37 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun f45 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun f55 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun f65 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun f75 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun f83 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun f93 (-> Int Int Int Int Int Int Int Int Int Int))
+(entrypoint f0)
+(rule (f0 A B C D E F G H I) (f17 0 J K 0 E F G H I))
+(rule
+  (f17 A B C D E F G H I)
+  (f17 A B C (+ D 1) E F G H I)
+  :guard
+  (>= 49 D))
+
+(rule
+  (f27 A B C D E F G H I)
+  (f27 A B C D (+ E 1) F G H I)
+  :guard
+  (>= 49 E))
+
+(rule
+  (f37 A B C D E F G H I)
+  (f37 A B C D E (+ F 1) G H I)
+  :guard
+  (>= 49 F))
+
+(rule
+  (f45 A B C D E F G H I)
+  (f45 (+ A 1) B C D E F G H I)
+  :guard
+  (>= 49 A))
+
+(rule
+  (f55 A B C D E F G H I)
+  (f55 A B C D E F (+ G 1) H I)
+  :guard
+  (>= 49 G))
+
+(rule
+  (f65 A B C D E F G H I)
+  (f65 A B C D E F G (+ H 1) I)
+  :guard
+  (>= 49 H))
+
+(rule
+  (f75 A B C D E F G H I)
+  (f75 A B C D E F G H (+ I 1))
+  :guard
+  (>= 49 I))
+
+(rule
+  (f83 A B C D E F G H I)
+  (f83 (+ A 1) B C D E F G H I)
+  :guard
+  (>= 49 A))
+
+(rule (f83 A B C D E F G H I) (f93 A B C D E F G H I) :guard (>= A 50))
+(rule (f75 A B C D E F G H I) (f83 0 B C D E F G H I) :guard (>= I 50))
+(rule (f65 A B C D E F G H I) (f75 A B C D E F G H 0) :guard (>= H 50))
+(rule (f55 A B C D E F G H I) (f65 A B C D E F G 0 I) :guard (>= G 50))
+(rule (f45 A B C D E F G H I) (f55 A B C D E F 0 H I) :guard (>= A 50))
+(rule (f37 A B C D E F G H I) (f45 0 B C D E F G H I) :guard (>= F 50))
+(rule (f27 A B C D E F G H I) (f37 A B C D E 0 G H I) :guard (>= E 50))
+(rule (f17 A B C D E F G H I) (f27 A B C D 0 F G H I) :guard (>= D 50))

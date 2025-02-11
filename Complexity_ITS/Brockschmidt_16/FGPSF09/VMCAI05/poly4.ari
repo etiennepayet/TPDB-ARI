@@ -1,0 +1,30 @@
+(format LCTRS)
+(theory Ints)
+(fun eval (-> Int Int Int Int Int Int))
+(fun start (-> Int Int Int Int Int Int))
+(entrypoint start)
+(rule
+  (eval A B C D E)
+  (eval A (+ B 1) C D (+ E 1))
+  :guard
+  (and (>= A (+ B 1)) (>= C (+ D 1))))
+
+(rule
+  (eval A B C D E)
+  (eval A B C (+ D 1) (+ E 1))
+  :guard
+  (and (>= A (+ B 1)) (>= C (+ D 1))))
+
+(rule
+  (eval A B C D E)
+  (eval A B C (+ D 1) (+ E 1))
+  :guard
+  (and (>= B A) (>= C (+ D 1))))
+
+(rule
+  (eval A B C D E)
+  (eval A (+ B 1) C D (+ E 1))
+  :guard
+  (and (>= A (+ B 1)) (>= D C)))
+
+(rule (start A B C D E) (eval A B C D E))

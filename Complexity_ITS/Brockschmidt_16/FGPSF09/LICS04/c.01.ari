@@ -1,0 +1,20 @@
+(format LCTRS)
+(theory Ints)
+(fun eval1 (-> Int Int Int))
+(fun eval2 (-> Int Int Int))
+(fun start (-> Int Int Int))
+(entrypoint start)
+(rule (eval1 A B) (eval2 A 1) :guard (>= A 0))
+(rule
+  (eval2 A B)
+  (eval2 A (* 2 B))
+  :guard
+  (and (and (>= A 0) (>= B 1)) (>= A (+ B 1))))
+
+(rule
+  (eval2 A B)
+  (eval1 (- A 1) B)
+  :guard
+  (and (and (>= A 0) (>= B 1)) (>= B A)))
+
+(rule (start A B) (eval1 A B))

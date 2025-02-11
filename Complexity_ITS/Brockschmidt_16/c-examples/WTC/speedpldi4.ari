@@ -1,0 +1,47 @@
+(format LCTRS)
+(theory Ints)
+(fun evalspeedpldi4bb2in (-> Int Int Int))
+(fun evalspeedpldi4bb3in (-> Int Int Int))
+(fun evalspeedpldi4bb4in (-> Int Int Int))
+(fun evalspeedpldi4bb5in (-> Int Int Int))
+(fun evalspeedpldi4entryin (-> Int Int Int))
+(fun evalspeedpldi4returnin (-> Int Int Int))
+(fun evalspeedpldi4start (-> Int Int Int))
+(fun evalspeedpldi4stop (-> Int Int Int))
+(entrypoint evalspeedpldi4start)
+(rule (evalspeedpldi4start A B) (evalspeedpldi4entryin A B))
+(rule
+  (evalspeedpldi4entryin A B)
+  (evalspeedpldi4returnin A B)
+  :guard
+  (>= 0 A))
+
+(rule
+  (evalspeedpldi4entryin A B)
+  (evalspeedpldi4returnin A B)
+  :guard
+  (>= A B))
+
+(rule
+  (evalspeedpldi4entryin A B)
+  (evalspeedpldi4bb5in A B)
+  :guard
+  (and (>= A 1) (>= B (+ A 1))))
+
+(rule (evalspeedpldi4bb5in A B) (evalspeedpldi4bb2in A B) :guard (>= B 1))
+(rule
+  (evalspeedpldi4bb5in A B)
+  (evalspeedpldi4returnin A B)
+  :guard
+  (>= 0 B))
+
+(rule
+  (evalspeedpldi4bb2in A B)
+  (evalspeedpldi4bb3in A B)
+  :guard
+  (>= A (+ B 1)))
+
+(rule (evalspeedpldi4bb2in A B) (evalspeedpldi4bb4in A B) :guard (>= B A))
+(rule (evalspeedpldi4bb3in A B) (evalspeedpldi4bb5in A (- B 1)))
+(rule (evalspeedpldi4bb4in A B) (evalspeedpldi4bb5in A (- B A)))
+(rule (evalspeedpldi4returnin A B) (evalspeedpldi4stop A B))

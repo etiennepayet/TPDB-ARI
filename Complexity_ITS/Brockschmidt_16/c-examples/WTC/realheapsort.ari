@@ -1,0 +1,601 @@
+(format LCTRS)
+(theory Ints)
+(fun evalrealheapsortbb10in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb11in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb12in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb13in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb14in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb16in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb17in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb18in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb2in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb3in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb4in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb5in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb6in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb7in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb8in (-> Int Int Int Int Int))
+(fun evalrealheapsortbb9in (-> Int Int Int Int Int))
+(fun evalrealheapsortentryin (-> Int Int Int Int Int))
+(fun evalrealheapsortreturnin (-> Int Int Int Int Int))
+(fun evalrealheapsortstart (-> Int Int Int Int Int))
+(fun evalrealheapsortstop (-> Int Int Int Int Int))
+(entrypoint evalrealheapsortstart)
+(rule (evalrealheapsortstart A B C D) (evalrealheapsortentryin A B C D))
+(rule
+  (evalrealheapsortentryin A B C D)
+  (evalrealheapsortbb6in A 1 C D)
+  :guard
+  (>= A 3))
+
+(rule
+  (evalrealheapsortentryin A B C D)
+  (evalrealheapsortreturnin A B C D)
+  :guard
+  (>= 2 A))
+
+(rule
+  (evalrealheapsortbb6in A B C D)
+  (evalrealheapsortbb3in A B B D)
+  :guard
+  (>= A (+ 1 B)))
+
+(rule
+  (evalrealheapsortbb6in A B C D)
+  (evalrealheapsortbb7in A B C D)
+  :guard
+  (>= B A))
+
+(rule
+  (evalrealheapsortbb3in A B C D)
+  (evalrealheapsortbb5in A B C D)
+  :guard
+  (>= 0 C))
+
+(rule
+  (evalrealheapsortbb3in A B C D)
+  (evalrealheapsortbb4in A B C D)
+  :guard
+  (>= C 1))
+
+(rule
+  (evalrealheapsortbb4in A B C D)
+  (evalrealheapsortbb2in A B C D)
+  :guard
+  (= (+ C 1) 0))
+
+(rule
+  (evalrealheapsortbb4in A B C D)
+  (evalrealheapsortbb2in A B C D)
+  :guard
+  (and
+    (and (and (>= C 0) (>= E 0)) (>= (+ C 1) (* 2 E)))
+    (>= (* 2 E) C))
+  )
+
+(rule
+  (evalrealheapsortbb4in A B C D)
+  (evalrealheapsortbb2in A B C D)
+  :guard
+  (and
+    (and (and (>= 0 (+ C 2)) (>= 0 E)) (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb4in A B C D)
+  (evalrealheapsortbb5in A B C D)
+  :guard
+  (= (+ C 1) 0))
+
+(rule
+  (evalrealheapsortbb4in A B C D)
+  (evalrealheapsortbb5in A B C D)
+  :guard
+  (and
+    (and (and (>= C 0) (>= E 0)) (>= (+ C 1) (* 2 E)))
+    (>= (* 2 E) C))
+  )
+
+(rule
+  (evalrealheapsortbb4in A B C D)
+  (evalrealheapsortbb5in A B C D)
+  :guard
+  (and
+    (and (and (>= 0 (+ C 2)) (>= 0 E)) (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- 1) D)
+  :guard
+  (= (+ C 1) 0))
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and (and (>= 0 1) (>= E 0)) (>= 0 (* 2 E)))
+      (>= (+ 1 (* 2 E)) 0))
+    (= (+ C 1) 0))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and (and (and (>= 0 1) (>= 0 E)) (= (+ C 1) 0)) (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- 1) D)
+  :guard
+  (and
+    (and
+      (and (and (>= 0 1) (>= E 0)) (>= 0 (* 2 E)))
+      (>= (+ 1 (* 2 E)) 0))
+    (= (+ C 1) 0))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= 0 1) (>= F 0)) (>= 0 (* 2 F)))
+            (>= (+ 1 (* 2 F)) 0))
+          (>= E 0))
+        (>= 0 (* 2 E)))
+      (>= (+ 1 (* 2 E)) 0))
+    (= (+ C 1) 0))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= 0 1) (>= F 0)) (>= 0 (* 2 F)))
+            (>= (+ 1 (* 2 F)) 0))
+          (>= 0 E))
+        (= (+ C 1) 0))
+      (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- 1) D)
+  :guard
+  (and
+    (and (and (and (>= 0 1) (>= 0 E)) (= (+ C 1) 0)) (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (and (>= 0 1) (>= 0 F)) (>= E 0)) (>= 0 (* 2 E)))
+          (>= (+ 1 (* 2 E)) 0))
+        (= (+ C 1) 0))
+      (>= (* 2 F) (+ C 1)))
+    (>= (+ 2 C) (* 2 F)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (and (>= 0 1) (>= 0 F)) (>= 0 E)) (= (+ C 1) 0))
+          (>= (* 2 F) (+ C 1)))
+        (>= (+ 2 C) (* 2 F)))
+      (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- 1) D)
+  :guard
+  (and
+    (and
+      (and (and (>= 0 1) (>= E 0)) (>= 0 (* 2 E)))
+      (>= (+ 1 (* 2 E)) 0))
+    (= (+ C 1) 0))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= 0 1) (>= F 0)) (>= 0 (* 2 F)))
+            (>= (+ 1 (* 2 F)) 0))
+          (>= E 0))
+        (>= 0 (* 2 E)))
+      (>= (+ 1 (* 2 E)) 0))
+    (= (+ C 1) 0))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= 0 1) (>= F 0)) (>= 0 (* 2 F)))
+            (>= (+ 1 (* 2 F)) 0))
+          (>= 0 E))
+        (= (+ C 1) 0))
+      (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= 0 1) (>= E 0)) (>= 0 (* 2 E)))
+            (>= (+ 1 (* 2 E)) 0))
+          (>= F 0))
+        (>= 0 (* 2 F)))
+      (>= (+ 1 (* 2 F)) 0))
+    (= (+ C 1) 0))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and (and (>= C 0) (>= F 0)) (>= (+ C 1) (* 2 F)))
+                (>= (* 2 F) C))
+              (>= G 0))
+            (>= (+ C 1) (* 2 G)))
+          (>= (* 2 G) C))
+        (>= E 0))
+      (>= (+ C 1) (* 2 E)))
+    (>= (* 2 E) C))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and
+                  (and (and (>= C 0) (>= F 0)) (>= (+ C 1) (* 2 F)))
+                  (>= (* 2 F) C))
+                (>= G 0))
+              (>= (+ C 1) (* 2 G)))
+            (>= (* 2 G) C))
+          (>= 0 (+ C 2)))
+        (>= 0 E))
+      (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= 0 1) (>= E 0)) (>= 0 (* 2 E)))
+            (>= (+ 1 (* 2 E)) 0))
+          (>= 0 F))
+        (= (+ C 1) 0))
+      (>= (* 2 F) (+ C 1)))
+    (>= (+ 2 C) (* 2 F)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and
+                  (and (and (>= C 0) (>= F 0)) (>= (+ C 1) (* 2 F)))
+                  (>= (* 2 F) C))
+                (>= 0 (+ C 2)))
+              (>= 0 G))
+            (>= E 0))
+          (>= (+ C 1) (* 2 E)))
+        (>= (* 2 E) C))
+      (>= (* 2 G) (+ C 1)))
+    (>= (+ 2 C) (* 2 G)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and
+                  (and (and (>= C 0) (>= F 0)) (>= (+ C 1) (* 2 F)))
+                  (>= (* 2 F) C))
+                (>= 0 (+ C 2)))
+              (>= 0 G))
+            (>= 0 E))
+          (>= (* 2 G) (+ C 1)))
+        (>= (+ 2 C) (* 2 G)))
+      (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- 1) D)
+  :guard
+  (and
+    (and (and (and (>= 0 1) (>= 0 E)) (= (+ C 1) 0)) (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (and (>= 0 1) (>= 0 F)) (>= E 0)) (>= 0 (* 2 E)))
+          (>= (+ 1 (* 2 E)) 0))
+        (= (+ C 1) 0))
+      (>= (* 2 F) (+ C 1)))
+    (>= (+ 2 C) (* 2 F)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (and (>= 0 1) (>= 0 F)) (>= 0 E)) (= (+ C 1) 0))
+          (>= (* 2 F) (+ C 1)))
+        (>= (+ 2 C) (* 2 F)))
+      (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (and (>= 0 1) (>= 0 E)) (>= F 0)) (>= 0 (* 2 F)))
+          (>= (+ 1 (* 2 F)) 0))
+        (= (+ C 1) 0))
+      (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and (and (and (>= 0 (+ C 2)) (>= 0 F)) (>= C 0)) (>= G 0))
+                (>= (+ C 1) (* 2 G)))
+              (>= (* 2 G) C))
+            (>= E 0))
+          (>= (+ C 1) (* 2 E)))
+        (>= (* 2 E) C))
+      (>= (* 2 F) (+ C 1)))
+    (>= (+ 2 C) (* 2 F)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and (and (and (>= 0 (+ C 2)) (>= 0 F)) (>= C 0)) (>= G 0))
+                (>= (+ C 1) (* 2 G)))
+              (>= (* 2 G) C))
+            (>= 0 E))
+          (>= (* 2 F) (+ C 1)))
+        (>= (+ 2 C) (* 2 F)))
+      (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (and (>= 0 1) (>= 0 E)) (>= 0 F)) (= (+ C 1) 0))
+          (>= (* 2 E) (+ C 1)))
+        (>= (+ 2 C) (* 2 E)))
+      (>= (* 2 F) (+ C 1)))
+    (>= (+ 2 C) (* 2 F)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and (and (and (>= 0 (+ C 2)) (>= 0 F)) (>= 0 G)) (>= C 0))
+                (>= E 0))
+              (>= (+ C 1) (* 2 E)))
+            (>= (* 2 E) C))
+          (>= (* 2 F) (+ C 1)))
+        (>= (+ 2 C) (* 2 F)))
+      (>= (* 2 G) (+ C 1)))
+    (>= (+ 2 C) (* 2 G)))
+  )
+
+(rule
+  (evalrealheapsortbb2in A B C D)
+  (evalrealheapsortbb3in A B (- E 1) D)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and (and (and (>= 0 (+ C 2)) (>= 0 F)) (>= 0 G)) (>= 0 E))
+              (>= (* 2 F) (+ C 1)))
+            (>= (+ 2 C) (* 2 F)))
+          (>= (* 2 G) (+ C 1)))
+        (>= (+ 2 C) (* 2 G)))
+      (>= (* 2 E) (+ C 1)))
+    (>= (+ 2 C) (* 2 E)))
+  )
+
+(rule (evalrealheapsortbb5in A B C D) (evalrealheapsortbb6in A (+ B 1) C D))
+(rule (evalrealheapsortbb7in A B C D) (evalrealheapsortbb18in A 0 C D))
+(rule
+  (evalrealheapsortbb18in A B C D)
+  (evalrealheapsortbb8in A B C D)
+  :guard
+  (>= A (+ 2 B)))
+
+(rule
+  (evalrealheapsortbb18in A B C D)
+  (evalrealheapsortreturnin A B C D)
+  :guard
+  (>= (+ B 1) A))
+
+(rule (evalrealheapsortbb8in A B C D) (evalrealheapsortbb16in A B 0 D))
+(rule
+  (evalrealheapsortbb16in A B C D)
+  (evalrealheapsortbb9in A B C D)
+  :guard
+  (>= A (+ (+ B 3) (* 2 C))))
+
+(rule
+  (evalrealheapsortbb16in A B C D)
+  (evalrealheapsortbb17in A B C D)
+  :guard
+  (>= (+ (+ (* 2 C) 2) B) A))
+
+(rule
+  (evalrealheapsortbb9in A B C D)
+  (evalrealheapsortbb11in A B C D)
+  :guard
+  (= A (+ (+ (* 2 C) 3) B)))
+
+(rule
+  (evalrealheapsortbb9in A B C D)
+  (evalrealheapsortbb10in A B C D)
+  :guard
+  (>= A (+ (+ B 4) (* 2 C))))
+
+(rule
+  (evalrealheapsortbb9in A B C D)
+  (evalrealheapsortbb10in A B C D)
+  :guard
+  (>= (+ (+ (* 2 C) 2) B) A))
+
+(rule (evalrealheapsortbb10in A B C D) (evalrealheapsortbb11in A B C D))
+(rule (evalrealheapsortbb10in A B C D) (evalrealheapsortbb12in A B C D))
+(rule
+  (evalrealheapsortbb11in A B C D)
+  (evalrealheapsortbb13in A B C (+ (* 2 C) 1)))
+
+(rule
+  (evalrealheapsortbb12in A B C D)
+  (evalrealheapsortbb13in A B C (+ (* 2 C) 2)))
+
+(rule (evalrealheapsortbb13in A B C D) (evalrealheapsortbb14in A B C D))
+(rule (evalrealheapsortbb13in A B C D) (evalrealheapsortbb16in A B A D))
+(rule (evalrealheapsortbb14in A B C D) (evalrealheapsortbb16in A B D D))
+(rule
+  (evalrealheapsortbb17in A B C D)
+  (evalrealheapsortbb18in A (+ B 1) C D))
+
+(rule (evalrealheapsortreturnin A B C D) (evalrealheapsortstop A B C D))

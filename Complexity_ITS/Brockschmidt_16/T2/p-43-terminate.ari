@@ -1,0 +1,479 @@
+(format LCTRS)
+(theory Ints)
+(fun f13 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun f19 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun f27 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun f28 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun f29 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun f30 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun f300 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun f31 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun f8 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun f9 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(entrypoint f8)
+(rule
+  (f13 A B C D E F G H I J)
+  (f31 L K (+ (- 1) C) (+ (- 1) C) E F G H I J)
+  :guard
+  (>= 0 (+ K 1)))
+
+(rule
+  (f13 A B C D E F G H I J)
+  (f31 L K (+ (- 1) C) (+ (- 1) C) E F G H I J)
+  :guard
+  (>= K 1))
+
+(rule
+  (f13 A B C D E F G H I J)
+  (f29 L 0 (+ (- 2) D) (+ (- 1) D) E F G H I J))
+
+(rule
+  (f19 A B C D E F G H I J)
+  (f31 L K (+ (- 1) C) (+ (- 1) C) E F G H I J)
+  :guard
+  (>= 0 (+ K 1)))
+
+(rule
+  (f19 A B C D E F G H I J)
+  (f31 L K (+ (- 1) C) (+ (- 1) C) E F G H I J)
+  :guard
+  (>= K 1))
+
+(rule
+  (f19 A B C D E F G H I J)
+  (f29 L 0 (+ (- 2) D) (+ (- 1) D) E F G H I J))
+
+(rule (f8 A B C D E F G H I J) (f27 A B C D 0 0 G H I J))
+(rule
+  (f27 A B C D E F G H I J)
+  (f27 L 0 (+ (- 2) D) (+ (- 1) D) 0 F 0 H I J)
+  :guard
+  (and (and (and (>= D 1) (>= (+ C D) 1)) (>= C 1)) (= E 0)))
+
+(rule
+  (f27 A B C D E F G H I J)
+  (f27 L K (+ (- 1) C) (+ (- 1) C) 0 F 0 H I J)
+  :guard
+  (and
+    (and (and (and (>= D 1) (>= C 1)) (>= 0 (+ K 1))) (>= (+ C D) 1))
+    (= E 0))
+  )
+
+(rule
+  (f27 A B C D E F G H I J)
+  (f27 L K (+ (- 1) C) (+ (- 1) C) 0 F 0 H I J)
+  :guard
+  (and
+    (and (and (and (>= D 1) (>= C 1)) (>= K 1)) (>= (+ C D) 1))
+    (= E 0))
+  )
+
+(rule
+  (f27 A B C D E F G H I J)
+  (f30 L K (+ (- 1) C) (+ (- 1) C) 1 F M C D J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= D 1) (>= C 1)) (>= (+ C D) 1)) (>= 0 (+ K 1)))
+      (>= 0 (+ M 1)))
+    (= E 0))
+  )
+
+(rule
+  (f27 A B C D E F G H I J)
+  (f30 L K (+ (- 1) C) (+ (- 1) C) 1 F M C D J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= D 1) (>= C 1)) (>= (+ C D) 1)) (>= 0 (+ K 1)))
+      (>= M 1))
+    (= E 0))
+  )
+
+(rule
+  (f27 A B C D E F G H I J)
+  (f30 L K (+ (- 1) C) (+ (- 1) C) 1 F M C D J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= D 1) (>= C 1)) (>= (+ C D) 1)) (>= K 1))
+      (>= 0 (+ M 1)))
+    (= E 0))
+  )
+
+(rule
+  (f27 A B C D E F G H I J)
+  (f30 L K (+ (- 1) C) (+ (- 1) C) 1 F M C D J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= D 1) (>= C 1)) (>= (+ C D) 1)) (>= K 1))
+      (>= M 1))
+    (= E 0))
+  )
+
+(rule
+  (f27 A B C D E F G H I J)
+  (f28 L 0 (+ (- 2) D) (+ (- 1) D) 1 F K C D J)
+  :guard
+  (and
+    (and (and (and (>= D 1) (>= C 1)) (>= 0 (+ K 1))) (>= (+ C D) 1))
+    (= E 0))
+  )
+
+(rule
+  (f27 A B C D E F G H I J)
+  (f28 L 0 (+ (- 2) D) (+ (- 1) D) 1 F K C D J)
+  :guard
+  (and
+    (and (and (and (>= D 1) (>= C 1)) (>= K 1)) (>= (+ C D) 1))
+    (= E 0))
+  )
+
+(rule (f27 A B C D E F G H I J) (f9 A B C D E F G H I L) :guard (>= 0 C))
+(rule
+  (f27 A B C D E F G H I J)
+  (f9 A B C D E F G H I L)
+  :guard
+  (and (>= C 1) (>= 0 D)))
+
+(rule
+  (f28 A B C D E F G H I J)
+  (f300 A B C D 1 1 G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= D I) (>= C H)) (>= (+ C D) (+ H I))) (>= D 1))
+        (>= (+ C D) 1))
+      (>= C 1))
+    (= E 1))
+  )
+
+(rule
+  (f28 A B C D E F G H I J)
+  (f30 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= H (+ C 1)) (>= D 1)) (>= C 1)) (>= 0 (+ K 1)))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f28 A B C D E F G H I J)
+  (f30 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= H (+ C 1)) (>= D 1)) (>= C 1)) (>= K 1))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f28 A B C D E F G H I J)
+  (f28 L 0 (+ (- 2) D) (+ (- 1) D) 1 F G H I J)
+  :guard
+  (and
+    (and (and (and (>= H (+ C 1)) (>= D 1)) (>= (+ C D) 1)) (>= C 1))
+    (= E 1))
+  )
+
+(rule
+  (f28 A B C D E F G H I J)
+  (f30 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= I (+ D 1)) (>= C H)) (>= D 1)) (>= C 1))
+        (>= 0 (+ K 1)))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f28 A B C D E F G H I J)
+  (f30 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= I (+ D 1)) (>= C H)) (>= D 1)) (>= C 1))
+        (>= K 1))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f28 A B C D E F G H I J)
+  (f28 L 0 (+ (- 2) D) (+ (- 1) D) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= I (+ D 1)) (>= C H)) (>= D 1)) (>= (+ C D) 1))
+      (>= C 1))
+    (= E 1))
+  )
+
+(rule (f28 A B C D E F G H I J) (f9 A B C D E F G H I L) :guard (>= 0 C))
+(rule
+  (f28 A B C D E F G H I J)
+  (f9 A B C D E F G H I L)
+  :guard
+  (and (>= C 1) (>= 0 D)))
+
+(rule
+  (f29 A B C D E F G H I J)
+  (f300 A B C D 1 1 G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= D I) (>= C H)) (>= (+ C D) (+ H I))) (>= D 1))
+        (>= (+ C D) 1))
+      (>= C 1))
+    (= E 1))
+  )
+
+(rule
+  (f29 A B C D E F G H I J)
+  (f31 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= H (+ C 1)) (>= D 1)) (>= C 1)) (>= 0 (+ K 1)))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f29 A B C D E F G H I J)
+  (f31 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= H (+ C 1)) (>= D 1)) (>= C 1)) (>= K 1))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f29 A B C D E F G H I J)
+  (f29 L 0 (+ (- 2) D) (+ (- 1) D) 1 F G H I J)
+  :guard
+  (and
+    (and (and (and (>= H (+ C 1)) (>= D 1)) (>= (+ C D) 1)) (>= C 1))
+    (= E 1))
+  )
+
+(rule
+  (f29 A B C D E F G H I J)
+  (f31 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= I (+ D 1)) (>= C H)) (>= D 1)) (>= C 1))
+        (>= 0 (+ K 1)))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f29 A B C D E F G H I J)
+  (f31 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= I (+ D 1)) (>= C H)) (>= D 1)) (>= C 1))
+        (>= K 1))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f29 A B C D E F G H I J)
+  (f29 L 0 (+ (- 2) D) (+ (- 1) D) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= I (+ D 1)) (>= C H)) (>= D 1)) (>= (+ C D) 1))
+      (>= C 1))
+    (= E 1))
+  )
+
+(rule (f29 A B C D E F G H I J) (f9 A B C D E F G H I L) :guard (>= 0 C))
+(rule
+  (f29 A B C D E F G H I J)
+  (f9 A B C D E F G H I L)
+  :guard
+  (and (>= C 1) (>= 0 D)))
+
+(rule
+  (f30 A B C D E F G H I J)
+  (f300 A B C D 1 1 G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= D I) (>= C H)) (>= (+ C D) (+ H I))) (>= D 1))
+        (>= (+ C D) 1))
+      (>= C 1))
+    (= E 1))
+  )
+
+(rule
+  (f30 A B C D E F G H I J)
+  (f30 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= H (+ C 1)) (>= D 1)) (>= C 1)) (>= 0 (+ K 1)))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f30 A B C D E F G H I J)
+  (f30 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= H (+ C 1)) (>= D 1)) (>= C 1)) (>= K 1))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f30 A B C D E F G H I J)
+  (f28 L 0 (+ (- 2) D) (+ (- 1) D) 1 F G H I J)
+  :guard
+  (and
+    (and (and (and (>= H (+ C 1)) (>= D 1)) (>= (+ C D) 1)) (>= C 1))
+    (= E 1))
+  )
+
+(rule
+  (f30 A B C D E F G H I J)
+  (f30 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= I (+ D 1)) (>= C H)) (>= D 1)) (>= C 1))
+        (>= 0 (+ K 1)))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f30 A B C D E F G H I J)
+  (f30 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= I (+ D 1)) (>= C H)) (>= D 1)) (>= C 1))
+        (>= K 1))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f30 A B C D E F G H I J)
+  (f28 L 0 (+ (- 2) D) (+ (- 1) D) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= I (+ D 1)) (>= C H)) (>= D 1)) (>= (+ C D) 1))
+      (>= C 1))
+    (= E 1))
+  )
+
+(rule (f30 A B C D E F G H I J) (f9 A B C D E F G H I L) :guard (>= 0 C))
+(rule
+  (f31 A B C D E F G H I J)
+  (f300 A B C D 1 1 G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= D I) (>= C H)) (>= (+ C D) (+ H I))) (>= D 1))
+        (>= (+ C D) 1))
+      (>= C 1))
+    (= E 1))
+  )
+
+(rule
+  (f31 A B C D E F G H I J)
+  (f31 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= H (+ C 1)) (>= D 1)) (>= C 1)) (>= 0 (+ K 1)))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f31 A B C D E F G H I J)
+  (f31 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= H (+ C 1)) (>= D 1)) (>= C 1)) (>= K 1))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f31 A B C D E F G H I J)
+  (f29 L 0 (+ (- 2) D) (+ (- 1) D) 1 F G H I J)
+  :guard
+  (and
+    (and (and (and (>= H (+ C 1)) (>= D 1)) (>= (+ C D) 1)) (>= C 1))
+    (= E 1))
+  )
+
+(rule
+  (f31 A B C D E F G H I J)
+  (f31 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= I (+ D 1)) (>= C H)) (>= D 1)) (>= C 1))
+        (>= 0 (+ K 1)))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f31 A B C D E F G H I J)
+  (f31 L K (+ (- 1) C) (+ (- 1) C) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= I (+ D 1)) (>= C H)) (>= D 1)) (>= C 1))
+        (>= K 1))
+      (>= (+ C D) 1))
+    (= E 1))
+  )
+
+(rule
+  (f31 A B C D E F G H I J)
+  (f29 L 0 (+ (- 2) D) (+ (- 1) D) 1 F G H I J)
+  :guard
+  (and
+    (and
+      (and (and (and (>= I (+ D 1)) (>= C H)) (>= D 1)) (>= (+ C D) 1))
+      (>= C 1))
+    (= E 1))
+  )
+
+(rule (f31 A B C D E F G H I J) (f9 A B C D E F G H I L) :guard (>= 0 C))

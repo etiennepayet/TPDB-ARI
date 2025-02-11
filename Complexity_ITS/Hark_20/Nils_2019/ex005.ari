@@ -1,0 +1,17 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int Int Int))
+(entrypoint l0)
+(rule (l0 A B C F X Y Z) (l1 X Y Z F X Y Z))
+(rule
+  (l1 A B C F X Y Z)
+  (l1 (+ A B) (+ B C) (- C 1) F X Y Z)
+  :guard
+  (>= A 1))
+
+(rule (l1 A B C F X Y Z) (l2 A B C (- F 1) X Y Z) :guard (>= 0 A))
+(rule (l2 A B C F X Y Z) (l1 X Y Z F X Y Z) :guard (>= F 1))
+(rule (l2 A B C F X Y Z) (l3 A B C F X Y Z) :guard (>= 0 F))

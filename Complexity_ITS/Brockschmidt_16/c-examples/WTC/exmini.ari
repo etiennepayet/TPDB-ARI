@@ -1,0 +1,26 @@
+(format LCTRS)
+(theory Ints)
+(fun evalexminibb1in (-> Int Int Int Int))
+(fun evalexminibbin (-> Int Int Int Int))
+(fun evalexminientryin (-> Int Int Int Int))
+(fun evalexminireturnin (-> Int Int Int Int))
+(fun evalexministart (-> Int Int Int Int))
+(fun evalexministop (-> Int Int Int Int))
+(entrypoint evalexministart)
+(rule (evalexministart A B C) (evalexminientryin A B C))
+(rule (evalexminientryin A B C) (evalexminibb1in B A C))
+(rule
+  (evalexminibb1in A B C)
+  (evalexminibbin A B C)
+  :guard
+  (and (>= 100 B) (>= A C)))
+
+(rule (evalexminibb1in A B C) (evalexminireturnin A B C) :guard (>= B 101))
+(rule
+  (evalexminibb1in A B C)
+  (evalexminireturnin A B C)
+  :guard
+  (>= C (+ A 1)))
+
+(rule (evalexminibbin A B C) (evalexminibb1in (- A 1) C (+ B 1)))
+(rule (evalexminireturnin A B C) (evalexministop A B C))

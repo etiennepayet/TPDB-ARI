@@ -1,0 +1,33 @@
+(format LCTRS)
+(theory Ints)
+(fun evalwisebb3in (-> Int Int Int))
+(fun evalwisebb4in (-> Int Int Int))
+(fun evalwisebb5in (-> Int Int Int))
+(fun evalwisebb6in (-> Int Int Int))
+(fun evalwiseentryin (-> Int Int Int))
+(fun evalwisereturnin (-> Int Int Int))
+(fun evalwisestart (-> Int Int Int))
+(fun evalwisestop (-> Int Int Int))
+(entrypoint evalwisestart)
+(rule (evalwisestart A B) (evalwiseentryin A B))
+(rule (evalwiseentryin A B) (evalwisereturnin A B) :guard (>= 0 (+ A 1)))
+(rule (evalwiseentryin A B) (evalwisereturnin A B) :guard (>= 0 (+ B 1)))
+(rule
+  (evalwiseentryin A B)
+  (evalwisebb6in B A)
+  :guard
+  (and (>= A 0) (>= B 0)))
+
+(rule (evalwisebb6in A B) (evalwisebb3in A B) :guard (>= B (+ A 3)))
+(rule (evalwisebb6in A B) (evalwisebb3in A B) :guard (>= A (+ B 3)))
+(rule
+  (evalwisebb6in A B)
+  (evalwisereturnin A B)
+  :guard
+  (and (>= (+ 2 A) B) (>= (+ 2 B) A)))
+
+(rule (evalwisebb3in A B) (evalwisebb4in A B) :guard (>= A (+ B 1)))
+(rule (evalwisebb3in A B) (evalwisebb5in A B) :guard (>= B A))
+(rule (evalwisebb4in A B) (evalwisebb6in A (+ B 1)))
+(rule (evalwisebb5in A B) (evalwisebb6in (+ A 1) B))
+(rule (evalwisereturnin A B) (evalwisestop A B))

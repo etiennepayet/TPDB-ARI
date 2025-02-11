@@ -1,0 +1,49 @@
+(format LCTRS)
+(theory Ints)
+(fun f17 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f18 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f20 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f22 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(entrypoint f22)
+(rule
+  (f17 A B C D E F G H I J K L M N O)
+  (f17 A Q C (+ 1 D) P F G H I J K L M N O)
+  :guard
+  (and (and (>= A (+ B 1)) (>= C 0)) (>= D 0)))
+
+(rule
+  (f17 A B C D E F G H I J K L M N O)
+  (f17 A Q C (+ 1 D) P F G H I J K L M N O)
+  :guard
+  (and (and (>= B (+ A 1)) (>= C 0)) (>= D 0)))
+
+(rule
+  (f18 A B C D E F G H I J K L M N O)
+  (f17 A Q C 1 P F G H I J K L M N O)
+  :guard
+  (and (>= F 0) (>= A (+ B 1))))
+
+(rule
+  (f18 A B C D E F G H I J K L M N O)
+  (f17 A Q C 1 P F G H I J K L M N O)
+  :guard
+  (and (>= F 0) (>= B (+ A 1))))
+
+(rule
+  (f17 A B C D E F G H I J K L M N O)
+  (f20 B B C D E F P H I J K L M N O)
+  :guard
+  (and (and (>= C 0) (>= D 0)) (= B A)))
+
+(rule
+  (f22 A B C D E F G H I J K L M N O)
+  (f18 A H C D E F Q H 2 P P P P 3 0)
+  :guard
+  (and (>= A (+ H 1)) (>= F 0)))
+
+(rule
+  (f22 A B C D E F G H I J K L M N O)
+  (f18 A H C D E F Q H 2 P P P P 3 0)
+  :guard
+  (and (>= H (+ A 1)) (>= F 0)))
+

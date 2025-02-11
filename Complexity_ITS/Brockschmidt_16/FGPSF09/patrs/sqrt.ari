@@ -1,0 +1,14 @@
+(format LCTRS)
+(theory Ints)
+(fun end (-> Int Int Int Int Int))
+(fun f (-> Int Int Int Int Int))
+(fun sqrt (-> Int Int Int Int Int))
+(entrypoint sqrt)
+(rule (sqrt A B C D) (f 0 1 1 D))
+(rule
+  (f A B C D)
+  (f (+ A 1) (+ B 2) (+ (+ C B) 2) D)
+  :guard
+  (and (>= D C) (>= B 0)))
+
+(rule (f A B C D) (end A B C D) :guard (>= C (+ D 1)))

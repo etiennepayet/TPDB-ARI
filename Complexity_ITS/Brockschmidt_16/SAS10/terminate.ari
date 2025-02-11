@@ -1,0 +1,84 @@
+(format LCTRS)
+(theory Ints)
+(fun lbl72 (-> Int Int Int Int Int Int Int Int Int))
+(fun start (-> Int Int Int Int Int Int Int Int Int))
+(fun start0 (-> Int Int Int Int Int Int Int Int Int))
+(fun stop (-> Int Int Int Int Int Int Int Int Int))
+(entrypoint start0)
+(rule
+  (start A B C D E F G H)
+  (stop A B C D E F G H)
+  :guard
+  (and (and (and (and (>= A 101) (= B C)) (= D E)) (= F A)) (= G H)))
+
+(rule
+  (start A B C D E F G H)
+  (stop A B C D E F G H)
+  :guard
+  (and (and (and (and (>= E (+ C 1)) (= B C)) (= D E)) (= F A)) (= G H)))
+
+(rule
+  (start A B C D E F G H)
+  (lbl72 A (- B 1) C (+ 1 F) E D F H)
+  :guard
+  (and
+    (and (and (and (and (>= C E) (>= 100 A)) (= B C)) (= D E)) (= F A))
+    (= G H))
+  )
+
+(rule
+  (lbl72 A B C D E F G H)
+  (stop A B C D E F G H)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= F 101) (>= 100 A)) (>= (+ (+ 101 F) B) (+ (+ A E) C)))
+            (>= (+ B 1) F))
+          (>= C (+ 1 B)))
+        (>= C E))
+      (= (+ (+ (+ G 1) F) B) (+ (+ A E) C)))
+    (= (+ (+ D F) B) (+ (+ A E) C)))
+  )
+
+(rule
+  (lbl72 A B C D E F G H)
+  (stop A B C D E F G H)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and (>= (+ (+ A E) C) (+ (+ F (* 2 B)) 1)) (>= 100 A))
+              (>= (+ (+ 101 F) B) (+ (+ A E) C)))
+            (>= (+ B 1) F))
+          (>= C (+ 1 B)))
+        (>= C E))
+      (= (+ (+ (+ G 1) F) B) (+ (+ A E) C)))
+    (= (+ (+ D F) B) (+ (+ A E) C)))
+  )
+
+(rule
+  (lbl72 A B C D E F G H)
+  (lbl72 A (- B 1) C (+ 1 F) E D F H)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and (and (>= (+ (* 2 B) F) (+ (+ A E) C)) (>= 100 F)) (>= 100 A))
+              (>= (+ (+ 101 F) B) (+ (+ A E) C)))
+            (>= (+ B 1) F))
+          (>= C (+ 1 B)))
+        (>= C E))
+      (= (+ (+ (+ G 1) F) B) (+ (+ A E) C)))
+    (= (+ (+ D F) B) (+ (+ A E) C)))
+  )
+
+(rule (start0 A B C D E F G H) (start A C C E E A H H))

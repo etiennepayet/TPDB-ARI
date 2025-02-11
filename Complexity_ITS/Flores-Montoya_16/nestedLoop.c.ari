@@ -1,0 +1,594 @@
+(format LCTRS)
+(theory Ints)
+(fun
+  eval_nestedLoop_0
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_1
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_10
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_11
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_15
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_16
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_2
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_3
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_4
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_5
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_6
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_7
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_bb0_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_bb1_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_bb2_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_bb3_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_bb4_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_bb5_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_bb6_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_bb7_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_start
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_nestedLoop_stop
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(entrypoint eval_nestedLoop_start)
+(rule
+  (eval_nestedLoop_start
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  (eval_nestedLoop_bb0_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  )
+
+(rule
+  (eval_nestedLoop_bb0_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  (eval_nestedLoop_0 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n))
+
+(rule
+  (eval_nestedLoop_0 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_1 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n))
+
+(rule
+  (eval_nestedLoop_1 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_2 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n))
+
+(rule
+  (eval_nestedLoop_2 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_3 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n))
+
+(rule
+  (eval_nestedLoop_3 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb1_in v_10 v_14 v_3 v_6 v_9 v_N 0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  :guard
+  (and (and (<= 0 v_n) (<= 0 v_m)) (<= 0 v_N)))
+
+(rule
+  (eval_nestedLoop_3 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb7_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  :guard
+  (> 0 v_n))
+
+(rule
+  (eval_nestedLoop_3 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb7_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  :guard
+  (> 0 v_m))
+
+(rule
+  (eval_nestedLoop_3 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb7_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  :guard
+  (> 0 v_N))
+
+(rule
+  (eval_nestedLoop_bb1_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  (eval_nestedLoop_4 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n))
+
+(rule
+  (eval_nestedLoop_4 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_5
+    v_10
+    v_14
+    nondef_0
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  )
+
+(rule
+  (eval_nestedLoop_5 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb2_in v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_0 0 v_k_0 v_m v_n)
+  :guard
+  (and (> v_3 0) (< v_i_0 v_n)))
+
+(rule
+  (eval_nestedLoop_5 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb7_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  :guard
+  (<= v_3 0))
+
+(rule
+  (eval_nestedLoop_5 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb7_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  :guard
+  (>= v_i_0 v_n))
+
+(rule
+  (eval_nestedLoop_bb2_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  (eval_nestedLoop_6 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n))
+
+(rule
+  (eval_nestedLoop_6 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_7
+    v_10
+    v_14
+    v_3
+    nondef_1
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  )
+
+(rule
+  (eval_nestedLoop_7 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb3_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  :guard
+  (and (> v_6 0) (< v_j_0 v_m)))
+
+(rule
+  (eval_nestedLoop_7 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb6_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  :guard
+  (<= v_6 0))
+
+(rule
+  (eval_nestedLoop_7 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb6_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  :guard
+  (>= v_j_0 v_m))
+
+(rule
+  (eval_nestedLoop_bb3_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  (eval_nestedLoop_bb4_in
+    v_10
+    v_14
+    v_3
+    v_6
+    (+ v_j_0 1)
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_i_1
+    v_m
+    v_n)
+  )
+
+(rule
+  (eval_nestedLoop_bb4_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  (eval_nestedLoop_10 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n))
+
+(rule
+  (eval_nestedLoop_10 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_11
+    nondef_2
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  )
+
+(rule
+  (eval_nestedLoop_11 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb5_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  :guard
+  (and (> v_10 0) (< v_k_0 v_N)))
+
+(rule
+  (eval_nestedLoop_11 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb2_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_k_0
+    v_9
+    v_k_0
+    v_m
+    v_n)
+  :guard
+  (<= v_10 0))
+
+(rule
+  (eval_nestedLoop_11 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb2_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_k_0
+    v_9
+    v_k_0
+    v_m
+    v_n)
+  :guard
+  (>= v_k_0 v_N))
+
+(rule
+  (eval_nestedLoop_bb5_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  (eval_nestedLoop_bb4_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    (+ v_k_0 1)
+    v_m
+    v_n)
+  )
+
+(rule
+  (eval_nestedLoop_bb6_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  (eval_nestedLoop_15
+    v_10
+    (+ v_i_1 1)
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  )
+
+(rule
+  (eval_nestedLoop_15 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_16 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n))
+
+(rule
+  (eval_nestedLoop_16 v_10 v_14 v_3 v_6 v_9 v_N v_i_0 v_i_1 v_j_0 v_k_0 v_m v_n)
+  (eval_nestedLoop_bb1_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_14
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  )
+
+(rule
+  (eval_nestedLoop_bb7_in
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  (eval_nestedLoop_stop
+    v_10
+    v_14
+    v_3
+    v_6
+    v_9
+    v_N
+    v_i_0
+    v_i_1
+    v_j_0
+    v_k_0
+    v_m
+    v_n)
+  )
+

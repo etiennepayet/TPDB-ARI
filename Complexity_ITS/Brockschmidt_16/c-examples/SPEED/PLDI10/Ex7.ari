@@ -1,0 +1,22 @@
+(format LCTRS)
+(theory Ints)
+(fun evalEx7bb3in (-> Int Int Int Int))
+(fun evalEx7bbin (-> Int Int Int Int))
+(fun evalEx7entryin (-> Int Int Int Int))
+(fun evalEx7returnin (-> Int Int Int Int))
+(fun evalEx7start (-> Int Int Int Int))
+(fun evalEx7stop (-> Int Int Int Int))
+(entrypoint evalEx7start)
+(rule (evalEx7start A B C) (evalEx7entryin A B C))
+(rule
+  (evalEx7entryin A B C)
+  (evalEx7bb3in A B (+ A 1))
+  :guard
+  (and (>= A 1) (>= B (+ A 1))))
+
+(rule (evalEx7bb3in A B C) (evalEx7bbin A B C) :guard (>= A (+ C 1)))
+(rule (evalEx7bb3in A B C) (evalEx7bbin A B C) :guard (>= C (+ A 1)))
+(rule (evalEx7bb3in A B C) (evalEx7returnin A B C) :guard (= C A))
+(rule (evalEx7bbin A B C) (evalEx7bb3in A B 0) :guard (>= C (+ B 1)))
+(rule (evalEx7bbin A B C) (evalEx7bb3in A B (+ C 1)) :guard (>= B C))
+(rule (evalEx7returnin A B C) (evalEx7stop A B C))

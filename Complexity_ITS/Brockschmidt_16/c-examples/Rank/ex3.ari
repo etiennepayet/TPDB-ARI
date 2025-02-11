@@ -1,0 +1,52 @@
+(format LCTRS)
+(theory Ints)
+(fun evalfbb1in (-> Int Int Int Int Int Int Int))
+(fun evalfbb2in (-> Int Int Int Int Int Int Int))
+(fun evalfbb3in (-> Int Int Int Int Int Int Int))
+(fun evalfbb4in (-> Int Int Int Int Int Int Int))
+(fun evalfbb5in (-> Int Int Int Int Int Int Int))
+(fun evalfbb6in (-> Int Int Int Int Int Int Int))
+(fun evalfbb7in (-> Int Int Int Int Int Int Int))
+(fun evalfbb8in (-> Int Int Int Int Int Int Int))
+(fun evalfbb9in (-> Int Int Int Int Int Int Int))
+(fun evalfbbin (-> Int Int Int Int Int Int Int))
+(fun evalfentryin (-> Int Int Int Int Int Int Int))
+(fun evalfreturnin (-> Int Int Int Int Int Int Int))
+(fun evalfstart (-> Int Int Int Int Int Int Int))
+(fun evalfstop (-> Int Int Int Int Int Int Int))
+(entrypoint evalfstart)
+(rule (evalfstart A B C D E F) (evalfentryin A B C D E F))
+(rule (evalfentryin A B C D E F) (evalfbb9in B B C D E F))
+(rule (evalfbb9in A B C D E F) (evalfbbin A B C D E F) :guard (>= B 2))
+(rule (evalfbb9in A B C D E F) (evalfreturnin A B C D E F) :guard (>= 1 B))
+(rule (evalfbbin A B C D E F) (evalfbb6in A B (- B 1) (- (+ A B) 1) E F))
+(rule (evalfbb6in A B C D E F) (evalfbb8in A B C D E F) :guard (>= C D))
+(rule
+  (evalfbb6in A B C D E F)
+  (evalfbb7in A B C D E F)
+  :guard
+  (>= D (+ C 1)))
+
+(rule
+  (evalfbb7in A B C D E F)
+  (evalfbb1in A B C D E F)
+  :guard
+  (>= 0 (+ G 1)))
+
+(rule (evalfbb7in A B C D E F) (evalfbb1in A B C D E F) :guard (>= G 1))
+(rule (evalfbb7in A B C D E F) (evalfbb8in A B C D E F))
+(rule (evalfbb1in A B C D E F) (evalfbb3in A B C D C (- D 1)))
+(rule (evalfbb3in A B C D E F) (evalfbb5in A B C D E F))
+(rule (evalfbb3in A B C D E F) (evalfbb4in A B C D E F) :guard (>= 0 3))
+(rule
+  (evalfbb4in A B C D E F)
+  (evalfbb2in A B C D E F)
+  :guard
+  (>= 0 (+ G 1)))
+
+(rule (evalfbb4in A B C D E F) (evalfbb2in A B C D E F) :guard (>= G 1))
+(rule (evalfbb4in A B C D E F) (evalfbb5in A B C D E F))
+(rule (evalfbb2in A B C D E F) (evalfbb3in A B C D (+ E 1) (- F 2)))
+(rule (evalfbb5in A B C D E F) (evalfbb6in A B E (- F 1) E F))
+(rule (evalfbb8in A B C D E F) (evalfbb9in (- D (+ C 1)) (- C 1) C D E F))
+(rule (evalfreturnin A B C D E F) (evalfstop A B C D E F))

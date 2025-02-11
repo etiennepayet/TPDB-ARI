@@ -1,0 +1,192 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_sipma91_0 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_1 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_2 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_3 (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_bb0_in (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_bb1_in (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_bb2_in (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_bb3_in (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_bb4_in (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_bb5_in (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_bb6_in (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_bb7_in (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_bb8_in (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_start (-> Int Int Int Int Int Int Int Int Int Int))
+(fun eval_sipma91_stop (-> Int Int Int Int Int Int Int Int Int Int))
+(entrypoint eval_sipma91_start)
+(rule
+  (eval_sipma91_start v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb0_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2))
+
+(rule
+  (eval_sipma91_bb0_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_0 v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2))
+
+(rule
+  (eval_sipma91_0 v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_1 v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2))
+
+(rule
+  (eval_sipma91_1 v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_2 v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2))
+
+(rule
+  (eval_sipma91_2 v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_3 v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2))
+
+(rule
+  (eval_sipma91_3 v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb8_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  :guard
+  (> v_x 100))
+
+(rule
+  (eval_sipma91_3 v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb1_in v_5 v_6 v_x v_x v_y1_1 v_y1_2 1 v_y2_1 v_y2_2)
+  :guard
+  (<= v_x 100))
+
+(rule
+  (eval_sipma91_bb1_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb2_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  :guard
+  (<= v_y1_0 100))
+
+(rule
+  (eval_sipma91_bb1_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb3_in v_5 v_6 v_x v_y1_0 v_y1_0 v_y1_2 v_y2_0 v_y2_0 v_y2_2)
+  :guard
+  (> v_y1_0 100))
+
+(rule
+  (eval_sipma91_bb2_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb1_in
+    v_5
+    v_6
+    v_x
+    (+ v_y1_0 11)
+    v_y1_1
+    v_y1_2
+    (+ v_y2_0 1)
+    v_y2_1
+    v_y2_2)
+  )
+
+(rule
+  (eval_sipma91_bb3_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb4_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  :guard
+  (> v_y2_1 1))
+
+(rule
+  (eval_sipma91_bb3_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb8_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  :guard
+  (<= v_y2_1 1))
+
+(rule
+  (eval_sipma91_bb4_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb3_in
+    v_5
+    v_6
+    v_x
+    v_y1_0
+    (- v_y1_1 10)
+    v_y1_2
+    v_y2_0
+    (- v_y2_1 1)
+    v_y2_2)
+  :guard
+  (and (> (- v_y1_1 10) 100) (= (- v_y2_1 1) 1)))
+
+(rule
+  (eval_sipma91_bb4_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb5_in
+    (- v_y1_1 10)
+    (- v_y2_1 1)
+    v_x
+    v_y1_0
+    v_y1_1
+    v_y1_2
+    v_y2_0
+    v_y2_1
+    v_y2_2)
+  :guard
+  (<= (- v_y1_1 10) 100))
+
+(rule
+  (eval_sipma91_bb4_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb5_in
+    (- v_y1_1 10)
+    (- v_y2_1 1)
+    v_x
+    v_y1_0
+    v_y1_1
+    v_y1_2
+    v_y2_0
+    v_y2_1
+    v_y2_2)
+  :guard
+  (< (- v_y2_1 1) 1))
+
+(rule
+  (eval_sipma91_bb4_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb5_in
+    (- v_y1_1 10)
+    (- v_y2_1 1)
+    v_x
+    v_y1_0
+    v_y1_1
+    v_y1_2
+    v_y2_0
+    v_y2_1
+    v_y2_2)
+  :guard
+  (> (- v_y2_1 1) 1))
+
+(rule
+  (eval_sipma91_bb5_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb6_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  :guard
+  (> v_5 100))
+
+(rule
+  (eval_sipma91_bb5_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb7_in v_5 v_6 v_x v_y1_0 v_y1_1 v_5 v_y2_0 v_y2_1 v_6)
+  :guard
+  (<= v_5 100))
+
+(rule
+  (eval_sipma91_bb6_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb7_in
+    v_5
+    v_6
+    v_x
+    v_y1_0
+    v_y1_1
+    (- v_5 10)
+    v_y2_0
+    v_y2_1
+    (- v_6 1))
+  )
+
+(rule
+  (eval_sipma91_bb7_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_bb3_in
+    v_5
+    v_6
+    v_x
+    v_y1_0
+    (+ v_y1_2 11)
+    v_y1_2
+    v_y2_0
+    (+ v_y2_2 1)
+    v_y2_2)
+  )
+
+(rule
+  (eval_sipma91_bb8_in v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2)
+  (eval_sipma91_stop v_5 v_6 v_x v_y1_0 v_y1_1 v_y1_2 v_y2_0 v_y2_1 v_y2_2))
+

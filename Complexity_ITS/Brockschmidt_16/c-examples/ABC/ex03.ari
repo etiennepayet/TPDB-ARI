@@ -1,0 +1,38 @@
+(format LCTRS)
+(theory Ints)
+(fun evalfbb10in (-> Int Int Int Int Int Int))
+(fun evalfbb3in (-> Int Int Int Int Int Int))
+(fun evalfbb4in (-> Int Int Int Int Int Int))
+(fun evalfbb5in (-> Int Int Int Int Int Int))
+(fun evalfbb6in (-> Int Int Int Int Int Int))
+(fun evalfbb7in (-> Int Int Int Int Int Int))
+(fun evalfbb8in (-> Int Int Int Int Int Int))
+(fun evalfentryin (-> Int Int Int Int Int Int))
+(fun evalfreturnin (-> Int Int Int Int Int Int))
+(fun evalfstart (-> Int Int Int Int Int Int))
+(fun evalfstop (-> Int Int Int Int Int Int))
+(entrypoint evalfstart)
+(rule (evalfstart A B C D E) (evalfentryin A B C D E))
+(rule (evalfentryin A B C D E) (evalfbb10in 1 B C D E))
+(rule (evalfbb10in A B C D E) (evalfbb8in A B 1 D E) :guard (>= B A))
+(rule
+  (evalfbb10in A B C D E)
+  (evalfreturnin A B C D E)
+  :guard
+  (>= A (+ B 1)))
+
+(rule (evalfbb8in A B C D E) (evalfbb6in A B C (+ A 1) E) :guard (>= A C))
+(rule
+  (evalfbb8in A B C D E)
+  (evalfbb10in (+ A 1) B C D E)
+  :guard
+  (>= C (+ A 1)))
+
+(rule (evalfbb6in A B C D E) (evalfbb4in A B C D 1) :guard (>= B D))
+(rule (evalfbb6in A B C D E) (evalfbb7in A B C D E) :guard (>= D (+ B 1)))
+(rule (evalfbb4in A B C D E) (evalfbb3in A B C D E) :guard (>= D E))
+(rule (evalfbb4in A B C D E) (evalfbb5in A B C D E) :guard (>= E (+ D 1)))
+(rule (evalfbb3in A B C D E) (evalfbb4in A B C D (+ E 1)))
+(rule (evalfbb5in A B C D E) (evalfbb6in A B C (+ D 1) E))
+(rule (evalfbb7in A B C D E) (evalfbb8in A B (+ C 1) D E))
+(rule (evalfreturnin A B C D E) (evalfstop A B C D E))

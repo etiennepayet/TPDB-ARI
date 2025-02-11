@@ -1,0 +1,35 @@
+(format LCTRS)
+(theory Ints)
+(fun f1 (-> Int Int Int Int Int))
+(fun f2 (-> Int Int Int Int Int))
+(fun f300 (-> Int Int Int Int Int))
+(entrypoint f2)
+(rule (f2 A B C D) (f1 A B C D))
+(rule
+  (f1 A B C D)
+  (f1 (+ 1 A) B E D)
+  :guard
+  (and (>= E 1) (>= B (+ 1 A))))
+
+(rule
+  (f1 A B C D)
+  (f1 (+ 1 A) B E D)
+  :guard
+  (and (>= 0 (+ E 1)) (>= B (+ 1 A))))
+
+(rule (f1 A B C D) (f1 A B 0 D) :guard (>= B (+ 1 A)))
+(rule
+  (f1 A B C D)
+  (f1 (+ 1 A) A E D)
+  :guard
+  (and (and (>= E 1) (>= B F)) (= A B)))
+
+(rule
+  (f1 A B C D)
+  (f1 (+ 1 A) A E D)
+  :guard
+  (and (and (>= 0 (+ E 1)) (>= B F)) (= A B)))
+
+(rule (f1 A B C D) (f1 A A 0 D) :guard (and (>= B E) (= A B)))
+(rule (f1 A B C D) (f300 A B C E) :guard (and (>= A B) (>= A (+ B 1))))
+(rule (f1 A B C D) (f300 A B C E) :guard (and (>= A B) (>= B (+ A 1))))

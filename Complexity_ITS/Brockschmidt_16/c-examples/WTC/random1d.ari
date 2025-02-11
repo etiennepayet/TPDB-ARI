@@ -1,0 +1,33 @@
+(format LCTRS)
+(theory Ints)
+(fun evalrandom1dbb1in (-> Int Int Int))
+(fun evalrandom1dbb5in (-> Int Int Int))
+(fun evalrandom1dentryin (-> Int Int Int))
+(fun evalrandom1dreturnin (-> Int Int Int))
+(fun evalrandom1dstart (-> Int Int Int))
+(fun evalrandom1dstop (-> Int Int Int))
+(entrypoint evalrandom1dstart)
+(rule (evalrandom1dstart A B) (evalrandom1dentryin A B))
+(rule (evalrandom1dentryin A B) (evalrandom1dbb5in A 1) :guard (>= A 1))
+(rule (evalrandom1dentryin A B) (evalrandom1dreturnin A B) :guard (>= 0 A))
+(rule (evalrandom1dbb5in A B) (evalrandom1dbb1in A B) :guard (>= A B))
+(rule
+  (evalrandom1dbb5in A B)
+  (evalrandom1dreturnin A B)
+  :guard
+  (>= B (+ A 1)))
+
+(rule
+  (evalrandom1dbb1in A B)
+  (evalrandom1dbb5in A (+ B 1))
+  :guard
+  (>= 0 (+ C 1)))
+
+(rule
+  (evalrandom1dbb1in A B)
+  (evalrandom1dbb5in A (+ B 1))
+  :guard
+  (>= C 1))
+
+(rule (evalrandom1dbb1in A B) (evalrandom1dbb5in A (+ B 1)))
+(rule (evalrandom1dreturnin A B) (evalrandom1dstop A B))

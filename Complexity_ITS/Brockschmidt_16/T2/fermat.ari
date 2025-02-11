@@ -1,0 +1,168 @@
+(format LCTRS)
+(theory Ints)
+(fun
+  f0
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f12
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f24
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f36
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f46
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(entrypoint f0)
+(rule
+  (f0 A B C D E F G H I J K L M N O P Q R S)
+  (f12 3 T 3 1 0 F G H I J K L M N O P Q R S))
+
+(rule
+  (f12 A B C D E F G H I J K L M N O P Q R S)
+  (f12 A B C T (+ E 1) F G H I J K L M N O P Q R S)
+  :guard
+  (>= C (+ E 1)))
+
+(rule
+  (f24 A B C D E F G H I J K L M N O P Q R S)
+  (f24 A B C D E F (+ G 1) T I J K L M N O P Q R S)
+  :guard
+  (>= F (+ G 1)))
+
+(rule
+  (f36 A B C D E F G H I J K L M N O P Q R S)
+  (f36 A B C D E F G H I (+ J 1) T L M N O P Q R S)
+  :guard
+  (>= I (+ J 1)))
+
+(rule
+  (f36 A B C D E F G H I J K L M N O P Q R S)
+  (f46 A B C D E F G H I J K K K N O P Q R S)
+  :guard
+  (>= J I))
+
+(rule
+  (f24 A B C D E F G H I J K L M N O P Q R S)
+  (f36 A B C D E F G H A 0 1 L M H H T Q R S)
+  :guard
+  (>= G F))
+
+(rule
+  (f12 A B C D E F G H I J K L M N O P Q R S)
+  (f24 A B C D E A 0 1 I J K L M N O P D D T)
+  :guard
+  (>= E C))
+

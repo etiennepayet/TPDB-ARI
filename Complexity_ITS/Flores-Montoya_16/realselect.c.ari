@@ -1,0 +1,118 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_realselect_0 (-> Int Int Int Int Int Int))
+(fun eval_realselect_1 (-> Int Int Int Int Int Int))
+(fun eval_realselect_19 (-> Int Int Int Int Int Int))
+(fun eval_realselect_2 (-> Int Int Int Int Int Int))
+(fun eval_realselect_20 (-> Int Int Int Int Int Int))
+(fun eval_realselect_27 (-> Int Int Int Int Int Int))
+(fun eval_realselect_28 (-> Int Int Int Int Int Int))
+(fun eval_realselect_3 (-> Int Int Int Int Int Int))
+(fun eval_realselect_4 (-> Int Int Int Int Int Int))
+(fun eval_realselect_5 (-> Int Int Int Int Int Int))
+(fun eval_realselect_6 (-> Int Int Int Int Int Int))
+(fun eval_realselect_bb0_in (-> Int Int Int Int Int Int))
+(fun eval_realselect_bb1_in (-> Int Int Int Int Int Int))
+(fun eval_realselect_bb2_in (-> Int Int Int Int Int Int))
+(fun eval_realselect_bb3_in (-> Int Int Int Int Int Int))
+(fun eval_realselect_bb4_in (-> Int Int Int Int Int Int))
+(fun eval_realselect_bb5_in (-> Int Int Int Int Int Int))
+(fun eval_realselect_start (-> Int Int Int Int Int Int))
+(fun eval_realselect_stop (-> Int Int Int Int Int Int))
+(entrypoint eval_realselect_start)
+(rule
+  (eval_realselect_start v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_bb0_in v_2 v_21 v_array_size v_i_0 v_j_0_sink))
+
+(rule
+  (eval_realselect_bb0_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_0 v_2 v_21 v_array_size v_i_0 v_j_0_sink))
+
+(rule
+  (eval_realselect_0 v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_1 v_2 v_21 v_array_size v_i_0 v_j_0_sink))
+
+(rule
+  (eval_realselect_1 v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_2 v_2 v_21 v_array_size v_i_0 v_j_0_sink))
+
+(rule
+  (eval_realselect_2 v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_3 v_2 v_21 v_array_size v_i_0 v_j_0_sink))
+
+(rule
+  (eval_realselect_3 v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_4 v_2 v_21 v_array_size v_i_0 v_j_0_sink))
+
+(rule
+  (eval_realselect_4 v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_5 v_2 v_21 v_array_size v_i_0 v_j_0_sink))
+
+(rule
+  (eval_realselect_5 v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_6 v_2 v_21 v_array_size v_i_0 v_j_0_sink))
+
+(rule
+  (eval_realselect_6 v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_bb1_in v_2 v_21 v_array_size 0 v_j_0_sink))
+
+(rule
+  (eval_realselect_bb1_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_bb2_in v_2 v_21 v_array_size v_i_0 v_i_0)
+  :guard
+  (< v_i_0 (- v_array_size 1)))
+
+(rule
+  (eval_realselect_bb1_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_bb5_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  :guard
+  (>= v_i_0 (- v_array_size 1)))
+
+(rule
+  (eval_realselect_bb2_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_bb3_in (+ v_j_0_sink 1) v_21 v_array_size v_i_0 v_j_0_sink)
+  :guard
+  (< (+ v_j_0_sink 1) v_array_size))
+
+(rule
+  (eval_realselect_bb2_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_bb4_in (+ v_j_0_sink 1) v_21 v_array_size v_i_0 v_j_0_sink)
+  :guard
+  (>= (+ v_j_0_sink 1) v_array_size))
+
+(rule
+  (eval_realselect_bb3_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_bb2_in v_2 v_21 v_array_size v_i_0 v_2)
+  :guard
+  (< nondef_0 nondef_1))
+
+(rule
+  (eval_realselect_bb3_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_bb2_in v_2 v_21 v_array_size v_i_0 v_2)
+  :guard
+  (>= nondef_0 nondef_1))
+
+(rule
+  (eval_realselect_bb4_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_19 v_2 v_21 v_array_size v_i_0 v_j_0_sink))
+
+(rule
+  (eval_realselect_19 v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_20 v_2 v_21 v_array_size v_i_0 v_j_0_sink))
+
+(rule
+  (eval_realselect_20 v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_27 v_2 (+ v_i_0 1) v_array_size v_i_0 v_j_0_sink))
+
+(rule
+  (eval_realselect_27 v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_28 v_2 v_21 v_array_size v_i_0 v_j_0_sink))
+
+(rule
+  (eval_realselect_28 v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_bb1_in v_2 v_21 v_array_size v_21 v_j_0_sink))
+
+(rule
+  (eval_realselect_bb5_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)
+  (eval_realselect_stop v_2 v_21 v_array_size v_i_0 v_j_0_sink))
+

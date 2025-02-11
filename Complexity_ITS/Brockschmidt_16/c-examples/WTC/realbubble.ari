@@ -1,0 +1,74 @@
+(format LCTRS)
+(theory Ints)
+(fun evalrealbubblebb1in (-> Int Int Int Int Int))
+(fun evalrealbubblebb2in (-> Int Int Int Int Int))
+(fun evalrealbubblebb3in (-> Int Int Int Int Int))
+(fun evalrealbubblebb4in (-> Int Int Int Int Int))
+(fun evalrealbubblebb5in (-> Int Int Int Int Int))
+(fun evalrealbubblebb6in (-> Int Int Int Int Int))
+(fun evalrealbubblebb7in (-> Int Int Int Int Int))
+(fun evalrealbubbleentryin (-> Int Int Int Int Int))
+(fun evalrealbubblereturnin (-> Int Int Int Int Int))
+(fun evalrealbubblestart (-> Int Int Int Int Int))
+(fun evalrealbubblestop (-> Int Int Int Int Int))
+(entrypoint evalrealbubblestart)
+(rule (evalrealbubblestart A B C D) (evalrealbubbleentryin A B C D))
+(rule (evalrealbubbleentryin A B C D) (evalrealbubblebb7in (- A 1) B C D))
+(rule
+  (evalrealbubblebb7in A B C D)
+  (evalrealbubblebb4in A 0 0 D)
+  :guard
+  (>= A 1))
+
+(rule
+  (evalrealbubblebb7in A B C D)
+  (evalrealbubblereturnin A B C D)
+  :guard
+  (>= 0 A))
+
+(rule
+  (evalrealbubblebb4in A B C D)
+  (evalrealbubblebb1in A B C D)
+  :guard
+  (>= A (+ B 1)))
+
+(rule
+  (evalrealbubblebb4in A B C D)
+  (evalrealbubblebb5in A B C D)
+  :guard
+  (>= B A))
+
+(rule
+  (evalrealbubblebb1in A B C D)
+  (evalrealbubblebb2in A B C D)
+  :guard
+  (>= E (+ F 1)))
+
+(rule
+  (evalrealbubblebb1in A B C D)
+  (evalrealbubblebb3in A B C C)
+  :guard
+  (>= F E))
+
+(rule (evalrealbubblebb2in A B C D) (evalrealbubblebb3in A B C 1))
+(rule (evalrealbubblebb3in A B C D) (evalrealbubblebb4in A (+ B 1) D D))
+(rule
+  (evalrealbubblebb5in A B C D)
+  (evalrealbubblereturnin A B C D)
+  :guard
+  (= C 0))
+
+(rule
+  (evalrealbubblebb5in A B C D)
+  (evalrealbubblebb6in A B C D)
+  :guard
+  (>= 0 (+ C 1)))
+
+(rule
+  (evalrealbubblebb5in A B C D)
+  (evalrealbubblebb6in A B C D)
+  :guard
+  (>= C 1))
+
+(rule (evalrealbubblebb6in A B C D) (evalrealbubblebb7in (- A 1) B C D))
+(rule (evalrealbubblereturnin A B C D) (evalrealbubblestop A B C D))

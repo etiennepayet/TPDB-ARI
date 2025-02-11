@@ -1,0 +1,79 @@
+(format LCTRS)
+(theory Ints)
+(fun evalfbb2in (-> Int Int Int Int Int))
+(fun evalfbb3in (-> Int Int Int Int Int))
+(fun evalfbb4in (-> Int Int Int Int Int))
+(fun evalfbb5in (-> Int Int Int Int Int))
+(fun evalfbb6in (-> Int Int Int Int Int))
+(fun evalfbb7in (-> Int Int Int Int Int))
+(fun evalfentryin (-> Int Int Int Int Int))
+(fun evalfreturnin (-> Int Int Int Int Int))
+(fun evalfstart (-> Int Int Int Int Int))
+(fun evalfstop (-> Int Int Int Int Int))
+(entrypoint evalfstart)
+(rule (evalfstart A B C D) (evalfentryin A B C D))
+(rule (evalfentryin A B C D) (evalfbb7in 0 B C D))
+(rule
+  (evalfbb7in A B C D)
+  (evalfbb5in A B 0 D)
+  :guard
+  (and (and (>= (* (* B B) B) 0) (>= 0 (* (* B B) B))) (>= 0 (+ 1 A))))
+
+(rule
+  (evalfbb7in A B C D)
+  (evalfbb5in A B 0 D)
+  :guard
+  (and
+    (and
+      (and (and (>= (* (* B B) B) 1) (>= E 0)) (>= (* (* B B) B) (* 2 E)))
+      (>= (+ 1 (* 2 E)) (* (* B B) B)))
+    (>= E (+ 1 A)))
+  )
+
+(rule
+  (evalfbb7in A B C D)
+  (evalfbb5in A B 0 D)
+  :guard
+  (and
+    (and
+      (and (and (>= 0 (+ (* (* B B) B) 1)) (>= 0 E)) (>= E (+ 1 A)))
+      (>= (* 2 E) (* (* B B) B)))
+    (>= (+ 1 (* (* B B) B)) (* 2 E)))
+  )
+
+(rule
+  (evalfbb7in A B C D)
+  (evalfreturnin A B C D)
+  :guard
+  (and (and (>= (* (* B B) B) 0) (>= 0 (* (* B B) B))) (>= A 0)))
+
+(rule
+  (evalfbb7in A B C D)
+  (evalfreturnin A B C D)
+  :guard
+  (and
+    (and
+      (and (and (>= (* (* B B) B) 1) (>= E 0)) (>= (* (* B B) B) (* 2 E)))
+      (>= (+ 1 (* 2 E)) (* (* B B) B)))
+    (>= A E))
+  )
+
+(rule
+  (evalfbb7in A B C D)
+  (evalfreturnin A B C D)
+  :guard
+  (and
+    (and
+      (and (and (>= 0 (+ (* (* B B) B) 1)) (>= 0 E)) (>= A E))
+      (>= (* 2 E) (* (* B B) B)))
+    (>= (+ 1 (* (* B B) B)) (* 2 E)))
+  )
+
+(rule (evalfbb5in A B C D) (evalfbb3in A B C 0) :guard (>= B (+ 1 C)))
+(rule (evalfbb5in A B C D) (evalfbb6in A B C D) :guard (>= C B))
+(rule (evalfbb3in A B C D) (evalfbb2in A B C D) :guard (>= C (+ 1 D)))
+(rule (evalfbb3in A B C D) (evalfbb4in A B C D) :guard (>= D C))
+(rule (evalfbb2in A B C D) (evalfbb3in A B C (+ D 1)))
+(rule (evalfbb4in A B C D) (evalfbb5in A B (+ C 1) D))
+(rule (evalfbb6in A B C D) (evalfbb7in (+ A 1) B C D))
+(rule (evalfreturnin A B C D) (evalfstop A B C D))

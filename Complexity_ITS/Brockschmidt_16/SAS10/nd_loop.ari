@@ -1,0 +1,46 @@
+(format LCTRS)
+(theory Ints)
+(fun cut (-> Int Int Int Int Int))
+(fun lbl51 (-> Int Int Int Int Int))
+(fun start (-> Int Int Int Int Int))
+(fun start0 (-> Int Int Int Int Int))
+(fun stop (-> Int Int Int Int Int))
+(entrypoint start0)
+(rule (start A B C D) (lbl51 E B 0 D) :guard (and (= A B) (= C D)))
+(rule
+  (lbl51 A B C D)
+  (stop A B C D)
+  :guard
+  (and (and (>= C A) (>= C 0)) (>= 9 C)))
+
+(rule
+  (lbl51 A B C D)
+  (stop A B C D)
+  :guard
+  (and (and (>= A (+ C 3)) (>= C 0)) (>= 9 C)))
+
+(rule
+  (lbl51 A B C D)
+  (cut A B C D)
+  :guard
+  (and
+    (and (and (and (>= A (+ C 1)) (>= (+ C 2) A)) (>= 9 A)) (>= C 0))
+    (>= 9 C))
+  )
+
+(rule
+  (lbl51 A B C D)
+  (stop A B C D)
+  :guard
+  (and
+    (and (and (and (>= A 10) (>= A (+ C 1))) (>= (+ C 2) A)) (>= C 0))
+    (>= 9 C))
+  )
+
+(rule
+  (cut A B C D)
+  (lbl51 E B A D)
+  :guard
+  (and (and (and (>= (+ C 2) A) (>= 9 A)) (>= C 0)) (>= A (+ C 1))))
+
+(rule (start0 A B C D) (start B B D D))

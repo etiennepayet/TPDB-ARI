@@ -1,0 +1,992 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_start_0 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_1 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_10 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_15 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_16 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_18 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_19 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_2 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_3 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_4 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_5 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_6 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_7 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_8 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_start_9 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+  eval_start_bb0_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_start_bb10_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_start_bb1_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_start_bb2_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_start_bb3_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_start_bb4_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_start_bb5_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_start_bb6_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_start_bb7_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_start_bb8_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_start_bb9_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_start_start
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun eval_start_stop (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(entrypoint eval_start_start)
+(rule
+  (eval_start_start
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb0_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_bb0_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_0
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_0
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_1
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_1
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_2
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_2
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_3
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_3
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_4
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_4
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_5
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_5
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_6
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_6
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_7
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_7
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_8
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_8
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_9
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_9
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_10
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_10
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb1_in v_4 v_8 v_n v_a_1 v_a_2 v_a_3 0 v_b_1 v_b_2 v_b_3 v_i_0 v_n))
+
+(rule
+  (eval_start_bb1_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb2_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  :guard
+  (> v_a_0 0))
+
+(rule
+  (eval_start_bb1_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb10_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  :guard
+  (<= v_a_0 0))
+
+(rule
+  (eval_start_bb2_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb3_in
+    v_4
+    v_8
+    v_a_0
+    (- v_a_0 1)
+    v_a_2
+    v_a_3
+    v_b_0
+    (+ v_b_0 1)
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_bb3_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb4_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  :guard
+  (> v_b_1 0))
+
+(rule
+  (eval_start_bb3_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb1_in
+    v_4
+    v_8
+    v_a_1
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_1
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  :guard
+  (<= v_b_1 0))
+
+(rule
+  (eval_start_bb4_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_15
+    (- v_b_1 1)
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_15
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_16
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_16
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb5_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_1
+    v_a_3
+    v_b_0
+    v_b_1
+    v_4
+    v_b_3
+    (- v_n 1)
+    v_n)
+  )
+
+(rule
+  (eval_start_bb5_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb6_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  :guard
+  (> v_i_0 0))
+
+(rule
+  (eval_start_bb5_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb3_in
+    v_4
+    v_8
+    v_a_0
+    v_a_2
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_2
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  :guard
+  (<= v_i_0 0))
+
+(rule
+  (eval_start_bb6_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb7_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  :guard
+  (> v_a_2 0))
+
+(rule
+  (eval_start_bb6_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb9_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_2
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_2
+    v_i_0
+    v_n)
+  :guard
+  (<= v_a_2 0))
+
+(rule
+  (eval_start_bb7_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_18
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_18
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_19
+    v_4
+    nondef_0
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_19
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb8_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  :guard
+  (> v_8 0))
+
+(rule
+  (eval_start_19
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb9_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_2
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_2
+    v_i_0
+    v_n)
+  :guard
+  (<= v_8 0))
+
+(rule
+  (eval_start_bb8_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb9_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    (- v_a_2 1)
+    v_b_0
+    v_b_1
+    v_b_2
+    (+ v_b_2 1)
+    v_i_0
+    v_n)
+  )
+
+(rule
+  (eval_start_bb9_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_bb5_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_3
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_3
+    v_b_3
+    (- v_i_0 1)
+    v_n)
+  )
+
+(rule
+  (eval_start_bb10_in
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  (eval_start_stop
+    v_4
+    v_8
+    v_a_0
+    v_a_1
+    v_a_2
+    v_a_3
+    v_b_0
+    v_b_1
+    v_b_2
+    v_b_3
+    v_i_0
+    v_n)
+  )
+

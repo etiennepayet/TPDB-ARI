@@ -1,0 +1,109 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_wcet0_0 (-> Int Int Int Int Int Int))
+(fun eval_wcet0_1 (-> Int Int Int Int Int Int))
+(fun eval_wcet0_2 (-> Int Int Int Int Int Int))
+(fun eval_wcet0_3 (-> Int Int Int Int Int Int))
+(fun eval_wcet0_4 (-> Int Int Int Int Int Int))
+(fun eval_wcet0_5 (-> Int Int Int Int Int Int))
+(fun eval_wcet0_bb0_in (-> Int Int Int Int Int Int))
+(fun eval_wcet0_bb1_in (-> Int Int Int Int Int Int))
+(fun eval_wcet0_bb2_in (-> Int Int Int Int Int Int))
+(fun eval_wcet0_bb3_in (-> Int Int Int Int Int Int))
+(fun eval_wcet0_bb4_in (-> Int Int Int Int Int Int))
+(fun eval_wcet0_bb5_in (-> Int Int Int Int Int Int))
+(fun eval_wcet0_start (-> Int Int Int Int Int Int))
+(fun eval_wcet0_stop (-> Int Int Int Int Int Int))
+(entrypoint eval_wcet0_start)
+(rule
+  (eval_wcet0_start v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_bb0_in v_1 v_i_0 v_j_0 v_j_3 v_n))
+
+(rule
+  (eval_wcet0_bb0_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_0 v_1 v_i_0 v_j_0 v_j_3 v_n))
+
+(rule
+  (eval_wcet0_0 v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_1 v_1 v_i_0 v_j_0 v_j_3 v_n))
+
+(rule
+  (eval_wcet0_1 v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_2 v_1 v_i_0 v_j_0 v_j_3 v_n))
+
+(rule
+  (eval_wcet0_2 v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_3 v_1 v_i_0 v_j_0 v_j_3 v_n))
+
+(rule
+  (eval_wcet0_3 v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_bb1_in v_1 v_n 0 v_j_3 v_n)
+  :guard
+  (>= v_n 1))
+
+(rule
+  (eval_wcet0_3 v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_bb5_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  :guard
+  (< v_n 1))
+
+(rule
+  (eval_wcet0_bb1_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_4 v_1 v_i_0 v_j_0 v_j_3 v_n))
+
+(rule
+  (eval_wcet0_4 v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_5 nondef_0 v_i_0 v_j_0 v_j_3 v_n))
+
+(rule
+  (eval_wcet0_5 v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_bb2_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  :guard
+  (> v_1 0))
+
+(rule
+  (eval_wcet0_5 v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_bb3_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  :guard
+  (<= v_1 0))
+
+(rule
+  (eval_wcet0_bb2_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_bb4_in v_1 v_i_0 v_j_0 0 v_n)
+  :guard
+  (>= (+ v_j_0 1) v_n))
+
+(rule
+  (eval_wcet0_bb2_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_bb4_in v_1 v_i_0 v_j_0 (+ v_j_0 1) v_n)
+  :guard
+  (< (+ v_j_0 1) v_n))
+
+(rule
+  (eval_wcet0_bb3_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_bb4_in v_1 v_i_0 v_j_0 0 v_n)
+  :guard
+  (<= (- v_j_0 1) (- v_n)))
+
+(rule
+  (eval_wcet0_bb3_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_bb4_in v_1 v_i_0 v_j_0 (- v_j_0 1) v_n)
+  :guard
+  (> (- v_j_0 1) (- v_n)))
+
+(rule
+  (eval_wcet0_bb4_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_bb1_in v_1 (- v_i_0 1) v_j_3 v_j_3 v_n)
+  :guard
+  (> (- v_i_0 1) 0))
+
+(rule
+  (eval_wcet0_bb4_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_bb5_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  :guard
+  (<= (- v_i_0 1) 0))
+
+(rule
+  (eval_wcet0_bb5_in v_1 v_i_0 v_j_0 v_j_3 v_n)
+  (eval_wcet0_stop v_1 v_i_0 v_j_0 v_j_3 v_n))
+

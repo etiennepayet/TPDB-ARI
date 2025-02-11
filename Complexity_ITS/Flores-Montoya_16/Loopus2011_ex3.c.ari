@@ -1,0 +1,58 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_ex3_0 (-> Int Int Int Int))
+(fun eval_ex3_1 (-> Int Int Int Int))
+(fun eval_ex3_2 (-> Int Int Int Int))
+(fun eval_ex3_3 (-> Int Int Int Int))
+(fun eval_ex3_4 (-> Int Int Int Int))
+(fun eval_ex3_bb0_in (-> Int Int Int Int))
+(fun eval_ex3_bb1_in (-> Int Int Int Int))
+(fun eval_ex3_bb2_in (-> Int Int Int Int))
+(fun eval_ex3_bb3_in (-> Int Int Int Int))
+(fun eval_ex3_start (-> Int Int Int Int))
+(fun eval_ex3_stop (-> Int Int Int Int))
+(entrypoint eval_ex3_start)
+(rule (eval_ex3_start v__0 v_b v_x) (eval_ex3_bb0_in v__0 v_b v_x))
+(rule (eval_ex3_bb0_in v__0 v_b v_x) (eval_ex3_0 v__0 v_b v_x))
+(rule (eval_ex3_0 v__0 v_b v_x) (eval_ex3_1 v__0 v_b v_x))
+(rule (eval_ex3_1 v__0 v_b v_x) (eval_ex3_2 v__0 v_b v_x))
+(rule (eval_ex3_2 v__0 v_b v_x) (eval_ex3_3 v__0 v_b v_x))
+(rule (eval_ex3_3 v__0 v_b v_x) (eval_ex3_4 v__0 v_b v_x))
+(rule (eval_ex3_4 v__0 v_b v_x) (eval_ex3_bb1_in v_x v_b v_x))
+(rule
+  (eval_ex3_bb1_in v__0 v_b v_x)
+  (eval_ex3_bb2_in v__0 v_b v_x)
+  :guard
+  (and (< 0 v__0) (< v__0 255)))
+
+(rule
+  (eval_ex3_bb1_in v__0 v_b v_x)
+  (eval_ex3_bb3_in v__0 v_b v_x)
+  :guard
+  (>= 0 v__0))
+
+(rule
+  (eval_ex3_bb1_in v__0 v_b v_x)
+  (eval_ex3_bb3_in v__0 v_b v_x)
+  :guard
+  (>= v__0 255))
+
+(rule
+  (eval_ex3_bb2_in v__0 v_b v_x)
+  (eval_ex3_bb1_in (+ v__0 1) v_b v_x)
+  :guard
+  (< v_b 0))
+
+(rule
+  (eval_ex3_bb2_in v__0 v_b v_x)
+  (eval_ex3_bb1_in (+ v__0 1) v_b v_x)
+  :guard
+  (> v_b 0))
+
+(rule
+  (eval_ex3_bb2_in v__0 v_b v_x)
+  (eval_ex3_bb1_in (- v__0 1) v_b v_x)
+  :guard
+  (= v_b 0))
+
+(rule (eval_ex3_bb3_in v__0 v_b v_x) (eval_ex3_stop v__0 v_b v_x))

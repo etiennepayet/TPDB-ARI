@@ -1,0 +1,127 @@
+(format LCTRS)
+(theory Ints)
+(fun f0 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f1 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f2 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f4 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(entrypoint f0)
+(rule (f0 A B C D E F G H I J K L M) (f1 A B C D E F G H I J K L M))
+(rule
+  (f1 A B C D E F G H I J K L M)
+  (f2 0 O P 3 N 0 O P 3 N 2 L M)
+  :guard
+  (and (>= 7 N) (>= N 1)))
+
+(rule
+  (f4 A B C D E F G H I J K L M)
+  (f2 0 O P N Q 0 O P N Q 2 L M)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (and (>= L 1) (>= L (+ P 1))) (>= M 1)) (>= M (+ O 1)))
+          (>= 7 Q))
+        (>= 7 N))
+      (>= Q 1))
+    (>= N 1))
+  )
+
+(rule
+  (f1 A B C D E F G H I J K L M)
+  (f1 O P N 2 Q O P N 2 Q 1 L M)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= Q 1))
+        (>= 7 Q))
+      (>= 1 O))
+    (>= O 0))
+  )
+
+(rule
+  (f2 A B C D E F G H I J K L M)
+  (f1 O P N 2 Q O P N 2 Q 1 L M)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= Q 1))
+        (>= 7 Q))
+      (>= 1 O))
+    (>= O 0))
+  )
+
+(rule
+  (f4 A B C D E F G H I J K L M)
+  (f1 O P N 2 Q O P N 2 Q 1 L M)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (and (and (>= R L) (>= S M)) (>= T 1)) (>= 7 T)) (>= U 1))
+            (>= 7 U))
+          (>= Q 1))
+        (>= 7 Q))
+      (>= 1 O))
+    (>= O 0))
+  )
+
+(rule
+  (f4 A B C D E F G H I J K L M)
+  (f1 O P N 2 Q O P N 2 Q 1 L M)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= Q 1))
+        (>= 7 Q))
+      (>= 1 O))
+    (>= O 0))
+  )
+
+(rule
+  (f2 A B C D E F G H I J K L M)
+  (f4 O P N Q 2 O P N Q 2 4 L M)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= T 1))
+                (>= 7 T))
+              (>= U 1))
+            (>= 7 U))
+          (>= Q 1))
+        (>= 7 Q))
+      (>= 1 O))
+    (>= O 0))
+  )
+
+(rule
+  (f2 A B C D E F G H I J K L M)
+  (f4 O P N Q 7 O P N Q 7 4 L M)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= T 1))
+                (>= 7 T))
+              (>= U 1))
+            (>= 7 U))
+          (>= Q 1))
+        (>= 7 Q))
+      (>= 1 O))
+    (>= O 0))
+  )
+

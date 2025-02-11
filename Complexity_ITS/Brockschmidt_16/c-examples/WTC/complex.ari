@@ -1,0 +1,82 @@
+(format LCTRS)
+(theory Ints)
+(fun evalcomplexbb10in (-> Int Int Int Int Int Int))
+(fun evalcomplexbb1in (-> Int Int Int Int Int Int))
+(fun evalcomplexbb6in (-> Int Int Int Int Int Int))
+(fun evalcomplexbb7in (-> Int Int Int Int Int Int))
+(fun evalcomplexbb8in (-> Int Int Int Int Int Int))
+(fun evalcomplexbb9in (-> Int Int Int Int Int Int))
+(fun evalcomplexentryin (-> Int Int Int Int Int Int))
+(fun evalcomplexreturnin (-> Int Int Int Int Int Int))
+(fun evalcomplexstart (-> Int Int Int Int Int Int))
+(fun evalcomplexstop (-> Int Int Int Int Int Int))
+(entrypoint evalcomplexstart)
+(rule (evalcomplexstart A B C D E) (evalcomplexentryin A B C D E))
+(rule (evalcomplexentryin A B C D E) (evalcomplexbb10in B A C D E))
+(rule
+  (evalcomplexbb10in A B C D E)
+  (evalcomplexbb8in A B A B E)
+  :guard
+  (>= 29 B))
+
+(rule
+  (evalcomplexbb10in A B C D E)
+  (evalcomplexreturnin A B C D E)
+  :guard
+  (>= B 30))
+
+(rule
+  (evalcomplexbb8in A B C D E)
+  (evalcomplexbb1in A B C D E)
+  :guard
+  (>= D (+ C 1)))
+
+(rule
+  (evalcomplexbb8in A B C D E)
+  (evalcomplexbb9in A B C D E)
+  :guard
+  (>= C D))
+
+(rule
+  (evalcomplexbb1in A B C D E)
+  (evalcomplexbb7in A B C D (+ C 7))
+  :guard
+  (and (>= C 6) (>= 2 C)))
+
+(rule
+  (evalcomplexbb1in A B C D E)
+  (evalcomplexbb7in A B C D (+ C 7))
+  :guard
+  (>= C 6))
+
+(rule
+  (evalcomplexbb1in A B C D E)
+  (evalcomplexbb6in A B C D (+ C 7))
+  :guard
+  (and (and (>= C 6) (>= C 3)) (>= 5 C)))
+
+(rule
+  (evalcomplexbb1in A B C D E)
+  (evalcomplexbb7in A B C D (+ C 2))
+  :guard
+  (and (>= 5 C) (>= 7 C)))
+
+(rule
+  (evalcomplexbb1in A B C D E)
+  (evalcomplexbb7in A B C D (+ C 2))
+  :guard
+  (and (>= 5 C) (>= C 11)))
+
+(rule
+  (evalcomplexbb1in A B C D E)
+  (evalcomplexbb6in A B C D (+ C 2))
+  :guard
+  (and (and (>= 5 C) (>= C 8)) (>= 10 C)))
+
+(rule (evalcomplexbb7in A B C D E) (evalcomplexbb8in A B E (+ D 1) E))
+(rule (evalcomplexbb6in A B C D E) (evalcomplexbb8in A B E (+ D 10) E))
+(rule
+  (evalcomplexbb9in A B C D E)
+  (evalcomplexbb10in (- C 10) (+ D 2) C D E))
+
+(rule (evalcomplexreturnin A B C D E) (evalcomplexstop A B C D E))

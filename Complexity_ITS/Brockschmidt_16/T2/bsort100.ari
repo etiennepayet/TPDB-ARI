@@ -1,0 +1,36 @@
+(format LCTRS)
+(theory Ints)
+(fun f0 (-> Int Int Int Int Int Int Int Int))
+(fun f18 (-> Int Int Int Int Int Int Int Int))
+(fun f22 (-> Int Int Int Int Int Int Int Int))
+(fun f33 (-> Int Int Int Int Int Int Int Int))
+(fun f40 (-> Int Int Int Int Int Int Int Int))
+(fun f8 (-> Int Int Int Int Int Int Int Int))
+(entrypoint f0)
+(rule (f0 A B C D E F G) (f8 (- 1) (- 1) 1 D E F G))
+(rule (f8 A B C D E F G) (f8 A B (+ C 1) D E F G) :guard (>= 100 C))
+(rule (f18 A B C D E F G) (f22 A B C D 1 1 G) :guard (>= 99 D))
+(rule (f22 A B C D E F G) (f33 A B C D E F G) :guard (>= F 100))
+(rule
+  (f22 A B C D E F G)
+  (f33 A B C D E F G)
+  :guard
+  (and (>= 99 F) (>= (+ F D) 101)))
+
+(rule
+  (f22 A B C D E F G)
+  (f22 A B C D E (+ F 1) G)
+  :guard
+  (and (>= 99 F) (>= 100 (+ D F))))
+
+(rule
+  (f22 A B C D E F G)
+  (f22 A B C D 0 (+ F 1) H)
+  :guard
+  (and (>= 99 F) (>= 100 (+ D F))))
+
+(rule (f33 A B C D E F G) (f18 A B C (+ D 1) 0 F G) :guard (= E 0))
+(rule (f18 A B C D E F G) (f40 A B C D E F G) :guard (>= D 100))
+(rule (f33 A B C D E F G) (f40 A B C D E F G) :guard (>= 0 (+ E 1)))
+(rule (f33 A B C D E F G) (f40 A B C D E F G) :guard (>= E 1))
+(rule (f8 A B C D E F G) (f18 A B C 1 0 F G) :guard (>= C 101))

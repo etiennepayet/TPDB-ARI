@@ -1,0 +1,84 @@
+(format LCTRS)
+(theory Ints)
+(fun lbl71 (-> Int Int Int Int Int Int Int Int Int))
+(fun start (-> Int Int Int Int Int Int Int Int Int))
+(fun start0 (-> Int Int Int Int Int Int Int Int Int))
+(fun stop (-> Int Int Int Int Int Int Int Int Int))
+(entrypoint start0)
+(rule
+  (start A B C D E F G H)
+  (stop A B C D E F G H)
+  :guard
+  (and (and (and (and (>= A 101) (= B C)) (= D E)) (= F G)) (= H A)))
+
+(rule
+  (start A B C D E F G H)
+  (stop A B C D E F G H)
+  :guard
+  (and (and (and (and (>= G (+ E 1)) (= B C)) (= D E)) (= F G)) (= H A)))
+
+(rule
+  (start A B C D E F G H)
+  (lbl71 A H C (- D 1) E (+ 1 H) G F)
+  :guard
+  (and
+    (and (and (and (and (>= E G) (>= 100 A)) (= B C)) (= D E)) (= F G))
+    (= H A))
+  )
+
+(rule
+  (lbl71 A B C D E F G H)
+  (stop A B C D E F G H)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and (>= (+ (+ A G) E) (+ (+ B 102) D)) (>= E (+ 1 D)))
+              (>= 100 A))
+            (>= E G))
+          (>= (+ (+ (* 2 D) 2) B) (+ (+ A G) E)))
+        (>= 100 B))
+      (= F (+ B 1)))
+    (= (+ (+ (+ H B) 1) D) (+ (+ A G) E)))
+  )
+
+(rule
+  (lbl71 A B C D E F G H)
+  (stop A B C D E F G H)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (and (>= B D) (>= E (+ 1 D))) (>= 100 A)) (>= E G))
+          (>= (+ (+ (* 2 D) 2) B) (+ (+ A G) E)))
+        (>= 100 B))
+      (= F (+ B 1)))
+    (= (+ (+ (+ H B) 1) D) (+ (+ A G) E)))
+  )
+
+(rule
+  (lbl71 A B C D E F G H)
+  (lbl71 A H C (- D 1) E (+ 1 H) G F)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and (>= D (+ B 1)) (>= (+ (+ 101 B) D) (+ (+ A G) E)))
+                (>= E (+ 1 D)))
+              (>= 100 A))
+            (>= E G))
+          (>= (+ (+ (* 2 D) 2) B) (+ (+ A G) E)))
+        (>= 100 B))
+      (= F (+ B 1)))
+    (= (+ (+ (+ H B) 1) D) (+ (+ A G) E)))
+  )
+
+(rule (start0 A B C D E F G H) (start A C C E E G G A))

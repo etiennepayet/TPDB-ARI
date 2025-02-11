@@ -1,0 +1,40 @@
+(format LCTRS)
+(theory Ints)
+(fun lbl71 (-> Int Int Int Int Int Int Int))
+(fun start (-> Int Int Int Int Int Int Int))
+(fun start0 (-> Int Int Int Int Int Int Int))
+(fun stop (-> Int Int Int Int Int Int Int))
+(entrypoint start0)
+(rule
+  (start A B C D E F)
+  (stop A B C D E F)
+  :guard
+  (and (and (and (>= 0 A) (= B A)) (= C D)) (= E F)))
+
+(rule
+  (start A B C D E F)
+  (lbl71 A (- B 1) (- C 1) D (+ 1 E) F)
+  :guard
+  (and (and (and (>= A 1) (= B A)) (= C D)) (= E F)))
+
+(rule
+  (lbl71 A B C D E F)
+  (stop A B C D E F)
+  :guard
+  (and
+    (and (and (>= D (+ C 1)) (= B 0)) (= (+ E C) (+ F D)))
+    (= (+ A C) D))
+  )
+
+(rule
+  (lbl71 A B C D E F)
+  (lbl71 A (- B 1) (- C 1) D (+ 1 E) F)
+  :guard
+  (and
+    (and
+      (and (and (>= (+ A C) (+ D 1)) (>= D (+ C 1))) (>= (+ A C) D))
+      (= (+ E C) (+ D F)))
+    (= (+ B D) (+ A C)))
+  )
+
+(rule (start0 A B C D E F) (start A A D D F F))

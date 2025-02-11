@@ -1,0 +1,93 @@
+(format LCTRS)
+(theory Ints)
+(fun evalnestedLoopbb4in (-> Int Int Int Int Int Int Int Int Int))
+(fun evalnestedLoopbb5in (-> Int Int Int Int Int Int Int Int Int))
+(fun evalnestedLoopbb6in (-> Int Int Int Int Int Int Int Int Int))
+(fun evalnestedLoopbb7in (-> Int Int Int Int Int Int Int Int Int))
+(fun evalnestedLoopbb8in (-> Int Int Int Int Int Int Int Int Int))
+(fun evalnestedLoopbb9in (-> Int Int Int Int Int Int Int Int Int))
+(fun evalnestedLoopentryin (-> Int Int Int Int Int Int Int Int Int))
+(fun evalnestedLoopreturnin (-> Int Int Int Int Int Int Int Int Int))
+(fun evalnestedLoopstart (-> Int Int Int Int Int Int Int Int Int))
+(fun evalnestedLoopstop (-> Int Int Int Int Int Int Int Int Int))
+(entrypoint evalnestedLoopstart)
+(rule
+  (evalnestedLoopstart A B C D E F G H)
+  (evalnestedLoopentryin A B C D E F G H))
+
+(rule
+  (evalnestedLoopentryin A B C D E F G H)
+  (evalnestedLoopbb9in A B C 0 E F G H)
+  :guard
+  (and (and (>= A 0) (>= B 0)) (>= C 0)))
+
+(rule
+  (evalnestedLoopentryin A B C D E F G H)
+  (evalnestedLoopreturnin A B C D E F G H)
+  :guard
+  (>= 0 (+ A 1)))
+
+(rule
+  (evalnestedLoopentryin A B C D E F G H)
+  (evalnestedLoopreturnin A B C D E F G H)
+  :guard
+  (>= 0 (+ B 1)))
+
+(rule
+  (evalnestedLoopentryin A B C D E F G H)
+  (evalnestedLoopreturnin A B C D E F G H)
+  :guard
+  (>= 0 (+ C 1)))
+
+(rule
+  (evalnestedLoopbb9in A B C D E F G H)
+  (evalnestedLoopbb7in A B C D 0 D G H)
+  :guard
+  (>= A (+ D 1)))
+
+(rule
+  (evalnestedLoopbb9in A B C D E F G H)
+  (evalnestedLoopreturnin A B C D E F G H)
+  :guard
+  (>= D A))
+
+(rule
+  (evalnestedLoopbb7in A B C D E F G H)
+  (evalnestedLoopbb4in A B C D E F G H)
+  :guard
+  (>= B (+ E 1)))
+
+(rule
+  (evalnestedLoopbb7in A B C D E F G H)
+  (evalnestedLoopbb8in A B C D E F G H)
+  :guard
+  (>= E B))
+
+(rule
+  (evalnestedLoopbb4in A B C D E F G H)
+  (evalnestedLoopbb6in A B C D E F (+ E 1) F))
+
+(rule
+  (evalnestedLoopbb6in A B C D E F G H)
+  (evalnestedLoopbb5in A B C D E F G H)
+  :guard
+  (>= C (+ H 1)))
+
+(rule
+  (evalnestedLoopbb6in A B C D E F G H)
+  (evalnestedLoopbb7in A B C D G H G H)
+  :guard
+  (>= H C))
+
+(rule
+  (evalnestedLoopbb5in A B C D E F G H)
+  (evalnestedLoopbb6in A B C D E F G (+ H 1)))
+
+(rule
+  (evalnestedLoopbb8in A B C D E F G H)
+  (evalnestedLoopbb9in A B C (+ F 1) E F G H))
+
+(rule
+  (evalnestedLoopreturnin A B C D E F G H)
+  (evalnestedLoopstop A B C D E F G H))
+

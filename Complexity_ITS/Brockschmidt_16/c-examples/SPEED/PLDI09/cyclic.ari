@@ -1,0 +1,36 @@
+(format LCTRS)
+(theory Ints)
+(fun evalcyclicbb3in (-> Int Int Int Int))
+(fun evalcyclicbb4in (-> Int Int Int Int))
+(fun evalcyclicbbin (-> Int Int Int Int))
+(fun evalcyclicentryin (-> Int Int Int Int))
+(fun evalcyclicreturnin (-> Int Int Int Int))
+(fun evalcyclicstart (-> Int Int Int Int))
+(fun evalcyclicstop (-> Int Int Int Int))
+(entrypoint evalcyclicstart)
+(rule (evalcyclicstart A B C) (evalcyclicentryin A B C))
+(rule
+  (evalcyclicentryin A B C)
+  (evalcyclicbb3in A B (+ A 1))
+  :guard
+  (and (>= A 0) (>= B (+ A 1))))
+
+(rule (evalcyclicbb3in A B C) (evalcyclicreturnin A B C) :guard (= C A))
+(rule
+  (evalcyclicbb3in A B C)
+  (evalcyclicbb4in A B C)
+  :guard
+  (>= A (+ C 1)))
+
+(rule
+  (evalcyclicbb3in A B C)
+  (evalcyclicbb4in A B C)
+  :guard
+  (>= C (+ A 1)))
+
+(rule (evalcyclicbb4in A B C) (evalcyclicbbin A B C) :guard (>= 0 (+ D 1)))
+(rule (evalcyclicbb4in A B C) (evalcyclicbbin A B C) :guard (>= D 1))
+(rule (evalcyclicbb4in A B C) (evalcyclicreturnin A B C))
+(rule (evalcyclicbbin A B C) (evalcyclicbb3in A B (+ C 1)) :guard (>= B C))
+(rule (evalcyclicbbin A B C) (evalcyclicbb3in A B 0) :guard (>= C (+ B 1)))
+(rule (evalcyclicreturnin A B C) (evalcyclicstop A B C))

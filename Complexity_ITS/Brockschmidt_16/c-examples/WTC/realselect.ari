@@ -1,0 +1,53 @@
+(format LCTRS)
+(theory Ints)
+(fun evalrealselectbb1in (-> Int Int Int Int))
+(fun evalrealselectbb4in (-> Int Int Int Int))
+(fun evalrealselectbb5in (-> Int Int Int Int))
+(fun evalrealselectbb6in (-> Int Int Int Int))
+(fun evalrealselectbbin (-> Int Int Int Int))
+(fun evalrealselectentryin (-> Int Int Int Int))
+(fun evalrealselectreturnin (-> Int Int Int Int))
+(fun evalrealselectstart (-> Int Int Int Int))
+(fun evalrealselectstop (-> Int Int Int Int))
+(entrypoint evalrealselectstart)
+(rule (evalrealselectstart A B C) (evalrealselectentryin A B C))
+(rule (evalrealselectentryin A B C) (evalrealselectbb6in 0 B C))
+(rule
+  (evalrealselectbb6in A B C)
+  (evalrealselectbbin A B C)
+  :guard
+  (>= B (+ 2 A)))
+
+(rule
+  (evalrealselectbb6in A B C)
+  (evalrealselectreturnin A B C)
+  :guard
+  (>= (+ A 1) B))
+
+(rule (evalrealselectbbin A B C) (evalrealselectbb4in A B (+ A 1)))
+(rule
+  (evalrealselectbb4in A B C)
+  (evalrealselectbb1in A B C)
+  :guard
+  (>= B (+ C 1)))
+
+(rule
+  (evalrealselectbb4in A B C)
+  (evalrealselectbb5in A B C)
+  :guard
+  (>= C B))
+
+(rule
+  (evalrealselectbb1in A B C)
+  (evalrealselectbb4in A B (+ C 1))
+  :guard
+  (>= D (+ E 1)))
+
+(rule
+  (evalrealselectbb1in A B C)
+  (evalrealselectbb4in A B (+ C 1))
+  :guard
+  (>= E D))
+
+(rule (evalrealselectbb5in A B C) (evalrealselectbb6in (+ A 1) B C))
+(rule (evalrealselectreturnin A B C) (evalrealselectstop A B C))

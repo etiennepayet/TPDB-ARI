@@ -1,0 +1,147 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_rank2_0 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_1 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_10 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_11 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_15 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_16 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_17 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_18 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_2 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_3 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_4 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_5 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_6 (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2__critedge_in (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_bb0_in (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_bb1_in (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_bb2_in (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_bb3_in (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_bb4_in (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_bb5_in (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_bb6_in (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_start (-> Int Int Int Int Int Int Int Int Int))
+(fun eval_rank2_stop (-> Int Int Int Int Int Int Int Int Int))
+(entrypoint eval_rank2_start)
+(rule
+  (eval_rank2_start v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_bb0_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_bb0_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_0 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_0 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_1 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_1 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_2 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_2 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_3 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_3 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_4 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_4 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_5 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_5 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_6 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_6 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_bb1_in v_1 v_4 v_7 v_8 v_m v_m v_m v_y_1))
+
+(rule
+  (eval_rank2_bb1_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_bb2_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  :guard
+  (>= v_x_0 2))
+
+(rule
+  (eval_rank2_bb1_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_bb6_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  :guard
+  (< v_x_0 2))
+
+(rule
+  (eval_rank2_bb2_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_bb3_in
+    (- v_x_0 1)
+    v_4
+    v_7
+    v_8
+    v_m
+    v_x_0
+    v_y_0
+    (- (+ v_y_0 v_x_0) 1))
+  )
+
+(rule
+  (eval_rank2_bb3_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_bb4_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  :guard
+  (>= v_y_1 v_1))
+
+(rule
+  (eval_rank2_bb3_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2__critedge_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  :guard
+  (< v_y_1 v_1))
+
+(rule
+  (eval_rank2_bb4_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_10 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_10 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_11 v_1 nondef_0 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_11 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_bb5_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  :guard
+  (> v_4 0))
+
+(rule
+  (eval_rank2_11 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2__critedge_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  :guard
+  (<= v_4 0))
+
+(rule
+  (eval_rank2_bb5_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_bb3_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 (- v_y_1 1)))
+
+(rule
+  (eval_rank2__critedge_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_15 v_1 v_4 (- v_1 1) v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_15 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_16 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_16 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_17 v_1 v_4 v_7 (- v_y_1 v_7) v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_17 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_18 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+
+(rule
+  (eval_rank2_18 v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_bb1_in v_1 v_4 v_7 v_8 v_m v_7 v_8 v_y_1))
+
+(rule
+  (eval_rank2_bb6_in v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1)
+  (eval_rank2_stop v_1 v_4 v_7 v_8 v_m v_x_0 v_y_0 v_y_1))
+

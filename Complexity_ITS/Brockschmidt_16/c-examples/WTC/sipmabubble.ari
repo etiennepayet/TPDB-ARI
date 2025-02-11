@@ -1,0 +1,40 @@
+(format LCTRS)
+(theory Ints)
+(fun evalsipmabubblebb1in (-> Int Int Int))
+(fun evalsipmabubblebb2in (-> Int Int Int))
+(fun evalsipmabubblebb3in (-> Int Int Int))
+(fun evalsipmabubblebb4in (-> Int Int Int))
+(fun evalsipmabubblebb5in (-> Int Int Int))
+(fun evalsipmabubblebb6in (-> Int Int Int))
+(fun evalsipmabubbleentryin (-> Int Int Int))
+(fun evalsipmabubblereturnin (-> Int Int Int))
+(fun evalsipmabubblestart (-> Int Int Int))
+(fun evalsipmabubblestop (-> Int Int Int))
+(entrypoint evalsipmabubblestart)
+(rule (evalsipmabubblestart A B) (evalsipmabubbleentryin A B))
+(rule (evalsipmabubbleentryin A B) (evalsipmabubblebb6in A B))
+(rule (evalsipmabubblebb6in A B) (evalsipmabubblebb4in A 0) :guard (>= A 0))
+(rule
+  (evalsipmabubblebb6in A B)
+  (evalsipmabubblereturnin A B)
+  :guard
+  (>= 0 (+ A 1)))
+
+(rule
+  (evalsipmabubblebb4in A B)
+  (evalsipmabubblebb1in A B)
+  :guard
+  (>= A (+ 1 B)))
+
+(rule (evalsipmabubblebb4in A B) (evalsipmabubblebb5in A B) :guard (>= B A))
+(rule
+  (evalsipmabubblebb1in A B)
+  (evalsipmabubblebb2in A B)
+  :guard
+  (>= C (+ D 1)))
+
+(rule (evalsipmabubblebb1in A B) (evalsipmabubblebb3in A B) :guard (>= D C))
+(rule (evalsipmabubblebb2in A B) (evalsipmabubblebb3in A B))
+(rule (evalsipmabubblebb3in A B) (evalsipmabubblebb4in A (+ B 1)))
+(rule (evalsipmabubblebb5in A B) (evalsipmabubblebb6in (- A 1) B))
+(rule (evalsipmabubblereturnin A B) (evalsipmabubblestop A B))

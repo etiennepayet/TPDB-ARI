@@ -1,0 +1,187 @@
+(format LCTRS)
+(theory Ints)
+(fun f1 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f2 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f23 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f26 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f30 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f40 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f44 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f5 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f59 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f69 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f71 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f74 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f9 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(entrypoint f2)
+(rule
+  (f69 A B C D E F G H I J K)
+  (f71 A B C D E F G H I J K)
+  :guard
+  (>= 0 (+ L 1)))
+
+(rule
+  (f69 A B C D E F G H I J K)
+  (f71 A B C D E F G H I J K)
+  :guard
+  (>= L 1))
+
+(rule (f2 A B C D E F G H I J K) (f5 A B C D E F G H I J K))
+(rule (f5 A B C D E F G H I J K) (f9 A B 0 D E F G H I J K) :guard (>= A B))
+(rule
+  (f9 A B C D E F G H I J K)
+  (f9 A B C (+ D 1) L L G H I J K)
+  :guard
+  (and (>= C L) (>= A D)))
+
+(rule
+  (f9 A B C D E F G H I J K)
+  (f9 A B L (+ D 1) L L G H I J K)
+  :guard
+  (and (>= L (+ 1 C)) (>= A D)))
+
+(rule
+  (f23 A B C D E F G H I J K)
+  (f26 A B C D E F G H I J K)
+  :guard
+  (>= A D))
+
+(rule
+  (f26 A B C D E F G H I J K)
+  (f30 A B C D E F L H I J K)
+  :guard
+  (>= D (+ B 1)))
+
+(rule
+  (f30 A B C D E F G H I J K)
+  (f30 A B C D E F (- G (* L M)) (+ H 1) I J K)
+  :guard
+  (>= B (+ H 1)))
+
+(rule
+  (f40 A B C D E F G H I J K)
+  (f44 A B C D E F L H I J K)
+  :guard
+  (>= A B))
+
+(rule
+  (f44 A B C D E F G H I J K)
+  (f44 A B C D E F (- G (* L M)) (+ H 1) I J K)
+  :guard
+  (>= D (+ H 1)))
+
+(rule
+  (f59 A B C D E F G H I J K)
+  (f59 A B C D E F G (+ H 1) L J K)
+  :guard
+  (>= A H))
+
+(rule (f69 A B C D E F G H I J K) (f71 A B C D E F G H I J K))
+(rule
+  (f71 A B C D E F G H I J K)
+  (f74 A B C D E F G H L J K)
+  :guard
+  (>= A (+ D 1)))
+
+(rule
+  (f71 A B C D E F G H I J K)
+  (f74 A B C D E F G H L J K)
+  :guard
+  (>= D (+ 1 A)))
+
+(rule
+  (f74 A B C D E F G H I J K)
+  (f74 A (+ B 1) C D E F G H I J K)
+  :guard
+  (>= A B))
+
+(rule
+  (f71 A B C D E F G H I J K)
+  (f23 A B C (+ A 1) E F G H I J K)
+  :guard
+  (= A D))
+
+(rule
+  (f74 A B C D E F G H I J K)
+  (f23 A B C (+ D 1) E F G H I J K)
+  :guard
+  (>= B (+ 1 A)))
+
+(rule
+  (f59 A B C D E F G H I J K)
+  (f69 A B C D E F G H I J K)
+  :guard
+  (>= H (+ 1 A)))
+
+(rule
+  (f44 A B C D E F G H I J K)
+  (f40 A (+ B 1) C D E F G H (* L M) L K)
+  :guard
+  (and (>= C (+ (* L M) 1)) (>= H D)))
+
+(rule
+  (f44 A B C D E F G H I J K)
+  (f40 A (+ B 1) (* L M) D E F G H (* L M) M B)
+  :guard
+  (and (>= (* L M) C) (>= H D)))
+
+(rule
+  (f40 A B C D E F G H I J K)
+  (f59 A B C D E F G H I J K)
+  :guard
+  (and (>= B (+ 1 A)) (>= K (+ D 1))))
+
+(rule
+  (f40 A B C D E F G H I J K)
+  (f59 A B C D E F G H I J K)
+  :guard
+  (and (>= B (+ 1 A)) (>= D (+ 1 K))))
+
+(rule
+  (f40 A B C D E F G H I J K)
+  (f69 A B C D E F G H I J D)
+  :guard
+  (and (>= B (+ 1 A)) (= D K)))
+
+(rule
+  (f30 A B C D E F G H I J K)
+  (f26 A (+ B 1) C D E F G H I J K)
+  :guard
+  (>= H B))
+
+(rule
+  (f26 A B C D E F G H I J K)
+  (f40 A B 0 D E F G H I J K)
+  :guard
+  (>= B D))
+
+(rule
+  (f23 A B C D E F G H I J K)
+  (f1 A B C D E F G H I J K)
+  :guard
+  (>= D (+ 1 A)))
+
+(rule
+  (f9 A B C D E F G H I J K)
+  (f5 A (+ B 1) C D E F G H I J K)
+  :guard
+  (and (>= 0 (+ C 1)) (>= D (+ 1 A))))
+
+(rule
+  (f9 A B C D E F G H I J K)
+  (f5 A (+ B 1) C D E F G H I J K)
+  :guard
+  (and (>= C 1) (>= D (+ 1 A))))
+
+(rule
+  (f9 A B C D E F G H I J K)
+  (f5 A (+ B 1) 0 D E F G H I J K)
+  :guard
+  (and (>= D (+ 1 A)) (= C 0)))
+
+(rule
+  (f5 A B C D E F G H I J K)
+  (f23 A B C D E F G H I J K)
+  :guard
+  (>= B (+ 1 A)))
+

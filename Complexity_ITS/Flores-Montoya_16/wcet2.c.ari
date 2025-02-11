@@ -1,0 +1,79 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_wcet2_0 (-> Int Int Int Int Int))
+(fun eval_wcet2_1 (-> Int Int Int Int Int))
+(fun eval_wcet2_2 (-> Int Int Int Int Int))
+(fun eval_wcet2_3 (-> Int Int Int Int Int))
+(fun eval_wcet2_7 (-> Int Int Int Int Int))
+(fun eval_wcet2_8 (-> Int Int Int Int Int))
+(fun eval_wcet2_bb0_in (-> Int Int Int Int Int))
+(fun eval_wcet2_bb1_in (-> Int Int Int Int Int))
+(fun eval_wcet2_bb2_in (-> Int Int Int Int Int))
+(fun eval_wcet2_bb3_in (-> Int Int Int Int Int))
+(fun eval_wcet2_bb4_in (-> Int Int Int Int Int))
+(fun eval_wcet2_bb5_in (-> Int Int Int Int Int))
+(fun eval_wcet2_start (-> Int Int Int Int Int))
+(fun eval_wcet2_stop (-> Int Int Int Int Int))
+(entrypoint eval_wcet2_start)
+(rule
+  (eval_wcet2_start v__0 v_4 v_i v_j_0)
+  (eval_wcet2_bb0_in v__0 v_4 v_i v_j_0))
+
+(rule
+  (eval_wcet2_bb0_in v__0 v_4 v_i v_j_0)
+  (eval_wcet2_0 v__0 v_4 v_i v_j_0))
+
+(rule (eval_wcet2_0 v__0 v_4 v_i v_j_0) (eval_wcet2_1 v__0 v_4 v_i v_j_0))
+(rule (eval_wcet2_1 v__0 v_4 v_i v_j_0) (eval_wcet2_2 v__0 v_4 v_i v_j_0))
+(rule (eval_wcet2_2 v__0 v_4 v_i v_j_0) (eval_wcet2_3 v__0 v_4 v_i v_j_0))
+(rule
+  (eval_wcet2_3 v__0 v_4 v_i v_j_0)
+  (eval_wcet2_bb1_in v_i v_4 v_i v_j_0))
+
+(rule
+  (eval_wcet2_bb1_in v__0 v_4 v_i v_j_0)
+  (eval_wcet2_bb2_in v__0 v_4 v_i 0)
+  :guard
+  (< v__0 5))
+
+(rule
+  (eval_wcet2_bb1_in v__0 v_4 v_i v_j_0)
+  (eval_wcet2_bb5_in v__0 v_4 v_i v_j_0)
+  :guard
+  (>= v__0 5))
+
+(rule
+  (eval_wcet2_bb2_in v__0 v_4 v_i v_j_0)
+  (eval_wcet2_bb3_in v__0 v_4 v_i v_j_0)
+  :guard
+  (and (> v__0 2) (<= v_j_0 9)))
+
+(rule
+  (eval_wcet2_bb2_in v__0 v_4 v_i v_j_0)
+  (eval_wcet2_bb4_in v__0 v_4 v_i v_j_0)
+  :guard
+  (<= v__0 2))
+
+(rule
+  (eval_wcet2_bb2_in v__0 v_4 v_i v_j_0)
+  (eval_wcet2_bb4_in v__0 v_4 v_i v_j_0)
+  :guard
+  (> v_j_0 9))
+
+(rule
+  (eval_wcet2_bb3_in v__0 v_4 v_i v_j_0)
+  (eval_wcet2_bb2_in v__0 v_4 v_i (+ v_j_0 1)))
+
+(rule
+  (eval_wcet2_bb4_in v__0 v_4 v_i v_j_0)
+  (eval_wcet2_7 v__0 (+ v__0 1) v_i v_j_0))
+
+(rule (eval_wcet2_7 v__0 v_4 v_i v_j_0) (eval_wcet2_8 v__0 v_4 v_i v_j_0))
+(rule
+  (eval_wcet2_8 v__0 v_4 v_i v_j_0)
+  (eval_wcet2_bb1_in v_4 v_4 v_i v_j_0))
+
+(rule
+  (eval_wcet2_bb5_in v__0 v_4 v_i v_j_0)
+  (eval_wcet2_stop v__0 v_4 v_i v_j_0))
+

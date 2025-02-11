@@ -1,0 +1,39 @@
+(format LCTRS)
+(theory Ints)
+(fun f0 (-> Int Int Int Int Int Int Int Int))
+(fun f58 (-> Int Int Int Int Int Int Int Int))
+(fun f66 (-> Int Int Int Int Int Int Int Int))
+(fun f69 (-> Int Int Int Int Int Int Int Int))
+(fun f80 (-> Int Int Int Int Int Int Int Int))
+(fun f86 (-> Int Int Int Int Int Int Int Int))
+(fun f90 (-> Int Int Int Int Int Int Int Int))
+(entrypoint f0)
+(rule (f0 A B C D E F G) (f58 5 16 0 0 E F G))
+(rule
+  (f58 A B C D E F G)
+  (f58 A B C (+ C 1) E F G)
+  :guard
+  (and (>= A (+ D 1)) (= C D)))
+
+(rule
+  (f58 A B C D E F G)
+  (f58 A B C (+ D 1) E F G)
+  :guard
+  (and (>= A (+ D 1)) (>= C (+ D 1))))
+
+(rule
+  (f58 A B C D E F G)
+  (f58 A B C (+ D 1) E F G)
+  :guard
+  (and (>= A (+ D 1)) (>= D (+ 1 C))))
+
+(rule (f66 A B C D E F G) (f69 A B C D 0 F G) :guard (>= A (+ D 1)))
+(rule (f69 A B C D E F G) (f69 A B C D (+ E 1) H I) :guard (>= B (+ E 1)))
+(rule (f80 A B C D E F G) (f86 A B C D E H I) :guard (>= B (+ D 1)))
+(rule (f80 A B C D E F G) (f80 A B C (+ D 1) E H I) :guard (>= B (+ D 1)))
+(rule (f90 A B C D E F G) (f90 A B C (+ D 1) E F G) :guard (>= A (+ D 1)))
+(rule (f90 A B C D E F G) (f86 A B C D E F G) :guard (>= D A))
+(rule (f80 A B C D E F G) (f90 A B C 0 E F G) :guard (>= D B))
+(rule (f69 A B C D E F G) (f66 A B C (+ D 1) E F G) :guard (>= E B))
+(rule (f66 A B C D E F G) (f80 A B C 0 E F G) :guard (>= D A))
+(rule (f58 A B C D E F G) (f66 A B C 0 E F G) :guard (>= D A))

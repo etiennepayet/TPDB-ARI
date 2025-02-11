@@ -1,0 +1,7 @@
+(format LCTRS)
+(theory Ints)
+(fun f1 (-> Int Int))
+(fun f4 (-> Int Int))
+(entrypoint f1)
+(rule (f1 A) (f4 3))
+(rule (f4 A) (f4 3))

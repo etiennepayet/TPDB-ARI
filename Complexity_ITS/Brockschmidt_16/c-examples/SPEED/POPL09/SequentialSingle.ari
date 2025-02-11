@@ -1,0 +1,54 @@
+(format LCTRS)
+(theory Ints)
+(fun evalSequentialSinglebb1in (-> Int Int Int))
+(fun evalSequentialSinglebb2in (-> Int Int Int))
+(fun evalSequentialSinglebb4in (-> Int Int Int))
+(fun evalSequentialSinglebb5in (-> Int Int Int))
+(fun evalSequentialSinglebbin (-> Int Int Int))
+(fun evalSequentialSingleentryin (-> Int Int Int))
+(fun evalSequentialSinglereturnin (-> Int Int Int))
+(fun evalSequentialSinglestart (-> Int Int Int))
+(fun evalSequentialSinglestop (-> Int Int Int))
+(entrypoint evalSequentialSinglestart)
+(rule (evalSequentialSinglestart A B) (evalSequentialSingleentryin A B))
+(rule (evalSequentialSingleentryin A B) (evalSequentialSinglebb1in 0 B))
+(rule
+  (evalSequentialSinglebb1in A B)
+  (evalSequentialSinglebb5in A B)
+  :guard
+  (>= A B))
+
+(rule
+  (evalSequentialSinglebb1in A B)
+  (evalSequentialSinglebb2in A B)
+  :guard
+  (>= B (+ A 1)))
+
+(rule
+  (evalSequentialSinglebb2in A B)
+  (evalSequentialSinglebbin A B)
+  :guard
+  (>= 0 (+ C 1)))
+
+(rule
+  (evalSequentialSinglebb2in A B)
+  (evalSequentialSinglebbin A B)
+  :guard
+  (>= C 1))
+
+(rule (evalSequentialSinglebb2in A B) (evalSequentialSinglebb5in A B))
+(rule (evalSequentialSinglebbin A B) (evalSequentialSinglebb1in (+ A 1) B))
+(rule
+  (evalSequentialSinglebb5in A B)
+  (evalSequentialSinglebb4in A B)
+  :guard
+  (>= B (+ A 1)))
+
+(rule
+  (evalSequentialSinglebb5in A B)
+  (evalSequentialSinglereturnin A B)
+  :guard
+  (>= A B))
+
+(rule (evalSequentialSinglebb4in A B) (evalSequentialSinglebb5in (+ A 1) B))
+(rule (evalSequentialSinglereturnin A B) (evalSequentialSinglestop A B))

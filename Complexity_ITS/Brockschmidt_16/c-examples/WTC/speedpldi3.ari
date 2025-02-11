@@ -1,0 +1,57 @@
+(format LCTRS)
+(theory Ints)
+(fun evalspeedpldi3bb2in (-> Int Int Int Int Int))
+(fun evalspeedpldi3bb3in (-> Int Int Int Int Int))
+(fun evalspeedpldi3bb4in (-> Int Int Int Int Int))
+(fun evalspeedpldi3bb5in (-> Int Int Int Int Int))
+(fun evalspeedpldi3entryin (-> Int Int Int Int Int))
+(fun evalspeedpldi3returnin (-> Int Int Int Int Int))
+(fun evalspeedpldi3start (-> Int Int Int Int Int))
+(fun evalspeedpldi3stop (-> Int Int Int Int Int))
+(entrypoint evalspeedpldi3start)
+(rule (evalspeedpldi3start A B C D) (evalspeedpldi3entryin A B C D))
+(rule
+  (evalspeedpldi3entryin A B C D)
+  (evalspeedpldi3returnin A B C D)
+  :guard
+  (>= 0 A))
+
+(rule
+  (evalspeedpldi3entryin A B C D)
+  (evalspeedpldi3returnin A B C D)
+  :guard
+  (>= A B))
+
+(rule
+  (evalspeedpldi3entryin A B C D)
+  (evalspeedpldi3bb5in A B 0 0)
+  :guard
+  (and (>= A 1) (>= B (+ A 1))))
+
+(rule
+  (evalspeedpldi3bb5in A B C D)
+  (evalspeedpldi3bb2in A B C D)
+  :guard
+  (>= B (+ D 1)))
+
+(rule
+  (evalspeedpldi3bb5in A B C D)
+  (evalspeedpldi3returnin A B C D)
+  :guard
+  (>= D B))
+
+(rule
+  (evalspeedpldi3bb2in A B C D)
+  (evalspeedpldi3bb3in A B C D)
+  :guard
+  (>= A (+ C 1)))
+
+(rule
+  (evalspeedpldi3bb2in A B C D)
+  (evalspeedpldi3bb4in A B C D)
+  :guard
+  (>= C A))
+
+(rule (evalspeedpldi3bb3in A B C D) (evalspeedpldi3bb5in A B (+ C 1) D))
+(rule (evalspeedpldi3bb4in A B C D) (evalspeedpldi3bb5in A B 0 (+ D 1)))
+(rule (evalspeedpldi3returnin A B C D) (evalspeedpldi3stop A B C D))

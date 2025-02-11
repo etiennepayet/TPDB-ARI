@@ -1,0 +1,3634 @@
+(format LCTRS)
+(theory Ints)
+(fun f0 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f101 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f103 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f105 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f107 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f109 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f11 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f111 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f113 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f115 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f117 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f119 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f121 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f123 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f125 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f127 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f129 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f13 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f131 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f133 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f135 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f137 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f139 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f141 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f143 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f145 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f147 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f149 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f15 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f151 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f153 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f155 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f157 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f159 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f161 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f163 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f165 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f167 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f169 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f17 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f171 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f173 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f175 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f177 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f179 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f181 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f19 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f21 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f23 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f25 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f27 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f315 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f319 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f321 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f323 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f325 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f327 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f329 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f331 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f333 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f335 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f337 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f339 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f341 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f343 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f345 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f347 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f349 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f351 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f353 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f355 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f357 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f359 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f361 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f363 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f365 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f367 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f369 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f371 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f373 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f375 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f377 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f379 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f381 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f383 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f385 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f387 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f389 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f391 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f393 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f395 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f397 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f399 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f401 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f403 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f405 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f407 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f409 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f411 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f413 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f415 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f417 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f419 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f421 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f423 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f425 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f427 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f429 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f431 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f433 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f435 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f437 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f439 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f441 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f443 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f445 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f447 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f449 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f451 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f453 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f455 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f457 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f459 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f461 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f463 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f465 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f467 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f469 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f471 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f473 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f475 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f477 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f479 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f481 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f483 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f485 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f487 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f489 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f491 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f493 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f495 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f497 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f499 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f501 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f503 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f505 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f507 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f509 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f511 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f513 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f515 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f517 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f519 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f521 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f523 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f525 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f527 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f529 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f531 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f533 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f535 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f537 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f539 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f541 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f543 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f545 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f547 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f549 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f551 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f553 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f555 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f61 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f65 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f67 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f69 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f7 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f71 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f73 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f75 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f77 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f79 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f808 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f81 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f83 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f85 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f87 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f89 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f91 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f93 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f95 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f97 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun f99 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(entrypoint f0)
+(rule
+  (f11 A B C D E F G H I J K L M)
+  (f13 A B C D E F G H I J K L M)
+  :guard
+  (>= 0 A))
+
+(rule
+  (f11 A B C D E F G H I J K L M)
+  (f13 A B C D E F G H I J K L M)
+  :guard
+  (>= A 2))
+
+(rule
+  (f13 A B C D E F G H I J K L M)
+  (f15 A B C D E F G H I J K L M)
+  :guard
+  (>= 1 A))
+
+(rule
+  (f13 A B C D E F G H I J K L M)
+  (f15 A B C D E F G H I J K L M)
+  :guard
+  (>= A 3))
+
+(rule
+  (f15 A B C D E F G H I J K L M)
+  (f17 A B C D E F G H I J K L M)
+  :guard
+  (>= 2 A))
+
+(rule
+  (f15 A B C D E F G H I J K L M)
+  (f17 A B C D E F G H I J K L M)
+  :guard
+  (>= A 4))
+
+(rule
+  (f17 A B C D E F G H I J K L M)
+  (f19 A B C D E F G H I J K L M)
+  :guard
+  (>= 3 A))
+
+(rule
+  (f17 A B C D E F G H I J K L M)
+  (f19 A B C D E F G H I J K L M)
+  :guard
+  (>= A 5))
+
+(rule
+  (f19 A B C D E F G H I J K L M)
+  (f21 A B C D E F G H I J K L M)
+  :guard
+  (>= 4 A))
+
+(rule
+  (f19 A B C D E F G H I J K L M)
+  (f21 A B C D E F G H I J K L M)
+  :guard
+  (>= A 6))
+
+(rule
+  (f21 A B C D E F G H I J K L M)
+  (f23 A B C D E F G H I J K L M)
+  :guard
+  (>= 5 A))
+
+(rule
+  (f21 A B C D E F G H I J K L M)
+  (f23 A B C D E F G H I J K L M)
+  :guard
+  (>= A 7))
+
+(rule
+  (f23 A B C D E F G H I J K L M)
+  (f25 A B C D E F G H I J K L M)
+  :guard
+  (>= 6 A))
+
+(rule
+  (f23 A B C D E F G H I J K L M)
+  (f25 A B C D E F G H I J K L M)
+  :guard
+  (>= A 8))
+
+(rule
+  (f25 A B C D E F G H I J K L M)
+  (f27 A B C D E F G H I J K L M)
+  :guard
+  (>= 7 A))
+
+(rule
+  (f25 A B C D E F G H I J K L M)
+  (f27 A B C D E F G H I J K L M)
+  :guard
+  (>= A 9))
+
+(rule
+  (f65 A B C D E F G H I J K L M)
+  (f67 A B C D E F G H I J K L M)
+  :guard
+  (>= 0 B))
+
+(rule
+  (f65 A B C D E F G H I J K L M)
+  (f67 A B C D E F G H I J K L M)
+  :guard
+  (>= B 2))
+
+(rule
+  (f67 A B C D E F G H I J K L M)
+  (f69 A B C D E F G H I J K L M)
+  :guard
+  (>= 1 B))
+
+(rule
+  (f67 A B C D E F G H I J K L M)
+  (f69 A B C D E F G H I J K L M)
+  :guard
+  (>= B 3))
+
+(rule
+  (f69 A B C D E F G H I J K L M)
+  (f71 A B C D E F G H I J K L M)
+  :guard
+  (>= 2 B))
+
+(rule
+  (f69 A B C D E F G H I J K L M)
+  (f71 A B C D E F G H I J K L M)
+  :guard
+  (>= B 4))
+
+(rule
+  (f71 A B C D E F G H I J K L M)
+  (f73 A B C D E F G H I J K L M)
+  :guard
+  (>= 3 B))
+
+(rule
+  (f71 A B C D E F G H I J K L M)
+  (f73 A B C D E F G H I J K L M)
+  :guard
+  (>= B 5))
+
+(rule
+  (f73 A B C D E F G H I J K L M)
+  (f75 A B C D E F G H I J K L M)
+  :guard
+  (>= 4 B))
+
+(rule
+  (f73 A B C D E F G H I J K L M)
+  (f75 A B C D E F G H I J K L M)
+  :guard
+  (>= B 6))
+
+(rule
+  (f75 A B C D E F G H I J K L M)
+  (f77 A B C D E F G H I J K L M)
+  :guard
+  (>= 5 B))
+
+(rule
+  (f75 A B C D E F G H I J K L M)
+  (f77 A B C D E F G H I J K L M)
+  :guard
+  (>= B 7))
+
+(rule
+  (f77 A B C D E F G H I J K L M)
+  (f79 A B C D E F G H I J K L M)
+  :guard
+  (>= 6 B))
+
+(rule
+  (f77 A B C D E F G H I J K L M)
+  (f79 A B C D E F G H I J K L M)
+  :guard
+  (>= B 8))
+
+(rule
+  (f79 A B C D E F G H I J K L M)
+  (f81 A B C D E F G H I J K L M)
+  :guard
+  (>= 7 B))
+
+(rule
+  (f79 A B C D E F G H I J K L M)
+  (f81 A B C D E F G H I J K L M)
+  :guard
+  (>= B 9))
+
+(rule
+  (f81 A B C D E F G H I J K L M)
+  (f83 A B C D E F G H I J K L M)
+  :guard
+  (>= 8 B))
+
+(rule
+  (f81 A B C D E F G H I J K L M)
+  (f83 A B C D E F G H I J K L M)
+  :guard
+  (>= B 10))
+
+(rule
+  (f83 A B C D E F G H I J K L M)
+  (f85 A B C D E F G H I J K L M)
+  :guard
+  (>= 9 B))
+
+(rule
+  (f83 A B C D E F G H I J K L M)
+  (f85 A B C D E F G H I J K L M)
+  :guard
+  (>= B 11))
+
+(rule
+  (f85 A B C D E F G H I J K L M)
+  (f87 A B C D E F G H I J K L M)
+  :guard
+  (>= 10 B))
+
+(rule
+  (f85 A B C D E F G H I J K L M)
+  (f87 A B C D E F G H I J K L M)
+  :guard
+  (>= B 12))
+
+(rule
+  (f87 A B C D E F G H I J K L M)
+  (f89 A B C D E F G H I J K L M)
+  :guard
+  (>= 11 B))
+
+(rule
+  (f87 A B C D E F G H I J K L M)
+  (f89 A B C D E F G H I J K L M)
+  :guard
+  (>= B 13))
+
+(rule
+  (f89 A B C D E F G H I J K L M)
+  (f91 A B C D E F G H I J K L M)
+  :guard
+  (>= 12 B))
+
+(rule
+  (f89 A B C D E F G H I J K L M)
+  (f91 A B C D E F G H I J K L M)
+  :guard
+  (>= B 14))
+
+(rule
+  (f91 A B C D E F G H I J K L M)
+  (f93 A B C D E F G H I J K L M)
+  :guard
+  (>= 13 B))
+
+(rule
+  (f91 A B C D E F G H I J K L M)
+  (f93 A B C D E F G H I J K L M)
+  :guard
+  (>= B 15))
+
+(rule
+  (f93 A B C D E F G H I J K L M)
+  (f95 A B C D E F G H I J K L M)
+  :guard
+  (>= 14 B))
+
+(rule
+  (f93 A B C D E F G H I J K L M)
+  (f95 A B C D E F G H I J K L M)
+  :guard
+  (>= B 16))
+
+(rule
+  (f95 A B C D E F G H I J K L M)
+  (f97 A B C D E F G H I J K L M)
+  :guard
+  (>= 15 B))
+
+(rule
+  (f95 A B C D E F G H I J K L M)
+  (f97 A B C D E F G H I J K L M)
+  :guard
+  (>= B 17))
+
+(rule
+  (f97 A B C D E F G H I J K L M)
+  (f99 A B C D E F G H I J K L M)
+  :guard
+  (>= 16 B))
+
+(rule
+  (f97 A B C D E F G H I J K L M)
+  (f99 A B C D E F G H I J K L M)
+  :guard
+  (>= B 18))
+
+(rule
+  (f99 A B C D E F G H I J K L M)
+  (f101 A B C D E F G H I J K L M)
+  :guard
+  (>= 17 B))
+
+(rule
+  (f99 A B C D E F G H I J K L M)
+  (f101 A B C D E F G H I J K L M)
+  :guard
+  (>= B 19))
+
+(rule
+  (f101 A B C D E F G H I J K L M)
+  (f103 A B C D E F G H I J K L M)
+  :guard
+  (>= 18 B))
+
+(rule
+  (f101 A B C D E F G H I J K L M)
+  (f103 A B C D E F G H I J K L M)
+  :guard
+  (>= B 20))
+
+(rule
+  (f103 A B C D E F G H I J K L M)
+  (f105 A B C D E F G H I J K L M)
+  :guard
+  (>= 19 B))
+
+(rule
+  (f103 A B C D E F G H I J K L M)
+  (f105 A B C D E F G H I J K L M)
+  :guard
+  (>= B 21))
+
+(rule
+  (f105 A B C D E F G H I J K L M)
+  (f107 A B C D E F G H I J K L M)
+  :guard
+  (>= 20 B))
+
+(rule
+  (f105 A B C D E F G H I J K L M)
+  (f107 A B C D E F G H I J K L M)
+  :guard
+  (>= B 22))
+
+(rule
+  (f107 A B C D E F G H I J K L M)
+  (f109 A B C D E F G H I J K L M)
+  :guard
+  (>= 21 B))
+
+(rule
+  (f107 A B C D E F G H I J K L M)
+  (f109 A B C D E F G H I J K L M)
+  :guard
+  (>= B 23))
+
+(rule
+  (f109 A B C D E F G H I J K L M)
+  (f111 A B C D E F G H I J K L M)
+  :guard
+  (>= 22 B))
+
+(rule
+  (f109 A B C D E F G H I J K L M)
+  (f111 A B C D E F G H I J K L M)
+  :guard
+  (>= B 24))
+
+(rule
+  (f111 A B C D E F G H I J K L M)
+  (f113 A B C D E F G H I J K L M)
+  :guard
+  (>= 23 B))
+
+(rule
+  (f111 A B C D E F G H I J K L M)
+  (f113 A B C D E F G H I J K L M)
+  :guard
+  (>= B 25))
+
+(rule
+  (f113 A B C D E F G H I J K L M)
+  (f115 A B C D E F G H I J K L M)
+  :guard
+  (>= 24 B))
+
+(rule
+  (f113 A B C D E F G H I J K L M)
+  (f115 A B C D E F G H I J K L M)
+  :guard
+  (>= B 26))
+
+(rule
+  (f115 A B C D E F G H I J K L M)
+  (f117 A B C D E F G H I J K L M)
+  :guard
+  (>= 25 B))
+
+(rule
+  (f115 A B C D E F G H I J K L M)
+  (f117 A B C D E F G H I J K L M)
+  :guard
+  (>= B 27))
+
+(rule
+  (f117 A B C D E F G H I J K L M)
+  (f119 A B C D E F G H I J K L M)
+  :guard
+  (>= 26 B))
+
+(rule
+  (f117 A B C D E F G H I J K L M)
+  (f119 A B C D E F G H I J K L M)
+  :guard
+  (>= B 28))
+
+(rule
+  (f119 A B C D E F G H I J K L M)
+  (f121 A B C D E F G H I J K L M)
+  :guard
+  (>= 27 B))
+
+(rule
+  (f119 A B C D E F G H I J K L M)
+  (f121 A B C D E F G H I J K L M)
+  :guard
+  (>= B 29))
+
+(rule
+  (f121 A B C D E F G H I J K L M)
+  (f123 A B C D E F G H I J K L M)
+  :guard
+  (>= 28 B))
+
+(rule
+  (f121 A B C D E F G H I J K L M)
+  (f123 A B C D E F G H I J K L M)
+  :guard
+  (>= B 30))
+
+(rule
+  (f123 A B C D E F G H I J K L M)
+  (f125 A B C D E F G H I J K L M)
+  :guard
+  (>= 29 B))
+
+(rule
+  (f123 A B C D E F G H I J K L M)
+  (f125 A B C D E F G H I J K L M)
+  :guard
+  (>= B 31))
+
+(rule
+  (f125 A B C D E F G H I J K L M)
+  (f127 A B C D E F G H I J K L M)
+  :guard
+  (>= 30 B))
+
+(rule
+  (f125 A B C D E F G H I J K L M)
+  (f127 A B C D E F G H I J K L M)
+  :guard
+  (>= B 32))
+
+(rule
+  (f127 A B C D E F G H I J K L M)
+  (f129 A B C D E F G H I J K L M)
+  :guard
+  (>= 31 B))
+
+(rule
+  (f127 A B C D E F G H I J K L M)
+  (f129 A B C D E F G H I J K L M)
+  :guard
+  (>= B 33))
+
+(rule
+  (f129 A B C D E F G H I J K L M)
+  (f131 A B C D E F G H I J K L M)
+  :guard
+  (>= 32 B))
+
+(rule
+  (f129 A B C D E F G H I J K L M)
+  (f131 A B C D E F G H I J K L M)
+  :guard
+  (>= B 34))
+
+(rule
+  (f131 A B C D E F G H I J K L M)
+  (f133 A B C D E F G H I J K L M)
+  :guard
+  (>= 33 B))
+
+(rule
+  (f131 A B C D E F G H I J K L M)
+  (f133 A B C D E F G H I J K L M)
+  :guard
+  (>= B 35))
+
+(rule
+  (f133 A B C D E F G H I J K L M)
+  (f135 A B C D E F G H I J K L M)
+  :guard
+  (>= 34 B))
+
+(rule
+  (f133 A B C D E F G H I J K L M)
+  (f135 A B C D E F G H I J K L M)
+  :guard
+  (>= B 36))
+
+(rule
+  (f135 A B C D E F G H I J K L M)
+  (f137 A B C D E F G H I J K L M)
+  :guard
+  (>= 35 B))
+
+(rule
+  (f135 A B C D E F G H I J K L M)
+  (f137 A B C D E F G H I J K L M)
+  :guard
+  (>= B 37))
+
+(rule
+  (f137 A B C D E F G H I J K L M)
+  (f139 A B C D E F G H I J K L M)
+  :guard
+  (>= 36 B))
+
+(rule
+  (f137 A B C D E F G H I J K L M)
+  (f139 A B C D E F G H I J K L M)
+  :guard
+  (>= B 38))
+
+(rule
+  (f139 A B C D E F G H I J K L M)
+  (f141 A B C D E F G H I J K L M)
+  :guard
+  (>= 37 B))
+
+(rule
+  (f139 A B C D E F G H I J K L M)
+  (f141 A B C D E F G H I J K L M)
+  :guard
+  (>= B 39))
+
+(rule
+  (f141 A B C D E F G H I J K L M)
+  (f143 A B C D E F G H I J K L M)
+  :guard
+  (>= 38 B))
+
+(rule
+  (f141 A B C D E F G H I J K L M)
+  (f143 A B C D E F G H I J K L M)
+  :guard
+  (>= B 40))
+
+(rule
+  (f143 A B C D E F G H I J K L M)
+  (f145 A B C D E F G H I J K L M)
+  :guard
+  (>= 39 B))
+
+(rule
+  (f143 A B C D E F G H I J K L M)
+  (f145 A B C D E F G H I J K L M)
+  :guard
+  (>= B 41))
+
+(rule
+  (f145 A B C D E F G H I J K L M)
+  (f147 A B C D E F G H I J K L M)
+  :guard
+  (>= 40 B))
+
+(rule
+  (f145 A B C D E F G H I J K L M)
+  (f147 A B C D E F G H I J K L M)
+  :guard
+  (>= B 42))
+
+(rule
+  (f147 A B C D E F G H I J K L M)
+  (f149 A B C D E F G H I J K L M)
+  :guard
+  (>= 41 B))
+
+(rule
+  (f147 A B C D E F G H I J K L M)
+  (f149 A B C D E F G H I J K L M)
+  :guard
+  (>= B 43))
+
+(rule
+  (f149 A B C D E F G H I J K L M)
+  (f151 A B C D E F G H I J K L M)
+  :guard
+  (>= 42 B))
+
+(rule
+  (f149 A B C D E F G H I J K L M)
+  (f151 A B C D E F G H I J K L M)
+  :guard
+  (>= B 44))
+
+(rule
+  (f151 A B C D E F G H I J K L M)
+  (f153 A B C D E F G H I J K L M)
+  :guard
+  (>= 43 B))
+
+(rule
+  (f151 A B C D E F G H I J K L M)
+  (f153 A B C D E F G H I J K L M)
+  :guard
+  (>= B 45))
+
+(rule
+  (f153 A B C D E F G H I J K L M)
+  (f155 A B C D E F G H I J K L M)
+  :guard
+  (>= 44 B))
+
+(rule
+  (f153 A B C D E F G H I J K L M)
+  (f155 A B C D E F G H I J K L M)
+  :guard
+  (>= B 46))
+
+(rule
+  (f155 A B C D E F G H I J K L M)
+  (f157 A B C D E F G H I J K L M)
+  :guard
+  (>= 45 B))
+
+(rule
+  (f155 A B C D E F G H I J K L M)
+  (f157 A B C D E F G H I J K L M)
+  :guard
+  (>= B 47))
+
+(rule
+  (f157 A B C D E F G H I J K L M)
+  (f159 A B C D E F G H I J K L M)
+  :guard
+  (>= 46 B))
+
+(rule
+  (f157 A B C D E F G H I J K L M)
+  (f159 A B C D E F G H I J K L M)
+  :guard
+  (>= B 48))
+
+(rule
+  (f159 A B C D E F G H I J K L M)
+  (f161 A B C D E F G H I J K L M)
+  :guard
+  (>= 47 B))
+
+(rule
+  (f159 A B C D E F G H I J K L M)
+  (f161 A B C D E F G H I J K L M)
+  :guard
+  (>= B 49))
+
+(rule
+  (f161 A B C D E F G H I J K L M)
+  (f163 A B C D E F G H I J K L M)
+  :guard
+  (>= 48 B))
+
+(rule
+  (f161 A B C D E F G H I J K L M)
+  (f163 A B C D E F G H I J K L M)
+  :guard
+  (>= B 50))
+
+(rule
+  (f163 A B C D E F G H I J K L M)
+  (f165 A B C D E F G H I J K L M)
+  :guard
+  (>= 49 B))
+
+(rule
+  (f163 A B C D E F G H I J K L M)
+  (f165 A B C D E F G H I J K L M)
+  :guard
+  (>= B 51))
+
+(rule
+  (f165 A B C D E F G H I J K L M)
+  (f167 A B C D E F G H I J K L M)
+  :guard
+  (>= 50 B))
+
+(rule
+  (f165 A B C D E F G H I J K L M)
+  (f167 A B C D E F G H I J K L M)
+  :guard
+  (>= B 52))
+
+(rule
+  (f167 A B C D E F G H I J K L M)
+  (f169 A B C D E F G H I J K L M)
+  :guard
+  (>= 51 B))
+
+(rule
+  (f167 A B C D E F G H I J K L M)
+  (f169 A B C D E F G H I J K L M)
+  :guard
+  (>= B 53))
+
+(rule
+  (f169 A B C D E F G H I J K L M)
+  (f171 A B C D E F G H I J K L M)
+  :guard
+  (>= 52 B))
+
+(rule
+  (f169 A B C D E F G H I J K L M)
+  (f171 A B C D E F G H I J K L M)
+  :guard
+  (>= B 54))
+
+(rule
+  (f171 A B C D E F G H I J K L M)
+  (f173 A B C D E F G H I J K L M)
+  :guard
+  (>= 53 B))
+
+(rule
+  (f171 A B C D E F G H I J K L M)
+  (f173 A B C D E F G H I J K L M)
+  :guard
+  (>= B 55))
+
+(rule
+  (f173 A B C D E F G H I J K L M)
+  (f175 A B C D E F G H I J K L M)
+  :guard
+  (>= 54 B))
+
+(rule
+  (f173 A B C D E F G H I J K L M)
+  (f175 A B C D E F G H I J K L M)
+  :guard
+  (>= B 56))
+
+(rule
+  (f175 A B C D E F G H I J K L M)
+  (f177 A B C D E F G H I J K L M)
+  :guard
+  (>= 55 B))
+
+(rule
+  (f175 A B C D E F G H I J K L M)
+  (f177 A B C D E F G H I J K L M)
+  :guard
+  (>= B 57))
+
+(rule
+  (f177 A B C D E F G H I J K L M)
+  (f179 A B C D E F G H I J K L M)
+  :guard
+  (>= 56 B))
+
+(rule
+  (f177 A B C D E F G H I J K L M)
+  (f179 A B C D E F G H I J K L M)
+  :guard
+  (>= B 58))
+
+(rule
+  (f179 A B C D E F G H I J K L M)
+  (f181 A B C D E F G H I J K L M)
+  :guard
+  (>= 57 B))
+
+(rule
+  (f179 A B C D E F G H I J K L M)
+  (f181 A B C D E F G H I J K L M)
+  :guard
+  (>= B 59))
+
+(rule
+  (f319 A B C D E F G H I J K L M)
+  (f321 A B C D E F G H I J K L M)
+  :guard
+  (>= 0 C))
+
+(rule
+  (f319 A B C D E F G H I J K L M)
+  (f321 A B C D E F G H I J K L M)
+  :guard
+  (>= C 2))
+
+(rule
+  (f321 A B C D E F G H I J K L M)
+  (f323 A B C D E F G H I J K L M)
+  :guard
+  (>= 1 C))
+
+(rule
+  (f321 A B C D E F G H I J K L M)
+  (f323 A B C D E F G H I J K L M)
+  :guard
+  (>= C 3))
+
+(rule
+  (f323 A B C D E F G H I J K L M)
+  (f325 A B C D E F G H I J K L M)
+  :guard
+  (>= 2 C))
+
+(rule
+  (f323 A B C D E F G H I J K L M)
+  (f325 A B C D E F G H I J K L M)
+  :guard
+  (>= C 4))
+
+(rule
+  (f325 A B C D E F G H I J K L M)
+  (f327 A B C D E F G H I J K L M)
+  :guard
+  (>= 3 C))
+
+(rule
+  (f325 A B C D E F G H I J K L M)
+  (f327 A B C D E F G H I J K L M)
+  :guard
+  (>= C 5))
+
+(rule
+  (f327 A B C D E F G H I J K L M)
+  (f329 A B C D E F G H I J K L M)
+  :guard
+  (>= 4 C))
+
+(rule
+  (f327 A B C D E F G H I J K L M)
+  (f329 A B C D E F G H I J K L M)
+  :guard
+  (>= C 6))
+
+(rule
+  (f329 A B C D E F G H I J K L M)
+  (f331 A B C D E F G H I J K L M)
+  :guard
+  (>= 5 C))
+
+(rule
+  (f329 A B C D E F G H I J K L M)
+  (f331 A B C D E F G H I J K L M)
+  :guard
+  (>= C 7))
+
+(rule
+  (f331 A B C D E F G H I J K L M)
+  (f333 A B C D E F G H I J K L M)
+  :guard
+  (>= 6 C))
+
+(rule
+  (f331 A B C D E F G H I J K L M)
+  (f333 A B C D E F G H I J K L M)
+  :guard
+  (>= C 8))
+
+(rule
+  (f333 A B C D E F G H I J K L M)
+  (f335 A B C D E F G H I J K L M)
+  :guard
+  (>= 7 C))
+
+(rule
+  (f333 A B C D E F G H I J K L M)
+  (f335 A B C D E F G H I J K L M)
+  :guard
+  (>= C 9))
+
+(rule
+  (f335 A B C D E F G H I J K L M)
+  (f337 A B C D E F G H I J K L M)
+  :guard
+  (>= 8 C))
+
+(rule
+  (f335 A B C D E F G H I J K L M)
+  (f337 A B C D E F G H I J K L M)
+  :guard
+  (>= C 10))
+
+(rule
+  (f337 A B C D E F G H I J K L M)
+  (f339 A B C D E F G H I J K L M)
+  :guard
+  (>= 9 C))
+
+(rule
+  (f337 A B C D E F G H I J K L M)
+  (f339 A B C D E F G H I J K L M)
+  :guard
+  (>= C 11))
+
+(rule
+  (f339 A B C D E F G H I J K L M)
+  (f341 A B C D E F G H I J K L M)
+  :guard
+  (>= 10 C))
+
+(rule
+  (f339 A B C D E F G H I J K L M)
+  (f341 A B C D E F G H I J K L M)
+  :guard
+  (>= C 12))
+
+(rule
+  (f341 A B C D E F G H I J K L M)
+  (f343 A B C D E F G H I J K L M)
+  :guard
+  (>= 11 C))
+
+(rule
+  (f341 A B C D E F G H I J K L M)
+  (f343 A B C D E F G H I J K L M)
+  :guard
+  (>= C 13))
+
+(rule
+  (f343 A B C D E F G H I J K L M)
+  (f345 A B C D E F G H I J K L M)
+  :guard
+  (>= 12 C))
+
+(rule
+  (f343 A B C D E F G H I J K L M)
+  (f345 A B C D E F G H I J K L M)
+  :guard
+  (>= C 14))
+
+(rule
+  (f345 A B C D E F G H I J K L M)
+  (f347 A B C D E F G H I J K L M)
+  :guard
+  (>= 13 C))
+
+(rule
+  (f345 A B C D E F G H I J K L M)
+  (f347 A B C D E F G H I J K L M)
+  :guard
+  (>= C 15))
+
+(rule
+  (f347 A B C D E F G H I J K L M)
+  (f349 A B C D E F G H I J K L M)
+  :guard
+  (>= 14 C))
+
+(rule
+  (f347 A B C D E F G H I J K L M)
+  (f349 A B C D E F G H I J K L M)
+  :guard
+  (>= C 16))
+
+(rule
+  (f349 A B C D E F G H I J K L M)
+  (f351 A B C D E F G H I J K L M)
+  :guard
+  (>= 15 C))
+
+(rule
+  (f349 A B C D E F G H I J K L M)
+  (f351 A B C D E F G H I J K L M)
+  :guard
+  (>= C 17))
+
+(rule
+  (f351 A B C D E F G H I J K L M)
+  (f353 A B C D E F G H I J K L M)
+  :guard
+  (>= 16 C))
+
+(rule
+  (f351 A B C D E F G H I J K L M)
+  (f353 A B C D E F G H I J K L M)
+  :guard
+  (>= C 18))
+
+(rule
+  (f353 A B C D E F G H I J K L M)
+  (f355 A B C D E F G H I J K L M)
+  :guard
+  (>= 17 C))
+
+(rule
+  (f353 A B C D E F G H I J K L M)
+  (f355 A B C D E F G H I J K L M)
+  :guard
+  (>= C 19))
+
+(rule
+  (f355 A B C D E F G H I J K L M)
+  (f357 A B C D E F G H I J K L M)
+  :guard
+  (>= 18 C))
+
+(rule
+  (f355 A B C D E F G H I J K L M)
+  (f357 A B C D E F G H I J K L M)
+  :guard
+  (>= C 20))
+
+(rule
+  (f357 A B C D E F G H I J K L M)
+  (f359 A B C D E F G H I J K L M)
+  :guard
+  (>= 19 C))
+
+(rule
+  (f357 A B C D E F G H I J K L M)
+  (f359 A B C D E F G H I J K L M)
+  :guard
+  (>= C 21))
+
+(rule
+  (f359 A B C D E F G H I J K L M)
+  (f361 A B C D E F G H I J K L M)
+  :guard
+  (>= 20 C))
+
+(rule
+  (f359 A B C D E F G H I J K L M)
+  (f361 A B C D E F G H I J K L M)
+  :guard
+  (>= C 22))
+
+(rule
+  (f361 A B C D E F G H I J K L M)
+  (f363 A B C D E F G H I J K L M)
+  :guard
+  (>= 21 C))
+
+(rule
+  (f361 A B C D E F G H I J K L M)
+  (f363 A B C D E F G H I J K L M)
+  :guard
+  (>= C 23))
+
+(rule
+  (f363 A B C D E F G H I J K L M)
+  (f365 A B C D E F G H I J K L M)
+  :guard
+  (>= 22 C))
+
+(rule
+  (f363 A B C D E F G H I J K L M)
+  (f365 A B C D E F G H I J K L M)
+  :guard
+  (>= C 24))
+
+(rule
+  (f365 A B C D E F G H I J K L M)
+  (f367 A B C D E F G H I J K L M)
+  :guard
+  (>= 23 C))
+
+(rule
+  (f365 A B C D E F G H I J K L M)
+  (f367 A B C D E F G H I J K L M)
+  :guard
+  (>= C 25))
+
+(rule
+  (f367 A B C D E F G H I J K L M)
+  (f369 A B C D E F G H I J K L M)
+  :guard
+  (>= 24 C))
+
+(rule
+  (f367 A B C D E F G H I J K L M)
+  (f369 A B C D E F G H I J K L M)
+  :guard
+  (>= C 26))
+
+(rule
+  (f369 A B C D E F G H I J K L M)
+  (f371 A B C D E F G H I J K L M)
+  :guard
+  (>= 25 C))
+
+(rule
+  (f369 A B C D E F G H I J K L M)
+  (f371 A B C D E F G H I J K L M)
+  :guard
+  (>= C 27))
+
+(rule
+  (f371 A B C D E F G H I J K L M)
+  (f373 A B C D E F G H I J K L M)
+  :guard
+  (>= 26 C))
+
+(rule
+  (f371 A B C D E F G H I J K L M)
+  (f373 A B C D E F G H I J K L M)
+  :guard
+  (>= C 28))
+
+(rule
+  (f373 A B C D E F G H I J K L M)
+  (f375 A B C D E F G H I J K L M)
+  :guard
+  (>= 27 C))
+
+(rule
+  (f373 A B C D E F G H I J K L M)
+  (f375 A B C D E F G H I J K L M)
+  :guard
+  (>= C 29))
+
+(rule
+  (f375 A B C D E F G H I J K L M)
+  (f377 A B C D E F G H I J K L M)
+  :guard
+  (>= 28 C))
+
+(rule
+  (f375 A B C D E F G H I J K L M)
+  (f377 A B C D E F G H I J K L M)
+  :guard
+  (>= C 30))
+
+(rule
+  (f377 A B C D E F G H I J K L M)
+  (f379 A B C D E F G H I J K L M)
+  :guard
+  (>= 29 C))
+
+(rule
+  (f377 A B C D E F G H I J K L M)
+  (f379 A B C D E F G H I J K L M)
+  :guard
+  (>= C 31))
+
+(rule
+  (f379 A B C D E F G H I J K L M)
+  (f381 A B C D E F G H I J K L M)
+  :guard
+  (>= 30 C))
+
+(rule
+  (f379 A B C D E F G H I J K L M)
+  (f381 A B C D E F G H I J K L M)
+  :guard
+  (>= C 32))
+
+(rule
+  (f381 A B C D E F G H I J K L M)
+  (f383 A B C D E F G H I J K L M)
+  :guard
+  (>= 31 C))
+
+(rule
+  (f381 A B C D E F G H I J K L M)
+  (f383 A B C D E F G H I J K L M)
+  :guard
+  (>= C 33))
+
+(rule
+  (f383 A B C D E F G H I J K L M)
+  (f385 A B C D E F G H I J K L M)
+  :guard
+  (>= 32 C))
+
+(rule
+  (f383 A B C D E F G H I J K L M)
+  (f385 A B C D E F G H I J K L M)
+  :guard
+  (>= C 34))
+
+(rule
+  (f385 A B C D E F G H I J K L M)
+  (f387 A B C D E F G H I J K L M)
+  :guard
+  (>= 33 C))
+
+(rule
+  (f385 A B C D E F G H I J K L M)
+  (f387 A B C D E F G H I J K L M)
+  :guard
+  (>= C 35))
+
+(rule
+  (f387 A B C D E F G H I J K L M)
+  (f389 A B C D E F G H I J K L M)
+  :guard
+  (>= 34 C))
+
+(rule
+  (f387 A B C D E F G H I J K L M)
+  (f389 A B C D E F G H I J K L M)
+  :guard
+  (>= C 36))
+
+(rule
+  (f389 A B C D E F G H I J K L M)
+  (f391 A B C D E F G H I J K L M)
+  :guard
+  (>= 35 C))
+
+(rule
+  (f389 A B C D E F G H I J K L M)
+  (f391 A B C D E F G H I J K L M)
+  :guard
+  (>= C 37))
+
+(rule
+  (f391 A B C D E F G H I J K L M)
+  (f393 A B C D E F G H I J K L M)
+  :guard
+  (>= 36 C))
+
+(rule
+  (f391 A B C D E F G H I J K L M)
+  (f393 A B C D E F G H I J K L M)
+  :guard
+  (>= C 38))
+
+(rule
+  (f393 A B C D E F G H I J K L M)
+  (f395 A B C D E F G H I J K L M)
+  :guard
+  (>= 37 C))
+
+(rule
+  (f393 A B C D E F G H I J K L M)
+  (f395 A B C D E F G H I J K L M)
+  :guard
+  (>= C 39))
+
+(rule
+  (f395 A B C D E F G H I J K L M)
+  (f397 A B C D E F G H I J K L M)
+  :guard
+  (>= 38 C))
+
+(rule
+  (f395 A B C D E F G H I J K L M)
+  (f397 A B C D E F G H I J K L M)
+  :guard
+  (>= C 40))
+
+(rule
+  (f397 A B C D E F G H I J K L M)
+  (f399 A B C D E F G H I J K L M)
+  :guard
+  (>= 39 C))
+
+(rule
+  (f397 A B C D E F G H I J K L M)
+  (f399 A B C D E F G H I J K L M)
+  :guard
+  (>= C 41))
+
+(rule
+  (f399 A B C D E F G H I J K L M)
+  (f401 A B C D E F G H I J K L M)
+  :guard
+  (>= 40 C))
+
+(rule
+  (f399 A B C D E F G H I J K L M)
+  (f401 A B C D E F G H I J K L M)
+  :guard
+  (>= C 42))
+
+(rule
+  (f401 A B C D E F G H I J K L M)
+  (f403 A B C D E F G H I J K L M)
+  :guard
+  (>= 41 C))
+
+(rule
+  (f401 A B C D E F G H I J K L M)
+  (f403 A B C D E F G H I J K L M)
+  :guard
+  (>= C 43))
+
+(rule
+  (f403 A B C D E F G H I J K L M)
+  (f405 A B C D E F G H I J K L M)
+  :guard
+  (>= 42 C))
+
+(rule
+  (f403 A B C D E F G H I J K L M)
+  (f405 A B C D E F G H I J K L M)
+  :guard
+  (>= C 44))
+
+(rule
+  (f405 A B C D E F G H I J K L M)
+  (f407 A B C D E F G H I J K L M)
+  :guard
+  (>= 43 C))
+
+(rule
+  (f405 A B C D E F G H I J K L M)
+  (f407 A B C D E F G H I J K L M)
+  :guard
+  (>= C 45))
+
+(rule
+  (f407 A B C D E F G H I J K L M)
+  (f409 A B C D E F G H I J K L M)
+  :guard
+  (>= 44 C))
+
+(rule
+  (f407 A B C D E F G H I J K L M)
+  (f409 A B C D E F G H I J K L M)
+  :guard
+  (>= C 46))
+
+(rule
+  (f409 A B C D E F G H I J K L M)
+  (f411 A B C D E F G H I J K L M)
+  :guard
+  (>= 45 C))
+
+(rule
+  (f409 A B C D E F G H I J K L M)
+  (f411 A B C D E F G H I J K L M)
+  :guard
+  (>= C 47))
+
+(rule
+  (f411 A B C D E F G H I J K L M)
+  (f413 A B C D E F G H I J K L M)
+  :guard
+  (>= 46 C))
+
+(rule
+  (f411 A B C D E F G H I J K L M)
+  (f413 A B C D E F G H I J K L M)
+  :guard
+  (>= C 48))
+
+(rule
+  (f413 A B C D E F G H I J K L M)
+  (f415 A B C D E F G H I J K L M)
+  :guard
+  (>= 47 C))
+
+(rule
+  (f413 A B C D E F G H I J K L M)
+  (f415 A B C D E F G H I J K L M)
+  :guard
+  (>= C 49))
+
+(rule
+  (f415 A B C D E F G H I J K L M)
+  (f417 A B C D E F G H I J K L M)
+  :guard
+  (>= 48 C))
+
+(rule
+  (f415 A B C D E F G H I J K L M)
+  (f417 A B C D E F G H I J K L M)
+  :guard
+  (>= C 50))
+
+(rule
+  (f417 A B C D E F G H I J K L M)
+  (f419 A B C D E F G H I J K L M)
+  :guard
+  (>= 49 C))
+
+(rule
+  (f417 A B C D E F G H I J K L M)
+  (f419 A B C D E F G H I J K L M)
+  :guard
+  (>= C 51))
+
+(rule
+  (f419 A B C D E F G H I J K L M)
+  (f421 A B C D E F G H I J K L M)
+  :guard
+  (>= 50 C))
+
+(rule
+  (f419 A B C D E F G H I J K L M)
+  (f421 A B C D E F G H I J K L M)
+  :guard
+  (>= C 52))
+
+(rule
+  (f421 A B C D E F G H I J K L M)
+  (f423 A B C D E F G H I J K L M)
+  :guard
+  (>= 51 C))
+
+(rule
+  (f421 A B C D E F G H I J K L M)
+  (f423 A B C D E F G H I J K L M)
+  :guard
+  (>= C 53))
+
+(rule
+  (f423 A B C D E F G H I J K L M)
+  (f425 A B C D E F G H I J K L M)
+  :guard
+  (>= 52 C))
+
+(rule
+  (f423 A B C D E F G H I J K L M)
+  (f425 A B C D E F G H I J K L M)
+  :guard
+  (>= C 54))
+
+(rule
+  (f425 A B C D E F G H I J K L M)
+  (f427 A B C D E F G H I J K L M)
+  :guard
+  (>= 53 C))
+
+(rule
+  (f425 A B C D E F G H I J K L M)
+  (f427 A B C D E F G H I J K L M)
+  :guard
+  (>= C 55))
+
+(rule
+  (f427 A B C D E F G H I J K L M)
+  (f429 A B C D E F G H I J K L M)
+  :guard
+  (>= 54 C))
+
+(rule
+  (f427 A B C D E F G H I J K L M)
+  (f429 A B C D E F G H I J K L M)
+  :guard
+  (>= C 56))
+
+(rule
+  (f429 A B C D E F G H I J K L M)
+  (f431 A B C D E F G H I J K L M)
+  :guard
+  (>= 55 C))
+
+(rule
+  (f429 A B C D E F G H I J K L M)
+  (f431 A B C D E F G H I J K L M)
+  :guard
+  (>= C 57))
+
+(rule
+  (f431 A B C D E F G H I J K L M)
+  (f433 A B C D E F G H I J K L M)
+  :guard
+  (>= 56 C))
+
+(rule
+  (f431 A B C D E F G H I J K L M)
+  (f433 A B C D E F G H I J K L M)
+  :guard
+  (>= C 58))
+
+(rule
+  (f433 A B C D E F G H I J K L M)
+  (f435 A B C D E F G H I J K L M)
+  :guard
+  (>= 57 C))
+
+(rule
+  (f433 A B C D E F G H I J K L M)
+  (f435 A B C D E F G H I J K L M)
+  :guard
+  (>= C 59))
+
+(rule
+  (f435 A B C D E F G H I J K L M)
+  (f437 A B C D E F G H I J K L M)
+  :guard
+  (>= 58 C))
+
+(rule
+  (f435 A B C D E F G H I J K L M)
+  (f437 A B C D E F G H I J K L M)
+  :guard
+  (>= C 60))
+
+(rule
+  (f437 A B C D E F G H I J K L M)
+  (f439 A B C D E F G H I J K L M)
+  :guard
+  (>= 59 C))
+
+(rule
+  (f437 A B C D E F G H I J K L M)
+  (f439 A B C D E F G H I J K L M)
+  :guard
+  (>= C 61))
+
+(rule
+  (f439 A B C D E F G H I J K L M)
+  (f441 A B C D E F G H I J K L M)
+  :guard
+  (>= 60 C))
+
+(rule
+  (f439 A B C D E F G H I J K L M)
+  (f441 A B C D E F G H I J K L M)
+  :guard
+  (>= C 62))
+
+(rule
+  (f441 A B C D E F G H I J K L M)
+  (f443 A B C D E F G H I J K L M)
+  :guard
+  (>= 61 C))
+
+(rule
+  (f441 A B C D E F G H I J K L M)
+  (f443 A B C D E F G H I J K L M)
+  :guard
+  (>= C 63))
+
+(rule
+  (f443 A B C D E F G H I J K L M)
+  (f445 A B C D E F G H I J K L M)
+  :guard
+  (>= 62 C))
+
+(rule
+  (f443 A B C D E F G H I J K L M)
+  (f445 A B C D E F G H I J K L M)
+  :guard
+  (>= C 64))
+
+(rule
+  (f445 A B C D E F G H I J K L M)
+  (f447 A B C D E F G H I J K L M)
+  :guard
+  (>= 63 C))
+
+(rule
+  (f445 A B C D E F G H I J K L M)
+  (f447 A B C D E F G H I J K L M)
+  :guard
+  (>= C 65))
+
+(rule
+  (f447 A B C D E F G H I J K L M)
+  (f449 A B C D E F G H I J K L M)
+  :guard
+  (>= 64 C))
+
+(rule
+  (f447 A B C D E F G H I J K L M)
+  (f449 A B C D E F G H I J K L M)
+  :guard
+  (>= C 66))
+
+(rule
+  (f449 A B C D E F G H I J K L M)
+  (f451 A B C D E F G H I J K L M)
+  :guard
+  (>= 65 C))
+
+(rule
+  (f449 A B C D E F G H I J K L M)
+  (f451 A B C D E F G H I J K L M)
+  :guard
+  (>= C 67))
+
+(rule
+  (f451 A B C D E F G H I J K L M)
+  (f453 A B C D E F G H I J K L M)
+  :guard
+  (>= 66 C))
+
+(rule
+  (f451 A B C D E F G H I J K L M)
+  (f453 A B C D E F G H I J K L M)
+  :guard
+  (>= C 68))
+
+(rule
+  (f453 A B C D E F G H I J K L M)
+  (f455 A B C D E F G H I J K L M)
+  :guard
+  (>= 67 C))
+
+(rule
+  (f453 A B C D E F G H I J K L M)
+  (f455 A B C D E F G H I J K L M)
+  :guard
+  (>= C 69))
+
+(rule
+  (f455 A B C D E F G H I J K L M)
+  (f457 A B C D E F G H I J K L M)
+  :guard
+  (>= 68 C))
+
+(rule
+  (f455 A B C D E F G H I J K L M)
+  (f457 A B C D E F G H I J K L M)
+  :guard
+  (>= C 70))
+
+(rule
+  (f457 A B C D E F G H I J K L M)
+  (f459 A B C D E F G H I J K L M)
+  :guard
+  (>= 69 C))
+
+(rule
+  (f457 A B C D E F G H I J K L M)
+  (f459 A B C D E F G H I J K L M)
+  :guard
+  (>= C 71))
+
+(rule
+  (f459 A B C D E F G H I J K L M)
+  (f461 A B C D E F G H I J K L M)
+  :guard
+  (>= 70 C))
+
+(rule
+  (f459 A B C D E F G H I J K L M)
+  (f461 A B C D E F G H I J K L M)
+  :guard
+  (>= C 72))
+
+(rule
+  (f461 A B C D E F G H I J K L M)
+  (f463 A B C D E F G H I J K L M)
+  :guard
+  (>= 71 C))
+
+(rule
+  (f461 A B C D E F G H I J K L M)
+  (f463 A B C D E F G H I J K L M)
+  :guard
+  (>= C 73))
+
+(rule
+  (f463 A B C D E F G H I J K L M)
+  (f465 A B C D E F G H I J K L M)
+  :guard
+  (>= 72 C))
+
+(rule
+  (f463 A B C D E F G H I J K L M)
+  (f465 A B C D E F G H I J K L M)
+  :guard
+  (>= C 74))
+
+(rule
+  (f465 A B C D E F G H I J K L M)
+  (f467 A B C D E F G H I J K L M)
+  :guard
+  (>= 73 C))
+
+(rule
+  (f465 A B C D E F G H I J K L M)
+  (f467 A B C D E F G H I J K L M)
+  :guard
+  (>= C 75))
+
+(rule
+  (f467 A B C D E F G H I J K L M)
+  (f469 A B C D E F G H I J K L M)
+  :guard
+  (>= 74 C))
+
+(rule
+  (f467 A B C D E F G H I J K L M)
+  (f469 A B C D E F G H I J K L M)
+  :guard
+  (>= C 76))
+
+(rule
+  (f469 A B C D E F G H I J K L M)
+  (f471 A B C D E F G H I J K L M)
+  :guard
+  (>= 75 C))
+
+(rule
+  (f469 A B C D E F G H I J K L M)
+  (f471 A B C D E F G H I J K L M)
+  :guard
+  (>= C 77))
+
+(rule
+  (f471 A B C D E F G H I J K L M)
+  (f473 A B C D E F G H I J K L M)
+  :guard
+  (>= 76 C))
+
+(rule
+  (f471 A B C D E F G H I J K L M)
+  (f473 A B C D E F G H I J K L M)
+  :guard
+  (>= C 78))
+
+(rule
+  (f473 A B C D E F G H I J K L M)
+  (f475 A B C D E F G H I J K L M)
+  :guard
+  (>= 77 C))
+
+(rule
+  (f473 A B C D E F G H I J K L M)
+  (f475 A B C D E F G H I J K L M)
+  :guard
+  (>= C 79))
+
+(rule
+  (f475 A B C D E F G H I J K L M)
+  (f477 A B C D E F G H I J K L M)
+  :guard
+  (>= 78 C))
+
+(rule
+  (f475 A B C D E F G H I J K L M)
+  (f477 A B C D E F G H I J K L M)
+  :guard
+  (>= C 80))
+
+(rule
+  (f477 A B C D E F G H I J K L M)
+  (f479 A B C D E F G H I J K L M)
+  :guard
+  (>= 79 C))
+
+(rule
+  (f477 A B C D E F G H I J K L M)
+  (f479 A B C D E F G H I J K L M)
+  :guard
+  (>= C 81))
+
+(rule
+  (f479 A B C D E F G H I J K L M)
+  (f481 A B C D E F G H I J K L M)
+  :guard
+  (>= 80 C))
+
+(rule
+  (f479 A B C D E F G H I J K L M)
+  (f481 A B C D E F G H I J K L M)
+  :guard
+  (>= C 82))
+
+(rule
+  (f481 A B C D E F G H I J K L M)
+  (f483 A B C D E F G H I J K L M)
+  :guard
+  (>= 81 C))
+
+(rule
+  (f481 A B C D E F G H I J K L M)
+  (f483 A B C D E F G H I J K L M)
+  :guard
+  (>= C 83))
+
+(rule
+  (f483 A B C D E F G H I J K L M)
+  (f485 A B C D E F G H I J K L M)
+  :guard
+  (>= 82 C))
+
+(rule
+  (f483 A B C D E F G H I J K L M)
+  (f485 A B C D E F G H I J K L M)
+  :guard
+  (>= C 84))
+
+(rule
+  (f485 A B C D E F G H I J K L M)
+  (f487 A B C D E F G H I J K L M)
+  :guard
+  (>= 83 C))
+
+(rule
+  (f485 A B C D E F G H I J K L M)
+  (f487 A B C D E F G H I J K L M)
+  :guard
+  (>= C 85))
+
+(rule
+  (f487 A B C D E F G H I J K L M)
+  (f489 A B C D E F G H I J K L M)
+  :guard
+  (>= 84 C))
+
+(rule
+  (f487 A B C D E F G H I J K L M)
+  (f489 A B C D E F G H I J K L M)
+  :guard
+  (>= C 86))
+
+(rule
+  (f489 A B C D E F G H I J K L M)
+  (f491 A B C D E F G H I J K L M)
+  :guard
+  (>= 85 C))
+
+(rule
+  (f489 A B C D E F G H I J K L M)
+  (f491 A B C D E F G H I J K L M)
+  :guard
+  (>= C 87))
+
+(rule
+  (f491 A B C D E F G H I J K L M)
+  (f493 A B C D E F G H I J K L M)
+  :guard
+  (>= 86 C))
+
+(rule
+  (f491 A B C D E F G H I J K L M)
+  (f493 A B C D E F G H I J K L M)
+  :guard
+  (>= C 88))
+
+(rule
+  (f493 A B C D E F G H I J K L M)
+  (f495 A B C D E F G H I J K L M)
+  :guard
+  (>= 87 C))
+
+(rule
+  (f493 A B C D E F G H I J K L M)
+  (f495 A B C D E F G H I J K L M)
+  :guard
+  (>= C 89))
+
+(rule
+  (f495 A B C D E F G H I J K L M)
+  (f497 A B C D E F G H I J K L M)
+  :guard
+  (>= 88 C))
+
+(rule
+  (f495 A B C D E F G H I J K L M)
+  (f497 A B C D E F G H I J K L M)
+  :guard
+  (>= C 90))
+
+(rule
+  (f497 A B C D E F G H I J K L M)
+  (f499 A B C D E F G H I J K L M)
+  :guard
+  (>= 89 C))
+
+(rule
+  (f497 A B C D E F G H I J K L M)
+  (f499 A B C D E F G H I J K L M)
+  :guard
+  (>= C 91))
+
+(rule
+  (f499 A B C D E F G H I J K L M)
+  (f501 A B C D E F G H I J K L M)
+  :guard
+  (>= 90 C))
+
+(rule
+  (f499 A B C D E F G H I J K L M)
+  (f501 A B C D E F G H I J K L M)
+  :guard
+  (>= C 92))
+
+(rule
+  (f501 A B C D E F G H I J K L M)
+  (f503 A B C D E F G H I J K L M)
+  :guard
+  (>= 91 C))
+
+(rule
+  (f501 A B C D E F G H I J K L M)
+  (f503 A B C D E F G H I J K L M)
+  :guard
+  (>= C 93))
+
+(rule
+  (f503 A B C D E F G H I J K L M)
+  (f505 A B C D E F G H I J K L M)
+  :guard
+  (>= 92 C))
+
+(rule
+  (f503 A B C D E F G H I J K L M)
+  (f505 A B C D E F G H I J K L M)
+  :guard
+  (>= C 94))
+
+(rule
+  (f505 A B C D E F G H I J K L M)
+  (f507 A B C D E F G H I J K L M)
+  :guard
+  (>= 93 C))
+
+(rule
+  (f505 A B C D E F G H I J K L M)
+  (f507 A B C D E F G H I J K L M)
+  :guard
+  (>= C 95))
+
+(rule
+  (f507 A B C D E F G H I J K L M)
+  (f509 A B C D E F G H I J K L M)
+  :guard
+  (>= 94 C))
+
+(rule
+  (f507 A B C D E F G H I J K L M)
+  (f509 A B C D E F G H I J K L M)
+  :guard
+  (>= C 96))
+
+(rule
+  (f509 A B C D E F G H I J K L M)
+  (f511 A B C D E F G H I J K L M)
+  :guard
+  (>= 95 C))
+
+(rule
+  (f509 A B C D E F G H I J K L M)
+  (f511 A B C D E F G H I J K L M)
+  :guard
+  (>= C 97))
+
+(rule
+  (f511 A B C D E F G H I J K L M)
+  (f513 A B C D E F G H I J K L M)
+  :guard
+  (>= 96 C))
+
+(rule
+  (f511 A B C D E F G H I J K L M)
+  (f513 A B C D E F G H I J K L M)
+  :guard
+  (>= C 98))
+
+(rule
+  (f513 A B C D E F G H I J K L M)
+  (f515 A B C D E F G H I J K L M)
+  :guard
+  (>= 97 C))
+
+(rule
+  (f513 A B C D E F G H I J K L M)
+  (f515 A B C D E F G H I J K L M)
+  :guard
+  (>= C 99))
+
+(rule
+  (f515 A B C D E F G H I J K L M)
+  (f517 A B C D E F G H I J K L M)
+  :guard
+  (>= 98 C))
+
+(rule
+  (f515 A B C D E F G H I J K L M)
+  (f517 A B C D E F G H I J K L M)
+  :guard
+  (>= C 100))
+
+(rule
+  (f517 A B C D E F G H I J K L M)
+  (f519 A B C D E F G H I J K L M)
+  :guard
+  (>= 99 C))
+
+(rule
+  (f517 A B C D E F G H I J K L M)
+  (f519 A B C D E F G H I J K L M)
+  :guard
+  (>= C 101))
+
+(rule
+  (f519 A B C D E F G H I J K L M)
+  (f521 A B C D E F G H I J K L M)
+  :guard
+  (>= 100 C))
+
+(rule
+  (f519 A B C D E F G H I J K L M)
+  (f521 A B C D E F G H I J K L M)
+  :guard
+  (>= C 102))
+
+(rule
+  (f521 A B C D E F G H I J K L M)
+  (f523 A B C D E F G H I J K L M)
+  :guard
+  (>= 101 C))
+
+(rule
+  (f521 A B C D E F G H I J K L M)
+  (f523 A B C D E F G H I J K L M)
+  :guard
+  (>= C 103))
+
+(rule
+  (f523 A B C D E F G H I J K L M)
+  (f525 A B C D E F G H I J K L M)
+  :guard
+  (>= 102 C))
+
+(rule
+  (f523 A B C D E F G H I J K L M)
+  (f525 A B C D E F G H I J K L M)
+  :guard
+  (>= C 104))
+
+(rule
+  (f525 A B C D E F G H I J K L M)
+  (f527 A B C D E F G H I J K L M)
+  :guard
+  (>= 103 C))
+
+(rule
+  (f525 A B C D E F G H I J K L M)
+  (f527 A B C D E F G H I J K L M)
+  :guard
+  (>= C 105))
+
+(rule
+  (f527 A B C D E F G H I J K L M)
+  (f529 A B C D E F G H I J K L M)
+  :guard
+  (>= 104 C))
+
+(rule
+  (f527 A B C D E F G H I J K L M)
+  (f529 A B C D E F G H I J K L M)
+  :guard
+  (>= C 106))
+
+(rule
+  (f529 A B C D E F G H I J K L M)
+  (f531 A B C D E F G H I J K L M)
+  :guard
+  (>= 105 C))
+
+(rule
+  (f529 A B C D E F G H I J K L M)
+  (f531 A B C D E F G H I J K L M)
+  :guard
+  (>= C 107))
+
+(rule
+  (f531 A B C D E F G H I J K L M)
+  (f533 A B C D E F G H I J K L M)
+  :guard
+  (>= 106 C))
+
+(rule
+  (f531 A B C D E F G H I J K L M)
+  (f533 A B C D E F G H I J K L M)
+  :guard
+  (>= C 108))
+
+(rule
+  (f533 A B C D E F G H I J K L M)
+  (f535 A B C D E F G H I J K L M)
+  :guard
+  (>= 107 C))
+
+(rule
+  (f533 A B C D E F G H I J K L M)
+  (f535 A B C D E F G H I J K L M)
+  :guard
+  (>= C 109))
+
+(rule
+  (f535 A B C D E F G H I J K L M)
+  (f537 A B C D E F G H I J K L M)
+  :guard
+  (>= 108 C))
+
+(rule
+  (f535 A B C D E F G H I J K L M)
+  (f537 A B C D E F G H I J K L M)
+  :guard
+  (>= C 110))
+
+(rule
+  (f537 A B C D E F G H I J K L M)
+  (f539 A B C D E F G H I J K L M)
+  :guard
+  (>= 109 C))
+
+(rule
+  (f537 A B C D E F G H I J K L M)
+  (f539 A B C D E F G H I J K L M)
+  :guard
+  (>= C 111))
+
+(rule
+  (f539 A B C D E F G H I J K L M)
+  (f541 A B C D E F G H I J K L M)
+  :guard
+  (>= 110 C))
+
+(rule
+  (f539 A B C D E F G H I J K L M)
+  (f541 A B C D E F G H I J K L M)
+  :guard
+  (>= C 112))
+
+(rule
+  (f541 A B C D E F G H I J K L M)
+  (f543 A B C D E F G H I J K L M)
+  :guard
+  (>= 111 C))
+
+(rule
+  (f541 A B C D E F G H I J K L M)
+  (f543 A B C D E F G H I J K L M)
+  :guard
+  (>= C 113))
+
+(rule
+  (f543 A B C D E F G H I J K L M)
+  (f545 A B C D E F G H I J K L M)
+  :guard
+  (>= 112 C))
+
+(rule
+  (f543 A B C D E F G H I J K L M)
+  (f545 A B C D E F G H I J K L M)
+  :guard
+  (>= C 114))
+
+(rule
+  (f545 A B C D E F G H I J K L M)
+  (f547 A B C D E F G H I J K L M)
+  :guard
+  (>= 113 C))
+
+(rule
+  (f545 A B C D E F G H I J K L M)
+  (f547 A B C D E F G H I J K L M)
+  :guard
+  (>= C 115))
+
+(rule
+  (f547 A B C D E F G H I J K L M)
+  (f549 A B C D E F G H I J K L M)
+  :guard
+  (>= 114 C))
+
+(rule
+  (f547 A B C D E F G H I J K L M)
+  (f549 A B C D E F G H I J K L M)
+  :guard
+  (>= C 116))
+
+(rule
+  (f549 A B C D E F G H I J K L M)
+  (f551 A B C D E F G H I J K L M)
+  :guard
+  (>= 115 C))
+
+(rule
+  (f549 A B C D E F G H I J K L M)
+  (f551 A B C D E F G H I J K L M)
+  :guard
+  (>= C 117))
+
+(rule
+  (f551 A B C D E F G H I J K L M)
+  (f553 A B C D E F G H I J K L M)
+  :guard
+  (>= 116 C))
+
+(rule
+  (f551 A B C D E F G H I J K L M)
+  (f553 A B C D E F G H I J K L M)
+  :guard
+  (>= C 118))
+
+(rule
+  (f553 A B C D E F G H I J K L M)
+  (f555 A B C D E F G H I J K L M)
+  :guard
+  (>= 117 C))
+
+(rule
+  (f553 A B C D E F G H I J K L M)
+  (f555 A B C D E F G H I J K L M)
+  :guard
+  (>= C 119))
+
+(rule (f0 A B C D E F G H I J K L M) (f7 0 B C 0 0 F G H I J K L M))
+(rule
+  (f7 A B C D E F G H I J K L M)
+  (f11 A B C D E F G H I J K L M)
+  :guard
+  (and (>= 0 (+ A 1)) (>= 9 A)))
+
+(rule
+  (f7 A B C D E F G H I J K L M)
+  (f11 A B C D E F G H I J K L M)
+  :guard
+  (and (>= 9 A) (>= A 1)))
+
+(rule
+  (f61 A B C D E F G H I J K L M)
+  (f65 A B C D E F G H I J K L M)
+  :guard
+  (and (>= 0 (+ B 1)) (>= 49 B)))
+
+(rule
+  (f61 A B C D E F G H I J K L M)
+  (f65 A B C D E F G H I J K L M)
+  :guard
+  (and (>= 49 B) (>= B 1)))
+
+(rule
+  (f315 A B C D E F G H I J K L M)
+  (f319 A B C D E F G H I J K L M)
+  :guard
+  (and (>= 0 (+ C 1)) (>= 119 C)))
+
+(rule
+  (f315 A B C D E F G H I J K L M)
+  (f319 A B C D E F G H I J K L M)
+  :guard
+  (and (>= 119 C) (>= C 1)))
+
+(rule
+  (f555 A B C D E F G H I J K L M)
+  (f315 A B (+ C 1) D E (- F 1) G H I J K L M)
+  :guard
+  (>= 118 C))
+
+(rule
+  (f555 A B C D E F G H I J K L M)
+  (f315 A B (+ C 1) D E (- F 1) G H I J K L M)
+  :guard
+  (>= C 120))
+
+(rule
+  (f555 A B C D E F G H I J K L M)
+  (f315 A B 120 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 119))
+
+(rule
+  (f553 A B C D E F G H I J K L M)
+  (f315 A B 119 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 118))
+
+(rule
+  (f551 A B C D E F G H I J K L M)
+  (f315 A B 118 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 117))
+
+(rule
+  (f549 A B C D E F G H I J K L M)
+  (f315 A B 117 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 116))
+
+(rule
+  (f547 A B C D E F G H I J K L M)
+  (f315 A B 116 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 115))
+
+(rule
+  (f545 A B C D E F G H I J K L M)
+  (f315 A B 115 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 114))
+
+(rule
+  (f543 A B C D E F G H I J K L M)
+  (f315 A B 114 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 113))
+
+(rule
+  (f541 A B C D E F G H I J K L M)
+  (f315 A B 113 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 112))
+
+(rule
+  (f539 A B C D E F G H I J K L M)
+  (f315 A B 112 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 111))
+
+(rule
+  (f537 A B C D E F G H I J K L M)
+  (f315 A B 111 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 110))
+
+(rule
+  (f535 A B C D E F G H I J K L M)
+  (f315 A B 110 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 109))
+
+(rule
+  (f533 A B C D E F G H I J K L M)
+  (f315 A B 109 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 108))
+
+(rule
+  (f531 A B C D E F G H I J K L M)
+  (f315 A B 108 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 107))
+
+(rule
+  (f529 A B C D E F G H I J K L M)
+  (f315 A B 107 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 106))
+
+(rule
+  (f527 A B C D E F G H I J K L M)
+  (f315 A B 106 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 105))
+
+(rule
+  (f525 A B C D E F G H I J K L M)
+  (f315 A B 105 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 104))
+
+(rule
+  (f523 A B C D E F G H I J K L M)
+  (f315 A B 104 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 103))
+
+(rule
+  (f521 A B C D E F G H I J K L M)
+  (f315 A B 103 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 102))
+
+(rule
+  (f519 A B C D E F G H I J K L M)
+  (f315 A B 102 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 101))
+
+(rule
+  (f517 A B C D E F G H I J K L M)
+  (f315 A B 101 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 100))
+
+(rule
+  (f515 A B C D E F G H I J K L M)
+  (f315 A B 100 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 99))
+
+(rule
+  (f513 A B C D E F G H I J K L M)
+  (f315 A B 99 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 98))
+
+(rule
+  (f511 A B C D E F G H I J K L M)
+  (f315 A B 98 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 97))
+
+(rule
+  (f509 A B C D E F G H I J K L M)
+  (f315 A B 97 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 96))
+
+(rule
+  (f507 A B C D E F G H I J K L M)
+  (f315 A B 96 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 95))
+
+(rule
+  (f505 A B C D E F G H I J K L M)
+  (f315 A B 95 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 94))
+
+(rule
+  (f503 A B C D E F G H I J K L M)
+  (f315 A B 94 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 93))
+
+(rule
+  (f501 A B C D E F G H I J K L M)
+  (f315 A B 93 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 92))
+
+(rule
+  (f499 A B C D E F G H I J K L M)
+  (f315 A B 92 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 91))
+
+(rule
+  (f497 A B C D E F G H I J K L M)
+  (f315 A B 91 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 90))
+
+(rule
+  (f495 A B C D E F G H I J K L M)
+  (f315 A B 90 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 89))
+
+(rule
+  (f493 A B C D E F G H I J K L M)
+  (f315 A B 89 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 88))
+
+(rule
+  (f491 A B C D E F G H I J K L M)
+  (f315 A B 88 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 87))
+
+(rule
+  (f489 A B C D E F G H I J K L M)
+  (f315 A B 87 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 86))
+
+(rule
+  (f487 A B C D E F G H I J K L M)
+  (f315 A B 86 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 85))
+
+(rule
+  (f485 A B C D E F G H I J K L M)
+  (f315 A B 85 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 84))
+
+(rule
+  (f483 A B C D E F G H I J K L M)
+  (f315 A B 84 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 83))
+
+(rule
+  (f481 A B C D E F G H I J K L M)
+  (f315 A B 83 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 82))
+
+(rule
+  (f479 A B C D E F G H I J K L M)
+  (f315 A B 82 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 81))
+
+(rule
+  (f477 A B C D E F G H I J K L M)
+  (f315 A B 81 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 80))
+
+(rule
+  (f475 A B C D E F G H I J K L M)
+  (f315 A B 80 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 79))
+
+(rule
+  (f473 A B C D E F G H I J K L M)
+  (f315 A B 79 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 78))
+
+(rule
+  (f471 A B C D E F G H I J K L M)
+  (f315 A B 78 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 77))
+
+(rule
+  (f469 A B C D E F G H I J K L M)
+  (f315 A B 77 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 76))
+
+(rule
+  (f467 A B C D E F G H I J K L M)
+  (f315 A B 76 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 75))
+
+(rule
+  (f465 A B C D E F G H I J K L M)
+  (f315 A B 75 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 74))
+
+(rule
+  (f463 A B C D E F G H I J K L M)
+  (f315 A B 74 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 73))
+
+(rule
+  (f461 A B C D E F G H I J K L M)
+  (f315 A B 73 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 72))
+
+(rule
+  (f459 A B C D E F G H I J K L M)
+  (f315 A B 72 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 71))
+
+(rule
+  (f457 A B C D E F G H I J K L M)
+  (f315 A B 71 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 70))
+
+(rule
+  (f455 A B C D E F G H I J K L M)
+  (f315 A B 70 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 69))
+
+(rule
+  (f453 A B C D E F G H I J K L M)
+  (f315 A B 69 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 68))
+
+(rule
+  (f451 A B C D E F G H I J K L M)
+  (f315 A B 68 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 67))
+
+(rule
+  (f449 A B C D E F G H I J K L M)
+  (f315 A B 67 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 66))
+
+(rule
+  (f447 A B C D E F G H I J K L M)
+  (f315 A B 66 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 65))
+
+(rule
+  (f445 A B C D E F G H I J K L M)
+  (f315 A B 65 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 64))
+
+(rule
+  (f443 A B C D E F G H I J K L M)
+  (f315 A B 64 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 63))
+
+(rule
+  (f441 A B C D E F G H I J K L M)
+  (f315 A B 63 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 62))
+
+(rule
+  (f439 A B C D E F G H I J K L M)
+  (f315 A B 62 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 61))
+
+(rule
+  (f437 A B C D E F G H I J K L M)
+  (f315 A B 61 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 60))
+
+(rule
+  (f435 A B C D E F G H I J K L M)
+  (f315 A B 60 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 59))
+
+(rule
+  (f433 A B C D E F G H I J K L M)
+  (f315 A B 59 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 58))
+
+(rule
+  (f431 A B C D E F G H I J K L M)
+  (f315 A B 58 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 57))
+
+(rule
+  (f429 A B C D E F G H I J K L M)
+  (f315 A B 57 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 56))
+
+(rule
+  (f427 A B C D E F G H I J K L M)
+  (f315 A B 56 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 55))
+
+(rule
+  (f425 A B C D E F G H I J K L M)
+  (f315 A B 55 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 54))
+
+(rule
+  (f423 A B C D E F G H I J K L M)
+  (f315 A B 54 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 53))
+
+(rule
+  (f421 A B C D E F G H I J K L M)
+  (f315 A B 53 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 52))
+
+(rule
+  (f419 A B C D E F G H I J K L M)
+  (f315 A B 52 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 51))
+
+(rule
+  (f417 A B C D E F G H I J K L M)
+  (f315 A B 51 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 50))
+
+(rule
+  (f415 A B C D E F G H I J K L M)
+  (f315 A B 50 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 49))
+
+(rule
+  (f413 A B C D E F G H I J K L M)
+  (f315 A B 49 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 48))
+
+(rule
+  (f411 A B C D E F G H I J K L M)
+  (f315 A B 48 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 47))
+
+(rule
+  (f409 A B C D E F G H I J K L M)
+  (f315 A B 47 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 46))
+
+(rule
+  (f407 A B C D E F G H I J K L M)
+  (f315 A B 46 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 45))
+
+(rule
+  (f405 A B C D E F G H I J K L M)
+  (f315 A B 45 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 44))
+
+(rule
+  (f403 A B C D E F G H I J K L M)
+  (f315 A B 44 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 43))
+
+(rule
+  (f401 A B C D E F G H I J K L M)
+  (f315 A B 43 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 42))
+
+(rule
+  (f399 A B C D E F G H I J K L M)
+  (f315 A B 42 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 41))
+
+(rule
+  (f397 A B C D E F G H I J K L M)
+  (f315 A B 41 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 40))
+
+(rule
+  (f395 A B C D E F G H I J K L M)
+  (f315 A B 40 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 39))
+
+(rule
+  (f393 A B C D E F G H I J K L M)
+  (f315 A B 39 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 38))
+
+(rule
+  (f391 A B C D E F G H I J K L M)
+  (f315 A B 38 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 37))
+
+(rule
+  (f389 A B C D E F G H I J K L M)
+  (f315 A B 37 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 36))
+
+(rule
+  (f387 A B C D E F G H I J K L M)
+  (f315 A B 36 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 35))
+
+(rule
+  (f385 A B C D E F G H I J K L M)
+  (f315 A B 35 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 34))
+
+(rule
+  (f383 A B C D E F G H I J K L M)
+  (f315 A B 34 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 33))
+
+(rule
+  (f381 A B C D E F G H I J K L M)
+  (f315 A B 33 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 32))
+
+(rule
+  (f379 A B C D E F G H I J K L M)
+  (f315 A B 32 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 31))
+
+(rule
+  (f377 A B C D E F G H I J K L M)
+  (f315 A B 31 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 30))
+
+(rule
+  (f375 A B C D E F G H I J K L M)
+  (f315 A B 30 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 29))
+
+(rule
+  (f373 A B C D E F G H I J K L M)
+  (f315 A B 29 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 28))
+
+(rule
+  (f371 A B C D E F G H I J K L M)
+  (f315 A B 28 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 27))
+
+(rule
+  (f369 A B C D E F G H I J K L M)
+  (f315 A B 27 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 26))
+
+(rule
+  (f367 A B C D E F G H I J K L M)
+  (f315 A B 26 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 25))
+
+(rule
+  (f365 A B C D E F G H I J K L M)
+  (f315 A B 25 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 24))
+
+(rule
+  (f363 A B C D E F G H I J K L M)
+  (f315 A B 24 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 23))
+
+(rule
+  (f361 A B C D E F G H I J K L M)
+  (f315 A B 23 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 22))
+
+(rule
+  (f359 A B C D E F G H I J K L M)
+  (f315 A B 22 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 21))
+
+(rule
+  (f357 A B C D E F G H I J K L M)
+  (f315 A B 21 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 20))
+
+(rule
+  (f355 A B C D E F G H I J K L M)
+  (f315 A B 20 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 19))
+
+(rule
+  (f353 A B C D E F G H I J K L M)
+  (f315 A B 19 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 18))
+
+(rule
+  (f351 A B C D E F G H I J K L M)
+  (f315 A B 18 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 17))
+
+(rule
+  (f349 A B C D E F G H I J K L M)
+  (f315 A B 17 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 16))
+
+(rule
+  (f347 A B C D E F G H I J K L M)
+  (f315 A B 16 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 15))
+
+(rule
+  (f345 A B C D E F G H I J K L M)
+  (f315 A B 15 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 14))
+
+(rule
+  (f343 A B C D E F G H I J K L M)
+  (f315 A B 14 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 13))
+
+(rule
+  (f341 A B C D E F G H I J K L M)
+  (f315 A B 13 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 12))
+
+(rule
+  (f339 A B C D E F G H I J K L M)
+  (f315 A B 12 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 11))
+
+(rule
+  (f337 A B C D E F G H I J K L M)
+  (f315 A B 11 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 10))
+
+(rule
+  (f335 A B C D E F G H I J K L M)
+  (f315 A B 10 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 9))
+
+(rule
+  (f333 A B C D E F G H I J K L M)
+  (f315 A B 9 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 8))
+
+(rule
+  (f331 A B C D E F G H I J K L M)
+  (f315 A B 8 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 7))
+
+(rule
+  (f329 A B C D E F G H I J K L M)
+  (f315 A B 7 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 6))
+
+(rule
+  (f327 A B C D E F G H I J K L M)
+  (f315 A B 6 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 5))
+
+(rule
+  (f325 A B C D E F G H I J K L M)
+  (f315 A B 5 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 4))
+
+(rule
+  (f323 A B C D E F G H I J K L M)
+  (f315 A B 4 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 3))
+
+(rule
+  (f321 A B C D E F G H I J K L M)
+  (f315 A B 3 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 2))
+
+(rule
+  (f319 A B C D E F G H I J K L M)
+  (f315 A B 2 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 1))
+
+(rule
+  (f315 A B C D E F G H I J K L M)
+  (f315 A B 1 D E (+ F 1) G H I J K L M)
+  :guard
+  (= C 0))
+
+(rule
+  (f315 A B C D E F G H I J K L M)
+  (f808 A B C F E F F F I J K L M)
+  :guard
+  (>= C 120))
+
+(rule
+  (f181 A B C D E F G H I J K L M)
+  (f61 A (+ B 1) C D E F G H (- I 1) J K L M)
+  :guard
+  (>= 58 B))
+
+(rule
+  (f181 A B C D E F G H I J K L M)
+  (f61 A (+ B 1) C D E F G H (- I 1) J K L M)
+  :guard
+  (>= B 60))
+
+(rule
+  (f181 A B C D E F G H I J K L M)
+  (f61 A 60 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 59))
+
+(rule
+  (f179 A B C D E F G H I J K L M)
+  (f61 A 59 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 58))
+
+(rule
+  (f177 A B C D E F G H I J K L M)
+  (f61 A 58 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 57))
+
+(rule
+  (f175 A B C D E F G H I J K L M)
+  (f61 A 57 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 56))
+
+(rule
+  (f173 A B C D E F G H I J K L M)
+  (f61 A 56 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 55))
+
+(rule
+  (f171 A B C D E F G H I J K L M)
+  (f61 A 55 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 54))
+
+(rule
+  (f169 A B C D E F G H I J K L M)
+  (f61 A 54 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 53))
+
+(rule
+  (f167 A B C D E F G H I J K L M)
+  (f61 A 53 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 52))
+
+(rule
+  (f165 A B C D E F G H I J K L M)
+  (f61 A 52 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 51))
+
+(rule
+  (f163 A B C D E F G H I J K L M)
+  (f61 A 51 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 50))
+
+(rule
+  (f161 A B C D E F G H I J K L M)
+  (f61 A 50 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 49))
+
+(rule
+  (f159 A B C D E F G H I J K L M)
+  (f61 A 49 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 48))
+
+(rule
+  (f157 A B C D E F G H I J K L M)
+  (f61 A 48 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 47))
+
+(rule
+  (f155 A B C D E F G H I J K L M)
+  (f61 A 47 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 46))
+
+(rule
+  (f153 A B C D E F G H I J K L M)
+  (f61 A 46 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 45))
+
+(rule
+  (f151 A B C D E F G H I J K L M)
+  (f61 A 45 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 44))
+
+(rule
+  (f149 A B C D E F G H I J K L M)
+  (f61 A 44 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 43))
+
+(rule
+  (f147 A B C D E F G H I J K L M)
+  (f61 A 43 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 42))
+
+(rule
+  (f145 A B C D E F G H I J K L M)
+  (f61 A 42 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 41))
+
+(rule
+  (f143 A B C D E F G H I J K L M)
+  (f61 A 41 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 40))
+
+(rule
+  (f141 A B C D E F G H I J K L M)
+  (f61 A 40 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 39))
+
+(rule
+  (f139 A B C D E F G H I J K L M)
+  (f61 A 39 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 38))
+
+(rule
+  (f137 A B C D E F G H I J K L M)
+  (f61 A 38 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 37))
+
+(rule
+  (f135 A B C D E F G H I J K L M)
+  (f61 A 37 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 36))
+
+(rule
+  (f133 A B C D E F G H I J K L M)
+  (f61 A 36 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 35))
+
+(rule
+  (f131 A B C D E F G H I J K L M)
+  (f61 A 35 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 34))
+
+(rule
+  (f129 A B C D E F G H I J K L M)
+  (f61 A 34 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 33))
+
+(rule
+  (f127 A B C D E F G H I J K L M)
+  (f61 A 33 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 32))
+
+(rule
+  (f125 A B C D E F G H I J K L M)
+  (f61 A 32 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 31))
+
+(rule
+  (f123 A B C D E F G H I J K L M)
+  (f61 A 31 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 30))
+
+(rule
+  (f121 A B C D E F G H I J K L M)
+  (f61 A 30 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 29))
+
+(rule
+  (f119 A B C D E F G H I J K L M)
+  (f61 A 29 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 28))
+
+(rule
+  (f117 A B C D E F G H I J K L M)
+  (f61 A 28 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 27))
+
+(rule
+  (f115 A B C D E F G H I J K L M)
+  (f61 A 27 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 26))
+
+(rule
+  (f113 A B C D E F G H I J K L M)
+  (f61 A 26 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 25))
+
+(rule
+  (f111 A B C D E F G H I J K L M)
+  (f61 A 25 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 24))
+
+(rule
+  (f109 A B C D E F G H I J K L M)
+  (f61 A 24 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 23))
+
+(rule
+  (f107 A B C D E F G H I J K L M)
+  (f61 A 23 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 22))
+
+(rule
+  (f105 A B C D E F G H I J K L M)
+  (f61 A 22 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 21))
+
+(rule
+  (f103 A B C D E F G H I J K L M)
+  (f61 A 21 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 20))
+
+(rule
+  (f101 A B C D E F G H I J K L M)
+  (f61 A 20 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 19))
+
+(rule
+  (f99 A B C D E F G H I J K L M)
+  (f61 A 19 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 18))
+
+(rule
+  (f97 A B C D E F G H I J K L M)
+  (f61 A 18 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 17))
+
+(rule
+  (f95 A B C D E F G H I J K L M)
+  (f61 A 17 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 16))
+
+(rule
+  (f93 A B C D E F G H I J K L M)
+  (f61 A 16 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 15))
+
+(rule
+  (f91 A B C D E F G H I J K L M)
+  (f61 A 15 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 14))
+
+(rule
+  (f89 A B C D E F G H I J K L M)
+  (f61 A 14 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 13))
+
+(rule
+  (f87 A B C D E F G H I J K L M)
+  (f61 A 13 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 12))
+
+(rule
+  (f85 A B C D E F G H I J K L M)
+  (f61 A 12 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 11))
+
+(rule
+  (f83 A B C D E F G H I J K L M)
+  (f61 A 11 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 10))
+
+(rule
+  (f81 A B C D E F G H I J K L M)
+  (f61 A 10 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 9))
+
+(rule
+  (f79 A B C D E F G H I J K L M)
+  (f61 A 9 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 8))
+
+(rule
+  (f77 A B C D E F G H I J K L M)
+  (f61 A 8 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 7))
+
+(rule
+  (f75 A B C D E F G H I J K L M)
+  (f61 A 7 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 6))
+
+(rule
+  (f73 A B C D E F G H I J K L M)
+  (f61 A 6 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 5))
+
+(rule
+  (f71 A B C D E F G H I J K L M)
+  (f61 A 5 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 4))
+
+(rule
+  (f69 A B C D E F G H I J K L M)
+  (f61 A 4 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 3))
+
+(rule
+  (f67 A B C D E F G H I J K L M)
+  (f61 A 3 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 2))
+
+(rule
+  (f65 A B C D E F G H I J K L M)
+  (f61 A 2 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 1))
+
+(rule
+  (f61 A B C D E F G H I J K L M)
+  (f61 A 1 C D E F G H (+ I 1) J K L M)
+  :guard
+  (= B 0))
+
+(rule
+  (f61 A B C D E F G H I J K L M)
+  (f315 A B 0 I E I G H I I I L M)
+  :guard
+  (>= B 50))
+
+(rule
+  (f27 A B C D E F G H I J K L M)
+  (f7 (+ A 1) B C D (- E 1) F G H I J K L M)
+  :guard
+  (>= 8 A))
+
+(rule
+  (f27 A B C D E F G H I J K L M)
+  (f7 (+ A 1) B C D (- E 1) F G H I J K L M)
+  :guard
+  (>= A 10))
+
+(rule
+  (f27 A B C D E F G H I J K L M)
+  (f7 10 B C D (+ E 1) F G H I J K L M)
+  :guard
+  (= A 9))
+
+(rule
+  (f25 A B C D E F G H I J K L M)
+  (f7 9 B C D (+ E 1) F G H I J K L M)
+  :guard
+  (= A 8))
+
+(rule
+  (f23 A B C D E F G H I J K L M)
+  (f7 8 B C D (+ E 1) F G H I J K L M)
+  :guard
+  (= A 7))
+
+(rule
+  (f21 A B C D E F G H I J K L M)
+  (f7 7 B C D (+ E 1) F G H I J K L M)
+  :guard
+  (= A 6))
+
+(rule
+  (f19 A B C D E F G H I J K L M)
+  (f7 6 B C D (+ E 1) F G H I J K L M)
+  :guard
+  (= A 5))
+
+(rule
+  (f17 A B C D E F G H I J K L M)
+  (f7 5 B C D (+ E 1) F G H I J K L M)
+  :guard
+  (= A 4))
+
+(rule
+  (f15 A B C D E F G H I J K L M)
+  (f7 4 B C D (+ E 1) F G H I J K L M)
+  :guard
+  (= A 3))
+
+(rule
+  (f13 A B C D E F G H I J K L M)
+  (f7 3 B C D (+ E 1) F G H I J K L M)
+  :guard
+  (= A 2))
+
+(rule
+  (f11 A B C D E F G H I J K L M)
+  (f7 2 B C D (+ E 1) F G H I J K L M)
+  :guard
+  (= A 1))
+
+(rule
+  (f7 A B C D E F G H I J K L M)
+  (f7 1 B C D (+ E 1) F G H I J K L M)
+  :guard
+  (= A 0))
+
+(rule
+  (f7 A B C D E F G H I J K L M)
+  (f61 A 0 C E E F G H E J K E E)
+  :guard
+  (>= A 10))
+

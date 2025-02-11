@@ -1,0 +1,18 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int))
+(fun l1 (-> Int Int Int Int))
+(entrypoint l0)
+(rule (l0 X1 X2 X3) (l1 X1 X2 X3))
+(rule
+  (l1 X1 X2 X3)
+  (l1 (* 2 X1) (* 3 X2) (* 4 X3))
+  :guard
+  (and (< X3 X1) (> X3 0)))
+
+(rule
+  (l1 X1 X2 X3)
+  (l1 (* 2 X1) (* 3 X2) (* 4 X3))
+  :guard
+  (and (< X3 X2) (> X3 0)))
+

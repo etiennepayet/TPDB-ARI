@@ -1,0 +1,55 @@
+(format LCTRS)
+(theory Ints)
+(fun evalinsertsortbb1in (-> Int Int Int Int Int))
+(fun evalinsertsortbb2in (-> Int Int Int Int Int))
+(fun evalinsertsortbb3in (-> Int Int Int Int Int))
+(fun evalinsertsortbb4in (-> Int Int Int Int Int))
+(fun evalinsertsortbb5in (-> Int Int Int Int Int))
+(fun evalinsertsortbbin (-> Int Int Int Int Int))
+(fun evalinsertsortentryin (-> Int Int Int Int Int))
+(fun evalinsertsortreturnin (-> Int Int Int Int Int))
+(fun evalinsertsortstart (-> Int Int Int Int Int))
+(fun evalinsertsortstop (-> Int Int Int Int Int))
+(entrypoint evalinsertsortstart)
+(rule (evalinsertsortstart A B C D) (evalinsertsortentryin A B C D))
+(rule (evalinsertsortentryin A B C D) (evalinsertsortbb5in 1 B C D))
+(rule
+  (evalinsertsortbb5in A B C D)
+  (evalinsertsortbbin A B C D)
+  :guard
+  (>= B (+ A 1)))
+
+(rule
+  (evalinsertsortbb5in A B C D)
+  (evalinsertsortreturnin A B C D)
+  :guard
+  (>= A B))
+
+(rule (evalinsertsortbbin A B C D) (evalinsertsortbb2in A B E (- A 1)))
+(rule
+  (evalinsertsortbb2in A B C D)
+  (evalinsertsortbb4in A B C D)
+  :guard
+  (>= 0 (+ D 1)))
+
+(rule
+  (evalinsertsortbb2in A B C D)
+  (evalinsertsortbb3in A B C D)
+  :guard
+  (>= D 0))
+
+(rule
+  (evalinsertsortbb3in A B C D)
+  (evalinsertsortbb1in A B C D)
+  :guard
+  (>= E (+ C 1)))
+
+(rule
+  (evalinsertsortbb3in A B C D)
+  (evalinsertsortbb4in A B C D)
+  :guard
+  (>= C E))
+
+(rule (evalinsertsortbb1in A B C D) (evalinsertsortbb2in A B C (- D 1)))
+(rule (evalinsertsortbb4in A B C D) (evalinsertsortbb5in (+ A 1) B C D))
+(rule (evalinsertsortreturnin A B C D) (evalinsertsortstop A B C D))

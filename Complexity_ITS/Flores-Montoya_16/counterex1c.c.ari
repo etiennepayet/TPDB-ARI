@@ -1,0 +1,482 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_counterex1c_0 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_1 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_11 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_12 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_15 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_16 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_2 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_3 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_4 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_5 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_6 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_7 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_8 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun eval_counterex1c_9 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+  eval_counterex1c_LeafBlock8_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_counterex1c_LeafBlock_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_counterex1c_NewDefault_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_counterex1c_NodeBlock_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_counterex1c__critedge_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_counterex1c_bb0_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_counterex1c_bb1_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_counterex1c_bb2_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_counterex1c_bb3_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_counterex1c_bb4_in
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_counterex1c_start
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+  eval_counterex1c_stop
+  (-> Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(entrypoint eval_counterex1c_start)
+(rule
+  (eval_counterex1c_start v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_bb0_in v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_bb0_in v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_0 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_0 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_1 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_1 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_2 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_2 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_3 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_3 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_4 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_4 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_5 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_5 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_6 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_6 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_7 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_7 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_8 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_8 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_9 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_9 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_bb1_in v_b v_x v_y v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_bb1_in v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_bb2_in v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  :guard
+  (and (and (>= v__01 0) (<= 0 v__04)) (<= v__04 v_n)))
+
+(rule
+  (eval_counterex1c_bb1_in v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c__critedge_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  :guard
+  (< v__01 0))
+
+(rule
+  (eval_counterex1c_bb1_in v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c__critedge_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  :guard
+  (> 0 v__04))
+
+(rule
+  (eval_counterex1c_bb1_in v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c__critedge_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  :guard
+  (> v__04 v_n))
+
+(rule
+  (eval_counterex1c_bb2_in v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_NodeBlock_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  )
+
+(rule
+  (eval_counterex1c_NodeBlock_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  (eval_counterex1c_LeafBlock_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  :guard
+  (< v__0 1))
+
+(rule
+  (eval_counterex1c_NodeBlock_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  (eval_counterex1c_LeafBlock8_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  :guard
+  (>= v__0 1))
+
+(rule
+  (eval_counterex1c_LeafBlock_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  (eval_counterex1c_bb3_in v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  :guard
+  (= v__0 0))
+
+(rule
+  (eval_counterex1c_LeafBlock_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  (eval_counterex1c_NewDefault_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  :guard
+  (< v__0 0))
+
+(rule
+  (eval_counterex1c_LeafBlock_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  (eval_counterex1c_NewDefault_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  :guard
+  (> v__0 0))
+
+(rule
+  (eval_counterex1c_bb3_in v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_11 v__0 v__01 v__04 (+ v__04 1) v_4 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_11 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_12 v__0 v__01 v__04 v_3 nondef_0 v_6 v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_12 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_bb1_in 1 v__01 v_3 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  :guard
+  (> v_4 0))
+
+(rule
+  (eval_counterex1c_12 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_bb1_in v__0 v__01 v_3 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  :guard
+  (<= v_4 0))
+
+(rule
+  (eval_counterex1c_LeafBlock8_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  (eval_counterex1c_bb4_in v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  :guard
+  (= v__0 1))
+
+(rule
+  (eval_counterex1c_LeafBlock8_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  (eval_counterex1c_NewDefault_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  :guard
+  (< v__0 1))
+
+(rule
+  (eval_counterex1c_LeafBlock8_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  (eval_counterex1c_NewDefault_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  :guard
+  (> v__0 1))
+
+(rule
+  (eval_counterex1c_bb4_in v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_15 v__0 v__01 v__04 v_3 v_4 (- v__04 1) v_7 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_15 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_16 v__0 v__01 v__04 v_3 v_4 v_6 nondef_1 v_b v_n v_x v_y))
+
+(rule
+  (eval_counterex1c_16 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_bb1_in 0 (- v__01 1) v_6 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  :guard
+  (and (> v_7 0) (> v_7 0)))
+
+(rule
+  (eval_counterex1c_16 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_bb1_in v__0 (- v__01 1) v_6 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  :guard
+  (and (> v_7 0) (<= v_7 0)))
+
+(rule
+  (eval_counterex1c_16 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_bb1_in 0 v__01 v_6 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  :guard
+  (and (<= v_7 0) (> v_7 0)))
+
+(rule
+  (eval_counterex1c_16 v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  (eval_counterex1c_bb1_in v__0 v__01 v_6 v_3 v_4 v_6 v_7 v_b v_n v_x v_y)
+  :guard
+  (and (<= v_7 0) (<= v_7 0)))
+
+(rule
+  (eval_counterex1c_NewDefault_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  (eval_counterex1c__critedge_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  )
+
+(rule
+  (eval_counterex1c__critedge_in
+    v__0
+    v__01
+    v__04
+    v_3
+    v_4
+    v_6
+    v_7
+    v_b
+    v_n
+    v_x
+    v_y)
+  (eval_counterex1c_stop v__0 v__01 v__04 v_3 v_4 v_6 v_7 v_b v_n v_x v_y))
+

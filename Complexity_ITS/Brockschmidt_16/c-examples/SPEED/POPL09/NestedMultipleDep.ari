@@ -1,0 +1,55 @@
+(format LCTRS)
+(theory Ints)
+(fun evalNestedMultipleDepbb1in (-> Int Int Int Int Int Int))
+(fun evalNestedMultipleDepbb2in (-> Int Int Int Int Int Int))
+(fun evalNestedMultipleDepbb3in (-> Int Int Int Int Int Int))
+(fun evalNestedMultipleDepbbin (-> Int Int Int Int Int Int))
+(fun evalNestedMultipleDepentryin (-> Int Int Int Int Int Int))
+(fun evalNestedMultipleDepreturnin (-> Int Int Int Int Int Int))
+(fun evalNestedMultipleDepstart (-> Int Int Int Int Int Int))
+(fun evalNestedMultipleDepstop (-> Int Int Int Int Int Int))
+(entrypoint evalNestedMultipleDepstart)
+(rule
+  (evalNestedMultipleDepstart A B C D E)
+  (evalNestedMultipleDepentryin A B C D E))
+
+(rule
+  (evalNestedMultipleDepentryin A B C D E)
+  (evalNestedMultipleDepbb3in 0 B C D E))
+
+(rule
+  (evalNestedMultipleDepbb3in A B C D E)
+  (evalNestedMultipleDepbbin A B C D E)
+  :guard
+  (>= B (+ A 1)))
+
+(rule
+  (evalNestedMultipleDepbb3in A B C D E)
+  (evalNestedMultipleDepreturnin A B C D E)
+  :guard
+  (>= A B))
+
+(rule
+  (evalNestedMultipleDepbbin A B C D E)
+  (evalNestedMultipleDepbb2in A B (+ A 1) 0 E))
+
+(rule
+  (evalNestedMultipleDepbb2in A B C D E)
+  (evalNestedMultipleDepbb1in A B C D E)
+  :guard
+  (>= E (+ D 1)))
+
+(rule
+  (evalNestedMultipleDepbb2in A B C D E)
+  (evalNestedMultipleDepbb3in C B C D E)
+  :guard
+  (>= D E))
+
+(rule
+  (evalNestedMultipleDepbb1in A B C D E)
+  (evalNestedMultipleDepbb2in A B C (+ D 1) E))
+
+(rule
+  (evalNestedMultipleDepreturnin A B C D E)
+  (evalNestedMultipleDepstop A B C D E))
+

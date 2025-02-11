@@ -1,0 +1,287 @@
+(format LCTRS)
+(theory Ints)
+(fun lbl121 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun lbl141 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun lbl171 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun lbl191 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun lbl21 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun lbl81 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun start (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun start0 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun stop (-> Int Int Int Int Int Int Int Int Int Int Int))
+(entrypoint start0)
+(rule
+  (start A B C D E F G H I J)
+  (stop A 0 C 0 E F G 0 I J)
+  :guard
+  (and
+    (and (and (and (and (>= 0 A) (= B C)) (= D E)) (= F G)) (= H I))
+    (= J A))
+  )
+
+(rule
+  (start A B C D E F G H I J)
+  (lbl81 A 0 C 0 E K G 1 I J)
+  :guard
+  (and
+    (and (and (and (and (>= A 1) (= B C)) (= D E)) (= F G)) (= H I))
+    (= J A))
+  )
+
+(rule
+  (lbl21 A B C D E F G H I J)
+  (stop A B C D E F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (>= (+ (+ A D) B) 1) (>= (+ A D) (+ B 1)))
+          (>= (+ A B) (+ D 1)))
+        (>= A (+ (+ D B) 1)))
+      (= H A))
+    (= J A))
+  )
+
+(rule
+  (lbl21 A B C D E F G H I J)
+  (lbl81 A B C D E K G (+ 1 H) I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (>= A (+ H 1)) (>= A H)) (>= (+ (+ H D) B) 1))
+          (>= (+ H D) (+ B 1)))
+        (>= (+ H B) (+ D 1)))
+      (>= H (+ (+ D B) 1)))
+    (= J A))
+  )
+
+(rule
+  (lbl121 A B C D E F G H I J)
+  (stop A B C D E F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (>= (+ (+ A D) B) 2) (>= (+ A D) (+ B 2))) (>= (+ A B) D))
+          (>= A (+ D B)))
+        (= H A))
+      (= F 0))
+    (= J A))
+  )
+
+(rule
+  (lbl121 A B C D E F G H I J)
+  (lbl81 A B C D E K G (+ 1 H) I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= A (+ H 1)) (>= A H)) (>= (+ (+ H D) B) 2))
+            (>= (+ H D) (+ B 2)))
+          (>= (+ H B) D))
+        (>= H (+ D B)))
+      (= F 0))
+    (= J A))
+  )
+
+(rule
+  (lbl141 A B C D E F G H I J)
+  (stop A B C D E F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (>= (+ (+ A D) B) 0) (>= (+ A D) B)) (>= (+ A B) (+ D 2)))
+          (>= A (+ (+ D B) 2)))
+        (= H A))
+      (= F 1))
+    (= J A))
+  )
+
+(rule
+  (lbl141 A B C D E F G H I J)
+  (lbl81 A B C D E K G (+ 1 H) I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= A (+ H 1)) (>= A H)) (>= (+ (+ H D) B) 0))
+            (>= (+ H D) B))
+          (>= (+ H B) (+ D 2)))
+        (>= H (+ (+ D B) 2)))
+      (= F 1))
+    (= J A))
+  )
+
+(rule
+  (lbl171 A B C D E F G H I J)
+  (stop A B C D E F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (>= (+ (+ A D) B) 2) (>= (+ A D) B)) (>= (+ A B) (+ D 2)))
+          (>= A (+ D B)))
+        (= H A))
+      (= F 2))
+    (= J A))
+  )
+
+(rule
+  (lbl171 A B C D E F G H I J)
+  (lbl81 A B C D E K G (+ 1 H) I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= A (+ H 1)) (>= A H)) (>= (+ (+ H D) B) 2))
+            (>= (+ H D) B))
+          (>= (+ H B) (+ D 2)))
+        (>= H (+ D B)))
+      (= F 2))
+    (= J A))
+  )
+
+(rule
+  (lbl191 A B C D E F G H I J)
+  (stop A B C D E F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (>= (+ (+ A D) B) 0) (>= (+ A D) (+ B 2))) (>= (+ A B) D))
+          (>= A (+ (+ D B) 2)))
+        (= H A))
+      (= F 3))
+    (= J A))
+  )
+
+(rule
+  (lbl191 A B C D E F G H I J)
+  (lbl81 A B C D E K G (+ 1 H) I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= A (+ H 1)) (>= A H)) (>= (+ (+ H D) B) 0))
+            (>= (+ H D) (+ B 2)))
+          (>= (+ H B) D))
+        (>= H (+ (+ D B) 2)))
+      (= F 3))
+    (= J A))
+  )
+
+(rule
+  (lbl81 A B C D E F G H I J)
+  (lbl21 A B C D E F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (>= 0 (+ F 1)) (>= (+ H D) (+ B 1))) (>= (+ H B) (+ D 1)))
+          (>= H (+ (+ D B) 1)))
+        (>= (+ (+ H D) B) 1))
+      (>= A H))
+    (= J A))
+  )
+
+(rule
+  (lbl81 A B C D E F G H I J)
+  (lbl21 A B C D E F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and (and (>= F 4) (>= (+ H D) (+ B 1))) (>= (+ H B) (+ D 1)))
+          (>= H (+ (+ D B) 1)))
+        (>= (+ (+ H D) B) 1))
+      (>= A H))
+    (= J A))
+  )
+
+(rule
+  (lbl81 A B C D E F G H I J)
+  (lbl121 A B C (+ 1 D) E F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (>= (+ H D) (+ B 1)) (>= (+ H B) (+ D 1)))
+            (>= H (+ (+ D B) 1)))
+          (>= (+ (+ H D) B) 1))
+        (>= A H))
+      (= F 0))
+    (= J A))
+  )
+
+(rule
+  (lbl81 A B C D E F G H I J)
+  (lbl141 A B C (- D 1) E F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (>= (+ H D) (+ B 1)) (>= (+ H B) (+ D 1)))
+            (>= H (+ (+ D B) 1)))
+          (>= (+ (+ H D) B) 1))
+        (>= A H))
+      (= F 1))
+    (= J A))
+  )
+
+(rule
+  (lbl81 A B C D E F G H I J)
+  (lbl171 A (+ 1 B) C D E F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (>= (+ H D) (+ B 1)) (>= (+ H B) (+ D 1)))
+            (>= H (+ (+ D B) 1)))
+          (>= (+ (+ H D) B) 1))
+        (>= A H))
+      (= F 2))
+    (= J A))
+  )
+
+(rule
+  (lbl81 A B C D E F G H I J)
+  (lbl191 A (- B 1) C D E F G H I J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (>= (+ H D) (+ B 1)) (>= (+ H B) (+ D 1)))
+            (>= H (+ (+ D B) 1)))
+          (>= (+ (+ H D) B) 1))
+        (>= A H))
+      (= F 3))
+    (= J A))
+  )
+
+(rule (start0 A B C D E F G H I J) (start A C C E E G G I I A))

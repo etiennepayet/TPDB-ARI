@@ -1,0 +1,20 @@
+(format LCTRS)
+(theory Ints)
+(fun evalndloopbbin (-> Int Int))
+(fun evalndloopentryin (-> Int Int))
+(fun evalndloopreturnin (-> Int Int))
+(fun evalndloopstart (-> Int Int))
+(fun evalndloopstop (-> Int Int))
+(entrypoint evalndloopstart)
+(rule (evalndloopstart A) (evalndloopentryin A))
+(rule (evalndloopentryin A) (evalndloopbbin 0))
+(rule
+  (evalndloopbbin A)
+  (evalndloopbbin B)
+  :guard
+  (and (and (>= (+ 2 A) B) (>= B (+ A 1))) (>= 9 B)))
+
+(rule (evalndloopbbin A) (evalndloopreturnin A) :guard (>= B (+ A 3)))
+(rule (evalndloopbbin A) (evalndloopreturnin A) :guard (>= A B))
+(rule (evalndloopbbin A) (evalndloopreturnin A) :guard (>= B 10))
+(rule (evalndloopreturnin A) (evalndloopstop A))

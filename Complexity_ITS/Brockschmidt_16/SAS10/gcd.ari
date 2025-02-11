@@ -1,0 +1,101 @@
+(format LCTRS)
+(theory Ints)
+(fun cut (-> Int Int Int Int Int))
+(fun lbl101 (-> Int Int Int Int Int))
+(fun lbl111 (-> Int Int Int Int Int))
+(fun lbl6 (-> Int Int Int Int Int))
+(fun start (-> Int Int Int Int Int))
+(fun start0 (-> Int Int Int Int Int))
+(fun stop (-> Int Int Int Int Int))
+(entrypoint start0)
+(rule
+  (start A B C D)
+  (stop A B C D)
+  :guard
+  (and (and (>= 0 A) (= B C)) (= D A)))
+
+(rule
+  (start A B C D)
+  (lbl6 A B C D)
+  :guard
+  (and (and (and (>= A 1) (>= 0 C)) (= B C)) (= D A)))
+
+(rule
+  (start A B C D)
+  (cut A B C D)
+  :guard
+  (and (and (and (>= A 1) (= D A)) (= B A)) (= C A)))
+
+(rule
+  (start A B C D)
+  (lbl101 A (- B D) C D)
+  :guard
+  (and (and (and (>= A 1) (>= C (+ A 1))) (= B C)) (= D A)))
+
+(rule
+  (start A B C D)
+  (lbl111 A B C (- D B))
+  :guard
+  (and (and (and (>= A (+ C 1)) (>= C 1)) (= B C)) (= D A)))
+
+(rule
+  (lbl6 A B C D)
+  (stop A B C D)
+  :guard
+  (and (and (and (>= A 1) (>= 0 C)) (= D A)) (= B C)))
+
+(rule
+  (lbl101 A B C D)
+  (cut A B C D)
+  :guard
+  (and (and (and (>= A B) (>= B 1)) (>= C (* 2 B))) (= D B)))
+
+(rule
+  (lbl101 A B C D)
+  (lbl101 A (- B D) C D)
+  :guard
+  (and
+    (and (and (and (>= B (+ D 1)) (>= A D)) (>= B 1)) (>= D 1))
+    (>= C (+ D B)))
+  )
+
+(rule
+  (lbl101 A B C D)
+  (lbl111 A B C (- D B))
+  :guard
+  (and
+    (and (and (and (>= D (+ B 1)) (>= A D)) (>= B 1)) (>= D 1))
+    (>= C (+ D B)))
+  )
+
+(rule
+  (lbl111 A B C D)
+  (cut A B C D)
+  :guard
+  (and (and (and (>= C B) (>= B 1)) (>= A (* 2 B))) (= D B)))
+
+(rule
+  (lbl111 A B C D)
+  (lbl101 A (- B D) C D)
+  :guard
+  (and
+    (and (and (and (>= B (+ D 1)) (>= C B)) (>= B 1)) (>= D 1))
+    (>= A (+ D B)))
+  )
+
+(rule
+  (lbl111 A B C D)
+  (lbl111 A B C (- D B))
+  :guard
+  (and
+    (and (and (and (>= D (+ B 1)) (>= C B)) (>= B 1)) (>= D 1))
+    (>= A (+ D B)))
+  )
+
+(rule
+  (cut A B C D)
+  (stop A B C D)
+  :guard
+  (and (and (and (>= A B) (>= B 1)) (>= C B)) (= D B)))
+
+(rule (start0 A B C D) (start A C C A))

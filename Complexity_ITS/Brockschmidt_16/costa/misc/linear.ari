@@ -1,0 +1,8 @@
+(format LCTRS)
+(theory Ints)
+(fun a (-> Int Int))
+(fun start (-> Int Int))
+(entrypoint start)
+(rule (start A) (a A) :guard (>= A 1))
+(rule (start A) (a 100) :guard (= A 100))
+(rule (a A) (a (- A 1)) :guard (>= A 1))

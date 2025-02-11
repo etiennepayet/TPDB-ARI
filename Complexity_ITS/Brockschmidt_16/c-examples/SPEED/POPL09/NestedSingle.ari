@@ -1,0 +1,54 @@
+(format LCTRS)
+(theory Ints)
+(fun evalNestedSinglebb1in (-> Int Int Int Int))
+(fun evalNestedSinglebb2in (-> Int Int Int Int))
+(fun evalNestedSinglebb3in (-> Int Int Int Int))
+(fun evalNestedSinglebb4in (-> Int Int Int Int))
+(fun evalNestedSinglebb5in (-> Int Int Int Int))
+(fun evalNestedSingleentryin (-> Int Int Int Int))
+(fun evalNestedSinglereturnin (-> Int Int Int Int))
+(fun evalNestedSinglestart (-> Int Int Int Int))
+(fun evalNestedSinglestop (-> Int Int Int Int))
+(entrypoint evalNestedSinglestart)
+(rule (evalNestedSinglestart A B C) (evalNestedSingleentryin A B C))
+(rule (evalNestedSingleentryin A B C) (evalNestedSinglebb5in 0 B C))
+(rule
+  (evalNestedSinglebb5in A B C)
+  (evalNestedSinglebb2in A B A)
+  :guard
+  (>= B (+ A 1)))
+
+(rule
+  (evalNestedSinglebb5in A B C)
+  (evalNestedSinglereturnin A B C)
+  :guard
+  (>= A B))
+
+(rule
+  (evalNestedSinglebb2in A B C)
+  (evalNestedSinglebb4in A B C)
+  :guard
+  (>= C B))
+
+(rule
+  (evalNestedSinglebb2in A B C)
+  (evalNestedSinglebb3in A B C)
+  :guard
+  (>= B (+ C 1)))
+
+(rule
+  (evalNestedSinglebb3in A B C)
+  (evalNestedSinglebb1in A B C)
+  :guard
+  (>= 0 (+ D 1)))
+
+(rule
+  (evalNestedSinglebb3in A B C)
+  (evalNestedSinglebb1in A B C)
+  :guard
+  (>= D 1))
+
+(rule (evalNestedSinglebb3in A B C) (evalNestedSinglebb4in A B C))
+(rule (evalNestedSinglebb1in A B C) (evalNestedSinglebb2in A B (+ C 1)))
+(rule (evalNestedSinglebb4in A B C) (evalNestedSinglebb5in (+ C 1) B C))
+(rule (evalNestedSinglereturnin A B C) (evalNestedSinglestop A B C))

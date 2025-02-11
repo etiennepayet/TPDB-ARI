@@ -1,0 +1,94 @@
+(format LCTRS)
+(theory Ints)
+(fun lbl121 (-> Int Int Int Int Int Int Int Int Int))
+(fun lbl82 (-> Int Int Int Int Int Int Int Int Int))
+(fun start (-> Int Int Int Int Int Int Int Int Int))
+(fun start0 (-> Int Int Int Int Int Int Int Int Int))
+(fun stop (-> Int Int Int Int Int Int Int Int Int))
+(entrypoint start0)
+(rule
+  (start A B C D E F G H)
+  (stop A B C D E F G H)
+  :guard
+  (and (and (and (and (>= 0 (+ A 1)) (= B C)) (= D A)) (= E F)) (= G H)))
+
+(rule
+  (start A B C D E F G H)
+  (lbl82 A B C D (* 2 D) F (- (* 2 D) 1) H)
+  :guard
+  (and (and (and (and (>= A 0) (= B C)) (= D A)) (= E F)) (= G H)))
+
+(rule
+  (start A B C D E F G H)
+  (lbl121 A (* 2 D) C D (- (* 2 D) 1) F (- (* 2 D) 1) H)
+  :guard
+  (and (and (and (and (>= A 0) (= B C)) (= D A)) (= E F)) (= G H)))
+
+(rule
+  (lbl82 A B C D E F G H)
+  (stop A B C D E F G H)
+  :guard
+  (and (and (and (>= E A) (>= (* 2 A) E)) (= D A)) (= (+ G 1) A)))
+
+(rule
+  (lbl82 A B C D E F G H)
+  (lbl82 A B C D E F (- G 1) H)
+  :guard
+  (and
+    (and
+      (and (and (>= G A) (>= E (+ G 1))) (>= (* 2 A) E))
+      (>= (+ G 1) A))
+    (= D A))
+  )
+
+(rule
+  (lbl82 A B C D E F G H)
+  (lbl121 A G C D (- E 1) F (- E 1) H)
+  :guard
+  (and
+    (and
+      (and (and (>= G A) (>= E (+ G 1))) (>= (* 2 A) E))
+      (>= (+ G 1) A))
+    (= D A))
+  )
+
+(rule
+  (lbl121 A B C D E F G H)
+  (stop A B C D E F G H)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (>= A (+ E 1)) (>= (* 2 A) (+ E 1))) (>= B A))
+        (>= (+ E 1) B))
+      (= G E))
+    (= D A))
+  )
+
+(rule
+  (lbl121 A B C D E F G H)
+  (lbl82 A B C D E F (- G 1) H)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (>= E A) (>= (* 2 A) (+ E 1))) (>= B A))
+        (>= (+ E 1) B))
+      (= G E))
+    (= D A))
+  )
+
+(rule
+  (lbl121 A B C D E F G H)
+  (lbl121 A G C D (- E 1) F (- E 1) H)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (>= E A) (>= (* 2 A) (+ E 1))) (>= B A))
+        (>= (+ E 1) B))
+      (= G E))
+    (= D A))
+  )
+
+(rule (start0 A B C D E F G H) (start A C C A F F H H))

@@ -1,0 +1,54 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_catmouse_0 (-> Int Int Int Int))
+(fun eval_catmouse_1 (-> Int Int Int Int))
+(fun eval_catmouse_2 (-> Int Int Int Int))
+(fun eval_catmouse_3 (-> Int Int Int Int))
+(fun eval_catmouse_4 (-> Int Int Int Int))
+(fun eval_catmouse_5 (-> Int Int Int Int))
+(fun eval_catmouse_bb0_in (-> Int Int Int Int))
+(fun eval_catmouse_bb1_in (-> Int Int Int Int))
+(fun eval_catmouse_bb2_in (-> Int Int Int Int))
+(fun eval_catmouse_bb3_in (-> Int Int Int Int))
+(fun eval_catmouse_start (-> Int Int Int Int))
+(fun eval_catmouse_stop (-> Int Int Int Int))
+(entrypoint eval_catmouse_start)
+(rule
+  (eval_catmouse_start v_m v_n v_x_0)
+  (eval_catmouse_bb0_in v_m v_n v_x_0))
+
+(rule (eval_catmouse_bb0_in v_m v_n v_x_0) (eval_catmouse_0 v_m v_n v_x_0))
+(rule (eval_catmouse_0 v_m v_n v_x_0) (eval_catmouse_1 v_m v_n v_x_0))
+(rule (eval_catmouse_1 v_m v_n v_x_0) (eval_catmouse_2 v_m v_n v_x_0))
+(rule (eval_catmouse_2 v_m v_n v_x_0) (eval_catmouse_3 v_m v_n v_x_0))
+(rule (eval_catmouse_3 v_m v_n v_x_0) (eval_catmouse_4 v_m v_n v_x_0))
+(rule (eval_catmouse_4 v_m v_n v_x_0) (eval_catmouse_5 v_m v_n v_x_0))
+(rule (eval_catmouse_5 v_m v_n v_x_0) (eval_catmouse_bb1_in v_m v_n 0))
+(rule
+  (eval_catmouse_bb1_in v_m v_n v_x_0)
+  (eval_catmouse_bb2_in v_m v_n v_x_0)
+  :guard
+  (<= v_x_0 v_n))
+
+(rule
+  (eval_catmouse_bb1_in v_m v_n v_x_0)
+  (eval_catmouse_bb3_in v_m v_n v_x_0)
+  :guard
+  (> v_x_0 v_n))
+
+(rule
+  (eval_catmouse_bb2_in v_m v_n v_x_0)
+  (eval_catmouse_bb1_in v_m v_n (+ v_x_0 1))
+  :guard
+  (<= v_x_0 v_m))
+
+(rule
+  (eval_catmouse_bb2_in v_m v_n v_x_0)
+  (eval_catmouse_bb1_in v_m v_n (- v_x_0 1))
+  :guard
+  (> v_x_0 v_m))
+
+(rule
+  (eval_catmouse_bb3_in v_m v_n v_x_0)
+  (eval_catmouse_stop v_m v_n v_x_0))
+

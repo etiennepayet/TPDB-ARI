@@ -1,0 +1,49 @@
+(format LCTRS)
+(theory Ints)
+(fun evalEx1bb1in (-> Int Int Int Int Int))
+(fun evalEx1bb4in (-> Int Int Int Int Int))
+(fun evalEx1bb5in (-> Int Int Int Int Int))
+(fun evalEx1bb6in (-> Int Int Int Int Int))
+(fun evalEx1bbin (-> Int Int Int Int Int))
+(fun evalEx1entryin (-> Int Int Int Int Int))
+(fun evalEx1returnin (-> Int Int Int Int Int))
+(fun evalEx1start (-> Int Int Int Int Int))
+(fun evalEx1stop (-> Int Int Int Int Int))
+(entrypoint evalEx1start)
+(rule (evalEx1start A B C D) (evalEx1entryin A B C D))
+(rule (evalEx1entryin A B C D) (evalEx1bb6in 0 A C D))
+(rule (evalEx1bb6in A B C D) (evalEx1bbin A B C D) :guard (>= B (+ A 1)))
+(rule (evalEx1bb6in A B C D) (evalEx1returnin A B C D) :guard (>= A B))
+(rule (evalEx1bbin A B C D) (evalEx1bb4in A B (+ A 1) B))
+(rule (evalEx1bb4in A B C D) (evalEx1bb1in A B C D) :guard (>= D (+ C 1)))
+(rule (evalEx1bb4in A B C D) (evalEx1bb5in A B C D) :guard (>= C D))
+(rule
+  (evalEx1bb1in A B C D)
+  (evalEx1bb4in A B C (- D 1))
+  :guard
+  (>= 0 (+ E 1)))
+
+(rule
+  (evalEx1bb1in A B C D)
+  (evalEx1bb4in A B C (- D 1))
+  :guard
+  (and (>= 0 (+ E 1)) (>= E 1)))
+
+(rule (evalEx1bb1in A B C D) (evalEx1bb4in A B C (- D 1)) :guard (>= E 1))
+(rule (evalEx1bb1in A B C D) (evalEx1bb4in A B C D) :guard (>= 0 1))
+(rule (evalEx1bb1in A B C D) (evalEx1bb4in A B C D) :guard (>= 0 1))
+(rule
+  (evalEx1bb1in A B C D)
+  (evalEx1bb4in A B (+ C 1) (- D 1))
+  :guard
+  (>= 0 1))
+
+(rule
+  (evalEx1bb1in A B C D)
+  (evalEx1bb4in A B (+ C 1) (- D 1))
+  :guard
+  (>= 0 1))
+
+(rule (evalEx1bb1in A B C D) (evalEx1bb4in A B (+ C 1) D))
+(rule (evalEx1bb5in A B C D) (evalEx1bb6in (+ A 1) D C D))
+(rule (evalEx1returnin A B C D) (evalEx1stop A B C D))

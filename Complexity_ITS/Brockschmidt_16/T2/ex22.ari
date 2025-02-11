@@ -1,0 +1,889 @@
+(format LCTRS)
+(theory Ints)
+(fun
+  f0
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f100
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f106
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f109
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f125
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f137
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f140
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f146
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f149
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f166
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f17
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f20
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f26
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f29
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f45
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f57
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f60
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f66
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f69
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f85
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(fun
+  f97
+  (->
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int
+    Int)
+  )
+
+(entrypoint f0)
+(rule
+  (f0 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f17 100 0 C D E F G H I J K L M N O P Q R S T U V W X))
+
+(rule
+  (f0 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f17 100 10 C D E F G H I J K L M N O P Q R S T U V W X))
+
+(rule
+  (f17 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f20 A B B D E F G H I J K L M N O P Q R S T U V W X)
+  :guard
+  (>= 0 (+ B 1)))
+
+(rule
+  (f17 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f20 A B B D E F G H I J K L M N O P Q R S T U V W X)
+  :guard
+  (>= B 1))
+
+(rule
+  (f17 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f45 A 0 0 D E F G H I J K L M N O P Q R S T U V W X)
+  :guard
+  (= B 0))
+
+(rule
+  (f20 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f26 A B C 0 E F G H I J K L M N O P Q R S T U V W X))
+
+(rule
+  (f20 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f26 A B C 10 E F G H I J K L M N O P Q R S T U V W X))
+
+(rule
+  (f26 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f45 A B C 0 0 F G H I J K L M N O P Q R S T U V W X)
+  :guard
+  (= D 0))
+
+(rule
+  (f26 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f29 A B C D D 0 G H I J K L M N O P Q R S T U V W X)
+  :guard
+  (>= 0 (+ D 1)))
+
+(rule
+  (f26 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f29 A B C D D 0 G H I J K L M N O P Q R S T U V W X)
+  :guard
+  (>= D 1))
+
+(rule
+  (f45 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f57 A B C D E F 200 0 I J K L M N O P Q R S T U V W X))
+
+(rule
+  (f45 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f57 A B C D E F 200 10 I J K L M N O P Q R S T U V W X))
+
+(rule
+  (f57 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f60 A B C D E F G H H J K L M N O P Q R S T U V W X)
+  :guard
+  (>= 0 (+ H 1)))
+
+(rule
+  (f57 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f60 A B C D E F G H H J K L M N O P Q R S T U V W X)
+  :guard
+  (>= H 1))
+
+(rule
+  (f57 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f85 A B C D E F G 0 0 J K L M N O P Q R S T U V W X)
+  :guard
+  (= H 0))
+
+(rule
+  (f60 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f66 A B C D E F G H I 0 K L M N O P Q R S T U V W X))
+
+(rule
+  (f60 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f66 A B C D E F G H I 10 K L M N O P Q R S T U V W X))
+
+(rule
+  (f66 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f85 A B C D E F G H I 0 0 L M N O P Q R S T U V W X)
+  :guard
+  (= J 0))
+
+(rule
+  (f66 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f69 A B C D E F G H I J J 0 M N O P Q R S T U V W X)
+  :guard
+  (>= 0 (+ J 1)))
+
+(rule
+  (f66 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f69 A B C D E F G H I J J 0 M N O P Q R S T U V W X)
+  :guard
+  (>= J 1))
+
+(rule
+  (f85 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f97 A B C D E F G H I J K L 50 0 O P Q R S T U V W X))
+
+(rule
+  (f85 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f97 A B C D E F G H I J K L 50 10 O P Q R S T U V W X))
+
+(rule
+  (f97 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f100 A B C D E F G H I J K L M N N P Q R S T U V W X)
+  :guard
+  (>= 0 (+ N 1)))
+
+(rule
+  (f97 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f100 A B C D E F G H I J K L M N N P Q R S T U V W X)
+  :guard
+  (>= N 1))
+
+(rule
+  (f97 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f125 A B C D E F G H I J K L M 0 0 P Q R S T U V W X)
+  :guard
+  (= N 0))
+
+(rule
+  (f100 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f106 A B C D E F G H I J K L M N O 0 Q R S T U V W X))
+
+(rule
+  (f100 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f106 A B C D E F G H I J K L M N O 10 Q R S T U V W X))
+
+(rule
+  (f106 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f125 A B C D E F G H I J K L M N O 0 0 R S T U V W X)
+  :guard
+  (= P 0))
+
+(rule
+  (f106 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f109 A B C D E F G H I J K L M N O P P 0 S T U V W X)
+  :guard
+  (>= 0 (+ P 1)))
+
+(rule
+  (f106 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f109 A B C D E F G H I J K L M N O P P 0 S T U V W X)
+  :guard
+  (>= P 1))
+
+(rule
+  (f125 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f137 A B C D E F G H I J K L M N O P Q R 20 0 U V W X))
+
+(rule
+  (f125 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f137 A B C D E F G H I J K L M N O P Q R 20 10 U V W X))
+
+(rule
+  (f137 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f140 A B C D E F G H I J K L M N O P Q R S T T V W X)
+  :guard
+  (>= 0 (+ T 1)))
+
+(rule
+  (f137 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f140 A B C D E F G H I J K L M N O P Q R S T T V W X)
+  :guard
+  (>= T 1))
+
+(rule
+  (f140 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f146 A B C D E F G H I J K L M N O P Q R S T U 0 W X))
+
+(rule
+  (f140 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f146 A B C D E F G H I J K L M N O P Q R S T U 10 W X))
+
+(rule
+  (f146 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f149 A B C D E F G H I J K L M N O P Q R S T U V V 0)
+  :guard
+  (>= 0 (+ V 1)))
+
+(rule
+  (f146 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f149 A B C D E F G H I J K L M N O P Q R S T U V V 0)
+  :guard
+  (>= V 1))
+
+(rule
+  (f137 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f166 A B C D E F G H I J K L M N O P Q R S 0 0 V W X)
+  :guard
+  (= T 0))
+
+(rule
+  (f146 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f166 A B C D E F G H I J K L M N O P Q R S T U 0 0 X)
+  :guard
+  (= V 0))
+
+(rule
+  (f149 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f149 A B C D E F G H I J K L M N O P Q R S T U V W (+ X 1))
+  :guard
+  (>= S (+ X 1)))
+
+(rule
+  (f149 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f166 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  :guard
+  (>= X S))
+
+(rule
+  (f109 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f109 A B C D E F G H I J K L M N O P Q (+ R 1) S T U V W X)
+  :guard
+  (>= M (+ R 1)))
+
+(rule
+  (f109 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f125 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  :guard
+  (>= R M))
+
+(rule
+  (f69 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f69 A B C D E F G H I J K (+ L 1) M N O P Q R S T U V W X)
+  :guard
+  (>= G (+ L 1)))
+
+(rule
+  (f69 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f85 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  :guard
+  (>= L G))
+
+(rule
+  (f29 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f29 A B C D E (+ F 1) G H I J K L M N O P Q R S T U V W X)
+  :guard
+  (>= A (+ F 1)))
+
+(rule
+  (f29 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f45 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  :guard
+  (>= F A))
+

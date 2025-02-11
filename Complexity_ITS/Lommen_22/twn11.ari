@@ -1,0 +1,31 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int))
+(fun l1 (-> Int Int Int Int))
+(entrypoint l0)
+(rule (l0 A B C) (l1 A B C))
+(rule
+  (l1 A B C)
+  (l1
+    (+
+      (+ (+ A (* (* 8 A) (* B B))) (* 16 (* B B B)))
+      (* (* 16 (* B B)) C))
+    (-
+      (-
+        (- (- (- (- B (* A A)) (* (* 4 A) B)) (* (* 4 A) C)) (* 4 (* B B)))
+        (* (* 8 B) C))
+      (* 4 (* C C)))
+    (-
+      (- (- C (* (* 4 A) (* B B))) (* 8 (* B B B)))
+      (+
+        (+
+          (+
+            (+ (+ (+ (* (* 8 (* B B)) C) (* A A)) (* (* 4 A) B)) (* (* 4 A) C))
+            (* 4 (* B B)))
+          (* (* 8 B) C))
+        (* 4 (* C C)))
+      )
+    )
+  :guard
+  (> (+ (+ (+ (* 4 (* B B)) A) B) C) 0))
+

@@ -1,0 +1,103 @@
+(format LCTRS)
+(theory Ints)
+(fun f1 (-> Int Int Int Int Int Int Int Int Int))
+(fun f19 (-> Int Int Int Int Int Int Int Int Int))
+(fun f2 (-> Int Int Int Int Int Int Int Int Int))
+(fun f27 (-> Int Int Int Int Int Int Int Int Int))
+(fun f34 (-> Int Int Int Int Int Int Int Int Int))
+(fun f36 (-> Int Int Int Int Int Int Int Int Int))
+(fun f43 (-> Int Int Int Int Int Int Int Int Int))
+(fun f49 (-> Int Int Int Int Int Int Int Int Int))
+(fun f8 (-> Int Int Int Int Int Int Int Int Int))
+(fun start (-> Int Int Int Int Int Int Int Int Int))
+(entrypoint start)
+(rule (f2 A B C D E F G H) (f8 A B 0 B E F G H) :guard (>= A (+ B 1)))
+(rule
+  (f8 A B C D E F G H)
+  (f8 A B C D (+ E 1) J I H)
+  :guard
+  (and (>= A E) (>= I J)))
+
+(rule
+  (f8 A B C D E F G H)
+  (f8 A B J E (+ E 1) I K H)
+  :guard
+  (and (>= A E) (>= I (+ 1 K))))
+
+(rule (f19 A B C D E F G H) (f19 A B C D (+ E 1) F G J) :guard (>= A E))
+(rule (f27 A B C D E F G H) (f27 A B C D (+ E 1) F G J) :guard (>= A E))
+(rule (f34 A B C D E F G H) (f36 A B C D E F G H) :guard (>= 0 (+ C 1)))
+(rule (f34 A B C D E F G H) (f36 A B C D E F G H) :guard (>= C 1))
+(rule
+  (f36 A B C D E F G H)
+  (f43 A B C D E F G J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= 0 (+ I 1)) (>= A D)) (>= I (* C K)))
+            (>= (+ (* C K) K) (+ I 1)))
+          (>= K J))
+        (>= I (* C L)))
+      (>= (+ (* C L) L) (+ I 1)))
+    (>= J L))
+  )
+
+(rule
+  (f36 A B C D E F G H)
+  (f43 A B C D E F G J)
+  :guard
+  (and
+    (and
+      (and
+        (and
+          (and
+            (and (and (>= I 1) (>= A D)) (>= I (* C K)))
+            (>= (+ (* C K) K) (+ I 1)))
+          (>= K J))
+        (>= I (* C L)))
+      (>= (+ (* C L) L) (+ I 1)))
+    (>= J L))
+  )
+
+(rule (f43 A B C D E F G H) (f43 A B C D (+ E 1) F G H) :guard (>= A E))
+(rule (f49 A B C D E F G H) (f49 A B C D (+ E 1) F G H) :guard (>= A E))
+(rule (f36 A B C D E F G H) (f36 A B C (+ D 1) E F G 0) :guard (>= A D))
+(rule (f34 A B C D E F G H) (f2 A (+ B 1) 0 D E F G H) :guard (= C 0))
+(rule
+  (f49 A B C D E F G H)
+  (f36 A B C (+ D 1) E F G H)
+  :guard
+  (>= E (+ 1 A)))
+
+(rule (f43 A B C D E F G H) (f49 A B C D E F G H) :guard (>= E (+ 1 A)))
+(rule
+  (f36 A B C D E F G H)
+  (f2 A (+ B 1) C D E F G H)
+  :guard
+  (>= D (+ 1 A)))
+
+(rule (f27 A B C D E F G H) (f34 A B C D E F G H) :guard (>= E (+ 1 A)))
+(rule (f19 A B C D E F G H) (f27 A B C D E F G H) :guard (>= E (+ 1 A)))
+(rule
+  (f8 A B C D E F G H)
+  (f34 A B C B E F G H)
+  :guard
+  (and (>= E (+ 1 A)) (= B D)))
+
+(rule
+  (f8 A B C D E F G H)
+  (f19 A B C D E F G H)
+  :guard
+  (and (>= B (+ D 1)) (>= E (+ 1 A))))
+
+(rule
+  (f8 A B C D E F G H)
+  (f19 A B C D E F G H)
+  :guard
+  (and (>= D (+ 1 B)) (>= E (+ 1 A))))
+
+(rule (f2 A B C D E F G H) (f1 A B C D E F G H) :guard (>= B A))
+(rule (start A B C D E F G H) (f2 A B C D E F G H))

@@ -1,0 +1,57 @@
+(format LCTRS)
+(theory Ints)
+(fun a (-> Int Int Int Int Int))
+(fun b (-> Int Int Int Int Int))
+(fun cont1 (-> Int Int Int Int Int))
+(fun start (-> Int Int Int Int Int))
+(fun start0 (-> Int Int Int Int Int))
+(fun stop1 (-> Int Int Int Int Int))
+(fun stop2 (-> Int Int Int Int Int))
+(fun stop3 (-> Int Int Int Int Int))
+(entrypoint start0)
+(rule
+  (start A B C D)
+  (stop1 A B C D)
+  :guard
+  (and (and (and (>= A 0) (>= B 0)) (>= C 0)) (= D 0)))
+
+(rule
+  (start A B C D)
+  (cont1 A B C D)
+  :guard
+  (and
+    (and (and (and (and (>= D 1) (>= A 0)) (>= B 0)) (>= C 0)) (>= D 0))
+    (>= A D))
+  )
+
+(rule
+  (cont1 A B C D)
+  (stop2 A B 1 (- D 1))
+  :guard
+  (and (and (and (>= D 1) (>= B 0)) (>= A D)) (= C 0)))
+
+(rule
+  (cont1 A B C D)
+  (a A B (- C 1) D)
+  :guard
+  (and (and (and (and (>= C 1) (>= D 1)) (>= C 0)) (>= B 0)) (>= A D)))
+
+(rule
+  (a A B C D)
+  (b A B E (- D 1))
+  :guard
+  (and (and (and (>= A D) (>= B 0)) (>= C 0)) (>= D 1)))
+
+(rule
+  (b A B C D)
+  (start A B C D)
+  :guard
+  (and (and (and (>= C 0) (>= D 0)) (>= B 0)) (>= A (+ D 1))))
+
+(rule
+  (b A B C D)
+  (stop3 A B C D)
+  :guard
+  (and (and (and (>= 0 (+ C 1)) (>= D 0)) (>= B 0)) (>= A (+ D 1))))
+
+(rule (start0 A B C D) (start A B B A) :guard (and (>= A 0) (>= B 0)))

@@ -1,0 +1,86 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_start_0 (-> Int Int Int Int Int))
+(fun eval_start_1 (-> Int Int Int Int Int))
+(fun eval_start_2 (-> Int Int Int Int Int))
+(fun eval_start_3 (-> Int Int Int Int Int))
+(fun eval_start_4 (-> Int Int Int Int Int))
+(fun eval_start_5 (-> Int Int Int Int Int))
+(fun eval_start_bb0_in (-> Int Int Int Int Int))
+(fun eval_start_bb1_in (-> Int Int Int Int Int))
+(fun eval_start_bb2_in (-> Int Int Int Int Int))
+(fun eval_start_bb3_in (-> Int Int Int Int Int))
+(fun eval_start_bb4_in (-> Int Int Int Int Int))
+(fun eval_start_bb5_in (-> Int Int Int Int Int))
+(fun eval_start_bb6_in (-> Int Int Int Int Int))
+(fun eval_start_start (-> Int Int Int Int Int))
+(fun eval_start_stop (-> Int Int Int Int Int))
+(entrypoint eval_start_start)
+(rule
+  (eval_start_start v_1 v_n v_x_0 v_x_1)
+  (eval_start_bb0_in v_1 v_n v_x_0 v_x_1))
+
+(rule
+  (eval_start_bb0_in v_1 v_n v_x_0 v_x_1)
+  (eval_start_0 v_1 v_n v_x_0 v_x_1))
+
+(rule (eval_start_0 v_1 v_n v_x_0 v_x_1) (eval_start_1 v_1 v_n v_x_0 v_x_1))
+(rule (eval_start_1 v_1 v_n v_x_0 v_x_1) (eval_start_2 v_1 v_n v_x_0 v_x_1))
+(rule (eval_start_2 v_1 v_n v_x_0 v_x_1) (eval_start_3 v_1 v_n v_x_0 v_x_1))
+(rule (eval_start_3 v_1 v_n v_x_0 v_x_1) (eval_start_bb1_in v_1 v_n 0 v_x_1))
+(rule
+  (eval_start_bb1_in v_1 v_n v_x_0 v_x_1)
+  (eval_start_bb2_in v_1 v_n v_x_0 v_x_1)
+  :guard
+  (< v_x_0 v_n))
+
+(rule
+  (eval_start_bb1_in v_1 v_n v_x_0 v_x_1)
+  (eval_start_bb4_in v_1 v_n v_x_0 v_x_0)
+  :guard
+  (>= v_x_0 v_n))
+
+(rule
+  (eval_start_bb2_in v_1 v_n v_x_0 v_x_1)
+  (eval_start_4 v_1 v_n v_x_0 v_x_1))
+
+(rule
+  (eval_start_4 v_1 v_n v_x_0 v_x_1)
+  (eval_start_5 nondef_0 v_n v_x_0 v_x_1))
+
+(rule
+  (eval_start_5 v_1 v_n v_x_0 v_x_1)
+  (eval_start_bb4_in v_1 v_n v_x_0 v_x_0)
+  :guard
+  (> v_1 0))
+
+(rule
+  (eval_start_5 v_1 v_n v_x_0 v_x_1)
+  (eval_start_bb3_in v_1 v_n v_x_0 v_x_1)
+  :guard
+  (<= v_1 0))
+
+(rule
+  (eval_start_bb3_in v_1 v_n v_x_0 v_x_1)
+  (eval_start_bb1_in v_1 v_n (+ v_x_0 1) v_x_1))
+
+(rule
+  (eval_start_bb4_in v_1 v_n v_x_0 v_x_1)
+  (eval_start_bb5_in v_1 v_n v_x_0 v_x_1)
+  :guard
+  (< v_x_1 v_n))
+
+(rule
+  (eval_start_bb4_in v_1 v_n v_x_0 v_x_1)
+  (eval_start_bb6_in v_1 v_n v_x_0 v_x_1)
+  :guard
+  (>= v_x_1 v_n))
+
+(rule
+  (eval_start_bb5_in v_1 v_n v_x_0 v_x_1)
+  (eval_start_bb4_in v_1 v_n v_x_0 (+ v_x_1 1)))
+
+(rule
+  (eval_start_bb6_in v_1 v_n v_x_0 v_x_1)
+  (eval_start_stop v_1 v_n v_x_0 v_x_1))
+

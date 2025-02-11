@@ -1,0 +1,38 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_ndecr_0 (-> Int Int Int Int))
+(fun eval_ndecr_1 (-> Int Int Int Int))
+(fun eval_ndecr_2 (-> Int Int Int Int))
+(fun eval_ndecr_3 (-> Int Int Int Int))
+(fun eval_ndecr_4 (-> Int Int Int Int))
+(fun eval_ndecr_bb0_in (-> Int Int Int Int))
+(fun eval_ndecr_bb1_in (-> Int Int Int Int))
+(fun eval_ndecr_bb2_in (-> Int Int Int Int))
+(fun eval_ndecr_bb3_in (-> Int Int Int Int))
+(fun eval_ndecr_start (-> Int Int Int Int))
+(fun eval_ndecr_stop (-> Int Int Int Int))
+(entrypoint eval_ndecr_start)
+(rule (eval_ndecr_start v_0 v_i_0 v_n) (eval_ndecr_bb0_in v_0 v_i_0 v_n))
+(rule (eval_ndecr_bb0_in v_0 v_i_0 v_n) (eval_ndecr_0 v_0 v_i_0 v_n))
+(rule (eval_ndecr_0 v_0 v_i_0 v_n) (eval_ndecr_1 v_0 v_i_0 v_n))
+(rule (eval_ndecr_1 v_0 v_i_0 v_n) (eval_ndecr_2 (- v_n 1) v_i_0 v_n))
+(rule (eval_ndecr_2 v_0 v_i_0 v_n) (eval_ndecr_3 v_0 v_i_0 v_n))
+(rule (eval_ndecr_3 v_0 v_i_0 v_n) (eval_ndecr_4 v_0 v_i_0 v_n))
+(rule (eval_ndecr_4 v_0 v_i_0 v_n) (eval_ndecr_bb1_in v_0 v_0 v_n))
+(rule
+  (eval_ndecr_bb1_in v_0 v_i_0 v_n)
+  (eval_ndecr_bb2_in v_0 v_i_0 v_n)
+  :guard
+  (> v_i_0 1))
+
+(rule
+  (eval_ndecr_bb1_in v_0 v_i_0 v_n)
+  (eval_ndecr_bb3_in v_0 v_i_0 v_n)
+  :guard
+  (<= v_i_0 1))
+
+(rule
+  (eval_ndecr_bb2_in v_0 v_i_0 v_n)
+  (eval_ndecr_bb1_in v_0 (- v_i_0 1) v_n))
+
+(rule (eval_ndecr_bb3_in v_0 v_i_0 v_n) (eval_ndecr_stop v_0 v_i_0 v_n))

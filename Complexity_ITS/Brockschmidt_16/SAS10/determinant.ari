@@ -1,0 +1,82 @@
+(format LCTRS)
+(theory Ints)
+(fun a (-> Int Int Int Int Int Int Int Int Int))
+(fun b (-> Int Int Int Int Int Int Int Int Int))
+(fun c (-> Int Int Int Int Int Int Int Int Int))
+(fun d (-> Int Int Int Int Int Int Int Int Int))
+(fun halt (-> Int Int Int Int Int Int Int Int Int))
+(fun start (-> Int Int Int Int Int Int Int Int Int))
+(fun start0 (-> Int Int Int Int Int Int Int Int Int))
+(entrypoint start0)
+(rule
+  (start A B C D E F G H)
+  (a A B C D E F G H)
+  :guard
+  (and (and (and (and (>= A 1) (= B A)) (= C D)) (= E F)) (= G H)))
+
+(rule
+  (a A B C D E F G H)
+  (d A B 1 D E F G H)
+  :guard
+  (and (and (and (and (>= A 1) (= G H)) (= E F)) (= C D)) (= B A)))
+
+(rule
+  (d A B C D E F G H)
+  (b A B C D E F (+ 1 C) H)
+  :guard
+  (and
+    (and (and (and (>= A (+ C 1)) (>= A C)) (>= A 1)) (>= C 1))
+    (= B A))
+  )
+
+(rule
+  (d A B C D E F G H)
+  (halt A B C D E F G H)
+  :guard
+  (and (and (>= A 1) (= C A)) (= B A)))
+
+(rule
+  (b A B C D E F G H)
+  (d A B (+ 1 C) D E F G H)
+  :guard
+  (and
+    (and (and (and (>= A (+ C 1)) (>= C 1)) (>= A C)) (= G (+ A 1)))
+    (= B A))
+  )
+
+(rule
+  (b A B C D E F G H)
+  (c A B C D B F G H)
+  :guard
+  (and
+    (and
+      (and (and (and (>= A G) (>= (+ A 1) G)) (>= A (+ C 1))) (>= C 1))
+      (>= G (+ C 1)))
+    (= B A))
+  )
+
+(rule
+  (c A B C D E F G H)
+  (c A B C D (- E 1) F G H)
+  :guard
+  (and
+    (and
+      (and
+        (and (and (and (>= E (+ C 1)) (>= A E)) (>= A G)) (>= C 1))
+        (>= E C))
+      (>= G (+ C 1)))
+    (= B A))
+  )
+
+(rule
+  (c A B C D E F G H)
+  (b A B C D E F (+ 1 G) H)
+  :guard
+  (and
+    (and
+      (and (and (and (>= A E) (>= A G)) (>= E 1)) (>= G (+ E 1)))
+      (= C E))
+    (= B A))
+  )
+
+(rule (start0 A B C D E F G H) (start A A D D F F H H))

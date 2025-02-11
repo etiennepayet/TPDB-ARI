@@ -1,0 +1,169 @@
+(format LCTRS)
+(theory Ints)
+(fun evalrandom2dLeafBlock1in (-> Int Int Int Int Int))
+(fun evalrandom2dLeafBlock3in (-> Int Int Int Int Int))
+(fun evalrandom2dLeafBlock5in (-> Int Int Int Int Int))
+(fun evalrandom2dLeafBlockin (-> Int Int Int Int Int))
+(fun evalrandom2dNewDefaultin (-> Int Int Int Int Int))
+(fun evalrandom2dNodeBlock7in (-> Int Int Int Int Int))
+(fun evalrandom2dNodeBlock9in (-> Int Int Int Int Int))
+(fun evalrandom2dNodeBlockin (-> Int Int Int Int Int))
+(fun evalrandom2dbb10in (-> Int Int Int Int Int))
+(fun evalrandom2dbb2in (-> Int Int Int Int Int))
+(fun evalrandom2dbb3in (-> Int Int Int Int Int))
+(fun evalrandom2dbb5in (-> Int Int Int Int Int))
+(fun evalrandom2dbb7in (-> Int Int Int Int Int))
+(fun evalrandom2dbb9in (-> Int Int Int Int Int))
+(fun evalrandom2dbbin (-> Int Int Int Int Int))
+(fun evalrandom2dentryin (-> Int Int Int Int Int))
+(fun evalrandom2dreturnin (-> Int Int Int Int Int))
+(fun evalrandom2dstart (-> Int Int Int Int Int))
+(fun evalrandom2dstop (-> Int Int Int Int Int))
+(entrypoint evalrandom2dstart)
+(rule (evalrandom2dstart A B C D) (evalrandom2dentryin A B C D))
+(rule (evalrandom2dentryin A B C D) (evalrandom2dbb10in 0 B C D))
+(rule
+  (evalrandom2dbb10in A B C D)
+  (evalrandom2dbbin A B C D)
+  :guard
+  (>= B (+ A 1)))
+
+(rule
+  (evalrandom2dbb10in A B C D)
+  (evalrandom2dreturnin A B C D)
+  :guard
+  (>= A B))
+
+(rule
+  (evalrandom2dbbin A B C D)
+  (evalrandom2dbb2in A B (+ A 1) E)
+  :guard
+  (and (>= E 0) (>= 3 E)))
+
+(rule
+  (evalrandom2dbbin A B C D)
+  (evalrandom2dbb10in (+ A 1) B C D)
+  :guard
+  (>= 0 (+ E 1)))
+
+(rule
+  (evalrandom2dbbin A B C D)
+  (evalrandom2dbb10in (+ A 1) B C D)
+  :guard
+  (>= E 4))
+
+(rule (evalrandom2dbb2in A B C D) (evalrandom2dNodeBlock9in A B C D))
+(rule
+  (evalrandom2dNodeBlock9in A B C D)
+  (evalrandom2dNodeBlockin A B C D)
+  :guard
+  (>= 1 D))
+
+(rule
+  (evalrandom2dNodeBlock9in A B C D)
+  (evalrandom2dNodeBlock7in A B C D)
+  :guard
+  (>= D 2))
+
+(rule
+  (evalrandom2dNodeBlockin A B C D)
+  (evalrandom2dLeafBlockin A B C D)
+  :guard
+  (>= 0 D))
+
+(rule
+  (evalrandom2dNodeBlockin A B C D)
+  (evalrandom2dLeafBlock1in A B C D)
+  :guard
+  (>= D 1))
+
+(rule
+  (evalrandom2dLeafBlockin A B C D)
+  (evalrandom2dbb3in A B C D)
+  :guard
+  (= D 0))
+
+(rule
+  (evalrandom2dLeafBlockin A B C D)
+  (evalrandom2dNewDefaultin A B C D)
+  :guard
+  (>= 0 (+ D 1)))
+
+(rule
+  (evalrandom2dLeafBlockin A B C D)
+  (evalrandom2dNewDefaultin A B C D)
+  :guard
+  (>= D 1))
+
+(rule (evalrandom2dbb3in A B C D) (evalrandom2dbb10in C B C D))
+(rule
+  (evalrandom2dLeafBlock1in A B C D)
+  (evalrandom2dbb5in A B C D)
+  :guard
+  (= D 1))
+
+(rule
+  (evalrandom2dLeafBlock1in A B C D)
+  (evalrandom2dNewDefaultin A B C D)
+  :guard
+  (>= 0 D))
+
+(rule
+  (evalrandom2dLeafBlock1in A B C D)
+  (evalrandom2dNewDefaultin A B C D)
+  :guard
+  (>= D 2))
+
+(rule (evalrandom2dbb5in A B C D) (evalrandom2dbb10in C B C D))
+(rule
+  (evalrandom2dNodeBlock7in A B C D)
+  (evalrandom2dLeafBlock3in A B C D)
+  :guard
+  (>= 2 D))
+
+(rule
+  (evalrandom2dNodeBlock7in A B C D)
+  (evalrandom2dLeafBlock5in A B C D)
+  :guard
+  (>= D 3))
+
+(rule
+  (evalrandom2dLeafBlock3in A B C D)
+  (evalrandom2dbb7in A B C D)
+  :guard
+  (= D 2))
+
+(rule
+  (evalrandom2dLeafBlock3in A B C D)
+  (evalrandom2dNewDefaultin A B C D)
+  :guard
+  (>= 1 D))
+
+(rule
+  (evalrandom2dLeafBlock3in A B C D)
+  (evalrandom2dNewDefaultin A B C D)
+  :guard
+  (>= D 3))
+
+(rule (evalrandom2dbb7in A B C D) (evalrandom2dbb10in C B C D))
+(rule
+  (evalrandom2dLeafBlock5in A B C D)
+  (evalrandom2dbb9in A B C D)
+  :guard
+  (= D 3))
+
+(rule
+  (evalrandom2dLeafBlock5in A B C D)
+  (evalrandom2dNewDefaultin A B C D)
+  :guard
+  (>= 2 D))
+
+(rule
+  (evalrandom2dLeafBlock5in A B C D)
+  (evalrandom2dNewDefaultin A B C D)
+  :guard
+  (>= D 4))
+
+(rule (evalrandom2dbb9in A B C D) (evalrandom2dbb10in C B C D))
+(rule (evalrandom2dNewDefaultin A B C D) (evalrandom2dbb10in C B C D))
+(rule (evalrandom2dreturnin A B C D) (evalrandom2dstop A B C D))

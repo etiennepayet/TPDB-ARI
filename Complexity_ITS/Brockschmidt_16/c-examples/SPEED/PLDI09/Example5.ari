@@ -1,0 +1,31 @@
+(format LCTRS)
+(theory Ints)
+(fun evalfbb1in (-> Int Int Int Int))
+(fun evalfbb2in (-> Int Int Int Int))
+(fun evalfbb3in (-> Int Int Int Int))
+(fun evalfbbin (-> Int Int Int Int))
+(fun evalfentryin (-> Int Int Int Int))
+(fun evalfreturnin (-> Int Int Int Int))
+(fun evalfstart (-> Int Int Int Int))
+(fun evalfstop (-> Int Int Int Int))
+(entrypoint evalfstart)
+(rule (evalfstart A B C) (evalfentryin A B C))
+(rule
+  (evalfentryin A B C)
+  (evalfbb3in C B A)
+  :guard
+  (and (>= A 1) (>= B (+ A 1))))
+
+(rule
+  (evalfbb3in A B C)
+  (evalfbbin A B C)
+  :guard
+  (and (>= C 1) (>= B (+ C 1))))
+
+(rule (evalfbb3in A B C) (evalfreturnin A B C) :guard (>= 0 C))
+(rule (evalfbb3in A B C) (evalfreturnin A B C) :guard (>= C B))
+(rule (evalfbbin A B C) (evalfbb1in A B C) :guard (>= A 1))
+(rule (evalfbbin A B C) (evalfbb2in A B C) :guard (>= 0 A))
+(rule (evalfbb1in A B C) (evalfbb3in A B (+ C 1)))
+(rule (evalfbb2in A B C) (evalfbb3in A B (- C 1)))
+(rule (evalfreturnin A B C) (evalfstop A B C))
