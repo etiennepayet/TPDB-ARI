@@ -1,0 +1,1381 @@
+(format LCTRS)
+(theory Ints)
+(fun
+l0
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l1
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l2
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l3
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l4
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l5
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l6
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l7
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(entrypoint l7)
+(rule
+(l0
+Result_6^0
+_^0
+__const_17^0
+a_128^0
+a_243^0
+c_15^0
+elem_16^0
+head_9^0
+i_8^0
+k_296^0
+len_246^0
+len_48^0
+length_7^0
+lt_18^0
+lt_19^0
+lt_20^0
+lt_21^0
+prev_17^0
+x_13^0
+x_23^0
+y_110^0
+y_14^0
+y_158^0
+y_259^0
+y_309^0
+y_80^0)
+(l1
+Result_6^post
+_^post
+__const_17^post
+a_128^post
+a_243^post
+c_15^post
+elem_16^post
+head_9^post
+i_8^post
+k_296^post
+len_246^post
+len_48^post
+length_7^post
+lt_18^post
+lt_19^post
+lt_20^post
+lt_21^post
+prev_17^post
+x_13^post
+x_23^post
+y_110^post
+y_14^post
+y_158^post
+y_259^post
+y_309^post
+y_80^post)
+:guard
+(exists
+((c_15^1 Int)
+(c_15^2 Int)
+(c_15^3 Int)
+(elem_16^1 Int)
+(elem_16^2 Int)
+(lt_19^1 Int)
+(lt_20^1 Int)
+(lt_21^1 Int)
+(lt_21^2 Int)
+(lt_21^3 Int)
+(lt_21^4 Int)
+(lt_21^5 Int)
+(prev_17^1 Int)
+(prev_17^2 Int)
+(x_13^1 Int)
+(x_13^2 Int)
+(x_13^3 Int)
+(y_14^1 Int)
+(y_14^2 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 0 (+ 0 len_48^0)) (<= (+ (+ 0 (* -1 i_8^0)) length_7^0) 0))
+(= Result_6^post (+ 0 head_9^0)))
+(<= 0 (+ 0 len_48^0)))
+(<= 0 (+ 0 len_48^0)))
+(= x_13^1 (+ 0 Result_6^post)))
+(= c_15^1 (+ 0 x_13^1)))
+(= x_13^2 0))
+(<= 0 (+ 0 len_48^0)))
+(= y_14^1 (+ 0 c_15^1)))
+(= lt_21^1 (+ 0 y_80^0)))
+(= c_15^2 (+ 0 lt_21^1)))
+(= lt_21^2 lt_21^2))
+(= elem_16^1 (+ 0 x_13^2)))
+(= prev_17^1 0))
+(<= 0 (+ -1 len_48^0)))
+(<= (+ 0 elem_16^1) 0))
+(<= 0 (+ 0 elem_16^1)))
+(<= (+ 0 prev_17^1) 0))
+(<= 0 (+ 0 prev_17^1)))
+(= x_13^3 (+ 0 y_14^1)))
+(<= 0 (+ -1 len_48^0)))
+(= a_128^post (+ -2 len_48^0)))
+(= y_14^2 (+ 0 c_15^2)))
+(= lt_21^3 (+ 0 y_110^0)))
+(= c_15^3 (+ 0 lt_21^3)))
+(= lt_21^4 lt_21^4))
+(= elem_16^2 (+ 0 x_13^3)))
+(= prev_17^2 0))
+(<= 0 (+ 0 a_128^post)))
+(= lt_19^1 lt_19^1))
+(= lt_20^1 lt_20^1))
+(<= 0 (+ (+ 0 lt_19^1) (* -1 lt_20^1))))
+(= lt_19^post lt_19^post))
+(= lt_20^post lt_20^post))
+(<= (+ 0 prev_17^2) 0))
+(<= 0 (+ 0 prev_17^2)))
+(= x_13^post (+ 0 y_14^2)))
+(<= 0 (+ 0 a_128^post)))
+(= len_246^post 1))
+(= a_243^post (+ (+ -1 _^0) a_128^post)))
+(= y_14^post (+ 0 c_15^3)))
+(= lt_21^5 (+ 0 y_158^0)))
+(= c_15^post (+ 0 lt_21^5)))
+(= lt_21^post lt_21^post))
+(= elem_16^post (+ 0 x_13^post)))
+(= prev_17^post 0))
+(= _^0 _^post))
+(= __const_17^0 __const_17^post))
+(= head_9^0 head_9^post))
+(= i_8^0 i_8^post))
+(= k_296^0 k_296^post))
+(= len_48^0 len_48^post))
+(= length_7^0 length_7^post))
+(= lt_18^0 lt_18^post))
+(= x_23^0 x_23^post))
+(= y_110^0 y_110^post))
+(= y_158^0 y_158^post))
+(= y_259^0 y_259^post))
+(= y_309^0 y_309^post))
+(= y_80^0 y_80^post))
+)
+)
+
+(rule
+(l0
+Result_6^0
+_^0
+__const_17^0
+a_128^0
+a_243^0
+c_15^0
+elem_16^0
+head_9^0
+i_8^0
+k_296^0
+len_246^0
+len_48^0
+length_7^0
+lt_18^0
+lt_19^0
+lt_20^0
+lt_21^0
+prev_17^0
+x_13^0
+x_23^0
+y_110^0
+y_14^0
+y_158^0
+y_259^0
+y_309^0
+y_80^0)
+(l2
+Result_6^post
+_^post
+__const_17^post
+a_128^post
+a_243^post
+c_15^post
+elem_16^post
+head_9^post
+i_8^post
+k_296^post
+len_246^post
+len_48^post
+length_7^post
+lt_18^post
+lt_19^post
+lt_20^post
+lt_21^post
+prev_17^post
+x_13^post
+x_23^post
+y_110^post
+y_14^post
+y_158^post
+y_259^post
+y_309^post
+y_80^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 0 (+ 0 len_48^0)) (= len_48^post (+ 1 len_48^0)))
+(<= 0 (+ (+ -1 (* -1 i_8^0)) length_7^0)))
+(= head_9^post head_9^post))
+(= i_8^post (+ 1 i_8^0)))
+(= Result_6^0 Result_6^post))
+(= _^0 _^post))
+(= __const_17^0 __const_17^post))
+(= a_128^0 a_128^post))
+(= a_243^0 a_243^post))
+(= c_15^0 c_15^post))
+(= elem_16^0 elem_16^post))
+(= k_296^0 k_296^post))
+(= len_246^0 len_246^post))
+(= length_7^0 length_7^post))
+(= lt_18^0 lt_18^post))
+(= lt_19^0 lt_19^post))
+(= lt_20^0 lt_20^post))
+(= lt_21^0 lt_21^post))
+(= prev_17^0 prev_17^post))
+(= x_13^0 x_13^post))
+(= x_23^0 x_23^post))
+(= y_110^0 y_110^post))
+(= y_14^0 y_14^post))
+(= y_158^0 y_158^post))
+(= y_259^0 y_259^post))
+(= y_309^0 y_309^post))
+(= y_80^0 y_80^post))
+)
+
+(rule
+(l2
+Result_6^0
+_^0
+__const_17^0
+a_128^0
+a_243^0
+c_15^0
+elem_16^0
+head_9^0
+i_8^0
+k_296^0
+len_246^0
+len_48^0
+length_7^0
+lt_18^0
+lt_19^0
+lt_20^0
+lt_21^0
+prev_17^0
+x_13^0
+x_23^0
+y_110^0
+y_14^0
+y_158^0
+y_259^0
+y_309^0
+y_80^0)
+(l0
+Result_6^post
+_^post
+__const_17^post
+a_128^post
+a_243^post
+c_15^post
+elem_16^post
+head_9^post
+i_8^post
+k_296^post
+len_246^post
+len_48^post
+length_7^post
+lt_18^post
+lt_19^post
+lt_20^post
+lt_21^post
+prev_17^post
+x_13^post
+x_23^post
+y_110^post
+y_14^post
+y_158^post
+y_259^post
+y_309^post
+y_80^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= Result_6^0 Result_6^post) (= _^0 _^post))
+(= __const_17^0 __const_17^post))
+(= a_128^0 a_128^post))
+(= a_243^0 a_243^post))
+(= c_15^0 c_15^post))
+(= elem_16^0 elem_16^post))
+(= head_9^0 head_9^post))
+(= i_8^0 i_8^post))
+(= k_296^0 k_296^post))
+(= len_246^0 len_246^post))
+(= len_48^0 len_48^post))
+(= length_7^0 length_7^post))
+(= lt_18^0 lt_18^post))
+(= lt_19^0 lt_19^post))
+(= lt_20^0 lt_20^post))
+(= lt_21^0 lt_21^post))
+(= prev_17^0 prev_17^post))
+(= x_13^0 x_13^post))
+(= x_23^0 x_23^post))
+(= y_110^0 y_110^post))
+(= y_14^0 y_14^post))
+(= y_158^0 y_158^post))
+(= y_259^0 y_259^post))
+(= y_309^0 y_309^post))
+(= y_80^0 y_80^post))
+)
+
+(rule
+(l3
+Result_6^0
+_^0
+__const_17^0
+a_128^0
+a_243^0
+c_15^0
+elem_16^0
+head_9^0
+i_8^0
+k_296^0
+len_246^0
+len_48^0
+length_7^0
+lt_18^0
+lt_19^0
+lt_20^0
+lt_21^0
+prev_17^0
+x_13^0
+x_23^0
+y_110^0
+y_14^0
+y_158^0
+y_259^0
+y_309^0
+y_80^0)
+(l0
+Result_6^post
+_^post
+__const_17^post
+a_128^post
+a_243^post
+c_15^post
+elem_16^post
+head_9^post
+i_8^post
+k_296^post
+len_246^post
+len_48^post
+length_7^post
+lt_18^post
+lt_19^post
+lt_20^post
+lt_21^post
+prev_17^post
+x_13^post
+x_23^post
+y_110^post
+y_14^post
+y_158^post
+y_259^post
+y_309^post
+y_80^post)
+:guard
+(exists
+((head_9^1 Int) (i_8^1 Int) (x_13^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= x_13^1 0) (= length_7^post (+ 0 __const_17^0)))
+(= x_13^post (+ 0 x_23^0)))
+(= head_9^1 0))
+(= i_8^1 0))
+(= len_48^post (+ 0 i_8^1)))
+(<= 0 (+ (+ -1 (* -1 i_8^1)) length_7^post)))
+(= head_9^post head_9^post))
+(= i_8^post (+ 1 i_8^1)))
+(= Result_6^0 Result_6^post))
+(= _^0 _^post))
+(= __const_17^0 __const_17^post))
+(= a_128^0 a_128^post))
+(= a_243^0 a_243^post))
+(= c_15^0 c_15^post))
+(= elem_16^0 elem_16^post))
+(= k_296^0 k_296^post))
+(= len_246^0 len_246^post))
+(= lt_18^0 lt_18^post))
+(= lt_19^0 lt_19^post))
+(= lt_20^0 lt_20^post))
+(= lt_21^0 lt_21^post))
+(= prev_17^0 prev_17^post))
+(= x_23^0 x_23^post))
+(= y_110^0 y_110^post))
+(= y_14^0 y_14^post))
+(= y_158^0 y_158^post))
+(= y_259^0 y_259^post))
+(= y_309^0 y_309^post))
+(= y_80^0 y_80^post))
+)
+)
+
+(rule
+(l1
+Result_6^0
+_^0
+__const_17^0
+a_128^0
+a_243^0
+c_15^0
+elem_16^0
+head_9^0
+i_8^0
+k_296^0
+len_246^0
+len_48^0
+length_7^0
+lt_18^0
+lt_19^0
+lt_20^0
+lt_21^0
+prev_17^0
+x_13^0
+x_23^0
+y_110^0
+y_14^0
+y_158^0
+y_259^0
+y_309^0
+y_80^0)
+(l4
+Result_6^post
+_^post
+__const_17^post
+a_128^post
+a_243^post
+c_15^post
+elem_16^post
+head_9^post
+i_8^post
+k_296^post
+len_246^post
+len_48^post
+length_7^post
+lt_18^post
+lt_19^post
+lt_20^post
+lt_21^post
+prev_17^post
+x_13^post
+x_23^post
+y_110^post
+y_14^post
+y_158^post
+y_259^post
+y_309^post
+y_80^post)
+:guard
+(exists
+((lt_19^1 Int) (lt_20^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 0 (+ 0 a_243^0)) (<= 0 (+ 0 len_246^0)))
+(= k_296^post (+ 0 len_246^0)))
+(= lt_19^1 lt_19^1))
+(= lt_20^1 lt_20^1))
+(<= 0 (+ (+ 0 lt_19^1) (* -1 lt_20^1))))
+(= lt_19^post lt_19^post))
+(= lt_20^post lt_20^post))
+(<= (+ 0 prev_17^0) 0))
+(<= 0 (+ 0 prev_17^0)))
+(= x_13^post (+ 0 y_14^0)))
+(= Result_6^0 Result_6^post))
+(= _^0 _^post))
+(= __const_17^0 __const_17^post))
+(= a_128^0 a_128^post))
+(= a_243^0 a_243^post))
+(= c_15^0 c_15^post))
+(= elem_16^0 elem_16^post))
+(= head_9^0 head_9^post))
+(= i_8^0 i_8^post))
+(= len_246^0 len_246^post))
+(= len_48^0 len_48^post))
+(= length_7^0 length_7^post))
+(= lt_18^0 lt_18^post))
+(= lt_21^0 lt_21^post))
+(= prev_17^0 prev_17^post))
+(= x_23^0 x_23^post))
+(= y_110^0 y_110^post))
+(= y_14^0 y_14^post))
+(= y_158^0 y_158^post))
+(= y_259^0 y_259^post))
+(= y_309^0 y_309^post))
+(= y_80^0 y_80^post))
+)
+)
+
+(rule
+(l1
+Result_6^0
+_^0
+__const_17^0
+a_128^0
+a_243^0
+c_15^0
+elem_16^0
+head_9^0
+i_8^0
+k_296^0
+len_246^0
+len_48^0
+length_7^0
+lt_18^0
+lt_19^0
+lt_20^0
+lt_21^0
+prev_17^0
+x_13^0
+x_23^0
+y_110^0
+y_14^0
+y_158^0
+y_259^0
+y_309^0
+y_80^0)
+(l5
+Result_6^post
+_^post
+__const_17^post
+a_128^post
+a_243^post
+c_15^post
+elem_16^post
+head_9^post
+i_8^post
+k_296^post
+len_246^post
+len_48^post
+length_7^post
+lt_18^post
+lt_19^post
+lt_20^post
+lt_21^post
+prev_17^post
+x_13^post
+x_23^post
+y_110^post
+y_14^post
+y_158^post
+y_259^post
+y_309^post
+y_80^post)
+:guard
+(exists
+((lt_18^1 Int) (lt_19^1 Int) (lt_20^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 0 (+ 0 a_243^0)) (<= 0 (+ 0 len_246^0)))
+(= lt_19^1 lt_19^1))
+(= lt_20^1 lt_20^1))
+(<= (+ (+ 1 lt_19^1) (* -1 lt_20^1)) 0))
+(= lt_19^post lt_19^post))
+(= lt_20^post lt_20^post))
+(= prev_17^post (+ 0 elem_16^0)))
+(= lt_18^1 (+ 0 y_259^0)))
+(= elem_16^post (+ 0 lt_18^1)))
+(= lt_18^post lt_18^post))
+(<= 0 (+ 0 a_243^0)))
+(<= 0 (+ -1 len_246^0)))
+(= Result_6^0 Result_6^post))
+(= _^0 _^post))
+(= __const_17^0 __const_17^post))
+(= a_128^0 a_128^post))
+(= a_243^0 a_243^post))
+(= c_15^0 c_15^post))
+(= head_9^0 head_9^post))
+(= i_8^0 i_8^post))
+(= k_296^0 k_296^post))
+(= len_246^0 len_246^post))
+(= len_48^0 len_48^post))
+(= length_7^0 length_7^post))
+(= lt_21^0 lt_21^post))
+(= x_13^0 x_13^post))
+(= x_23^0 x_23^post))
+(= y_110^0 y_110^post))
+(= y_14^0 y_14^post))
+(= y_158^0 y_158^post))
+(= y_259^0 y_259^post))
+(= y_309^0 y_309^post))
+(= y_80^0 y_80^post))
+)
+)
+
+(rule
+(l4
+Result_6^0
+_^0
+__const_17^0
+a_128^0
+a_243^0
+c_15^0
+elem_16^0
+head_9^0
+i_8^0
+k_296^0
+len_246^0
+len_48^0
+length_7^0
+lt_18^0
+lt_19^0
+lt_20^0
+lt_21^0
+prev_17^0
+x_13^0
+x_23^0
+y_110^0
+y_14^0
+y_158^0
+y_259^0
+y_309^0
+y_80^0)
+(l6
+Result_6^post
+_^post
+__const_17^post
+a_128^post
+a_243^post
+c_15^post
+elem_16^post
+head_9^post
+i_8^post
+k_296^post
+len_246^post
+len_48^post
+length_7^post
+lt_18^post
+lt_19^post
+lt_20^post
+lt_21^post
+prev_17^post
+x_13^post
+x_23^post
+y_110^post
+y_14^post
+y_158^post
+y_259^post
+y_309^post
+y_80^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 0 (+ 0 a_243^0)) (<= 0 (+ 0 k_296^0)))
+(<= (+ 0 c_15^0) 0))
+(<= 0 (+ 0 c_15^0)))
+(= Result_6^post Result_6^post))
+(= _^0 _^post))
+(= __const_17^0 __const_17^post))
+(= a_128^0 a_128^post))
+(= a_243^0 a_243^post))
+(= c_15^0 c_15^post))
+(= elem_16^0 elem_16^post))
+(= head_9^0 head_9^post))
+(= i_8^0 i_8^post))
+(= k_296^0 k_296^post))
+(= len_246^0 len_246^post))
+(= len_48^0 len_48^post))
+(= length_7^0 length_7^post))
+(= lt_18^0 lt_18^post))
+(= lt_19^0 lt_19^post))
+(= lt_20^0 lt_20^post))
+(= lt_21^0 lt_21^post))
+(= prev_17^0 prev_17^post))
+(= x_13^0 x_13^post))
+(= x_23^0 x_23^post))
+(= y_110^0 y_110^post))
+(= y_14^0 y_14^post))
+(= y_158^0 y_158^post))
+(= y_259^0 y_259^post))
+(= y_309^0 y_309^post))
+(= y_80^0 y_80^post))
+)
+
+(rule
+(l4
+Result_6^0
+_^0
+__const_17^0
+a_128^0
+a_243^0
+c_15^0
+elem_16^0
+head_9^0
+i_8^0
+k_296^0
+len_246^0
+len_48^0
+length_7^0
+lt_18^0
+lt_19^0
+lt_20^0
+lt_21^0
+prev_17^0
+x_13^0
+x_23^0
+y_110^0
+y_14^0
+y_158^0
+y_259^0
+y_309^0
+y_80^0)
+(l1
+Result_6^post
+_^post
+__const_17^post
+a_128^post
+a_243^post
+c_15^post
+elem_16^post
+head_9^post
+i_8^post
+k_296^post
+len_246^post
+len_48^post
+length_7^post
+lt_18^post
+lt_19^post
+lt_20^post
+lt_21^post
+prev_17^post
+x_13^post
+x_23^post
+y_110^post
+y_14^post
+y_158^post
+y_259^post
+y_309^post
+y_80^post)
+:guard
+(exists
+((lt_21^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 0 (+ 0 a_243^0)) (<= 0 (+ 0 k_296^0)))
+(= len_246^post (+ 1 k_296^0)))
+(= a_243^post (+ -1 a_243^0)))
+(= y_14^post (+ 0 c_15^0)))
+(= lt_21^1 (+ 0 y_309^0)))
+(= c_15^post (+ 0 lt_21^1)))
+(= lt_21^post lt_21^post))
+(= elem_16^post (+ 0 x_13^0)))
+(= prev_17^post 0))
+(= Result_6^0 Result_6^post))
+(= _^0 _^post))
+(= __const_17^0 __const_17^post))
+(= a_128^0 a_128^post))
+(= head_9^0 head_9^post))
+(= i_8^0 i_8^post))
+(= k_296^0 k_296^post))
+(= len_48^0 len_48^post))
+(= length_7^0 length_7^post))
+(= lt_18^0 lt_18^post))
+(= lt_19^0 lt_19^post))
+(= lt_20^0 lt_20^post))
+(= x_13^0 x_13^post))
+(= x_23^0 x_23^post))
+(= y_110^0 y_110^post))
+(= y_158^0 y_158^post))
+(= y_259^0 y_259^post))
+(= y_309^0 y_309^post))
+(= y_80^0 y_80^post))
+)
+)
+
+(rule
+(l7
+Result_6^0
+_^0
+__const_17^0
+a_128^0
+a_243^0
+c_15^0
+elem_16^0
+head_9^0
+i_8^0
+k_296^0
+len_246^0
+len_48^0
+length_7^0
+lt_18^0
+lt_19^0
+lt_20^0
+lt_21^0
+prev_17^0
+x_13^0
+x_23^0
+y_110^0
+y_14^0
+y_158^0
+y_259^0
+y_309^0
+y_80^0)
+(l3
+Result_6^post
+_^post
+__const_17^post
+a_128^post
+a_243^post
+c_15^post
+elem_16^post
+head_9^post
+i_8^post
+k_296^post
+len_246^post
+len_48^post
+length_7^post
+lt_18^post
+lt_19^post
+lt_20^post
+lt_21^post
+prev_17^post
+x_13^post
+x_23^post
+y_110^post
+y_14^post
+y_158^post
+y_259^post
+y_309^post
+y_80^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= Result_6^0 Result_6^post) (= _^0 _^post))
+(= __const_17^0 __const_17^post))
+(= a_128^0 a_128^post))
+(= a_243^0 a_243^post))
+(= c_15^0 c_15^post))
+(= elem_16^0 elem_16^post))
+(= head_9^0 head_9^post))
+(= i_8^0 i_8^post))
+(= k_296^0 k_296^post))
+(= len_246^0 len_246^post))
+(= len_48^0 len_48^post))
+(= length_7^0 length_7^post))
+(= lt_18^0 lt_18^post))
+(= lt_19^0 lt_19^post))
+(= lt_20^0 lt_20^post))
+(= lt_21^0 lt_21^post))
+(= prev_17^0 prev_17^post))
+(= x_13^0 x_13^post))
+(= x_23^0 x_23^post))
+(= y_110^0 y_110^post))
+(= y_14^0 y_14^post))
+(= y_158^0 y_158^post))
+(= y_259^0 y_259^post))
+(= y_309^0 y_309^post))
+(= y_80^0 y_80^post))
+)
+

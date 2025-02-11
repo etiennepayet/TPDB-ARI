@@ -1,0 +1,58 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int))
+(fun l1 (-> Int Int Int))
+(fun l2 (-> Int Int Int))
+(fun l3 (-> Int Int Int))
+(fun l4 (-> Int Int Int))
+(fun l5 (-> Int Int Int))
+(fun l6 (-> Int Int Int))
+(entrypoint l6)
+(rule
+(l0 a^0 b^0)
+(l1 a^post b^post)
+:guard
+(and (and (<= 1 0) (= a^0 a^post)) (= b^0 b^post)))
+
+(rule
+(l1 a^0 b^0)
+(l0 a^post b^post)
+:guard
+(and (= a^0 a^post) (= b^0 b^post)))
+
+(rule
+(l0 a^0 b^0)
+(l2 a^post b^post)
+:guard
+(and (= b^post 0) (= a^0 a^post)))
+
+(rule
+(l2 a^0 b^0)
+(l3 a^post b^post)
+:guard
+(and (and (<= (+ 1 b^0) 1) (= a^0 a^post)) (= b^0 b^post)))
+
+(rule
+(l4 a^0 b^0)
+(l0 a^post b^post)
+:guard
+(and (and (<= (+ 1 a^0) 1) (= a^0 a^post)) (= b^0 b^post)))
+
+(rule
+(l4 a^0 b^0)
+(l2 a^post b^post)
+:guard
+(and (= b^post 1) (= a^0 a^post)))
+
+(rule
+(l5 a^0 b^0)
+(l4 a^post b^post)
+:guard
+(and (= a^post 1) (= b^0 b^post)))
+
+(rule
+(l6 a^0 b^0)
+(l5 a^post b^post)
+:guard
+(and (= a^0 a^post) (= b^0 b^post)))
+

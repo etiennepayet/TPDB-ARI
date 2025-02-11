@@ -1,0 +1,361 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun l5 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(fun l6 (-> Int Int Int Int Int Int Int Int Int Int Int))
+(entrypoint l6)
+(rule
+(l0 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
+(l1
+c^post
+ox^post
+oy^post
+oz^post
+sx^post
+sy^post
+sz^post
+x^post
+y^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= c^0 c^post) (= ox^0 ox^post)) (= oy^0 oy^post))
+(= oz^0 oz^post))
+(= sx^0 sx^post))
+(= sy^0 sy^post))
+(= sz^0 sz^post))
+(= x^0 x^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l2 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
+(l0
+c^post
+ox^post
+oy^post
+oz^post
+sx^post
+sy^post
+sz^post
+x^post
+y^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 sx^0) 1) (= c^0 c^post)) (= ox^0 ox^post))
+(= oy^0 oy^post))
+(= oz^0 oz^post))
+(= sx^0 sx^post))
+(= sy^0 sy^post))
+(= sz^0 sz^post))
+(= x^0 x^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l2 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
+(l0
+c^post
+ox^post
+oy^post
+oz^post
+sx^post
+sy^post
+sz^post
+x^post
+y^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 ox^0) (+ 0 x^0)) (= c^0 c^post)) (= ox^0 ox^post))
+(= oy^0 oy^post))
+(= oz^0 oz^post))
+(= sx^0 sx^post))
+(= sy^0 sy^post))
+(= sz^0 sz^post))
+(= x^0 x^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l3 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
+(l4
+c^post
+ox^post
+oy^post
+oz^post
+sx^post
+sy^post
+sz^post
+x^post
+y^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= y^post (+ -1 y^0)) (= x^post (+ 0 z^0))) (= c^0 c^post))
+(= ox^0 ox^post))
+(= oy^0 oy^post))
+(= oz^0 oz^post))
+(= sx^0 sx^post))
+(= sy^0 sy^post))
+(= sz^0 sz^post))
+(= z^0 z^post))
+)
+
+(rule
+(l3 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
+(l4
+c^post
+ox^post
+oy^post
+oz^post
+sx^post
+sy^post
+sz^post
+x^post
+y^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= x^post (+ -1 x^0)) (= c^0 c^post)) (= ox^0 ox^post))
+(= oy^0 oy^post))
+(= oz^0 oz^post))
+(= sx^0 sx^post))
+(= sy^0 sy^post))
+(= sz^0 sz^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l4 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
+(l3
+c^post
+ox^post
+oy^post
+oz^post
+sx^post
+sy^post
+sz^post
+x^post
+y^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= c^post 1) (= ox^post (+ 0 x^0))) (= oy^post (+ 0 y^0)))
+(= oz^post (+ 0 z^0)))
+(= sx^post (+ 0 x^0)))
+(= sy^post (+ 0 y^0)))
+(= sz^post (+ 0 z^0)))
+(= x^0 x^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l4 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
+(l2
+c^post
+ox^post
+oy^post
+oz^post
+sx^post
+sy^post
+sz^post
+x^post
+y^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 c^0)) (= c^0 c^post)) (= ox^0 ox^post))
+(= oy^0 oy^post))
+(= oz^0 oz^post))
+(= sx^0 sx^post))
+(= sy^0 sy^post))
+(= sz^0 sz^post))
+(= x^0 x^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l4 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
+(l3
+c^post
+ox^post
+oy^post
+oz^post
+sx^post
+sy^post
+sz^post
+x^post
+y^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 x^0)) (= c^0 c^post)) (= ox^0 ox^post))
+(= oy^0 oy^post))
+(= oz^0 oz^post))
+(= sx^0 sx^post))
+(= sy^0 sy^post))
+(= sz^0 sz^post))
+(= x^0 x^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l4 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
+(l3
+c^post
+ox^post
+oy^post
+oz^post
+sx^post
+sy^post
+sz^post
+x^post
+y^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 x^0)) (= sx^post (+ 0 x^0))) (= sy^post (+ 0 y^0)))
+(= sz^post (+ 0 z^0)))
+(= c^0 c^post))
+(= ox^0 ox^post))
+(= oy^0 oy^post))
+(= oz^0 oz^post))
+(= x^0 x^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l5 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
+(l4
+c^post
+ox^post
+oy^post
+oz^post
+sx^post
+sy^post
+sz^post
+x^post
+y^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= c^post 0) (= ox^0 ox^post)) (= oy^0 oy^post))
+(= oz^0 oz^post))
+(= sx^0 sx^post))
+(= sy^0 sy^post))
+(= sz^0 sz^post))
+(= x^0 x^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l6 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
+(l5
+c^post
+ox^post
+oy^post
+oz^post
+sx^post
+sy^post
+sz^post
+x^post
+y^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= c^0 c^post) (= ox^0 ox^post)) (= oy^0 oy^post))
+(= oz^0 oz^post))
+(= sx^0 sx^post))
+(= sy^0 sy^post))
+(= sz^0 sz^post))
+(= x^0 x^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+

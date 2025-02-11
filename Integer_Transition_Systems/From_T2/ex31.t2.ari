@@ -1,0 +1,76 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int))
+(fun l1 (-> Int Int Int Int))
+(fun l2 (-> Int Int Int Int))
+(fun l3 (-> Int Int Int Int))
+(fun l4 (-> Int Int Int Int))
+(fun l5 (-> Int Int Int Int))
+(entrypoint l5)
+(rule
+(l0 __const_99^0 hi^0 lo^0)
+(l1 __const_99^post hi^post lo^post)
+:guard
+(and
+(and (= hi^post hi^post) (= __const_99^0 __const_99^post))
+(= lo^0 lo^post))
+)
+
+(rule
+(l0 __const_99^0 hi^0 lo^0)
+(l1 __const_99^post hi^post lo^post)
+:guard
+(and
+(and (= lo^post lo^post) (= __const_99^0 __const_99^post))
+(= hi^0 hi^post))
+)
+
+(rule
+(l2 __const_99^0 hi^0 lo^0)
+(l3 __const_99^post hi^post lo^post)
+:guard
+(and
+(and
+(and (<= (+ 0 lo^0) (+ 0 hi^0)) (= __const_99^0 __const_99^post))
+(= hi^0 hi^post))
+(= lo^0 lo^post))
+)
+
+(rule
+(l2 __const_99^0 hi^0 lo^0)
+(l0 __const_99^post hi^post lo^post)
+:guard
+(and
+(and
+(and (<= (+ 1 hi^0) (+ 0 lo^0)) (= __const_99^0 __const_99^post))
+(= hi^0 hi^post))
+(= lo^0 lo^post))
+)
+
+(rule
+(l1 __const_99^0 hi^0 lo^0)
+(l2 __const_99^post hi^post lo^post)
+:guard
+(and
+(and (= __const_99^0 __const_99^post) (= hi^0 hi^post))
+(= lo^0 lo^post))
+)
+
+(rule
+(l4 __const_99^0 hi^0 lo^0)
+(l1 __const_99^post hi^post lo^post)
+:guard
+(and
+(and (= hi^post 0) (= lo^post (+ 0 __const_99^0)))
+(= __const_99^0 __const_99^post))
+)
+
+(rule
+(l5 __const_99^0 hi^0 lo^0)
+(l4 __const_99^post hi^post lo^post)
+:guard
+(and
+(and (= __const_99^0 __const_99^post) (= hi^0 hi^post))
+(= lo^0 lo^post))
+)
+

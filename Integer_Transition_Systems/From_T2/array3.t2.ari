@@ -1,0 +1,109 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int))
+(fun l5 (-> Int Int Int Int Int))
+(fun l6 (-> Int Int Int Int Int))
+(entrypoint l6)
+(rule
+(l0 __const_50^0 i5^0 i^0 tmp^0)
+(l1 __const_50^post i5^post i^post tmp^post)
+:guard
+(and
+(and
+(and
+(and (<= (+ 0 __const_50^0) (+ 0 i5^0)) (= i^post 0))
+(= __const_50^0 __const_50^post))
+(= i5^0 i5^post))
+(= tmp^0 tmp^post))
+)
+
+(rule
+(l0 __const_50^0 i5^0 i^0 tmp^0)
+(l2 __const_50^post i5^post i^post tmp^post)
+:guard
+(and
+(and
+(and
+(and (<= (+ 1 i5^0) (+ 0 __const_50^0)) (= i5^post (+ 1 i5^0)))
+(= __const_50^0 __const_50^post))
+(= i^0 i^post))
+(= tmp^0 tmp^post))
+)
+
+(rule
+(l2 __const_50^0 i5^0 i^0 tmp^0)
+(l0 __const_50^post i5^post i^post tmp^post)
+:guard
+(and
+(and
+(and (= __const_50^0 __const_50^post) (= i^0 i^post))
+(= i5^0 i5^post))
+(= tmp^0 tmp^post))
+)
+
+(rule
+(l1 __const_50^0 i5^0 i^0 tmp^0)
+(l3 __const_50^post i5^post i^post tmp^post)
+:guard
+(and
+(and
+(and (= __const_50^0 __const_50^post) (= i^0 i^post))
+(= i5^0 i5^post))
+(= tmp^0 tmp^post))
+)
+
+(rule
+(l3 __const_50^0 i5^0 i^0 tmp^0)
+(l4 __const_50^post i5^post i^post tmp^post)
+:guard
+(and
+(and
+(and
+(and (<= (+ 0 __const_50^0) (+ 0 i^0)) (= __const_50^0 __const_50^post))
+(= i^0 i^post))
+(= i5^0 i5^post))
+(= tmp^0 tmp^post))
+)
+
+(rule
+(l3 __const_50^0 i5^0 i^0 tmp^0)
+(l1 __const_50^post i5^post i^post tmp^post)
+:guard
+(and
+(and
+(and
+(and (<= (+ 1 i^0) (+ 0 __const_50^0)) (= i^post (+ 1 i^0)))
+(= __const_50^0 __const_50^post))
+(= i5^0 i5^post))
+(= tmp^0 tmp^post))
+)
+
+(rule
+(l5 __const_50^0 i5^0 i^0 tmp^0)
+(l2 __const_50^post i5^post i^post tmp^post)
+:guard
+(exists
+((i5^1 Int))
+(and
+(and
+(and (and (= i^post 0) (= tmp^post tmp^post)) (= i5^1 0))
+(= i5^post 0))
+(= __const_50^0 __const_50^post))
+)
+)
+
+(rule
+(l6 __const_50^0 i5^0 i^0 tmp^0)
+(l5 __const_50^post i5^post i^post tmp^post)
+:guard
+(and
+(and
+(and (= __const_50^0 __const_50^post) (= i^0 i^post))
+(= i5^0 i5^post))
+(= tmp^0 tmp^post))
+)
+

@@ -1,0 +1,1147 @@
+(format LCTRS)
+(theory Ints)
+(fun
+l0
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l1
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l2
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l3
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l4
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l5
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l6
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l7
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(fun
+l8
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+
+(entrypoint l8)
+(rule
+(l0
+Dc_6^0
+InterfaceType_5^0
+MaximumInterfaceType_9^0
+Result_4^0
+__cil_tmp2_11^0
+__const_256^0
+__disjvr_0^0
+__retres1_10^0
+cnt_27^0
+cnt_32^0
+ct_15^0
+ct_49^0
+fdoExtension_7^0
+lt_12^0
+lt_13^0
+lt_14^0
+lt_16^0
+lt_17^0
+lt_18^0
+ntStatus_8^0)
+(l1
+Dc_6^post
+InterfaceType_5^post
+MaximumInterfaceType_9^post
+Result_4^post
+__cil_tmp2_11^post
+__const_256^post
+__disjvr_0^post
+__retres1_10^post
+cnt_27^post
+cnt_32^post
+ct_15^post
+ct_49^post
+fdoExtension_7^post
+lt_12^post
+lt_13^post
+lt_14^post
+lt_16^post
+lt_17^post
+lt_18^post
+ntStatus_8^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(= MaximumInterfaceType_9^post MaximumInterfaceType_9^post)
+(= ntStatus_8^post ntStatus_8^post))
+(= fdoExtension_7^post fdoExtension_7^post))
+(= Dc_6^post Dc_6^post))
+(= InterfaceType_5^post InterfaceType_5^post))
+(= Result_4^0 Result_4^post))
+(= __cil_tmp2_11^0 __cil_tmp2_11^post))
+(= __const_256^0 __const_256^post))
+(= __disjvr_0^0 __disjvr_0^post))
+(= __retres1_10^0 __retres1_10^post))
+(= cnt_27^0 cnt_27^post))
+(= cnt_32^0 cnt_32^post))
+(= ct_15^0 ct_15^post))
+(= ct_49^0 ct_49^post))
+(= lt_12^0 lt_12^post))
+(= lt_13^0 lt_13^post))
+(= lt_14^0 lt_14^post))
+(= lt_16^0 lt_16^post))
+(= lt_17^0 lt_17^post))
+(= lt_18^0 lt_18^post))
+)
+
+(rule
+(l1
+Dc_6^0
+InterfaceType_5^0
+MaximumInterfaceType_9^0
+Result_4^0
+__cil_tmp2_11^0
+__const_256^0
+__disjvr_0^0
+__retres1_10^0
+cnt_27^0
+cnt_32^0
+ct_15^0
+ct_49^0
+fdoExtension_7^0
+lt_12^0
+lt_13^0
+lt_14^0
+lt_16^0
+lt_17^0
+lt_18^0
+ntStatus_8^0)
+(l3
+Dc_6^post
+InterfaceType_5^post
+MaximumInterfaceType_9^post
+Result_4^post
+__cil_tmp2_11^post
+__const_256^post
+__disjvr_0^post
+__retres1_10^post
+cnt_27^post
+cnt_32^post
+ct_15^post
+ct_49^post
+fdoExtension_7^post
+lt_12^post
+lt_13^post
+lt_14^post
+lt_16^post
+lt_17^post
+lt_18^post
+ntStatus_8^post)
+:guard
+(exists
+((ct_15^1 Int) (lt_14^1 Int) (lt_16^1 Int) (lt_17^1 Int) (lt_18^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= lt_17^1 (+ 0 cnt_27^0)) (= lt_18^1 (+ 0 cnt_32^0)))
+(<= 0 (+ (+ -1 (* -1 lt_17^1)) lt_18^1)))
+(= lt_17^post lt_17^post))
+(= lt_18^post lt_18^post))
+(= lt_16^1 (+ 0 cnt_27^0)))
+(= lt_16^post lt_16^post))
+(= ct_15^1 ct_15^1))
+(= ct_15^post ct_15^post))
+(= lt_14^1 (+ 0 ct_49^0)))
+(<= 0 (+ -1 lt_14^1)))
+(= lt_14^post lt_14^post))
+(= lt_13^post (+ 0 ct_49^0)))
+(= Dc_6^0 Dc_6^post))
+(= InterfaceType_5^0 InterfaceType_5^post))
+(= MaximumInterfaceType_9^0 MaximumInterfaceType_9^post))
+(= Result_4^0 Result_4^post))
+(= __cil_tmp2_11^0 __cil_tmp2_11^post))
+(= __const_256^0 __const_256^post))
+(= __disjvr_0^0 __disjvr_0^post))
+(= __retres1_10^0 __retres1_10^post))
+(= cnt_27^0 cnt_27^post))
+(= cnt_32^0 cnt_32^post))
+(= ct_49^0 ct_49^post))
+(= fdoExtension_7^0 fdoExtension_7^post))
+(= lt_12^0 lt_12^post))
+(= ntStatus_8^0 ntStatus_8^post))
+)
+)
+
+(rule
+(l3
+Dc_6^0
+InterfaceType_5^0
+MaximumInterfaceType_9^0
+Result_4^0
+__cil_tmp2_11^0
+__const_256^0
+__disjvr_0^0
+__retres1_10^0
+cnt_27^0
+cnt_32^0
+ct_15^0
+ct_49^0
+fdoExtension_7^0
+lt_12^0
+lt_13^0
+lt_14^0
+lt_16^0
+lt_17^0
+lt_18^0
+ntStatus_8^0)
+(l4
+Dc_6^post
+InterfaceType_5^post
+MaximumInterfaceType_9^post
+Result_4^post
+__cil_tmp2_11^post
+__const_256^post
+__disjvr_0^post
+__retres1_10^post
+cnt_27^post
+cnt_32^post
+ct_15^post
+ct_49^post
+fdoExtension_7^post
+lt_12^post
+lt_13^post
+lt_14^post
+lt_16^post
+lt_17^post
+lt_18^post
+ntStatus_8^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= __disjvr_0^post __disjvr_0^0) (= Dc_6^0 Dc_6^post))
+(= InterfaceType_5^0 InterfaceType_5^post))
+(= MaximumInterfaceType_9^0 MaximumInterfaceType_9^post))
+(= Result_4^0 Result_4^post))
+(= __cil_tmp2_11^0 __cil_tmp2_11^post))
+(= __const_256^0 __const_256^post))
+(= __disjvr_0^0 __disjvr_0^post))
+(= __retres1_10^0 __retres1_10^post))
+(= cnt_27^0 cnt_27^post))
+(= cnt_32^0 cnt_32^post))
+(= ct_15^0 ct_15^post))
+(= ct_49^0 ct_49^post))
+(= fdoExtension_7^0 fdoExtension_7^post))
+(= lt_12^0 lt_12^post))
+(= lt_13^0 lt_13^post))
+(= lt_14^0 lt_14^post))
+(= lt_16^0 lt_16^post))
+(= lt_17^0 lt_17^post))
+(= lt_18^0 lt_18^post))
+(= ntStatus_8^0 ntStatus_8^post))
+)
+
+(rule
+(l4
+Dc_6^0
+InterfaceType_5^0
+MaximumInterfaceType_9^0
+Result_4^0
+__cil_tmp2_11^0
+__const_256^0
+__disjvr_0^0
+__retres1_10^0
+cnt_27^0
+cnt_32^0
+ct_15^0
+ct_49^0
+fdoExtension_7^0
+lt_12^0
+lt_13^0
+lt_14^0
+lt_16^0
+lt_17^0
+lt_18^0
+ntStatus_8^0)
+(l2
+Dc_6^post
+InterfaceType_5^post
+MaximumInterfaceType_9^post
+Result_4^post
+__cil_tmp2_11^post
+__const_256^post
+__disjvr_0^post
+__retres1_10^post
+cnt_27^post
+cnt_32^post
+ct_15^post
+ct_49^post
+fdoExtension_7^post
+lt_12^post
+lt_13^post
+lt_14^post
+lt_16^post
+lt_17^post
+lt_18^post
+ntStatus_8^post)
+:guard
+(exists
+((lt_12^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= lt_13^post lt_13^post) (= lt_12^1 (+ 0 ct_49^0)))
+(= __retres1_10^post (+ 0 lt_12^1)))
+(= lt_12^post lt_12^post))
+(= __cil_tmp2_11^post (+ 0 __retres1_10^post)))
+(= Result_4^post (+ 0 __cil_tmp2_11^post)))
+(= Dc_6^0 Dc_6^post))
+(= InterfaceType_5^0 InterfaceType_5^post))
+(= MaximumInterfaceType_9^0 MaximumInterfaceType_9^post))
+(= __const_256^0 __const_256^post))
+(= __disjvr_0^0 __disjvr_0^post))
+(= cnt_27^0 cnt_27^post))
+(= cnt_32^0 cnt_32^post))
+(= ct_15^0 ct_15^post))
+(= ct_49^0 ct_49^post))
+(= fdoExtension_7^0 fdoExtension_7^post))
+(= lt_14^0 lt_14^post))
+(= lt_16^0 lt_16^post))
+(= lt_17^0 lt_17^post))
+(= lt_18^0 lt_18^post))
+(= ntStatus_8^0 ntStatus_8^post))
+)
+)
+
+(rule
+(l1
+Dc_6^0
+InterfaceType_5^0
+MaximumInterfaceType_9^0
+Result_4^0
+__cil_tmp2_11^0
+__const_256^0
+__disjvr_0^0
+__retres1_10^0
+cnt_27^0
+cnt_32^0
+ct_15^0
+ct_49^0
+fdoExtension_7^0
+lt_12^0
+lt_13^0
+lt_14^0
+lt_16^0
+lt_17^0
+lt_18^0
+ntStatus_8^0)
+(l5
+Dc_6^post
+InterfaceType_5^post
+MaximumInterfaceType_9^post
+Result_4^post
+__cil_tmp2_11^post
+__const_256^post
+__disjvr_0^post
+__retres1_10^post
+cnt_27^post
+cnt_32^post
+ct_15^post
+ct_49^post
+fdoExtension_7^post
+lt_12^post
+lt_13^post
+lt_14^post
+lt_16^post
+lt_17^post
+lt_18^post
+ntStatus_8^post)
+:guard
+(exists
+((ct_15^1 Int) (lt_14^1 Int) (lt_16^1 Int) (lt_17^1 Int) (lt_18^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= lt_17^1 (+ 0 cnt_27^0)) (= lt_18^1 (+ 0 cnt_32^0)))
+(<= 0 (+ (+ -1 (* -1 lt_17^1)) lt_18^1)))
+(= lt_17^post lt_17^post))
+(= lt_18^post lt_18^post))
+(= lt_16^1 (+ 0 cnt_27^0)))
+(= lt_16^post lt_16^post))
+(= ct_15^1 ct_15^1))
+(= ct_15^post ct_15^post))
+(= lt_14^1 (+ 0 ct_49^0)))
+(<= (+ 0 lt_14^1) 0))
+(= lt_14^post lt_14^post))
+(= Dc_6^0 Dc_6^post))
+(= InterfaceType_5^0 InterfaceType_5^post))
+(= MaximumInterfaceType_9^0 MaximumInterfaceType_9^post))
+(= Result_4^0 Result_4^post))
+(= __cil_tmp2_11^0 __cil_tmp2_11^post))
+(= __const_256^0 __const_256^post))
+(= __disjvr_0^0 __disjvr_0^post))
+(= __retres1_10^0 __retres1_10^post))
+(= cnt_27^0 cnt_27^post))
+(= cnt_32^0 cnt_32^post))
+(= ct_49^0 ct_49^post))
+(= fdoExtension_7^0 fdoExtension_7^post))
+(= lt_12^0 lt_12^post))
+(= lt_13^0 lt_13^post))
+(= ntStatus_8^0 ntStatus_8^post))
+)
+)
+
+(rule
+(l5
+Dc_6^0
+InterfaceType_5^0
+MaximumInterfaceType_9^0
+Result_4^0
+__cil_tmp2_11^0
+__const_256^0
+__disjvr_0^0
+__retres1_10^0
+cnt_27^0
+cnt_32^0
+ct_15^0
+ct_49^0
+fdoExtension_7^0
+lt_12^0
+lt_13^0
+lt_14^0
+lt_16^0
+lt_17^0
+lt_18^0
+ntStatus_8^0)
+(l1
+Dc_6^post
+InterfaceType_5^post
+MaximumInterfaceType_9^post
+Result_4^post
+__cil_tmp2_11^post
+__const_256^post
+__disjvr_0^post
+__retres1_10^post
+cnt_27^post
+cnt_32^post
+ct_15^post
+ct_49^post
+fdoExtension_7^post
+lt_12^post
+lt_13^post
+lt_14^post
+lt_16^post
+lt_17^post
+lt_18^post
+ntStatus_8^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= Dc_6^0 Dc_6^post) (= InterfaceType_5^0 InterfaceType_5^post))
+(= MaximumInterfaceType_9^0 MaximumInterfaceType_9^post))
+(= Result_4^0 Result_4^post))
+(= __cil_tmp2_11^0 __cil_tmp2_11^post))
+(= __const_256^0 __const_256^post))
+(= __disjvr_0^0 __disjvr_0^post))
+(= __retres1_10^0 __retres1_10^post))
+(= cnt_27^0 cnt_27^post))
+(= cnt_32^0 cnt_32^post))
+(= ct_15^0 ct_15^post))
+(= ct_49^0 ct_49^post))
+(= fdoExtension_7^0 fdoExtension_7^post))
+(= lt_12^0 lt_12^post))
+(= lt_13^0 lt_13^post))
+(= lt_14^0 lt_14^post))
+(= lt_16^0 lt_16^post))
+(= lt_17^0 lt_17^post))
+(= lt_18^0 lt_18^post))
+(= ntStatus_8^0 ntStatus_8^post))
+)
+
+(rule
+(l1
+Dc_6^0
+InterfaceType_5^0
+MaximumInterfaceType_9^0
+Result_4^0
+__cil_tmp2_11^0
+__const_256^0
+__disjvr_0^0
+__retres1_10^0
+cnt_27^0
+cnt_32^0
+ct_15^0
+ct_49^0
+fdoExtension_7^0
+lt_12^0
+lt_13^0
+lt_14^0
+lt_16^0
+lt_17^0
+lt_18^0
+ntStatus_8^0)
+(l6
+Dc_6^post
+InterfaceType_5^post
+MaximumInterfaceType_9^post
+Result_4^post
+__cil_tmp2_11^post
+__const_256^post
+__disjvr_0^post
+__retres1_10^post
+cnt_27^post
+cnt_32^post
+ct_15^post
+ct_49^post
+fdoExtension_7^post
+lt_12^post
+lt_13^post
+lt_14^post
+lt_16^post
+lt_17^post
+lt_18^post
+ntStatus_8^post)
+:guard
+(exists
+((ct_15^1 Int)
+(lt_13^1 Int)
+(lt_14^1 Int)
+(lt_16^1 Int)
+(lt_17^1 Int)
+(lt_18^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= lt_17^1 (+ 0 cnt_27^0)) (= lt_18^1 (+ 0 cnt_32^0)))
+(<= 0 (+ (+ -1 (* -1 lt_17^1)) lt_18^1)))
+(= lt_17^post lt_17^post))
+(= lt_18^post lt_18^post))
+(= lt_16^1 (+ 0 cnt_27^0)))
+(= lt_16^post lt_16^post))
+(= ct_15^1 ct_15^1))
+(= ct_15^post ct_15^post))
+(= lt_14^1 (+ 0 ct_49^0)))
+(<= 0 (+ -1 lt_14^1)))
+(= lt_14^post lt_14^post))
+(= lt_13^1 (+ 0 ct_49^0)))
+(<= (+ 0 lt_13^1) (+ 0 __const_256^0)))
+(<= (+ 0 __const_256^0) (+ 0 lt_13^1)))
+(= lt_13^post lt_13^post))
+(= Dc_6^0 Dc_6^post))
+(= InterfaceType_5^0 InterfaceType_5^post))
+(= MaximumInterfaceType_9^0 MaximumInterfaceType_9^post))
+(= Result_4^0 Result_4^post))
+(= __cil_tmp2_11^0 __cil_tmp2_11^post))
+(= __const_256^0 __const_256^post))
+(= __disjvr_0^0 __disjvr_0^post))
+(= __retres1_10^0 __retres1_10^post))
+(= cnt_27^0 cnt_27^post))
+(= cnt_32^0 cnt_32^post))
+(= ct_49^0 ct_49^post))
+(= fdoExtension_7^0 fdoExtension_7^post))
+(= lt_12^0 lt_12^post))
+(= ntStatus_8^0 ntStatus_8^post))
+)
+)
+
+(rule
+(l6
+Dc_6^0
+InterfaceType_5^0
+MaximumInterfaceType_9^0
+Result_4^0
+__cil_tmp2_11^0
+__const_256^0
+__disjvr_0^0
+__retres1_10^0
+cnt_27^0
+cnt_32^0
+ct_15^0
+ct_49^0
+fdoExtension_7^0
+lt_12^0
+lt_13^0
+lt_14^0
+lt_16^0
+lt_17^0
+lt_18^0
+ntStatus_8^0)
+(l1
+Dc_6^post
+InterfaceType_5^post
+MaximumInterfaceType_9^post
+Result_4^post
+__cil_tmp2_11^post
+__const_256^post
+__disjvr_0^post
+__retres1_10^post
+cnt_27^post
+cnt_32^post
+ct_15^post
+ct_49^post
+fdoExtension_7^post
+lt_12^post
+lt_13^post
+lt_14^post
+lt_16^post
+lt_17^post
+lt_18^post
+ntStatus_8^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= Dc_6^0 Dc_6^post) (= InterfaceType_5^0 InterfaceType_5^post))
+(= MaximumInterfaceType_9^0 MaximumInterfaceType_9^post))
+(= Result_4^0 Result_4^post))
+(= __cil_tmp2_11^0 __cil_tmp2_11^post))
+(= __const_256^0 __const_256^post))
+(= __disjvr_0^0 __disjvr_0^post))
+(= __retres1_10^0 __retres1_10^post))
+(= cnt_27^0 cnt_27^post))
+(= cnt_32^0 cnt_32^post))
+(= ct_15^0 ct_15^post))
+(= ct_49^0 ct_49^post))
+(= fdoExtension_7^0 fdoExtension_7^post))
+(= lt_12^0 lt_12^post))
+(= lt_13^0 lt_13^post))
+(= lt_14^0 lt_14^post))
+(= lt_16^0 lt_16^post))
+(= lt_17^0 lt_17^post))
+(= lt_18^0 lt_18^post))
+(= ntStatus_8^0 ntStatus_8^post))
+)
+
+(rule
+(l1
+Dc_6^0
+InterfaceType_5^0
+MaximumInterfaceType_9^0
+Result_4^0
+__cil_tmp2_11^0
+__const_256^0
+__disjvr_0^0
+__retres1_10^0
+cnt_27^0
+cnt_32^0
+ct_15^0
+ct_49^0
+fdoExtension_7^0
+lt_12^0
+lt_13^0
+lt_14^0
+lt_16^0
+lt_17^0
+lt_18^0
+ntStatus_8^0)
+(l7
+Dc_6^post
+InterfaceType_5^post
+MaximumInterfaceType_9^post
+Result_4^post
+__cil_tmp2_11^post
+__const_256^post
+__disjvr_0^post
+__retres1_10^post
+cnt_27^post
+cnt_32^post
+ct_15^post
+ct_49^post
+fdoExtension_7^post
+lt_12^post
+lt_13^post
+lt_14^post
+lt_16^post
+lt_17^post
+lt_18^post
+ntStatus_8^post)
+:guard
+(exists
+((lt_17^1 Int) (lt_18^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= lt_17^1 (+ 0 cnt_27^0)) (= lt_18^1 (+ 0 cnt_32^0)))
+(<= (+ (+ 0 (* -1 lt_17^1)) lt_18^1) 0))
+(= lt_17^post lt_17^post))
+(= lt_18^post lt_18^post))
+(= __retres1_10^post 0))
+(= __cil_tmp2_11^post (+ 0 __retres1_10^post)))
+(= Result_4^post (+ 0 __cil_tmp2_11^post)))
+(= Dc_6^0 Dc_6^post))
+(= InterfaceType_5^0 InterfaceType_5^post))
+(= MaximumInterfaceType_9^0 MaximumInterfaceType_9^post))
+(= __const_256^0 __const_256^post))
+(= __disjvr_0^0 __disjvr_0^post))
+(= cnt_27^0 cnt_27^post))
+(= cnt_32^0 cnt_32^post))
+(= ct_15^0 ct_15^post))
+(= ct_49^0 ct_49^post))
+(= fdoExtension_7^0 fdoExtension_7^post))
+(= lt_12^0 lt_12^post))
+(= lt_13^0 lt_13^post))
+(= lt_14^0 lt_14^post))
+(= lt_16^0 lt_16^post))
+(= ntStatus_8^0 ntStatus_8^post))
+)
+)
+
+(rule
+(l8
+Dc_6^0
+InterfaceType_5^0
+MaximumInterfaceType_9^0
+Result_4^0
+__cil_tmp2_11^0
+__const_256^0
+__disjvr_0^0
+__retres1_10^0
+cnt_27^0
+cnt_32^0
+ct_15^0
+ct_49^0
+fdoExtension_7^0
+lt_12^0
+lt_13^0
+lt_14^0
+lt_16^0
+lt_17^0
+lt_18^0
+ntStatus_8^0)
+(l0
+Dc_6^post
+InterfaceType_5^post
+MaximumInterfaceType_9^post
+Result_4^post
+__cil_tmp2_11^post
+__const_256^post
+__disjvr_0^post
+__retres1_10^post
+cnt_27^post
+cnt_32^post
+ct_15^post
+ct_49^post
+fdoExtension_7^post
+lt_12^post
+lt_13^post
+lt_14^post
+lt_16^post
+lt_17^post
+lt_18^post
+ntStatus_8^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= Dc_6^0 Dc_6^post) (= InterfaceType_5^0 InterfaceType_5^post))
+(= MaximumInterfaceType_9^0 MaximumInterfaceType_9^post))
+(= Result_4^0 Result_4^post))
+(= __cil_tmp2_11^0 __cil_tmp2_11^post))
+(= __const_256^0 __const_256^post))
+(= __disjvr_0^0 __disjvr_0^post))
+(= __retres1_10^0 __retres1_10^post))
+(= cnt_27^0 cnt_27^post))
+(= cnt_32^0 cnt_32^post))
+(= ct_15^0 ct_15^post))
+(= ct_49^0 ct_49^post))
+(= fdoExtension_7^0 fdoExtension_7^post))
+(= lt_12^0 lt_12^post))
+(= lt_13^0 lt_13^post))
+(= lt_14^0 lt_14^post))
+(= lt_16^0 lt_16^post))
+(= lt_17^0 lt_17^post))
+(= lt_18^0 lt_18^post))
+(= ntStatus_8^0 ntStatus_8^post))
+)
+

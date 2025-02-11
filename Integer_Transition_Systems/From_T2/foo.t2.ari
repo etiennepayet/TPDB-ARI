@@ -1,0 +1,6588 @@
+(format LCTRS)
+(theory Ints)
+(fun
+l0
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l1
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l10
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l11
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l12
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l13
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l14
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l15
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l16
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l17
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l18
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l19
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l2
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l20
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l21
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l22
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l23
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l24
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l25
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l26
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l27
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l28
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l29
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l3
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l4
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l5
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l6
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l7
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l8
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(fun
+l9
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+
+(entrypoint l29)
+(rule
+(l0
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l1
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= s_ab^post (+ 0 s_ab^0)) (= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l2
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l0
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(N^2 Int)
+(br^1 Int)
+(br^2 Int)
+(bs^1 Int)
+(bs^2 Int)
+(c1^1 Int)
+(c1^2 Int)
+(c2^1 Int)
+(c2^2 Int)
+(fr^1 Int)
+(fr^2 Int)
+(fs^1 Int)
+(fs^2 Int)
+(i^1 Int)
+(i^2 Int)
+(lr^1 Int)
+(lr^2 Int)
+(ls^1 Int)
+(ls^2 Int)
+(next^1 Int)
+(next^2 Int)
+(pos^1 Int)
+(pos^2 Int)
+(r_ab^1 Int)
+(r_ab^2 Int)
+(recv^1 Int)
+(recv^2 Int)
+(rrep^1 Int)
+(rrep^2 Int)
+(s_ab^1 Int)
+(s_ab^2 Int)
+(z^1 Int)
+(z^2 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= s_ab^1 (+ 0 s_ab^0)) (= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 1 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^2 (+ 0 s_ab^1)))
+(= rrep^2 (+ 0 rrep^1)))
+(= recv^2 (+ 0 recv^1)))
+(= r_ab^2 (+ 0 r_ab^1)))
+(= ls^2 (+ 0 ls^1)))
+(= lr^2 (+ 0 lr^1)))
+(= i^2 (+ 0 i^1)))
+(= fs^2 (+ 0 fs^1)))
+(= fr^2 (+ 0 fr^1)))
+(= c2^2 (+ 0 c2^1)))
+(= c1^2 (+ 0 c1^1)))
+(= bs^2 (+ 0 bs^1)))
+(= br^2 (+ 0 br^1)))
+(= z^2 (+ 0 z^1)))
+(= pos^2 (+ 0 pos^1)))
+(= next^2 (+ 0 next^1)))
+(= N^2 (+ 0 N^1)))
+(= s_ab^post (+ 0 s_ab^2)))
+(= rrep^post (+ 0 rrep^2)))
+(= recv^post (+ 0 recv^2)))
+(= r_ab^post (+ 0 r_ab^2)))
+(= ls^post (+ 0 ls^2)))
+(= lr^post (+ 0 lr^2)))
+(= i^post (+ 0 i^2)))
+(= fs^post (+ 0 fs^2)))
+(= fr^post (+ 0 fr^2)))
+(= c2^post (+ 0 c2^2)))
+(= c1^post (+ 0 c1^2)))
+(= bs^post (+ 0 bs^2)))
+(= br^post (+ 0 br^2)))
+(= z^post (+ 0 z^2)))
+(= pos^post (+ 0 pos^2)))
+(= next^post (+ 0 next^2)))
+(= N^post (+ 0 N^2)))
+)
+)
+
+(rule
+(l3
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l2
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 s_ab^0) 1) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post 1))
+(= rrep^post (+ 0 rrep^1)))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 r_ab^1)))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l3
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l2
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 s_ab^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post 0))
+(= rrep^post (+ 0 rrep^1)))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 r_ab^1)))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l4
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l5
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(N^2 Int)
+(N^3 Int)
+(N^4 Int)
+(br^1 Int)
+(br^2 Int)
+(br^3 Int)
+(br^4 Int)
+(bs^1 Int)
+(bs^2 Int)
+(bs^3 Int)
+(bs^4 Int)
+(c1^1 Int)
+(c1^2 Int)
+(c1^3 Int)
+(c1^4 Int)
+(c2^1 Int)
+(c2^2 Int)
+(c2^3 Int)
+(c2^4 Int)
+(fr^1 Int)
+(fr^2 Int)
+(fr^3 Int)
+(fr^4 Int)
+(fs^1 Int)
+(fs^2 Int)
+(fs^3 Int)
+(fs^4 Int)
+(i^1 Int)
+(i^2 Int)
+(i^3 Int)
+(i^4 Int)
+(lr^1 Int)
+(lr^2 Int)
+(lr^3 Int)
+(lr^4 Int)
+(ls^1 Int)
+(ls^2 Int)
+(ls^3 Int)
+(ls^4 Int)
+(next^1 Int)
+(next^2 Int)
+(next^3 Int)
+(next^4 Int)
+(pos^1 Int)
+(pos^2 Int)
+(pos^3 Int)
+(pos^4 Int)
+(r_ab^1 Int)
+(r_ab^2 Int)
+(r_ab^3 Int)
+(r_ab^4 Int)
+(recv^1 Int)
+(recv^2 Int)
+(recv^3 Int)
+(recv^4 Int)
+(rrep^1 Int)
+(rrep^2 Int)
+(rrep^3 Int)
+(rrep^4 Int)
+(s_ab^1 Int)
+(s_ab^2 Int)
+(s_ab^3 Int)
+(s_ab^4 Int)
+(z^1 Int)
+(z^2 Int)
+(z^3 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 2 (+ 0 pos^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^2 (+ 0 s_ab^1)))
+(= rrep^2 (+ 0 rrep^1)))
+(= recv^2 (+ 0 recv^1)))
+(= r_ab^2 (+ 0 r_ab^1)))
+(= ls^2 (+ 0 ls^1)))
+(= lr^2 (+ 0 lr^1)))
+(= i^2 (+ 0 i^1)))
+(= fs^2 (+ 0 fs^1)))
+(= fr^2 (+ 0 fr^1)))
+(= c2^2 (+ 0 c2^1)))
+(= c1^2 (+ 0 c1^1)))
+(= bs^2 (+ 0 bs^1)))
+(= br^2 (+ 0 br^1)))
+(= z^2 (+ 0 z^1)))
+(= pos^2 (+ 0 pos^1)))
+(= next^2 (+ 1 next^1)))
+(= N^2 (+ 0 N^1)))
+(= s_ab^3 (+ 0 s_ab^2)))
+(= rrep^3 (+ 0 rrep^2)))
+(= recv^3 (+ 0 recv^2)))
+(= r_ab^3 (+ 0 r_ab^2)))
+(= ls^3 (+ 0 ls^2)))
+(= lr^3 (+ 0 lr^2)))
+(= i^3 (+ 0 i^2)))
+(= fs^3 (+ 0 fs^2)))
+(= fr^3 (+ 0 fr^2)))
+(= c2^3 (+ 0 c2^2)))
+(= c1^3 (+ 0 c1^2)))
+(= bs^3 (+ 0 bs^2)))
+(= br^3 (+ 0 br^2)))
+(= pos^3 (+ 0 pos^2)))
+(= next^3 (+ 0 next^2)))
+(= N^3 (+ 0 N^2)))
+(<= 0 (+ 0 z^2)))
+(= s_ab^4 (+ 0 s_ab^3)))
+(= rrep^4 (+ 0 rrep^3)))
+(= recv^4 (+ 0 recv^3)))
+(= r_ab^4 (+ 0 r_ab^3)))
+(= ls^4 (+ 0 ls^3)))
+(= lr^4 (+ 0 lr^3)))
+(= i^4 (+ 0 i^3)))
+(= fs^4 (+ 0 fs^3)))
+(= fr^4 (+ 0 fr^3)))
+(= c2^4 (+ 0 c2^3)))
+(= c1^4 (+ 0 c1^3)))
+(= bs^4 (+ 0 bs^3)))
+(= br^4 (+ 0 br^3)))
+(= z^3 (+ 0 z^2)))
+(= pos^4 (+ 0 pos^3)))
+(= next^4 (+ 0 next^3)))
+(= N^4 (+ 0 N^3)))
+(= s_ab^post (+ 0 s_ab^4)))
+(= rrep^post (+ 0 rrep^4)))
+(= recv^post (+ 0 recv^4)))
+(= r_ab^post (+ 0 r_ab^4)))
+(= ls^post (+ 0 ls^4)))
+(= lr^post (+ 0 lr^4)))
+(= i^post (+ 0 i^4)))
+(= fs^post (+ 0 fs^4)))
+(= fr^post (+ 0 fr^4)))
+(= c2^post (+ 0 c2^4)))
+(= c1^post (+ 0 c1^4)))
+(= bs^post (+ 0 bs^4)))
+(= br^post (+ 0 br^4)))
+(= z^post (+ 0 z^3)))
+(= pos^post 0))
+(= next^post (+ 0 next^4)))
+(= N^post (+ 0 N^4)))
+)
+)
+
+(rule
+(l4
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l5
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(N^2 Int)
+(br^1 Int)
+(br^2 Int)
+(bs^1 Int)
+(bs^2 Int)
+(c1^1 Int)
+(c1^2 Int)
+(c2^1 Int)
+(c2^2 Int)
+(fr^1 Int)
+(fr^2 Int)
+(fs^1 Int)
+(fs^2 Int)
+(i^1 Int)
+(i^2 Int)
+(lr^1 Int)
+(lr^2 Int)
+(ls^1 Int)
+(ls^2 Int)
+(next^1 Int)
+(next^2 Int)
+(pos^1 Int)
+(pos^2 Int)
+(r_ab^1 Int)
+(r_ab^2 Int)
+(recv^1 Int)
+(recv^2 Int)
+(rrep^1 Int)
+(rrep^2 Int)
+(s_ab^1 Int)
+(s_ab^2 Int)
+(z^1 Int)
+(z^2 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 pos^0) 1) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(<= 1 (+ 0 c2^1)))
+(= s_ab^2 (+ 0 s_ab^1)))
+(= rrep^2 (+ 0 rrep^1)))
+(= recv^2 (+ 0 recv^1)))
+(= r_ab^2 (+ 0 r_ab^1)))
+(= ls^2 (+ 0 ls^1)))
+(= lr^2 (+ 0 lr^1)))
+(= i^2 (+ 0 i^1)))
+(= fs^2 (+ 0 fs^1)))
+(= fr^2 (+ 0 fr^1)))
+(= c2^2 (+ 0 c2^1)))
+(= c1^2 (+ 0 c1^1)))
+(= bs^2 (+ 0 bs^1)))
+(= br^2 (+ 0 br^1)))
+(= z^2 (+ 0 z^1)))
+(= pos^2 (+ 0 pos^1)))
+(= next^2 (+ 0 next^1)))
+(= N^2 (+ 0 N^1)))
+(= s_ab^post (+ 0 s_ab^2)))
+(= rrep^post (+ 0 rrep^2)))
+(= recv^post (+ 0 recv^2)))
+(= r_ab^post (+ 0 r_ab^2)))
+(= ls^post (+ 0 ls^2)))
+(= lr^post (+ 0 lr^2)))
+(= i^post (+ 0 i^2)))
+(= fs^post (+ 0 fs^2)))
+(= fr^post (+ 0 fr^2)))
+(= c2^post (+ 0 c2^2)))
+(= c1^post (+ 0 c1^2)))
+(= bs^post (+ 0 bs^2)))
+(= br^post (+ 0 br^2)))
+(= z^post (+ 0 z^2)))
+(= pos^post (+ 1 pos^2)))
+(= next^post (+ 0 next^2)))
+(= N^post (+ 0 N^2)))
+)
+)
+
+(rule
+(l5
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l6
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 2 (+ 0 c2^0)) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l5
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l6
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 c2^0) 1) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l5
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l3
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 c2^0) 1) (<= 1 (+ 0 c2^0)))
+(= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l7
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l4
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 pos^0)) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l7
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l5
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(N^2 Int)
+(br^1 Int)
+(br^2 Int)
+(bs^1 Int)
+(bs^2 Int)
+(c1^1 Int)
+(c1^2 Int)
+(c2^1 Int)
+(c2^2 Int)
+(fr^1 Int)
+(fr^2 Int)
+(fs^1 Int)
+(fs^2 Int)
+(i^1 Int)
+(i^2 Int)
+(lr^1 Int)
+(lr^2 Int)
+(ls^1 Int)
+(ls^2 Int)
+(next^1 Int)
+(next^2 Int)
+(pos^1 Int)
+(pos^2 Int)
+(r_ab^1 Int)
+(r_ab^2 Int)
+(recv^1 Int)
+(recv^2 Int)
+(rrep^1 Int)
+(rrep^2 Int)
+(s_ab^1 Int)
+(s_ab^2 Int)
+(z^1 Int)
+(z^2 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 pos^0) 0) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(<= 1 (+ 0 c2^1)))
+(= s_ab^2 (+ 0 s_ab^1)))
+(= rrep^2 (+ 0 rrep^1)))
+(= recv^2 (+ 0 recv^1)))
+(= r_ab^2 (+ 0 r_ab^1)))
+(= ls^2 (+ 0 ls^1)))
+(= lr^2 (+ 0 lr^1)))
+(= i^2 (+ 0 i^1)))
+(= fs^2 (+ 0 fs^1)))
+(= fr^2 (+ 0 fr^1)))
+(= c2^2 (+ 0 c2^1)))
+(= c1^2 (+ 0 c1^1)))
+(= bs^2 (+ 0 bs^1)))
+(= br^2 (+ 0 br^1)))
+(= z^2 (+ 0 z^1)))
+(= pos^2 (+ 0 pos^1)))
+(= next^2 (+ 0 next^1)))
+(= N^2 (+ 0 N^1)))
+(= s_ab^post (+ 0 s_ab^2)))
+(= rrep^post (+ 0 rrep^2)))
+(= recv^post (+ 0 recv^2)))
+(= r_ab^post (+ 0 r_ab^2)))
+(= ls^post (+ 0 ls^2)))
+(= lr^post (+ 0 lr^2)))
+(= i^post (+ 0 i^2)))
+(= fs^post (+ 0 fs^2)))
+(= fr^post (+ 0 fr^2)))
+(= c2^post (+ 0 c2^2)))
+(= c1^post (+ 0 c1^2)))
+(= bs^post (+ 0 bs^2)))
+(= br^post (+ 0 br^2)))
+(= z^post (+ 0 z^2)))
+(= pos^post (+ 1 pos^2)))
+(= next^post (+ 0 next^2)))
+(= N^post (+ 0 N^2)))
+)
+)
+
+(rule
+(l8
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l5
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 z^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post (+ 0 rrep^1)))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 r_ab^1)))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ -1 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l8
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l7
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 z^0) 0) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l9
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l8
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(N^2 Int)
+(br^1 Int)
+(br^2 Int)
+(bs^1 Int)
+(bs^2 Int)
+(c1^1 Int)
+(c1^2 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fr^2 Int)
+(fs^1 Int)
+(fs^2 Int)
+(i^1 Int)
+(i^2 Int)
+(lr^1 Int)
+(lr^2 Int)
+(ls^1 Int)
+(ls^2 Int)
+(next^1 Int)
+(next^2 Int)
+(pos^1 Int)
+(pos^2 Int)
+(r_ab^1 Int)
+(r_ab^2 Int)
+(recv^1 Int)
+(recv^2 Int)
+(rrep^1 Int)
+(rrep^2 Int)
+(s_ab^1 Int)
+(s_ab^2 Int)
+(z^1 Int)
+(z^2 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= s_ab^1 (+ 0 s_ab^0)) (= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(<= 0 (+ 0 c2^0)))
+(= s_ab^2 (+ 0 s_ab^1)))
+(= rrep^2 (+ 0 rrep^1)))
+(= recv^2 (+ 0 recv^1)))
+(= r_ab^2 (+ 0 r_ab^1)))
+(= ls^2 (+ 0 ls^1)))
+(= lr^2 (+ 0 lr^1)))
+(= i^2 (+ 0 i^1)))
+(= fs^2 (+ 0 fs^1)))
+(= fr^2 (+ 0 fr^1)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^2 (+ 0 c1^1)))
+(= bs^2 (+ 0 bs^1)))
+(= br^2 (+ 0 br^1)))
+(= z^2 (+ 0 z^1)))
+(= pos^2 (+ 0 pos^1)))
+(= next^2 (+ 0 next^1)))
+(= N^2 (+ 0 N^1)))
+(<= (+ 0 c2^1) 1))
+(= s_ab^post (+ 0 s_ab^2)))
+(= rrep^post (+ 0 rrep^2)))
+(= recv^post (+ 0 recv^2)))
+(= r_ab^post (+ 0 r_ab^2)))
+(= ls^post (+ 0 ls^2)))
+(= lr^post (+ 0 lr^2)))
+(= i^post (+ 0 i^2)))
+(= fs^post (+ 0 fs^2)))
+(= fr^post (+ 0 fr^2)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^2)))
+(= bs^post (+ 0 bs^2)))
+(= br^post (+ 0 br^2)))
+(= z^post (+ 0 z^2)))
+(= pos^post (+ 0 pos^2)))
+(= next^post (+ 0 next^2)))
+(= N^post (+ 0 N^2)))
+)
+)
+
+(rule
+(l10
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l11
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 lr^0) 1) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l10
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l11
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 lr^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post 3))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 r_ab^1)))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l12
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l10
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 lr^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post (+ 0 rrep^1)))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 r_ab^1)))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l12
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l11
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 lr^0) 0) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post 2))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 r_ab^1)))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l13
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l10
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 fr^0)) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l13
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l12
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 fr^0) 0) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l14
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l13
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= s_ab^post (+ 0 s_ab^0)) (= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l11
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l9
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 r_ab^0) 1) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post (+ 0 rrep^1)))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post 1))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l11
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l9
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 r_ab^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post (+ 0 rrep^1)))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post 0))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l15
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l14
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 lr^0)) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l15
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l14
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 lr^0) 0) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l15
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l11
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 lr^0) 0) (<= 0 (+ 0 lr^0))) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post 1))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 r_ab^1)))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l16
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l13
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 fr^0) 0) (<= 0 (+ 0 fr^0)))
+(= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l16
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l15
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 fr^0)) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l16
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l15
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 fr^0) 0) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l17
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l9
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 br^0) (+ 0 r_ab^0)) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l17
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l9
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 r_ab^0) (+ 0 br^0)) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l17
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l16
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 r_ab^0) (+ 0 br^0)) (<= (+ 0 br^0) (+ 0 r_ab^0)))
+(= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l18
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l17
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= s_ab^post (+ 0 s_ab^0)) (= rrep^post (+ 0 rrep^0)))
+(= recv^post 1))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l19
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l18
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 recv^0)) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l19
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l18
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 recv^0) 0) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post (+ 0 rrep^1)))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 br^1)))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l20
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l21
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(N^2 Int)
+(N^3 Int)
+(N^4 Int)
+(br^1 Int)
+(br^2 Int)
+(br^3 Int)
+(br^4 Int)
+(bs^1 Int)
+(bs^2 Int)
+(bs^3 Int)
+(bs^4 Int)
+(c1^1 Int)
+(c1^2 Int)
+(c1^3 Int)
+(c1^4 Int)
+(c2^1 Int)
+(c2^2 Int)
+(c2^3 Int)
+(c2^4 Int)
+(fr^1 Int)
+(fr^2 Int)
+(fr^3 Int)
+(fr^4 Int)
+(fs^1 Int)
+(fs^2 Int)
+(fs^3 Int)
+(fs^4 Int)
+(i^1 Int)
+(i^2 Int)
+(i^3 Int)
+(i^4 Int)
+(lr^1 Int)
+(lr^2 Int)
+(lr^3 Int)
+(lr^4 Int)
+(ls^1 Int)
+(ls^2 Int)
+(ls^3 Int)
+(ls^4 Int)
+(next^1 Int)
+(next^2 Int)
+(next^3 Int)
+(next^4 Int)
+(pos^1 Int)
+(pos^2 Int)
+(pos^3 Int)
+(pos^4 Int)
+(r_ab^1 Int)
+(r_ab^2 Int)
+(r_ab^3 Int)
+(r_ab^4 Int)
+(recv^1 Int)
+(recv^2 Int)
+(recv^3 Int)
+(recv^4 Int)
+(rrep^1 Int)
+(rrep^2 Int)
+(rrep^3 Int)
+(rrep^4 Int)
+(s_ab^1 Int)
+(s_ab^2 Int)
+(s_ab^3 Int)
+(s_ab^4 Int)
+(z^1 Int)
+(z^2 Int)
+(z^3 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 2 (+ 0 pos^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^2 (+ 0 s_ab^1)))
+(= rrep^2 (+ 0 rrep^1)))
+(= recv^2 (+ 0 recv^1)))
+(= r_ab^2 (+ 0 r_ab^1)))
+(= ls^2 (+ 0 ls^1)))
+(= lr^2 (+ 0 lr^1)))
+(= i^2 (+ 0 i^1)))
+(= fs^2 (+ 0 fs^1)))
+(= fr^2 (+ 0 fr^1)))
+(= c2^2 (+ 0 c2^1)))
+(= c1^2 (+ 0 c1^1)))
+(= bs^2 (+ 0 bs^1)))
+(= br^2 (+ 0 br^1)))
+(= z^2 (+ 0 z^1)))
+(= pos^2 (+ 0 pos^1)))
+(= next^2 (+ 1 next^1)))
+(= N^2 (+ 0 N^1)))
+(= s_ab^3 (+ 0 s_ab^2)))
+(= rrep^3 (+ 0 rrep^2)))
+(= recv^3 (+ 0 recv^2)))
+(= r_ab^3 (+ 0 r_ab^2)))
+(= ls^3 (+ 0 ls^2)))
+(= lr^3 (+ 0 lr^2)))
+(= i^3 (+ 0 i^2)))
+(= fs^3 (+ 0 fs^2)))
+(= fr^3 (+ 0 fr^2)))
+(= c2^3 (+ 0 c2^2)))
+(= c1^3 (+ 0 c1^2)))
+(= bs^3 (+ 0 bs^2)))
+(= br^3 (+ 0 br^2)))
+(= pos^3 (+ 0 pos^2)))
+(= next^3 (+ 0 next^2)))
+(= N^3 (+ 0 N^2)))
+(<= 0 (+ 0 z^2)))
+(= s_ab^4 (+ 0 s_ab^3)))
+(= rrep^4 (+ 0 rrep^3)))
+(= recv^4 (+ 0 recv^3)))
+(= r_ab^4 (+ 0 r_ab^3)))
+(= ls^4 (+ 0 ls^3)))
+(= lr^4 (+ 0 lr^3)))
+(= i^4 (+ 0 i^3)))
+(= fs^4 (+ 0 fs^3)))
+(= fr^4 (+ 0 fr^3)))
+(= c2^4 (+ 0 c2^3)))
+(= c1^4 (+ 0 c1^3)))
+(= bs^4 (+ 0 bs^3)))
+(= br^4 (+ 0 br^3)))
+(= z^3 (+ 0 z^2)))
+(= pos^4 (+ 0 pos^3)))
+(= next^4 (+ 0 next^3)))
+(= N^4 (+ 0 N^3)))
+(= s_ab^post (+ 0 s_ab^4)))
+(= rrep^post (+ 0 rrep^4)))
+(= recv^post (+ 0 recv^4)))
+(= r_ab^post (+ 0 r_ab^4)))
+(= ls^post (+ 0 ls^4)))
+(= lr^post (+ 0 lr^4)))
+(= i^post (+ 0 i^4)))
+(= fs^post (+ 0 fs^4)))
+(= fr^post (+ 0 fr^4)))
+(= c2^post (+ 0 c2^4)))
+(= c1^post (+ 0 c1^4)))
+(= bs^post (+ 0 bs^4)))
+(= br^post (+ 0 br^4)))
+(= z^post (+ 0 z^3)))
+(= pos^post 0))
+(= next^post (+ 0 next^4)))
+(= N^post (+ 0 N^4)))
+)
+)
+
+(rule
+(l20
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l21
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(N^2 Int)
+(br^1 Int)
+(br^2 Int)
+(bs^1 Int)
+(bs^2 Int)
+(c1^1 Int)
+(c1^2 Int)
+(c2^1 Int)
+(c2^2 Int)
+(fr^1 Int)
+(fr^2 Int)
+(fs^1 Int)
+(fs^2 Int)
+(i^1 Int)
+(i^2 Int)
+(lr^1 Int)
+(lr^2 Int)
+(ls^1 Int)
+(ls^2 Int)
+(next^1 Int)
+(next^2 Int)
+(pos^1 Int)
+(pos^2 Int)
+(r_ab^1 Int)
+(r_ab^2 Int)
+(recv^1 Int)
+(recv^2 Int)
+(rrep^1 Int)
+(rrep^2 Int)
+(s_ab^1 Int)
+(s_ab^2 Int)
+(z^1 Int)
+(z^2 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 pos^0) 1) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(<= 1 (+ 0 c1^1)))
+(= s_ab^2 (+ 0 s_ab^1)))
+(= rrep^2 (+ 0 rrep^1)))
+(= recv^2 (+ 0 recv^1)))
+(= r_ab^2 (+ 0 r_ab^1)))
+(= ls^2 (+ 0 ls^1)))
+(= lr^2 (+ 0 lr^1)))
+(= i^2 (+ 0 i^1)))
+(= fs^2 (+ 0 fs^1)))
+(= fr^2 (+ 0 fr^1)))
+(= c2^2 (+ 0 c2^1)))
+(= c1^2 (+ 0 c1^1)))
+(= bs^2 (+ 0 bs^1)))
+(= br^2 (+ 0 br^1)))
+(= z^2 (+ 0 z^1)))
+(= pos^2 (+ 0 pos^1)))
+(= next^2 (+ 0 next^1)))
+(= N^2 (+ 0 N^1)))
+(= s_ab^post (+ 0 s_ab^2)))
+(= rrep^post (+ 0 rrep^2)))
+(= recv^post (+ 0 recv^2)))
+(= r_ab^post (+ 0 r_ab^2)))
+(= ls^post (+ 0 ls^2)))
+(= lr^post (+ 0 lr^2)))
+(= i^post (+ 0 i^2)))
+(= fs^post (+ 0 fs^2)))
+(= fr^post (+ 0 fr^2)))
+(= c2^post (+ 0 c2^2)))
+(= c1^post (+ 0 c1^2)))
+(= bs^post (+ 0 bs^2)))
+(= br^post (+ 0 br^2)))
+(= z^post (+ 0 z^2)))
+(= pos^post (+ 1 pos^2)))
+(= next^post (+ 0 next^2)))
+(= N^post (+ 0 N^2)))
+)
+)
+
+(rule
+(l21
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l6
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 c1^0) 1) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l21
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l19
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(N^2 Int)
+(N^3 Int)
+(br^1 Int)
+(br^2 Int)
+(br^3 Int)
+(bs^1 Int)
+(bs^2 Int)
+(bs^3 Int)
+(c1^1 Int)
+(c1^2 Int)
+(c1^3 Int)
+(c2^1 Int)
+(c2^2 Int)
+(c2^3 Int)
+(fr^1 Int)
+(fr^2 Int)
+(fr^3 Int)
+(fs^1 Int)
+(fs^2 Int)
+(fs^3 Int)
+(i^1 Int)
+(i^2 Int)
+(i^3 Int)
+(lr^1 Int)
+(lr^2 Int)
+(lr^3 Int)
+(ls^1 Int)
+(ls^2 Int)
+(ls^3 Int)
+(next^1 Int)
+(next^2 Int)
+(next^3 Int)
+(pos^1 Int)
+(pos^2 Int)
+(pos^3 Int)
+(r_ab^1 Int)
+(r_ab^2 Int)
+(r_ab^3 Int)
+(recv^1 Int)
+(recv^2 Int)
+(recv^3 Int)
+(rrep^1 Int)
+(rrep^2 Int)
+(rrep^3 Int)
+(s_ab^1 Int)
+(s_ab^2 Int)
+(s_ab^3 Int)
+(z^1 Int)
+(z^2 Int)
+(z^3 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 c1^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^2 (+ 0 s_ab^1)))
+(= rrep^2 (+ 0 rrep^1)))
+(= recv^2 (+ 0 recv^1)))
+(= r_ab^2 (+ 0 r_ab^1)))
+(= ls^2 (+ 0 ls^1)))
+(= lr^2 (+ 0 lr^1)))
+(= i^2 (+ 0 i^1)))
+(= fs^2 (+ 0 fs^1)))
+(= fr^2 (+ 0 fs^2)))
+(= c2^2 (+ 0 c2^1)))
+(= c1^2 (+ 0 c1^1)))
+(= bs^2 (+ 0 bs^1)))
+(= br^2 (+ 0 br^1)))
+(= z^2 (+ 0 z^1)))
+(= pos^2 (+ 0 pos^1)))
+(= next^2 (+ 0 next^1)))
+(= N^2 (+ 0 N^1)))
+(= s_ab^3 (+ 0 s_ab^2)))
+(= rrep^3 (+ 0 rrep^2)))
+(= recv^3 (+ 0 recv^2)))
+(= r_ab^3 (+ 0 r_ab^2)))
+(= ls^3 (+ 0 ls^2)))
+(= lr^3 (+ 0 ls^3)))
+(= i^3 (+ 0 i^2)))
+(= fs^3 (+ 0 fs^2)))
+(= fr^3 (+ 0 fr^2)))
+(= c2^3 (+ 0 c2^2)))
+(= c1^3 (+ 0 c1^2)))
+(= bs^3 (+ 0 bs^2)))
+(= br^3 (+ 0 br^2)))
+(= z^3 (+ 0 z^2)))
+(= pos^3 (+ 0 pos^2)))
+(= next^3 (+ 0 next^2)))
+(= N^3 (+ 0 N^2)))
+(= s_ab^post (+ 0 s_ab^3)))
+(= rrep^post (+ 0 rrep^3)))
+(= recv^post (+ 0 recv^3)))
+(= r_ab^post (+ 0 r_ab^3)))
+(= ls^post (+ 0 ls^3)))
+(= lr^post (+ 0 lr^3)))
+(= i^post (+ 0 i^3)))
+(= fs^post (+ 0 fs^3)))
+(= fr^post (+ 0 fr^3)))
+(= c2^post (+ 0 c2^3)))
+(= c1^post (+ 0 c1^3)))
+(= bs^post (+ 0 bs^3)))
+(= br^post (+ 0 bs^post)))
+(= z^post (+ 0 z^3)))
+(= pos^post (+ 0 pos^3)))
+(= next^post (+ 0 next^3)))
+(= N^post (+ 0 N^3)))
+)
+)
+
+(rule
+(l22
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l20
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 pos^0)) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l22
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l21
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(N^2 Int)
+(br^1 Int)
+(br^2 Int)
+(bs^1 Int)
+(bs^2 Int)
+(c1^1 Int)
+(c1^2 Int)
+(c2^1 Int)
+(c2^2 Int)
+(fr^1 Int)
+(fr^2 Int)
+(fs^1 Int)
+(fs^2 Int)
+(i^1 Int)
+(i^2 Int)
+(lr^1 Int)
+(lr^2 Int)
+(ls^1 Int)
+(ls^2 Int)
+(next^1 Int)
+(next^2 Int)
+(pos^1 Int)
+(pos^2 Int)
+(r_ab^1 Int)
+(r_ab^2 Int)
+(recv^1 Int)
+(recv^2 Int)
+(rrep^1 Int)
+(rrep^2 Int)
+(s_ab^1 Int)
+(s_ab^2 Int)
+(z^1 Int)
+(z^2 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 pos^0) 0) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(<= 1 (+ 0 c1^1)))
+(= s_ab^2 (+ 0 s_ab^1)))
+(= rrep^2 (+ 0 rrep^1)))
+(= recv^2 (+ 0 recv^1)))
+(= r_ab^2 (+ 0 r_ab^1)))
+(= ls^2 (+ 0 ls^1)))
+(= lr^2 (+ 0 lr^1)))
+(= i^2 (+ 0 i^1)))
+(= fs^2 (+ 0 fs^1)))
+(= fr^2 (+ 0 fr^1)))
+(= c2^2 (+ 0 c2^1)))
+(= c1^2 (+ 0 c1^1)))
+(= bs^2 (+ 0 bs^1)))
+(= br^2 (+ 0 br^1)))
+(= z^2 (+ 0 z^1)))
+(= pos^2 (+ 0 pos^1)))
+(= next^2 (+ 0 next^1)))
+(= N^2 (+ 0 N^1)))
+(= s_ab^post (+ 0 s_ab^2)))
+(= rrep^post (+ 0 rrep^2)))
+(= recv^post (+ 0 recv^2)))
+(= r_ab^post (+ 0 r_ab^2)))
+(= ls^post (+ 0 ls^2)))
+(= lr^post (+ 0 lr^2)))
+(= i^post (+ 0 i^2)))
+(= fs^post (+ 0 fs^2)))
+(= fr^post (+ 0 fr^2)))
+(= c2^post (+ 0 c2^2)))
+(= c1^post (+ 0 c1^2)))
+(= bs^post (+ 0 bs^2)))
+(= br^post (+ 0 br^2)))
+(= z^post (+ 0 z^2)))
+(= pos^post (+ 1 pos^2)))
+(= next^post (+ 0 next^2)))
+(= N^post (+ 0 N^2)))
+)
+)
+
+(rule
+(l23
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l21
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 z^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post (+ 0 rrep^1)))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 r_ab^1)))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ -1 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l23
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l22
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 z^0) 0) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l24
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l0
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(N^2 Int)
+(N^3 Int)
+(N^4 Int)
+(N^5 Int)
+(br^1 Int)
+(br^2 Int)
+(br^3 Int)
+(br^4 Int)
+(br^5 Int)
+(br^6 Int)
+(bs^1 Int)
+(bs^2 Int)
+(bs^3 Int)
+(bs^4 Int)
+(bs^5 Int)
+(bs^6 Int)
+(c1^1 Int)
+(c1^2 Int)
+(c1^3 Int)
+(c1^4 Int)
+(c1^5 Int)
+(c1^6 Int)
+(c2^1 Int)
+(c2^2 Int)
+(c2^3 Int)
+(c2^4 Int)
+(c2^5 Int)
+(c2^6 Int)
+(fr^1 Int)
+(fr^2 Int)
+(fr^3 Int)
+(fr^4 Int)
+(fr^5 Int)
+(fr^6 Int)
+(fs^1 Int)
+(fs^2 Int)
+(fs^3 Int)
+(fs^4 Int)
+(fs^5 Int)
+(fs^6 Int)
+(i^1 Int)
+(i^2 Int)
+(i^3 Int)
+(i^4 Int)
+(i^5 Int)
+(i^6 Int)
+(lr^1 Int)
+(lr^2 Int)
+(lr^3 Int)
+(lr^4 Int)
+(lr^5 Int)
+(lr^6 Int)
+(ls^1 Int)
+(ls^2 Int)
+(ls^3 Int)
+(ls^4 Int)
+(ls^5 Int)
+(ls^6 Int)
+(next^1 Int)
+(next^2 Int)
+(next^3 Int)
+(next^4 Int)
+(next^5 Int)
+(next^6 Int)
+(pos^1 Int)
+(pos^2 Int)
+(pos^3 Int)
+(pos^4 Int)
+(pos^5 Int)
+(pos^6 Int)
+(r_ab^1 Int)
+(r_ab^2 Int)
+(r_ab^3 Int)
+(r_ab^4 Int)
+(r_ab^5 Int)
+(r_ab^6 Int)
+(recv^1 Int)
+(recv^2 Int)
+(recv^3 Int)
+(recv^4 Int)
+(recv^5 Int)
+(recv^6 Int)
+(rrep^1 Int)
+(rrep^2 Int)
+(rrep^3 Int)
+(rrep^4 Int)
+(rrep^5 Int)
+(rrep^6 Int)
+(s_ab^1 Int)
+(s_ab^2 Int)
+(s_ab^3 Int)
+(s_ab^4 Int)
+(s_ab^5 Int)
+(s_ab^6 Int)
+(z^1 Int)
+(z^2 Int)
+(z^3 Int)
+(z^4 Int)
+(z^5 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= s_ab^1 (+ 0 s_ab^0)) (= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= s_ab^2 (+ 0 s_ab^1)))
+(= rrep^2 (+ 0 rrep^1)))
+(= recv^2 (+ 0 recv^1)))
+(= r_ab^2 (+ 0 r_ab^1)))
+(= ls^2 (+ 0 ls^1)))
+(= lr^2 (+ 0 lr^1)))
+(= i^2 (+ 0 i^1)))
+(= fs^2 (+ 0 fs^1)))
+(= fr^2 (+ 0 fr^1)))
+(= c2^2 (+ 0 c2^1)))
+(= c1^2 (+ 0 c1^1)))
+(= bs^2 (+ 0 bs^1)))
+(= br^2 (+ 0 br^1)))
+(= pos^2 (+ 0 pos^1)))
+(= next^2 (+ 0 next^1)))
+(= N^1 (+ 0 N^0)))
+(<= 0 (+ 0 z^1)))
+(= s_ab^3 (+ 0 s_ab^2)))
+(= rrep^3 (+ 0 rrep^2)))
+(= recv^3 (+ 0 recv^2)))
+(= r_ab^3 (+ 0 r_ab^2)))
+(= ls^3 (+ 0 ls^2)))
+(= lr^3 (+ 0 lr^2)))
+(= i^3 (+ 0 i^2)))
+(= fs^3 (+ 0 fs^2)))
+(= fr^3 (+ 0 fr^2)))
+(= c2^3 (+ 0 c2^2)))
+(= c1^3 (+ 0 c1^2)))
+(= bs^3 (+ 0 bs^2)))
+(= br^3 (+ 0 br^2)))
+(= z^2 (+ 0 z^1)))
+(= pos^3 (+ 0 pos^2)))
+(= next^3 (+ 0 next^2)))
+(= N^2 (+ 0 N^1)))
+(= s_ab^4 (+ 0 s_ab^3)))
+(= rrep^4 (+ 0 rrep^3)))
+(= recv^4 (+ 0 recv^3)))
+(= r_ab^4 (+ 0 r_ab^3)))
+(= ls^4 (+ 0 ls^3)))
+(= lr^4 (+ 0 lr^3)))
+(= i^4 (+ 0 i^3)))
+(= fs^4 (+ 0 fs^3)))
+(= fr^4 (+ 0 fr^3)))
+(= c2^4 (+ 0 c2^3)))
+(= c1^4 (+ 0 c1^3)))
+(= bs^4 (+ 0 bs^3)))
+(= br^4 (+ 0 br^3)))
+(= z^3 (+ 0 z^2)))
+(= pos^4 0))
+(= next^4 (+ 0 next^3)))
+(= N^3 (+ 0 N^2)))
+(= s_ab^5 (+ 0 s_ab^4)))
+(= rrep^5 (+ 0 rrep^4)))
+(= recv^5 (+ 0 recv^4)))
+(= r_ab^5 (+ 0 r_ab^4)))
+(= ls^5 (+ 0 ls^4)))
+(= lr^5 (+ 0 lr^4)))
+(= i^5 (+ 0 i^4)))
+(= fs^5 (+ 0 fs^4)))
+(= fr^5 (+ 0 fr^4)))
+(= c2^5 (+ 0 c2^4)))
+(= c1^5 (+ 0 c1^4)))
+(= bs^5 (+ 0 bs^4)))
+(= br^5 (+ 0 br^4)))
+(= z^4 (+ 0 z^3)))
+(= pos^5 (+ 0 pos^4)))
+(= next^5 1))
+(= N^4 (+ 0 N^3)))
+(<= 1 (+ 0 N^4)))
+(= s_ab^6 (+ 0 s_ab^5)))
+(= rrep^6 (+ 0 rrep^5)))
+(= recv^6 (+ 0 recv^5)))
+(= r_ab^6 (+ 0 r_ab^5)))
+(= ls^6 (+ 0 ls^5)))
+(= lr^6 (+ 0 lr^5)))
+(= i^6 (+ 0 i^5)))
+(= fs^6 (+ 0 fs^5)))
+(= fr^6 (+ 0 fr^5)))
+(= c2^6 (+ 0 c2^5)))
+(= c1^6 (+ 0 c1^5)))
+(= bs^6 (+ 0 bs^5)))
+(= br^6 (+ 0 br^5)))
+(= z^5 (+ 0 z^4)))
+(= pos^6 (+ 0 pos^5)))
+(= next^6 (+ 0 next^5)))
+(= N^5 (+ 0 N^4)))
+(= s_ab^post (+ 0 s_ab^6)))
+(= rrep^post (+ 0 rrep^6)))
+(= recv^post (+ 0 recv^6)))
+(= r_ab^post (+ 0 r_ab^6)))
+(= ls^post (+ 0 ls^6)))
+(= lr^post (+ 0 lr^6)))
+(= i^post 0))
+(= fs^post (+ 0 fs^6)))
+(= fr^post (+ 0 fr^6)))
+(= c2^post (+ 0 c2^6)))
+(= c1^post (+ 0 c1^6)))
+(= bs^post (+ 0 bs^6)))
+(= br^post (+ 0 br^6)))
+(= z^post (+ 0 z^5)))
+(= pos^post (+ 0 pos^6)))
+(= next^post (+ 0 next^6)))
+(= N^post (+ 0 N^5)))
+)
+)
+
+(rule
+(l6
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l23
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(N^2 Int)
+(N^3 Int)
+(br^1 Int)
+(br^2 Int)
+(br^3 Int)
+(bs^1 Int)
+(bs^2 Int)
+(bs^3 Int)
+(c1^1 Int)
+(c1^2 Int)
+(c2^1 Int)
+(c2^2 Int)
+(c2^3 Int)
+(fr^1 Int)
+(fr^2 Int)
+(fr^3 Int)
+(fs^1 Int)
+(fs^2 Int)
+(fs^3 Int)
+(i^1 Int)
+(i^2 Int)
+(i^3 Int)
+(lr^1 Int)
+(lr^2 Int)
+(lr^3 Int)
+(ls^1 Int)
+(ls^2 Int)
+(ls^3 Int)
+(next^1 Int)
+(next^2 Int)
+(next^3 Int)
+(pos^1 Int)
+(pos^2 Int)
+(pos^3 Int)
+(r_ab^1 Int)
+(r_ab^2 Int)
+(r_ab^3 Int)
+(recv^1 Int)
+(recv^2 Int)
+(recv^3 Int)
+(rrep^1 Int)
+(rrep^2 Int)
+(rrep^3 Int)
+(s_ab^1 Int)
+(s_ab^2 Int)
+(s_ab^3 Int)
+(z^1 Int)
+(z^2 Int)
+(z^3 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= s_ab^1 (+ 0 s_ab^0)) (= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^2 (+ 0 s_ab^1)))
+(= rrep^2 (+ 0 rrep^1)))
+(= recv^2 (+ 0 recv^1)))
+(= r_ab^2 (+ 0 r_ab^1)))
+(= ls^2 (+ 0 ls^1)))
+(= lr^2 (+ 0 lr^1)))
+(= i^2 (+ 0 i^1)))
+(= fs^2 (+ 0 fs^1)))
+(= fr^2 (+ 0 fr^1)))
+(= c2^2 (+ 0 c2^1)))
+(= bs^2 (+ 0 bs^1)))
+(= br^2 (+ 0 br^1)))
+(= z^2 (+ 0 z^1)))
+(= pos^2 (+ 0 pos^1)))
+(= next^2 (+ 0 next^1)))
+(= N^2 (+ 0 N^1)))
+(<= 0 (+ 0 c1^1)))
+(= s_ab^3 (+ 0 s_ab^2)))
+(= rrep^3 (+ 0 rrep^2)))
+(= recv^3 (+ 0 recv^2)))
+(= r_ab^3 (+ 0 r_ab^2)))
+(= ls^3 (+ 0 ls^2)))
+(= lr^3 (+ 0 lr^2)))
+(= i^3 (+ 0 i^2)))
+(= fs^3 (+ 0 fs^2)))
+(= fr^3 (+ 0 fr^2)))
+(= c2^3 (+ 0 c2^2)))
+(= c1^2 (+ 0 c1^1)))
+(= bs^3 (+ 0 bs^2)))
+(= br^3 (+ 0 br^2)))
+(= z^3 (+ 0 z^2)))
+(= pos^3 (+ 0 pos^2)))
+(= next^3 (+ 0 next^2)))
+(= N^3 (+ 0 N^2)))
+(<= (+ 0 c1^2) 1))
+(= s_ab^post (+ 0 s_ab^3)))
+(= rrep^post (+ 0 rrep^3)))
+(= recv^post (+ 0 recv^3)))
+(= r_ab^post (+ 0 r_ab^3)))
+(= ls^post (+ 0 ls^3)))
+(= lr^post (+ 0 lr^3)))
+(= i^post (+ 0 i^3)))
+(= fs^post (+ 0 fs^3)))
+(= fr^post (+ 0 fr^3)))
+(= c2^post (+ 0 c2^3)))
+(= c1^post (+ 0 c1^2)))
+(= bs^post (+ 0 bs^3)))
+(= br^post (+ 0 br^3)))
+(= z^post (+ 0 z^3)))
+(= pos^post (+ 0 pos^3)))
+(= next^post (+ 0 next^3)))
+(= N^post (+ 0 N^3)))
+)
+)
+
+(rule
+(l25
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l6
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= s_ab^post (+ 0 s_ab^0)) (= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post (+ 0 i^0)))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 s_ab^post)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l26
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l25
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 i^0) (+ -1 N^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post (+ 0 rrep^1)))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 r_ab^1)))
+(= ls^post 0))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l26
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l25
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ -1 N^0) (+ 0 i^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post (+ 0 rrep^1)))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 r_ab^1)))
+(= ls^post 1))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post (+ 0 fs^1)))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l27
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l26
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 i^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post (+ 0 rrep^1)))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 r_ab^1)))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post 0))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l27
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l26
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(br^1 Int)
+(bs^1 Int)
+(c1^1 Int)
+(c2^1 Int)
+(fr^1 Int)
+(fs^1 Int)
+(i^1 Int)
+(lr^1 Int)
+(ls^1 Int)
+(next^1 Int)
+(pos^1 Int)
+(r_ab^1 Int)
+(recv^1 Int)
+(rrep^1 Int)
+(s_ab^1 Int)
+(z^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 i^0) 0) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^post (+ 0 s_ab^1)))
+(= rrep^post (+ 0 rrep^1)))
+(= recv^post (+ 0 recv^1)))
+(= r_ab^post (+ 0 r_ab^1)))
+(= ls^post (+ 0 ls^1)))
+(= lr^post (+ 0 lr^1)))
+(= i^post (+ 0 i^1)))
+(= fs^post 1))
+(= fr^post (+ 0 fr^1)))
+(= c2^post (+ 0 c2^1)))
+(= c1^post (+ 0 c1^1)))
+(= bs^post (+ 0 bs^1)))
+(= br^post (+ 0 br^1)))
+(= z^post (+ 0 z^1)))
+(= pos^post (+ 0 pos^1)))
+(= next^post (+ 0 next^1)))
+(= N^post (+ 0 N^1)))
+)
+)
+
+(rule
+(l1
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l28
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(exists
+((N^1 Int)
+(N^2 Int)
+(N^3 Int)
+(br^1 Int)
+(br^2 Int)
+(br^3 Int)
+(bs^1 Int)
+(bs^2 Int)
+(bs^3 Int)
+(c1^1 Int)
+(c1^2 Int)
+(c1^3 Int)
+(c2^1 Int)
+(c2^2 Int)
+(c2^3 Int)
+(fr^1 Int)
+(fr^2 Int)
+(fr^3 Int)
+(fs^1 Int)
+(fs^2 Int)
+(fs^3 Int)
+(i^1 Int)
+(i^2 Int)
+(i^3 Int)
+(lr^1 Int)
+(lr^2 Int)
+(lr^3 Int)
+(ls^1 Int)
+(ls^2 Int)
+(ls^3 Int)
+(next^1 Int)
+(next^2 Int)
+(next^3 Int)
+(pos^1 Int)
+(pos^2 Int)
+(pos^3 Int)
+(r_ab^1 Int)
+(r_ab^2 Int)
+(r_ab^3 Int)
+(recv^1 Int)
+(recv^2 Int)
+(recv^3 Int)
+(rrep^1 Int)
+(rrep^2 Int)
+(rrep^3 Int)
+(s_ab^1 Int)
+(s_ab^2 Int)
+(s_ab^3 Int)
+(z^1 Int)
+(z^2 Int)
+(z^3 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 N^0) (+ 0 i^0)) (= s_ab^1 (+ 0 s_ab^0)))
+(= rrep^1 (+ 0 rrep^0)))
+(= recv^1 (+ 0 recv^0)))
+(= r_ab^1 (+ 0 r_ab^0)))
+(= ls^1 (+ 0 ls^0)))
+(= lr^1 (+ 0 lr^0)))
+(= i^1 (+ 0 i^0)))
+(= fs^1 (+ 0 fs^0)))
+(= fr^1 (+ 0 fr^0)))
+(= c2^1 (+ 0 c2^0)))
+(= c1^1 (+ 0 c1^0)))
+(= bs^1 (+ 0 bs^0)))
+(= br^1 (+ 0 br^0)))
+(= z^1 (+ 0 z^0)))
+(= pos^1 (+ 0 pos^0)))
+(= next^1 (+ 0 next^0)))
+(= N^1 (+ 0 N^0)))
+(= s_ab^2 (+ 0 s_ab^1)))
+(= rrep^2 (+ 0 rrep^1)))
+(= recv^2 (+ 0 recv^1)))
+(= r_ab^2 (+ 0 r_ab^1)))
+(= ls^2 (+ 0 ls^1)))
+(= lr^2 (+ 0 lr^1)))
+(= i^2 (+ 0 i^1)))
+(= fs^2 (+ 0 fs^1)))
+(= fr^2 (+ 0 fr^1)))
+(= c2^2 (+ 0 c2^1)))
+(= c1^2 (+ 0 c1^1)))
+(= bs^2 (+ 0 bs^1)))
+(= br^2 (+ 0 br^1)))
+(= z^2 (+ 0 z^1)))
+(= pos^2 (+ 0 pos^1)))
+(= next^2 (+ 0 next^1)))
+(= N^2 (+ 0 N^1)))
+(= s_ab^3 (+ 0 s_ab^2)))
+(= rrep^3 (+ 0 rrep^2)))
+(= recv^3 (+ 0 recv^2)))
+(= r_ab^3 (+ 0 r_ab^2)))
+(= ls^3 (+ 0 ls^2)))
+(= lr^3 (+ 0 lr^2)))
+(= i^3 (+ 0 i^2)))
+(= fs^3 (+ 0 fs^2)))
+(= fr^3 (+ 0 fr^2)))
+(= c2^3 (+ 0 c2^2)))
+(= c1^3 (+ 0 c1^2)))
+(= bs^3 (+ 0 bs^2)))
+(= br^3 (+ 0 br^2)))
+(= z^3 (+ 0 z^2)))
+(= pos^3 (+ 0 pos^2)))
+(= next^3 (+ 0 next^2)))
+(= N^3 (+ 0 N^2)))
+(= s_ab^post (+ 0 s_ab^3)))
+(= rrep^post (+ 0 rrep^3)))
+(= recv^post (+ 0 recv^3)))
+(= r_ab^post (+ 0 r_ab^3)))
+(= ls^post (+ 0 ls^3)))
+(= lr^post (+ 0 lr^3)))
+(= i^post (+ 0 i^3)))
+(= fs^post (+ 0 fs^3)))
+(= fr^post (+ 0 fr^3)))
+(= c2^post (+ 0 c2^3)))
+(= c1^post (+ 0 c1^3)))
+(= bs^post (+ 0 bs^3)))
+(= br^post (+ 0 br^3)))
+(= z^post (+ 0 z^3)))
+(= pos^post (+ 0 pos^3)))
+(= next^post (+ 0 next^3)))
+(= N^post (+ 0 N^3)))
+)
+)
+
+(rule
+(l1
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l27
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 i^0) (+ 0 N^0)) (= s_ab^post (+ 0 s_ab^0)))
+(= rrep^post (+ 0 rrep^0)))
+(= recv^post (+ 0 recv^0)))
+(= r_ab^post (+ 0 r_ab^0)))
+(= ls^post (+ 0 ls^0)))
+(= lr^post (+ 0 lr^0)))
+(= i^post i^post))
+(= fs^post (+ 0 fs^0)))
+(= fr^post (+ 0 fr^0)))
+(= c2^post (+ 0 c2^0)))
+(= c1^post (+ 0 c1^0)))
+(= bs^post (+ 0 bs^0)))
+(= br^post (+ 0 br^0)))
+(= z^post (+ 0 z^0)))
+(= pos^post (+ 0 pos^0)))
+(= next^post (+ 0 next^0)))
+(= N^post (+ 0 N^0)))
+)
+
+(rule
+(l29
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l24
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= N^0 N^post) (= br^0 br^post)) (= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+

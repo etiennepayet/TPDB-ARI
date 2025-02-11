@@ -1,0 +1,603 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int Int))
+(fun l10 (-> Int Int Int Int Int Int Int))
+(fun l11 (-> Int Int Int Int Int Int Int))
+(fun l12 (-> Int Int Int Int Int Int Int))
+(fun l13 (-> Int Int Int Int Int Int Int))
+(fun l14 (-> Int Int Int Int Int Int Int))
+(fun l15 (-> Int Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int Int))
+(fun l5 (-> Int Int Int Int Int Int Int))
+(fun l6 (-> Int Int Int Int Int Int Int))
+(fun l7 (-> Int Int Int Int Int Int Int))
+(fun l8 (-> Int Int Int Int Int Int Int))
+(fun l9 (-> Int Int Int Int Int Int Int))
+(entrypoint l15)
+(rule
+(l0 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l1
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= loop_count^0 loop_count^post) (= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l2 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l0
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= loop_count^0 loop_count^post) (= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l2 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l0
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= loop_count^0 loop_count^post) (= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l2 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l3
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= loop_count^0 loop_count^post) (= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l4 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l2
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= loop_count^0 loop_count^post) (= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l4 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l2
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= loop_count^0 loop_count^post) (= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l4 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l3
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= loop_count^0 loop_count^post) (= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l5 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l4
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(<= (+ 1 loop_count^0) (+ 0 loop_max^0))
+(= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l5 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l6
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(<= (+ 0 loop_max^0) (+ 0 loop_count^0))
+(= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l6 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l7
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= loop_count^0 loop_count^post) (= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l3 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l8
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(<= (+ 1 nPacketsOld^0) (+ 0 nPackets^0))
+(= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l3 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l8
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(<= (+ 1 nPackets^0) (+ 0 nPacketsOld^0))
+(= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l3 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l6
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(<= (+ 0 nPackets^0) (+ 0 nPacketsOld^0))
+(<= (+ 0 nPacketsOld^0) (+ 0 nPackets^0)))
+(= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l9 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l3
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= loop_count^post (+ 1 loop_count^0)) (= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l10 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l3
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 tmp___0^0) 0) (<= 0 (+ 0 tmp___0^0)))
+(= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l10 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l9
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 tmp___0^0)) (= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l10 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l9
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 tmp___0^0) 0) (= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l11 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l10
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= tmp___0^post tmp___0^post) (= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+)
+
+(rule
+(l12 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l11
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= nPackets^post (+ 1 nPackets^0)) (= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l13 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l11
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 tmp^0) 0) (<= 0 (+ 0 tmp^0)))
+(= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l13 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l12
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 tmp^0)) (= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l13 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l12
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 tmp^0) 0) (= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l14 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l13
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= tmp^post tmp^post) (= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l1 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l14
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= loop_count^0 loop_count^post) (= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l8 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l5
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= nPacketsOld^post (+ 0 nPackets^0)) (= loop_count^0 loop_count^post))
+(= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+
+(rule
+(l15 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
+(l8
+loop_count^post
+loop_max^post
+nPacketsOld^post
+nPackets^post
+tmp^post
+tmp___0^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= loop_count^0 loop_count^post) (= loop_max^0 loop_max^post))
+(= nPackets^0 nPackets^post))
+(= nPacketsOld^0 nPacketsOld^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+)
+

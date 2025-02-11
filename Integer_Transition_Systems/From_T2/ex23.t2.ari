@@ -1,0 +1,110 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int))
+(fun l5 (-> Int Int Int Int Int Int))
+(entrypoint l5)
+(rule
+(l0 __const_127^0 __const_36^0 counter^0 y^0 z^0)
+(l1 __const_127^post __const_36^post counter^post y^post z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(<= (+ 0 __const_36^0) (+ 0 counter^0))
+(= __const_127^0 __const_127^post))
+(= __const_36^0 __const_36^post))
+(= counter^0 counter^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l0 __const_127^0 __const_36^0 counter^0 y^0 z^0)
+(l2 __const_127^post __const_36^post counter^post y^post z^post)
+:guard
+(and
+(and
+(and
+(and
+(and (<= (+ 1 counter^0) (+ 0 __const_36^0)) (= z^post (+ 1 z^0)))
+(= counter^post (+ 1 counter^0)))
+(= __const_127^0 __const_127^post))
+(= __const_36^0 __const_36^post))
+(= y^0 y^post))
+)
+
+(rule
+(l3 __const_127^0 __const_36^0 counter^0 y^0 z^0)
+(l2 __const_127^post __const_36^post counter^post y^post z^post)
+:guard
+(and
+(and
+(and
+(and
+(and (<= (+ 0 y^0) (+ 0 __const_127^0)) (= z^post z^post))
+(= __const_127^0 __const_127^post))
+(= __const_36^0 __const_36^post))
+(= counter^0 counter^post))
+(= y^0 y^post))
+)
+
+(rule
+(l3 __const_127^0 __const_36^0 counter^0 y^0 z^0)
+(l1 __const_127^post __const_36^post counter^post y^post z^post)
+:guard
+(and
+(and
+(and
+(and
+(and (<= (+ 1 __const_127^0) (+ 0 y^0)) (= __const_127^0 __const_127^post))
+(= __const_36^0 __const_36^post))
+(= counter^0 counter^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l2 __const_127^0 __const_36^0 counter^0 y^0 z^0)
+(l0 __const_127^post __const_36^post counter^post y^post z^post)
+:guard
+(and
+(and
+(and
+(and (= __const_127^0 __const_127^post) (= __const_36^0 __const_36^post))
+(= counter^0 counter^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l4 __const_127^0 __const_36^0 counter^0 y^0 z^0)
+(l3 __const_127^post __const_36^post counter^post y^post z^post)
+:guard
+(and
+(and
+(and
+(and (= counter^post 0) (= __const_127^0 __const_127^post))
+(= __const_36^0 __const_36^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+
+(rule
+(l5 __const_127^0 __const_36^0 counter^0 y^0 z^0)
+(l4 __const_127^post __const_36^post counter^post y^post z^post)
+:guard
+(and
+(and
+(and
+(and (= __const_127^0 __const_127^post) (= __const_36^0 __const_36^post))
+(= counter^0 counter^post))
+(= y^0 y^post))
+(= z^0 z^post))
+)
+

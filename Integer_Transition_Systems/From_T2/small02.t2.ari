@@ -1,0 +1,72 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int))
+(fun l1 (-> Int Int Int Int))
+(fun l2 (-> Int Int Int Int))
+(fun l3 (-> Int Int Int Int))
+(fun l4 (-> Int Int Int Int))
+(fun l5 (-> Int Int Int Int))
+(fun l6 (-> Int Int Int Int))
+(entrypoint l6)
+(rule
+(l0 L^0 n^0 o^0)
+(l1 L^post n^post o^post)
+:guard
+(and
+(and (and (<= (+ 1 o^0) (+ 0 n^0)) (= L^0 L^post)) (= n^0 n^post))
+(= o^0 o^post))
+)
+
+(rule
+(l0 L^0 n^0 o^0)
+(l2 L^post n^post o^post)
+:guard
+(and
+(and (and (<= (+ 0 n^0) (+ 0 o^0)) (= L^0 L^post)) (= n^0 n^post))
+(= o^0 o^post))
+)
+
+(rule
+(l3 L^0 n^0 o^0)
+(l0 L^post n^post o^post)
+:guard
+(and
+(and (and (<= (+ 0 n^0) (+ 0 n^0)) (= L^0 L^post)) (= n^0 n^post))
+(= o^0 o^post))
+)
+
+(rule
+(l3 L^0 n^0 o^0)
+(l0 L^post n^post o^post)
+:guard
+(and (and (= L^post 0) (= n^post (+ 1 n^0))) (= o^0 o^post)))
+
+(rule
+(l1 L^0 n^0 o^0)
+(l4 L^post n^post o^post)
+:guard
+(and
+(and
+(and (and (<= (+ 0 L^0) 1) (<= 1 (+ 0 L^0))) (= L^0 L^post))
+(= n^0 n^post))
+(= o^0 o^post))
+)
+
+(rule
+(l1 L^0 n^0 o^0)
+(l3 L^post n^post o^post)
+:guard
+(and (and (= L^post 1) (= o^post (+ 0 n^0))) (= n^0 n^post)))
+
+(rule
+(l5 L^0 n^0 o^0)
+(l1 L^post n^post o^post)
+:guard
+(and (and (= L^post 0) (= n^0 n^post)) (= o^0 o^post)))
+
+(rule
+(l6 L^0 n^0 o^0)
+(l5 L^post n^post o^post)
+:guard
+(and (and (= L^0 L^post) (= n^0 n^post)) (= o^0 o^post)))
+

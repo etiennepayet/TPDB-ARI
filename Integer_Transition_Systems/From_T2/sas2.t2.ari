@@ -1,0 +1,514 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int Int))
+(fun l10 (-> Int Int Int Int Int Int Int))
+(fun l11 (-> Int Int Int Int Int Int Int))
+(fun l12 (-> Int Int Int Int Int Int Int))
+(fun l13 (-> Int Int Int Int Int Int Int))
+(fun l14 (-> Int Int Int Int Int Int Int))
+(fun l15 (-> Int Int Int Int Int Int Int))
+(fun l16 (-> Int Int Int Int Int Int Int))
+(fun l17 (-> Int Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int Int))
+(fun l5 (-> Int Int Int Int Int Int Int))
+(fun l6 (-> Int Int Int Int Int Int Int))
+(fun l7 (-> Int Int Int Int Int Int Int))
+(fun l8 (-> Int Int Int Int Int Int Int))
+(fun l9 (-> Int Int Int Int Int Int Int))
+(entrypoint l17)
+(rule
+(l0 c^0 d^0 f^0 n^0 r^0 s^0)
+(l1 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 n^0) (+ 0 r^0)) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l0 c^0 d^0 f^0 n^0 r^0 s^0)
+(l2 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 r^0) (+ 0 n^0)) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l3 c^0 d^0 f^0 n^0 r^0 s^0)
+(l0 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and (and (= c^post (+ -1 c^0)) (= d^0 d^post)) (= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l4 c^0 d^0 f^0 n^0 r^0 s^0)
+(l0 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 f^0) 0) (<= 0 (+ 0 f^0))) (= c^0 c^post))
+(= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l4 c^0 d^0 f^0 n^0 r^0 s^0)
+(l3 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 f^0)) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l4 c^0 d^0 f^0 n^0 r^0 s^0)
+(l3 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 f^0) 0) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l5 c^0 d^0 f^0 n^0 r^0 s^0)
+(l4 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= 2 (+ 0 c^0)) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l5 c^0 d^0 f^0 n^0 r^0 s^0)
+(l4 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 c^0) 1) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l5 c^0 d^0 f^0 n^0 r^0 s^0)
+(l6 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 c^0) 1) (<= 1 (+ 0 c^0))) (= c^0 c^post))
+(= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l6 c^0 d^0 f^0 n^0 r^0 s^0)
+(l7 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and (and (= c^0 c^post) (= d^0 d^post)) (= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l8 c^0 d^0 f^0 n^0 r^0 s^0)
+(l9 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 s^0)) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l8 c^0 d^0 f^0 n^0 r^0 s^0)
+(l6 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 s^0) 0) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l10 c^0 d^0 f^0 n^0 r^0 s^0)
+(l8 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= d^post 1) (= s^post (+ (+ 0 (* -1 c^0)) s^0)))
+(= c^0 c^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+)
+
+(rule
+(l11 c^0 d^0 f^0 n^0 r^0 s^0)
+(l10 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 f^0)) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l11 c^0 d^0 f^0 n^0 r^0 s^0)
+(l10 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 f^0) 0) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l11 c^0 d^0 f^0 n^0 r^0 s^0)
+(l10 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 f^0) 0) (<= 0 (+ 0 f^0))) (= f^post 1))
+(= c^post (+ -1 c^0)))
+(= d^0 d^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l9 c^0 d^0 f^0 n^0 r^0 s^0)
+(l5 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and (and (= n^post n^post) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l12 c^0 d^0 f^0 n^0 r^0 s^0)
+(l10 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= 3 (+ 0 d^0)) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l12 c^0 d^0 f^0 n^0 r^0 s^0)
+(l10 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 d^0) 2) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l12 c^0 d^0 f^0 n^0 r^0 s^0)
+(l11 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 d^0) 2) (<= 2 (+ 0 d^0))) (= c^0 c^post))
+(= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l1 c^0 d^0 f^0 n^0 r^0 s^0)
+(l6 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 r^0) (+ 0 n^0)) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l1 c^0 d^0 f^0 n^0 r^0 s^0)
+(l12 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 n^0) (+ 0 r^0)) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l13 c^0 d^0 f^0 n^0 r^0 s^0)
+(l9 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 s^0) 255) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l13 c^0 d^0 f^0 n^0 r^0 s^0)
+(l6 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= 256 (+ 0 s^0)) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l14 c^0 d^0 f^0 n^0 r^0 s^0)
+(l13 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and (and (= d^post 2) (= s^post (+ (+ 0 c^0) s^0))) (= c^0 c^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+)
+
+(rule
+(l15 c^0 d^0 f^0 n^0 r^0 s^0)
+(l14 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 f^0)) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l15 c^0 d^0 f^0 n^0 r^0 s^0)
+(l14 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 f^0) 0) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l15 c^0 d^0 f^0 n^0 r^0 s^0)
+(l14 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 f^0) 0) (<= 0 (+ 0 f^0))) (= f^post 1))
+(= c^post (+ -1 c^0)))
+(= d^0 d^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l2 c^0 d^0 f^0 n^0 r^0 s^0)
+(l14 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= 2 (+ 0 d^0)) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l2 c^0 d^0 f^0 n^0 r^0 s^0)
+(l14 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 d^0) 1) (= c^0 c^post)) (= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l2 c^0 d^0 f^0 n^0 r^0 s^0)
+(l15 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 d^0) 1) (<= 1 (+ 0 d^0))) (= c^0 c^post))
+(= d^0 d^post))
+(= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l16 c^0 d^0 f^0 n^0 r^0 s^0)
+(l9 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and (and (and (= c^post 4) (= f^post 0)) (= d^post 0)) (= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+
+(rule
+(l17 c^0 d^0 f^0 n^0 r^0 s^0)
+(l16 c^post d^post f^post n^post r^post s^post)
+:guard
+(and
+(and
+(and
+(and (and (= c^0 c^post) (= d^0 d^post)) (= f^0 f^post))
+(= n^0 n^post))
+(= r^0 r^post))
+(= s^0 s^post))
+)
+

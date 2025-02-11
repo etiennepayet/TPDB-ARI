@@ -1,0 +1,271 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int Int))
+(fun f887_0_loop_aux_GT (-> Int Int Int Int Int Int))
+(fun f961_0_loop_aux_NE (-> Int Int Int Int Int Int))
+(fun f962_0_loop_aux_NE (-> Int Int Int Int Int Int))
+(fun f970_0_loop_aux_NE (-> Int Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and (and (> (+ arg2 15) arg2) (> arg2 (- 1))) (> arg1 0))
+(= 20 arg1P))
+(= 0 arg2P))
+(= (+ arg2 15) arg3P))
+)
+
+(rule
+(f887_0_loop_aux_GT arg1 arg2 arg3 arg4 arg5)
+(f961_0_loop_aux_NE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg3 0) (< arg3 arg1)) (> arg1 (- 1))) (< arg2 0))
+(= arg3 arg1P))
+(= arg1 arg2P))
+(= arg2 arg3P))
+(= (+ arg3 1) arg4P))
+(= (- arg1 2) arg5P))
+)
+
+(rule
+(f887_0_loop_aux_GT arg1 arg2 arg3 arg4 arg5)
+(f961_0_loop_aux_NE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg3 0) (< arg3 arg1)) (> arg1 (- 1))) (> arg2 0))
+(= arg3 arg1P))
+(= arg1 arg2P))
+(= arg2 arg3P))
+(= (+ arg3 1) arg4P))
+(= (- arg1 2) arg5P))
+)
+
+(rule
+(f887_0_loop_aux_GT arg1 arg2 arg3 arg4 arg5)
+(f962_0_loop_aux_NE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (and (> arg1 (- 1)) (> arg3 0)) (< arg3 arg1)) (= 0 arg2))
+(= arg3 arg1P))
+(= arg1 arg2P))
+(= (- arg3 1) arg3P))
+(= (- arg1 2) arg4P))
+)
+
+(rule
+(f887_0_loop_aux_GT arg1 arg2 arg3 arg4 arg5)
+(f970_0_loop_aux_NE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and (and (> arg1 0) (= arg1 arg3)) (= arg1 arg1P))
+(= (- arg1 1) arg2P))
+(= (- arg1 2) arg3P))
+)
+
+(rule
+(f961_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and (and (and (> arg1 0) (> arg4 1)) (< arg1 arg2)) (> arg5 arg4))
+(= arg2 arg1P))
+(= arg3 arg2P))
+(= arg4 arg3P))
+)
+
+(rule
+(f961_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and (and (and (> arg1 0) (> arg4 1)) (> arg1 arg2)) (> arg5 arg4))
+(= arg2 arg1P))
+(= arg3 arg2P))
+(= arg4 arg3P))
+)
+
+(rule
+(f961_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and (and (and (> arg1 0) (> arg4 1)) (< arg1 arg2)) (< arg5 arg4))
+(= arg2 arg1P))
+(= arg3 arg2P))
+(= arg4 arg3P))
+)
+
+(rule
+(f961_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and (and (and (> arg1 0) (> arg4 1)) (> arg1 arg2)) (< arg5 arg4))
+(= arg2 arg1P))
+(= arg3 arg2P))
+(= arg4 arg3P))
+)
+
+(rule
+(f962_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and (and (and (> arg1 0) (> arg2 arg1)) (> arg4 arg3)) (= arg2 arg1P))
+(= 0 arg2P))
+(= arg3 arg3P))
+)
+
+(rule
+(f962_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and (and (and (> arg1 0) (< arg2 arg1)) (> arg4 arg3)) (= arg2 arg1P))
+(= 0 arg2P))
+(= arg3 arg3P))
+)
+
+(rule
+(f962_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and (and (and (> arg1 0) (> arg2 arg1)) (< arg4 arg3)) (= arg2 arg1P))
+(= 0 arg2P))
+(= arg3 arg3P))
+)
+
+(rule
+(f962_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and (and (and (> arg1 0) (< arg2 arg1)) (< arg4 arg3)) (= arg2 arg1P))
+(= 0 arg2P))
+(= arg3 arg3P))
+)
+
+(rule
+(f961_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and (and (> arg1 0) (<= arg4 (- arg2 1))) (= arg4 arg5))
+(= (- arg2 1) arg1P))
+(= arg3 arg2P))
+(= arg4 arg3P))
+)
+
+(rule
+(f962_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and (and (> arg1 0) (<= arg3 (- arg2 1))) (= arg3 arg4))
+(= (- arg2 1) arg1P))
+(= 0 arg2P))
+(= arg3 arg3P))
+)
+
+(rule
+(f970_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and (and (and (> arg3 arg2) (= arg1 arg1P)) (= 0 arg2P)) (= arg2 arg3P)))
+
+(rule
+(f970_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and (and (and (< arg3 arg2) (= arg1 arg1P)) (= 0 arg2P)) (= arg2 arg3P)))
+
+(rule
+(f887_0_loop_aux_GT arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and (and (and (> arg1 0) (< arg1 3)) (= 0 arg3)) (= arg1 arg1P))
+(= 1 arg2P))
+(= 1 arg3P))
+)
+
+(rule
+(f887_0_loop_aux_GT arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and (and (and (> arg1 3) (= 0 arg3)) (= arg1 arg1P)) (= 1 arg2P))
+(= 1 arg3P))
+)
+
+(rule
+(f970_0_loop_aux_NE arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and (and (< arg2 arg1) (<= arg2 (- arg1 1))) (= arg2 arg3))
+(= (- arg1 1) arg1P))
+(= 0 arg2P))
+(= arg2 arg3P))
+)
+
+(rule
+(f887_0_loop_aux_GT arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and (and (and (= 3 arg1) (= 0 arg3)) (= 2 arg1P)) (= 1 arg2P))
+(= 1 arg3P))
+)
+
+(rule
+(f887_0_loop_aux_GT arg1 arg2 arg3 arg4 arg5)
+(f887_0_loop_aux_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and (and (and (= 0 arg1) (= 0 arg3)) (= 0 arg1P)) (= 0 arg2P))
+(= (- 1) arg3P))
+)
+
+(rule
+(__init arg1 arg2 arg3 arg4 arg5)
+(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P))
+

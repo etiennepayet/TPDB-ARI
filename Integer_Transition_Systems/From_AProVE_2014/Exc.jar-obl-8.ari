@@ -1,0 +1,20 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int))
+(fun f1_0_main_New (-> Int Int))
+(fun f83_0_main_GE (-> Int Int))
+(entrypoint __init)
+(rule (f1_0_main_New arg1) (f83_0_main_GE arg1P) :guard (= 0 arg1P))
+(rule
+(f83_0_main_GE arg1)
+(f83_0_main_GE arg1P)
+:guard
+(and (and (< arg1 11) (< arg1 20)) (= (+ arg1 2) arg1P)))
+
+(rule
+(f83_0_main_GE arg1)
+(f83_0_main_GE arg1P)
+:guard
+(and (and (> arg1 10) (< arg1 20)) (= (+ arg1 2) arg1P)))
+
+(rule (__init arg1) (f1_0_main_New arg1P))

@@ -1,0 +1,72 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int))
+(fun l1 (-> Int Int Int Int))
+(fun l2 (-> Int Int Int Int))
+(fun l3 (-> Int Int Int Int))
+(entrypoint l3)
+(rule
+(l0 t^0 x^0 y^0)
+(l1 t^post x^post y^post)
+:guard
+(and
+(and
+(and
+(and (<= 0 (+ 0 x^0)) (<= (+ 0 t^0) (+ 0 y^0)))
+(= x^post (+ (+ 0 x^0) y^0)))
+(= t^0 t^post))
+(= y^0 y^post))
+)
+
+(rule
+(l1 t^0 x^0 y^0)
+(l0 t^post x^post y^post)
+:guard
+(and (and (= t^0 t^post) (= x^0 x^post)) (= y^0 y^post)))
+
+(rule
+(l2 t^0 x^0 y^0)
+(l0 t^post x^post y^post)
+:guard
+(exists
+((t^1 Int)
+(t^2 Int)
+(t^3 Int)
+(t^4 Int)
+(t^5 Int)
+(t^6 Int)
+(t^7 Int)
+(t^8 Int)
+(t^9 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= t^1 -1) (= t^2 (+ -1 t^1))) (= t^3 (+ -1 t^2)))
+(= t^4 (+ -1 t^3)))
+(= t^5 (+ -1 t^4)))
+(= t^6 (+ -1 t^5)))
+(= t^7 (+ -1 t^6)))
+(= t^8 (+ -1 t^7)))
+(= t^9 (+ -1 t^8)))
+(= t^post (+ -1 t^9)))
+(<= -1 (+ 0 x^0)))
+(<= (+ 0 t^post) (+ 0 y^0)))
+(= x^0 x^post))
+(= y^0 y^post))
+)
+)
+
+(rule
+(l3 t^0 x^0 y^0)
+(l2 t^post x^post y^post)
+:guard
+(and (and (= t^0 t^post) (= x^0 x^post)) (= y^0 y^post)))
+

@@ -1,0 +1,128 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int Int))
+(fun f1_0_main_ConstantStackPush (-> Int Int Int Int Int Int))
+(fun f375_0_dif_GE (-> Int Int Int Int Int Int))
+(fun f484_0_dif_GE (-> Int Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_ConstantStackPush arg1 arg2 arg3 arg4 arg5)
+(f375_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and (and (= 0 arg1P) (= 0 arg2P)) (= 0 arg3P)))
+
+(rule
+(f375_0_dif_GE arg1 arg2 arg3 arg4 arg5)
+(f484_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and (and (and (< arg2 20) (= arg2 arg3)) (= arg1 arg1P)) (= arg2 arg2P))
+(= 0 arg3P))
+(= 0 arg4P))
+(= 0 arg5P))
+)
+
+(rule
+(f484_0_dif_GE arg1 arg2 arg3 arg4 arg5)
+(f375_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and (and (and (> arg4 19) (= 1 arg3)) (= arg4 arg5)) (= arg1 arg1P))
+(= (+ arg2 1) arg2P))
+(= (+ arg2 1) arg3P))
+)
+
+(rule
+(f484_0_dif_GE arg1 arg2 arg3 arg4 arg5)
+(f375_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and (and (and (< arg4 20) (= 1 arg3)) (= arg4 arg5)) (= arg1 arg1P))
+(= (+ arg2 1) arg2P))
+(= (+ arg2 1) arg3P))
+)
+
+(rule
+(f484_0_dif_GE arg1 arg2 arg3 arg4 arg5)
+(f484_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x29 Int) (x30 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (< arg2 20) (> x29 x30)) (< arg4 20)) (= 0 arg3))
+(= arg4 arg5))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= 0 arg3P))
+(= (+ arg4 1) arg4P))
+(= (+ arg4 1) arg5P))
+)
+)
+
+(rule
+(f484_0_dif_GE arg1 arg2 arg3 arg4 arg5)
+(f484_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x36 Int) (x37 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (< arg2 20) (< x36 x37)) (< arg4 20)) (= 0 arg3))
+(= arg4 arg5))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= 0 arg3P))
+(= (+ arg4 1) arg4P))
+(= (+ arg4 1) arg5P))
+)
+)
+
+(rule
+(f484_0_dif_GE arg1 arg2 arg3 arg4 arg5)
+(f375_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (and (< arg1 20) (< arg2 20)) (> arg4 19)) (= 0 arg3))
+(= arg4 arg5))
+(= (+ arg1 1) arg1P))
+(= (+ arg2 1) arg2P))
+(= (+ arg2 1) arg3P))
+)
+
+(rule
+(f484_0_dif_GE arg1 arg2 arg3 arg4 arg5)
+(f484_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (and (< arg4 20) (< arg2 20)) (= 0 arg3)) (= arg4 arg5))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= 1 arg3P))
+(= arg4 arg4P))
+(= arg4 arg5P))
+)
+
+(rule
+(__init arg1 arg2 arg3 arg4 arg5)
+(f1_0_main_ConstantStackPush arg1P arg2P arg3P arg4P arg5P))
+

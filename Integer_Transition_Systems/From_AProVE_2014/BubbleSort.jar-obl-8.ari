@@ -1,0 +1,72 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int))
+(fun f1_0_main_ConstantStackPush (-> Int Int Int Int))
+(fun f458_0_sort_GE (-> Int Int Int Int))
+(fun f543_0_sort_GE (-> Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_ConstantStackPush arg1 arg2 arg3)
+(f458_0_sort_GE arg1P arg2P arg3P)
+:guard
+(= 1 arg1P))
+
+(rule
+(f458_0_sort_GE arg1 arg2 arg3)
+(f543_0_sort_GE arg1P arg2P arg3P)
+:guard
+(and
+(and (and (and (> arg1 0) (< arg1 100)) (= arg1 arg1P)) (= 0 arg2P))
+(= (- 100 arg1) arg3P))
+)
+
+(rule
+(f543_0_sort_GE arg1 arg2 arg3)
+(f458_0_sort_GE arg1P arg2P arg3P)
+:guard
+(and (<= arg3 arg2) (= (+ arg1 1) arg1P)))
+
+(rule
+(f543_0_sort_GE arg1 arg2 arg3)
+(f543_0_sort_GE arg1P arg2P arg3P)
+:guard
+(exists
+((x8 Int) (x7 Int))
+(and
+(and
+(and
+(and
+(and
+(and (and (and (< arg2 100) (> arg3 arg2)) (> arg2 (- 1))) (< arg2 99))
+(<= x8 x7))
+(> arg1 0))
+(= arg1 arg1P))
+(= (+ arg2 1) arg2P))
+(= (- 100 arg1) arg3P))
+)
+)
+
+(rule
+(f543_0_sort_GE arg1 arg2 arg3)
+(f543_0_sort_GE arg1P arg2P arg3P)
+:guard
+(exists
+((x13 Int) (x12 Int))
+(and
+(and
+(and
+(and
+(and
+(and (and (and (< arg2 100) (> arg3 arg2)) (> arg2 (- 1))) (< arg2 99))
+(> arg1 0))
+(> x13 x12))
+(= arg1 arg1P))
+(= (+ arg2 1) arg2P))
+(= (- 100 arg1) arg3P))
+)
+)
+
+(rule
+(__init arg1 arg2 arg3)
+(f1_0_main_ConstantStackPush arg1P arg2P arg3P))
+

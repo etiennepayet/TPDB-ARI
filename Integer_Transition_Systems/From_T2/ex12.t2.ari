@@ -1,0 +1,51 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int))
+(fun l1 (-> Int Int Int Int))
+(fun l2 (-> Int Int Int Int))
+(fun l3 (-> Int Int Int Int))
+(fun l4 (-> Int Int Int Int))
+(entrypoint l4)
+(rule
+(l0 __const_20^0 i^0 j^0)
+(l1 __const_20^post i^post j^post)
+:guard
+(and
+(and
+(and (<= (+ 0 __const_20^0) (+ 0 j^0)) (= __const_20^0 __const_20^post))
+(= i^0 i^post))
+(= j^0 j^post))
+)
+
+(rule
+(l0 __const_20^0 i^0 j^0)
+(l2 __const_20^post i^post j^post)
+:guard
+(and
+(and
+(and (<= (+ 1 j^0) (+ 0 __const_20^0)) (= __const_20^0 __const_20^post))
+(= i^0 i^post))
+(= j^0 j^post))
+)
+
+(rule
+(l2 __const_20^0 i^0 j^0)
+(l0 __const_20^post i^post j^post)
+:guard
+(and
+(and (= j^post (+ 2 j^0)) (= i^post (+ 2 j^post)))
+(= __const_20^0 __const_20^post))
+)
+
+(rule
+(l3 __const_20^0 i^0 j^0)
+(l2 __const_20^post i^post j^post)
+:guard
+(and (and (= j^post 0) (= __const_20^0 __const_20^post)) (= i^0 i^post)))
+
+(rule
+(l4 __const_20^0 i^0 j^0)
+(l3 __const_20^post i^post j^post)
+:guard
+(and (and (= __const_20^0 __const_20^post) (= i^0 i^post)) (= j^0 j^post)))
+

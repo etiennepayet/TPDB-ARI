@@ -1,0 +1,127 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int Int))
+(fun l5 (-> Int Int Int Int Int Int Int))
+(entrypoint l5)
+(rule
+(l0 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
+(l1 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
+:guard
+(exists
+((i_13^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and (= i_13^1 (+ 0 s_17^0)) (= j_15^post (+ 0 s_16^0)))
+(= i_13^post (+ 0 j_15^post)))
+(= rt_11^0 rt_11^post))
+(= s_16^0 s_16^post))
+(= s_17^0 s_17^post))
+(= st_14^0 st_14^post))
+)
+)
+
+(rule
+(l2 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
+(l3 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (<= 500 (+ 0 i_13^0)) (= rt_11^post (+ 0 st_14^0)))
+(= i_13^0 i_13^post))
+(= j_15^0 j_15^post))
+(= s_16^0 s_16^post))
+(= s_17^0 s_17^post))
+(= st_14^0 st_14^post))
+)
+
+(rule
+(l2 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
+(l4 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 i_13^0) 500) (= i_13^post (+ 1 i_13^0)))
+(= j_15^0 j_15^post))
+(= rt_11^0 rt_11^post))
+(= s_16^0 s_16^post))
+(= s_17^0 s_17^post))
+(= st_14^0 st_14^post))
+)
+
+(rule
+(l4 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
+(l2 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= i_13^0 i_13^post) (= j_15^0 j_15^post))
+(= rt_11^0 rt_11^post))
+(= s_16^0 s_16^post))
+(= s_17^0 s_17^post))
+(= st_14^0 st_14^post))
+)
+
+(rule
+(l1 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
+(l3 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (<= 500 (+ 0 i_13^0)) (= rt_11^post (+ 0 st_14^0)))
+(= i_13^0 i_13^post))
+(= j_15^0 j_15^post))
+(= s_16^0 s_16^post))
+(= s_17^0 s_17^post))
+(= st_14^0 st_14^post))
+)
+
+(rule
+(l1 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
+(l2 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 i_13^0) 500) (= i_13^post (+ 1 i_13^0)))
+(= j_15^0 j_15^post))
+(= rt_11^0 rt_11^post))
+(= s_16^0 s_16^post))
+(= s_17^0 s_17^post))
+(= st_14^0 st_14^post))
+)
+
+(rule
+(l5 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
+(l0 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= i_13^0 i_13^post) (= j_15^0 j_15^post))
+(= rt_11^0 rt_11^post))
+(= s_16^0 s_16^post))
+(= s_17^0 s_17^post))
+(= st_14^0 st_14^post))
+)
+

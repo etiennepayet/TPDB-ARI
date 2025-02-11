@@ -1,0 +1,559 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int))
+(fun l10 (-> Int Int Int Int Int Int))
+(fun l11 (-> Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int))
+(fun l5 (-> Int Int Int Int Int Int))
+(fun l6 (-> Int Int Int Int Int Int))
+(fun l7 (-> Int Int Int Int Int Int))
+(fun l8 (-> Int Int Int Int Int Int))
+(fun l9 (-> Int Int Int Int Int Int))
+(entrypoint l11)
+(rule
+(l0 a^0 b^0 c^0 d^0 e^0)
+(l1 a^post b^post c^post d^post e^post)
+:guard
+(exists
+((a^1 Int)
+(a^2 Int)
+(a^3 Int)
+(b^1 Int)
+(b^2 Int)
+(b^3 Int)
+(c^1 Int)
+(c^2 Int)
+(c^3 Int)
+(d^1 Int)
+(d^2 Int)
+(d^3 Int)
+(e^1 Int)
+(e^2 Int)
+(e^3 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 e^0)) (= e^1 (+ 0 e^0))) (= d^1 (+ 0 d^0)))
+(= c^1 (+ 0 c^0)))
+(= b^1 (+ 0 b^0)))
+(= a^1 (+ 0 a^0)))
+(= e^2 (+ 0 e^1)))
+(= d^2 (+ 0 d^1)))
+(= c^2 (+ 0 c^1)))
+(= b^2 (+ 0 b^1)))
+(= a^2 (+ 0 a^1)))
+(= e^3 (+ 0 e^2)))
+(= d^3 (+ 0 d^2)))
+(= c^3 (+ 0 c^2)))
+(= b^3 (+ 0 b^2)))
+(= a^3 (+ 0 a^2)))
+(= e^post (+ 0 e^3)))
+(= d^post (+ 0 d^3)))
+(= c^post (+ 0 c^3)))
+(= b^post (+ 0 b^3)))
+(= a^post (+ 0 a^3)))
+)
+)
+
+(rule
+(l0 a^0 b^0 c^0 d^0 e^0)
+(l2 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and (and (<= (+ 1 e^0) 0) (= e^post (+ 0 e^0))) (= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l3 a^0 b^0 c^0 d^0 e^0)
+(l0 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and
+(and (<= (+ 0 d^0) (+ 0 c^0)) (= e^post (+ 0 e^0)))
+(= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l3 a^0 b^0 c^0 d^0 e^0)
+(l2 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and
+(and (<= (+ 1 c^0) (+ 0 d^0)) (= e^post (+ 0 e^0)))
+(= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l4 a^0 b^0 c^0 d^0 e^0)
+(l3 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 b^0)) (= e^post (+ 0 e^0))) (= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l4 a^0 b^0 c^0 d^0 e^0)
+(l2 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and (and (<= (+ 1 b^0) 0) (= e^post (+ 0 e^0))) (= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l2 a^0 b^0 c^0 d^0 e^0)
+(l5 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 a^0)) (= e^post (+ 0 e^0))) (= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l2 a^0 b^0 c^0 d^0 e^0)
+(l6 a^post b^post c^post d^post e^post)
+:guard
+(exists
+((a^1 Int)
+(a^2 Int)
+(a^3 Int)
+(b^1 Int)
+(b^2 Int)
+(b^3 Int)
+(c^1 Int)
+(c^2 Int)
+(c^3 Int)
+(d^1 Int)
+(d^2 Int)
+(d^3 Int)
+(e^1 Int)
+(e^2 Int)
+(e^3 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 a^0) 0) (= e^1 (+ 0 e^0))) (= d^1 (+ 0 d^0)))
+(= c^1 (+ 0 c^0)))
+(= b^1 (+ 0 b^0)))
+(= a^1 (+ 0 a^0)))
+(= e^2 (+ 0 e^1)))
+(= d^2 (+ 0 d^1)))
+(= c^2 (+ 0 c^1)))
+(= b^2 (+ 0 b^1)))
+(= a^2 (+ 0 (* -1 a^1))))
+(= e^3 (+ 0 e^2)))
+(= d^3 (+ 0 d^2)))
+(= c^3 (+ 0 c^2)))
+(= b^3 (+ (+ 0 (* -1 a^2)) b^2)))
+(= a^3 (+ 0 a^2)))
+(= e^post (+ (+ 0 (* -1 a^3)) e^3)))
+(= d^post (+ 0 d^3)))
+(= c^post (+ 0 c^3)))
+(= b^post (+ 0 b^3)))
+(= a^post (+ 0 a^3)))
+)
+)
+
+(rule
+(l7 a^0 b^0 c^0 d^0 e^0)
+(l6 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 e^0)) (= e^post (+ 0 e^0))) (= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l7 a^0 b^0 c^0 d^0 e^0)
+(l6 a^post b^post c^post d^post e^post)
+:guard
+(exists
+((a^1 Int)
+(a^2 Int)
+(a^3 Int)
+(b^1 Int)
+(b^2 Int)
+(b^3 Int)
+(c^1 Int)
+(c^2 Int)
+(c^3 Int)
+(d^1 Int)
+(d^2 Int)
+(d^3 Int)
+(e^1 Int)
+(e^2 Int)
+(e^3 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 e^0) 0) (= e^1 (+ 0 e^0))) (= d^1 (+ 0 d^0)))
+(= c^1 (+ 0 c^0)))
+(= b^1 (+ 0 b^0)))
+(= a^1 (+ 0 a^0)))
+(= e^2 (+ 0 (* -1 e^1))))
+(= d^2 (+ 0 d^1)))
+(= c^2 (+ 0 c^1)))
+(= b^2 (+ 0 b^1)))
+(= a^2 (+ 0 a^1)))
+(= e^3 (+ 0 e^2)))
+(= d^3 (+ (+ 0 d^2) (* -1 e^3))))
+(= c^3 (+ 0 c^2)))
+(= b^3 (+ 0 b^2)))
+(= a^3 (+ 0 a^2)))
+(= e^post (+ 0 e^3)))
+(= d^post (+ 0 d^3)))
+(= c^post (+ 0 c^3)))
+(= b^post (+ 0 b^3)))
+(= a^post (+ (+ 0 a^3) (* -1 e^post))))
+)
+)
+
+(rule
+(l8 a^0 b^0 c^0 d^0 e^0)
+(l4 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 a^0)) (= e^post (+ 0 e^0))) (= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l8 a^0 b^0 c^0 d^0 e^0)
+(l2 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and (and (<= (+ 1 a^0) 0) (= e^post (+ 0 e^0))) (= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l9 a^0 b^0 c^0 d^0 e^0)
+(l7 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 d^0)) (= e^post (+ 0 e^0))) (= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l9 a^0 b^0 c^0 d^0 e^0)
+(l6 a^post b^post c^post d^post e^post)
+:guard
+(exists
+((a^1 Int)
+(a^2 Int)
+(a^3 Int)
+(b^1 Int)
+(b^2 Int)
+(b^3 Int)
+(c^1 Int)
+(c^2 Int)
+(c^3 Int)
+(d^1 Int)
+(d^2 Int)
+(d^3 Int)
+(e^1 Int)
+(e^2 Int)
+(e^3 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 d^0) 0) (= e^1 (+ 0 e^0))) (= d^1 (+ 0 d^0)))
+(= c^1 (+ 0 c^0)))
+(= b^1 (+ 0 b^0)))
+(= a^1 (+ 0 a^0)))
+(= e^2 (+ 0 e^1)))
+(= d^2 (+ 0 (* -1 d^1))))
+(= c^2 (+ 0 c^1)))
+(= b^2 (+ 0 b^1)))
+(= a^2 (+ 0 a^1)))
+(= e^3 (+ 0 e^2)))
+(= d^3 (+ 0 d^2)))
+(= c^3 (+ (+ 0 c^2) (* -1 d^3))))
+(= b^3 (+ 0 b^2)))
+(= a^3 (+ 0 a^2)))
+(= e^post (+ (+ 0 (* -1 d^3)) e^3)))
+(= d^post (+ 0 d^3)))
+(= c^post (+ 0 c^3)))
+(= b^post (+ 0 b^3)))
+(= a^post (+ 0 a^3)))
+)
+)
+
+(rule
+(l10 a^0 b^0 c^0 d^0 e^0)
+(l9 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 c^0)) (= e^post (+ 0 e^0))) (= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l10 a^0 b^0 c^0 d^0 e^0)
+(l6 a^post b^post c^post d^post e^post)
+:guard
+(exists
+((a^1 Int)
+(a^2 Int)
+(a^3 Int)
+(b^1 Int)
+(b^2 Int)
+(b^3 Int)
+(c^1 Int)
+(c^2 Int)
+(c^3 Int)
+(d^1 Int)
+(d^2 Int)
+(d^3 Int)
+(e^1 Int)
+(e^2 Int)
+(e^3 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 c^0) 0) (= e^1 (+ 0 e^0))) (= d^1 (+ 0 d^0)))
+(= c^1 (+ 0 c^0)))
+(= b^1 (+ 0 b^0)))
+(= a^1 (+ 0 a^0)))
+(= e^2 (+ 0 e^1)))
+(= d^2 (+ 0 d^1)))
+(= c^2 (+ 0 (* -1 c^1))))
+(= b^2 (+ 0 b^1)))
+(= a^2 (+ 0 a^1)))
+(= e^3 (+ 0 e^2)))
+(= d^3 (+ 0 d^2)))
+(= c^3 (+ 0 c^2)))
+(= b^3 (+ (+ 0 b^2) (* -1 c^3))))
+(= a^3 (+ 0 a^2)))
+(= e^post (+ 0 e^3)))
+(= d^post (+ (+ 0 (* -1 c^3)) d^3)))
+(= c^post (+ 0 c^3)))
+(= b^post (+ 0 b^3)))
+(= a^post (+ 0 a^3)))
+)
+)
+
+(rule
+(l5 a^0 b^0 c^0 d^0 e^0)
+(l10 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 b^0)) (= e^post (+ 0 e^0))) (= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l5 a^0 b^0 c^0 d^0 e^0)
+(l6 a^post b^post c^post d^post e^post)
+:guard
+(exists
+((a^1 Int)
+(a^2 Int)
+(a^3 Int)
+(b^1 Int)
+(b^2 Int)
+(b^3 Int)
+(c^1 Int)
+(c^2 Int)
+(c^3 Int)
+(d^1 Int)
+(d^2 Int)
+(d^3 Int)
+(e^1 Int)
+(e^2 Int)
+(e^3 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 b^0) 0) (= e^1 (+ 0 e^0))) (= d^1 (+ 0 d^0)))
+(= c^1 (+ 0 c^0)))
+(= b^1 (+ 0 b^0)))
+(= a^1 (+ 0 a^0)))
+(= e^2 (+ 0 e^1)))
+(= d^2 (+ 0 d^1)))
+(= c^2 (+ 0 c^1)))
+(= b^2 (+ 0 (* -1 b^1))))
+(= a^2 (+ 0 a^1)))
+(= e^3 (+ 0 e^2)))
+(= d^3 (+ 0 d^2)))
+(= c^3 (+ 0 c^2)))
+(= b^3 (+ 0 b^2)))
+(= a^3 (+ (+ 0 a^2) (* -1 b^3))))
+(= e^post (+ 0 e^3)))
+(= d^post (+ 0 d^3)))
+(= c^post (+ (+ 0 (* -1 b^3)) c^3)))
+(= b^post (+ 0 b^3)))
+(= a^post (+ 0 a^3)))
+)
+)
+
+(rule
+(l6 a^0 b^0 c^0 d^0 e^0)
+(l8 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and
+(and (= e^post (+ 0 e^0)) (= d^post (+ 0 d^0)))
+(= c^post (+ 0 c^0)))
+(= b^post (+ 0 b^0)))
+(= a^post (+ 0 a^0)))
+)
+
+(rule
+(l11 a^0 b^0 c^0 d^0 e^0)
+(l6 a^post b^post c^post d^post e^post)
+:guard
+(and
+(and
+(and (and (= a^0 a^post) (= b^0 b^post)) (= c^0 c^post))
+(= d^0 d^post))
+(= e^0 e^post))
+)
+

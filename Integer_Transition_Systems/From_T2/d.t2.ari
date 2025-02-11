@@ -1,0 +1,68 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int))
+(entrypoint l3)
+(rule
+(l0 elem_13^0 l_11^0 len_98^0 x_12^0)
+(l1 elem_13^post l_11^post len_98^post x_12^post)
+:guard
+(exists
+((len_98^1 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 1 len_98^0)) (<= 1 (+ 0 len_98^0)))
+(= len_98^1 len_98^1))
+(= elem_13^post (+ 0 l_11^0)))
+(<= 1 (+ 1 len_98^1)))
+(<= 1 (+ 0 len_98^1)))
+(= len_98^post len_98^post))
+(<= 0 (+ 0 (* -1 elem_13^post))))
+(<= (+ 0 (* -1 elem_13^post)) 0))
+(= l_11^post (+ 0 x_12^0)))
+(= x_12^0 x_12^post))
+)
+)
+
+(rule
+(l1 elem_13^0 l_11^0 len_98^0 x_12^0)
+(l0 elem_13^post l_11^post len_98^post x_12^post)
+:guard
+(and
+(and
+(and (= elem_13^0 elem_13^post) (= l_11^0 l_11^post))
+(= len_98^0 len_98^post))
+(= x_12^0 x_12^post))
+)
+
+(rule
+(l2 elem_13^0 l_11^0 len_98^0 x_12^0)
+(l0 elem_13^post l_11^post len_98^post x_12^post)
+:guard
+(and
+(and
+(and (= elem_13^0 elem_13^post) (= l_11^0 l_11^post))
+(= len_98^0 len_98^post))
+(= x_12^0 x_12^post))
+)
+
+(rule
+(l3 elem_13^0 l_11^0 len_98^0 x_12^0)
+(l2 elem_13^post l_11^post len_98^post x_12^post)
+:guard
+(and
+(and
+(and (= elem_13^0 elem_13^post) (= l_11^0 l_11^post))
+(= len_98^0 len_98^post))
+(= x_12^0 x_12^post))
+)
+

@@ -1,0 +1,54 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int))
+(fun f100_0_loop_InvokeMethod (-> Int Int Int Int Int))
+(fun f1_0_main_ConstantStackPush (-> Int Int Int Int Int))
+(fun f79_0_loop_GE (-> Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_ConstantStackPush arg1 arg2 arg3 arg4)
+(f79_0_loop_GE arg1P arg2P arg3P arg4P)
+:guard
+(and (and (and (= 2 arg1P) (= 2 arg2P)) (= 2 arg3P)) (= 0 arg4P)))
+
+(rule
+(f79_0_loop_GE arg1 arg2 arg3 arg4)
+(f100_0_loop_InvokeMethod arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and (and (and (> arg4 arg2) (> arg2 0)) (= arg2 arg3)) (= arg1 arg1P))
+(= (+ arg2 4) arg2P))
+(= arg4 arg3P))
+)
+
+(rule
+(f79_0_loop_GE arg1 arg2 arg3 arg4)
+(f100_0_loop_InvokeMethod arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and (and (and (<= arg4 arg2) (> arg2 0)) (> arg4 (- 1))) (= arg2 arg3))
+(= arg1 arg1P))
+(= (+ arg2 2) arg2P))
+(= (+ arg4 1) arg3P))
+)
+
+(rule
+(f100_0_loop_InvokeMethod arg1 arg2 arg3 arg4)
+(f79_0_loop_GE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and (and (and (> arg3 0) (> arg1 1)) (> arg2 1)) (= arg2 arg1P))
+(= arg2 arg2P))
+(= arg2 arg3P))
+(= arg3 arg4P))
+)
+
+(rule
+(__init arg1 arg2 arg3 arg4)
+(f1_0_main_ConstantStackPush arg1P arg2P arg3P arg4P))
+

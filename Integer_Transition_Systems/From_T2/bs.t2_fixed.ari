@@ -1,0 +1,254 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int Int Int))
+(fun l5 (-> Int Int Int Int Int Int Int Int))
+(fun l6 (-> Int Int Int Int Int Int Int Int))
+(entrypoint l6)
+(rule
+(l0 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
+(l1
+fvalue3^post
+low6^post
+mid4^post
+ret_binary_search7^post
+tmp^post
+up5^post
+x2^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (= fvalue3^0 fvalue3^post) (= low6^0 low6^post))
+(= mid4^0 mid4^post))
+(= ret_binary_search7^0 ret_binary_search7^post))
+(= tmp^0 tmp^post))
+(= up5^0 up5^post))
+(= x2^0 x2^post))
+)
+
+(rule
+(l0 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
+(l2
+fvalue3^post
+low6^post
+mid4^post
+ret_binary_search7^post
+tmp^post
+up5^post
+x2^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (= up5^post (+ -1 low6^0)) (= fvalue3^post fvalue3^post))
+(= low6^0 low6^post))
+(= mid4^0 mid4^post))
+(= ret_binary_search7^0 ret_binary_search7^post))
+(= tmp^0 tmp^post))
+(= x2^0 x2^post))
+)
+
+(rule
+(l0 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
+(l1
+fvalue3^post
+low6^post
+mid4^post
+ret_binary_search7^post
+tmp^post
+up5^post
+x2^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (= fvalue3^0 fvalue3^post) (= low6^0 low6^post))
+(= mid4^0 mid4^post))
+(= ret_binary_search7^0 ret_binary_search7^post))
+(= tmp^0 tmp^post))
+(= up5^0 up5^post))
+(= x2^0 x2^post))
+)
+
+(rule
+(l3 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
+(l4
+fvalue3^post
+low6^post
+mid4^post
+ret_binary_search7^post
+tmp^post
+up5^post
+x2^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(<= (+ 1 up5^0) (+ 0 low6^0))
+(= ret_binary_search7^post (+ 0 fvalue3^0)))
+(= tmp^post (+ 0 ret_binary_search7^post)))
+(= fvalue3^0 fvalue3^post))
+(= low6^0 low6^post))
+(= mid4^0 mid4^post))
+(= up5^0 up5^post))
+(= x2^0 x2^post))
+)
+
+(rule
+(l3 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
+(l0
+fvalue3^post
+low6^post
+mid4^post
+ret_binary_search7^post
+tmp^post
+up5^post
+x2^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 low6^0) (+ 0 up5^0)) (= mid4^post mid4^post))
+(= fvalue3^0 fvalue3^post))
+(= low6^0 low6^post))
+(= ret_binary_search7^0 ret_binary_search7^post))
+(= tmp^0 tmp^post))
+(= up5^0 up5^post))
+(= x2^0 x2^post))
+)
+
+(rule
+(l2 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
+(l3
+fvalue3^post
+low6^post
+mid4^post
+ret_binary_search7^post
+tmp^post
+up5^post
+x2^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (= fvalue3^0 fvalue3^post) (= low6^0 low6^post))
+(= mid4^0 mid4^post))
+(= ret_binary_search7^0 ret_binary_search7^post))
+(= tmp^0 tmp^post))
+(= up5^0 up5^post))
+(= x2^0 x2^post))
+)
+
+(rule
+(l1 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
+(l2
+fvalue3^post
+low6^post
+mid4^post
+ret_binary_search7^post
+tmp^post
+up5^post
+x2^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (= low6^post (+ 1 mid4^0)) (= fvalue3^0 fvalue3^post))
+(= mid4^0 mid4^post))
+(= ret_binary_search7^0 ret_binary_search7^post))
+(= tmp^0 tmp^post))
+(= up5^0 up5^post))
+(= x2^0 x2^post))
+)
+
+(rule
+(l1 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
+(l2
+fvalue3^post
+low6^post
+mid4^post
+ret_binary_search7^post
+tmp^post
+up5^post
+x2^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (= up5^post (+ -1 mid4^0)) (= fvalue3^0 fvalue3^post))
+(= low6^0 low6^post))
+(= mid4^0 mid4^post))
+(= ret_binary_search7^0 ret_binary_search7^post))
+(= tmp^0 tmp^post))
+(= x2^0 x2^post))
+)
+
+(rule
+(l5 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
+(l2
+fvalue3^post
+low6^post
+mid4^post
+ret_binary_search7^post
+tmp^post
+up5^post
+x2^post)
+:guard
+(and
+(and
+(and
+(and
+(and (and (= x2^post 8) (= low6^post 0)) (= up5^post 14))
+(= fvalue3^post -1))
+(= mid4^0 mid4^post))
+(= ret_binary_search7^0 ret_binary_search7^post))
+(= tmp^0 tmp^post))
+)
+
+(rule
+(l6 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
+(l5
+fvalue3^post
+low6^post
+mid4^post
+ret_binary_search7^post
+tmp^post
+up5^post
+x2^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (= fvalue3^0 fvalue3^post) (= low6^0 low6^post))
+(= mid4^0 mid4^post))
+(= ret_binary_search7^0 ret_binary_search7^post))
+(= tmp^0 tmp^post))
+(= up5^0 up5^post))
+(= x2^0 x2^post))
+)
+

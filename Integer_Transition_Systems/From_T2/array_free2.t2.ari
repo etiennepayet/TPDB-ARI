@@ -1,0 +1,31 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int))
+(fun l1 (-> Int Int))
+(fun l2 (-> Int Int))
+(fun l3 (-> Int Int))
+(fun l4 (-> Int Int))
+(fun l5 (-> Int Int))
+(fun l6 (-> Int Int))
+(fun l7 (-> Int Int))
+(entrypoint l7)
+(rule (l0 i1^0) (l1 i1^post) :guard (= i1^post (+ 1 i1^0)))
+(rule (l2 i1^0) (l0 i1^post) :guard (= i1^0 i1^post))
+(rule (l3 i1^0) (l2 i1^post) :guard (= i1^0 i1^post))
+(rule (l3 i1^0) (l0 i1^post) :guard (= i1^0 i1^post))
+(rule (l3 i1^0) (l2 i1^post) :guard (= i1^0 i1^post))
+(rule
+(l4 i1^0)
+(l5 i1^post)
+:guard
+(and (<= 42 (+ 0 i1^0)) (= i1^0 i1^post)))
+
+(rule
+(l4 i1^0)
+(l3 i1^post)
+:guard
+(and (<= (+ 1 i1^0) 42) (= i1^0 i1^post)))
+
+(rule (l1 i1^0) (l4 i1^post) :guard (= i1^0 i1^post))
+(rule (l6 i1^0) (l1 i1^post) :guard (= i1^post 0))
+(rule (l7 i1^0) (l6 i1^post) :guard (= i1^0 i1^post))
