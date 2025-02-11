@@ -29,7 +29,7 @@
   (f3 A B C D E F G H I J K L M N O P)
   (f4 T V S Y X F G R U W Z B1 O Q O P)
   :guard
-  (and (>= 0 R) (>= 0 A1)))
+  (exists ((A1 Int)) (and (>= 0 R) (>= 0 A1))))
 
 (rule
   (f3 A B C D E F G H I J K L M N O P)

@@ -117,7 +117,7 @@
   (f1 A B C D E F G H I J K L M N O P Q R S T U)
   (f1 A B C D E F G 256 V W X Y Z B1 C1 D1 Q R S T U)
   :guard
-  (and (and (>= A1 1) (= (+ F 1) G)) (= H 256)))
+  (exists ((A1 Int)) (and (and (>= A1 1) (= (+ F 1) G)) (= H 256))))
 
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R S T U)
@@ -129,7 +129,10 @@
   (f1 A B C D E F G H I J K L M N O P Q R S T U)
   (f1 A B C D E F G H V W X Y Z B1 C1 D1 256 R S T U)
   :guard
-  (and (and (and (>= A1 1) (>= G (+ 1 F))) (>= G (+ 2 F))) (= Q 256)))
+  (exists
+    ((A1 Int))
+    (and (and (and (>= A1 1) (>= G (+ 1 F))) (>= G (+ 2 F))) (= Q 256)))
+  )
 
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R S T U)

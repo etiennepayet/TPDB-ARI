@@ -42,13 +42,13 @@
   (evalrealbubblebb1in A B C D)
   (evalrealbubblebb2in A B C D)
   :guard
-  (>= E (+ F 1)))
+  (exists ((E Int) (F Int)) (>= E (+ F 1))))
 
 (rule
   (evalrealbubblebb1in A B C D)
   (evalrealbubblebb3in A B C C)
   :guard
-  (>= F E))
+  (exists ((E Int) (F Int)) (>= F E)))
 
 (rule (evalrealbubblebb2in A B C D) (evalrealbubblebb3in A B C 1))
 (rule (evalrealbubblebb3in A B C D) (evalrealbubblebb4in A (+ B 1) D D))

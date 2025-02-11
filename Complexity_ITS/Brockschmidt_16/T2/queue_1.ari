@@ -8,15 +8,35 @@
 (fun f8 (-> Int Int Int Int))
 (entrypoint f0)
 (rule (f0 A B C) (f8 0 B C))
-(rule (f8 A B C) (f14 A A C) :guard (and (>= 0 A) (>= 0 D)))
+(rule
+  (f8 A B C)
+  (f14 A A C)
+  :guard
+  (exists ((D Int)) (and (>= 0 A) (>= 0 D))))
+
 (rule (f8 A B C) (f14 A A C) :guard (>= 0 A))
-(rule (f23 A B C) (f28 A B D) :guard (and (>= 0 A) (>= 0 (+ E 1))))
+(rule
+  (f23 A B C)
+  (f28 A B D)
+  :guard
+  (exists ((E Int)) (and (>= 0 A) (>= 0 (+ E 1)))))
+
 (rule (f23 A B C) (f28 A B D) :guard (>= 0 A))
 (rule (f23 A B C) (f23 (+ A 1) B C) :guard (>= 0 A))
 (rule (f28 A B C) (f23 (+ A 1) B C))
-(rule (f28 A B C) (f23 (+ A 1) B C) :guard (>= 0 (+ D 1)))
+(rule
+  (f28 A B C)
+  (f23 (+ A 1) B C)
+  :guard
+  (exists ((D Int)) (>= 0 (+ D 1))))
+
 (rule (f23 A B C) (f38 A B C) :guard (>= A 1))
 (rule (f8 A B C) (f8 (+ A 1) A C) :guard (>= 0 A))
 (rule (f14 A B C) (f8 (+ A 1) B C))
-(rule (f14 A B C) (f8 (+ A 1) B C) :guard (>= 0 (+ D 1)))
+(rule
+  (f14 A B C)
+  (f8 (+ A 1) B C)
+  :guard
+  (exists ((D Int)) (>= 0 (+ D 1))))
+
 (rule (f8 A B C) (f23 0 B C) :guard (>= A 1))

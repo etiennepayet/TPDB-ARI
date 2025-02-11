@@ -176,33 +176,9 @@
     v_i_0
     v_j_0)
   :guard
-  (and (and (= v_array_size_sink 0) (= nondef_0 0)) (<= nondef_0 0)))
-
-(rule
-  (eval_realshellsort_bb1_in
-    v_0
-    v_21
-    v_5
-    v_array_size
-    v_array_size_sink
-    v_i_0
-    v_j_0)
-  (eval_realshellsort_bb7_in
-    v_0
-    v_21
-    v_5
-    v_array_size
-    v_array_size_sink
-    v_i_0
-    v_j_0)
-  :guard
-  (and
-    (and
-      (and
-        (and (> v_array_size_sink 0) (>= nondef_0 0))
-        (>= (- v_array_size_sink (* 2 nondef_0)) 0))
-      (< (- v_array_size_sink (* 2 nondef_0)) 2))
-    (<= nondef_0 0))
+  (exists
+    ((nondef_0 Int))
+    (and (and (= v_array_size_sink 0) (= nondef_0 0)) (<= nondef_0 0)))
   )
 
 (rule
@@ -223,13 +199,46 @@
     v_i_0
     v_j_0)
   :guard
-  (and
+  (exists
+    ((nondef_0 Int))
     (and
       (and
-        (and (< v_array_size_sink 0) (<= nondef_0 0))
-        (>= (+ (- v_array_size_sink) (* 2 nondef_0)) 0))
-      (< (+ (- v_array_size_sink) (* 2 nondef_0)) 2))
-    (<= nondef_0 0))
+        (and
+          (and (> v_array_size_sink 0) (>= nondef_0 0))
+          (>= (- v_array_size_sink (* 2 nondef_0)) 0))
+        (< (- v_array_size_sink (* 2 nondef_0)) 2))
+      (<= nondef_0 0))
+    )
+  )
+
+(rule
+  (eval_realshellsort_bb1_in
+    v_0
+    v_21
+    v_5
+    v_array_size
+    v_array_size_sink
+    v_i_0
+    v_j_0)
+  (eval_realshellsort_bb7_in
+    v_0
+    v_21
+    v_5
+    v_array_size
+    v_array_size_sink
+    v_i_0
+    v_j_0)
+  :guard
+  (exists
+    ((nondef_0 Int))
+    (and
+      (and
+        (and
+          (and (< v_array_size_sink 0) (<= nondef_0 0))
+          (>= (+ (- v_array_size_sink) (* 2 nondef_0)) 0))
+        (< (+ (- v_array_size_sink) (* 2 nondef_0)) 2))
+      (<= nondef_0 0))
+    )
   )
 
 (rule
@@ -342,7 +351,7 @@
     v_i_0
     v_j_0)
   :guard
-  (> nondef_2 v_5))
+  (exists ((nondef_2 Int)) (> nondef_2 v_5)))
 
 (rule
   (eval_realshellsort_bb5_in
@@ -362,7 +371,7 @@
     v_i_0
     v_j_0)
   :guard
-  (<= nondef_2 v_5))
+  (exists ((nondef_2 Int)) (<= nondef_2 v_5)))
 
 (rule
   (eval_realshellsort_bb6_in

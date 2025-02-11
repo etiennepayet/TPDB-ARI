@@ -16,8 +16,18 @@
 (rule (evalEx4bb4in A B C D) (evalEx4returnin A B C D) :guard (>= A 2))
 (rule (evalEx4bb2in A B C D) (evalEx4bb4in C D C D) :guard (>= 0 D))
 (rule (evalEx4bb2in A B C D) (evalEx4bb3in A B C D) :guard (>= D 1))
-(rule (evalEx4bb3in A B C D) (evalEx4bb1in A B C D) :guard (>= 0 (+ E 1)))
-(rule (evalEx4bb3in A B C D) (evalEx4bb1in A B C D) :guard (>= E 1))
+(rule
+  (evalEx4bb3in A B C D)
+  (evalEx4bb1in A B C D)
+  :guard
+  (exists ((E Int)) (>= 0 (+ E 1))))
+
+(rule
+  (evalEx4bb3in A B C D)
+  (evalEx4bb1in A B C D)
+  :guard
+  (exists ((E Int)) (>= E 1)))
+
 (rule (evalEx4bb3in A B C D) (evalEx4bb4in C D C D))
 (rule (evalEx4bb1in A B C D) (evalEx4bb2in A B 1 (- D 1)))
 (rule (evalEx4returnin A B C D) (evalEx4stop A B C D))

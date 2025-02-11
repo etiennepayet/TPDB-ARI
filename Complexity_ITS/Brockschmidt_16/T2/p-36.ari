@@ -105,7 +105,7 @@
   (f1 A B C D E F G H I J K L M N O P Q R)
   (f1 A B C D E F G 256 S T U V W Y O P Q R)
   :guard
-  (and (and (>= G (+ 1 F)) (>= X 1)) (= H 256)))
+  (exists ((X Int)) (and (and (>= G (+ 1 F)) (>= X 1)) (= H 256))))
 
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R)

@@ -88,13 +88,13 @@
   (eval_insertsort_bb4_in v_20 v_3 v_i_0 v_j_0 v_length)
   (eval_insertsort_bb5_in v_20 v_3 v_i_0 v_j_0 v_length)
   :guard
-  (> nondef_1 v_3))
+  (exists ((nondef_1 Int)) (> nondef_1 v_3)))
 
 (rule
   (eval_insertsort_bb4_in v_20 v_3 v_i_0 v_j_0 v_length)
   (eval_insertsort_bb6_in v_20 v_3 v_i_0 v_j_0 v_length)
   :guard
-  (<= nondef_1 v_3))
+  (exists ((nondef_1 Int)) (<= nondef_1 v_3)))
 
 (rule
   (eval_insertsort_bb5_in v_20 v_3 v_i_0 v_j_0 v_length)

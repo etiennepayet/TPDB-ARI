@@ -717,7 +717,10 @@
     E2
     H1)
   :guard
-  (and (and (and (>= 0 N1) (>= 0 J1)) (>= 0 O1)) (= Y 0)))
+  (exists
+    ((N1 Int) (O1 Int))
+    (and (and (and (>= 0 N1) (>= 0 J1)) (>= 0 O1)) (= Y 0)))
+  )
 
 (rule
   (f0
@@ -939,17 +942,20 @@
     G1
     H1)
   :guard
-  (and
+  (exists
+    ((U1 Int) (V1 Int))
     (and
       (and
         (and
           (and
-            (and (and (and (>= U1 2) (>= H1 U1)) (>= V1 2)) (>= H1 V1))
-            (>= B A))
-          (>= B 0))
-        (>= I1 2))
-      (>= 0 (+ J 1)))
-    (>= H1 0))
+            (and
+              (and (and (and (>= U1 2) (>= H1 U1)) (>= V1 2)) (>= H1 V1))
+              (>= B A))
+            (>= B 0))
+          (>= I1 2))
+        (>= 0 (+ J 1)))
+      (>= H1 0))
+    )
   )
 
 (rule
@@ -1024,16 +1030,19 @@
     G1
     H1)
   :guard
-  (and
+  (exists
+    ((U1 Int) (V1 Int))
     (and
       (and
         (and
           (and
-            (and (and (and (>= U1 2) (>= H1 U1)) (>= V1 2)) (>= H1 V1))
-            (>= B A))
-          (>= B 0))
-        (>= I1 2))
-      (>= J 1))
-    (>= H1 0))
+            (and
+              (and (and (and (>= U1 2) (>= H1 U1)) (>= V1 2)) (>= H1 V1))
+              (>= B A))
+            (>= B 0))
+          (>= I1 2))
+        (>= J 1))
+      (>= H1 0))
+    )
   )
 

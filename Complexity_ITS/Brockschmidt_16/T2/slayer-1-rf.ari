@@ -609,7 +609,10 @@
     W1
     X1)
   :guard
-  (and (and (and (>= A 2) (>= Y1 A)) (>= B 0)) (= C 1)))
+  (exists
+    ((Y1 Int))
+    (and (and (and (>= A 2) (>= Y1 A)) (>= B 0)) (= C 1)))
+  )
 
 (rule
   (f13

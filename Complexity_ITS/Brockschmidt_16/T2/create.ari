@@ -20,7 +20,7 @@
   (f3 A B C D E F G H I J K L M N)
   (f4 R S Q V U F G P T W Y 0 O N)
   :guard
-  (and (>= 0 P) (>= 0 X)))
+  (exists ((X Int)) (and (>= 0 P) (>= 0 X))))
 
 (rule
   (f3 A B C D E F G H I J K L M N)

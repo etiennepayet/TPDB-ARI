@@ -293,15 +293,18 @@
   (f55 A B C D E F G H I J K L M N O P Q R)
   (f62 A B C D E F G H I J K S M N O P Q R)
   :guard
-  (and
+  (exists
+    ((T Int) (U Int) (V Int))
     (and
       (and
         (and
-          (and (and (>= J (* T U)) (>= (+ (* T U) T) (+ J 1))) (>= T S))
-          (>= J (* U V)))
-        (>= (+ (* U V) V) (+ J 1)))
-      (>= S V))
-    (>= D (+ 1 A)))
+          (and
+            (and (and (>= J (* T U)) (>= (+ (* T U) T) (+ J 1))) (>= T S))
+            (>= J (* U V)))
+          (>= (+ (* U V) V) (+ J 1)))
+        (>= S V))
+      (>= D (+ 1 A)))
+    )
   )
 
 (rule
@@ -350,13 +353,13 @@
   (f5 A B C D E F G H I J K L M N O P Q R)
   (f1 A B C D E F G H I J K L M N O P Q R)
   :guard
-  (and (>= B A) (>= 0 (+ S 1))))
+  (exists ((S Int)) (and (>= B A) (>= 0 (+ S 1)))))
 
 (rule
   (f5 A B C D E F G H I J K L M N O P Q R)
   (f1 A B C D E F G H I J K L M N O P Q R)
   :guard
-  (and (>= B A) (>= S 1)))
+  (exists ((S Int)) (and (>= B A) (>= S 1))))
 
 (rule
   (f5 A B C D E F G H I J K L M N O P Q R)

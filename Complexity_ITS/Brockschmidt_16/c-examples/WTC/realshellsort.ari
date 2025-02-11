@@ -82,13 +82,13 @@
   (evalrealshellsortbb4in A B C D E)
   (evalrealshellsortbb2in A B C D E)
   :guard
-  (>= F (+ D 1)))
+  (exists ((F Int)) (>= F (+ D 1))))
 
 (rule
   (evalrealshellsortbb4in A B C D E)
   (evalrealshellsortbb5in A B C D E)
   :guard
-  (>= D F))
+  (exists ((F Int)) (>= D F)))
 
 (rule
   (evalrealshellsortbb2in A B C D E)

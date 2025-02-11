@@ -18,8 +18,18 @@
 (rule (evalfbbin A B C D) (evalfbb2in A B (- B 1) (- (+ A B) 1)))
 (rule (evalfbb2in A B C D) (evalfbb4in A B C D) :guard (>= C (+ D 1)))
 (rule (evalfbb2in A B C D) (evalfbb3in A B C D) :guard (>= D C))
-(rule (evalfbb3in A B C D) (evalfbb1in A B C D) :guard (>= 0 (+ E 1)))
-(rule (evalfbb3in A B C D) (evalfbb1in A B C D) :guard (>= E 1))
+(rule
+  (evalfbb3in A B C D)
+  (evalfbb1in A B C D)
+  :guard
+  (exists ((E Int)) (>= 0 (+ E 1))))
+
+(rule
+  (evalfbb3in A B C D)
+  (evalfbb1in A B C D)
+  :guard
+  (exists ((E Int)) (>= E 1)))
+
 (rule (evalfbb3in A B C D) (evalfbb4in A B C D))
 (rule (evalfbb1in A B C D) (evalfbb2in A B C (- D 1)))
 (rule (evalfbb4in A B C D) (evalfbb5in (- D (+ C 1)) (- C 1) C D))

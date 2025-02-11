@@ -40,13 +40,13 @@
   (evalNestedLoopbb10in A B C D E F G H)
   (evalNestedLoopbb6in A B C D 0 D G H)
   :guard
-  (>= 0 (+ I 1)))
+  (exists ((I Int)) (>= 0 (+ I 1))))
 
 (rule
   (evalNestedLoopbb10in A B C D E F G H)
   (evalNestedLoopbb6in A B C D 0 D G H)
   :guard
-  (>= I 1))
+  (exists ((I Int)) (>= I 1)))
 
 (rule
   (evalNestedLoopbb10in A B C D E F G H)
@@ -68,13 +68,13 @@
   (evalNestedLoopbb7in A B C D E F G H)
   (evalNestedLoopbb1in A B C D E F G H)
   :guard
-  (>= 0 (+ I 1)))
+  (exists ((I Int)) (>= 0 (+ I 1))))
 
 (rule
   (evalNestedLoopbb7in A B C D E F G H)
   (evalNestedLoopbb1in A B C D E F G H)
   :guard
-  (>= I 1))
+  (exists ((I Int)) (>= I 1)))
 
 (rule
   (evalNestedLoopbb7in A B C D E F G H)
@@ -100,13 +100,13 @@
   (evalNestedLoopbb4in A B C D E F G H)
   (evalNestedLoopbb2in A B C D E F G H)
   :guard
-  (>= 0 (+ I 1)))
+  (exists ((I Int)) (>= 0 (+ I 1))))
 
 (rule
   (evalNestedLoopbb4in A B C D E F G H)
   (evalNestedLoopbb2in A B C D E F G H)
   :guard
-  (>= I 1))
+  (exists ((I Int)) (>= I 1)))
 
 (rule
   (evalNestedLoopbb4in A B C D E F G H)

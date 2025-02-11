@@ -48,19 +48,19 @@
   (f22 A B C D E F G H I J K L)
   (f19 A B 1 D E (+ F 1) 1 H I J K L)
   :guard
-  (and (>= M 0) (>= B (+ N 1))))
+  (exists ((M Int) (N Int)) (and (>= M 0) (>= B (+ N 1)))))
 
 (rule
   (f22 A B C D E F G H I J K L)
   (f19 A B 0 D E (+ F 1) 0 H I J K L)
   :guard
-  (>= M 0))
+  (exists ((M Int)) (>= M 0)))
 
 (rule
   (f22 A B C D E F G H I J K L)
   (f19 A B 0 D E (+ F 1) 0 H I J K L)
   :guard
-  (>= 0 (+ M 1)))
+  (exists ((M Int)) (>= 0 (+ M 1))))
 
 (rule
   (f19 A B C D E F G H I J K L)
@@ -90,7 +90,7 @@
   (f38 A B C D E F G H I J K L)
   (f35 1 B C D E F G (+ H 1) 1 J K L)
   :guard
-  (>= M (+ N 1)))
+  (exists ((M Int) (N Int)) (>= M (+ N 1))))
 
 (rule (f38 A B C D E F G H I J K L) (f35 1 B C D E F G (+ H 1) 1 J K L))
 (rule (f38 A B C D E F G H I J K L) (f35 0 B C D E F G (+ H 1) 0 J K L))

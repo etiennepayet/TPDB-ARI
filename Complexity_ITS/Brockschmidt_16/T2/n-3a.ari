@@ -22,14 +22,19 @@
   (f1 A B C D)
   (f1 (+ 1 A) A E D)
   :guard
-  (and (and (>= E 1) (>= B F)) (= A B)))
+  (exists ((F Int)) (and (and (>= E 1) (>= B F)) (= A B))))
 
 (rule
   (f1 A B C D)
   (f1 (+ 1 A) A E D)
   :guard
-  (and (and (>= 0 (+ E 1)) (>= B F)) (= A B)))
+  (exists ((F Int)) (and (and (>= 0 (+ E 1)) (>= B F)) (= A B))))
 
-(rule (f1 A B C D) (f1 A A 0 D) :guard (and (>= B E) (= A B)))
+(rule
+  (f1 A B C D)
+  (f1 A A 0 D)
+  :guard
+  (exists ((E Int)) (and (>= B E) (= A B))))
+
 (rule (f1 A B C D) (f300 A B C E) :guard (and (>= A B) (>= A (+ B 1))))
 (rule (f1 A B C D) (f300 A B C E) :guard (and (>= A B) (>= B (+ A 1))))

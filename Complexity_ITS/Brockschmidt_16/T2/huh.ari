@@ -131,25 +131,34 @@
   (f5 A B C D E F G H I J K L M N O P Q R)
   (f0 A B C D E F S G V W X L M N O P Q R)
   :guard
-  (and (and (>= U (+ T 1)) (>= E 1)) (>= F 0)))
+  (exists
+    ((T Int) (U Int))
+    (and (and (>= U (+ T 1)) (>= E 1)) (>= F 0)))
+  )
 
 (rule
   (f5 A B C D E F G H I J K L M N O P Q R)
   (f5 A B C D (+ 1 E) (+ (- 1) F) M 0 W X K M N V S E Q R)
   :guard
-  (and (and (and (>= T U) (>= E 0)) (>= F 0)) (= H 0)))
+  (exists
+    ((T Int) (U Int))
+    (and (and (and (>= T U) (>= E 0)) (>= F 0)) (= H 0)))
+  )
 
 (rule
   (f5 A B C D E F G H I J K L M N O P Q R)
   (f12 A B C D E F G 0 V W K M M 0 O E S R)
   :guard
-  (and (and (and (and (>= X T) (>= E 0)) (>= F 0)) (= N 0)) (= H 0)))
+  (exists
+    ((T Int) (X Int))
+    (and (and (and (and (>= X T) (>= E 0)) (>= F 0)) (= N 0)) (= H 0)))
+  )
 
 (rule
   (f9 A B C D E F G H I J K L M N O P Q R)
   (f5 A B C D 1 (- T (+ 3 C)) S 0 U A1 K S V X W P D (+ (- 2) C))
   :guard
-  (and (and (>= C 2) (>= B A)) (>= Y Z)))
+  (exists ((Y Int) (Z Int)) (and (and (>= C 2) (>= B A)) (>= Y Z))))
 
 (rule
   (f6 A B C D E F G H I J K L M N O P Q R)

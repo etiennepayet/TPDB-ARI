@@ -28,13 +28,13 @@
   (evalSequentialSinglebb2in A B)
   (evalSequentialSinglebbin A B)
   :guard
-  (>= 0 (+ C 1)))
+  (exists ((C Int)) (>= 0 (+ C 1))))
 
 (rule
   (evalSequentialSinglebb2in A B)
   (evalSequentialSinglebbin A B)
   :guard
-  (>= C 1))
+  (exists ((C Int)) (>= C 1)))
 
 (rule (evalSequentialSinglebb2in A B) (evalSequentialSinglebb5in A B))
 (rule (evalSequentialSinglebbin A B) (evalSequentialSinglebb1in (+ A 1) B))

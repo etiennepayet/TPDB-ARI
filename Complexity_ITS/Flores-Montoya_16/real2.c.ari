@@ -97,13 +97,13 @@
   (eval_real2_bb3_in v_again_0 v_again_1 v_again_2 v_i_0 v_len)
   (eval_real2_bb4_in v_again_0 v_again_1 v_again_2 v_i_0 v_len)
   :guard
-  (> nondef_0 nondef_1))
+  (exists ((nondef_0 Int) (nondef_1 Int)) (> nondef_0 nondef_1)))
 
 (rule
   (eval_real2_bb3_in v_again_0 v_again_1 v_again_2 v_i_0 v_len)
   (eval_real2_bb5_in v_again_0 v_again_1 v_again_1 v_i_0 v_len)
   :guard
-  (<= nondef_0 nondef_1))
+  (exists ((nondef_0 Int) (nondef_1 Int)) (<= nondef_0 nondef_1)))
 
 (rule
   (eval_real2_bb4_in v_again_0 v_again_1 v_again_2 v_i_0 v_len)

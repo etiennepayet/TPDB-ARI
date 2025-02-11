@@ -41,7 +41,7 @@
   (f36 A B C D E F G H I J K L M N O P Q)
   (f36 A B C (+ D 1) (+ E S) (+ F 1) G H I J K L M N O P Q)
   :guard
-  (and (>= 9 D) (>= 0 (+ R 1))))
+  (exists ((R Int)) (and (>= 9 D) (>= 0 (+ R 1)))))
 
 (rule
   (f36 A B C D E F G H I J K L M N O P Q)

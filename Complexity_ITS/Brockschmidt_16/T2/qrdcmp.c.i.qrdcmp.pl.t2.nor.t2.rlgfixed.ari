@@ -305,13 +305,13 @@
   (f32 A B C D E F G H I J K L M N O P Q R)
   (f52 A B C D E F G H I J K L S T T P Q R)
   :guard
-  (and (>= U 0) (>= D (+ 1 A))))
+  (exists ((U Int)) (and (>= U 0) (>= D (+ 1 A)))))
 
 (rule
   (f32 A B C D E F G H I J K L M N O P Q R)
   (f52 A B C D E F G H I J K L M N (- S) T S R)
   :guard
-  (and (>= 0 (+ U 1)) (>= D (+ 1 A))))
+  (exists ((U Int)) (and (>= 0 (+ U 1)) (>= D (+ 1 A)))))
 
 (rule
   (f26 A B C D E F G H I J K L M N O P Q R)
@@ -341,13 +341,13 @@
   (f5 A B C D E F G H I J K L M N O P Q R)
   (f1 A B C D E F G H I J K L M N O P Q R)
   :guard
-  (and (>= B A) (>= 0 (+ S 1))))
+  (exists ((S Int)) (and (>= B A) (>= 0 (+ S 1)))))
 
 (rule
   (f5 A B C D E F G H I J K L M N O P Q R)
   (f1 A B C D E F G H I J K L M N O P Q R)
   :guard
-  (and (>= B A) (>= S 1)))
+  (exists ((S Int)) (and (>= B A) (>= S 1))))
 
 (rule
   (f5 A B C D E F G H I J K L M N O P Q R)

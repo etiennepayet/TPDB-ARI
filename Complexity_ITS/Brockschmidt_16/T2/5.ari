@@ -31,97 +31,115 @@
   (f1 A B C D E F G H I J K L M)
   (f1 O P N 2 Q O P N 2 Q 1 L M)
   :guard
-  (and
+  (exists
+    ((R Int) (S Int))
     (and
       (and
-        (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= Q 1))
-        (>= 7 Q))
-      (>= 1 O))
-    (>= O 0))
+        (and
+          (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= Q 1))
+          (>= 7 Q))
+        (>= 1 O))
+      (>= O 0))
+    )
   )
 
 (rule
   (f2 A B C D E F G H I J K L M)
   (f1 O P N 2 Q O P N 2 Q 1 L M)
   :guard
-  (and
+  (exists
+    ((R Int) (S Int))
     (and
       (and
-        (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= Q 1))
-        (>= 7 Q))
-      (>= 1 O))
-    (>= O 0))
+        (and
+          (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= Q 1))
+          (>= 7 Q))
+        (>= 1 O))
+      (>= O 0))
+    )
   )
 
 (rule
   (f4 A B C D E F G H I J K L M)
   (f1 O P N 2 Q O P N 2 Q 1 L M)
   :guard
-  (and
+  (exists
+    ((R Int) (S Int) (T Int) (U Int))
     (and
       (and
         (and
           (and
-            (and (and (and (and (>= R L) (>= S M)) (>= T 1)) (>= 7 T)) (>= U 1))
-            (>= 7 U))
-          (>= Q 1))
-        (>= 7 Q))
-      (>= 1 O))
-    (>= O 0))
+            (and
+              (and (and (and (and (>= R L) (>= S M)) (>= T 1)) (>= 7 T)) (>= U 1))
+              (>= 7 U))
+            (>= Q 1))
+          (>= 7 Q))
+        (>= 1 O))
+      (>= O 0))
+    )
   )
 
 (rule
   (f4 A B C D E F G H I J K L M)
   (f1 O P N 2 Q O P N 2 Q 1 L M)
   :guard
-  (and
+  (exists
+    ((R Int) (S Int))
     (and
       (and
-        (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= Q 1))
-        (>= 7 Q))
-      (>= 1 O))
-    (>= O 0))
+        (and
+          (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= Q 1))
+          (>= 7 Q))
+        (>= 1 O))
+      (>= O 0))
+    )
   )
 
 (rule
   (f2 A B C D E F G H I J K L M)
   (f4 O P N Q 2 O P N Q 2 4 L M)
   :guard
-  (and
+  (exists
+    ((R Int) (S Int) (T Int) (U Int))
     (and
       (and
         (and
           (and
             (and
               (and
-                (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= T 1))
-                (>= 7 T))
-              (>= U 1))
-            (>= 7 U))
-          (>= Q 1))
-        (>= 7 Q))
-      (>= 1 O))
-    (>= O 0))
+                (and
+                  (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= T 1))
+                  (>= 7 T))
+                (>= U 1))
+              (>= 7 U))
+            (>= Q 1))
+          (>= 7 Q))
+        (>= 1 O))
+      (>= O 0))
+    )
   )
 
 (rule
   (f2 A B C D E F G H I J K L M)
   (f4 O P N Q 7 O P N Q 7 4 L M)
   :guard
-  (and
+  (exists
+    ((R Int) (S Int) (T Int) (U Int))
     (and
       (and
         (and
           (and
             (and
               (and
-                (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= T 1))
-                (>= 7 T))
-              (>= U 1))
-            (>= 7 U))
-          (>= Q 1))
-        (>= 7 Q))
-      (>= 1 O))
-    (>= O 0))
+                (and
+                  (and (and (and (and (>= R 1) (>= 7 R)) (>= S 1)) (>= 7 S)) (>= T 1))
+                  (>= 7 T))
+                (>= U 1))
+              (>= 7 U))
+            (>= Q 1))
+          (>= 7 Q))
+        (>= 1 O))
+      (>= O 0))
+    )
   )
 

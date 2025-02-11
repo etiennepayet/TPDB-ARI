@@ -22,9 +22,14 @@
   (evalwcet1bbin A B C D)
   (evalwcet1bb1in A B C D)
   :guard
-  (>= 0 (+ E 1)))
+  (exists ((E Int)) (>= 0 (+ E 1))))
 
-(rule (evalwcet1bbin A B C D) (evalwcet1bb1in A B C D) :guard (>= E 1))
+(rule
+  (evalwcet1bbin A B C D)
+  (evalwcet1bb1in A B C D)
+  :guard
+  (exists ((E Int)) (>= E 1)))
+
 (rule (evalwcet1bbin A B C D) (evalwcet1bb4in A B C D))
 (rule
   (evalwcet1bb1in A B C D)

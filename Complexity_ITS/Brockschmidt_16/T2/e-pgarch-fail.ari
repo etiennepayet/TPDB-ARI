@@ -55,11 +55,11 @@
   (f0 A B C D E F G H I J K L M N O)
   (f20 1 B C D E F G H I 0 1 P P P P)
   :guard
-  (and (>= P 1) (>= Q 1)))
+  (exists ((Q Int)) (and (>= P 1) (>= Q 1))))
 
 (rule
   (f0 A B C D E F G H I J K L M N O)
   (f40 1 B C D E F G H I 0 1 P P P P)
   :guard
-  (and (>= 0 P) (>= Q 1)))
+  (exists ((Q Int)) (and (>= 0 P) (>= Q 1))))
 

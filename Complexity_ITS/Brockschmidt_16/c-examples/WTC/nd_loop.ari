@@ -14,7 +14,22 @@
   :guard
   (and (and (>= (+ 2 A) B) (>= B (+ A 1))) (>= 9 B)))
 
-(rule (evalndloopbbin A) (evalndloopreturnin A) :guard (>= B (+ A 3)))
-(rule (evalndloopbbin A) (evalndloopreturnin A) :guard (>= A B))
-(rule (evalndloopbbin A) (evalndloopreturnin A) :guard (>= B 10))
+(rule
+  (evalndloopbbin A)
+  (evalndloopreturnin A)
+  :guard
+  (exists ((B Int)) (>= B (+ A 3))))
+
+(rule
+  (evalndloopbbin A)
+  (evalndloopreturnin A)
+  :guard
+  (exists ((B Int)) (>= A B)))
+
+(rule
+  (evalndloopbbin A)
+  (evalndloopreturnin A)
+  :guard
+  (exists ((B Int)) (>= B 10)))
+
 (rule (evalndloopreturnin A) (evalndloopstop A))

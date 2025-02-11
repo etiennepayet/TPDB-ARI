@@ -626,13 +626,16 @@
     Z
     A1)
   :guard
-  (and
+  (exists
+    ((B1 Int) (D1 Int))
     (and
       (and
-        (and (and (>= 1 (* A B1)) (>= (+ (* A B1) B1) 2)) (>= C1 B1))
-        (>= 1 (* A D1)))
-      (>= (+ (* A D1) D1) 2))
-    (>= D1 C1))
+        (and
+          (and (and (>= 1 (* A B1)) (>= (+ (* A B1) B1) 2)) (>= C1 B1))
+          (>= 1 (* A D1)))
+        (>= (+ (* A D1) D1) 2))
+      (>= D1 C1))
+    )
   )
 
 (rule

@@ -44,13 +44,13 @@
   (evalrandom2dbbin A B C D)
   (evalrandom2dbb10in (+ A 1) B C D)
   :guard
-  (>= 0 (+ E 1)))
+  (exists ((E Int)) (>= 0 (+ E 1))))
 
 (rule
   (evalrandom2dbbin A B C D)
   (evalrandom2dbb10in (+ A 1) B C D)
   :guard
-  (>= E 4))
+  (exists ((E Int)) (>= E 4)))
 
 (rule (evalrandom2dbb2in A B C D) (evalrandom2dNodeBlock9in A B C D))
 (rule

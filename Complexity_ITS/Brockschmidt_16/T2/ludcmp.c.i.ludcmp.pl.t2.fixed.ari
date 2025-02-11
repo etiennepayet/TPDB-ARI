@@ -18,13 +18,13 @@
   (f69 A B C D E F G H I J K)
   (f71 A B C D E F G H I J K)
   :guard
-  (>= 0 (+ L 1)))
+  (exists ((L Int)) (>= 0 (+ L 1))))
 
 (rule
   (f69 A B C D E F G H I J K)
   (f71 A B C D E F G H I J K)
   :guard
-  (>= L 1))
+  (exists ((L Int)) (>= L 1)))
 
 (rule (f2 A B C D E F G H I J K) (f5 A B C D E F G H I J K))
 (rule (f5 A B C D E F G H I J K) (f9 A B 0 D E F G H I J K) :guard (>= A B))

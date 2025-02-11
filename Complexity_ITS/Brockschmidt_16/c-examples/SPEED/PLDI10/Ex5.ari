@@ -23,27 +23,32 @@
   (evalEx5bb3in A B C D E)
   (evalEx5bb1in A B C D E)
   :guard
-  (>= 0 (+ F 1)))
+  (exists ((F Int)) (>= 0 (+ F 1))))
 
-(rule (evalEx5bb3in A B C D E) (evalEx5bb1in A B C D E) :guard (>= F 1))
+(rule
+  (evalEx5bb3in A B C D E)
+  (evalEx5bb1in A B C D E)
+  :guard
+  (exists ((F Int)) (>= F 1)))
+
 (rule (evalEx5bb3in A B C D E) (evalEx5bb4in A B C D E))
 (rule
   (evalEx5bb1in A B C D E)
   (evalEx5bb2in A B C D (- D 1))
   :guard
-  (>= 0 (+ F 1)))
+  (exists ((F Int)) (>= 0 (+ F 1))))
 
 (rule
   (evalEx5bb1in A B C D E)
   (evalEx5bb2in A B C D (- D 1))
   :guard
-  (and (>= 0 (+ F 1)) (>= F 1)))
+  (exists ((F Int)) (and (>= 0 (+ F 1)) (>= F 1))))
 
 (rule
   (evalEx5bb1in A B C D E)
   (evalEx5bb2in A B C D (- D 1))
   :guard
-  (>= F 1))
+  (exists ((F Int)) (>= F 1)))
 
 (rule
   (evalEx5bb1in A B C D E)

@@ -3633,7 +3633,7 @@
     v_r_7
     v_up_0)
   :guard
-  (< nondef_0 nondef_1))
+  (exists ((nondef_0 Int) (nondef_1 Int)) (< nondef_0 nondef_1)))
 
 (rule
   (eval_sipmamergesort2_bb4_in
@@ -3675,7 +3675,7 @@
     v_r_7
     v_up_0)
   :guard
-  (>= nondef_0 nondef_1))
+  (exists ((nondef_0 Int) (nondef_1 Int)) (>= nondef_0 nondef_1)))
 
 (rule
   (eval_sipmamergesort2_bb5_in
@@ -5782,7 +5782,7 @@
     v_r_7
     v_up_0)
   :guard
-  (< nondef_6 nondef_7))
+  (exists ((nondef_6 Int) (nondef_7 Int)) (< nondef_6 nondef_7)))
 
 (rule
   (eval_sipmamergesort2_bb16_in
@@ -5824,7 +5824,7 @@
     v_r_7
     v_up_0)
   :guard
-  (>= nondef_6 nondef_7))
+  (exists ((nondef_6 Int) (nondef_7 Int)) (>= nondef_6 nondef_7)))
 
 (rule
   (eval_sipmamergesort2_bb17_in

@@ -10,14 +10,14 @@
   (l1 X1 X2 X3 X4 Y1 Y2)
   (l1 (+ X1 1) X2 X3 X4 Y1 Y2)
   :guard
-  (and (and (<= 1 X1) (<= X1 3)) (= V 0)))
+  (exists ((V Int)) (and (and (<= 1 X1) (<= X1 3)) (= V 0))))
 
 (rule (l2 X1 X2 X3 X4 Y1 Y2) (l1 X1 (- X2 1) X3 X4 Y1 Y2))
 (rule
   (l1 X1 X2 X3 X4 Y1 Y2)
   (l2 X1 X2 X3 X4 Y1 Y2)
   :guard
-  (and (> X2 0) (= V 1)))
+  (exists ((V Int)) (and (> X2 0) (= V 1))))
 
 (rule (l2 X1 X2 X3 X4 Y1 Y2) (l3 X1 X2 X3 X4 Y1 Y2))
 (rule

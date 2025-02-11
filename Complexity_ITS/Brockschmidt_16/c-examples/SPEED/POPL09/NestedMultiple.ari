@@ -46,13 +46,13 @@
   (evalNestedMultiplebb3in A B C D E)
   (evalNestedMultiplebb1in A B C D E)
   :guard
-  (>= 0 (+ F 1)))
+  (exists ((F Int)) (>= 0 (+ F 1))))
 
 (rule
   (evalNestedMultiplebb3in A B C D E)
   (evalNestedMultiplebb1in A B C D E)
   :guard
-  (>= F 1))
+  (exists ((F Int)) (>= F 1)))
 
 (rule
   (evalNestedMultiplebb3in A B C D E)

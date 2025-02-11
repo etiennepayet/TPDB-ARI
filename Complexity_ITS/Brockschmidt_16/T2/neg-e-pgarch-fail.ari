@@ -49,11 +49,11 @@
   (f0 A B C D E F G H I J K)
   (f18 1 B C D E F L 0 1 M M)
   :guard
-  (and (>= M 1) (>= N 1)))
+  (exists ((N Int)) (and (>= M 1) (>= N 1))))
 
 (rule
   (f0 A B C D E F G H I J K)
   (f32 1 B C D E F L 0 1 M M)
   :guard
-  (and (>= 0 M) (>= N 1)))
+  (exists ((N Int)) (and (>= 0 M) (>= N 1))))
 

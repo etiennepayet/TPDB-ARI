@@ -15,13 +15,33 @@
 (rule (evalfentryin A B C) (evalfbb5in 0 B C))
 (rule (evalfbb5in A B C) (evalfreturnin A B C) :guard (>= A B))
 (rule (evalfbb5in A B C) (evalfbb6in A B C) :guard (>= B (+ A 1)))
-(rule (evalfbb6in A B C) (evalfbb2in A B A) :guard (>= 0 (+ D 1)))
-(rule (evalfbb6in A B C) (evalfbb2in A B A) :guard (>= D 1))
+(rule
+  (evalfbb6in A B C)
+  (evalfbb2in A B A)
+  :guard
+  (exists ((D Int)) (>= 0 (+ D 1))))
+
+(rule
+  (evalfbb6in A B C)
+  (evalfbb2in A B A)
+  :guard
+  (exists ((D Int)) (>= D 1)))
+
 (rule (evalfbb6in A B C) (evalfreturnin A B C))
 (rule (evalfbb2in A B C) (evalfbb4in A B C) :guard (>= C B))
 (rule (evalfbb2in A B C) (evalfbb3in A B C) :guard (>= B (+ C 1)))
-(rule (evalfbb3in A B C) (evalfbb1in A B C) :guard (>= 0 (+ D 1)))
-(rule (evalfbb3in A B C) (evalfbb1in A B C) :guard (>= D 1))
+(rule
+  (evalfbb3in A B C)
+  (evalfbb1in A B C)
+  :guard
+  (exists ((D Int)) (>= 0 (+ D 1))))
+
+(rule
+  (evalfbb3in A B C)
+  (evalfbb1in A B C)
+  :guard
+  (exists ((D Int)) (>= D 1)))
+
 (rule (evalfbb3in A B C) (evalfbb4in A B C))
 (rule (evalfbb1in A B C) (evalfbb2in A B (+ C 1)))
 (rule (evalfbb4in A B C) (evalfbb5in (+ C 1) B C))

@@ -2102,7 +2102,10 @@
     Z3
     A4)
   :guard
-  (and (and (and (and (>= A 0) (>= B 1)) (>= B4 2)) (>= C4 B4)) (= C 1)))
+  (exists
+    ((C4 Int))
+    (and (and (and (and (>= A 0) (>= B 1)) (>= B4 2)) (>= C4 B4)) (= C 1)))
+  )
 
 (rule
   (f29
@@ -4916,9 +4919,12 @@
     Z3
     A4)
   :guard
-  (and
-    (and (and (and (and (>= G4 0) (>= H 0)) (>= 0 D4)) (>= B4 2)) (= B2 0))
-    (= C 0))
+  (exists
+    ((G4 Int))
+    (and
+      (and (and (and (and (>= G4 0) (>= H 0)) (>= 0 D4)) (>= B4 2)) (= B2 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -5351,9 +5357,12 @@
     Z3
     A4)
   :guard
-  (and
-    (and (and (and (and (>= C4 0) (>= H 0)) (>= 0 D4)) (>= B4 2)) (= B2 0))
-    (= C 0))
+  (exists
+    ((C4 Int))
+    (and
+      (and (and (and (and (>= C4 0) (>= H 0)) (>= 0 D4)) (>= B4 2)) (= B2 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -5786,9 +5795,12 @@
     Z3
     A4)
   :guard
-  (and
-    (and (and (and (and (>= C4 0) (>= H 0)) (>= 0 D4)) (>= B4 2)) (= B2 0))
-    (= C 0))
+  (exists
+    ((C4 Int))
+    (and
+      (and (and (and (and (>= C4 0) (>= H 0)) (>= 0 D4)) (>= B4 2)) (= B2 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -6221,9 +6233,12 @@
     Z3
     A4)
   :guard
-  (and
-    (and (and (and (and (>= G4 0) (>= H 0)) (>= 0 D4)) (>= B4 2)) (= B2 0))
-    (= C 0))
+  (exists
+    ((G4 Int))
+    (and
+      (and (and (and (and (>= G4 0) (>= H 0)) (>= 0 D4)) (>= B4 2)) (= B2 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -6656,9 +6671,12 @@
     Z3
     A4)
   :guard
-  (and
-    (and (and (and (and (>= C4 0) (>= H 0)) (>= 0 D4)) (>= B4 2)) (= B2 0))
-    (= C 0))
+  (exists
+    ((C4 Int))
+    (and
+      (and (and (and (and (>= C4 0) (>= H 0)) (>= 0 D4)) (>= B4 2)) (= B2 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -7091,9 +7109,12 @@
     Z3
     A4)
   :guard
-  (and
-    (and (and (and (and (>= C4 0) (>= H 0)) (>= 0 D4)) (>= B4 2)) (= B2 0))
-    (= C 0))
+  (exists
+    ((C4 Int))
+    (and
+      (and (and (and (and (>= C4 0) (>= H 0)) (>= 0 D4)) (>= B4 2)) (= B2 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -14006,15 +14027,18 @@
     Z3
     A4)
   :guard
-  (and
+  (exists
+    ((E4 Int) (F4 Int) (G4 Int))
     (and
       (and
         (and
-          (and (and (and (>= A E4) (>= A 0)) (>= 0 B)) (>= F4 B4))
-          (>= 0 G4))
-        (>= E4 2))
-      (>= 0 D4))
-    (>= B4 2))
+          (and
+            (and (and (and (>= A E4) (>= A 0)) (>= 0 B)) (>= F4 B4))
+            (>= 0 G4))
+          (>= E4 2))
+        (>= 0 D4))
+      (>= B4 2))
+    )
   )
 
 (rule
@@ -14231,11 +14255,14 @@
     Z3
     A4)
   :guard
-  (and
+  (exists
+    ((E4 Int) (F4 Int))
     (and
-      (and (and (and (and (>= E4 1) (>= F4 2)) (>= D4 1)) (>= B4 2)) (= M 0))
-      (= G 0))
-    (= C 1))
+      (and
+        (and (and (and (and (>= E4 1) (>= F4 2)) (>= D4 1)) (>= B4 2)) (= M 0))
+        (= G 0))
+      (= C 1))
+    )
   )
 
 (rule
@@ -14671,11 +14698,14 @@
     Z3
     A4)
   :guard
-  (and
+  (exists
+    ((E4 Int) (F4 Int))
     (and
-      (and (and (and (and (>= H 0) (>= C 0)) (>= E4 1)) (>= F4 2)) (>= D4 1))
-      (>= B4 2))
-    (= M 0))
+      (and
+        (and (and (and (and (>= H 0) (>= C 0)) (>= E4 1)) (>= F4 2)) (>= D4 1))
+        (>= B4 2))
+      (= M 0))
+    )
   )
 
 (rule
@@ -15539,7 +15569,10 @@
     Z3
     A4)
   :guard
-  (and (and (and (>= 0 M4) (>= 0 N4)) (>= 0 B4)) (>= 0 O4)))
+  (exists
+    ((M4 Int) (N4 Int) (O4 Int))
+    (and (and (and (>= 0 M4) (>= 0 N4)) (>= 0 B4)) (>= 0 O4)))
+  )
 
 (rule
   (f32
@@ -15755,7 +15788,10 @@
     Z3
     A4)
   :guard
-  (and (and (and (and (>= 0 B) (>= 0 K4)) (>= 0 H4)) (>= 0 L4)) (= E 0)))
+  (exists
+    ((K4 Int) (L4 Int))
+    (and (and (and (and (>= 0 B) (>= 0 K4)) (>= 0 H4)) (>= 0 L4)) (= E 0)))
+  )
 
 (rule
   (f32
@@ -15971,5 +16007,8 @@
     Z3
     A4)
   :guard
-  (and (and (and (and (>= B 1) (>= L4 1)) (>= H4 1)) (>= P4 1)) (= M 0)))
+  (exists
+    ((L4 Int) (P4 Int))
+    (and (and (and (and (>= B 1) (>= L4 1)) (>= H4 1)) (>= P4 1)) (= M 0)))
+  )
 

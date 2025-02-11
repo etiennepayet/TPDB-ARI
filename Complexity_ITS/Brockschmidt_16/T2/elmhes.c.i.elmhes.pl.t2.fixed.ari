@@ -32,34 +32,40 @@
   (f36 A B C D E F G H)
   (f43 A B C D E F G J)
   :guard
-  (and
+  (exists
+    ((I Int) (K Int) (L Int))
     (and
       (and
         (and
           (and
-            (and (and (>= 0 (+ I 1)) (>= A D)) (>= I (* C K)))
-            (>= (+ (* C K) K) (+ I 1)))
-          (>= K J))
-        (>= I (* C L)))
-      (>= (+ (* C L) L) (+ I 1)))
-    (>= J L))
+            (and
+              (and (and (>= 0 (+ I 1)) (>= A D)) (>= I (* C K)))
+              (>= (+ (* C K) K) (+ I 1)))
+            (>= K J))
+          (>= I (* C L)))
+        (>= (+ (* C L) L) (+ I 1)))
+      (>= J L))
+    )
   )
 
 (rule
   (f36 A B C D E F G H)
   (f43 A B C D E F G J)
   :guard
-  (and
+  (exists
+    ((I Int) (K Int) (L Int))
     (and
       (and
         (and
           (and
-            (and (and (>= I 1) (>= A D)) (>= I (* C K)))
-            (>= (+ (* C K) K) (+ I 1)))
-          (>= K J))
-        (>= I (* C L)))
-      (>= (+ (* C L) L) (+ I 1)))
-    (>= J L))
+            (and
+              (and (and (>= I 1) (>= A D)) (>= I (* C K)))
+              (>= (+ (* C K) K) (+ I 1)))
+            (>= K J))
+          (>= I (* C L)))
+        (>= (+ (* C L) L) (+ I 1)))
+      (>= J L))
+    )
   )
 
 (rule (f43 A B C D E F G H) (f43 A B C D (+ E 1) F G H) :guard (>= A E))

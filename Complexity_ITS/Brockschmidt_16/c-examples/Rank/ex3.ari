@@ -31,9 +31,14 @@
   (evalfbb7in A B C D E F)
   (evalfbb1in A B C D E F)
   :guard
-  (>= 0 (+ G 1)))
+  (exists ((G Int)) (>= 0 (+ G 1))))
 
-(rule (evalfbb7in A B C D E F) (evalfbb1in A B C D E F) :guard (>= G 1))
+(rule
+  (evalfbb7in A B C D E F)
+  (evalfbb1in A B C D E F)
+  :guard
+  (exists ((G Int)) (>= G 1)))
+
 (rule (evalfbb7in A B C D E F) (evalfbb8in A B C D E F))
 (rule (evalfbb1in A B C D E F) (evalfbb3in A B C D C (- D 1)))
 (rule (evalfbb3in A B C D E F) (evalfbb5in A B C D E F))
@@ -42,9 +47,14 @@
   (evalfbb4in A B C D E F)
   (evalfbb2in A B C D E F)
   :guard
-  (>= 0 (+ G 1)))
+  (exists ((G Int)) (>= 0 (+ G 1))))
 
-(rule (evalfbb4in A B C D E F) (evalfbb2in A B C D E F) :guard (>= G 1))
+(rule
+  (evalfbb4in A B C D E F)
+  (evalfbb2in A B C D E F)
+  :guard
+  (exists ((G Int)) (>= G 1)))
+
 (rule (evalfbb4in A B C D E F) (evalfbb5in A B C D E F))
 (rule (evalfbb2in A B C D E F) (evalfbb3in A B C D (+ E 1) (- F 2)))
 (rule (evalfbb5in A B C D E F) (evalfbb6in A B E (- F 1) E F))

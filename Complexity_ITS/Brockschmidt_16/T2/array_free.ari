@@ -6,5 +6,10 @@
 (entrypoint f0)
 (rule (f0 A) (f3 0))
 (rule (f3 A) (f3 (+ A 1)) :guard (>= 41 A))
-(rule (f3 A) (f3 (+ A 1)) :guard (and (>= 41 A) (>= 0 (+ B 1))))
+(rule
+  (f3 A)
+  (f3 (+ A 1))
+  :guard
+  (exists ((B Int)) (and (>= 41 A) (>= 0 (+ B 1)))))
+
 (rule (f3 A) (f13 A) :guard (>= A 42))

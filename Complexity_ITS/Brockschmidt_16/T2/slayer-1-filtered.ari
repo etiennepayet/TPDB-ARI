@@ -433,7 +433,10 @@
     K1
     L1)
   :guard
-  (and (and (and (>= A 0) (>= M1 2)) (>= N1 M1)) (= B 1)))
+  (exists
+    ((N1 Int))
+    (and (and (and (>= A 0) (>= M1 2)) (>= N1 M1)) (= B 1)))
+  )
 
 (rule
   (f13
@@ -1176,7 +1179,10 @@
     K1
     L1)
   :guard
-  (and (and (and (and (>= O1 2) (>= M1 2)) (= M 0)) (= I 0)) (= B 1)))
+  (exists
+    ((O1 Int))
+    (and (and (and (and (>= O1 2) (>= M1 2)) (= M 0)) (= I 0)) (= B 1)))
+  )
 
 (rule
   (f16
@@ -1258,7 +1264,10 @@
     K1
     L1)
   :guard
-  (and (and (and (and (>= O1 2) (>= M1 2)) (>= B 0)) (>= G 0)) (= M 0)))
+  (exists
+    ((O1 Int))
+    (and (and (and (and (>= O1 2) (>= M1 2)) (>= B 0)) (>= G 0)) (= M 0)))
+  )
 
 (rule
   (f9
@@ -1422,7 +1431,10 @@
     K1
     L1)
   :guard
-  (and (and (and (>= 0 V1) (>= 0 W1)) (>= 0 M1)) (>= 0 X1)))
+  (exists
+    ((V1 Int) (W1 Int) (X1 Int))
+    (and (and (and (>= 0 V1) (>= 0 W1)) (>= 0 M1)) (>= 0 X1)))
+  )
 
 (rule
   (f9

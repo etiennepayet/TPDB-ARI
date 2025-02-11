@@ -27,9 +27,14 @@
   (evalfbbin A B C D E F G)
   (evalfbb1in A B C D E B G)
   :guard
-  (>= 0 (+ H 1)))
+  (exists ((H Int)) (>= 0 (+ H 1))))
 
-(rule (evalfbbin A B C D E F G) (evalfbb1in A B C D E B G) :guard (>= H 1))
+(rule
+  (evalfbbin A B C D E F G)
+  (evalfbb1in A B C D E B G)
+  :guard
+  (exists ((H Int)) (>= H 1)))
+
 (rule (evalfbbin A B C D E F G) (evalfbb3in A B C D E A G))
 (rule
   (evalfbb1in A B C D E F G)

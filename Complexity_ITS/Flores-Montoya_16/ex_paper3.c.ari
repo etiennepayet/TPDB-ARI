@@ -77,37 +77,37 @@
   (eval_p3_bb2_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
   (eval_p3_bb3_in v__0 v__01 v__01 v__3 v_12 v_x v_y v_z)
   :guard
-  (< nondef_0 0))
+  (exists ((nondef_0 Int)) (< nondef_0 0)))
 
 (rule
   (eval_p3_bb2_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
   (eval_p3_bb3_in v__0 v__01 v__01 v__3 v_12 v_x v_y v_z)
   :guard
-  (> nondef_0 0))
+  (exists ((nondef_0 Int)) (> nondef_0 0)))
 
 (rule
   (eval_p3_bb2_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
   (eval_p3_bb5_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
   :guard
-  (= nondef_0 0))
+  (exists ((nondef_0 Int)) (= nondef_0 0)))
 
 (rule
   (eval_p3_bb3_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
   (eval_p3_bb4_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
   :guard
-  (and (< nondef_1 0) (> v__1 0)))
+  (exists ((nondef_1 Int)) (and (< nondef_1 0) (> v__1 0))))
 
 (rule
   (eval_p3_bb3_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
   (eval_p3_bb4_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
   :guard
-  (and (> nondef_1 0) (> v__1 0)))
+  (exists ((nondef_1 Int)) (and (> nondef_1 0) (> v__1 0))))
 
 (rule
   (eval_p3_bb3_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
   (eval_p3_bb6_in v__0 v__01 v__1 v__1 v_12 v_x v_y v_z)
   :guard
-  (= nondef_1 0))
+  (exists ((nondef_1 Int)) (= nondef_1 0)))
 
 (rule
   (eval_p3_bb3_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
@@ -131,19 +131,19 @@
   (eval_p3_bb5_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
   (eval_p3_bb6_in v__0 v__01 v__1 (+ v__01 1) v_12 v_x v_y v_z)
   :guard
-  (< nondef_2 0))
+  (exists ((nondef_2 Int)) (< nondef_2 0)))
 
 (rule
   (eval_p3_bb5_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
   (eval_p3_bb6_in v__0 v__01 v__1 (+ v__01 1) v_12 v_x v_y v_z)
   :guard
-  (> nondef_2 0))
+  (exists ((nondef_2 Int)) (> nondef_2 0)))
 
 (rule
   (eval_p3_bb5_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)
   (eval_p3_bb6_in v__0 v__01 v__1 v_z v_12 v_x v_y v_z)
   :guard
-  (= nondef_2 0))
+  (exists ((nondef_2 Int)) (= nondef_2 0)))
 
 (rule
   (eval_p3_bb6_in v__0 v__01 v__1 v__3 v_12 v_x v_y v_z)

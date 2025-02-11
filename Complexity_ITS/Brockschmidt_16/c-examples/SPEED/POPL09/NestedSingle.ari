@@ -40,13 +40,13 @@
   (evalNestedSinglebb3in A B C)
   (evalNestedSinglebb1in A B C)
   :guard
-  (>= 0 (+ D 1)))
+  (exists ((D Int)) (>= 0 (+ D 1))))
 
 (rule
   (evalNestedSinglebb3in A B C)
   (evalNestedSinglebb1in A B C)
   :guard
-  (>= D 1))
+  (exists ((D Int)) (>= D 1)))
 
 (rule (evalNestedSinglebb3in A B C) (evalNestedSinglebb4in A B C))
 (rule (evalNestedSinglebb1in A B C) (evalNestedSinglebb2in A B (+ C 1)))

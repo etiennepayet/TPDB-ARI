@@ -7,38 +7,44 @@
   (eval A B)
   (eval D B)
   :guard
-  (and
+  (exists
+    ((C Int) (E Int))
     (and
       (and
         (and
           (and
             (and
-              (and (and (>= A 0) (>= B 0)) (>= B (+ A 1)))
-              (>= (+ A B) (* 2 C)))
-            (>= (* 3 C) (+ (+ A B) 1)))
-          (>= D (+ C 1)))
-        (>= (+ A B) (* 2 E)))
-      (>= (* 3 E) (+ (+ A B) 1)))
-    (>= (+ E 1) D))
+              (and
+                (and (and (>= A 0) (>= B 0)) (>= B (+ A 1)))
+                (>= (+ A B) (* 2 C)))
+              (>= (* 3 C) (+ (+ A B) 1)))
+            (>= D (+ C 1)))
+          (>= (+ A B) (* 2 E)))
+        (>= (* 3 E) (+ (+ A B) 1)))
+      (>= (+ E 1) D))
+    )
   )
 
 (rule
   (eval A B)
   (eval A D)
   :guard
-  (and
+  (exists
+    ((C Int) (E Int))
     (and
       (and
         (and
           (and
             (and
-              (and (and (>= A 0) (>= B 0)) (>= B (+ A 1)))
-              (>= (+ A B) (* 2 C)))
-            (>= (* 3 C) (+ (+ A B) 1)))
-          (>= D C))
-        (>= (+ A B) (* 2 E)))
-      (>= (* 3 E) (+ (+ A B) 1)))
-    (>= E D))
+              (and
+                (and (and (>= A 0) (>= B 0)) (>= B (+ A 1)))
+                (>= (+ A B) (* 2 C)))
+              (>= (* 3 C) (+ (+ A B) 1)))
+            (>= D C))
+          (>= (+ A B) (* 2 E)))
+        (>= (* 3 E) (+ (+ A B) 1)))
+      (>= E D))
+    )
   )
 
 (rule (start A B) (eval A B))

@@ -36988,9 +36988,12 @@
     N15
     O15)
   :guard
-  (and
-    (and (and (and (>= S 0) (>= N 1)) (>= R15 2)) (>= V15 R15))
-    (= U 1))
+  (exists
+    ((V15 Int))
+    (and
+      (and (and (and (>= S 0) (>= N 1)) (>= R15 2)) (>= V15 R15))
+      (= U 1))
+    )
   )
 
 (rule
@@ -38636,11 +38639,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
-      (and (and (and (>= S 0) (>= N 1)) (>= S15 2)) (>= R15 2))
-      (>= W15 S15))
-    (= C 1))
+      (and
+        (and (and (and (>= S 0) (>= N 1)) (>= S15 2)) (>= R15 2))
+        (>= W15 S15))
+      (= C 1))
+    )
   )
 
 (rule
@@ -51747,7 +51753,10 @@
     N15
     O15)
   :guard
-  (and (and (and (>= S 0) (>= S15 2)) (>= Q15 S15)) (= L 0)))
+  (exists
+    ((Q15 Int))
+    (and (and (and (>= S 0) (>= S15 2)) (>= Q15 S15)) (= L 0)))
+  )
 
 (rule
   (f5
@@ -53382,7 +53391,10 @@
     N15
     O15)
   :guard
-  (and (and (and (>= S 0) (>= R15 2)) (>= Q15 R15)) (= L 0)))
+  (exists
+    ((Q15 Int))
+    (and (and (and (>= S 0) (>= R15 2)) (>= Q15 R15)) (= L 0)))
+  )
 
 (rule
   (f7
@@ -63996,13 +64008,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
-        (and (and (and (>= W15 0) (>= P 0)) (>= P15 2)) (>= R15 2))
-        (= (+ T4 1) P))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= W15 0) (>= P 0)) (>= P15 2)) (>= R15 2))
+          (= (+ T4 1) P))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -64819,11 +64834,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
-      (and (and (and (>= O 0) (>= X15 0)) (>= P15 2)) (>= R15 2))
-      (= (+ P O) (+ 1 T4)))
-    (= L 0))
+      (and
+        (and (and (and (>= O 0) (>= X15 0)) (>= P15 2)) (>= R15 2))
+        (= (+ P O) (+ 1 T4)))
+      (= L 0))
+    )
   )
 
 (rule
@@ -69720,11 +69738,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((V15 Int))
     (and
-      (and (and (and (>= V15 0) (>= R15 2)) (>= A 0)) (= (+ T4 1) A))
-      (= L 0))
-    (= C 0))
+      (and
+        (and (and (and (>= V15 0) (>= R15 2)) (>= A 0)) (= (+ T4 1) A))
+        (= L 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -70541,9 +70562,12 @@
     N15
     O15)
   :guard
-  (and
-    (and (and (and (>= C 0) (>= R15 2)) (>= W15 0)) (= (+ A C) (+ 1 T4)))
-    (= L 0))
+  (exists
+    ((W15 Int))
+    (and
+      (and (and (and (>= C 0) (>= R15 2)) (>= W15 0)) (= (+ A C) (+ 1 T4)))
+      (= L 0))
+    )
   )
 
 (rule
@@ -78704,11 +78728,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((V15 Int))
     (and
-      (and (and (and (>= V15 0) (>= Q15 2)) (>= T 0)) (= (+ P4 1) T))
-      (= L 0))
-    (= U 0))
+      (and
+        (and (and (and (>= V15 0) (>= Q15 2)) (>= T 0)) (= (+ P4 1) T))
+        (= L 0))
+      (= U 0))
+    )
   )
 
 (rule
@@ -79525,9 +79552,12 @@
     N15
     O15)
   :guard
-  (and
-    (and (and (and (>= U 0) (>= Q15 2)) (>= W15 0)) (= (+ T U) (+ 1 P4)))
-    (= L 0))
+  (exists
+    ((W15 Int))
+    (and
+      (and (and (and (>= U 0) (>= Q15 2)) (>= W15 0)) (= (+ T U) (+ 1 P4)))
+      (= L 0))
+    )
   )
 
 (rule
@@ -80344,7 +80374,10 @@
     N15
     O15)
   :guard
-  (and (and (>= U15 1) (>= U15 (+ V15 1))) (= S 0)))
+  (exists
+    ((U15 Int) (V15 Int))
+    (and (and (>= U15 1) (>= U15 (+ V15 1))) (= S 0)))
+  )
 
 (rule
   (f94
@@ -81160,7 +81193,10 @@
     N15
     O15)
   :guard
-  (and (and (>= U15 1) (>= U15 (+ V15 1))) (= S 0)))
+  (exists
+    ((U15 Int) (V15 Int))
+    (and (and (>= U15 1) (>= U15 (+ V15 1))) (= S 0)))
+  )
 
 (rule
   (f96
@@ -81976,7 +82012,10 @@
     N15
     O15)
   :guard
-  (and (and (and (>= V15 (+ W15 1)) (>= R15 2)) (>= V15 1)) (= S 0)))
+  (exists
+    ((V15 Int) (W15 Int))
+    (and (and (and (>= V15 (+ W15 1)) (>= R15 2)) (>= V15 1)) (= S 0)))
+  )
 
 (rule
   (f97
@@ -83608,7 +83647,10 @@
     N15
     O15)
   :guard
-  (and (and (and (>= S H4) (>= S 0)) (>= Z15 S15)) (>= S15 2)))
+  (exists
+    ((Z15 Int))
+    (and (and (and (>= S H4) (>= S 0)) (>= Z15 S15)) (>= S15 2)))
+  )
 
 (rule
   (f98
@@ -86872,9 +86914,12 @@
     N15
     O15)
   :guard
-  (and
-    (and (and (and (>= S H4) (>= S 0)) (>= Q15 2)) (>= B16 Q15))
-    (>= R15 2))
+  (exists
+    ((B16 Int))
+    (and
+      (and (and (and (>= S H4) (>= S 0)) (>= Q15 2)) (>= B16 Q15))
+      (>= R15 2))
+    )
   )
 
 (rule
@@ -89326,7 +89371,7 @@
     N15
     O15)
   :guard
-  (and (and (>= U15 (+ S 1)) (>= R15 2)) (>= U15 2)))
+  (exists ((U15 Int)) (and (and (>= U15 (+ S 1)) (>= R15 2)) (>= U15 2))))
 
 (rule
   (f101
@@ -90958,7 +91003,7 @@
     N15
     O15)
   :guard
-  (and (and (>= V15 (+ S 1)) (>= R15 2)) (>= V15 2)))
+  (exists ((V15 Int)) (and (and (>= V15 (+ S 1)) (>= R15 2)) (>= V15 2))))
 
 (rule
   (f102
@@ -92590,7 +92635,7 @@
     N15
     O15)
   :guard
-  (and (>= T15 2) (>= T15 (+ S 1))))
+  (exists ((T15 Int)) (and (>= T15 2) (>= T15 (+ S 1)))))
 
 (rule
   (f103
@@ -94222,7 +94267,7 @@
     N15
     O15)
   :guard
-  (and (>= U15 2) (>= U15 (+ S 1))))
+  (exists ((U15 Int)) (and (>= U15 2) (>= U15 (+ S 1)))))
 
 (rule
   (f104
@@ -99118,15 +99163,18 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((V15 Int))
     (and
       (and
         (and
-          (and (and (and (>= V15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-          (>= R15 2))
-        (= A P))
-      (= L 0))
-    (= O 0))
+          (and
+            (and (and (and (>= V15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+            (>= R15 2))
+          (= A P))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -100766,15 +100814,18 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
         (and
-          (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-          (>= R15 2))
-        (= A P))
-      (= L 0))
-    (= O 0))
+          (and
+            (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+            (>= R15 2))
+          (= A P))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -102414,15 +102465,18 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
       (and
         (and
-          (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-          (>= R15 2))
-        (= A P))
-      (= L 0))
-    (= O 0))
+          (and
+            (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+            (>= R15 2))
+          (= A P))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -104062,15 +104116,18 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
         (and
-          (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-          (>= R15 2))
-        (= A P))
-      (= L 0))
-    (= O 0))
+          (and
+            (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+            (>= R15 2))
+          (= A P))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -105710,15 +105767,18 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
       (and
         (and
-          (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-          (>= R15 2))
-        (= A P))
-      (= L 0))
-    (= O 0))
+          (and
+            (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+            (>= R15 2))
+          (= A P))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -107358,15 +107418,18 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
       (and
         (and
-          (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-          (>= R15 2))
-        (= A P))
-      (= L 0))
-    (= O 0))
+          (and
+            (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+            (>= R15 2))
+          (= A P))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -109006,13 +109069,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
-        (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -110650,13 +110716,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
       (and
-        (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -112294,13 +112363,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
-        (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -113938,13 +114010,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((V15 Int))
     (and
       (and
-        (and (and (and (>= V15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= V15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -115582,13 +115657,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
       (and
-        (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -117226,13 +117304,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
       (and
-        (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -118870,13 +118951,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
-        (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -120514,13 +120598,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
       (and
-        (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -122158,13 +122245,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
       (and
-        (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -123802,13 +123892,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
-        (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -125446,13 +125539,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
-        (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -127090,13 +127186,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
-        (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -128734,13 +128833,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
-        (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -130378,13 +130480,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
       (and
-        (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -132022,13 +132127,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
       (and
-        (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -133666,13 +133774,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
-        (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= W15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -135310,13 +135421,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
       (and
-        (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -136954,13 +137068,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((X15 Int))
     (and
       (and
-        (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
-        (>= R15 2))
-      (= L 0))
-    (= O 0))
+        (and
+          (and (and (and (>= X15 0) (>= P 0)) (>= 0 Q15)) (>= S15 2))
+          (>= R15 2))
+        (= L 0))
+      (= O 0))
+    )
   )
 
 (rule
@@ -208967,11 +209084,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((U15 Int))
     (and
-      (and (and (and (>= U15 0) (>= A 0)) (>= 0 S15)) (>= R15 2))
-      (= L 0))
-    (= C 0))
+      (and
+        (and (and (and (>= U15 0) (>= A 0)) (>= 0 S15)) (>= R15 2))
+        (= L 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -210604,11 +210724,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((V15 Int))
     (and
-      (and (and (and (>= V15 0) (>= A 0)) (>= 0 S15)) (>= R15 2))
-      (= L 0))
-    (= C 0))
+      (and
+        (and (and (and (>= V15 0) (>= A 0)) (>= 0 S15)) (>= R15 2))
+        (= L 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -212241,11 +212364,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((V15 Int))
     (and
-      (and (and (and (>= V15 0) (>= A 0)) (>= 0 S15)) (>= R15 2))
-      (= L 0))
-    (= C 0))
+      (and
+        (and (and (and (>= V15 0) (>= A 0)) (>= 0 S15)) (>= R15 2))
+        (= L 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -213878,11 +214004,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((U15 Int))
     (and
-      (and (and (and (>= U15 0) (>= A 0)) (>= 0 S15)) (>= R15 2))
-      (= L 0))
-    (= C 0))
+      (and
+        (and (and (and (>= U15 0) (>= A 0)) (>= 0 S15)) (>= R15 2))
+        (= L 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -215515,11 +215644,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((V15 Int))
     (and
-      (and (and (and (>= V15 0) (>= A 0)) (>= 0 S15)) (>= R15 2))
-      (= L 0))
-    (= C 0))
+      (and
+        (and (and (and (>= V15 0) (>= A 0)) (>= 0 S15)) (>= R15 2))
+        (= L 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -217152,11 +217284,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((V15 Int))
     (and
-      (and (and (and (>= V15 0) (>= A 0)) (>= 0 S15)) (>= R15 2))
-      (= L 0))
-    (= C 0))
+      (and
+        (and (and (and (>= V15 0) (>= A 0)) (>= 0 S15)) (>= R15 2))
+        (= L 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -244901,11 +245036,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((U15 Int))
     (and
-      (and (and (and (>= U15 0) (>= T 0)) (>= 0 S15)) (>= R15 2))
-      (= L 0))
-    (= U 0))
+      (and
+        (and (and (and (>= U15 0) (>= T 0)) (>= 0 S15)) (>= R15 2))
+        (= L 0))
+      (= U 0))
+    )
   )
 
 (rule
@@ -246538,11 +246676,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((V15 Int))
     (and
-      (and (and (and (>= V15 0) (>= T 0)) (>= 0 S15)) (>= R15 2))
-      (= L 0))
-    (= U 0))
+      (and
+        (and (and (and (>= V15 0) (>= T 0)) (>= 0 S15)) (>= R15 2))
+        (= L 0))
+      (= U 0))
+    )
   )
 
 (rule
@@ -248175,11 +248316,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((V15 Int))
     (and
-      (and (and (and (>= V15 0) (>= T 0)) (>= 0 S15)) (>= R15 2))
-      (= L 0))
-    (= U 0))
+      (and
+        (and (and (and (>= V15 0) (>= T 0)) (>= 0 S15)) (>= R15 2))
+        (= L 0))
+      (= U 0))
+    )
   )
 
 (rule
@@ -249812,11 +249956,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((U15 Int))
     (and
-      (and (and (and (>= U15 0) (>= T 0)) (>= 0 S15)) (>= R15 2))
-      (= L 0))
-    (= U 0))
+      (and
+        (and (and (and (>= U15 0) (>= T 0)) (>= 0 S15)) (>= R15 2))
+        (= L 0))
+      (= U 0))
+    )
   )
 
 (rule
@@ -251449,11 +251596,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((V15 Int))
     (and
-      (and (and (and (>= V15 0) (>= T 0)) (>= 0 S15)) (>= R15 2))
-      (= L 0))
-    (= U 0))
+      (and
+        (and (and (and (>= V15 0) (>= T 0)) (>= 0 S15)) (>= R15 2))
+        (= L 0))
+      (= U 0))
+    )
   )
 
 (rule
@@ -253086,11 +253236,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((V15 Int))
     (and
-      (and (and (and (>= V15 0) (>= T 0)) (>= 0 S15)) (>= R15 2))
-      (= L 0))
-    (= U 0))
+      (and
+        (and (and (and (>= V15 0) (>= T 0)) (>= 0 S15)) (>= R15 2))
+        (= L 0))
+      (= U 0))
+    )
   )
 
 (rule
@@ -280835,9 +280988,12 @@
     N15
     O15)
   :guard
-  (and
-    (and (and (and (>= Q15 2) (>= S15 2)) (>= R15 2)) (= B 0))
-    (= C 1))
+  (exists
+    ((Q15 Int))
+    (and
+      (and (and (and (>= Q15 2) (>= S15 2)) (>= R15 2)) (= B 0))
+      (= C 1))
+    )
   )
 
 (rule
@@ -281654,7 +281810,7 @@
     N15
     O15)
   :guard
-  (and (and (>= P15 2) (>= R15 2)) (= C 1)))
+  (exists ((P15 Int)) (and (and (>= P15 2) (>= R15 2)) (= C 1))))
 
 (rule
   (f87
@@ -282470,11 +282626,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((P15 Int))
     (and
-      (and (and (and (>= P15 2) (>= S15 2)) (>= R15 2)) (>= P 0))
-      (>= C 0))
-    (= O C))
+      (and
+        (and (and (and (>= P15 2) (>= S15 2)) (>= R15 2)) (>= P 0))
+        (>= C 0))
+      (= O C))
+    )
   )
 
 (rule
@@ -283291,7 +283450,10 @@
     N15
     O15)
   :guard
-  (and (and (and (>= S15 2) (>= R15 2)) (= B1 0)) (= U 1)))
+  (exists
+    ((S15 Int))
+    (and (and (and (>= S15 2) (>= R15 2)) (= B1 0)) (= U 1)))
+  )
 
 (rule
   (f108
@@ -284107,17 +284269,20 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((T15 Int) (U15 Int) (V15 Int))
     (and
       (and
         (and
           (and
-            (and (and (and (>= T15 S15) (>= 0 U15)) (>= V15 2)) (>= S V15))
-            (>= P15 0))
-          (>= 0 Q15))
-        (>= S15 2))
-      (>= S 0))
-    (>= 0 N))
+            (and
+              (and (and (and (>= T15 S15) (>= 0 U15)) (>= V15 2)) (>= S V15))
+              (>= P15 0))
+            (>= 0 Q15))
+          (>= S15 2))
+        (>= S 0))
+      (>= 0 N))
+    )
   )
 
 (rule
@@ -284934,21 +285099,24 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((U15 Int) (V15 Int) (W15 Int) (X15 Int))
     (and
       (and
         (and
           (and
             (and
               (and
-                (and (and (and (>= U15 Q15) (>= 0 V15)) (>= W15 2)) (>= S W15))
-                (>= X15 2))
-              (>= T15 0))
-            (>= 0 P15))
-          (>= Q15 2))
-        (>= R15 2))
-      (>= S 0))
-    (>= 0 N))
+                (and
+                  (and (and (and (>= U15 Q15) (>= 0 V15)) (>= W15 2)) (>= S W15))
+                  (>= X15 2))
+                (>= T15 0))
+              (>= 0 P15))
+            (>= Q15 2))
+          (>= R15 2))
+        (>= S 0))
+      (>= 0 N))
+    )
   )
 
 (rule
@@ -285765,15 +285933,18 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
         (and
-          (and (and (and (>= W15 2) (>= 0 T15)) (>= Q15 2)) (>= R15 2))
-          (>= A 0))
-        (>= 0 N))
-      (= C 1))
-    (= B A))
+          (and
+            (and (and (and (>= W15 2) (>= 0 T15)) (>= Q15 2)) (>= R15 2))
+            (>= A 0))
+          (>= 0 N))
+        (= C 1))
+      (= B A))
+    )
   )
 
 (rule
@@ -286590,17 +286761,20 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((W15 Int))
     (and
       (and
         (and
           (and
-            (and (and (and (>= W15 2) (>= 0 T15)) (>= Q15 2)) (>= R15 2))
-            (>= A 0))
-          (>= C 0))
-        (>= 0 N))
-      (= O C))
-    (= P A))
+            (and
+              (and (and (and (>= W15 2) (>= 0 T15)) (>= Q15 2)) (>= R15 2))
+              (>= A 0))
+            (>= C 0))
+          (>= 0 N))
+        (= O C))
+      (= P A))
+    )
   )
 
 (rule
@@ -288236,17 +288410,20 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((T15 Int) (U15 Int))
     (and
       (and
         (and
           (and
-            (and (and (and (>= T15 2) (>= U15 2)) (>= P15 0)) (>= S15 2))
-            (>= R15 2))
-          (= E 0))
-        (= B 0))
-      (= C 1))
-    (= A 0))
+            (and
+              (and (and (and (>= T15 2) (>= U15 2)) (>= P15 0)) (>= S15 2))
+              (>= R15 2))
+            (= E 0))
+          (= B 0))
+        (= C 1))
+      (= A 0))
+    )
   )
 
 (rule
@@ -289063,13 +289240,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((P15 Int) (T15 Int))
     (and
       (and
-        (and (and (and (>= P15 2) (>= T15 2)) (>= Q15 0)) (>= R15 2))
-        (= E 0))
-      (= C 1))
-    (= A 0))
+        (and
+          (and (and (and (>= P15 2) (>= T15 2)) (>= Q15 0)) (>= R15 2))
+          (= E 0))
+        (= C 1))
+      (= A 0))
+    )
   )
 
 (rule
@@ -289886,19 +290066,22 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((T15 Int) (U15 Int))
     (and
       (and
         (and
           (and
             (and
-              (and (and (and (>= T15 2) (>= U15 2)) (>= P15 0)) (>= S15 2))
-              (>= R15 2))
-            (>= C 0))
-          (= E 0))
-        (= O C))
-      (= P 0))
-    (= A 0))
+              (and
+                (and (and (and (>= T15 2) (>= U15 2)) (>= P15 0)) (>= S15 2))
+                (>= R15 2))
+              (>= C 0))
+            (= E 0))
+          (= O C))
+        (= P 0))
+      (= A 0))
+    )
   )
 
 (rule
@@ -290715,11 +290898,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((Q15 Int))
     (and
-      (and (and (and (>= Q15 2) (>= S15 0)) (>= R15 2)) (>= A 0))
-      (>= C 0))
-    (= E 0))
+      (and
+        (and (and (and (>= Q15 2) (>= S15 0)) (>= R15 2)) (>= A 0))
+        (>= C 0))
+      (= E 0))
+    )
   )
 
 (rule
@@ -292357,7 +292543,10 @@
     N15
     O15)
   :guard
-  (and (and (and (and (>= S15 2) (>= R15 2)) (= E 0)) (= C 1)) (= A2 0)))
+  (exists
+    ((S15 Int))
+    (and (and (and (and (>= S15 2) (>= R15 2)) (= E 0)) (= C 1)) (= A2 0)))
+  )
 
 (rule
   (f113
@@ -293992,13 +294181,16 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((T15 Int) (U15 Int))
     (and
       (and
-        (and (and (and (>= 0 T15) (>= U15 2)) (>= 0 Q15)) (>= 0 N))
-        (>= R15 2))
-      (= I 0))
-    (= E10 0))
+        (and
+          (and (and (and (>= 0 T15) (>= U15 2)) (>= 0 Q15)) (>= 0 N))
+          (>= R15 2))
+        (= I 0))
+      (= E10 0))
+    )
   )
 
 (rule
@@ -295634,11 +295826,14 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((Q15 Int))
     (and
-      (and (and (and (>= Q15 2) (>= S15 0)) (>= R15 2)) (>= T 0))
-      (>= U 0))
-    (= E 0))
+      (and
+        (and (and (and (>= Q15 2) (>= S15 0)) (>= R15 2)) (>= T 0))
+        (>= U 0))
+      (= E 0))
+    )
   )
 
 (rule
@@ -298086,7 +298281,10 @@
     N15
     O15)
   :guard
-  (and (and (and (>= 0 C16) (>= 0 D16)) (>= 0 R15)) (>= 0 E16)))
+  (exists
+    ((C16 Int) (D16 Int) (E16 Int))
+    (and (and (and (>= 0 C16) (>= 0 D16)) (>= 0 R15)) (>= 0 E16)))
+  )
 
 (rule
   (f1
@@ -298902,21 +299100,24 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((G16 Int) (H16 Int) (I16 Int))
     (and
       (and
         (and
           (and
             (and
               (and
-                (and (and (and (>= Q15 1) (>= G16 1)) (>= H16 I16)) (>= I16 2))
-                (>= V15 R15))
-              (>= R15 2))
-            (>= A R15))
-          (>= A 0))
-        (>= S H4))
-      (>= S 0))
-    (= C 0))
+                (and
+                  (and (and (and (>= Q15 1) (>= G16 1)) (>= H16 I16)) (>= I16 2))
+                  (>= V15 R15))
+                (>= R15 2))
+              (>= A R15))
+            (>= A 0))
+          (>= S H4))
+        (>= S 0))
+      (= C 0))
+    )
   )
 
 (rule
@@ -299733,17 +299934,20 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((C16 Int) (G16 Int) (H16 Int) (I16 Int))
     (and
       (and
         (and
           (and
-            (and (and (and (>= G16 R15) (>= H16 1)) (>= I16 C16)) (>= C16 2))
-            (>= P15 0))
-          (>= R15 2))
-        (>= S H4))
-      (>= S 0))
-    (= C 1))
+            (and
+              (and (and (and (>= G16 R15) (>= H16 1)) (>= I16 C16)) (>= C16 2))
+              (>= P15 0))
+            (>= R15 2))
+          (>= S H4))
+        (>= S 0))
+      (= C 1))
+    )
   )
 
 (rule
@@ -300560,7 +300764,8 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((A16 Int) (C16 Int) (F16 Int) (G16 Int) (H16 Int) (I16 Int))
     (and
       (and
         (and
@@ -300569,16 +300774,18 @@
               (and
                 (and
                   (and
-                    (and (and (and (>= A16 R15) (>= 0 F16)) (>= G16 2)) (>= B16 G16))
-                    (>= 0 H16))
-                  (>= I16 C16))
-                (>= C16 2))
-              (>= B16 0))
-            (>= Q15 0))
-          (>= 0 S15))
-        (>= R15 2))
-      (>= S H4))
-    (>= S 0))
+                    (and
+                      (and (and (and (>= A16 R15) (>= 0 F16)) (>= G16 2)) (>= B16 G16))
+                      (>= 0 H16))
+                    (>= I16 C16))
+                  (>= C16 2))
+                (>= B16 0))
+              (>= Q15 0))
+            (>= 0 S15))
+          (>= R15 2))
+        (>= S H4))
+      (>= S 0))
+    )
   )
 
 (rule
@@ -302211,9 +302418,12 @@
     N15
     O15)
   :guard
-  (and
-    (and (and (and (>= G16 2) (>= P15 1)) (>= U4 0)) (>= R15 2))
-    (= L M))
+  (exists
+    ((G16 Int))
+    (and
+      (and (and (and (>= G16 2) (>= P15 1)) (>= U4 0)) (>= R15 2))
+      (= L M))
+    )
   )
 
 (rule
@@ -303030,9 +303240,12 @@
     N15
     O15)
   :guard
-  (and
-    (and (and (and (>= 0 C16) (>= 0 D16)) (>= S H4)) (>= 0 S15))
-    (= I4 0))
+  (exists
+    ((C16 Int) (D16 Int))
+    (and
+      (and (and (and (>= 0 C16) (>= 0 D16)) (>= S H4)) (>= 0 S15))
+      (= I4 0))
+    )
   )
 
 (rule
@@ -303849,9 +304062,12 @@
     N15
     O15)
   :guard
-  (and
-    (and (and (and (>= 0 I16) (>= 0 C16)) (>= S H4)) (>= 0 S15))
-    (= I4 0))
+  (exists
+    ((C16 Int) (I16 Int))
+    (and
+      (and (and (and (>= 0 I16) (>= 0 C16)) (>= S H4)) (>= 0 S15))
+      (= I4 0))
+    )
   )
 
 (rule
@@ -304668,15 +304884,18 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((C16 Int) (D16 Int) (E16 Int) (J16 Int))
     (and
       (and
         (and
-          (and (and (and (>= 0 C16) (>= D16 2)) (>= 0 E16)) (>= J16 2))
-          (>= 0 Q15))
-        (>= S H4))
-      (>= R15 2))
-    (= I4 0))
+          (and
+            (and (and (and (>= 0 C16) (>= D16 2)) (>= 0 E16)) (>= J16 2))
+            (>= 0 Q15))
+          (>= S H4))
+        (>= R15 2))
+      (= I4 0))
+    )
   )
 
 (rule
@@ -305493,19 +305712,22 @@
     N15
     O15)
   :guard
-  (and
+  (exists
+    ((E16 Int) (J16 Int) (K16 Int) (L16 Int) (M16 Int) (N16 Int))
     (and
       (and
         (and
           (and
             (and
-              (and (and (and (>= 0 E16) (>= J16 2)) (>= 0 K16)) (>= L16 2))
-              (>= M16 2))
-            (>= 0 N16))
-          (>= 0 Q15))
-        (>= U4 0))
-      (>= R15 2))
-    (= L M))
+              (and
+                (and (and (and (>= 0 E16) (>= J16 2)) (>= 0 K16)) (>= L16 2))
+                (>= M16 2))
+              (>= 0 N16))
+            (>= 0 Q15))
+          (>= U4 0))
+        (>= R15 2))
+      (= L M))
+    )
   )
 
 (rule
@@ -306322,9 +306544,12 @@
     N15
     O15)
   :guard
-  (and
-    (and (and (and (>= 0 Z15) (>= 0 B16)) (>= 0 N)) (>= 0 V15))
-    (= I 0))
+  (exists
+    ((B16 Int) (Z15 Int))
+    (and
+      (and (and (and (>= 0 Z15) (>= 0 B16)) (>= 0 N)) (>= 0 V15))
+      (= I 0))
+    )
   )
 
 (rule

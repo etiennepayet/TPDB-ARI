@@ -1127,9 +1127,12 @@
     V2
     W2)
   :guard
-  (and
-    (and (and (and (and (>= A 2) (>= X2 A)) (>= B 0)) (>= C 1)) (>= Y2 1))
-    (= D 1))
+  (exists
+    ((X2 Int))
+    (and
+      (and (and (and (and (>= A 2) (>= X2 A)) (>= B 0)) (>= C 1)) (>= Y2 1))
+      (= D 1))
+    )
   )
 
 (rule
@@ -3647,13 +3650,16 @@
     V2
     W2)
   :guard
-  (and
+  (exists
+    ((F3 Int))
     (and
       (and
-        (and (and (and (and (>= F3 A) (>= B3 A)) (>= B C1)) (>= A 2)) (>= H A))
-        (>= H 0))
-      (>= B 0))
-    (= D 0))
+        (and
+          (and (and (and (and (>= F3 A) (>= B3 A)) (>= B C1)) (>= A 2)) (>= H A))
+          (>= H 0))
+        (>= B 0))
+      (= D 0))
+    )
   )
 
 (rule

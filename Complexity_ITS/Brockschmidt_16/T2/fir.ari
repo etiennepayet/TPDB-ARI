@@ -25,7 +25,7 @@
   (f25 A B C D E F G H)
   (f41 A B C D E F G H)
   :guard
-  (and (>= H E) (>= I (+ J 1))))
+  (exists ((I Int) (J Int)) (and (>= H E) (>= I (+ J 1)))))
 
 (rule (f25 A B C D E F G H) (f41 A B C D E F G H) :guard (>= H E))
 (rule

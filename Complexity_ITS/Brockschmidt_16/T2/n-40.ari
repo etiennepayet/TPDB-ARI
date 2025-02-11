@@ -5,18 +5,23 @@
 (fun f300 (-> Int Int Int Int))
 (entrypoint f1)
 (rule (f2 A B C) (f300 A B D) :guard (and (>= A 3) (>= B 2)))
-(rule (f2 A B C) (f2 1 2 C) :guard (and (and (>= 1 D) (= B 1)) (= A 1)))
 (rule
   (f2 A B C)
-  (f2 (+ 1 A) 2 C)
+  (f2 1 2 C)
   :guard
-  (and (and (>= A 2) (>= 1 D)) (= B 1)))
+  (exists ((D Int)) (and (and (>= 1 D) (= B 1)) (= A 1))))
 
 (rule
   (f2 A B C)
   (f2 (+ 1 A) 2 C)
   :guard
-  (and (and (>= 0 A) (>= 1 D)) (= B 1)))
+  (exists ((D Int)) (and (and (>= A 2) (>= 1 D)) (= B 1))))
+
+(rule
+  (f2 A B C)
+  (f2 (+ 1 A) 2 C)
+  :guard
+  (exists ((D Int)) (and (and (>= 0 A) (>= 1 D)) (= B 1))))
 
 (rule
   (f2 A B C)
@@ -58,13 +63,16 @@
   (f2 A B C)
   (f2 1 (+ 1 B) C)
   :guard
-  (and (and (>= B 2) (>= 2 D)) (= A 1)))
+  (exists ((D Int)) (and (and (>= B 2) (>= 2 D)) (= A 1))))
 
 (rule
   (f2 A B C)
   (f2 1 (+ 1 B) C)
   :guard
-  (and (and (and (>= B 2) (>= 0 B)) (>= 2 D)) (= A 1)))
+  (exists
+    ((D Int))
+    (and (and (and (>= B 2) (>= 0 B)) (>= 2 D)) (= A 1)))
+  )
 
 (rule (f2 A B C) (f2 (+ 1 A) (+ 1 B) C) :guard (and (>= B 2) (= A 2)))
 (rule

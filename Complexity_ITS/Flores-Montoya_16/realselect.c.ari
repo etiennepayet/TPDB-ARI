@@ -84,13 +84,13 @@
   (eval_realselect_bb3_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)
   (eval_realselect_bb2_in v_2 v_21 v_array_size v_i_0 v_2)
   :guard
-  (< nondef_0 nondef_1))
+  (exists ((nondef_0 Int) (nondef_1 Int)) (< nondef_0 nondef_1)))
 
 (rule
   (eval_realselect_bb3_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)
   (eval_realselect_bb2_in v_2 v_21 v_array_size v_i_0 v_2)
   :guard
-  (>= nondef_0 nondef_1))
+  (exists ((nondef_0 Int) (nondef_1 Int)) (>= nondef_0 nondef_1)))
 
 (rule
   (eval_realselect_bb4_in v_2 v_21 v_array_size v_i_0 v_j_0_sink)

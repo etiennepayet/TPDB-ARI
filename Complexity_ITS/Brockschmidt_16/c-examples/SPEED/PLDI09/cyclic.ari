@@ -28,8 +28,18 @@
   :guard
   (>= C (+ A 1)))
 
-(rule (evalcyclicbb4in A B C) (evalcyclicbbin A B C) :guard (>= 0 (+ D 1)))
-(rule (evalcyclicbb4in A B C) (evalcyclicbbin A B C) :guard (>= D 1))
+(rule
+  (evalcyclicbb4in A B C)
+  (evalcyclicbbin A B C)
+  :guard
+  (exists ((D Int)) (>= 0 (+ D 1))))
+
+(rule
+  (evalcyclicbb4in A B C)
+  (evalcyclicbbin A B C)
+  :guard
+  (exists ((D Int)) (>= D 1)))
+
 (rule (evalcyclicbb4in A B C) (evalcyclicreturnin A B C))
 (rule (evalcyclicbbin A B C) (evalcyclicbb3in A B (+ C 1)) :guard (>= B C))
 (rule (evalcyclicbbin A B C) (evalcyclicbb3in A B 0) :guard (>= C (+ B 1)))

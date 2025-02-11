@@ -10372,7 +10372,7 @@
     B2
     C2)
   :guard
-  (>= D2 (+ E2 1)))
+  (exists ((D2 Int) (E2 Int)) (>= D2 (+ E2 1))))
 
 (rule
   (f430
@@ -11182,7 +11182,7 @@
     B2
     C2)
   :guard
-  (>= E2 (+ F2 1)))
+  (exists ((E2 Int) (F2 Int)) (>= E2 (+ F2 1))))
 
 (rule
   (f486
@@ -14312,7 +14312,7 @@
     B2
     C2)
   :guard
-  (and (>= 15 J1) (>= 0 (+ E2 1))))
+  (exists ((E2 Int)) (and (>= 15 J1) (>= 0 (+ E2 1)))))
 
 (rule
   (f332
@@ -14892,7 +14892,7 @@
     B2
     C2)
   :guard
-  (and (>= 15 J1) (>= 0 (+ E2 1))))
+  (exists ((E2 Int)) (and (>= 15 J1) (>= 0 (+ E2 1)))))
 
 (rule
   (f313

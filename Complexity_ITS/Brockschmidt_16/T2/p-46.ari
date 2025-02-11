@@ -61,6 +61,6 @@
   (f0 A B C D E)
   (f0 F B C H F)
   :guard
-  (and (and (>= (* 2 F) 1) (>= G 1)) (= A (* 2 F))))
+  (exists ((G Int)) (and (and (>= (* 2 F) 1) (>= G 1)) (= A (* 2 F)))))
 
 (rule (f1 A B C D E) (f0 A B C D E))

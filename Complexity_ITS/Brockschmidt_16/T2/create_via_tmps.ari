@@ -161,44 +161,56 @@
   (f9 A B C D E F G H I J K L M N O P Q R S T U V W X)
   (f10 A1 Z Y D E F G H I J Y L M N O 0 Y 0 Y N U V W X)
   :guard
-  (and
+  (exists
+    ((B1 Int))
     (and
-      (and (and (and (>= B1 (+ N 1)) (>= O 0)) (>= A1 2)) (>= Z A1))
-      (>= Y (+ B1 1)))
-    (= P 0))
+      (and
+        (and (and (and (>= B1 (+ N 1)) (>= O 0)) (>= A1 2)) (>= Z A1))
+        (>= Y (+ B1 1)))
+      (= P 0))
+    )
   )
 
 (rule
   (f9 A B C D E F G H I J K L M N O P Q R S T U V W X)
   (f10 A1 Z Y D E F G H I J Y L M N O 0 Y 0 Y N U V W X)
   :guard
-  (and
+  (exists
+    ((B1 Int))
     (and
-      (and (and (and (>= B1 (+ N 1)) (>= O 0)) (>= A1 2)) (>= Z A1))
-      (>= B1 (+ Y 1)))
-    (= P 0))
+      (and
+        (and (and (and (>= B1 (+ N 1)) (>= O 0)) (>= A1 2)) (>= Z A1))
+        (>= B1 (+ Y 1)))
+      (= P 0))
+    )
   )
 
 (rule
   (f9 A B C D E F G H I J K L M N O P Q R S T U V W X)
   (f10 A1 Z Y D E F G H I J Y L M N O 0 Y 0 Y N U V W X)
   :guard
-  (and
+  (exists
+    ((B1 Int))
     (and
-      (and (and (and (>= N (+ B1 1)) (>= O 0)) (>= A1 2)) (>= Z A1))
-      (>= Y (+ B1 1)))
-    (= P 0))
+      (and
+        (and (and (and (>= N (+ B1 1)) (>= O 0)) (>= A1 2)) (>= Z A1))
+        (>= Y (+ B1 1)))
+      (= P 0))
+    )
   )
 
 (rule
   (f9 A B C D E F G H I J K L M N O P Q R S T U V W X)
   (f10 A1 Z Y D E F G H I J Y L M N O 0 Y 0 Y N U V W X)
   :guard
-  (and
+  (exists
+    ((B1 Int))
     (and
-      (and (and (and (>= N (+ B1 1)) (>= O 0)) (>= A1 2)) (>= Z A1))
-      (>= B1 (+ Y 1)))
-    (= P 0))
+      (and
+        (and (and (and (>= N (+ B1 1)) (>= O 0)) (>= A1 2)) (>= Z A1))
+        (>= B1 (+ Y 1)))
+      (= P 0))
+    )
   )
 
 (rule
@@ -220,44 +232,56 @@
   (f10 A B C D E F G H I J K L M N O P Q R S T U V W X)
   (f10 A1 Z Y D E F G H I J Y L M N O 0 Y 0 Y N (+ (- 1) U) B1 (+ (- 1) U) X)
   :guard
-  (and
+  (exists
+    ((C1 Int))
     (and
-      (and (and (and (>= C1 (+ N 1)) (>= U 0)) (>= A1 2)) (>= Z A1))
-      (>= Y (+ C1 1)))
-    (= P 0))
+      (and
+        (and (and (and (>= C1 (+ N 1)) (>= U 0)) (>= A1 2)) (>= Z A1))
+        (>= Y (+ C1 1)))
+      (= P 0))
+    )
   )
 
 (rule
   (f10 A B C D E F G H I J K L M N O P Q R S T U V W X)
   (f10 A1 Z Y D E F G H I J Y L M N O 0 Y 0 Y N (+ (- 1) U) B1 (+ (- 1) U) X)
   :guard
-  (and
+  (exists
+    ((C1 Int))
     (and
-      (and (and (and (>= C1 (+ N 1)) (>= U 0)) (>= A1 2)) (>= Z A1))
-      (>= C1 (+ Y 1)))
-    (= P 0))
+      (and
+        (and (and (and (>= C1 (+ N 1)) (>= U 0)) (>= A1 2)) (>= Z A1))
+        (>= C1 (+ Y 1)))
+      (= P 0))
+    )
   )
 
 (rule
   (f10 A B C D E F G H I J K L M N O P Q R S T U V W X)
   (f10 A1 Z Y D E F G H I J Y L M N O 0 Y 0 Y N (+ (- 1) U) B1 (+ (- 1) U) X)
   :guard
-  (and
+  (exists
+    ((C1 Int))
     (and
-      (and (and (and (>= N (+ C1 1)) (>= U 0)) (>= A1 2)) (>= Z A1))
-      (>= Y (+ C1 1)))
-    (= P 0))
+      (and
+        (and (and (and (>= N (+ C1 1)) (>= U 0)) (>= A1 2)) (>= Z A1))
+        (>= Y (+ C1 1)))
+      (= P 0))
+    )
   )
 
 (rule
   (f10 A B C D E F G H I J K L M N O P Q R S T U V W X)
   (f10 A1 Z Y D E F G H I J Y L M N O 0 Y 0 Y N (+ (- 1) U) B1 (+ (- 1) U) X)
   :guard
-  (and
+  (exists
+    ((C1 Int))
     (and
-      (and (and (and (>= N (+ C1 1)) (>= U 0)) (>= A1 2)) (>= Z A1))
-      (>= C1 (+ Y 1)))
-    (= P 0))
+      (and
+        (and (and (and (>= N (+ C1 1)) (>= U 0)) (>= A1 2)) (>= Z A1))
+        (>= C1 (+ Y 1)))
+      (= P 0))
+    )
   )
 
 (rule
@@ -270,35 +294,47 @@
   (f1 A B C D E F G H I J K L M N O P Q R S T U V W X)
   (f10 Y (+ U 1) C D E F G H I J C L M C U 0 C 0 C C U V W X)
   :guard
-  (and
-    (and (and (and (and (>= B A) (>= B 0)) (>= Z Y)) (>= Y 2)) (>= C 1))
-    (>= 0 (+ C 1)))
+  (exists
+    ((Z Int))
+    (and
+      (and (and (and (and (>= B A) (>= B 0)) (>= Z Y)) (>= Y 2)) (>= C 1))
+      (>= 0 (+ C 1)))
+    )
   )
 
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R S T U V W X)
   (f10 Y (+ U 1) C D E F G H I J C L M C U 0 C 0 C C U V W X)
   :guard
-  (and (and (and (and (>= B A) (>= B 0)) (>= Z Y)) (>= Y 2)) (>= C 1)))
-
-(rule
-  (f1 A B C D E F G H I J K L M N O P Q R S T U V W X)
-  (f10 Y (+ U 1) C D E F G H I J C L M C U 0 C 0 C C U V W X)
-  :guard
-  (and
-    (and (and (and (>= B A) (>= B 0)) (>= Z Y)) (>= Y 2))
-    (>= 0 (+ C 1)))
+  (exists
+    ((Z Int))
+    (and (and (and (and (>= B A) (>= B 0)) (>= Z Y)) (>= Y 2)) (>= C 1)))
   )
 
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R S T U V W X)
   (f10 Y (+ U 1) C D E F G H I J C L M C U 0 C 0 C C U V W X)
   :guard
-  (and
+  (exists
+    ((Z Int))
     (and
       (and (and (and (>= B A) (>= B 0)) (>= Z Y)) (>= Y 2))
       (>= 0 (+ C 1)))
-    (>= C 1))
+    )
+  )
+
+(rule
+  (f1 A B C D E F G H I J K L M N O P Q R S T U V W X)
+  (f10 Y (+ U 1) C D E F G H I J C L M C U 0 C 0 C C U V W X)
+  :guard
+  (exists
+    ((Z Int))
+    (and
+      (and
+        (and (and (and (>= B A) (>= B 0)) (>= Z Y)) (>= Y 2))
+        (>= 0 (+ C 1)))
+      (>= C 1))
+    )
   )
 
 (rule

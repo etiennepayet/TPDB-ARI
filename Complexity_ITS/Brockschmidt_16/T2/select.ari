@@ -39,7 +39,10 @@
   (f11 A B C D E F G H I J K)
   (f11 A B C D (+ D 1) F 1 N I J K)
   :guard
-  (and (and (>= L (+ M 1)) (= E (+ D 1))) (= G 0)))
+  (exists
+    ((L Int) (M Int))
+    (and (and (>= L (+ M 1)) (= E (+ D 1))) (= G 0)))
+  )
 
 (rule
   (f11 A B C D E F G H I J K)
@@ -69,7 +72,7 @@
   (f43 A B C D E F G H I J K)
   (f43 A B C D E F G H I (+ J 1) K)
   :guard
-  (>= K (+ N 1)))
+  (exists ((N Int)) (>= K (+ N 1))))
 
 (rule (f48 A B C D E F G H I J K) (f48 (- A 1) B C D E F G H I J K))
 (rule

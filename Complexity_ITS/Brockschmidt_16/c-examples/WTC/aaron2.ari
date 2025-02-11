@@ -39,9 +39,14 @@
   (evalaaron2bb3in A B C)
   (evalaaron2bb4in A B C)
   :guard
-  (>= 0 (+ D 1)))
+  (exists ((D Int)) (>= 0 (+ D 1))))
 
-(rule (evalaaron2bb3in A B C) (evalaaron2bb4in A B C) :guard (>= D 1))
+(rule
+  (evalaaron2bb3in A B C)
+  (evalaaron2bb4in A B C)
+  :guard
+  (exists ((D Int)) (>= D 1)))
+
 (rule (evalaaron2bb3in A B C) (evalaaron2bb5in A B C))
 (rule (evalaaron2bb4in A B C) (evalaaron2bb6in A B (- (- C A) 1)))
 (rule (evalaaron2bb5in A B C) (evalaaron2bb6in A (+ (+ B A) 1) C))

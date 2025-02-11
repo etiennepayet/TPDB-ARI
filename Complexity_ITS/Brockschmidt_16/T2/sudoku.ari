@@ -826,7 +826,7 @@
   (f65 A B C D E F G H I J K L M N O P Q R S T U V W)
   (f62 1 B C D E F G H I J K L (+ M 1) 1 O P Q R S T U V W)
   :guard
-  (>= X (+ Y 1)))
+  (exists ((X Int) (Y Int)) (>= X (+ Y 1))))
 
 (rule
   (f65 A B C D E F G H I J K L M N O P Q R S T U V W)
@@ -870,7 +870,7 @@
   (f86 A B C D E F G H I J K L M N O P Q R S T U V W)
   (f83 A 1 C D E F G H I J K L M N O (+ P 1) 1 R S T U V W)
   :guard
-  (>= X (+ Y 1)))
+  (exists ((X Int) (Y Int)) (>= X (+ Y 1))))
 
 (rule
   (f86 A B C D E F G H I J K L M N O P Q R S T U V W)
@@ -944,7 +944,7 @@
   (f117 A B C D E F G H I J K L M N O P Q R S T U V W)
   (f113 A B C D E 1 G H I J K L M N O P Q R S T (+ U 1) 1 W)
   :guard
-  (>= X (+ Y 1)))
+  (exists ((X Int) (Y Int)) (>= X (+ Y 1))))
 
 (rule
   (f117 A B C D E F G H I J K L M N O P Q R S T U V W)

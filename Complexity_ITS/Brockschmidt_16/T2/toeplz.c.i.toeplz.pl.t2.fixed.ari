@@ -245,15 +245,18 @@
   (f45 A B C D E F G H I J K L M N O P Q R)
   (f60 A B C D E 1 G H I S B L M N O P T U)
   :guard
-  (and
+  (exists
+    ((V Int) (W Int))
     (and
       (and
         (and
-          (and (and (>= (+ B 1) (* 2 V)) (>= (* 3 V) (+ B 2))) (>= V S))
-          (>= (+ B 1) (* 2 W)))
-        (>= (* 3 W) (+ B 2)))
-      (>= S W))
-    (>= F (+ 1 B)))
+          (and
+            (and (and (>= (+ B 1) (* 2 V)) (>= (* 3 V) (+ B 2))) (>= V S))
+            (>= (+ B 1) (* 2 W)))
+          (>= (* 3 W) (+ B 2)))
+        (>= S W))
+      (>= F (+ 1 B)))
+    )
   )
 
 (rule

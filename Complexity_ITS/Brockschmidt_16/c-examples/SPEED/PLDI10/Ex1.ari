@@ -21,15 +21,20 @@
   (evalEx1bb1in A B C D)
   (evalEx1bb4in A B C (- D 1))
   :guard
-  (>= 0 (+ E 1)))
+  (exists ((E Int)) (>= 0 (+ E 1))))
 
 (rule
   (evalEx1bb1in A B C D)
   (evalEx1bb4in A B C (- D 1))
   :guard
-  (and (>= 0 (+ E 1)) (>= E 1)))
+  (exists ((E Int)) (and (>= 0 (+ E 1)) (>= E 1))))
 
-(rule (evalEx1bb1in A B C D) (evalEx1bb4in A B C (- D 1)) :guard (>= E 1))
+(rule
+  (evalEx1bb1in A B C D)
+  (evalEx1bb4in A B C (- D 1))
+  :guard
+  (exists ((E Int)) (>= E 1)))
+
 (rule (evalEx1bb1in A B C D) (evalEx1bb4in A B C D) :guard (>= 0 1))
 (rule (evalEx1bb1in A B C D) (evalEx1bb4in A B C D) :guard (>= 0 1))
 (rule

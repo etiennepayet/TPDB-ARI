@@ -23,22 +23,28 @@
   (evalfbb7in A B C D)
   (evalfbb5in A B 0 D)
   :guard
-  (and
+  (exists
+    ((E Int))
     (and
-      (and (and (>= (* (* B B) B) 1) (>= E 0)) (>= (* (* B B) B) (* 2 E)))
-      (>= (+ 1 (* 2 E)) (* (* B B) B)))
-    (>= E (+ 1 A)))
+      (and
+        (and (and (>= (* (* B B) B) 1) (>= E 0)) (>= (* (* B B) B) (* 2 E)))
+        (>= (+ 1 (* 2 E)) (* (* B B) B)))
+      (>= E (+ 1 A)))
+    )
   )
 
 (rule
   (evalfbb7in A B C D)
   (evalfbb5in A B 0 D)
   :guard
-  (and
+  (exists
+    ((E Int))
     (and
-      (and (and (>= 0 (+ (* (* B B) B) 1)) (>= 0 E)) (>= E (+ 1 A)))
-      (>= (* 2 E) (* (* B B) B)))
-    (>= (+ 1 (* (* B B) B)) (* 2 E)))
+      (and
+        (and (and (>= 0 (+ (* (* B B) B) 1)) (>= 0 E)) (>= E (+ 1 A)))
+        (>= (* 2 E) (* (* B B) B)))
+      (>= (+ 1 (* (* B B) B)) (* 2 E)))
+    )
   )
 
 (rule
@@ -51,22 +57,28 @@
   (evalfbb7in A B C D)
   (evalfreturnin A B C D)
   :guard
-  (and
+  (exists
+    ((E Int))
     (and
-      (and (and (>= (* (* B B) B) 1) (>= E 0)) (>= (* (* B B) B) (* 2 E)))
-      (>= (+ 1 (* 2 E)) (* (* B B) B)))
-    (>= A E))
+      (and
+        (and (and (>= (* (* B B) B) 1) (>= E 0)) (>= (* (* B B) B) (* 2 E)))
+        (>= (+ 1 (* 2 E)) (* (* B B) B)))
+      (>= A E))
+    )
   )
 
 (rule
   (evalfbb7in A B C D)
   (evalfreturnin A B C D)
   :guard
-  (and
+  (exists
+    ((E Int))
     (and
-      (and (and (>= 0 (+ (* (* B B) B) 1)) (>= 0 E)) (>= A E))
-      (>= (* 2 E) (* (* B B) B)))
-    (>= (+ 1 (* (* B B) B)) (* 2 E)))
+      (and
+        (and (and (>= 0 (+ (* (* B B) B) 1)) (>= 0 E)) (>= A E))
+        (>= (* 2 E) (* (* B B) B)))
+      (>= (+ 1 (* (* B B) B)) (* 2 E)))
+    )
   )
 
 (rule (evalfbb5in A B C D) (evalfbb3in A B C 0) :guard (>= B (+ 1 C)))

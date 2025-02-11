@@ -100,13 +100,13 @@
   (eval_realbubble_bb3_in v_1 v_26 v_i_0 v_j_0 v_length v_test_0 v_test_1)
   (eval_realbubble_bb4_in v_1 v_26 v_i_0 v_j_0 v_length v_test_0 v_test_1)
   :guard
-  (> nondef_1 nondef_2))
+  (exists ((nondef_1 Int) (nondef_2 Int)) (> nondef_1 nondef_2)))
 
 (rule
   (eval_realbubble_bb3_in v_1 v_26 v_i_0 v_j_0 v_length v_test_0 v_test_1)
   (eval_realbubble_bb5_in v_1 v_26 v_i_0 v_j_0 v_length v_test_0 v_test_0)
   :guard
-  (<= nondef_1 nondef_2))
+  (exists ((nondef_1 Int) (nondef_2 Int)) (<= nondef_1 nondef_2)))
 
 (rule
   (eval_realbubble_bb4_in v_1 v_26 v_i_0 v_j_0 v_length v_test_0 v_test_1)

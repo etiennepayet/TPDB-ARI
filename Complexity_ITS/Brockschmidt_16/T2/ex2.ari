@@ -7,5 +7,10 @@
 (rule (f0 A B C D) (f14 E E 0 D) :guard (>= 0 E))
 (rule (f0 A B C D) (f14 E E 0 D) :guard (>= E 1024))
 (rule (f0 A B C D) (f14 E E 0 F) :guard (and (>= 1023 E) (>= E 1)))
-(rule (f14 A B C D) (f14 A B (+ C 1) D) :guard (>= E (+ C 1)))
-(rule (f14 A B C D) (f22 A B C D) :guard (>= C E))
+(rule
+  (f14 A B C D)
+  (f14 A B (+ C 1) D)
+  :guard
+  (exists ((E Int)) (>= E (+ C 1))))
+
+(rule (f14 A B C D) (f22 A B C D) :guard (exists ((E Int)) (>= C E)))

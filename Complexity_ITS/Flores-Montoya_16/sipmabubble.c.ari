@@ -84,13 +84,13 @@
   (eval_sipmabubble_bb3_in v_24 v_i_0 v_j_0 v_n)
   (eval_sipmabubble_bb4_in v_24 v_i_0 v_j_0 v_n)
   :guard
-  (> nondef_0 nondef_1))
+  (exists ((nondef_0 Int) (nondef_1 Int)) (> nondef_0 nondef_1)))
 
 (rule
   (eval_sipmabubble_bb3_in v_24 v_i_0 v_j_0 v_n)
   (eval_sipmabubble_bb5_in v_24 v_i_0 v_j_0 v_n)
   :guard
-  (<= nondef_0 nondef_1))
+  (exists ((nondef_0 Int) (nondef_1 Int)) (<= nondef_0 nondef_1)))
 
 (rule
   (eval_sipmabubble_bb4_in v_24 v_i_0 v_j_0 v_n)

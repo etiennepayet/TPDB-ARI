@@ -32,13 +32,13 @@
   (f36 A B C D E F G H)
   (f43 A B C D E F G J)
   :guard
-  (and (>= A D) (>= 0 (+ I 1))))
+  (exists ((I Int)) (and (>= A D) (>= 0 (+ I 1)))))
 
 (rule
   (f36 A B C D E F G H)
   (f43 A B C D E F G J)
   :guard
-  (and (>= A D) (>= I 1)))
+  (exists ((I Int)) (and (>= A D) (>= I 1))))
 
 (rule (f43 A B C D E F G H) (f43 A B C D (+ E 1) F G H) :guard (>= A E))
 (rule (f49 A B C D E F G H) (f49 A B C D (+ E 1) F G H) :guard (>= A E))

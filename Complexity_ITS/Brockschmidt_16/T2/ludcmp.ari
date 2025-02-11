@@ -18,7 +18,7 @@
   (f69 A B C D E F G H I J K)
   (f71 A B C D E F G H I J K)
   :guard
-  (>= 0 (+ L 1)))
+  (exists ((L Int)) (>= 0 (+ L 1))))
 
 (rule (f69 A B C D E F G H I J K) (f71 A B C D E F G H I J K))
 (rule (f0 A B C D E F G H I J K) (f12 A B C D E F G H I J K))

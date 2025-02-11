@@ -820,13 +820,13 @@
   (f91 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1)
   (f99 A B C D E F G H I J K B1 M N O P Q (* 2 J) S T U C1 W X Y Z A1)
   :guard
-  (and (>= 0 (+ D1 1)) (>= D J)))
+  (exists ((D1 Int)) (and (>= 0 (+ D1 1)) (>= D J))))
 
 (rule
   (f91 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1)
   (f99 A B C D E F G H I J K B1 M N O P Q (* 2 J) S T U C1 W X Y Z A1)
   :guard
-  (and (>= D1 1) (>= D J)))
+  (exists ((D1 Int)) (and (>= D1 1) (>= D J))))
 
 (rule
   (f99 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1)
@@ -910,13 +910,13 @@
   (f71 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1)
   (f86 A B C D E F G H I J K B1 M N O P Q R S T U V W X Y C1 A1)
   :guard
-  (and (>= 0 (+ D1 1)) (>= J (+ 1 C))))
+  (exists ((D1 Int)) (and (>= 0 (+ D1 1)) (>= J (+ 1 C)))))
 
 (rule
   (f71 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1)
   (f86 A B C D E F G H I J K B1 M N O P Q R S T U V W X Y C1 A1)
   :guard
-  (and (>= D1 1) (>= J (+ 1 C))))
+  (exists ((D1 Int)) (and (>= D1 1) (>= J (+ 1 C)))))
 
 (rule
   (f64 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1)

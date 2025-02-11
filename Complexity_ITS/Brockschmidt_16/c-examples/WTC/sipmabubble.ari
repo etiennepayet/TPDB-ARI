@@ -31,9 +31,14 @@
   (evalsipmabubblebb1in A B)
   (evalsipmabubblebb2in A B)
   :guard
-  (>= C (+ D 1)))
+  (exists ((C Int) (D Int)) (>= C (+ D 1))))
 
-(rule (evalsipmabubblebb1in A B) (evalsipmabubblebb3in A B) :guard (>= D C))
+(rule
+  (evalsipmabubblebb1in A B)
+  (evalsipmabubblebb3in A B)
+  :guard
+  (exists ((C Int) (D Int)) (>= D C)))
+
 (rule (evalsipmabubblebb2in A B) (evalsipmabubblebb3in A B))
 (rule (evalsipmabubblebb3in A B) (evalsipmabubblebb4in A (+ B 1)))
 (rule (evalsipmabubblebb5in A B) (evalsipmabubblebb6in (- A 1) B))

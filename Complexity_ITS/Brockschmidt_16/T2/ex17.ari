@@ -9,13 +9,28 @@
 (rule (f0 A B C D E F G) (f5 0 B C D E F G))
 (rule (f5 A B C D E F G) (f5 (+ A 1) B C D E F G) :guard (>= 99 A))
 (rule (f17 A B C D E F G) (f17 A B C D E F G))
-(rule (f17 A B C D E F G) (f17 A (+ B 1) C D E F G) :guard (>= 0 (+ H 1)))
+(rule
+  (f17 A B C D E F G)
+  (f17 A (+ B 1) C D E F G)
+  :guard
+  (exists ((H Int)) (>= 0 (+ H 1))))
+
 (rule (f17 A B C D E F G) (f17 A (+ B 1) C D E F G))
 (rule (f32 A B C D E F G) (f32 A B C D E F G))
-(rule (f32 A B C D E F G) (f32 A B (+ C 1) D E F G) :guard (>= 0 (+ H 1)))
+(rule
+  (f32 A B C D E F G)
+  (f32 A B (+ C 1) D E F G)
+  :guard
+  (exists ((H Int)) (>= 0 (+ H 1))))
+
 (rule (f32 A B C D E F G) (f32 A B (+ C 1) D E F G))
 (rule (f32 A B C D E F G) (f13 A B C C C F G))
-(rule (f17 A B C D E F G) (f32 A B B B E B H) :guard (>= 0 (+ I 1)))
+(rule
+  (f17 A B C D E F G)
+  (f32 A B B B E B H)
+  :guard
+  (exists ((I Int)) (>= 0 (+ I 1))))
+
 (rule (f17 A B C D E F G) (f32 A B B B E B H))
 (rule (f17 A B C D E F G) (f13 A B C B E B H))
 (rule (f5 A B C D E F G) (f13 A B C (- A 2) E F G) :guard (>= A 100))

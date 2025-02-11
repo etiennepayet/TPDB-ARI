@@ -311,7 +311,7 @@
   (f34 A B C D E F G H I J K L M N O P Q R)
   (f53 A B C D E F G H I J K L M N (- S) T S R)
   :guard
-  (and (>= 0 (+ U 1)) (>= D (+ 1 A))))
+  (exists ((U Int)) (and (>= 0 (+ U 1)) (>= D (+ 1 A)))))
 
 (rule
   (f29 A B C D E F G H I J K L M N O P Q R)
@@ -341,7 +341,7 @@
   (f10 A B C D E F G H I J K L M N O P Q R)
   (f73 A B C D E F G H I J K L M N O P Q R)
   :guard
-  (and (>= B A) (>= 0 (+ S 1))))
+  (exists ((S Int)) (and (>= B A) (>= 0 (+ S 1)))))
 
 (rule
   (f10 A B C D E F G H I J K L M N O P Q R)

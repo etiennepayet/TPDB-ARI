@@ -42,13 +42,13 @@
   (evalinsertsortbb3in A B C D)
   (evalinsertsortbb1in A B C D)
   :guard
-  (>= E (+ C 1)))
+  (exists ((E Int)) (>= E (+ C 1))))
 
 (rule
   (evalinsertsortbb3in A B C D)
   (evalinsertsortbb4in A B C D)
   :guard
-  (>= C E))
+  (exists ((E Int)) (>= C E)))
 
 (rule (evalinsertsortbb1in A B C D) (evalinsertsortbb2in A B C (- D 1)))
 (rule (evalinsertsortbb4in A B C D) (evalinsertsortbb5in (+ A 1) B C D))

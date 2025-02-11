@@ -285,7 +285,10 @@
   (f35 A B C D E F G H I J K L M N O P Q R S T U V W)
   (f38 A B C D E F G H I J K L M N O P Q R S T U V W)
   :guard
-  (and (and (>= P (* 2 X)) (>= (* 3 X) (+ P 1))) (>= (+ X 1) Q)))
+  (exists
+    ((X Int))
+    (and (and (>= P (* 2 X)) (>= (* 3 X) (+ P 1))) (>= (+ X 1) Q)))
+  )
 
 (rule
   (f38 A B C D E F G H I J K L M N O P Q R S T U V W)
@@ -516,7 +519,10 @@
   (f35 A B C D E F G H I J K L M N O P Q R S T U V W)
   (f27 A B C D E F G H (+ I 1) J K L M N O P Q R S T U V W)
   :guard
-  (and (and (>= P (* 2 X)) (>= (* 3 X) (+ P 1))) (>= Q (+ 2 X))))
+  (exists
+    ((X Int))
+    (and (and (>= P (* 2 X)) (>= (* 3 X) (+ P 1))) (>= Q (+ 2 X))))
+  )
 
 (rule
   (f27 A B C D E F G H I J K L M N O P Q R S T U V W)

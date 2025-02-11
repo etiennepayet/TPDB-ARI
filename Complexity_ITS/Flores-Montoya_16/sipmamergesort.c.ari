@@ -3730,7 +3730,7 @@
     v_r_3
     v_up_0)
   :guard
-  (< nondef_0 nondef_1))
+  (exists ((nondef_0 Int) (nondef_1 Int)) (< nondef_0 nondef_1)))
 
 (rule
   (eval_sipmamergesort_init_bb4_in
@@ -3760,7 +3760,7 @@
     v_r_3
     v_up_0)
   :guard
-  (>= nondef_0 nondef_1))
+  (exists ((nondef_0 Int) (nondef_1 Int)) (>= nondef_0 nondef_1)))
 
 (rule
   (eval_sipmamergesort_init_bb5_in

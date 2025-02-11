@@ -8458,7 +8458,7 @@
     P1
     Q1)
   :guard
-  (and (>= G1 (+ 1 F)) (>= 0 (+ T1 1))))
+  (exists ((T1 Int)) (and (>= G1 (+ 1 F)) (>= 0 (+ T1 1)))))
 
 (rule
   (f315
@@ -8550,7 +8550,7 @@
     P1
     Q1)
   :guard
-  (and (>= G1 (+ 1 F)) (>= T1 1)))
+  (exists ((T1 Int)) (and (>= G1 (+ 1 F)) (>= T1 1))))
 
 (rule
   (f300

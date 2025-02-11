@@ -71,247 +71,152 @@
   (eval_realheapsort_step1_bb3_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   :guard
-  (and (= (+ v_j_0 1) 0) (= nondef_0 0)))
+  (exists ((nondef_0 Int)) (and (= (+ v_j_0 1) 0) (= nondef_0 0))))
 
 (rule
   (eval_realheapsort_step1_bb3_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_0 Int))
     (and
-      (and (> (+ v_j_0 1) 0) (>= nondef_0 0))
-      (>= (- v_j_0 (+ (* 2 nondef_0) 1)) 0))
-    (< (- v_j_0 (+ (* 2 nondef_0) 1)) 2))
+      (and
+        (and (> (+ v_j_0 1) 0) (>= nondef_0 0))
+        (>= (- v_j_0 (+ (* 2 nondef_0) 1)) 0))
+      (< (- v_j_0 (+ (* 2 nondef_0) 1)) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb3_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_0 Int))
     (and
-      (and (< (+ v_j_0 1) 0) (<= nondef_0 0))
-      (>= (- (+ (- v_j_0) (* 2 nondef_0)) 1) 0))
-    (< (- (+ (- v_j_0) (* 2 nondef_0)) 1) 2))
-  )
-
-(rule
-  (eval_realheapsort_step1_bb3_in v_33 v_N v_j_0 v_k_0)
-  (eval_realheapsort_step1__critedge_in v_33 v_N v_j_0 v_k_0)
-  :guard
-  (and (= (+ v_j_0 1) 0) (= nondef_0 0)))
-
-(rule
-  (eval_realheapsort_step1_bb3_in v_33 v_N v_j_0 v_k_0)
-  (eval_realheapsort_step1__critedge_in v_33 v_N v_j_0 v_k_0)
-  :guard
-  (and
-    (and
-      (and (> (+ v_j_0 1) 0) (>= nondef_0 0))
-      (>= (- v_j_0 (+ (* 2 nondef_0) 1)) 0))
-    (< (- v_j_0 (+ (* 2 nondef_0) 1)) 2))
+      (and
+        (and (< (+ v_j_0 1) 0) (<= nondef_0 0))
+        (>= (- (+ (- v_j_0) (* 2 nondef_0)) 1) 0))
+      (< (- (+ (- v_j_0) (* 2 nondef_0)) 1) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb3_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1__critedge_in v_33 v_N v_j_0 v_k_0)
   :guard
-  (and
-    (and
-      (and (< (+ v_j_0 1) 0) (<= nondef_0 0))
-      (>= (- (+ (- v_j_0) (* 2 nondef_0)) 1) 0))
-    (< (- (+ (- v_j_0) (* 2 nondef_0)) 1) 2))
-  )
+  (exists ((nondef_0 Int)) (and (= (+ v_j_0 1) 0) (= nondef_0 0))))
 
 (rule
-  (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
-  (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
+  (eval_realheapsort_step1_bb3_in v_33 v_N v_j_0 v_k_0)
+  (eval_realheapsort_step1__critedge_in v_33 v_N v_j_0 v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_0 Int))
     (and
       (and
-        (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (= (+ v_j_0 1) 0))
-        (= nondef_2 0))
-      (= (+ v_j_0 1) 0))
-    (= nondef_3 0))
+        (and (> (+ v_j_0 1) 0) (>= nondef_0 0))
+        (>= (- v_j_0 (+ (* 2 nondef_0) 1)) 0))
+      (< (- v_j_0 (+ (* 2 nondef_0) 1)) 2))
+    )
   )
 
 (rule
-  (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
-  (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
+  (eval_realheapsort_step1_bb3_in v_33 v_N v_j_0 v_k_0)
+  (eval_realheapsort_step1__critedge_in v_33 v_N v_j_0 v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_0 Int))
     (and
       (and
-        (and
-          (and
-            (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (= (+ v_j_0 1) 0))
-            (= nondef_2 0))
-          (> (+ v_j_0 1) 0))
-        (>= nondef_3 0))
-      (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
-    (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+        (and (< (+ v_j_0 1) 0) (<= nondef_0 0))
+        (>= (- (+ (- v_j_0) (* 2 nondef_0)) 1) 0))
+      (< (- (+ (- v_j_0) (* 2 nondef_0)) 1) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
-          (and
-            (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (= (+ v_j_0 1) 0))
-            (= nondef_2 0))
-          (< (+ v_j_0 1) 0))
-        (<= nondef_3 0))
-      (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
-    (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+          (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (= (+ v_j_0 1) 0))
+          (= nondef_2 0))
+        (= (+ v_j_0 1) 0))
+      (= nondef_3 0))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
-    (and
-      (and
-        (and
-          (and
-            (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (> (+ v_j_0 1) 0))
-            (>= nondef_2 0))
-          (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
-        (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
-      (= (+ v_j_0 1) 0))
-    (= nondef_3 0))
-  )
-
-(rule
-  (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
-  (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
-  :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
           (and
             (and
-              (and
-                (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (> (+ v_j_0 1) 0))
-                (>= nondef_2 0))
-              (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
-            (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
-          (> (+ v_j_0 1) 0))
-        (>= nondef_3 0))
-      (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
-    (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+              (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (= (+ v_j_0 1) 0))
+              (= nondef_2 0))
+            (> (+ v_j_0 1) 0))
+          (>= nondef_3 0))
+        (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
+      (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
           (and
             (and
-              (and
-                (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (> (+ v_j_0 1) 0))
-                (>= nondef_2 0))
-              (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
-            (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
-          (< (+ v_j_0 1) 0))
-        (<= nondef_3 0))
-      (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
-    (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+              (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (= (+ v_j_0 1) 0))
+              (= nondef_2 0))
+            (< (+ v_j_0 1) 0))
+          (<= nondef_3 0))
+        (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
+      (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
-    (and
-      (and
-        (and
-          (and
-            (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (< (+ v_j_0 1) 0))
-            (<= nondef_2 0))
-          (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
-        (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
-      (= (+ v_j_0 1) 0))
-    (= nondef_3 0))
-  )
-
-(rule
-  (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
-  (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
-  :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
           (and
             (and
-              (and
-                (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (< (+ v_j_0 1) 0))
-                (<= nondef_2 0))
-              (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
-            (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
-          (> (+ v_j_0 1) 0))
-        (>= nondef_3 0))
-      (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
-    (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+              (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (> (+ v_j_0 1) 0))
+              (>= nondef_2 0))
+            (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
+          (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
+        (= (+ v_j_0 1) 0))
+      (= nondef_3 0))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
-    (and
-      (and
-        (and
-          (and
-            (and
-              (and
-                (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (< (+ v_j_0 1) 0))
-                (<= nondef_2 0))
-              (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
-            (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
-          (< (+ v_j_0 1) 0))
-        (<= nondef_3 0))
-      (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
-    (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
-  )
-
-(rule
-  (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
-  (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
-  :guard
-  (and
-    (and
-      (and
-        (and
-          (and
-            (and
-              (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
-              (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
-            (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
-          (= (+ v_j_0 1) 0))
-        (= nondef_2 0))
-      (= (+ v_j_0 1) 0))
-    (= nondef_3 0))
-  )
-
-(rule
-  (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
-  (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
-  :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -319,22 +224,23 @@
             (and
               (and
                 (and
-                  (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
-                  (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
-                (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
-              (= (+ v_j_0 1) 0))
-            (= nondef_2 0))
-          (> (+ v_j_0 1) 0))
-        (>= nondef_3 0))
-      (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
-    (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+                  (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (> (+ v_j_0 1) 0))
+                  (>= nondef_2 0))
+                (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
+              (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
+            (> (+ v_j_0 1) 0))
+          (>= nondef_3 0))
+        (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
+      (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -342,22 +248,43 @@
             (and
               (and
                 (and
-                  (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
-                  (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
-                (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
-              (= (+ v_j_0 1) 0))
-            (= nondef_2 0))
-          (< (+ v_j_0 1) 0))
-        (<= nondef_3 0))
-      (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
-    (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+                  (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (> (+ v_j_0 1) 0))
+                  (>= nondef_2 0))
+                (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
+              (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
+            (< (+ v_j_0 1) 0))
+          (<= nondef_3 0))
+        (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
+      (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (< (+ v_j_0 1) 0))
+              (<= nondef_2 0))
+            (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
+          (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
+        (= (+ v_j_0 1) 0))
+      (= nondef_3 0))
+    )
+  )
+
+(rule
+  (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
+  (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
+  :guard
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -365,22 +292,147 @@
             (and
               (and
                 (and
-                  (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
-                  (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
-                (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
-              (> (+ v_j_0 1) 0))
-            (>= nondef_2 0))
-          (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
-        (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
-      (= (+ v_j_0 1) 0))
-    (= nondef_3 0))
+                  (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (< (+ v_j_0 1) 0))
+                  (<= nondef_2 0))
+                (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
+              (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
+            (> (+ v_j_0 1) 0))
+          (>= nondef_3 0))
+        (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
+      (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and
+                  (and (and (= (+ v_j_0 1) 0) (= nondef_1 0)) (< (+ v_j_0 1) 0))
+                  (<= nondef_2 0))
+                (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
+              (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
+            (< (+ v_j_0 1) 0))
+          (<= nondef_3 0))
+        (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
+      (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+    )
+  )
+
+(rule
+  (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
+  (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
+  :guard
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
+                (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
+              (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
+            (= (+ v_j_0 1) 0))
+          (= nondef_2 0))
+        (= (+ v_j_0 1) 0))
+      (= nondef_3 0))
+    )
+  )
+
+(rule
+  (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
+  (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
+  :guard
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and
+                  (and
+                    (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
+                    (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
+                  (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
+                (= (+ v_j_0 1) 0))
+              (= nondef_2 0))
+            (> (+ v_j_0 1) 0))
+          (>= nondef_3 0))
+        (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
+      (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+    )
+  )
+
+(rule
+  (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
+  (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
+  :guard
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and
+                  (and
+                    (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
+                    (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
+                  (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
+                (= (+ v_j_0 1) 0))
+              (= nondef_2 0))
+            (< (+ v_j_0 1) 0))
+          (<= nondef_3 0))
+        (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
+      (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+    )
+  )
+
+(rule
+  (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
+  (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
+  :guard
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
+    (and
+      (and
+        (and
+          (and
+            (and
+              (and
+                (and
+                  (and
+                    (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
+                    (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
+                  (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
+                (> (+ v_j_0 1) 0))
+              (>= nondef_2 0))
+            (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
+          (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
+        (= (+ v_j_0 1) 0))
+      (= nondef_3 0))
+    )
+  )
+
+(rule
+  (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
+  (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
+  :guard
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -390,24 +442,27 @@
                 (and
                   (and
                     (and
-                      (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
-                      (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
-                    (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
-                  (> (+ v_j_0 1) 0))
-                (>= nondef_2 0))
-              (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
-            (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
-          (> (+ v_j_0 1) 0))
-        (>= nondef_3 0))
-      (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
-    (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+                      (and
+                        (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
+                        (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
+                      (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
+                    (> (+ v_j_0 1) 0))
+                  (>= nondef_2 0))
+                (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
+              (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
+            (> (+ v_j_0 1) 0))
+          (>= nondef_3 0))
+        (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
+      (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -417,24 +472,27 @@
                 (and
                   (and
                     (and
-                      (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
-                      (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
-                    (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
-                  (> (+ v_j_0 1) 0))
-                (>= nondef_2 0))
-              (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
-            (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
-          (< (+ v_j_0 1) 0))
-        (<= nondef_3 0))
-      (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
-    (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+                      (and
+                        (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
+                        (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
+                      (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
+                    (> (+ v_j_0 1) 0))
+                  (>= nondef_2 0))
+                (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
+              (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
+            (< (+ v_j_0 1) 0))
+          (<= nondef_3 0))
+        (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
+      (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -442,22 +500,25 @@
             (and
               (and
                 (and
-                  (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
-                  (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
-                (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
-              (< (+ v_j_0 1) 0))
-            (<= nondef_2 0))
-          (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
-        (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
-      (= (+ v_j_0 1) 0))
-    (= nondef_3 0))
+                  (and
+                    (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
+                    (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
+                  (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
+                (< (+ v_j_0 1) 0))
+              (<= nondef_2 0))
+            (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
+          (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
+        (= (+ v_j_0 1) 0))
+      (= nondef_3 0))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -467,24 +528,27 @@
                 (and
                   (and
                     (and
-                      (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
-                      (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
-                    (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
-                  (< (+ v_j_0 1) 0))
-                (<= nondef_2 0))
-              (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
-            (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
-          (> (+ v_j_0 1) 0))
-        (>= nondef_3 0))
-      (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
-    (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+                      (and
+                        (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
+                        (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
+                      (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
+                    (< (+ v_j_0 1) 0))
+                  (<= nondef_2 0))
+                (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
+              (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
+            (> (+ v_j_0 1) 0))
+          (>= nondef_3 0))
+        (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
+      (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -494,43 +558,49 @@
                 (and
                   (and
                     (and
-                      (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
-                      (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
-                    (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
-                  (< (+ v_j_0 1) 0))
-                (<= nondef_2 0))
-              (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
-            (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
-          (< (+ v_j_0 1) 0))
-        (<= nondef_3 0))
-      (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
-    (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+                      (and
+                        (and (> (+ v_j_0 1) 0) (>= nondef_1 0))
+                        (>= (- v_j_0 (+ (* 2 nondef_1) 1)) 0))
+                      (< (- v_j_0 (+ (* 2 nondef_1) 1)) 2))
+                    (< (+ v_j_0 1) 0))
+                  (<= nondef_2 0))
+                (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
+              (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
+            (< (+ v_j_0 1) 0))
+          (<= nondef_3 0))
+        (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
+      (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
           (and
             (and
-              (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
-              (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
-            (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
-          (= (+ v_j_0 1) 0))
-        (= nondef_2 0))
-      (= (+ v_j_0 1) 0))
-    (= nondef_3 0))
+              (and
+                (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
+                (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
+              (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
+            (= (+ v_j_0 1) 0))
+          (= nondef_2 0))
+        (= (+ v_j_0 1) 0))
+      (= nondef_3 0))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -538,22 +608,25 @@
             (and
               (and
                 (and
-                  (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
-                  (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
-                (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
-              (= (+ v_j_0 1) 0))
-            (= nondef_2 0))
-          (> (+ v_j_0 1) 0))
-        (>= nondef_3 0))
-      (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
-    (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+                  (and
+                    (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
+                    (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
+                  (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
+                (= (+ v_j_0 1) 0))
+              (= nondef_2 0))
+            (> (+ v_j_0 1) 0))
+          (>= nondef_3 0))
+        (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
+      (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -561,22 +634,25 @@
             (and
               (and
                 (and
-                  (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
-                  (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
-                (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
-              (= (+ v_j_0 1) 0))
-            (= nondef_2 0))
-          (< (+ v_j_0 1) 0))
-        (<= nondef_3 0))
-      (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
-    (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+                  (and
+                    (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
+                    (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
+                  (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
+                (= (+ v_j_0 1) 0))
+              (= nondef_2 0))
+            (< (+ v_j_0 1) 0))
+          (<= nondef_3 0))
+        (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
+      (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -584,22 +660,25 @@
             (and
               (and
                 (and
-                  (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
-                  (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
-                (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
-              (> (+ v_j_0 1) 0))
-            (>= nondef_2 0))
-          (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
-        (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
-      (= (+ v_j_0 1) 0))
-    (= nondef_3 0))
+                  (and
+                    (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
+                    (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
+                  (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
+                (> (+ v_j_0 1) 0))
+              (>= nondef_2 0))
+            (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
+          (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
+        (= (+ v_j_0 1) 0))
+      (= nondef_3 0))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -609,24 +688,27 @@
                 (and
                   (and
                     (and
-                      (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
-                      (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
-                    (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
-                  (> (+ v_j_0 1) 0))
-                (>= nondef_2 0))
-              (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
-            (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
-          (> (+ v_j_0 1) 0))
-        (>= nondef_3 0))
-      (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
-    (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+                      (and
+                        (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
+                        (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
+                      (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
+                    (> (+ v_j_0 1) 0))
+                  (>= nondef_2 0))
+                (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
+              (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
+            (> (+ v_j_0 1) 0))
+          (>= nondef_3 0))
+        (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
+      (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -636,24 +718,27 @@
                 (and
                   (and
                     (and
-                      (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
-                      (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
-                    (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
-                  (> (+ v_j_0 1) 0))
-                (>= nondef_2 0))
-              (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
-            (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
-          (< (+ v_j_0 1) 0))
-        (<= nondef_3 0))
-      (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
-    (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+                      (and
+                        (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
+                        (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
+                      (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
+                    (> (+ v_j_0 1) 0))
+                  (>= nondef_2 0))
+                (>= (- v_j_0 (+ (* 2 nondef_2) 1)) 0))
+              (< (- v_j_0 (+ (* 2 nondef_2) 1)) 2))
+            (< (+ v_j_0 1) 0))
+          (<= nondef_3 0))
+        (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
+      (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -661,22 +746,25 @@
             (and
               (and
                 (and
-                  (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
-                  (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
-                (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
-              (< (+ v_j_0 1) 0))
-            (<= nondef_2 0))
-          (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
-        (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
-      (= (+ v_j_0 1) 0))
-    (= nondef_3 0))
+                  (and
+                    (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
+                    (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
+                  (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
+                (< (+ v_j_0 1) 0))
+              (<= nondef_2 0))
+            (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
+          (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
+        (= (+ v_j_0 1) 0))
+      (= nondef_3 0))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -686,24 +774,27 @@
                 (and
                   (and
                     (and
-                      (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
-                      (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
-                    (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
-                  (< (+ v_j_0 1) 0))
-                (<= nondef_2 0))
-              (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
-            (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
-          (> (+ v_j_0 1) 0))
-        (>= nondef_3 0))
-      (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
-    (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+                      (and
+                        (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
+                        (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
+                      (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
+                    (< (+ v_j_0 1) 0))
+                  (<= nondef_2 0))
+                (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
+              (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
+            (> (+ v_j_0 1) 0))
+          (>= nondef_3 0))
+        (>= (- v_j_0 (+ (* 2 nondef_3) 1)) 0))
+      (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
+    )
   )
 
 (rule
   (eval_realheapsort_step1_bb4_in v_33 v_N v_j_0 v_k_0)
   (eval_realheapsort_step1_bb2_in v_33 v_N (- nondef_3 1) v_k_0)
   :guard
-  (and
+  (exists
+    ((nondef_1 Int) (nondef_2 Int))
     (and
       (and
         (and
@@ -713,17 +804,19 @@
                 (and
                   (and
                     (and
-                      (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
-                      (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
-                    (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
-                  (< (+ v_j_0 1) 0))
-                (<= nondef_2 0))
-              (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
-            (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
-          (< (+ v_j_0 1) 0))
-        (<= nondef_3 0))
-      (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
-    (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+                      (and
+                        (and (< (+ v_j_0 1) 0) (<= nondef_1 0))
+                        (>= (- (+ (- v_j_0) (* 2 nondef_1)) 1) 0))
+                      (< (- (+ (- v_j_0) (* 2 nondef_1)) 1) 2))
+                    (< (+ v_j_0 1) 0))
+                  (<= nondef_2 0))
+                (>= (- (+ (- v_j_0) (* 2 nondef_2)) 1) 0))
+              (< (- (+ (- v_j_0) (* 2 nondef_2)) 1) 2))
+            (< (+ v_j_0 1) 0))
+          (<= nondef_3 0))
+        (>= (- (+ (- v_j_0) (* 2 nondef_3)) 1) 0))
+      (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
+    )
   )
 
 (rule

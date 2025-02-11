@@ -493,11 +493,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int))
     (and
-      (and (and (>= Q1 (+ H 1)) (>= Q1 (+ R1 1))) (>= I 0))
-      (>= P1 (+ Q1 1)))
-    (>= O1 2))
+      (and
+        (and (and (>= Q1 (+ H 1)) (>= Q1 (+ R1 1))) (>= I 0))
+        (>= P1 (+ Q1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -584,11 +587,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int))
     (and
-      (and (and (>= Q1 (+ H 1)) (>= Q1 (+ R1 1))) (>= I 0))
-      (>= Q1 (+ P1 1)))
-    (>= O1 2))
+      (and
+        (and (and (>= Q1 (+ H 1)) (>= Q1 (+ R1 1))) (>= I 0))
+        (>= Q1 (+ P1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -675,11 +681,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int))
     (and
-      (and (and (>= Q1 (+ H 1)) (>= R1 (+ Q1 1))) (>= I 0))
-      (>= P1 (+ Q1 1)))
-    (>= O1 2))
+      (and
+        (and (and (>= Q1 (+ H 1)) (>= R1 (+ Q1 1))) (>= I 0))
+        (>= P1 (+ Q1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -766,11 +775,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int))
     (and
-      (and (and (>= Q1 (+ H 1)) (>= R1 (+ Q1 1))) (>= I 0))
-      (>= Q1 (+ P1 1)))
-    (>= O1 2))
+      (and
+        (and (and (>= Q1 (+ H 1)) (>= R1 (+ Q1 1))) (>= I 0))
+        (>= Q1 (+ P1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -857,11 +869,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int))
     (and
-      (and (and (>= H (+ Q1 1)) (>= Q1 (+ R1 1))) (>= I 0))
-      (>= P1 (+ Q1 1)))
-    (>= O1 2))
+      (and
+        (and (and (>= H (+ Q1 1)) (>= Q1 (+ R1 1))) (>= I 0))
+        (>= P1 (+ Q1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -948,11 +963,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int))
     (and
-      (and (and (>= H (+ Q1 1)) (>= Q1 (+ R1 1))) (>= I 0))
-      (>= Q1 (+ P1 1)))
-    (>= O1 2))
+      (and
+        (and (and (>= H (+ Q1 1)) (>= Q1 (+ R1 1))) (>= I 0))
+        (>= Q1 (+ P1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -1039,11 +1057,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int))
     (and
-      (and (and (>= H (+ Q1 1)) (>= R1 (+ Q1 1))) (>= I 0))
-      (>= P1 (+ Q1 1)))
-    (>= O1 2))
+      (and
+        (and (and (>= H (+ Q1 1)) (>= R1 (+ Q1 1))) (>= I 0))
+        (>= P1 (+ Q1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -1130,11 +1151,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int))
     (and
-      (and (and (>= H (+ Q1 1)) (>= R1 (+ Q1 1))) (>= I 0))
-      (>= Q1 (+ P1 1)))
-    (>= O1 2))
+      (and
+        (and (and (>= H (+ Q1 1)) (>= R1 (+ Q1 1))) (>= I 0))
+        (>= Q1 (+ P1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -1221,11 +1245,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (T1 Int))
     (and
-      (and (and (and (>= Q1 (+ T1 1)) (>= Q1 (+ R1 1))) (>= Q 0)) (>= R 0))
-      (>= P1 (+ Q1 1)))
-    (>= O1 2))
+      (and
+        (and (and (and (>= Q1 (+ T1 1)) (>= Q1 (+ R1 1))) (>= Q 0)) (>= R 0))
+        (>= P1 (+ Q1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -1312,11 +1339,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (T1 Int))
     (and
-      (and (and (and (>= Q1 (+ T1 1)) (>= Q1 (+ R1 1))) (>= Q 0)) (>= R 0))
-      (>= Q1 (+ P1 1)))
-    (>= O1 2))
+      (and
+        (and (and (and (>= Q1 (+ T1 1)) (>= Q1 (+ R1 1))) (>= Q 0)) (>= R 0))
+        (>= Q1 (+ P1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -1403,11 +1433,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (T1 Int))
     (and
-      (and (and (and (>= Q1 (+ T1 1)) (>= R1 (+ Q1 1))) (>= Q 0)) (>= R 0))
-      (>= P1 (+ Q1 1)))
-    (>= O1 2))
+      (and
+        (and (and (and (>= Q1 (+ T1 1)) (>= R1 (+ Q1 1))) (>= Q 0)) (>= R 0))
+        (>= P1 (+ Q1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -1494,11 +1527,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (T1 Int))
     (and
-      (and (and (and (>= Q1 (+ T1 1)) (>= R1 (+ Q1 1))) (>= Q 0)) (>= R 0))
-      (>= Q1 (+ P1 1)))
-    (>= O1 2))
+      (and
+        (and (and (and (>= Q1 (+ T1 1)) (>= R1 (+ Q1 1))) (>= Q 0)) (>= R 0))
+        (>= Q1 (+ P1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -1585,11 +1621,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (T1 Int))
     (and
-      (and (and (and (>= T1 (+ Q1 1)) (>= Q1 (+ R1 1))) (>= Q 0)) (>= R 0))
-      (>= P1 (+ Q1 1)))
-    (>= O1 2))
+      (and
+        (and (and (and (>= T1 (+ Q1 1)) (>= Q1 (+ R1 1))) (>= Q 0)) (>= R 0))
+        (>= P1 (+ Q1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -1676,11 +1715,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (T1 Int))
     (and
-      (and (and (and (>= T1 (+ Q1 1)) (>= Q1 (+ R1 1))) (>= Q 0)) (>= R 0))
-      (>= Q1 (+ P1 1)))
-    (>= O1 2))
+      (and
+        (and (and (and (>= T1 (+ Q1 1)) (>= Q1 (+ R1 1))) (>= Q 0)) (>= R 0))
+        (>= Q1 (+ P1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -1767,11 +1809,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (T1 Int))
     (and
-      (and (and (and (>= T1 (+ Q1 1)) (>= R1 (+ Q1 1))) (>= Q 0)) (>= R 0))
-      (>= P1 (+ Q1 1)))
-    (>= O1 2))
+      (and
+        (and (and (and (>= T1 (+ Q1 1)) (>= R1 (+ Q1 1))) (>= Q 0)) (>= R 0))
+        (>= P1 (+ Q1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -1858,11 +1903,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (T1 Int))
     (and
-      (and (and (and (>= T1 (+ Q1 1)) (>= R1 (+ Q1 1))) (>= Q 0)) (>= R 0))
-      (>= Q1 (+ P1 1)))
-    (>= O1 2))
+      (and
+        (and (and (and (>= T1 (+ Q1 1)) (>= R1 (+ Q1 1))) (>= Q 0)) (>= R 0))
+        (>= Q1 (+ P1 1)))
+      (>= O1 2))
+    )
   )
 
 (rule
@@ -1949,11 +1997,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((S1 Int))
     (and
-      (and (and (and (>= S1 (+ X 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
-      (>= Z (+ P1 1)))
-    (>= P1 (+ S1 1)))
+      (and
+        (and (and (and (>= S1 (+ X 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
+        (>= Z (+ P1 1)))
+      (>= P1 (+ S1 1)))
+    )
   )
 
 (rule
@@ -2040,11 +2091,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((S1 Int))
     (and
-      (and (and (and (>= S1 (+ X 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
-      (>= Z (+ P1 1)))
-    (>= S1 (+ P1 1)))
+      (and
+        (and (and (and (>= S1 (+ X 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
+        (>= Z (+ P1 1)))
+      (>= S1 (+ P1 1)))
+    )
   )
 
 (rule
@@ -2131,11 +2185,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((S1 Int))
     (and
-      (and (and (and (>= S1 (+ X 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
-      (>= P1 (+ Z 1)))
-    (>= P1 (+ S1 1)))
+      (and
+        (and (and (and (>= S1 (+ X 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
+        (>= P1 (+ Z 1)))
+      (>= P1 (+ S1 1)))
+    )
   )
 
 (rule
@@ -2222,11 +2279,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((S1 Int))
     (and
-      (and (and (and (>= S1 (+ X 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
-      (>= P1 (+ Z 1)))
-    (>= S1 (+ P1 1)))
+      (and
+        (and (and (and (>= S1 (+ X 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
+        (>= P1 (+ Z 1)))
+      (>= S1 (+ P1 1)))
+    )
   )
 
 (rule
@@ -2313,11 +2373,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((S1 Int))
     (and
-      (and (and (and (>= X (+ S1 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
-      (>= Z (+ P1 1)))
-    (>= P1 (+ S1 1)))
+      (and
+        (and (and (and (>= X (+ S1 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
+        (>= Z (+ P1 1)))
+      (>= P1 (+ S1 1)))
+    )
   )
 
 (rule
@@ -2404,11 +2467,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((S1 Int))
     (and
-      (and (and (and (>= X (+ S1 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
-      (>= Z (+ P1 1)))
-    (>= S1 (+ P1 1)))
+      (and
+        (and (and (and (>= X (+ S1 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
+        (>= Z (+ P1 1)))
+      (>= S1 (+ P1 1)))
+    )
   )
 
 (rule
@@ -2495,11 +2561,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((S1 Int))
     (and
-      (and (and (and (>= X (+ S1 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
-      (>= P1 (+ Z 1)))
-    (>= P1 (+ S1 1)))
+      (and
+        (and (and (and (>= X (+ S1 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
+        (>= P1 (+ Z 1)))
+      (>= P1 (+ S1 1)))
+    )
   )
 
 (rule
@@ -2586,11 +2655,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((S1 Int))
     (and
-      (and (and (and (>= X (+ S1 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
-      (>= P1 (+ Z 1)))
-    (>= S1 (+ P1 1)))
+      (and
+        (and (and (and (>= X (+ S1 1)) (>= Y 0)) (>= R 0)) (>= O1 2))
+        (>= P1 (+ Z 1)))
+      (>= S1 (+ P1 1)))
+    )
   )
 
 (rule
@@ -2677,11 +2749,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((U1 Int))
     (and
-      (and (and (and (>= Y 0) (>= R 0)) (>= O1 2)) (>= P1 (+ R1 1)))
-      (>= U1 1))
-    (= Z X))
+      (and
+        (and (and (and (>= Y 0) (>= R 0)) (>= O1 2)) (>= P1 (+ R1 1)))
+        (>= U1 1))
+      (= Z X))
+    )
   )
 
 (rule
@@ -2768,11 +2843,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((U1 Int))
     (and
-      (and (and (and (>= Y 0) (>= R 0)) (>= O1 2)) (>= P1 (+ R1 1)))
-      (>= 0 (+ U1 1)))
-    (= Z X))
+      (and
+        (and (and (and (>= Y 0) (>= R 0)) (>= O1 2)) (>= P1 (+ R1 1)))
+        (>= 0 (+ U1 1)))
+      (= Z X))
+    )
   )
 
 (rule
@@ -2859,11 +2937,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((U1 Int))
     (and
-      (and (and (and (>= Y 0) (>= R 0)) (>= O1 2)) (>= R1 (+ P1 1)))
-      (>= U1 1))
-    (= Z X))
+      (and
+        (and (and (and (>= Y 0) (>= R 0)) (>= O1 2)) (>= R1 (+ P1 1)))
+        (>= U1 1))
+      (= Z X))
+    )
   )
 
 (rule
@@ -2950,11 +3031,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((U1 Int))
     (and
-      (and (and (and (>= Y 0) (>= R 0)) (>= O1 2)) (>= R1 (+ P1 1)))
-      (>= 0 (+ U1 1)))
-    (= Z X))
+      (and
+        (and (and (and (>= Y 0) (>= R 0)) (>= O1 2)) (>= R1 (+ P1 1)))
+        (>= 0 (+ U1 1)))
+      (= Z X))
+    )
   )
 
 (rule
@@ -3041,11 +3125,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (R1 Int))
     (and
-      (and (and (and (>= R1 (+ X 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
-      (>= Z (+ P1 1)))
-    (>= P1 (+ R1 1)))
+      (and
+        (and (and (and (>= R1 (+ X 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
+        (>= Z (+ P1 1)))
+      (>= P1 (+ R1 1)))
+    )
   )
 
 (rule
@@ -3132,11 +3219,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (R1 Int))
     (and
-      (and (and (and (>= R1 (+ X 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
-      (>= Z (+ P1 1)))
-    (>= R1 (+ P1 1)))
+      (and
+        (and (and (and (>= R1 (+ X 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
+        (>= Z (+ P1 1)))
+      (>= R1 (+ P1 1)))
+    )
   )
 
 (rule
@@ -3223,11 +3313,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (R1 Int))
     (and
-      (and (and (and (>= R1 (+ X 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
-      (>= P1 (+ Z 1)))
-    (>= P1 (+ R1 1)))
+      (and
+        (and (and (and (>= R1 (+ X 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
+        (>= P1 (+ Z 1)))
+      (>= P1 (+ R1 1)))
+    )
   )
 
 (rule
@@ -3314,11 +3407,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (R1 Int))
     (and
-      (and (and (and (>= R1 (+ X 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
-      (>= P1 (+ Z 1)))
-    (>= R1 (+ P1 1)))
+      (and
+        (and (and (and (>= R1 (+ X 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
+        (>= P1 (+ Z 1)))
+      (>= R1 (+ P1 1)))
+    )
   )
 
 (rule
@@ -3405,11 +3501,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (R1 Int))
     (and
-      (and (and (and (>= X (+ R1 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
-      (>= Z (+ P1 1)))
-    (>= P1 (+ R1 1)))
+      (and
+        (and (and (and (>= X (+ R1 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
+        (>= Z (+ P1 1)))
+      (>= P1 (+ R1 1)))
+    )
   )
 
 (rule
@@ -3496,11 +3595,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (R1 Int))
     (and
-      (and (and (and (>= X (+ R1 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
-      (>= Z (+ P1 1)))
-    (>= R1 (+ P1 1)))
+      (and
+        (and (and (and (>= X (+ R1 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
+        (>= Z (+ P1 1)))
+      (>= R1 (+ P1 1)))
+    )
   )
 
 (rule
@@ -3587,11 +3689,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (R1 Int))
     (and
-      (and (and (and (>= X (+ R1 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
-      (>= P1 (+ Z 1)))
-    (>= P1 (+ R1 1)))
+      (and
+        (and (and (and (>= X (+ R1 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
+        (>= P1 (+ Z 1)))
+      (>= P1 (+ R1 1)))
+    )
   )
 
 (rule
@@ -3678,11 +3783,14 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((Q1 Int) (R1 Int))
     (and
-      (and (and (and (>= X (+ R1 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
-      (>= P1 (+ Z 1)))
-    (>= R1 (+ P1 1)))
+      (and
+        (and (and (and (>= X (+ R1 1)) (>= D1 0)) (>= Q1 0)) (>= O1 2))
+        (>= P1 (+ Z 1)))
+      (>= R1 (+ P1 1)))
+    )
   )
 
 (rule
@@ -3769,7 +3877,10 @@
     M1
     N1)
   :guard
-  (and (and (and (and (>= D1 0) (>= R 0)) (>= V1 1)) (>= O1 2)) (= Z X)))
+  (exists
+    ((V1 Int))
+    (and (and (and (and (>= D1 0) (>= R 0)) (>= V1 1)) (>= O1 2)) (= Z X)))
+  )
 
 (rule
   (f7
@@ -3855,9 +3966,12 @@
     M1
     N1)
   :guard
-  (and
-    (and (and (and (>= D1 0) (>= R 0)) (>= 0 (+ V1 1))) (>= O1 2))
-    (= Z X))
+  (exists
+    ((V1 Int))
+    (and
+      (and (and (and (>= D1 0) (>= R 0)) (>= 0 (+ V1 1))) (>= O1 2))
+      (= Z X))
+    )
   )
 
 (rule
@@ -4030,19 +4144,22 @@
     C2
     N1)
   :guard
-  (and
+  (exists
+    ((X1 Int) (Y1 Int))
     (and
       (and
         (and
           (and
             (and
-              (and (and (and (>= X1 O1) (>= Y1 2)) (>= Q1 Y1)) (>= Z1 (+ K 1)))
-              (>= B A))
-            (>= B 0))
-          (>= K (+ C 1)))
-        (>= Q1 0))
-      (>= O1 2))
-    (= Q 1))
+              (and
+                (and (and (and (>= X1 O1) (>= Y1 2)) (>= Q1 Y1)) (>= Z1 (+ K 1)))
+                (>= B A))
+              (>= B 0))
+            (>= K (+ C 1)))
+          (>= Q1 0))
+        (>= O1 2))
+      (= Q 1))
+    )
   )
 
 (rule
@@ -4129,19 +4246,22 @@
     C2
     N1)
   :guard
-  (and
+  (exists
+    ((X1 Int) (Y1 Int))
     (and
       (and
         (and
           (and
             (and
-              (and (and (and (>= X1 O1) (>= Y1 2)) (>= Q1 Y1)) (>= Z1 (+ K 1)))
-              (>= B A))
-            (>= B 0))
-          (>= C (+ K 1)))
-        (>= Q1 0))
-      (>= O1 2))
-    (= Q 1))
+              (and
+                (and (and (and (>= X1 O1) (>= Y1 2)) (>= Q1 Y1)) (>= Z1 (+ K 1)))
+                (>= B A))
+              (>= B 0))
+            (>= C (+ K 1)))
+          (>= Q1 0))
+        (>= O1 2))
+      (= Q 1))
+    )
   )
 
 (rule
@@ -4228,19 +4348,22 @@
     C2
     N1)
   :guard
-  (and
+  (exists
+    ((X1 Int) (Y1 Int))
     (and
       (and
         (and
           (and
             (and
-              (and (and (and (>= X1 O1) (>= Y1 2)) (>= Q1 Y1)) (>= K (+ Z1 1)))
-              (>= B A))
-            (>= B 0))
-          (>= K (+ C 1)))
-        (>= Q1 0))
-      (>= O1 2))
-    (= Q 1))
+              (and
+                (and (and (and (>= X1 O1) (>= Y1 2)) (>= Q1 Y1)) (>= K (+ Z1 1)))
+                (>= B A))
+              (>= B 0))
+            (>= K (+ C 1)))
+          (>= Q1 0))
+        (>= O1 2))
+      (= Q 1))
+    )
   )
 
 (rule
@@ -4327,19 +4450,22 @@
     C2
     N1)
   :guard
-  (and
+  (exists
+    ((X1 Int) (Y1 Int))
     (and
       (and
         (and
           (and
             (and
-              (and (and (and (>= X1 O1) (>= Y1 2)) (>= Q1 Y1)) (>= K (+ Z1 1)))
-              (>= B A))
-            (>= B 0))
-          (>= C (+ K 1)))
-        (>= Q1 0))
-      (>= O1 2))
-    (= Q 1))
+              (and
+                (and (and (and (>= X1 O1) (>= Y1 2)) (>= Q1 Y1)) (>= K (+ Z1 1)))
+                (>= B A))
+              (>= B 0))
+            (>= C (+ K 1)))
+          (>= Q1 0))
+        (>= O1 2))
+      (= Q 1))
+    )
   )
 
 (rule
@@ -4426,7 +4552,10 @@
     M1
     N1)
   :guard
-  (and (and (and (>= 0 D2) (>= 0 E2)) (>= 0 P1)) (>= 0 F2)))
+  (exists
+    ((D2 Int) (E2 Int) (F2 Int))
+    (and (and (and (>= 0 D2) (>= 0 E2)) (>= 0 P1)) (>= 0 F2)))
+  )
 
 (rule
   (f9
@@ -4512,19 +4641,22 @@
     M1
     N1)
   :guard
-  (and
+  (exists
+    ((D2 Int) (I2 Int))
     (and
       (and
         (and
           (and
             (and
-              (and (and (and (>= I2 2) (>= Q1 I2)) (>= D2 2)) (>= Q1 D2))
-              (>= B A))
-            (>= B 0))
-          (>= Q1 O1))
-        (>= O1 2))
-      (>= Q1 0))
-    (= C K))
+              (and
+                (and (and (and (>= I2 2) (>= Q1 I2)) (>= D2 2)) (>= Q1 D2))
+                (>= B A))
+              (>= B 0))
+            (>= Q1 O1))
+          (>= O1 2))
+        (>= Q1 0))
+      (= C K))
+    )
   )
 
 (rule
@@ -4611,15 +4743,114 @@
     M1
     0)
   :guard
-  (and
+  (exists
+    ((Q1 Int))
+    (and
+      (and
+        (and
+          (and
+            (and (and (and (>= Q1 2) (>= K (+ M 1))) (>= O1 2)) (>= Q 1))
+            (>= M (+ K 1)))
+          (= (+ I 1) Q))
+        (= R 0))
+      (= L H))
+    )
+  )
+
+(rule
+  (f13
+    A
+    B
+    C
+    D
+    E
+    F
+    G
+    H
+    I
+    J
+    K
+    L
+    M
+    N
+    O
+    P
+    Q
+    R
+    S
+    T
+    U
+    V
+    W
+    X
+    Y
+    Z
+    A1
+    B1
+    C1
+    D1
+    E1
+    F1
+    G1
+    H1
+    I1
+    J1
+    K1
+    L1
+    M1
+    N1)
+  (f7
+    A
+    B
+    C
+    D
+    E
+    F
+    G
+    R1
+    (+ (- 1) Q)
+    O1
+    K
+    S1
+    M
+    P1
+    O
+    P
+    (+ 1 D1)
+    0
+    S
+    T
+    U
+    V
+    W
+    M
+    D1
+    K
+    M
+    M
+    C1
+    D1
+    E1
+    F1
+    G1
+    H1
+    I1
+    J1
+    K1
+    L1
+    M1
+    0)
+  :guard
+  (exists
+    ((Q1 Int))
     (and
       (and
         (and
           (and (and (and (>= Q1 2) (>= K (+ M 1))) (>= O1 2)) (>= Q 1))
-          (>= M (+ K 1)))
-        (= (+ I 1) Q))
-      (= R 0))
-    (= L H))
+          (= (+ I 1) Q))
+        (= R 0))
+      (= L H))
+    )
   )
 
 (rule
@@ -4706,201 +4937,114 @@
     M1
     0)
   :guard
-  (and
-    (and
-      (and
-        (and (and (and (>= Q1 2) (>= K (+ M 1))) (>= O1 2)) (>= Q 1))
-        (= (+ I 1) Q))
-      (= R 0))
-    (= L H))
-  )
-
-(rule
-  (f13
-    A
-    B
-    C
-    D
-    E
-    F
-    G
-    H
-    I
-    J
-    K
-    L
-    M
-    N
-    O
-    P
-    Q
-    R
-    S
-    T
-    U
-    V
-    W
-    X
-    Y
-    Z
-    A1
-    B1
-    C1
-    D1
-    E1
-    F1
-    G1
-    H1
-    I1
-    J1
-    K1
-    L1
-    M1
-    N1)
-  (f7
-    A
-    B
-    C
-    D
-    E
-    F
-    G
-    R1
-    (+ (- 1) Q)
-    O1
-    K
-    S1
-    M
-    P1
-    O
-    P
-    (+ 1 D1)
-    0
-    S
-    T
-    U
-    V
-    W
-    M
-    D1
-    K
-    M
-    M
-    C1
-    D1
-    E1
-    F1
-    G1
-    H1
-    I1
-    J1
-    K1
-    L1
-    M1
-    0)
-  :guard
-  (and
-    (and
-      (and
-        (and (and (and (>= Q1 2) (>= M (+ K 1))) (>= O1 2)) (>= Q 1))
-        (= (+ I 1) Q))
-      (= R 0))
-    (= L H))
-  )
-
-(rule
-  (f13
-    A
-    B
-    C
-    D
-    E
-    F
-    G
-    H
-    I
-    J
-    K
-    L
-    M
-    N
-    O
-    P
-    Q
-    R
-    S
-    T
-    U
-    V
-    W
-    X
-    Y
-    Z
-    A1
-    B1
-    C1
-    D1
-    E1
-    F1
-    G1
-    H1
-    I1
-    J1
-    K1
-    L1
-    M1
-    N1)
-  (f7
-    A
-    B
-    C
-    D
-    E
-    F
-    G
-    R1
-    (+ (- 1) Q)
-    O1
-    K
-    S1
-    M
-    P1
-    O
-    P
-    (+ 1 D1)
-    0
-    S
-    T
-    U
-    V
-    W
-    M
-    D1
-    K
-    M
-    M
-    C1
-    D1
-    E1
-    F1
-    G1
-    H1
-    I1
-    J1
-    K1
-    L1
-    M1
-    0)
-  :guard
-  (and
+  (exists
+    ((Q1 Int))
     (and
       (and
         (and
           (and (and (and (>= Q1 2) (>= M (+ K 1))) (>= O1 2)) (>= Q 1))
-          (>= K (+ M 1)))
-        (= (+ I 1) Q))
-      (= R 0))
-    (= L H))
+          (= (+ I 1) Q))
+        (= R 0))
+      (= L H))
+    )
+  )
+
+(rule
+  (f13
+    A
+    B
+    C
+    D
+    E
+    F
+    G
+    H
+    I
+    J
+    K
+    L
+    M
+    N
+    O
+    P
+    Q
+    R
+    S
+    T
+    U
+    V
+    W
+    X
+    Y
+    Z
+    A1
+    B1
+    C1
+    D1
+    E1
+    F1
+    G1
+    H1
+    I1
+    J1
+    K1
+    L1
+    M1
+    N1)
+  (f7
+    A
+    B
+    C
+    D
+    E
+    F
+    G
+    R1
+    (+ (- 1) Q)
+    O1
+    K
+    S1
+    M
+    P1
+    O
+    P
+    (+ 1 D1)
+    0
+    S
+    T
+    U
+    V
+    W
+    M
+    D1
+    K
+    M
+    M
+    C1
+    D1
+    E1
+    F1
+    G1
+    H1
+    I1
+    J1
+    K1
+    L1
+    M1
+    0)
+  :guard
+  (exists
+    ((Q1 Int))
+    (and
+      (and
+        (and
+          (and
+            (and (and (and (>= Q1 2) (>= M (+ K 1))) (>= O1 2)) (>= Q 1))
+            (>= K (+ M 1)))
+          (= (+ I 1) Q))
+        (= R 0))
+      (= L H))
+    )
   )
 
 (rule
@@ -4987,13 +5131,110 @@
     M1
     0)
   :guard
-  (and
+  (exists
+    ((Q1 Int))
+    (and
+      (and
+        (and
+          (and (and (and (>= Q1 2) (>= K (+ M 1))) (>= O1 2)) (>= Q 0))
+          (>= R 0))
+        (>= M (+ K 1)))
+      (= L H))
+    )
+  )
+
+(rule
+  (f16
+    A
+    B
+    C
+    D
+    E
+    F
+    G
+    H
+    I
+    J
+    K
+    L
+    M
+    N
+    O
+    P
+    Q
+    R
+    S
+    T
+    U
+    V
+    W
+    X
+    Y
+    Z
+    A1
+    B1
+    C1
+    D1
+    E1
+    F1
+    G1
+    H1
+    I1
+    J1
+    K1
+    L1
+    M1
+    N1)
+  (f7
+    A
+    B
+    C
+    D
+    E
+    F
+    G
+    R1
+    I
+    O1
+    K
+    S1
+    M
+    P1
+    O
+    P
+    (+ (+ (- R) 1) D1)
+    R
+    S
+    T
+    U
+    V
+    W
+    M
+    (+ (- R) D1)
+    K
+    M
+    M
+    C1
+    D1
+    E1
+    F1
+    G1
+    H1
+    I1
+    J1
+    K1
+    L1
+    M1
+    0)
+  :guard
+  (exists
+    ((Q1 Int))
     (and
       (and
         (and (and (and (>= Q1 2) (>= K (+ M 1))) (>= O1 2)) (>= Q 0))
         (>= R 0))
-      (>= M (+ K 1)))
-    (= L H))
+      (= L H))
+    )
   )
 
 (rule
@@ -5080,195 +5321,110 @@
     M1
     0)
   :guard
-  (and
-    (and
-      (and (and (and (>= Q1 2) (>= K (+ M 1))) (>= O1 2)) (>= Q 0))
-      (>= R 0))
-    (= L H))
-  )
-
-(rule
-  (f16
-    A
-    B
-    C
-    D
-    E
-    F
-    G
-    H
-    I
-    J
-    K
-    L
-    M
-    N
-    O
-    P
-    Q
-    R
-    S
-    T
-    U
-    V
-    W
-    X
-    Y
-    Z
-    A1
-    B1
-    C1
-    D1
-    E1
-    F1
-    G1
-    H1
-    I1
-    J1
-    K1
-    L1
-    M1
-    N1)
-  (f7
-    A
-    B
-    C
-    D
-    E
-    F
-    G
-    R1
-    I
-    O1
-    K
-    S1
-    M
-    P1
-    O
-    P
-    (+ (+ (- R) 1) D1)
-    R
-    S
-    T
-    U
-    V
-    W
-    M
-    (+ (- R) D1)
-    K
-    M
-    M
-    C1
-    D1
-    E1
-    F1
-    G1
-    H1
-    I1
-    J1
-    K1
-    L1
-    M1
-    0)
-  :guard
-  (and
-    (and
-      (and (and (and (>= Q1 2) (>= M (+ K 1))) (>= O1 2)) (>= Q 0))
-      (>= R 0))
-    (= L H))
-  )
-
-(rule
-  (f16
-    A
-    B
-    C
-    D
-    E
-    F
-    G
-    H
-    I
-    J
-    K
-    L
-    M
-    N
-    O
-    P
-    Q
-    R
-    S
-    T
-    U
-    V
-    W
-    X
-    Y
-    Z
-    A1
-    B1
-    C1
-    D1
-    E1
-    F1
-    G1
-    H1
-    I1
-    J1
-    K1
-    L1
-    M1
-    N1)
-  (f7
-    A
-    B
-    C
-    D
-    E
-    F
-    G
-    R1
-    I
-    O1
-    K
-    S1
-    M
-    P1
-    O
-    P
-    (+ (+ (- R) 1) D1)
-    R
-    S
-    T
-    U
-    V
-    W
-    M
-    (+ (- R) D1)
-    K
-    M
-    M
-    C1
-    D1
-    E1
-    F1
-    G1
-    H1
-    I1
-    J1
-    K1
-    L1
-    M1
-    0)
-  :guard
-  (and
+  (exists
+    ((Q1 Int))
     (and
       (and
         (and (and (and (>= Q1 2) (>= M (+ K 1))) (>= O1 2)) (>= Q 0))
         (>= R 0))
-      (>= K (+ M 1)))
-    (= L H))
+      (= L H))
+    )
+  )
+
+(rule
+  (f16
+    A
+    B
+    C
+    D
+    E
+    F
+    G
+    H
+    I
+    J
+    K
+    L
+    M
+    N
+    O
+    P
+    Q
+    R
+    S
+    T
+    U
+    V
+    W
+    X
+    Y
+    Z
+    A1
+    B1
+    C1
+    D1
+    E1
+    F1
+    G1
+    H1
+    I1
+    J1
+    K1
+    L1
+    M1
+    N1)
+  (f7
+    A
+    B
+    C
+    D
+    E
+    F
+    G
+    R1
+    I
+    O1
+    K
+    S1
+    M
+    P1
+    O
+    P
+    (+ (+ (- R) 1) D1)
+    R
+    S
+    T
+    U
+    V
+    W
+    M
+    (+ (- R) D1)
+    K
+    M
+    M
+    C1
+    D1
+    E1
+    F1
+    G1
+    H1
+    I1
+    J1
+    K1
+    L1
+    M1
+    0)
+  :guard
+  (exists
+    ((Q1 Int))
+    (and
+      (and
+        (and
+          (and (and (and (>= Q1 2) (>= M (+ K 1))) (>= O1 2)) (>= Q 0))
+          (>= R 0))
+        (>= K (+ M 1)))
+      (= L H))
+    )
   )
 
 (rule

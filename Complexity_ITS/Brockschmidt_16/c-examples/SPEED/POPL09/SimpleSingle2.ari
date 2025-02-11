@@ -16,13 +16,13 @@
   (evalSimpleSingle2bb4in A B C D)
   (evalSimpleSingle2bbin A B C D)
   :guard
-  (>= 0 (+ E 1)))
+  (exists ((E Int)) (>= 0 (+ E 1))))
 
 (rule
   (evalSimpleSingle2bb4in A B C D)
   (evalSimpleSingle2bbin A B C D)
   :guard
-  (>= E 1))
+  (exists ((E Int)) (>= E 1)))
 
 (rule (evalSimpleSingle2bb4in A B C D) (evalSimpleSingle2returnin A B C D))
 (rule

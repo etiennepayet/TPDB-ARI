@@ -437,13 +437,13 @@
   (f42 A B C D E F G H I J K L M N O P Q R S T U)
   (f60 A B C D E F G H I J V W M N X Z A1 R B1 C1 U)
   :guard
-  (and (>= B C) (>= 0 (+ Y 1))))
+  (exists ((Y Int)) (and (>= B C) (>= 0 (+ Y 1)))))
 
 (rule
   (f42 A B C D E F G H I J K L M N O P Q R S T U)
   (f60 A B C D E F G H I J V W M N X Z A1 R B1 C1 U)
   :guard
-  (and (>= B C) (>= Y 1)))
+  (exists ((Y Int)) (and (>= B C) (>= Y 1))))
 
 (rule
   (f60 A B C D E F G H I J K L M N O P Q R S T U)
