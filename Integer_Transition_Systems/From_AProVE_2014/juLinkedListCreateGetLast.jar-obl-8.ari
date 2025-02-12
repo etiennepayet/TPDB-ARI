@@ -30,7 +30,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1004_0_createList_LE
 (->
@@ -61,7 +60,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1030_0_getLast_NE
 (->
@@ -92,7 +90,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1076_0_getLast_FieldAccess
 (->
@@ -123,7 +120,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1_0_main_Load
 (->
@@ -154,7 +150,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f337_0_createList_Load
 (->
@@ -185,7 +180,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f349_0_createList_Return
 (->
@@ -216,7 +210,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f586_0_createList_Load
 (->
@@ -247,7 +240,6 @@ Int
 Int
 Int)
 )
-
 (entrypoint __init)
 (rule
 (f337_0_createList_Load
@@ -335,7 +327,6 @@ arg25P)
 (= arg6 arg20P))
 (= arg7 arg23P))
 )
-
 (rule
 (f1_0_main_Load
 arg1
@@ -394,7 +385,6 @@ arg25P)
 ((x25 Int))
 (and (and (and (> x25 (- 1)) (> arg2 0)) (> arg1 0)) (> arg1P 6)))
 )
-
 (rule
 (f349_0_createList_Return
 arg1
@@ -465,7 +455,6 @@ arg25P)
 (= arg4 arg4P))
 (= arg7 arg7P))
 )
-
 (rule
 (f1030_0_getLast_NE
 arg1
@@ -551,7 +540,6 @@ arg25P)
 (<= (+ arg6 7) arg1))
 )
 )
-
 (rule
 (f1030_0_getLast_NE
 arg1
@@ -635,7 +623,6 @@ arg25P)
 (<= (+ arg6 7) arg1))
 )
 )
-
 (rule
 (f1_0_main_Load
 arg1
@@ -702,7 +689,6 @@ arg25P)
 (= 0 arg6P))
 (= 0 arg7P))
 )
-
 (rule
 (f586_0_createList_Load
 arg1
@@ -805,7 +791,6 @@ arg25P)
 (= arg20 arg21P))
 (= arg23 arg25P))
 )
-
 (rule
 (f1004_0_createList_LE
 arg1
@@ -935,7 +920,6 @@ arg25P)
 (= (+ arg25 1) arg25P))
 )
 )
-
 (rule
 (f1004_0_createList_LE
 arg1
@@ -1063,7 +1047,6 @@ arg25P)
 (= (+ arg25 1) arg25P))
 )
 )
-
 (rule
 (__init
 arg1
@@ -1118,4 +1101,3 @@ arg23P
 arg24P
 arg25P)
 )
-

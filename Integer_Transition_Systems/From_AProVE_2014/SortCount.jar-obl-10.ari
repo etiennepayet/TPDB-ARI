@@ -33,7 +33,6 @@
 (= 0 arg2P))
 (= 0 arg5P))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
 (f1489_0_max_NULL arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -48,7 +47,6 @@
 (= 0 arg2P))
 (= 0 arg5P))
 )
-
 (rule
 (f1489_0_max_NULL arg1 arg2 arg3 arg4 arg5 arg6)
 (f1489_0_max_NULL arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -92,7 +90,6 @@
 (= arg5 arg5P))
 )
 )
-
 (rule
 (f1489_0_max_NULL arg1 arg2 arg3 arg4 arg5 arg6)
 (f1489_0_max_NULL arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -135,7 +132,6 @@
 (<= (+ arg5P 2) arg6))
 (= arg2 arg2P))
 )
-
 (rule
 (f1489_0_max_NULL arg1 arg2 arg3 arg4 arg5 arg6)
 (f1489_0_max_NULL arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -177,13 +173,11 @@
 (= 0 arg5P))
 )
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
 (f605_0_createIntList_LE arg1P arg2P arg3P arg4P arg5P arg6P)
 :guard
 (and (and (and (> arg2 (- 1)) (> arg1P (- 1))) (> arg1 0)) (= 1 arg2P)))
-
 (rule
 (f605_0_createIntList_LE arg1 arg2 arg3 arg4 arg5 arg6)
 (f605_0_createIntList_LE arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -192,7 +186,6 @@
 (and (and (> arg1 0) (> arg2 0)) (= (- arg1 1) arg1P))
 (= (+ arg2 1) arg2P))
 )
-
 (rule
 (f1489_0_max_NULL arg1 arg2 arg3 arg4 arg5 arg6)
 (f1214_0_member_NULL arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -218,7 +211,6 @@
 (= arg2 arg1P))
 )
 )
-
 (rule
 (f1214_0_member_NULL arg1 arg2 arg3 arg4 arg5 arg6)
 (f1214_0_member_NULL arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -242,7 +234,6 @@
 (= arg1 arg1P))
 )
 )
-
 (rule
 (f1214_0_member_NULL arg1 arg2 arg3 arg4 arg5 arg6)
 (f1214_0_member_NULL arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -266,8 +257,6 @@
 (= arg1 arg1P))
 )
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P))
-

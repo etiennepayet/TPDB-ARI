@@ -29,7 +29,6 @@
 (= (- x5 2) arg4P))
 )
 )
-
 (rule
 (f231_0_createList_LE arg1 arg2 arg3 arg4)
 (f266_0_createList_LE arg1P arg2P arg3P arg4P)
@@ -38,7 +37,6 @@
 (and (and (and (> arg2 1) (< arg4 1)) (> arg3 0)) (> arg1P 0))
 (= (- arg1 1) arg2P))
 )
-
 (rule
 (f231_0_createList_LE arg1 arg2 arg3 arg4)
 (f231_0_createList_LE arg1P arg2P arg3P arg4P)
@@ -57,13 +55,11 @@
 (= arg1 arg1P))
 (= (- arg4 1) arg4P))
 )
-
 (rule
 (f266_0_createList_LE arg1 arg2 arg3 arg4)
 (f266_0_createList_LE arg1P arg2P arg3P arg4P)
 :guard
 (and (and (and (> arg1 0) (> arg2 0)) (> arg1P 2)) (= (- arg2 1) arg2P)))
-
 (rule
 (f231_0_createList_LE arg1 arg2 arg3 arg4)
 (f266_0_createList_LE arg1P arg2P arg3P arg4P)
@@ -80,7 +76,6 @@
 (> arg1P 4))
 (= (- arg1 2) arg2P))
 )
-
 (rule
 (f231_0_createList_LE arg1 arg2 arg3 arg4)
 (f458_0_reverse_NULL arg1P arg2P arg3P arg4P)
@@ -99,7 +94,6 @@
 (> arg1P 1))
 (> arg2P 1))
 )
-
 (rule
 (f266_0_createList_LE arg1 arg2 arg3 arg4)
 (f458_0_reverse_NULL arg1P arg2P arg3P arg4P)
@@ -110,7 +104,6 @@
 (> arg1P 1))
 (> arg2P (- 1)))
 )
-
 (rule
 (f266_0_createList_LE arg1 arg2 arg3 arg4)
 (f458_0_reverse_NULL arg1P arg2P arg3P arg4P)
@@ -121,7 +114,6 @@
 (> arg1P 1))
 (> arg2P 0))
 )
-
 (rule
 (f266_0_createList_LE arg1 arg2 arg3 arg4)
 (f473_0_reverse_FieldAccess arg1P arg2P arg3P arg4P)
@@ -132,7 +124,6 @@
 (> arg1P 1))
 (> arg2P 0))
 )
-
 (rule
 (f458_0_reverse_NULL arg1 arg2 arg3 arg4)
 (f488_0_reverse_FieldAccess arg1P arg2P arg3P arg4P)
@@ -153,7 +144,6 @@
 (> arg3P 0))
 (> arg4P (- 1)))
 )
-
 (rule
 (f488_0_reverse_FieldAccess arg1 arg2 arg3 arg4)
 (f458_0_reverse_NULL arg1P arg2P arg3P arg4P)
@@ -172,7 +162,6 @@
 (> arg1P 2))
 (> arg2P (- 1)))
 )
-
 (rule
 (f488_0_reverse_FieldAccess arg1 arg2 arg3 arg4)
 (f458_0_reverse_NULL arg1P arg2P arg3P arg4P)
@@ -203,7 +192,6 @@
 (> arg1P 2))
 (> arg2P (- 1)))
 )
-
 (rule
 (f473_0_reverse_FieldAccess arg1 arg2 arg3 arg4)
 (f473_0_reverse_FieldAccess arg1P arg2P arg3P arg4P)
@@ -222,7 +210,6 @@
 (> arg2P 0))
 (= arg3 arg3P))
 )
-
 (rule
 (f473_0_reverse_FieldAccess arg1 arg2 arg3 arg4)
 (f488_0_reverse_FieldAccess arg1P arg2P arg3P arg4P)
@@ -246,7 +233,6 @@
 (> arg4P (- 1)))
 )
 )
-
 (rule
 (f473_0_reverse_FieldAccess arg1 arg2 arg3 arg4)
 (f458_0_reverse_NULL arg1P arg2P arg3P arg4P)
@@ -268,5 +254,4 @@
 (> arg2P 0))
 )
 )
-
 (rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))

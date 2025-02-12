@@ -53,7 +53,6 @@ status^post)
 (= num^0 num^post))
 (= status^0 status^post))
 )
-
 (rule
 (l0
 DName^0
@@ -98,7 +97,6 @@ status^post)
 (= i^0 i^post))
 (= status^0 status^post))
 )
-
 (rule
 (l3
 DName^0
@@ -143,7 +141,6 @@ status^post)
 (= conditional^0 conditional^post))
 (= num^0 num^post))
 )
-
 (rule
 (l3
 DName^0
@@ -188,7 +185,6 @@ status^post)
 (= num^0 num^post))
 (= status^0 status^post))
 )
-
 (rule
 (l1
 DName^0
@@ -229,7 +225,6 @@ status^post)
 (= i^0 i^post))
 (= status^0 status^post))
 )
-
 (rule
 (l4
 DName^0
@@ -272,7 +267,6 @@ status^post)
 (= num^0 num^post))
 (= status^0 status^post))
 )
-
 (rule
 (l5
 DName^0
@@ -317,7 +311,6 @@ status^post)
 (= num^0 num^post))
 (= status^0 status^post))
 )
-
 (rule
 (l5
 DName^0
@@ -362,7 +355,6 @@ status^post)
 (= num^0 num^post))
 (= status^0 status^post))
 )
-
 (rule
 (l2
 DName^0
@@ -407,7 +399,6 @@ status^post)
 (= i^0 i^post))
 (= num^0 num^post))
 )
-
 (rule
 (l2
 DName^0
@@ -452,7 +443,6 @@ status^post)
 (= i^0 i^post))
 (= num^0 num^post))
 )
-
 (rule
 (l6
 DName^0
@@ -495,7 +485,6 @@ status^post)
 (= conditional^0 conditional^post))
 (= num^0 num^post))
 )
-
 (rule
 (l7
 DName^0
@@ -538,4 +527,3 @@ status^post)
 (= num^0 num^post))
 (= status^0 status^post))
 )
-

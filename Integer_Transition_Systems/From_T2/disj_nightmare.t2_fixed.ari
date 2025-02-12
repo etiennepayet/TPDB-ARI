@@ -3,79 +3,60 @@
 (fun
 l0
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l1
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l10
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l11
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l12
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l13
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l14
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l15
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l16
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l17
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l18
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l2
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l3
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l4
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l5
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l6
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l7
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l8
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l9
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint l18)
 (rule
 (l0
@@ -141,7 +122,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l1
 x^0
@@ -208,7 +188,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l1
 x^0
@@ -275,7 +254,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l3
 x^0
@@ -344,7 +322,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l4
 x^0
@@ -411,7 +388,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l4
 x^0
@@ -478,7 +454,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l5
 x^0
@@ -545,7 +520,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l5
 x^0
@@ -612,7 +586,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l6
 x^0
@@ -679,7 +652,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l6
 x^0
@@ -746,7 +718,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l7
 x^0
@@ -813,7 +784,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l7
 x^0
@@ -880,7 +850,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l8
 x^0
@@ -947,7 +916,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l8
 x^0
@@ -1014,7 +982,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l9
 x^0
@@ -1081,7 +1048,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l9
 x^0
@@ -1148,7 +1114,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l10
 x^0
@@ -1215,7 +1180,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l10
 x^0
@@ -1282,7 +1246,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l11
 x^0
@@ -1349,7 +1312,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l11
 x^0
@@ -1416,7 +1378,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l12
 x^0
@@ -1483,7 +1444,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l12
 x^0
@@ -1550,7 +1510,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l13
 x^0
@@ -1617,7 +1576,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l13
 x^0
@@ -1684,7 +1642,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l14
 x^0
@@ -1751,7 +1708,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l14
 x^0
@@ -1818,7 +1774,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l15
 x^0
@@ -1885,7 +1840,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l15
 x^0
@@ -1952,7 +1906,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l16
 x^0
@@ -2019,7 +1972,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l16
 x^0
@@ -2086,7 +2038,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l17
 x^0
@@ -2153,7 +2104,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l17
 x^0
@@ -2220,7 +2170,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l2
 x^0
@@ -2285,7 +2234,6 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-
 (rule
 (l18
 x^0
@@ -2350,4 +2298,3 @@ z9^post)
 (= z8^0 z8^post))
 (= z9^0 z9^post))
 )
-

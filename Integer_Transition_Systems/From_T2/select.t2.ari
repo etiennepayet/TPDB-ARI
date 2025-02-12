@@ -84,7 +84,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l0
 __const_10^0
@@ -141,7 +140,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l2
 __const_10^0
@@ -198,7 +196,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l2
 __const_10^0
@@ -255,7 +252,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l3
 __const_10^0
@@ -310,7 +306,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l5
 __const_10^0
@@ -367,7 +362,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l5
 __const_10^0
@@ -424,7 +418,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l5
 __const_10^0
@@ -483,7 +476,6 @@ temp9^post)
 (= mid7^0 mid7^post))
 (= n2^0 n2^post))
 )
-
 (rule
 (l6
 __const_10^0
@@ -540,7 +532,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l6
 __const_10^0
@@ -597,7 +588,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l1
 __const_10^0
@@ -652,7 +642,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l8
 __const_10^0
@@ -707,7 +696,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l8
 __const_10^0
@@ -762,7 +750,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l10
 __const_10^0
@@ -817,7 +804,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l10
 __const_10^0
@@ -872,7 +858,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l12
 __const_10^0
@@ -927,7 +912,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l13
 __const_10^0
@@ -984,7 +968,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l13
 __const_10^0
@@ -1041,7 +1024,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l13
 __const_10^0
@@ -1100,7 +1082,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l4
 __const_10^0
@@ -1155,7 +1136,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l14
 __const_10^0
@@ -1210,7 +1190,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l15
 __const_10^0
@@ -1265,7 +1244,6 @@ temp9^post)
 (= mid7^0 mid7^post))
 (= n2^0 n2^post))
 )
-
 (rule
 (l15
 __const_10^0
@@ -1320,7 +1298,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l11
 __const_10^0
@@ -1375,7 +1352,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l16
 __const_10^0
@@ -1430,7 +1406,6 @@ temp9^post)
 (= mid7^0 mid7^post))
 (= n2^0 n2^post))
 )
-
 (rule
 (l16
 __const_10^0
@@ -1485,7 +1460,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l17
 __const_10^0
@@ -1540,7 +1514,6 @@ temp9^post)
 (= mid7^0 mid7^post))
 (= n2^0 n2^post))
 )
-
 (rule
 (l17
 __const_10^0
@@ -1595,7 +1568,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l18
 __const_10^0
@@ -1652,7 +1624,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l18
 __const_10^0
@@ -1709,7 +1680,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l18
 __const_10^0
@@ -1768,7 +1738,6 @@ temp9^post)
 (= l6^0 l6^post))
 (= n2^0 n2^post))
 )
-
 (rule
 (l9
 __const_10^0
@@ -1823,7 +1792,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l19
 __const_10^0
@@ -1878,7 +1846,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l20
 __const_10^0
@@ -1933,7 +1900,6 @@ temp9^post)
 (= mid7^0 mid7^post))
 (= n2^0 n2^post))
 )
-
 (rule
 (l20
 __const_10^0
@@ -1988,7 +1954,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l21
 __const_10^0
@@ -2045,7 +2010,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l21
 __const_10^0
@@ -2102,7 +2066,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l21
 __const_10^0
@@ -2161,7 +2124,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l22
 __const_10^0
@@ -2216,7 +2178,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l24
 __const_10^0
@@ -2273,7 +2234,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l24
 __const_10^0
@@ -2330,7 +2290,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l7
 __const_10^0
@@ -2387,7 +2346,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l7
 __const_10^0
@@ -2444,7 +2402,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l7
 __const_10^0
@@ -2503,7 +2460,6 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l25
 __const_10^0
@@ -2558,7 +2514,6 @@ temp9^post)
 (= mid7^0 mid7^post))
 (= temp9^0 temp9^post))
 )
-
 (rule
 (l26
 __const_10^0
@@ -2613,4 +2568,3 @@ temp9^post)
 (= n2^0 n2^post))
 (= temp9^0 temp9^post))
 )
-

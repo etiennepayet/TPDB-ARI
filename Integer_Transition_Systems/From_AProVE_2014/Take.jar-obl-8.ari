@@ -20,7 +20,6 @@
 (> arg2P 0))
 (= 0 arg3P))
 )
-
 (rule
 (f262_0_take_GE arg1 arg2 arg3 arg4 arg5)
 (f262_0_take_GE arg1P arg2P arg3P arg4P arg5P)
@@ -47,8 +46,6 @@
 (= (+ arg4 1) arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P))
-

@@ -17,7 +17,6 @@
 (= __const_1000^0 __const_1000^post))
 (= __const_200^0 __const_200^post))
 )
-
 (rule
 (l1 __const_1000^0 __const_200^0 x^0)
 (l0 __const_1000^post __const_200^post x^post)
@@ -26,7 +25,6 @@
 (and (= __const_1000^0 __const_1000^post) (= __const_200^0 __const_200^post))
 (= x^0 x^post))
 )
-
 (rule
 (l2 __const_1000^0 __const_200^0 x^0)
 (l0 __const_1000^post __const_200^post x^post)
@@ -35,7 +33,6 @@
 (and (= __const_1000^0 __const_1000^post) (= __const_200^0 __const_200^post))
 (= x^0 x^post))
 )
-
 (rule
 (l3 __const_1000^0 __const_200^0 x^0)
 (l2 __const_1000^post __const_200^post x^post)
@@ -44,4 +41,3 @@
 (and (= __const_1000^0 __const_1000^post) (= __const_200^0 __const_200^post))
 (= x^0 x^post))
 )
-

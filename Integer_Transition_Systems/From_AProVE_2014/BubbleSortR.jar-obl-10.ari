@@ -29,7 +29,6 @@
 (= 0 arg7P))
 (= 0 arg8P))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f795_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -59,7 +58,6 @@
 (= 0 arg8P))
 )
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f795_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -93,7 +91,6 @@
 (= (* x11 x12) arg8P))
 )
 )
-
 (rule
 (f795_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f795_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -134,7 +131,6 @@
 (= arg5 arg7P))
 (= arg4 arg8P))
 )
-
 (rule
 (f795_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f795_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -177,7 +173,6 @@
 (= arg5 arg7P))
 (= arg4 arg8P))
 )
-
 (rule
 (f795_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f1421_0_sort_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -208,7 +203,6 @@
 (= arg4 arg4P))
 (= arg4 arg5P))
 )
-
 (rule
 (f1421_0_sort_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f1421_0_sort_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -239,7 +233,6 @@
 (= arg4 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f1421_0_sort_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f1421_0_sort_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -268,7 +261,6 @@
 (= (+ arg3 1) arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f1421_0_sort_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f1445_0_aux_LT arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -297,7 +289,6 @@
 (= (- arg4 arg3) arg5P))
 (= arg5 arg6P))
 )
-
 (rule
 (f1445_0_aux_LT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f1611_0_aux_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -325,7 +316,6 @@
 (= arg6 arg6P))
 )
 )
-
 (rule
 (f1445_0_aux_LT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f1611_0_aux_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -353,7 +343,6 @@
 (= arg6 arg6P))
 )
 )
-
 (rule
 (f1611_0_aux_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f1445_0_aux_LT arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -376,8 +365,6 @@
 (= arg3 arg5P))
 (= arg6 arg6P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P))
-

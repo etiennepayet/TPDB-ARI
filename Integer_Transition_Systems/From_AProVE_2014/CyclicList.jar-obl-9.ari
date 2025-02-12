@@ -18,7 +18,6 @@
 (= 0 arg3P))
 (= arg2 arg4P))
 )
-
 (rule
 (f80_0_create_LE arg1 arg2 arg3 arg4)
 (f108_0_main_ArrayAccess arg1P arg2P arg3P arg4P)
@@ -31,7 +30,6 @@
 (> arg1P 0))
 (= arg4 arg3P))
 )
-
 (rule
 (f80_0_create_LE arg1 arg2 arg3 arg4)
 (f108_0_main_ArrayAccess arg1P arg2P arg3P arg4P)
@@ -42,7 +40,6 @@
 (= 1 arg2P))
 (= arg4 arg3P))
 )
-
 (rule
 (f80_0_create_LE arg1 arg2 arg3 arg4)
 (f80_0_create_LE arg1P arg2P arg3P arg4P)
@@ -53,7 +50,6 @@
 (= (- arg2 1) arg2P))
 (= arg4 arg4P))
 )
-
 (rule
 (f108_0_main_ArrayAccess arg1 arg2 arg3 arg4)
 (f147_0_get_LE arg1P arg2P arg3P arg4P)
@@ -67,7 +63,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (f147_0_get_LE arg1 arg2 arg3 arg4)
 (f147_0_get_LE arg1P arg2P arg3P arg4P)
@@ -81,7 +76,6 @@
 (= (- arg1 1) arg1P))
 )
 )
-
 (rule
 (f147_0_get_LE arg1 arg2 arg3 arg4)
 (f147_0_get_LE arg1P arg2P arg3P arg4P)
@@ -95,5 +89,4 @@
 (= 1 arg2P))
 )
 )
-
 (rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))

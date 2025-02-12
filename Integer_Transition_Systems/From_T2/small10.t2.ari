@@ -14,7 +14,6 @@
 (and (= x^post (+ (+ 0 x^0) (* -1 y^0))) (= z^post z^post))
 (= y^0 y^post))
 )
-
 (rule
 (l0 x^0 y^0 z^0)
 (l2 x^post y^post z^post)
@@ -23,13 +22,11 @@
 (and (and (= y^post (+ 1 y^0)) (<= 2 (+ 0 z^0))) (= z^post (+ -1 z^0)))
 (= x^0 x^post))
 )
-
 (rule
 (l2 x^0 y^0 z^0)
 (l0 x^post y^post z^post)
 :guard
 (and (and (= x^0 x^post) (= y^0 y^post)) (= z^0 z^post)))
-
 (rule
 (l1 x^0 y^0 z^0)
 (l0 x^post y^post z^post)
@@ -38,16 +35,13 @@
 (and (and (<= 2 (+ 0 x^0)) (= x^0 x^post)) (= y^0 y^post))
 (= z^0 z^post))
 )
-
 (rule
 (l3 x^0 y^0 z^0)
 (l1 x^post y^post z^post)
 :guard
 (and (and (= x^0 x^post) (= y^0 y^post)) (= z^0 z^post)))
-
 (rule
 (l4 x^0 y^0 z^0)
 (l3 x^post y^post z^post)
 :guard
 (and (and (= x^0 x^post) (= y^0 y^post)) (= z^0 z^post)))
-

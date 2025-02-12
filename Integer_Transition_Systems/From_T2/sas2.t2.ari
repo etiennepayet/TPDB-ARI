@@ -33,7 +33,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l2 c^post d^post f^post n^post r^post s^post)
@@ -48,7 +47,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l3 c^0 d^0 f^0 n^0 r^0 s^0)
 (l0 c^post d^post f^post n^post r^post s^post)
@@ -61,7 +59,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l4 c^0 d^0 f^0 n^0 r^0 s^0)
 (l0 c^post d^post f^post n^post r^post s^post)
@@ -78,7 +75,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l4 c^0 d^0 f^0 n^0 r^0 s^0)
 (l3 c^post d^post f^post n^post r^post s^post)
@@ -93,7 +89,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l4 c^0 d^0 f^0 n^0 r^0 s^0)
 (l3 c^post d^post f^post n^post r^post s^post)
@@ -108,7 +103,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l5 c^0 d^0 f^0 n^0 r^0 s^0)
 (l4 c^post d^post f^post n^post r^post s^post)
@@ -123,7 +117,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l5 c^0 d^0 f^0 n^0 r^0 s^0)
 (l4 c^post d^post f^post n^post r^post s^post)
@@ -138,7 +131,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l5 c^0 d^0 f^0 n^0 r^0 s^0)
 (l6 c^post d^post f^post n^post r^post s^post)
@@ -155,7 +147,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l6 c^0 d^0 f^0 n^0 r^0 s^0)
 (l7 c^post d^post f^post n^post r^post s^post)
@@ -168,7 +159,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l8 c^0 d^0 f^0 n^0 r^0 s^0)
 (l9 c^post d^post f^post n^post r^post s^post)
@@ -183,7 +173,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l8 c^0 d^0 f^0 n^0 r^0 s^0)
 (l6 c^post d^post f^post n^post r^post s^post)
@@ -198,7 +187,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l10 c^0 d^0 f^0 n^0 r^0 s^0)
 (l8 c^post d^post f^post n^post r^post s^post)
@@ -213,7 +201,6 @@
 (= n^0 n^post))
 (= r^0 r^post))
 )
-
 (rule
 (l11 c^0 d^0 f^0 n^0 r^0 s^0)
 (l10 c^post d^post f^post n^post r^post s^post)
@@ -228,7 +215,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l11 c^0 d^0 f^0 n^0 r^0 s^0)
 (l10 c^post d^post f^post n^post r^post s^post)
@@ -243,7 +229,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l11 c^0 d^0 f^0 n^0 r^0 s^0)
 (l10 c^post d^post f^post n^post r^post s^post)
@@ -260,7 +245,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l9 c^0 d^0 f^0 n^0 r^0 s^0)
 (l5 c^post d^post f^post n^post r^post s^post)
@@ -273,7 +257,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l12 c^0 d^0 f^0 n^0 r^0 s^0)
 (l10 c^post d^post f^post n^post r^post s^post)
@@ -288,7 +271,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l12 c^0 d^0 f^0 n^0 r^0 s^0)
 (l10 c^post d^post f^post n^post r^post s^post)
@@ -303,7 +285,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l12 c^0 d^0 f^0 n^0 r^0 s^0)
 (l11 c^post d^post f^post n^post r^post s^post)
@@ -320,7 +301,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l1 c^0 d^0 f^0 n^0 r^0 s^0)
 (l6 c^post d^post f^post n^post r^post s^post)
@@ -335,7 +315,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l1 c^0 d^0 f^0 n^0 r^0 s^0)
 (l12 c^post d^post f^post n^post r^post s^post)
@@ -350,7 +329,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l13 c^0 d^0 f^0 n^0 r^0 s^0)
 (l9 c^post d^post f^post n^post r^post s^post)
@@ -365,7 +343,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l13 c^0 d^0 f^0 n^0 r^0 s^0)
 (l6 c^post d^post f^post n^post r^post s^post)
@@ -380,7 +357,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l14 c^0 d^0 f^0 n^0 r^0 s^0)
 (l13 c^post d^post f^post n^post r^post s^post)
@@ -393,7 +369,6 @@
 (= n^0 n^post))
 (= r^0 r^post))
 )
-
 (rule
 (l15 c^0 d^0 f^0 n^0 r^0 s^0)
 (l14 c^post d^post f^post n^post r^post s^post)
@@ -408,7 +383,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l15 c^0 d^0 f^0 n^0 r^0 s^0)
 (l14 c^post d^post f^post n^post r^post s^post)
@@ -423,7 +397,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l15 c^0 d^0 f^0 n^0 r^0 s^0)
 (l14 c^post d^post f^post n^post r^post s^post)
@@ -440,7 +413,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l2 c^0 d^0 f^0 n^0 r^0 s^0)
 (l14 c^post d^post f^post n^post r^post s^post)
@@ -455,7 +427,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l2 c^0 d^0 f^0 n^0 r^0 s^0)
 (l14 c^post d^post f^post n^post r^post s^post)
@@ -470,7 +441,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l2 c^0 d^0 f^0 n^0 r^0 s^0)
 (l15 c^post d^post f^post n^post r^post s^post)
@@ -487,7 +457,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l16 c^0 d^0 f^0 n^0 r^0 s^0)
 (l9 c^post d^post f^post n^post r^post s^post)
@@ -498,7 +467,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l17 c^0 d^0 f^0 n^0 r^0 s^0)
 (l16 c^post d^post f^post n^post r^post s^post)
@@ -511,4 +479,3 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-

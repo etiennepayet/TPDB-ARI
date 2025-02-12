@@ -23,7 +23,6 @@
 (<= 1 (+ (+ (+ (+ (+ 0 a^post) b^post) c^post) d^post) e^post)))
 (= sum^post (+ (+ (+ (+ (+ 0 a^post) b^post) c^post) d^post) e^post)))
 )
-
 (rule
 (l1 a^0 b^0 c^0 d^0 e^0 sum^0)
 (l2 a^post b^post c^post d^post e^post sum^post)
@@ -40,7 +39,6 @@
 (= c^0 c^post))
 (= sum^0 sum^post))
 )
-
 (rule
 (l2 a^0 b^0 c^0 d^0 e^0 sum^0)
 (l1 a^post b^post c^post d^post e^post sum^post)
@@ -53,7 +51,6 @@
 (= e^0 e^post))
 (= sum^0 sum^post))
 )
-
 (rule
 (l1 a^0 b^0 c^0 d^0 e^0 sum^0)
 (l3 a^post b^post c^post d^post e^post sum^post)
@@ -70,7 +67,6 @@
 (= b^0 b^post))
 (= sum^0 sum^post))
 )
-
 (rule
 (l3 a^0 b^0 c^0 d^0 e^0 sum^0)
 (l1 a^post b^post c^post d^post e^post sum^post)
@@ -83,7 +79,6 @@
 (= e^0 e^post))
 (= sum^0 sum^post))
 )
-
 (rule
 (l1 a^0 b^0 c^0 d^0 e^0 sum^0)
 (l4 a^post b^post c^post d^post e^post sum^post)
@@ -100,7 +95,6 @@
 (= e^0 e^post))
 (= sum^0 sum^post))
 )
-
 (rule
 (l4 a^0 b^0 c^0 d^0 e^0 sum^0)
 (l1 a^post b^post c^post d^post e^post sum^post)
@@ -113,7 +107,6 @@
 (= e^0 e^post))
 (= sum^0 sum^post))
 )
-
 (rule
 (l1 a^0 b^0 c^0 d^0 e^0 sum^0)
 (l5 a^post b^post c^post d^post e^post sum^post)
@@ -130,7 +123,6 @@
 (= e^0 e^post))
 (= sum^0 sum^post))
 )
-
 (rule
 (l5 a^0 b^0 c^0 d^0 e^0 sum^0)
 (l1 a^post b^post c^post d^post e^post sum^post)
@@ -143,7 +135,6 @@
 (= e^0 e^post))
 (= sum^0 sum^post))
 )
-
 (rule
 (l1 a^0 b^0 c^0 d^0 e^0 sum^0)
 (l6 a^post b^post c^post d^post e^post sum^post)
@@ -160,7 +151,6 @@
 (= d^0 d^post))
 (= sum^0 sum^post))
 )
-
 (rule
 (l6 a^0 b^0 c^0 d^0 e^0 sum^0)
 (l1 a^post b^post c^post d^post e^post sum^post)
@@ -173,7 +163,6 @@
 (= e^0 e^post))
 (= sum^0 sum^post))
 )
-
 (rule
 (l7 a^0 b^0 c^0 d^0 e^0 sum^0)
 (l0 a^post b^post c^post d^post e^post sum^post)
@@ -186,4 +175,3 @@
 (= e^0 e^post))
 (= sum^0 sum^post))
 )
-

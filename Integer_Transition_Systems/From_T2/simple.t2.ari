@@ -13,7 +13,6 @@
 (l2 x^post)
 :guard
 (and (= x^post (+ -1 x^0)) (<= 1 (+ 0 x^post))))
-
 (rule (l2 x^0) (l0 x^post) :guard (= x^0 x^post))
 (rule (l3 x^0) (l0 x^post) :guard (= x^0 x^post))
 (rule (l4 x^0) (l3 x^post) :guard (= x^0 x^post))

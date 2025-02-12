@@ -17,10 +17,8 @@
 (= a^post (+ 0 ret_incr3^post)))
 )
 )
-
 (rule
 (l2 a^0 ret_incr3^0 x2^0)
 (l0 a^post ret_incr3^post x2^post)
 :guard
 (and (and (= a^0 a^post) (= ret_incr3^0 ret_incr3^post)) (= x2^0 x2^post)))
-

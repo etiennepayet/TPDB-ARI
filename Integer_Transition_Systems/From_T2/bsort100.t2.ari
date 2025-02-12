@@ -57,7 +57,6 @@ i8^post)
 (= fact3^0 fact3^post))
 (= factor^0 factor^post))
 )
-
 (rule
 (l0
 Index2^0
@@ -100,7 +99,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l2
 Index2^0
@@ -139,7 +137,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l3
 Index2^0
@@ -178,7 +175,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l5
 Index2^0
@@ -217,7 +213,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l6
 Index2^0
@@ -256,7 +251,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l7
 Index2^0
@@ -299,7 +293,6 @@ i8^post)
 (= fact3^0 fact3^post))
 (= factor^0 factor^post))
 )
-
 (rule
 (l7
 Index2^0
@@ -340,7 +333,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l7
 Index2^0
@@ -381,7 +373,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l8
 Index2^0
@@ -420,7 +411,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l1
 Index2^0
@@ -459,7 +449,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l11
 Index2^0
@@ -498,7 +487,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l11
 Index2^0
@@ -537,7 +525,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l12
 Index2^0
@@ -580,7 +567,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l12
 Index2^0
@@ -623,7 +609,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l13
 Index2^0
@@ -664,7 +649,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l13
 Index2^0
@@ -705,7 +689,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l9
 Index2^0
@@ -744,7 +727,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l10
 Index2^0
@@ -785,7 +767,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l10
 Index2^0
@@ -826,7 +807,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l14
 Index2^0
@@ -865,7 +845,6 @@ i8^post)
 (= __const_99^0 __const_99^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l15
 Index2^0
@@ -904,4 +883,3 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-

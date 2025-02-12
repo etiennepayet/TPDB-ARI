@@ -75,7 +75,6 @@ y_14^post)
 (= y_11^0 y_11^post))
 (= y_14^0 y_14^post))
 )
-
 (rule
 (l0
 Result_4^0
@@ -142,7 +141,6 @@ y_14^post)
 (= y_11^0 y_11^post))
 (= y_14^0 y_14^post))
 )
-
 (rule
 (l2
 Result_4^0
@@ -285,7 +283,6 @@ y_14^post)
 (= y_11^0 y_11^post))
 )
 )
-
 (rule
 (l1
 Result_4^0
@@ -357,7 +354,6 @@ y_14^post)
 (= y_14^0 y_14^post))
 )
 )
-
 (rule
 (l1
 Result_4^0
@@ -429,7 +425,6 @@ y_14^post)
 (= y_14^0 y_14^post))
 )
 )
-
 (rule
 (l3
 Result_4^0
@@ -509,7 +504,6 @@ y_14^post)
 (= y_14^0 y_14^post))
 )
 )
-
 (rule
 (l3
 Result_4^0
@@ -583,7 +577,6 @@ y_14^post)
 (= y_14^0 y_14^post))
 )
 )
-
 (rule
 (l5
 Result_4^0
@@ -646,7 +639,6 @@ y_14^post)
 (= y_11^0 y_11^post))
 (= y_14^0 y_14^post))
 )
-
 (rule
 (l3
 Result_4^0
@@ -720,7 +712,6 @@ y_14^post)
 (= y_14^0 y_14^post))
 )
 )
-
 (rule
 (l6
 Result_4^0
@@ -783,7 +774,6 @@ y_14^post)
 (= y_11^0 y_11^post))
 (= y_14^0 y_14^post))
 )
-
 (rule
 (l7
 Result_4^0
@@ -846,4 +836,3 @@ y_14^post)
 (= y_11^0 y_11^post))
 (= y_14^0 y_14^post))
 )
-

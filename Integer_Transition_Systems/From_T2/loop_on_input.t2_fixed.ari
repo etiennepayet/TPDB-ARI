@@ -13,7 +13,6 @@
 (l1 x^post)
 :guard
 (and (<= 1 (+ 0 x^0)) (= x^post (+ 1 x^0))))
-
 (rule (l2 x^0) (l3 x^post) :guard (and (<= 4 (+ 0 x^0)) (= x^0 x^post)))
 (rule (l2 x^0) (l0 x^post) :guard (and (<= (+ 1 x^0) 4) (= x^0 x^post)))
 (rule (l1 x^0) (l2 x^post) :guard (= x^0 x^post))
@@ -22,5 +21,4 @@
 (l1 x^post)
 :guard
 (exists ((x^1 Int)) (and (= x^1 5) (= x^post x^post))))
-
 (rule (l5 x^0) (l4 x^post) :guard (= x^0 x^post))

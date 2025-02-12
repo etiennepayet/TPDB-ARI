@@ -52,7 +52,6 @@ request_8^post)
 (= Result_4^post Result_4^post))
 (= cnt_60^0 cnt_60^post))
 )
-
 (rule
 (l2
 Result_4^0
@@ -99,4 +98,3 @@ request_8^post)
 (= nPackets_10^0 nPackets_10^post))
 (= request_8^0 request_8^post))
 )
-

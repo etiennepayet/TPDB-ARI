@@ -50,7 +50,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l0 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l2
@@ -82,7 +81,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l3 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l4
@@ -112,7 +110,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l3 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l1
@@ -142,7 +139,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l5 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l6
@@ -172,7 +168,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l7 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l2
@@ -204,7 +199,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l7 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l3
@@ -236,7 +230,6 @@ y^post)
 (= nodecount^0 nodecount^post))
 (= source^0 source^post))
 )
-
 (rule
 (l8 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l9
@@ -266,7 +259,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l10 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l11
@@ -296,7 +288,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l12 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l10
@@ -328,7 +319,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l12 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l8
@@ -360,7 +350,6 @@ y^post)
 (= nodecount^0 nodecount^post))
 (= source^0 source^post))
 )
-
 (rule
 (l11 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l4
@@ -392,7 +381,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l11 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l9
@@ -424,7 +412,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l13 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l14
@@ -454,7 +441,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l14 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l5
@@ -484,7 +470,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l9 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l12
@@ -514,7 +499,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l15 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l13
@@ -546,7 +530,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l15 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l13
@@ -578,7 +561,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l15 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l14
@@ -612,7 +594,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l6 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l10
@@ -644,7 +625,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l6 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l15
@@ -676,7 +656,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l4 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l7
@@ -706,7 +685,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l2 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l0
@@ -736,7 +714,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l16 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l5
@@ -768,7 +745,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l17 __const_5^0 __const_9^0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l16
@@ -798,4 +774,3 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-

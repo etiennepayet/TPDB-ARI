@@ -7,11 +7,9 @@
 (fun
 f1280_0_getPowerOfKInSource_IntArithmetic
 (-> Int Int Int Int Int Int Int Int))
-
 (fun
 |f1280_0_getPowerOfKInSource_IntArithmetic'|
 (-> Int Int Int Int Int Int Int Int))
-
 (fun f1_0_main_Load (-> Int Int Int Int Int Int Int Int))
 (fun f731_0_main_GE (-> Int Int Int Int Int Int Int Int))
 (fun f873_0_findKthPrime_Return (-> Int Int Int Int Int Int Int Int))
@@ -35,7 +33,6 @@ f1280_0_getPowerOfKInSource_IntArithmetic
 (= arg2 arg5P))
 (= 1 arg6P))
 )
-
 (rule
 (f731_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f731_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -64,7 +61,6 @@ f1280_0_getPowerOfKInSource_IntArithmetic
 (= arg4 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f958_0_getNext_Return arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f731_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -93,7 +89,6 @@ f1280_0_getPowerOfKInSource_IntArithmetic
 (= arg6 arg6P))
 (= arg7 arg7P))
 )
-
 (rule
 (f731_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f1280_0_getPowerOfKInSource_IntArithmetic
@@ -125,7 +120,6 @@ arg7P)
 (= (+ arg6 1) arg4P))
 (= arg7 arg5P))
 )
-
 (rule
 (f873_0_findKthPrime_Return arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f1280_0_getPowerOfKInSource_IntArithmetic
@@ -151,7 +145,6 @@ arg7P)
 (= (+ arg3 1) arg4P))
 (= arg4 arg5P))
 )
-
 (rule
 (f1280_0_getPowerOfKInSource_IntArithmetic arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (|f1280_0_getPowerOfKInSource_IntArithmetic'|
@@ -184,7 +177,6 @@ arg7P)
 (= arg5 arg5P))
 )
 )
-
 (rule
 (|f1280_0_getPowerOfKInSource_IntArithmetic'|
 arg1
@@ -228,7 +220,6 @@ arg7P)
 (= arg5 arg5P))
 )
 )
-
 (rule
 (f731_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f1029_0_findKthPrime_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -249,7 +240,6 @@ arg7P)
 (= 0 arg2P))
 (= arg6 arg3P))
 )
-
 (rule
 (f1029_0_findKthPrime_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f1209_0_checkPrime_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -260,7 +250,6 @@ arg7P)
 (= 2 arg3P))
 (= (+ arg1 1) arg4P))
 )
-
 (rule
 (f1209_0_checkPrime_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (|f1209_0_checkPrime_GE'| arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -276,7 +265,6 @@ arg7P)
 (= arg4 arg4P))
 )
 )
-
 (rule
 (f1209_0_checkPrime_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (|f1209_0_checkPrime_GE'| arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -292,7 +280,6 @@ arg7P)
 (= arg4 arg4P))
 )
 )
-
 (rule
 (|f1209_0_checkPrime_GE'| arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f1209_0_checkPrime_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -312,7 +299,6 @@ arg7P)
 (= arg4 arg4P))
 )
 )
-
 (rule
 (f1209_0_checkPrime_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f1029_0_findKthPrime_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -321,7 +307,6 @@ arg7P)
 (and (and (<= arg4 arg3) (= arg4 arg1P)) (= (+ arg2 1) arg2P))
 (= arg1 arg3P))
 )
-
 (rule
 (f1029_0_findKthPrime_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f1029_0_findKthPrime_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -332,7 +317,6 @@ arg7P)
 (= arg2 arg2P))
 (= arg3 arg3P))
 )
-
 (rule
 (f1209_0_checkPrime_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (|f1209_0_checkPrime_GE'| arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -348,7 +332,6 @@ arg7P)
 (= arg4 arg4P))
 )
 )
-
 (rule
 (|f1209_0_checkPrime_GE'| arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f1029_0_findKthPrime_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -368,8 +351,6 @@ arg7P)
 (= arg1 arg3P))
 )
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P arg7P))
-

@@ -18,7 +18,6 @@
 (= deltaext_new^0 deltaext_new^post))
 (= wnt^0 wnt^post))
 )
-
 (rule
 (l0 c0^0 deltaext^0 deltaext_new^0 wnt^0)
 (l2 c0^post deltaext^post deltaext_new^post wnt^post)
@@ -31,7 +30,6 @@
 (= deltaext_new^0 deltaext_new^post))
 (= wnt^0 wnt^post))
 )
-
 (rule
 (l2 c0^0 deltaext^0 deltaext_new^0 wnt^0)
 (l1 c0^post deltaext^post deltaext_new^post wnt^post)
@@ -42,7 +40,6 @@
 (= deltaext_new^0 deltaext_new^post))
 (= wnt^0 wnt^post))
 )
-
 (rule
 (l1 c0^0 deltaext^0 deltaext_new^0 wnt^0)
 (l0 c0^post deltaext^post deltaext_new^post wnt^post)
@@ -59,7 +56,6 @@
 (= deltaext^0 deltaext^post))
 (= wnt^0 wnt^post))
 )
-
 (rule
 (l1 c0^0 deltaext^0 deltaext_new^0 wnt^0)
 (l0 c0^post deltaext^post deltaext_new^post wnt^post)
@@ -74,7 +70,6 @@
 (= deltaext^0 deltaext^post))
 (= wnt^0 wnt^post))
 )
-
 (rule
 (l1 c0^0 deltaext^0 deltaext_new^0 wnt^0)
 (l0 c0^post deltaext^post deltaext_new^post wnt^post)
@@ -89,7 +84,6 @@
 (= deltaext^0 deltaext^post))
 (= wnt^0 wnt^post))
 )
-
 (rule
 (l3 c0^0 deltaext^0 deltaext_new^0 wnt^0)
 (l1 c0^post deltaext^post deltaext_new^post wnt^post)
@@ -108,7 +102,6 @@
 (= deltaext_new^0 deltaext_new^post))
 (= wnt^0 wnt^post))
 )
-
 (rule
 (l4 c0^0 deltaext^0 deltaext_new^0 wnt^0)
 (l3 c0^post deltaext^post deltaext_new^post wnt^post)
@@ -119,4 +112,3 @@
 (= deltaext_new^0 deltaext_new^post))
 (= wnt^0 wnt^post))
 )
-

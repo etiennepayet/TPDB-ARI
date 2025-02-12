@@ -75,7 +75,6 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 (= x_18^0 x_18^post))
 )
-
 (rule
 (l1
 Result_4^0
@@ -142,7 +141,6 @@ x_18^post)
 (= tmp_20^0 tmp_20^post))
 (= x_18^0 x_18^post))
 )
-
 (rule
 (l1
 Result_4^0
@@ -222,7 +220,6 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 )
 )
-
 (rule
 (l2
 Result_4^0
@@ -289,7 +286,6 @@ x_18^post)
 (= tmp_20^0 tmp_20^post))
 (= x_18^0 x_18^post))
 )
-
 (rule
 (l4
 Result_4^0
@@ -352,7 +348,6 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 (= x_18^0 x_18^post))
 )
-
 (rule
 (l2
 Result_4^0
@@ -434,7 +429,6 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 )
 )
-
 (rule
 (l6
 Result_4^0
@@ -499,7 +493,6 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 (= x_18^0 x_18^post))
 )
-
 (rule
 (l6
 Result_4^0
@@ -564,7 +557,6 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 (= x_18^0 x_18^post))
 )
-
 (rule
 (l7
 Result_4^0
@@ -632,7 +624,6 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 )
 )
-
 (rule
 (l5
 Result_4^0
@@ -704,7 +695,6 @@ x_18^post)
 (= x_18^0 x_18^post))
 )
 )
-
 (rule
 (l5
 Result_4^0
@@ -769,7 +759,6 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 (= x_18^0 x_18^post))
 )
-
 (rule
 (l9
 Result_4^0
@@ -834,7 +823,6 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 (= x_18^0 x_18^post))
 )
-
 (rule
 (l9
 Result_4^0
@@ -899,7 +887,6 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 (= x_18^0 x_18^post))
 )
-
 (rule
 (l10
 Result_4^0
@@ -967,7 +954,6 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 )
 )
-
 (rule
 (l8
 Result_4^0
@@ -1030,7 +1016,6 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 (= x_18^0 x_18^post))
 )
-
 (rule
 (l11
 Result_4^0
@@ -1093,4 +1078,3 @@ x_18^post)
 (= tmp___0_14^0 tmp___0_14^post))
 (= x_18^0 x_18^post))
 )
-

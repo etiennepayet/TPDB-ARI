@@ -15,7 +15,6 @@
 (and (and (and (> arg1 0) (> arg2 (- 1))) (= 20 arg1P)) (= 0 arg2P))
 (= arg2 arg3P))
 )
-
 (rule
 (f490_0_loop_GT arg1 arg2 arg3 arg4)
 (f564_0_loop_NE arg1P arg2P arg3P arg4P)
@@ -30,7 +29,6 @@
 (= (+ arg3 1) arg3P))
 (= (- arg1 2) arg4P))
 )
-
 (rule
 (f490_0_loop_GT arg1 arg2 arg3 arg4)
 (f564_0_loop_NE arg1P arg2P arg3P arg4P)
@@ -45,7 +43,6 @@
 (= (+ arg3 1) arg3P))
 (= (- arg1 2) arg4P))
 )
-
 (rule
 (f490_0_loop_GT arg1 arg2 arg3 arg4)
 (f565_0_loop_NE arg1P arg2P arg3P arg4P)
@@ -58,7 +55,6 @@
 (= (- arg3 1) arg2P))
 (= (- arg1 2) arg3P))
 )
-
 (rule
 (f490_0_loop_GT arg1 arg2 arg3 arg4)
 (f573_0_loop_NE arg1P arg2P arg3P arg4P)
@@ -69,7 +65,6 @@
 (= (- arg1 1) arg2P))
 (= (- arg1 2) arg3P))
 )
-
 (rule
 (f564_0_loop_NE arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
@@ -78,7 +73,6 @@
 (and (and (> arg4 arg3) (= arg1 arg1P)) (= arg2 arg2P))
 (= arg3 arg3P))
 )
-
 (rule
 (f564_0_loop_NE arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
@@ -87,31 +81,26 @@
 (and (and (< arg4 arg3) (= arg1 arg1P)) (= arg2 arg2P))
 (= arg3 arg3P))
 )
-
 (rule
 (f565_0_loop_NE arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (and (and (> arg3 arg2) (= arg1 arg1P)) (= 0 arg2P)) (= arg2 arg3P)))
-
 (rule
 (f565_0_loop_NE arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (and (and (< arg3 arg2) (= arg1 arg1P)) (= 0 arg2P)) (= arg2 arg3P)))
-
 (rule
 (f573_0_loop_NE arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (and (and (> arg3 arg2) (= arg1 arg1P)) (= 0 arg2P)) (= arg2 arg3P)))
-
 (rule
 (f573_0_loop_NE arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (and (and (< arg3 arg2) (= arg1 arg1P)) (= 0 arg2P)) (= arg2 arg3P)))
-
 (rule
 (f490_0_loop_GT arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
@@ -122,7 +111,6 @@
 (= 1 arg2P))
 (= 1 arg3P))
 )
-
 (rule
 (f490_0_loop_GT arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
@@ -131,7 +119,6 @@
 (and (and (and (> arg1 3) (= 0 arg3)) (= arg1 arg1P)) (= 1 arg2P))
 (= 1 arg3P))
 )
-
 (rule
 (f564_0_loop_NE arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
@@ -140,7 +127,6 @@
 (and (and (= arg3 arg4) (= (- arg1 1) arg1P)) (= arg2 arg2P))
 (= arg3 arg3P))
 )
-
 (rule
 (f490_0_loop_GT arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
@@ -149,7 +135,6 @@
 (and (and (and (= 0 arg1) (= 0 arg3)) (= 0 arg1P)) (= 0 arg2P))
 (= (- 1) arg3P))
 )
-
 (rule
 (f565_0_loop_NE arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
@@ -158,7 +143,6 @@
 (and (and (= arg2 arg3) (= (- arg1 1) arg1P)) (= 0 arg2P))
 (= arg2 arg3P))
 )
-
 (rule
 (f573_0_loop_NE arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
@@ -167,7 +151,6 @@
 (and (and (= arg2 arg3) (= (- arg1 1) arg1P)) (= 0 arg2P))
 (= arg2 arg3P))
 )
-
 (rule
 (f490_0_loop_GT arg1 arg2 arg3 arg4)
 (f490_0_loop_GT arg1P arg2P arg3P arg4P)
@@ -176,5 +159,4 @@
 (and (and (and (= 3 arg1) (= 0 arg3)) (= 2 arg1P)) (= 1 arg2P))
 (= 1 arg3P))
 )
-
 (rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))

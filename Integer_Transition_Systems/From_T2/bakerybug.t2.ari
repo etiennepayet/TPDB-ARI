@@ -64,7 +64,6 @@ pid^post)
 (= num^0 num^post))
 (= pid^0 pid^post))
 )
-
 (rule
 (l0
 CRITICAL^0
@@ -123,7 +122,6 @@ pid^post)
 (= num^0 num^post))
 (= pid^0 pid^post))
 )
-
 (rule
 (l2
 CRITICAL^0
@@ -180,7 +178,6 @@ pid^post)
 (= num^0 num^post))
 (= pid^0 pid^post))
 )
-
 (rule
 (l2
 CRITICAL^0
@@ -245,7 +242,6 @@ pid^post)
 (= num^0 num^post))
 (= pid^0 pid^post))
 )
-
 (rule
 (l3
 CRITICAL^0
@@ -302,7 +298,6 @@ pid^post)
 (= num^0 num^post))
 (= pid^0 pid^post))
 )
-
 (rule
 (l3
 CRITICAL^0
@@ -361,7 +356,6 @@ pid^post)
 (= num^0 num^post))
 (= pid^0 pid^post))
 )
-
 (rule
 (l1
 CRITICAL^0
@@ -420,7 +414,6 @@ pid^post)
 (= num^0 num^post))
 (= pid^0 pid^post))
 )
-
 (rule
 (l1
 CRITICAL^0
@@ -475,7 +468,6 @@ pid^post)
 (= num^0 num^post))
 (= pid^0 pid^post))
 )
-
 (rule
 (l1
 CRITICAL^0
@@ -530,7 +522,6 @@ pid^post)
 (= num^0 num^post))
 (= pid^0 pid^post))
 )
-
 (rule
 (l4
 CRITICAL^0
@@ -585,7 +576,6 @@ pid^post)
 (= j_min^0 j_min^post))
 (= pid^0 pid^post))
 )
-
 (rule
 (l5
 CRITICAL^0
@@ -646,7 +636,6 @@ pid^post)
 (= conditional^0 conditional^post))
 (= num^0 num^post))
 )
-
 (rule
 (l6
 CRITICAL^0
@@ -701,4 +690,3 @@ pid^post)
 (= num^0 num^post))
 (= pid^0 pid^post))
 )
-

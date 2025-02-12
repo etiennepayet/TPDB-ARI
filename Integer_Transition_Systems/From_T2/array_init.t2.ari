@@ -13,13 +13,11 @@
 (l1 __const_10^post i^post)
 :guard
 (and (= __const_10^0 __const_10^post) (= i^0 i^post)))
-
 (rule
 (l0 __const_10^0 i^0)
 (l1 __const_10^post i^post)
 :guard
 (and (= __const_10^0 __const_10^post) (= i^0 i^post)))
-
 (rule
 (l2 __const_10^0 i^0)
 (l0 __const_10^post i^post)
@@ -28,7 +26,6 @@
 (and (<= (+ 0 __const_10^0) (+ 0 i^0)) (= __const_10^0 __const_10^post))
 (= i^0 i^post))
 )
-
 (rule
 (l2 __const_10^0 i^0)
 (l3 __const_10^post i^post)
@@ -37,28 +34,23 @@
 (and (<= (+ 1 i^0) (+ 0 __const_10^0)) (= i^post (+ 1 i^0)))
 (= __const_10^0 __const_10^post))
 )
-
 (rule
 (l3 __const_10^0 i^0)
 (l2 __const_10^post i^post)
 :guard
 (and (= __const_10^0 __const_10^post) (= i^0 i^post)))
-
 (rule
 (l1 __const_10^0 i^0)
 (l4 __const_10^post i^post)
 :guard
 (and (= __const_10^0 __const_10^post) (= i^0 i^post)))
-
 (rule
 (l5 __const_10^0 i^0)
 (l3 __const_10^post i^post)
 :guard
 (and (= i^post 0) (= __const_10^0 __const_10^post)))
-
 (rule
 (l6 __const_10^0 i^0)
 (l5 __const_10^post i^post)
 :guard
 (and (= __const_10^0 __const_10^post) (= i^0 i^post)))
-

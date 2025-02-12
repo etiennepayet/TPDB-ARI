@@ -98,7 +98,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_20^post)
 (= tmp_21^0 tmp_21^post))
 )
 )
-
 (rule
 (l2
 head_15^0
@@ -187,7 +186,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_20^post)
 (= temp0_14^0 temp0_14^post))
 )
 )
-
 (rule
 (l2
 head_15^0
@@ -301,7 +299,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_20^post)
 (= temp0_14^0 temp0_14^post))
 (= temp0_18^0 temp0_18^post))
 )
-
 (rule
 (l4
 head_15^0
@@ -391,7 +388,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_20^post)
 (= temp0_14^0 temp0_14^post))
 )
 )
-
 (rule
 (l4
 head_15^0
@@ -474,7 +470,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= temp0_14^0 temp0_14^post))
 (= temp0_18^0 temp0_18^post))
 )
-
 (rule
 (l5
 head_15^0
@@ -543,7 +538,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= temp_24^0 temp_24^post))
 (= tmp_21^0 tmp_21^post))
 )
-
 (rule
 (l1
 head_15^0
@@ -626,7 +620,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_20^post)
 (= temp0_14^0 temp0_14^post))
 )
 )
-
 (rule
 (l1
 head_15^0
@@ -738,7 +731,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_20^post)
 (= temp0_14^0 temp0_14^post))
 (= temp0_18^0 temp0_18^post))
 )
-
 (rule
 (l6
 head_15^0
@@ -807,4 +799,3 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= temp_24^0 temp_24^post))
 (= tmp_21^0 tmp_21^post))
 )
-

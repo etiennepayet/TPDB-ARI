@@ -70,7 +70,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l0
 __const_1000^0
@@ -125,7 +124,6 @@ wakend^post)
 (= last_copy_time^0 last_copy_time^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l3
 __const_1000^0
@@ -180,7 +178,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l5
 __const_1000^0
@@ -235,7 +232,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l7
 __const_1000^0
@@ -290,7 +286,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l8
 __const_1000^0
@@ -349,7 +344,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l8
 __const_1000^0
@@ -408,7 +402,6 @@ wakend^post)
 (= last_copy_time^0 last_copy_time^post))
 (= tt1^0 tt1^post))
 )
-
 (rule
 (l9
 __const_1000^0
@@ -465,7 +458,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l9
 __const_1000^0
@@ -522,7 +514,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l6
 __const_1000^0
@@ -577,7 +568,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l10
 __const_1000^0
@@ -632,7 +622,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l1
 __const_1000^0
@@ -689,7 +678,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l1
 __const_1000^0
@@ -746,7 +734,6 @@ wakend^post)
 (= got_SIGHUP^0 got_SIGHUP^post))
 (= tt1^0 tt1^post))
 )
-
 (rule
 (l2
 __const_1000^0
@@ -803,7 +790,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l2
 __const_1000^0
@@ -860,7 +846,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l11
 __const_1000^0
@@ -920,7 +905,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 )
 )
-
 (rule
 (l12
 __const_1000^0
@@ -975,4 +959,3 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-

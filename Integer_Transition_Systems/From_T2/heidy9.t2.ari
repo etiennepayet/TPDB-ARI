@@ -11,28 +11,23 @@
 (l1 p^post y^post)
 :guard
 (and (and (<= (+ 0 y^0) 0) (= p^post 1)) (= y^0 y^post)))
-
 (rule
 (l0 p^0 y^0)
 (l2 p^post y^post)
 :guard
 (and (and (<= 1 (+ 0 y^0)) (= y^post (+ -1 y^0))) (= p^0 p^post)))
-
 (rule
 (l2 p^0 y^0)
 (l0 p^post y^post)
 :guard
 (and (= p^0 p^post) (= y^0 y^post)))
-
 (rule
 (l3 p^0 y^0)
 (l2 p^post y^post)
 :guard
 (and (= p^post 0) (= y^0 y^post)))
-
 (rule
 (l4 p^0 y^0)
 (l3 p^post y^post)
 :guard
 (and (= p^0 p^post) (= y^0 y^post)))
-

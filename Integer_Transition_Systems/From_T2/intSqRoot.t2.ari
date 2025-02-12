@@ -15,7 +15,6 @@
 (and (and (= r^post (+ 0 p^0)) (= N^0 N^post)) (= p^0 p^post))
 (= q^0 q^post))
 )
-
 (rule
 (l0 N^0 p^0 q^0 r^0)
 (l1 N^post p^post q^post r^post)
@@ -24,7 +23,6 @@
 (and (and (= q^post (+ 0 p^0)) (= N^0 N^post)) (= p^0 p^post))
 (= r^0 r^post))
 )
-
 (rule
 (l2 N^0 p^0 q^0 r^0)
 (l3 N^post p^post q^post r^post)
@@ -35,7 +33,6 @@
 (= q^0 q^post))
 (= r^0 r^post))
 )
-
 (rule
 (l2 N^0 p^0 q^0 r^0)
 (l0 N^post p^post q^post r^post)
@@ -46,7 +43,6 @@
 (= q^0 q^post))
 (= r^0 r^post))
 )
-
 (rule
 (l1 N^0 p^0 q^0 r^0)
 (l2 N^post p^post q^post r^post)
@@ -55,7 +51,6 @@
 (and (and (= N^0 N^post) (= p^0 p^post)) (= q^0 q^post))
 (= r^0 r^post))
 )
-
 (rule
 (l4 N^0 p^0 q^0 r^0)
 (l1 N^post p^post q^post r^post)
@@ -64,7 +59,6 @@
 (and (and (= r^post 1) (= q^post (+ 0 N^0))) (= N^0 N^post))
 (= p^0 p^post))
 )
-
 (rule
 (l5 N^0 p^0 q^0 r^0)
 (l4 N^post p^post q^post r^post)
@@ -73,4 +67,3 @@
 (and (and (= N^0 N^post) (= p^0 p^post)) (= q^0 q^post))
 (= r^0 r^post))
 )
-

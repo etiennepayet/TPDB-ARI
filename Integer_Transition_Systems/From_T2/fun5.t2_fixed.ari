@@ -33,7 +33,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l0 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l2
@@ -59,7 +58,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l2 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l1
@@ -85,7 +83,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l0 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l3
@@ -111,7 +108,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l0 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l3
@@ -137,7 +133,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l3 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l1
@@ -163,7 +158,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l4 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l0
@@ -193,7 +187,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l4 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l0
@@ -223,7 +216,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l4 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l0
@@ -251,7 +243,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l4 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l0
@@ -279,7 +270,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l1 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l4
@@ -309,7 +299,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l1 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l4
@@ -339,7 +328,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l1 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l4
@@ -367,7 +355,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l1 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l4
@@ -395,7 +382,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l5 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l1
@@ -435,7 +421,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l6 delta^0 delta_new^0 deltaext^0 deltaext_new^0 deltext^0 wnt^0 wntext^0)
 (l5
@@ -459,4 +444,3 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-

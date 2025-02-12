@@ -22,7 +22,6 @@
 (and (and (and (> arg2 0) (> arg1P (- 1))) (> arg1 0)) (= arg2 arg2P))
 (= 1 arg3P))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
 (f1156_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -36,7 +35,6 @@
 (= 0 arg3P))
 )
 )
-
 (rule
 (f814_0_createTree_Return arg1 arg2 arg3 arg4 arg5 arg6)
 (f1156_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -51,7 +49,6 @@
 (= 0 arg3P))
 (= arg5 arg4P))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
 (f3334_0_main_LE arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -70,7 +67,6 @@
 (= (- arg4P 1) arg3P))
 (= 2 arg5P))
 )
-
 (rule
 (f1156_0_random_ArrayAccess arg1 arg2 arg3 arg4 arg5 arg6)
 (f3334_0_main_LE arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -96,7 +92,6 @@
 (= (+ x150 1) arg5P))
 )
 )
-
 (rule
 (f3334_0_main_LE arg1 arg2 arg3 arg4 arg5 arg6)
 (f3430_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -122,7 +117,6 @@
 (= arg3 arg2P))
 )
 )
-
 (rule
 (f3334_0_main_LE arg1 arg2 arg3 arg4 arg5 arg6)
 (f3430_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -148,7 +142,6 @@
 (= arg3 arg2P))
 )
 )
-
 (rule
 (f3430_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6)
 (f3334_0_main_LE arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -176,7 +169,6 @@
 (= arg2 arg4P))
 )
 )
-
 (rule
 (f543_0_createTree_GT arg1 arg2 arg3 arg4 arg5 arg6)
 (f998_0_createTree_LE arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -189,7 +181,6 @@
 (= arg2 arg3P))
 (= (+ arg3 1) arg4P))
 )
-
 (rule
 (f998_0_createTree_LE arg1 arg2 arg3 arg4 arg5 arg6)
 (f543_0_createTree_GT arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -202,7 +193,6 @@
 (= arg3 arg2P))
 (= arg4 arg3P))
 )
-
 (rule
 (f998_0_createTree_LE arg1 arg2 arg3 arg4 arg5 arg6)
 (f998_0_createTree_LE arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -215,7 +205,6 @@
 (= arg3 arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f998_0_createTree_LE arg1 arg2 arg3 arg4 arg5 arg6)
 (f998_0_createTree_LE arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -228,7 +217,6 @@
 (= (- arg2 1) arg2P))
 (= arg3 arg3P))
 )
-
 (rule
 (f3334_0_main_LE arg1 arg2 arg3 arg4 arg5 arg6)
 (f2378_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -244,7 +232,6 @@
 (<= (+ arg2P 1) arg2))
 )
 )
-
 (rule
 (f3430_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6)
 (f2378_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -262,7 +249,6 @@
 (= arg6 arg2P))
 )
 )
-
 (rule
 (f2378_0_random_ArrayAccess arg1 arg2 arg3 arg4 arg5 arg6)
 (f3147_0_getRandom_LT arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -282,7 +268,6 @@
 (= (+ x91 1) arg4P))
 )
 )
-
 (rule
 (f3147_0_getRandom_LT arg1 arg2 arg3 arg4 arg5 arg6)
 (f3577_0_getRandom_LT arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -301,7 +286,6 @@
 (= (- arg4P 1) arg2P))
 (= (+ arg4 1) arg5P))
 )
-
 (rule
 (f3577_0_getRandom_LT arg1 arg2 arg3 arg4 arg5 arg6)
 (f3577_0_getRandom_LT arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -318,7 +302,6 @@
 (= arg2 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f3577_0_getRandom_LT arg1 arg2 arg3 arg4 arg5 arg6)
 (f3147_0_getRandom_LT arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -331,7 +314,6 @@
 (= arg1 arg3P))
 (= arg5 arg4P))
 )
-
 (rule
 (f3577_0_getRandom_LT arg1 arg2 arg3 arg4 arg5 arg6)
 (f3147_0_getRandom_LT arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -344,7 +326,6 @@
 (= arg1 arg3P))
 (= arg5 arg4P))
 )
-
 (rule
 (f3334_0_main_LE arg1 arg2 arg3 arg4 arg5 arg6)
 (f3446_0_visit_NE arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -364,7 +345,6 @@
 (= arg2P arg3P))
 )
 )
-
 (rule
 (f3446_0_visit_NE arg1 arg2 arg3 arg4 arg5 arg6)
 (f3530_0_visit_NULL arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -377,13 +357,11 @@
 (= arg2 arg3))
 (= arg2 arg1P))
 )
-
 (rule
 (f3530_0_visit_NULL arg1 arg2 arg3 arg4 arg5 arg6)
 (f3446_0_visit_NE arg1P arg2P arg3P arg4P arg5P arg6P)
 :guard
 (and (and (> arg2 0) (> arg1P 0)) (= arg1 arg2P)))
-
 (rule
 (f3530_0_visit_NULL arg1 arg2 arg3 arg4 arg5 arg6)
 (f3530_0_visit_NULL arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -394,8 +372,6 @@
 (= arg1 arg1P))
 (= arg3 arg3P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P))
-

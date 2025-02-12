@@ -38,7 +38,6 @@ z^post)
 (= y^0 y^post))
 (= z^0 z^post))
 )
-
 (rule
 (l2 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
 (l0
@@ -71,7 +70,6 @@ z^post)
 (= y^0 y^post))
 (= z^0 z^post))
 )
-
 (rule
 (l2 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
 (l0
@@ -104,7 +102,6 @@ z^post)
 (= y^0 y^post))
 (= z^0 z^post))
 )
-
 (rule
 (l3 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
 (l4
@@ -135,7 +132,6 @@ z^post)
 (= sz^0 sz^post))
 (= z^0 z^post))
 )
-
 (rule
 (l3 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
 (l4
@@ -166,7 +162,6 @@ z^post)
 (= y^0 y^post))
 (= z^0 z^post))
 )
-
 (rule
 (l4 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
 (l3
@@ -197,7 +192,6 @@ z^post)
 (= y^0 y^post))
 (= z^0 z^post))
 )
-
 (rule
 (l4 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
 (l2
@@ -230,7 +224,6 @@ z^post)
 (= y^0 y^post))
 (= z^0 z^post))
 )
-
 (rule
 (l4 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
 (l3
@@ -263,7 +256,6 @@ z^post)
 (= y^0 y^post))
 (= z^0 z^post))
 )
-
 (rule
 (l4 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
 (l3
@@ -296,7 +288,6 @@ z^post)
 (= y^0 y^post))
 (= z^0 z^post))
 )
-
 (rule
 (l5 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
 (l4
@@ -327,7 +318,6 @@ z^post)
 (= y^0 y^post))
 (= z^0 z^post))
 )
-
 (rule
 (l6 c^0 ox^0 oy^0 oz^0 sx^0 sy^0 sz^0 x^0 y^0 z^0)
 (l5
@@ -358,4 +348,3 @@ z^post)
 (= y^0 y^post))
 (= z^0 z^post))
 )
-

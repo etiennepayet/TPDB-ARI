@@ -54,7 +54,6 @@ tmp___0^post)
 (= tmp7^0 tmp7^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l2
 nI6^0
@@ -99,7 +98,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l2
 nI6^0
@@ -144,7 +142,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l3
 nI6^0
@@ -204,7 +201,6 @@ tmp___0^post)
 (= tmp7^0 tmp7^post))
 )
 )
-
 (rule
 (l3
 nI6^0
@@ -251,7 +247,6 @@ tmp___0^post)
 (= tmp7^0 tmp7^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l1
 nI6^0
@@ -296,7 +291,6 @@ tmp___0^post)
 (= tmp7^0 tmp7^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l5
 nI6^0
@@ -341,7 +335,6 @@ tmp___0^post)
 (= tmp7^0 tmp7^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l6
 nI6^0
@@ -386,4 +379,3 @@ tmp___0^post)
 (= tmp7^0 tmp7^post))
 (= tmp___0^0 tmp___0^post))
 )
-

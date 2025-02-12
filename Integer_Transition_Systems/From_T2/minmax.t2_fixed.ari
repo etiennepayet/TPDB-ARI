@@ -23,7 +23,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l1
 (->
@@ -47,7 +46,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l10
 (->
@@ -71,7 +69,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l11
 (->
@@ -95,7 +92,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l12
 (->
@@ -119,7 +115,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l13
 (->
@@ -143,7 +138,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l2
 (->
@@ -167,7 +161,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l3
 (->
@@ -191,7 +184,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l4
 (->
@@ -215,7 +207,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l5
 (->
@@ -239,7 +230,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l6
 (->
@@ -263,7 +253,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l7
 (->
@@ -287,7 +276,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l8
 (->
@@ -311,7 +299,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l9
 (->
@@ -335,7 +322,6 @@ Int
 Int
 Int)
 )
-
 (entrypoint l13)
 (rule
 (l0
@@ -409,7 +395,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l2
 a10^0
@@ -484,7 +469,6 @@ z^post)
 (= x_promoted_1^0 x_promoted_1^post))
 (= y_promoted_2^0 y_promoted_2^post))
 )
-
 (rule
 (l4
 a10^0
@@ -561,7 +545,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l4
 a10^0
@@ -640,7 +623,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l6
 a10^0
@@ -717,7 +699,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l6
 a10^0
@@ -794,7 +775,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l7
 a10^0
@@ -871,7 +851,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l7
 a10^0
@@ -948,7 +927,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l8
 a10^0
@@ -1025,7 +1003,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l8
 a10^0
@@ -1102,7 +1079,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l9
 a10^0
@@ -1177,7 +1153,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l10
 a10^0
@@ -1254,7 +1229,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l10
 a10^0
@@ -1331,7 +1305,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l11
 a10^0
@@ -1408,7 +1381,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l11
 a10^0
@@ -1485,7 +1457,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l5
 a10^0
@@ -1562,7 +1533,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l5
 a10^0
@@ -1641,7 +1611,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l3
 a10^0
@@ -1720,7 +1689,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l3
 a10^0
@@ -1799,7 +1767,6 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-
 (rule
 (l12
 a10^0
@@ -1872,7 +1839,6 @@ z^post)
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l13
 a10^0
@@ -1945,4 +1911,3 @@ z^post)
 (= y_promoted_2^0 y_promoted_2^post))
 (= z^0 z^post))
 )
-

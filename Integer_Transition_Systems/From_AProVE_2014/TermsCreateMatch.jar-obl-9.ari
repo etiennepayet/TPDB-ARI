@@ -9,19 +9,15 @@
 (fun
 f2894_0_extendMatchingSubstitution_InvokeMethod
 (-> Int Int Int Int Int Int Int Int))
-
 (fun
 f3568_0_extendMatchingSubstitution_CheckCast
 (-> Int Int Int Int Int Int Int Int))
-
 (fun
 f3684_0_extendMatchingSubstitution_EQ
 (-> Int Int Int Int Int Int Int Int))
-
 (fun
 f3952_0_extendMatchingSubstitution_NULL
 (-> Int Int Int Int Int Int Int Int))
-
 (fun f648_0_create_GT (-> Int Int Int Int Int Int Int Int))
 (entrypoint __init)
 (rule
@@ -35,7 +31,6 @@ f3952_0_extendMatchingSubstitution_NULL
 (= arg2 arg2P))
 )
 )
-
 (rule
 (f1260_0_create_Return arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f2800_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -50,7 +45,6 @@ f3952_0_extendMatchingSubstitution_NULL
 (= arg4 arg3P))
 (= arg5 arg4P))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f2894_0_extendMatchingSubstitution_InvokeMethod
@@ -75,7 +69,6 @@ arg7P)
 (> arg1P 0))
 )
 )
-
 (rule
 (f1262_0_create_Return arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f2894_0_extendMatchingSubstitution_InvokeMethod
@@ -88,7 +81,6 @@ arg6P
 arg7P)
 :guard
 (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)))
-
 (rule
 (f2800_0_random_ArrayAccess arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f3568_0_extendMatchingSubstitution_CheckCast
@@ -125,7 +117,6 @@ arg7P)
 (<= (+ arg3 5) arg1))
 )
 )
-
 (rule
 (f2800_0_random_ArrayAccess arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f3568_0_extendMatchingSubstitution_CheckCast
@@ -158,7 +149,6 @@ arg7P)
 (<= (+ arg3 5) arg1))
 )
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f648_0_create_GT arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -167,7 +157,6 @@ arg7P)
 (and (and (and (> arg1P (- 1)) (> arg2 0)) (> arg1 0)) (= arg2 arg2P))
 (= 1 arg3P))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f648_0_create_GT arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -185,7 +174,6 @@ arg7P)
 (= (+ x50 1) arg3P))
 )
 )
-
 (rule
 (f2800_0_random_ArrayAccess arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f648_0_create_GT arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -205,7 +193,6 @@ arg7P)
 (= (+ x54 1) arg3P))
 )
 )
-
 (rule
 (f648_0_create_GT arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f2576_0_create_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -222,7 +209,6 @@ arg7P)
 (= arg2 arg4P))
 (= (+ arg3 1) arg5P))
 )
-
 (rule
 (f2576_0_create_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f648_0_create_GT arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -237,7 +223,6 @@ arg7P)
 (= arg4 arg2P))
 (= arg5 arg3P))
 )
-
 (rule
 (f2576_0_create_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f2576_0_create_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
@@ -254,7 +239,6 @@ arg7P)
 (= arg3 arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f3568_0_extendMatchingSubstitution_CheckCast
 arg1
@@ -301,7 +285,6 @@ arg7P)
 (= 0 arg3P))
 (= arg4 arg5P))
 )
-
 (rule
 (f3568_0_extendMatchingSubstitution_CheckCast
 arg1
@@ -348,7 +331,6 @@ arg7P)
 (= 1 arg3P))
 (= arg4 arg5P))
 )
-
 (rule
 (f3684_0_extendMatchingSubstitution_EQ arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f3952_0_extendMatchingSubstitution_NULL
@@ -382,7 +364,6 @@ arg7P)
 (= arg4 arg3P))
 (= arg5 arg4P))
 )
-
 (rule
 (f3952_0_extendMatchingSubstitution_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f3568_0_extendMatchingSubstitution_CheckCast
@@ -414,7 +395,6 @@ arg7P)
 (> arg3P (- 1)))
 (= arg4 arg4P))
 )
-
 (rule
 (f3952_0_extendMatchingSubstitution_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f3568_0_extendMatchingSubstitution_CheckCast
@@ -442,7 +422,6 @@ arg7P)
 (> arg3P 0))
 (= arg4 arg4P))
 )
-
 (rule
 (f3952_0_extendMatchingSubstitution_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f3952_0_extendMatchingSubstitution_NULL
@@ -468,7 +447,6 @@ arg7P)
 (= arg3 arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f3952_0_extendMatchingSubstitution_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f3952_0_extendMatchingSubstitution_NULL
@@ -494,8 +472,6 @@ arg7P)
 (= arg3 arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P arg7P))
-

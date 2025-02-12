@@ -16,7 +16,6 @@
 (= arg2P arg3P))
 (= arg2P arg4P))
 )
-
 (rule
 (f278_0_main_LE arg1 arg2 arg3 arg4)
 (f278_0_main_LE arg1P arg2P arg3P arg4P)
@@ -29,7 +28,6 @@
 (= arg3 arg3P))
 (= arg3 arg4P))
 )
-
 (rule
 (f278_0_main_LE arg1 arg2 arg3 arg4)
 (f278_0_main_LE arg1P arg2P arg3P arg4P)
@@ -44,5 +42,4 @@
 (= arg3 arg3P))
 (= arg3 arg4P))
 )
-
 (rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))

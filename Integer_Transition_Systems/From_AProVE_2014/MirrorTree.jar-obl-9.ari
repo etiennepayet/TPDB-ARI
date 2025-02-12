@@ -16,43 +16,36 @@
 (f1317_0_mirror_NULL arg1P arg2P arg3P arg4P)
 :guard
 (and (> arg1 0) (> arg1P (- 1))))
-
 (rule
 (f322_0_createTree_Return arg1 arg2 arg3 arg4)
 (f1317_0_mirror_NULL arg1P arg2P arg3P arg4P)
 :guard
 (and (and (<= arg1P arg1) (> arg1 (- 1))) (> arg1P (- 1))))
-
 (rule
 (f1317_0_mirror_NULL arg1 arg2 arg3 arg4)
 (f1317_0_mirror_NULL arg1P arg2P arg3P arg4P)
 :guard
 (and (and (<= (+ arg1P 1) arg1) (> arg1 0)) (> arg1P (- 1))))
-
 (rule
 (f477_0_createNode_Return arg1 arg2 arg3 arg4)
 (f731_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
 :guard
 (> arg1P 0))
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
 (f731_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
 :guard
 (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)))
-
 (rule
 (f512_0_createNode_Return arg1 arg2 arg3 arg4)
 (f750_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
 :guard
 (> arg1P 0))
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
 (f750_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
 :guard
 (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)))
-
 (rule
 (f750_0_random_ArrayAccess arg1 arg2 arg3 arg4)
 (f1551_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -68,7 +61,6 @@
 (= (+ x22 1) arg4P))
 )
 )
-
 (rule
 (f731_0_random_ArrayAccess arg1 arg2 arg3 arg4)
 (f1551_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -84,7 +76,6 @@
 (= (+ x27 1) arg4P))
 )
 )
-
 (rule
 (f1551_0_createTree_LE arg1 arg2 arg3 arg4)
 (f1551_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -99,7 +90,6 @@
 (= arg3 arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f1551_0_createTree_LE arg1 arg2 arg3 arg4)
 (f1551_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -117,7 +107,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (f1551_0_createTree_LE arg1 arg2 arg3 arg4)
 (f1551_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -135,7 +124,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (f1551_0_createTree_LE arg1 arg2 arg3 arg4)
 (f1551_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -153,7 +141,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (f1551_0_createTree_LE arg1 arg2 arg3 arg4)
 (f1551_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -171,7 +158,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
 (f973_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
@@ -186,7 +172,6 @@
 (> arg2P 0))
 (= 0 arg3P))
 )
-
 (rule
 (f1551_0_createTree_LE arg1 arg2 arg3 arg4)
 (f973_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
@@ -201,7 +186,6 @@
 (> arg2P 0))
 (= arg4 arg3P))
 )
-
 (rule
 (f1551_0_createTree_LE arg1 arg2 arg3 arg4)
 (f973_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
@@ -214,5 +198,4 @@
 (> arg1 2))
 (> arg2P 0))
 )
-
 (rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))

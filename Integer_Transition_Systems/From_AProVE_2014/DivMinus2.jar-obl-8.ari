@@ -15,7 +15,6 @@
 (> arg1 0))
 (= 0 arg1P))
 )
-
 (rule
 (f370_0_div_LT arg1 arg2 arg3 arg4 arg5)
 (f398_0_minus_EQ arg1P arg2P arg3P arg4P arg5P)
@@ -28,7 +27,6 @@
 (= arg3 arg4P))
 (= arg3 arg5P))
 )
-
 (rule
 (f398_0_minus_EQ arg1 arg2 arg3 arg4 arg5)
 (f398_0_minus_EQ arg1P arg2P arg3P arg4P arg5P)
@@ -43,7 +41,6 @@
 (= (+ arg4 1) arg4P))
 (= (+ arg4 1) arg5P))
 )
-
 (rule
 (f398_0_minus_EQ arg1 arg2 arg3 arg4 arg5)
 (f398_0_minus_EQ arg1P arg2P arg3P arg4P arg5P)
@@ -58,7 +55,6 @@
 (= (+ arg4 1) arg4P))
 (= (+ arg4 1) arg5P))
 )
-
 (rule
 (f398_0_minus_EQ arg1 arg2 arg3 arg4 arg5)
 (f398_0_minus_EQ arg1P arg2P arg3P arg4P arg5P)
@@ -71,7 +67,6 @@
 (= (- arg4 1) arg4P))
 (= (- arg4 1) arg5P))
 )
-
 (rule
 (f398_0_minus_EQ arg1 arg2 arg3 arg4 arg5)
 (f370_0_div_LT arg1P arg2P arg3P arg4P arg5P)
@@ -84,8 +79,6 @@
 (= arg3 arg2P))
 (= arg1 arg3P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P))
-

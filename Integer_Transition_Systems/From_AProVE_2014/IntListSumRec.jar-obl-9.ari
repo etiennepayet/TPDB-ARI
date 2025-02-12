@@ -14,7 +14,6 @@
 (and (and (and (> arg1P (- 1)) (> arg2 0)) (> arg1 0)) (= arg2 arg2P))
 (= 1 arg3P))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f502_0_main_InvokeMethod arg1P arg2P arg3P)
@@ -28,7 +27,6 @@
 (> arg2P 2))
 )
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f502_0_main_InvokeMethod arg1P arg2P arg3P)
@@ -46,7 +44,6 @@
 (> arg2P 1))
 )
 )
-
 (rule
 (f302_0_createList_GE arg1 arg2 arg3)
 (f302_0_createList_GE arg1P arg2P arg3P)
@@ -63,7 +60,6 @@
 (= arg2 arg2P))
 (= (+ arg3 1) arg3P))
 )
-
 (rule
 (f502_0_main_InvokeMethod arg1 arg2 arg3)
 (f571_0_sumList_NONNULL arg1P arg2P arg3P)
@@ -85,7 +81,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (f571_0_sumList_NONNULL arg1 arg2 arg3)
 (f571_0_sumList_NONNULL arg1P arg2P arg3P)
@@ -106,5 +101,4 @@
 (> arg2P (- 1)))
 (= arg3 arg3P))
 )
-
 (rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))

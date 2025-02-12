@@ -3,35 +3,27 @@
 (fun
 l0
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l1
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l2
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l3
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l4
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l5
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l6
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l7
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint l7)
 (rule
 (l0
@@ -139,7 +131,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l0
 __const_6^0
@@ -244,7 +235,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l0
 __const_6^0
@@ -349,7 +339,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l0
 __const_6^0
@@ -452,7 +441,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l0
 __const_6^0
@@ -553,7 +541,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l0
 __const_6^0
@@ -654,7 +641,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l2
 __const_6^0
@@ -759,7 +745,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l2
 __const_6^0
@@ -862,7 +847,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l2
 __const_6^0
@@ -965,7 +949,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l2
 __const_6^0
@@ -1066,7 +1049,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l2
 __const_6^0
@@ -1165,7 +1147,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l2
 __const_6^0
@@ -1264,7 +1245,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l3
 __const_6^0
@@ -1363,7 +1343,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l3
 __const_6^0
@@ -1460,7 +1439,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l3
 __const_6^0
@@ -1557,7 +1535,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l3
 __const_6^0
@@ -1660,7 +1637,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l3
 __const_6^0
@@ -1761,7 +1737,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l3
 __const_6^0
@@ -1862,7 +1837,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l3
 __const_6^0
@@ -1978,7 +1952,6 @@ y_next^post)
 (= n1^0 n1^post))
 )
 )
-
 (rule
 (l3
 __const_6^0
@@ -2087,7 +2060,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l3
 __const_6^0
@@ -2196,7 +2168,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l5
 __const_6^0
@@ -2295,7 +2266,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l5
 __const_6^0
@@ -2392,7 +2362,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l5
 __const_6^0
@@ -2489,7 +2458,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l4
 __const_6^0
@@ -2588,7 +2556,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l4
 __const_6^0
@@ -2685,7 +2652,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l4
 __const_6^0
@@ -2782,7 +2748,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l4
 __const_6^0
@@ -2881,7 +2846,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l4
 __const_6^0
@@ -2978,7 +2942,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l4
 __const_6^0
@@ -3075,7 +3038,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l1
 __const_6^0
@@ -3178,7 +3140,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l1
 __const_6^0
@@ -3279,7 +3240,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l1
 __const_6^0
@@ -3380,7 +3340,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l1
 __const_6^0
@@ -3479,7 +3438,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l1
 __const_6^0
@@ -3576,7 +3534,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l1
 __const_6^0
@@ -3673,7 +3630,6 @@ y_next^post)
 (= n0^0 n0^post))
 (= n1^0 n1^post))
 )
-
 (rule
 (l6
 __const_6^0
@@ -3744,7 +3700,6 @@ y_next^post)
 (= y^0 y^post))
 (= y_next^0 y_next^post))
 )
-
 (rule
 (l7
 __const_6^0
@@ -3815,4 +3770,3 @@ y_next^post)
 (= y^0 y^post))
 (= y_next^0 y_next^post))
 )
-

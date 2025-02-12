@@ -47,7 +47,6 @@ x_5^post)
 (= x_5^0 x_5^post))
 )
 )
-
 (rule
 (l2
 Result_4^0
@@ -85,7 +84,6 @@ x_5^post)
 (= x_5^0 x_5^post))
 )
 )
-
 (rule
 (l3
 Result_4^0
@@ -118,7 +116,6 @@ x_5^post)
 (= selected_11^0 selected_11^post))
 (= x_5^0 x_5^post))
 )
-
 (rule
 (l3
 Result_4^0
@@ -151,7 +148,6 @@ x_5^post)
 (= selected_11^0 selected_11^post))
 (= x_5^0 x_5^post))
 )
-
 (rule
 (l5
 Result_4^0
@@ -184,7 +180,6 @@ x_5^post)
 (= selected_11^0 selected_11^post))
 (= x_5^0 x_5^post))
 )
-
 (rule
 (l3
 Result_4^0
@@ -221,7 +216,6 @@ x_5^post)
 (= selected_11^0 selected_11^post))
 (= x_5^0 x_5^post))
 )
-
 (rule
 (l3
 Result_4^0
@@ -263,7 +257,6 @@ x_5^post)
 (= x_5^0 x_5^post))
 )
 )
-
 (rule
 (l1
 Result_4^0
@@ -296,7 +289,6 @@ x_5^post)
 (= selected_11^0 selected_11^post))
 (= x_5^0 x_5^post))
 )
-
 (rule
 (l7
 Result_4^0
@@ -327,7 +319,6 @@ x_5^post)
 (= ___cil_tmp6_12^0 ___cil_tmp6_12^post))
 (= x_5^0 x_5^post))
 )
-
 (rule
 (l8
 Result_4^0
@@ -358,4 +349,3 @@ x_5^post)
 (= selected_11^0 selected_11^post))
 (= x_5^0 x_5^post))
 )
-

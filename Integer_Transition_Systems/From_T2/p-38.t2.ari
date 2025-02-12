@@ -44,7 +44,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l1
 (->
@@ -89,7 +88,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l2
 (->
@@ -134,7 +132,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l3
 (->
@@ -179,7 +176,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l4
 (->
@@ -224,7 +220,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l5
 (->
@@ -269,7 +264,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l6
 (->
@@ -314,7 +308,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l7
 (->
@@ -359,7 +352,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l8
 (->
@@ -404,7 +396,6 @@ Int
 Int
 Int)
 )
-
 (entrypoint l8)
 (rule
 (l0
@@ -571,7 +562,6 @@ tmp___2_18^post)
 (= lt_90^0 lt_90^post))
 )
 )
-
 (rule
 (l1
 Result_4^0
@@ -745,7 +735,6 @@ tmp___2_18^post)
 (= tmp___2_18^0 tmp___2_18^post))
 )
 )
-
 (rule
 (l3
 Result_4^0
@@ -906,7 +895,6 @@ tmp___2_18^post)
 (= tmp___1_17^0 tmp___1_17^post))
 (= tmp___2_18^0 tmp___2_18^post))
 )
-
 (rule
 (l4
 Result_4^0
@@ -1065,7 +1053,6 @@ tmp___2_18^post)
 (= tmp___1_17^0 tmp___1_17^post))
 (= tmp___2_18^0 tmp___2_18^post))
 )
-
 (rule
 (l5
 Result_4^0
@@ -1226,7 +1213,6 @@ tmp___2_18^post)
 (= tmp___1_17^0 tmp___1_17^post))
 (= tmp___2_18^0 tmp___2_18^post))
 )
-
 (rule
 (l6
 Result_4^0
@@ -1394,7 +1380,6 @@ tmp___2_18^post)
 (= tmp___2_18^0 tmp___2_18^post))
 )
 )
-
 (rule
 (l1
 Result_4^0
@@ -1578,7 +1563,6 @@ tmp___2_18^post)
 (= tmp___2_18^0 tmp___2_18^post))
 )
 )
-
 (rule
 (l8
 Result_4^0
@@ -1737,4 +1721,3 @@ tmp___2_18^post)
 (= tmp___1_17^0 tmp___1_17^post))
 (= tmp___2_18^0 tmp___2_18^post))
 )
-

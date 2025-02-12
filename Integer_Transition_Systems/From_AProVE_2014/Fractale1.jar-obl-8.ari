@@ -28,7 +28,6 @@
 (= 200 arg6P))
 (= 200 arg7P))
 )
-
 (rule
 (f361_0_fractale_LE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (|f361_0_fractale_LE'| arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -68,7 +67,6 @@
 (= arg7 arg7P))
 )
 )
-
 (rule
 (|f361_0_fractale_LE'| arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f361_0_fractale_LE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -105,7 +103,6 @@
 (= arg4 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f361_0_fractale_LE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (|f361_0_fractale_LE'| arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -141,7 +138,6 @@
 (= arg7 arg7P))
 )
 )
-
 (rule
 (|f361_0_fractale_LE'| arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f425_0_fractale_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -176,7 +172,6 @@
 (= arg6 arg7P))
 (= arg7 arg8P))
 )
-
 (rule
 (f361_0_fractale_LE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (|f361_0_fractale_LE'| arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -216,7 +211,6 @@
 (= arg7 arg7P))
 )
 )
-
 (rule
 (|f361_0_fractale_LE'| arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f425_0_fractale_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -255,7 +249,6 @@
 (= arg6 arg7P))
 (= arg7 arg8P))
 )
-
 (rule
 (f425_0_fractale_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f361_0_fractale_LE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
@@ -290,8 +283,6 @@
 (= arg7 arg6P))
 (= arg8 arg7P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P))
-

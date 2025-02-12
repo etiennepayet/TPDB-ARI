@@ -31,7 +31,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l2 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l3 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -52,7 +51,6 @@
 (= xx^0 xx^post))
 (= yy^0 yy^post))
 )
-
 (rule
 (l2 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l3 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -73,7 +71,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l4 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l2 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -90,7 +87,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l4 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l3 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -111,7 +107,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l3 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l1 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -132,7 +127,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l3 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l0 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -149,7 +143,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l3 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l0 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -166,7 +159,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l5 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l4 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -183,7 +175,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l5 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l3 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -204,7 +195,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l6 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l3 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -221,7 +211,6 @@
 (= xx^0 xx^post))
 (= yy^0 yy^post))
 )
-
 (rule
 (l6 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l5 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -238,7 +227,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l7 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l8 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -259,7 +247,6 @@
 (= xx^0 xx^post))
 (= yy^0 yy^post))
 )
-
 (rule
 (l7 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l8 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -280,7 +267,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l9 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l7 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -297,7 +283,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l9 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l8 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -318,7 +303,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l8 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l6 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -337,7 +321,6 @@
 (= xx^0 xx^post))
 (= z^0 z^post))
 )
-
 (rule
 (l1 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l10 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -352,7 +335,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l11 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l9 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -369,7 +351,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l11 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l8 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -390,7 +371,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l12 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l8 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -407,7 +387,6 @@
 (= xx^0 xx^post))
 (= yy^0 yy^post))
 )
-
 (rule
 (l12 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l11 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -424,7 +403,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l10 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l13 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -441,7 +419,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l10 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l12 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -462,7 +439,6 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-
 (rule
 (l14 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l1 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -481,7 +457,6 @@
 (= xx^post 0))
 (= yy^post 0))
 )
-
 (rule
 (l15 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
 (l14 K^post N^post next^post pos^post xx^post yy^post z^post)
@@ -496,4 +471,3 @@
 (= yy^0 yy^post))
 (= z^0 z^post))
 )
-

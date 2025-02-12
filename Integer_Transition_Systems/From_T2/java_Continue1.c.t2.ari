@@ -18,7 +18,6 @@
 (= x0^post (+ 0 oldX1^post)))
 (= __const_19^0 __const_19^post))
 )
-
 (rule
 (l2 __const_19^0 oldX0^0 oldX1^0 x0^0)
 (l3 __const_19^post oldX0^post oldX1^post x0^post)
@@ -29,7 +28,6 @@
 (= __const_19^0 __const_19^post))
 (= oldX1^0 oldX1^post))
 )
-
 (rule
 (l3 __const_19^0 oldX0^0 oldX1^0 x0^0)
 (l0 __const_19^post oldX0^post oldX1^post x0^post)
@@ -42,7 +40,6 @@
 (= __const_19^0 __const_19^post))
 (= oldX1^0 oldX1^post))
 )
-
 (rule
 (l3 __const_19^0 oldX0^0 oldX1^0 x0^0)
 (l2 __const_19^post oldX0^post oldX1^post x0^post)
@@ -55,7 +52,6 @@
 (= __const_19^0 __const_19^post))
 (= oldX1^0 oldX1^post))
 )
-
 (rule
 (l4 __const_19^0 oldX0^0 oldX1^0 x0^0)
 (l3 __const_19^post oldX0^post oldX1^post x0^post)
@@ -66,7 +62,6 @@
 (= __const_19^0 __const_19^post))
 (= oldX1^0 oldX1^post))
 )
-
 (rule
 (l5 __const_19^0 oldX0^0 oldX1^0 x0^0)
 (l4 __const_19^post oldX0^post oldX1^post x0^post)
@@ -77,7 +72,6 @@
 (= x0^post (+ 0 oldX1^post)))
 (= __const_19^0 __const_19^post))
 )
-
 (rule
 (l5 __const_19^0 oldX0^0 oldX1^0 x0^0)
 (l1 __const_19^post oldX0^post oldX1^post x0^post)
@@ -88,7 +82,6 @@
 (= oldX1^0 oldX1^post))
 (= x0^0 x0^post))
 )
-
 (rule
 (l5 __const_19^0 oldX0^0 oldX1^0 x0^0)
 (l0 __const_19^post oldX0^post oldX1^post x0^post)
@@ -99,7 +92,6 @@
 (= oldX1^0 oldX1^post))
 (= x0^0 x0^post))
 )
-
 (rule
 (l5 __const_19^0 oldX0^0 oldX1^0 x0^0)
 (l2 __const_19^post oldX0^post oldX1^post x0^post)
@@ -110,7 +102,6 @@
 (= oldX1^0 oldX1^post))
 (= x0^0 x0^post))
 )
-
 (rule
 (l5 __const_19^0 oldX0^0 oldX1^0 x0^0)
 (l3 __const_19^post oldX0^post oldX1^post x0^post)
@@ -121,7 +112,6 @@
 (= oldX1^0 oldX1^post))
 (= x0^0 x0^post))
 )
-
 (rule
 (l5 __const_19^0 oldX0^0 oldX1^0 x0^0)
 (l4 __const_19^post oldX0^post oldX1^post x0^post)
@@ -132,7 +122,6 @@
 (= oldX1^0 oldX1^post))
 (= x0^0 x0^post))
 )
-
 (rule
 (l6 __const_19^0 oldX0^0 oldX1^0 x0^0)
 (l5 __const_19^post oldX0^post oldX1^post x0^post)
@@ -143,4 +132,3 @@
 (= oldX1^0 oldX1^post))
 (= x0^0 x0^post))
 )
-

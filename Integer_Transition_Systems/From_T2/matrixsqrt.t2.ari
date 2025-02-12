@@ -37,7 +37,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l2 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l3 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -52,7 +51,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l4 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l5 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -67,7 +65,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l6 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l5 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -82,7 +79,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l7 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l5 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -97,7 +93,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l8 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l5 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -112,7 +107,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l5 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l9 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -127,7 +121,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l10 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l8 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -142,7 +135,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l10 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l5 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -157,7 +149,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l10 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l8 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -172,7 +163,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l11 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l7 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -187,7 +177,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l11 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l7 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -202,7 +191,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l11 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l10 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -217,7 +205,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l12 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l6 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -232,7 +219,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l12 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l6 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -247,7 +233,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l12 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l11 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -262,7 +247,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l13 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l14 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -277,7 +261,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l15 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l4 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -292,7 +275,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l15 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l4 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -307,7 +289,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l15 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l12 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -322,7 +303,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l16 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l17 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -341,7 +321,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l16 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l18 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -360,7 +339,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l17 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l19 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -375,7 +353,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l19 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l13 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -394,7 +371,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l19 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l18 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -413,7 +389,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l14 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l15 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -432,7 +407,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l14 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l17 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -451,7 +425,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l18 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l16 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -466,7 +439,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l3 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l0 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -485,7 +457,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l3 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l2 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -504,7 +475,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l1 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l13 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -523,7 +493,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l1 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l2 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -542,7 +511,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l20 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l0 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -559,7 +527,6 @@
 (= nk^0 nk^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l21 nDim^0 ni^0 nj^0 nk^0 tmp^0 tmp___0^0 tmp___1^0)
 (l20 nDim^post ni^post nj^post nk^post tmp^post tmp___0^post tmp___1^post)
@@ -574,4 +541,3 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-

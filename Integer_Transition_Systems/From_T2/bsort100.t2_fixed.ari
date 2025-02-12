@@ -40,7 +40,6 @@ i8^post)
 (= fact3^0 fact3^post))
 (= factor^0 factor^post))
 )
-
 (rule
 (l0 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l2
@@ -66,7 +65,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l2 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l0
@@ -90,7 +88,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l3 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l4
@@ -114,7 +111,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l5 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l3
@@ -138,7 +134,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l6 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l7
@@ -162,7 +157,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l7 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l1
@@ -190,7 +184,6 @@ i8^post)
 (= fact3^0 fact3^post))
 (= factor^0 factor^post))
 )
-
 (rule
 (l7 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l5
@@ -216,7 +209,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l7 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l5
@@ -242,7 +234,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l8 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l9
@@ -266,7 +257,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l1 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l10
@@ -290,7 +280,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l11 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l8
@@ -314,7 +303,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l11 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l8
@@ -338,7 +326,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l12 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l11
@@ -364,7 +351,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l12 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l6
@@ -390,7 +376,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l13 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l6
@@ -416,7 +401,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l13 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l12
@@ -442,7 +426,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l9 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l13
@@ -466,7 +449,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l10 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l3
@@ -492,7 +474,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l10 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l9
@@ -516,7 +497,6 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l14 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l2
@@ -540,7 +520,6 @@ i8^post)
 (= Temp6^0 Temp6^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l15 Index2^0 Index7^0 Sorted5^0 Temp6^0 fact3^0 factor^0 i8^0)
 (l14
@@ -564,4 +543,3 @@ i8^post)
 (= factor^0 factor^post))
 (= i8^0 i8^post))
 )
-

@@ -21,7 +21,6 @@
 (= n_promoted_1^0 n_promoted_1^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l0 i5^0 n_promoted_1^0 tmp^0 tmp___0^0)
 (l1 i5^post n_promoted_1^post tmp^post tmp___0^post)
@@ -34,7 +33,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l1 i5^0 n_promoted_1^0 tmp^0 tmp___0^0)
 (l2 i5^post n_promoted_1^post tmp^post tmp___0^post)
@@ -45,7 +43,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l3 i5^0 n_promoted_1^0 tmp^0 tmp___0^0)
 (l0 i5^post n_promoted_1^post tmp^post tmp___0^post)
@@ -58,7 +55,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l3 i5^0 n_promoted_1^0 tmp^0 tmp___0^0)
 (l1 i5^post n_promoted_1^post tmp^post tmp___0^post)
@@ -71,7 +67,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l2 i5^0 n_promoted_1^0 tmp^0 tmp___0^0)
 (l4 i5^post n_promoted_1^post tmp^post tmp___0^post)
@@ -82,7 +77,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l4 i5^0 n_promoted_1^0 tmp^0 tmp___0^0)
 (l5 i5^post n_promoted_1^post tmp^post tmp___0^post)
@@ -93,7 +87,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l4 i5^0 n_promoted_1^0 tmp^0 tmp___0^0)
 (l2 i5^post n_promoted_1^post tmp^post tmp___0^post)
@@ -104,7 +97,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l6 i5^0 n_promoted_1^0 tmp^0 tmp___0^0)
 (l3 i5^post n_promoted_1^post tmp^post tmp___0^post)
@@ -115,7 +107,6 @@
 (= i5^0 i5^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l7 i5^0 n_promoted_1^0 tmp^0 tmp___0^0)
 (l6 i5^post n_promoted_1^post tmp^post tmp___0^post)
@@ -126,4 +117,3 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-

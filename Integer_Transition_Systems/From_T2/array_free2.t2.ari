@@ -19,13 +19,11 @@
 (l5 i1^post)
 :guard
 (and (<= 42 (+ 0 i1^0)) (= i1^0 i1^post)))
-
 (rule
 (l4 i1^0)
 (l3 i1^post)
 :guard
 (and (<= (+ 1 i1^0) 42) (= i1^0 i1^post)))
-
 (rule (l1 i1^0) (l4 i1^post) :guard (= i1^0 i1^post))
 (rule (l6 i1^0) (l1 i1^post) :guard (= i1^post 0))
 (rule (l7 i1^0) (l6 i1^post) :guard (= i1^0 i1^post))

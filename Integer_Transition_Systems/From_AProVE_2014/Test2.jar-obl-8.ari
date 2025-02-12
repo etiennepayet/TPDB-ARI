@@ -13,7 +13,6 @@
 (and (and (> arg1 0) (> arg2 (- 1))) (= arg1 arg1P))
 (= arg2 arg2P))
 )
-
 (rule
 (|f1_0_main_Load'| arg1 arg2 arg3 arg4)
 (f384_0_iter_LT arg1P arg2P arg3P arg4P)
@@ -45,7 +44,6 @@
 (= (+ (+ arg2 (- arg2 (* 5 x18))) (- (* 3 arg2) (* 12 x19))) arg4P))
 )
 )
-
 (rule
 (f384_0_iter_LT arg1 arg2 arg3 arg4)
 (f384_0_iter_LT arg1P arg2P arg3P arg4P)
@@ -58,7 +56,6 @@
 (= arg3 arg3P))
 (= (+ (+ (- arg1 1) arg2) (* 3 arg3)) arg4P))
 )
-
 (rule
 (f384_0_iter_LT arg1 arg2 arg3 arg4)
 (f384_0_iter_LT arg1P arg2P arg3P arg4P)
@@ -73,7 +70,6 @@
 (= arg3 arg3P))
 (= (+ (+ (+ arg1 1) (- arg2 2)) (* 3 arg3)) arg4P))
 )
-
 (rule
 (f384_0_iter_LT arg1 arg2 arg3 arg4)
 (f384_0_iter_LT arg1P arg2P arg3P arg4P)
@@ -88,5 +84,4 @@
 (= (- arg3 1) arg3P))
 (= (+ (+ (+ arg1 1) (+ arg2 1)) (- (* 3 arg3) 3)) arg4P))
 )
-
 (rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))

@@ -15,22 +15,18 @@
 (= s^post (+ 1 s^0)))
 (= c^0 c^post))
 )
-
 (rule
 (l1 c^0 p^0 s^0)
 (l0 c^post p^post s^post)
 :guard
 (and (and (= c^0 c^post) (= p^0 p^post)) (= s^0 s^post)))
-
 (rule
 (l2 c^0 p^0 s^0)
 (l0 c^post p^post s^post)
 :guard
 (and (and (= s^post 1) (= p^post 1)) (= c^0 c^post)))
-
 (rule
 (l3 c^0 p^0 s^0)
 (l2 c^post p^post s^post)
 :guard
 (and (and (= c^0 c^post) (= p^0 p^post)) (= s^0 s^post)))
-

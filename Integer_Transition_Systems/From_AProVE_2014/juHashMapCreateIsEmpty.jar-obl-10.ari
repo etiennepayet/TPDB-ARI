@@ -4,35 +4,27 @@
 (fun
 f1_0_main_Load
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f2980_0_createMap_LE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f3045_0_isEmpty_NE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f3463_0_put_NULL
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f3541_0_put_EQ
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f3987_0_transfer_GE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4082_0_transfer_ArrayAccess
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f463_0_createMap_Return
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint __init)
 (rule
 (f1_0_main_Load
@@ -71,7 +63,6 @@ arg13P)
 (> arg1P 0))
 )
 )
-
 (rule
 (f463_0_createMap_Return
 arg1
@@ -116,7 +107,6 @@ arg13P)
 (= 12 arg6))
 (= arg4 arg2P))
 )
-
 (rule
 (f1_0_main_Load
 arg1
@@ -163,7 +153,6 @@ arg13P)
 (= 16 arg6P))
 (= 12 arg7P))
 )
-
 (rule
 (f2980_0_createMap_LE
 arg1
@@ -221,7 +210,6 @@ arg13P)
 (= (+ arg4 2) arg4P))
 )
 )
-
 (rule
 (f2980_0_createMap_LE
 arg1
@@ -289,7 +277,6 @@ arg13P)
 (= arg7 arg9P))
 )
 )
-
 (rule
 (f3463_0_put_NULL
 arg1
@@ -354,7 +341,6 @@ arg13P)
 (= arg9 arg7P))
 (= arg2 arg8P))
 )
-
 (rule
 (f3463_0_put_NULL
 arg1
@@ -419,7 +405,6 @@ arg13P)
 (= arg9 arg7P))
 (= arg2 arg8P))
 )
-
 (rule
 (f3463_0_put_NULL
 arg1
@@ -481,7 +466,6 @@ arg13P)
 (= arg9 arg9P))
 )
 )
-
 (rule
 (f3463_0_put_NULL
 arg1
@@ -543,7 +527,6 @@ arg13P)
 (= arg9 arg9P))
 )
 )
-
 (rule
 (f3463_0_put_NULL
 arg1
@@ -604,7 +587,6 @@ arg13P)
 (= arg8 arg8P))
 (= arg9 arg9P))
 )
-
 (rule
 (f3463_0_put_NULL
 arg1
@@ -665,7 +647,6 @@ arg13P)
 (= arg8 arg8P))
 (= arg9 arg9P))
 )
-
 (rule
 (f3541_0_put_EQ
 arg1
@@ -728,7 +709,6 @@ arg13P)
 (= arg6 arg8P))
 (= arg7 arg9P))
 )
-
 (rule
 (f3463_0_put_NULL
 arg1
@@ -799,7 +779,6 @@ arg13P)
 (= (* 2 arg8) arg7P))
 (= arg8 arg8P))
 )
-
 (rule
 (f3463_0_put_NULL
 arg1
@@ -868,7 +847,6 @@ arg13P)
 (= (* 2 arg8) arg7P))
 (= arg8 arg8P))
 )
-
 (rule
 (f3987_0_transfer_GE
 arg1
@@ -943,7 +921,6 @@ arg13P)
 (= arg8 arg10P))
 (= arg7 arg13P))
 )
-
 (rule
 (f4082_0_transfer_ArrayAccess
 arg1
@@ -1050,7 +1027,6 @@ arg13P)
 (= arg10 arg10P))
 (= arg13 arg13P))
 )
-
 (rule
 (f3987_0_transfer_GE
 arg1
@@ -1121,7 +1097,6 @@ arg13P)
 (= arg7 arg7P))
 (= arg8 arg8P))
 )
-
 (rule
 (f4082_0_transfer_ArrayAccess
 arg1
@@ -1208,7 +1183,6 @@ arg13P)
 (= arg13 arg7P))
 (= arg10 arg8P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11 arg12 arg13)
 (f1_0_main_Load
@@ -1226,4 +1200,3 @@ arg11P
 arg12P
 arg13P)
 )
-

@@ -15,7 +15,6 @@
 (and (and (and (<= arg1P arg1) (> arg2 0)) (> arg1 0)) (> arg1P 0))
 (= 0 arg2P))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f96_0_random_GT arg1P arg2P arg3P)
@@ -24,7 +23,6 @@
 (and (and (and (> arg2P (- 1)) (> arg2 0)) (<= arg1P arg1)) (> arg1 0))
 (> arg1P 0))
 )
-
 (rule
 (f96_0_random_GT arg1 arg2 arg3)
 (f154_0_main_InvokeMethod arg1P arg2P arg3P)
@@ -38,7 +36,6 @@
 (= 0 arg3P))
 )
 )
-
 (rule
 (f96_0_random_GT arg1 arg2 arg3)
 (f154_0_main_InvokeMethod arg1P arg2P arg3P)
@@ -52,7 +49,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f167_0_log_LT arg1P arg2P arg3P)
@@ -61,13 +57,11 @@
 (and (and (and (> arg1 0) (= 0 arg2)) (= 0 arg1P)) (= 0 arg2P))
 (= 0 arg3P))
 )
-
 (rule
 (f96_0_random_GT arg1 arg2 arg3)
 (f167_0_log_LT arg1P arg2P arg3P)
 :guard
 (and (and (and (> arg1 0) (= 0 arg1P)) (= arg2 arg2P)) (= 0 arg3P)))
-
 (rule
 (f154_0_main_InvokeMethod arg1 arg2 arg3)
 (f167_0_log_LT arg1P arg2P arg3P)
@@ -79,7 +73,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (f167_0_log_LT arg1 arg2 arg3)
 (|f167_0_log_LT'| arg1P arg2P arg3P)
@@ -97,7 +90,6 @@
 (= arg1 arg3P))
 )
 )
-
 (rule
 (|f167_0_log_LT'| arg1 arg2 arg3)
 (f167_0_log_LT arg1P arg2P arg3P)
@@ -114,5 +106,4 @@
 (= arg1 arg1P))
 (= arg1 arg3P))
 )
-
 (rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))

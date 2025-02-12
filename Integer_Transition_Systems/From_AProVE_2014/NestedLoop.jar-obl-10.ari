@@ -19,7 +19,6 @@
 (= (- arg2 1) arg3P))
 (= arg2 arg4P))
 )
-
 (rule
 (f254_0_main_GE arg1 arg2 arg3 arg4)
 (f254_0_main_GE arg1P arg2P arg3P arg4P)
@@ -38,7 +37,6 @@
 (= (- arg4 1) arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f254_0_main_GE arg1 arg2 arg3 arg4)
 (f494_0_main_GE arg1P arg2P arg3P arg4P)
@@ -55,7 +53,6 @@
 (= (- arg4 1) arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f494_0_main_GE arg1 arg2 arg3 arg4)
 (f510_0_main_GE arg1P arg2P arg3P arg4P)
@@ -72,7 +69,6 @@
 (= (+ arg2 1) arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f510_0_main_GE arg1 arg2 arg3 arg4)
 (f494_0_main_GE arg1P arg2P arg3P arg4P)
@@ -89,7 +85,6 @@
 (= (- arg4 1) arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f494_0_main_GE arg1 arg2 arg3 arg4)
 (f609_0_main_GE arg1P arg2P arg3P arg4P)
@@ -106,7 +101,6 @@
 (= (- arg4 1) arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f609_0_main_GE arg1 arg2 arg3 arg4)
 (f609_0_main_GE arg1P arg2P arg3P arg4P)
@@ -123,7 +117,6 @@
 (= (- arg4 1) arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f510_0_main_GE arg1 arg2 arg3 arg4)
 (f510_0_main_GE arg1P arg2P arg3P arg4P)
@@ -145,7 +138,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (f510_0_main_GE arg1 arg2 arg3 arg4)
 (f510_0_main_GE arg1P arg2P arg3P arg4P)
@@ -165,5 +157,4 @@
 (= arg4 arg4P))
 )
 )
-
 (rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))

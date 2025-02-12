@@ -37,7 +37,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1495_0_createList_LE
 (->
@@ -75,7 +74,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1521_0_pollLast_NE
 (->
@@ -113,7 +111,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1712_0_remove_FieldAccess
 (->
@@ -151,7 +148,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1722_0_remove_FieldAccess
 (->
@@ -189,7 +185,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1734_0_remove_FieldAccess
 (->
@@ -227,7 +222,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1740_0_remove_FieldAccess
 (->
@@ -265,7 +259,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1753_0_remove_FieldAccess
 (->
@@ -303,7 +296,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1755_0_remove_FieldAccess
 (->
@@ -341,7 +333,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1764_0_remove_FieldAccess
 (->
@@ -379,7 +370,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1767_0_remove_FieldAccess
 (->
@@ -417,7 +407,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1_0_main_Load
 (->
@@ -455,7 +444,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f316_0_createList_Load
 (->
@@ -493,7 +481,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f328_0_createList_Return
 (->
@@ -531,7 +518,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f821_0_createList_Load
 (->
@@ -569,7 +555,6 @@ Int
 Int
 Int)
 )
-
 (entrypoint __init)
 (rule
 (f1734_0_remove_FieldAccess
@@ -721,7 +706,6 @@ arg32P)
 (= arg8 arg8P))
 (= arg9 arg9P))
 )
-
 (rule
 (f1753_0_remove_FieldAccess
 arg1
@@ -876,7 +860,6 @@ arg32P)
 (= arg6 arg6P))
 (= arg7 arg7P))
 )
-
 (rule
 (f1755_0_remove_FieldAccess
 arg1
@@ -1037,7 +1020,6 @@ arg32P)
 (>= arg5 (+ arg32 4)))
 (>= arg5 (+ arg31 4)))
 )
-
 (rule
 (f316_0_createList_Load
 arg1
@@ -1138,7 +1120,6 @@ arg32P)
 (= arg6 arg20P))
 (= arg7 arg23P))
 )
-
 (rule
 (f1_0_main_Load
 arg1
@@ -1211,7 +1192,6 @@ arg32P)
 ((x137 Int))
 (and (and (and (> x137 (- 1)) (> arg2 0)) (> arg1 0)) (> arg1P 6)))
 )
-
 (rule
 (f328_0_createList_Return
 arg1
@@ -1296,7 +1276,6 @@ arg32P)
 (= arg4 arg4P))
 (= arg7 arg7P))
 )
-
 (rule
 (f1521_0_pollLast_NE
 arg1
@@ -1402,7 +1381,6 @@ arg32P)
 (= arg7 arg6P))
 )
 )
-
 (rule
 (f1521_0_pollLast_NE
 arg1
@@ -1510,7 +1488,6 @@ arg32P)
 (= arg7 arg6P))
 )
 )
-
 (rule
 (f1521_0_pollLast_NE
 arg1
@@ -1616,7 +1593,6 @@ arg32P)
 (= arg7 arg6P))
 )
 )
-
 (rule
 (f1521_0_pollLast_NE
 arg1
@@ -1718,7 +1694,6 @@ arg32P)
 (<= (+ arg6 7) arg1))
 )
 )
-
 (rule
 (f1722_0_remove_FieldAccess
 arg1
@@ -1855,7 +1830,6 @@ arg32P)
 (= arg7 arg26P))
 (= arg8 arg27P))
 )
-
 (rule
 (f1712_0_remove_FieldAccess
 arg1
@@ -1988,7 +1962,6 @@ arg32P)
 (= arg7 arg17P))
 (= arg8 arg21P))
 )
-
 (rule
 (f1712_0_remove_FieldAccess
 arg1
@@ -2121,7 +2094,6 @@ arg32P)
 (= arg7 arg17P))
 (= arg8 arg18P))
 )
-
 (rule
 (f1_0_main_Load
 arg1
@@ -2202,7 +2174,6 @@ arg32P)
 (= 0 arg6P))
 (= 0 arg7P))
 )
-
 (rule
 (f821_0_createList_Load
 arg1
@@ -2319,7 +2290,6 @@ arg32P)
 (= arg20 arg21P))
 (= arg23 arg25P))
 )
-
 (rule
 (f1495_0_createList_LE
 arg1
@@ -2463,7 +2433,6 @@ arg32P)
 (= (+ arg25 1) arg25P))
 )
 )
-
 (rule
 (f1495_0_createList_LE
 arg1
@@ -2605,7 +2574,6 @@ arg32P)
 (= (+ arg25 1) arg25P))
 )
 )
-
 (rule
 (__init
 arg1
@@ -2674,4 +2642,3 @@ arg30P
 arg31P
 arg32P)
 )
-

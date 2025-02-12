@@ -28,7 +28,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f1_0_main_Load
 (->
@@ -57,7 +56,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f320_0_createList_Load
 (->
@@ -86,7 +84,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f332_0_createList_Return
 (->
@@ -115,7 +112,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f532_0_createList_Load
 (->
@@ -144,7 +140,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f913_0_createList_LE
 (->
@@ -173,7 +168,6 @@ Int
 Int
 Int)
 )
-
 (fun
 f951_0_isEmpty_NE
 (->
@@ -202,7 +196,6 @@ Int
 Int
 Int)
 )
-
 (entrypoint __init)
 (rule
 (f320_0_createList_Load
@@ -288,7 +281,6 @@ arg23P)
 (= arg6 arg20P))
 (= arg7 arg21P))
 )
-
 (rule
 (f1_0_main_Load
 arg1
@@ -346,7 +338,6 @@ arg23P)
 (> arg1P 0))
 )
 )
-
 (rule
 (f332_0_createList_Return
 arg1
@@ -413,7 +404,6 @@ arg23P)
 (<= (+ arg8 7) arg2))
 (= arg6 arg2P))
 )
-
 (rule
 (f1_0_main_Load
 arg1
@@ -476,7 +466,6 @@ arg23P)
 (= 0 arg6P))
 (= 0 arg7P))
 )
-
 (rule
 (f532_0_createList_Load
 arg1
@@ -571,7 +560,6 @@ arg23P)
 (= arg20 arg21P))
 (= arg21 arg23P))
 )
-
 (rule
 (f913_0_createList_LE
 arg1
@@ -693,7 +681,6 @@ arg23P)
 (= (+ arg23 1) arg23P))
 )
 )
-
 (rule
 (f913_0_createList_LE
 arg1
@@ -813,7 +800,6 @@ arg23P)
 (= (+ arg23 1) arg23P))
 )
 )
-
 (rule
 (__init
 arg1
@@ -864,4 +850,3 @@ arg21P
 arg22P
 arg23P)
 )
-

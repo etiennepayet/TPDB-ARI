@@ -9,7 +9,6 @@
 (f30_0_loop_JMP arg1P arg2P)
 :guard
 (and (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)) (= arg2 arg2P)))
-
 (rule
 (f1_0_main_Load arg1 arg2)
 (f30_0_loop_JMP arg1P arg2P)
@@ -18,5 +17,4 @@
 (and (and (and (<= arg1P arg1) (> arg2 (- 1))) (> arg1 0)) (> arg1P 0))
 (= arg2 arg2P))
 )
-
 (rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2P))

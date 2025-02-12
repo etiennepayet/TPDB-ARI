@@ -12,7 +12,6 @@
 (and (and (and (> arg1 0) (> arg2 (- 1))) (= 0 arg1P)) (= 0 arg2P))
 (= arg2 arg3P))
 )
-
 (rule
 (f91_0_upAndDown_GT arg1 arg2 arg3)
 (f91_0_upAndDown_GT arg1P arg2P arg3P)
@@ -27,7 +26,6 @@
 (= 0 arg2P))
 (= (- arg3 1) arg3P))
 )
-
 (rule
 (f91_0_upAndDown_GT arg1 arg2 arg3)
 (f91_0_upAndDown_GT arg1P arg2P arg3P)
@@ -36,7 +34,6 @@
 (and (and (and (< arg1 2) (= 10 arg3)) (= 0 arg1P)) (= 0 arg2P))
 (= 9 arg3P))
 )
-
 (rule
 (f91_0_upAndDown_GT arg1 arg2 arg3)
 (f91_0_upAndDown_GT arg1P arg2P arg3P)
@@ -51,7 +48,6 @@
 (= 1 arg2P))
 (= (+ arg3 1) arg3P))
 )
-
 (rule
 (f91_0_upAndDown_GT arg1 arg2 arg3)
 (f91_0_upAndDown_GT arg1P arg2P arg3P)
@@ -60,5 +56,4 @@
 (and (and (and (< arg1 2) (= 0 arg3)) (= 1 arg1P)) (= 1 arg2P))
 (= 1 arg3P))
 )
-
 (rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))

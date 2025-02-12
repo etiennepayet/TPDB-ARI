@@ -31,7 +31,6 @@ y^post)
 (= __const_3000^0 __const_3000^post))
 (= y^0 y^post))
 )
-
 (rule
 (l1 __const_1000^0 __const_110^0 __const_2000^0 __const_3000^0 x^0 y^0)
 (l0
@@ -52,7 +51,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l2 __const_1000^0 __const_110^0 __const_2000^0 __const_3000^0 x^0 y^0)
 (l0
@@ -73,7 +71,6 @@ y^post)
 (= __const_3000^0 __const_3000^post))
 (= x^0 x^post))
 )
-
 (rule
 (l3 __const_1000^0 __const_110^0 __const_2000^0 __const_3000^0 x^0 y^0)
 (l2
@@ -94,4 +91,3 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-

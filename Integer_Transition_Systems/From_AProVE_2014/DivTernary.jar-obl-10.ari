@@ -33,7 +33,6 @@
 (= arg2 arg3P))
 )
 )
-
 (rule
 (f1_0_main_New arg1 arg2 arg3 arg4 arg5)
 (f155_0_main_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -48,7 +47,6 @@
 (> arg2P 0))
 (= arg2 arg3P))
 )
-
 (rule
 (f155_0_main_ArrayAccess arg1 arg2 arg3 arg4 arg5)
 (f204_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -75,7 +73,6 @@
 (>= arg1 (+ arg5P 2)))
 (= arg3 arg4P))
 )
-
 (rule
 (f155_0_main_ArrayAccess arg1 arg2 arg3 arg4 arg5)
 (f204_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -103,25 +100,21 @@
 (= arg3 arg4P))
 )
 )
-
 (rule
 (f1_0_main_New arg1 arg2 arg3 arg4 arg5)
 (f69_0__init__GT arg1P arg2P arg3P arg4P arg5P)
 :guard
 (and (and (> arg1P (- 1)) (> arg2 0)) (> arg1 0)))
-
 (rule
 (f155_0_main_ArrayAccess arg1 arg2 arg3 arg4 arg5)
 (f69_0__init__GT arg1P arg2P arg3P arg4P arg5P)
 :guard
 (and (and (and (> arg1P (- 1)) (> arg3 1)) (> arg1 0)) (> arg2 0)))
-
 (rule
 (f69_0__init__GT arg1 arg2 arg3 arg4 arg5)
 (f69_0__init__GT arg1P arg2P arg3P arg4P arg5P)
 :guard
 (and (and (> arg1 0) (< (- arg1 1) arg1)) (= (- arg1 1) arg1P)))
-
 (rule
 (f204_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -148,7 +141,6 @@
 (> arg4P (- 1)))
 (<= (+ arg5 2) arg2))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -197,7 +189,6 @@
 (> arg3P 1))
 (> arg4P (- 1)))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -240,7 +231,6 @@
 (> arg3P 2))
 (> arg4P 0))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f1011_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -249,7 +239,6 @@
 (and (and (and (> arg1 0) (> arg2 1)) (> arg3 2)) (> arg4 0))
 (> arg1P 4))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f1011_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -270,7 +259,6 @@
 (> arg4 0))
 (> arg1P 3))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f1014_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -291,7 +279,6 @@
 (<= (+ arg3P 3) arg3))
 (<= (+ arg3P 1) arg4))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f1014_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -322,7 +309,6 @@
 (<= (+ arg3P 3) arg3))
 (<= (+ arg3P 1) arg4))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f1016_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -343,7 +329,6 @@
 (<= (+ arg3P 3) arg3))
 (<= (+ arg3P 1) arg4))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f1016_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -374,7 +359,6 @@
 (<= (+ arg3P 3) arg3))
 (<= (+ arg3P 1) arg4))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f1017_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -395,7 +379,6 @@
 (>= arg3 (+ arg3P 3)))
 (>= arg4 (+ arg3P 1)))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f1017_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -426,7 +409,6 @@
 (<= (+ arg3P 3) arg3))
 (<= (+ arg3P 1) arg4))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f1022_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -451,7 +433,6 @@
 (<= (+ arg4P 3) arg3))
 (<= (+ arg4P 1) arg4))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f1022_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -484,7 +465,6 @@
 (<= (+ arg4P 3) arg3))
 (<= (+ arg4P 1) arg4))
 )
-
 (rule
 (f1011_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -503,7 +483,6 @@
 (> arg3P 2))
 (> arg4P 0))
 )
-
 (rule
 (f1017_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -528,7 +507,6 @@
 (> arg4P 0))
 (<= (+ arg3 3) arg2))
 )
-
 (rule
 (f1016_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f1211_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -547,7 +525,6 @@
 (<= (+ arg3P 4) arg1))
 (<= (+ arg3 3) arg2))
 )
-
 (rule
 (f1016_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f1211_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -560,7 +537,6 @@
 (<= (+ arg3P 4) arg1))
 (<= (+ arg3 3) arg2))
 )
-
 (rule
 (f1016_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -589,7 +565,6 @@
 (> arg4P (- 1)))
 (<= (+ arg3 3) arg2))
 )
-
 (rule
 (f1022_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -618,7 +593,6 @@
 (> arg4P 0))
 (<= (+ arg4 3) arg1))
 )
-
 (rule
 (f1014_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f1213_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -637,7 +611,6 @@
 (<= (+ arg3P 4) arg1))
 (<= (+ arg3 3) arg2))
 )
-
 (rule
 (f1014_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f1213_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -650,7 +623,6 @@
 (<= (+ arg3P 4) arg1))
 (<= (+ arg3 3) arg2))
 )
-
 (rule
 (f1014_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -679,7 +651,6 @@
 (> arg4P (- 1)))
 (<= (+ arg3 3) arg2))
 )
-
 (rule
 (f1014_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f1225_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -704,7 +675,6 @@
 (<= (+ arg3 3) arg2))
 (= arg3 arg5P))
 )
-
 (rule
 (f1014_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f1225_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -723,7 +693,6 @@
 (<= (+ arg3 3) arg2))
 (= arg3 arg5P))
 )
-
 (rule
 (f1022_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f1227_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -752,7 +721,6 @@
 (<= (+ arg4P 4) arg2))
 (= arg4 arg5P))
 )
-
 (rule
 (f1022_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f1227_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -773,7 +741,6 @@
 (<= (+ arg4P 4) arg2))
 (= arg4 arg5P))
 )
-
 (rule
 (f1211_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -798,7 +765,6 @@
 (> arg4P 0))
 (<= (+ arg3 4) arg1))
 )
-
 (rule
 (f1213_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -823,7 +789,6 @@
 (> arg4P 0))
 (<= (+ arg3 4) arg1))
 )
-
 (rule
 (f1227_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -850,7 +815,6 @@
 (<= (+ arg4 4) arg1))
 (<= (+ arg5 3) arg3))
 )
-
 (rule
 (f1225_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f1284_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -881,7 +845,6 @@
 (<= (+ arg5 3) arg3))
 (= arg4 arg4P))
 )
-
 (rule
 (f1225_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f1284_0_div_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -904,7 +867,6 @@
 (<= (+ arg5 3) arg3))
 (= arg4 arg4P))
 )
-
 (rule
 (f1225_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -939,7 +901,6 @@
 (<= (+ arg4 4) arg1))
 (<= (+ arg5 3) arg3))
 )
-
 (rule
 (f1284_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f366_0_isZero_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -966,7 +927,6 @@
 (<= (+ arg4 4) arg1))
 (<= (+ arg5 4) arg2))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f557_0_copy_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -983,7 +943,6 @@
 (> arg1P 0))
 (> arg2P (- 1)))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f557_0_copy_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -1000,7 +959,6 @@
 (> arg1P 0))
 (> arg2P (- 1)))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f557_0_copy_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -1021,7 +979,6 @@
 (> arg1P 2))
 (> arg2P 0))
 )
-
 (rule
 (f366_0_isZero_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f557_0_copy_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -1038,7 +995,6 @@
 (> arg1P 0))
 (> arg2P (- 1)))
 )
-
 (rule
 (f1014_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f557_0_copy_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -1053,7 +1009,6 @@
 (> arg2P 0))
 (<= (+ arg3 3) arg2))
 )
-
 (rule
 (f1016_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f557_0_copy_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -1068,7 +1023,6 @@
 (> arg2P 0))
 (<= (+ arg3 3) arg2))
 )
-
 (rule
 (f1022_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f557_0_copy_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -1085,7 +1039,6 @@
 (> arg2P (- 1)))
 (<= (+ arg4 3) arg1))
 )
-
 (rule
 (f1225_0_div_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f557_0_copy_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -1104,7 +1057,6 @@
 (<= (+ arg4 4) arg1))
 (<= (+ arg5 3) arg3))
 )
-
 (rule
 (f557_0_copy_NONNULL arg1 arg2 arg3 arg4 arg5)
 (f557_0_copy_NONNULL arg1P arg2P arg3P arg4P arg5P)
@@ -1121,8 +1073,6 @@
 (> arg1P 0))
 (> arg2P (- 1)))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
 (f1_0_main_New arg1P arg2P arg3P arg4P arg5P))
-

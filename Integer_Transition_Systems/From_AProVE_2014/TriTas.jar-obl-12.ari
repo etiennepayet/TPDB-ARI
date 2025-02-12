@@ -25,7 +25,6 @@
 (= 0 arg2P))
 (= 0 arg3P))
 )
-
 (rule
 (f229_0_main_GE arg1 arg2 arg3 arg4 arg5)
 (f357_0_main_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -39,7 +38,6 @@
 (= arg3 arg2P))
 )
 )
-
 (rule
 (f229_0_main_GE arg1 arg2 arg3 arg4 arg5)
 (f357_0_main_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -57,7 +55,6 @@
 (= (+ arg3 1) arg2P))
 )
 )
-
 (rule
 (f357_0_main_ArrayAccess arg1 arg2 arg3 arg4 arg5)
 (f229_0_main_GE arg1P arg2P arg3P arg4P arg5P)
@@ -69,7 +66,6 @@
 (= arg2 arg3P))
 )
 )
-
 (rule
 (f229_0_main_GE arg1 arg2 arg3 arg4 arg5)
 (f763_0_HeapSort_GE arg1P arg2P arg3P arg4P arg5P)
@@ -81,7 +77,6 @@
 (= 0 arg2P))
 )
 )
-
 (rule
 (f763_0_HeapSort_GE arg1 arg2 arg3 arg4 arg5)
 (f809_0_HeapSort_LT arg1P arg2P arg3P arg4P arg5P)
@@ -90,7 +85,6 @@
 ((x20 Int))
 (and (and (>= arg1 x20) (= (- x20 1) arg1P)) (= arg2 arg2P)))
 )
-
 (rule
 (f763_0_HeapSort_GE arg1 arg2 arg3 arg4 arg5)
 (f763_0_HeapSort_GE arg1P arg2P arg3P arg4P arg5P)
@@ -99,13 +93,11 @@
 ((x24 Int))
 (and (and (< arg1 x24) (> x24 0)) (= (+ arg1 1) arg1P)))
 )
-
 (rule
 (f1288_0_Supprimer_Return arg1 arg2 arg3 arg4 arg5)
 (f1437_0_HeapSort_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
 :guard
 (and (and (> arg1P 0) (= arg1 arg2P)) (= arg2 arg3P)))
-
 (rule
 (f809_0_HeapSort_LT arg1 arg2 arg3 arg4 arg5)
 (f1437_0_HeapSort_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -114,7 +106,6 @@
 ((x33 Int))
 (and (and (and (> arg1 (- 1)) (> arg1P 0)) (> x33 0)) (= arg1 arg2P)))
 )
-
 (rule
 (f1437_0_HeapSort_ArrayAccess arg1 arg2 arg3 arg4 arg5)
 (f809_0_HeapSort_LT arg1P arg2P arg3P arg4P arg5P)
@@ -126,13 +117,11 @@
 (= arg3 arg2P))
 )
 )
-
 (rule
 (f763_0_HeapSort_GE arg1 arg2 arg3 arg4 arg5)
 (f1154_0_Ajouter_LE arg1P arg2P arg3P arg4P arg5P)
 :guard
 (exists ((x42 Int)) (and (and (< arg1 x42) (> x42 0)) (= arg2 arg2P))))
-
 (rule
 (f1154_0_Ajouter_LE arg1 arg2 arg3 arg4 arg5)
 (|f1154_0_Ajouter_LE'| arg1P arg2P arg3P arg4P arg5P)
@@ -158,7 +147,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (|f1154_0_Ajouter_LE'| arg1 arg2 arg3 arg4 arg5)
 (f1154_0_Ajouter_LE arg1P arg2P arg3P arg4P arg5P)
@@ -194,7 +182,6 @@
 (= arg1 arg1P))
 )
 )
-
 (rule
 (f1154_0_Ajouter_LE arg1 arg2 arg3 arg4 arg5)
 (|f1154_0_Ajouter_LE'| arg1P arg2P arg3P arg4P arg5P)
@@ -210,7 +197,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (|f1154_0_Ajouter_LE'| arg1 arg2 arg3 arg4 arg5)
 (f1441_0_Ajouter_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -232,7 +218,6 @@
 (= arg1 arg3P))
 )
 )
-
 (rule
 (f1154_0_Ajouter_LE arg1 arg2 arg3 arg4 arg5)
 (|f1154_0_Ajouter_LE'| arg1P arg2P arg3P arg4P arg5P)
@@ -260,7 +245,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (|f1154_0_Ajouter_LE'| arg1 arg2 arg3 arg4 arg5)
 (f1441_0_Ajouter_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -300,7 +284,6 @@
 (= arg1 arg3P))
 )
 )
-
 (rule
 (f809_0_HeapSort_LT arg1 arg2 arg3 arg4 arg5)
 (f1783_0_Supprimer_GE arg1P arg2P arg3P arg4P arg5P)
@@ -314,7 +297,6 @@
 (= 1 arg3P))
 )
 )
-
 (rule
 (f1783_0_Supprimer_GE arg1 arg2 arg3 arg4 arg5)
 (f1792_0_Supprimer_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -323,7 +305,6 @@
 ((x79 Int))
 (and (and (and (>= arg3 x79) (> arg1P 0)) (= arg1 arg2P)) (= arg2 arg3P)))
 )
-
 (rule
 (f1783_0_Supprimer_GE arg1 arg2 arg3 arg4 arg5)
 (f1821_0_Supprimer_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -338,7 +319,6 @@
 (= arg2 arg2P))
 (= (+ (* 2 arg1) 1) arg4P))
 )
-
 (rule
 (f1821_0_Supprimer_ArrayAccess arg1 arg2 arg3 arg4 arg5)
 (f1792_0_Supprimer_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -354,7 +334,6 @@
 (= arg2 arg3P))
 )
 )
-
 (rule
 (f1783_0_Supprimer_GE arg1 arg2 arg3 arg4 arg5)
 (f1821_0_Supprimer_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -378,7 +357,6 @@
 (= (+ (* 2 arg1) 1) arg4P))
 )
 )
-
 (rule
 (f1783_0_Supprimer_GE arg1 arg2 arg3 arg4 arg5)
 (f1821_0_Supprimer_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -402,7 +380,6 @@
 (= (+ (* 2 arg1) 2) arg4P))
 )
 )
-
 (rule
 (f1821_0_Supprimer_ArrayAccess arg1 arg2 arg3 arg4 arg5)
 (f1783_0_Supprimer_GE arg1P arg2P arg3P arg4P arg5P)
@@ -422,8 +399,6 @@
 (= (+ (* 2 arg4) 1) arg3P))
 )
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P))
-

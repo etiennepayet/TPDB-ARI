@@ -53,7 +53,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l1
 (->
@@ -107,7 +106,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l2
 (->
@@ -161,7 +159,6 @@ Int
 Int
 Int)
 )
-
 (entrypoint l2)
 (rule
 (l0
@@ -357,7 +354,6 @@ tmp___6^post)
 (= tmp___6^post (+ 0 ret_fn148^post)))
 (= i8^post (+ 0 tmp___6^post)))
 )
-
 (rule
 (l2
 i1^0
@@ -550,4 +546,3 @@ tmp___6^post)
 (= tmp___5^0 tmp___5^post))
 (= tmp___6^0 tmp___6^post))
 )
-

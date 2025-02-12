@@ -16,7 +16,6 @@
 (and (and (<= (+ 1 x^0) (+ 0 ox^0)) (= c^0 c^post)) (= ox^0 ox^post))
 (= x^0 x^post))
 )
-
 (rule
 (l0 c^0 ox^0 x^0)
 (l2 c^post ox^post x^post)
@@ -25,7 +24,6 @@
 (and (and (<= (+ 0 ox^0) (+ 0 x^0)) (= c^0 c^post)) (= ox^0 ox^post))
 (= x^0 x^post))
 )
-
 (rule
 (l3 c^0 ox^0 x^0)
 (l1 c^post ox^post x^post)
@@ -34,13 +32,11 @@
 (and (and (<= (+ 0 c^0) 0) (= c^0 c^post)) (= ox^0 ox^post))
 (= x^0 x^post))
 )
-
 (rule
 (l3 c^0 ox^0 x^0)
 (l1 c^post ox^post x^post)
 :guard
 (and (and (= ox^post (+ 0 x^0)) (= c^post 1)) (= x^0 x^post)))
-
 (rule
 (l4 c^0 ox^0 x^0)
 (l3 c^post ox^post x^post)
@@ -49,7 +45,6 @@
 (and (and (<= (+ 0 c^0) 0) (= c^0 c^post)) (= ox^0 ox^post))
 (= x^0 x^post))
 )
-
 (rule
 (l4 c^0 ox^0 x^0)
 (l0 c^post ox^post x^post)
@@ -58,7 +53,6 @@
 (and (and (<= 1 (+ 0 c^0)) (= c^0 c^post)) (= ox^0 ox^post))
 (= x^0 x^post))
 )
-
 (rule
 (l1 c^0 ox^0 x^0)
 (l4 c^post ox^post x^post)
@@ -67,7 +61,6 @@
 (and (and (<= 1 (+ 0 x^0)) (= x^post (+ -1 x^0))) (= c^0 c^post))
 (= ox^0 ox^post))
 )
-
 (rule
 (l5 c^0 ox^0 x^0)
 (l1 c^post ox^post x^post)
@@ -76,10 +69,8 @@
 (and (and (<= (+ 0 c^0) 0) (= c^0 c^post)) (= ox^0 ox^post))
 (= x^0 x^post))
 )
-
 (rule
 (l6 c^0 ox^0 x^0)
 (l5 c^post ox^post x^post)
 :guard
 (and (and (= c^0 c^post) (= ox^0 ox^post)) (= x^0 x^post)))
-

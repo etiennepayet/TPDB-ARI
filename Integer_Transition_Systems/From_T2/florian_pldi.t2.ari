@@ -23,7 +23,6 @@
 (= j^0 j^post))
 (= n^0 n^post))
 )
-
 (rule
 (l0 guard^0 i^0 j^0 n^0)
 (l2 guard^post i^post j^post n^post)
@@ -36,7 +35,6 @@
 (= j^0 j^post))
 (= n^0 n^post))
 )
-
 (rule
 (l3 guard^0 i^0 j^0 n^0)
 (l4 guard^post i^post j^post n^post)
@@ -49,7 +47,6 @@
 (= j^0 j^post))
 (= n^0 n^post))
 )
-
 (rule
 (l3 guard^0 i^0 j^0 n^0)
 (l5 guard^post i^post j^post n^post)
@@ -62,7 +59,6 @@
 (= i^0 i^post))
 (= n^0 n^post))
 )
-
 (rule
 (l1 guard^0 i^0 j^0 n^0)
 (l3 guard^post i^post j^post n^post)
@@ -71,7 +67,6 @@
 (and (and (= guard^0 guard^post) (= i^0 i^post)) (= j^0 j^post))
 (= n^0 n^post))
 )
-
 (rule
 (l5 guard^0 i^0 j^0 n^0)
 (l0 guard^post i^post j^post n^post)
@@ -80,7 +75,6 @@
 (and (and (= guard^0 guard^post) (= i^0 i^post)) (= j^0 j^post))
 (= n^0 n^post))
 )
-
 (rule
 (l6 guard^0 i^0 j^0 n^0)
 (l5 guard^post i^post j^post n^post)
@@ -89,7 +83,6 @@
 (and (and (= j^post (+ 1 j^0)) (= guard^0 guard^post)) (= i^0 i^post))
 (= n^0 n^post))
 )
-
 (rule
 (l7 guard^0 i^0 j^0 n^0)
 (l6 guard^post i^post j^post n^post)
@@ -100,7 +93,6 @@
 (= guard^0 guard^post))
 (= i^0 i^post))
 )
-
 (rule
 (l2 guard^0 i^0 j^0 n^0)
 (l6 guard^post i^post j^post n^post)
@@ -115,7 +107,6 @@
 (= j^0 j^post))
 (= n^0 n^post))
 )
-
 (rule
 (l2 guard^0 i^0 j^0 n^0)
 (l7 guard^post i^post j^post n^post)
@@ -126,7 +117,6 @@
 (= j^0 j^post))
 (= n^0 n^post))
 )
-
 (rule
 (l2 guard^0 i^0 j^0 n^0)
 (l7 guard^post i^post j^post n^post)
@@ -137,7 +127,6 @@
 (= j^0 j^post))
 (= n^0 n^post))
 )
-
 (rule
 (l8 guard^0 i^0 j^0 n^0)
 (l1 guard^post i^post j^post n^post)
@@ -146,7 +135,6 @@
 (and (and (= i^post 0) (= guard^0 guard^post)) (= j^0 j^post))
 (= n^0 n^post))
 )
-
 (rule
 (l9 guard^0 i^0 j^0 n^0)
 (l8 guard^post i^post j^post n^post)
@@ -155,4 +143,3 @@
 (and (and (= guard^0 guard^post) (= i^0 i^post)) (= j^0 j^post))
 (= n^0 n^post))
 )
-

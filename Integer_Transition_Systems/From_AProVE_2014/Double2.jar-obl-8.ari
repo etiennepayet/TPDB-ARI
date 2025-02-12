@@ -9,11 +9,9 @@
 (f80_0_test_LT arg1P)
 :guard
 (= 9 arg1P))
-
 (rule
 (f80_0_test_LT arg1)
 (f80_0_test_LT arg1P)
 :guard
 (and (> arg1 (- 1)) (= (- arg1 1) arg1P)))
-
 (rule (__init arg1) (f1_0_main_ConstantStackPush arg1P))

@@ -11,28 +11,23 @@
 (l1 i^post j^post tmp^post)
 :guard
 (and (and (= i^0 i^post) (= j^0 j^post)) (= tmp^0 tmp^post)))
-
 (rule
 (l0 i^0 j^0 tmp^0)
 (l1 i^post j^post tmp^post)
 :guard
 (and (and (= i^0 i^post) (= j^0 j^post)) (= tmp^0 tmp^post)))
-
 (rule
 (l1 i^0 j^0 tmp^0)
 (l2 i^post j^post tmp^post)
 :guard
 (and (and (= i^0 i^post) (= j^0 j^post)) (= tmp^0 tmp^post)))
-
 (rule
 (l3 i^0 j^0 tmp^0)
 (l0 i^post j^post tmp^post)
 :guard
 (and (and (= i^post 0) (= j^post 1)) (= tmp^post tmp^post)))
-
 (rule
 (l4 i^0 j^0 tmp^0)
 (l3 i^post j^post tmp^post)
 :guard
 (and (and (= i^0 i^post) (= j^0 j^post)) (= tmp^0 tmp^post)))
-

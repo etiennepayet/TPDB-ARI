@@ -61,7 +61,6 @@ x_5^post)
 (= x_5^0 x_5^post))
 )
 )
-
 (rule
 (l0
 Result_4^0
@@ -123,7 +122,6 @@ x_5^post)
 (= x_5^0 x_5^post))
 )
 )
-
 (rule
 (l2
 Result_4^0
@@ -170,7 +168,6 @@ x_5^post)
 (= q_7^0 q_7^post))
 (= x_5^0 x_5^post))
 )
-
 (rule
 (l3
 Result_4^0
@@ -217,7 +214,6 @@ x_5^post)
 (= lt_8^0 lt_8^post))
 (= lt_9^0 lt_9^post))
 )
-
 (rule
 (l4
 Result_4^0
@@ -264,4 +260,3 @@ x_5^post)
 (= q_7^0 q_7^post))
 (= x_5^0 x_5^post))
 )
-

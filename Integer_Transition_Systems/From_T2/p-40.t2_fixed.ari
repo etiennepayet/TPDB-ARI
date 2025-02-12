@@ -26,7 +26,6 @@
 (= st_14^0 st_14^post))
 )
 )
-
 (rule
 (l2 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
 (l3 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
@@ -43,7 +42,6 @@
 (= s_17^0 s_17^post))
 (= st_14^0 st_14^post))
 )
-
 (rule
 (l2 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
 (l4 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
@@ -60,7 +58,6 @@
 (= s_17^0 s_17^post))
 (= st_14^0 st_14^post))
 )
-
 (rule
 (l4 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
 (l2 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
@@ -75,7 +72,6 @@
 (= s_17^0 s_17^post))
 (= st_14^0 st_14^post))
 )
-
 (rule
 (l1 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
 (l3 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
@@ -92,7 +88,6 @@
 (= s_17^0 s_17^post))
 (= st_14^0 st_14^post))
 )
-
 (rule
 (l1 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
 (l2 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
@@ -109,7 +104,6 @@
 (= s_17^0 s_17^post))
 (= st_14^0 st_14^post))
 )
-
 (rule
 (l5 i_13^0 j_15^0 rt_11^0 s_16^0 s_17^0 st_14^0)
 (l0 i_13^post j_15^post rt_11^post s_16^post s_17^post st_14^post)
@@ -124,4 +118,3 @@
 (= s_17^0 s_17^post))
 (= st_14^0 st_14^post))
 )
-

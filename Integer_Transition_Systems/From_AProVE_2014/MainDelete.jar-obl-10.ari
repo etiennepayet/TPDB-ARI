@@ -4,48 +4,37 @@
 (fun
 f1099_0_getFirst_NONNULL
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f121_0_createList_Return
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f1224_0_find_InvokeMethod
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f1232_0_createList_GE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f1370_0_findR_NE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f1541_0_createList_NULL
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f1543_0_delete_NULL
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f1583_0_delete_FieldAccess
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f1618_0_delete_FieldAccess
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun f1_0_main_Load (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
 (fun
 f971_0_random_GT
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f988_0_main_InvokeMethod
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11 arg12)
@@ -67,7 +56,6 @@ arg12P)
 (and (and (and (<= arg1P arg1) (> arg2 (- 1))) (> arg1 0)) (> arg1P 0))
 (> arg2P (- 1)))
 )
-
 (rule
 (f121_0_createList_Return
 arg1
@@ -107,7 +95,6 @@ arg12P)
 (> arg2P (- 1)))
 )
 )
-
 (rule
 (f971_0_random_GT
 arg1
@@ -151,7 +138,6 @@ arg12P)
 (> arg2P (- 1)))
 )
 )
-
 (rule
 (f971_0_random_GT
 arg1
@@ -199,7 +185,6 @@ arg12P)
 (= (+ x17 1) arg3P))
 )
 )
-
 (rule
 (f988_0_main_InvokeMethod
 arg1
@@ -241,7 +226,6 @@ arg12P)
 (> arg2P 1))
 )
 )
-
 (rule
 (f1224_0_find_InvokeMethod
 arg1
@@ -274,7 +258,6 @@ arg12P)
 (and (and (and (> arg1 0) (> arg2 1)) (> arg1P 1)) (<= (+ arg4 2) arg2))
 (<= (+ arg3 2) arg2))
 )
-
 (rule
 (f971_0_random_GT
 arg1
@@ -320,7 +303,6 @@ arg12P)
 (= (+ x38 1) arg3P))
 )
 )
-
 (rule
 (f1224_0_find_InvokeMethod
 arg1
@@ -359,7 +341,6 @@ arg12P)
 (<= (+ arg4 2) arg2))
 (<= (+ arg3 2) arg2))
 )
-
 (rule
 (f971_0_random_GT
 arg1
@@ -409,7 +390,6 @@ arg12P)
 (= (+ x51 1) arg3P))
 )
 )
-
 (rule
 (f1224_0_find_InvokeMethod
 arg1
@@ -444,7 +424,6 @@ arg12P)
 (<= (+ arg4 2) arg2))
 (<= (+ arg3 2) arg2))
 )
-
 (rule
 (f971_0_random_GT
 arg1
@@ -490,7 +469,6 @@ arg12P)
 (= (+ x64 1) arg3P))
 )
 )
-
 (rule
 (f1543_0_delete_NULL
 arg1
@@ -539,7 +517,6 @@ arg12P)
 (<= (+ arg8P 2) arg1))
 (= arg3 arg5P))
 )
-
 (rule
 (f1583_0_delete_FieldAccess
 arg1
@@ -598,7 +575,6 @@ arg12P)
 (<= (+ arg12 2) arg3))
 (<= (+ arg11 2) arg3))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11 arg12)
 (f1232_0_createList_GE
@@ -627,7 +603,6 @@ arg12P)
 (= 0 arg4P))
 (= 0 arg5P))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11 arg12)
 (f1232_0_createList_GE
@@ -656,7 +631,6 @@ arg12P)
 (= arg2 arg4P))
 (= 1 arg5P))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11 arg12)
 (f1232_0_createList_GE
@@ -685,7 +659,6 @@ arg12P)
 (= arg2 arg4P))
 (= 1 arg5P))
 )
-
 (rule
 (f1232_0_createList_GE
 arg1
@@ -730,7 +703,6 @@ arg12P)
 (= arg4 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f1232_0_createList_GE
 arg1
@@ -771,7 +743,6 @@ arg12P)
 (= arg4 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f1232_0_createList_GE
 arg1
@@ -822,7 +793,6 @@ arg12P)
 (= (+ arg5 1) arg6P))
 (= 0 arg7P))
 )
-
 (rule
 (f1232_0_createList_GE
 arg1
@@ -873,7 +843,6 @@ arg12P)
 (= arg4 arg5P))
 (= (+ arg5 1) arg6P))
 )
-
 (rule
 (f1541_0_createList_NULL
 arg1
@@ -914,7 +883,6 @@ arg12P)
 (= arg5 arg4P))
 (= arg6 arg5P))
 )
-
 (rule
 (f1541_0_createList_NULL
 arg1
@@ -953,7 +921,6 @@ arg12P)
 (= arg5 arg4P))
 (= arg6 arg5P))
 )
-
 (rule
 (f988_0_main_InvokeMethod
 arg1
@@ -995,7 +962,6 @@ arg12P)
 (<= (+ arg3P 2) arg2))
 )
 )
-
 (rule
 (f971_0_random_GT
 arg1
@@ -1047,7 +1013,6 @@ arg12P)
 (<= (+ arg3P 2) arg2))
 )
 )
-
 (rule
 (f1099_0_getFirst_NONNULL
 arg1
@@ -1082,7 +1047,6 @@ arg12P)
 (<= (+ arg3 2) arg1))
 (<= (+ arg4 2) arg1))
 )
-
 (rule
 (f1224_0_find_InvokeMethod
 arg1
@@ -1121,7 +1085,6 @@ arg12P)
 (= 0 arg2P))
 (= arg4 arg3P))
 )
-
 (rule
 (f971_0_random_GT
 arg1
@@ -1165,7 +1128,6 @@ arg12P)
 (> arg1P 1))
 )
 )
-
 (rule
 (f1370_0_findR_NE
 arg1
@@ -1200,7 +1162,6 @@ arg12P)
 (<= (+ arg3 2) arg1))
 (= arg2 arg2P))
 )
-
 (rule
 (f1370_0_findR_NE
 arg1
@@ -1235,7 +1196,6 @@ arg12P)
 (<= (+ arg3 2) arg1))
 (= arg2 arg2P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11 arg12)
 (f1_0_main_Load
@@ -1252,4 +1212,3 @@ arg10P
 arg11P
 arg12P)
 )
-

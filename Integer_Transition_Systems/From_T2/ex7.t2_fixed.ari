@@ -20,7 +20,6 @@
 (= tmp^0 tmp^post))
 (= tmp___08^0 tmp___08^post))
 )
-
 (rule
 (l0 i5^0 length4^0 s^0 tmp^0 tmp___08^0)
 (l2 i5^post length4^post s^post tmp^post tmp___08^post)
@@ -35,7 +34,6 @@
 (= s^0 s^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l2 i5^0 length4^0 s^0 tmp^0 tmp___08^0)
 (l0 i5^post length4^post s^post tmp^post tmp___08^post)
@@ -46,7 +44,6 @@
 (= tmp^0 tmp^post))
 (= tmp___08^0 tmp___08^post))
 )
-
 (rule
 (l3 i5^0 length4^0 s^0 tmp^0 tmp___08^0)
 (l2 i5^post length4^post s^post tmp^post tmp___08^post)
@@ -59,7 +56,6 @@
 (= i5^post 0))
 (= tmp___08^0 tmp___08^post))
 )
-
 (rule
 (l4 i5^0 length4^0 s^0 tmp^0 tmp___08^0)
 (l3 i5^post length4^post s^post tmp^post tmp___08^post)
@@ -70,4 +66,3 @@
 (= tmp^0 tmp^post))
 (= tmp___08^0 tmp___08^post))
 )
-

@@ -14,7 +14,6 @@
 (> arg1 0))
 (= 2 arg3P))
 )
-
 (rule
 (f368_0_main_LE arg1 arg2 arg3)
 (f368_0_main_LE arg1P arg2P arg3P)
@@ -30,7 +29,6 @@
 (= (+ arg3 1) arg3P))
 )
 )
-
 (rule
 (f368_0_main_LE arg1 arg2 arg3)
 (f368_0_main_LE arg1P arg2P arg3P)
@@ -48,5 +46,4 @@
 (= (+ arg3 2) arg3P))
 )
 )
-
 (rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))

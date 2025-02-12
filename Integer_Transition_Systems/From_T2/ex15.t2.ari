@@ -25,7 +25,6 @@
 (= i^post (+ 1 i^4)))
 )
 )
-
 (rule
 (l2 i^0 tmp10^0 tmp13^0 tmp___011^0 tmp___014^0)
 (l0 i^post tmp10^post tmp13^post tmp___011^post tmp___014^post)
@@ -36,4 +35,3 @@
 (= tmp___011^0 tmp___011^post))
 (= tmp___014^0 tmp___014^post))
 )
-

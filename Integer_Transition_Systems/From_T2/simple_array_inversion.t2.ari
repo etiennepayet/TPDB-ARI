@@ -16,7 +16,6 @@
 (l3 j^post)
 :guard
 (and (<= (+ 1 j^0) 2) (= j^post (+ 1 j^0))))
-
 (rule (l3 j^0) (l2 j^post) :guard (= j^0 j^post))
 (rule (l1 j^0) (l4 j^post) :guard (= j^0 j^post))
 (rule (l5 j^0) (l3 j^post) :guard (= j^post 0))

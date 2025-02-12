@@ -13,7 +13,6 @@
 (and (and (> arg2P (- 1)) (> arg2 (- 1))) (> arg1P (- 1)))
 (> arg1 0))
 )
-
 (rule
 (f145_0_main_LE arg1 arg2)
 (|f145_0_main_LE'| arg1P arg2P)
@@ -27,7 +26,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (|f145_0_main_LE'| arg1 arg2)
 (f145_0_main_LE arg1P arg2P)
@@ -45,7 +43,6 @@
 (= (+ arg2 1) arg2P))
 )
 )
-
 (rule
 (f145_0_main_LE arg1 arg2)
 (|f145_0_main_LE'| arg1P arg2P)
@@ -59,7 +56,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (|f145_0_main_LE'| arg1 arg2)
 (f145_0_main_LE arg1P arg2P)
@@ -77,5 +73,4 @@
 (= (+ arg2 2) arg2P))
 )
 )
-
 (rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2P))

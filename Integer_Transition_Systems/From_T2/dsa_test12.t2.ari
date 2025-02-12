@@ -9,10 +9,8 @@
 (l1 a22^post a44^post)
 :guard
 (and (= a22^post a22^post) (= a44^post a44^post)))
-
 (rule
 (l2 a22^0 a44^0)
 (l0 a22^post a44^post)
 :guard
 (and (= a22^0 a22^post) (= a44^0 a44^post)))
-

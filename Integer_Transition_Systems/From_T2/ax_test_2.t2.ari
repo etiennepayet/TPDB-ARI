@@ -15,5 +15,4 @@
 ((p^1 Int) (p^2 Int))
 (and (and (= p^1 0) (= p^2 1)) (= p^post 0)))
 )
-
 (rule (l3 p^0) (l2 p^post) :guard (= p^0 p^post))

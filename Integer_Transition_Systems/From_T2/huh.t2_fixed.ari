@@ -30,7 +30,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l1
 (->
@@ -61,7 +60,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l2
 (->
@@ -92,7 +90,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l3
 (->
@@ -123,7 +120,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l4
 (->
@@ -154,7 +150,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l5
 (->
@@ -185,7 +180,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l6
 (->
@@ -216,7 +210,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l7
 (->
@@ -247,7 +240,6 @@ Int
 Int
 Int)
 )
-
 (entrypoint l7)
 (rule
 (l0
@@ -442,7 +434,6 @@ y_80^post)
 (= y_80^0 y_80^post))
 )
 )
-
 (rule
 (l0
 Result_6^0
@@ -549,7 +540,6 @@ y_80^post)
 (= y_309^0 y_309^post))
 (= y_80^0 y_80^post))
 )
-
 (rule
 (l2
 Result_6^0
@@ -652,7 +642,6 @@ y_80^post)
 (= y_309^0 y_309^post))
 (= y_80^0 y_80^post))
 )
-
 (rule
 (l3
 Result_6^0
@@ -764,7 +753,6 @@ y_80^post)
 (= y_80^0 y_80^post))
 )
 )
-
 (rule
 (l1
 Result_6^0
@@ -884,7 +872,6 @@ y_80^post)
 (= y_80^0 y_80^post))
 )
 )
-
 (rule
 (l1
 Result_6^0
@@ -1006,7 +993,6 @@ y_80^post)
 (= y_80^0 y_80^post))
 )
 )
-
 (rule
 (l4
 Result_6^0
@@ -1117,7 +1103,6 @@ y_80^post)
 (= y_309^0 y_309^post))
 (= y_80^0 y_80^post))
 )
-
 (rule
 (l4
 Result_6^0
@@ -1229,7 +1214,6 @@ y_80^post)
 (= y_80^0 y_80^post))
 )
 )
-
 (rule
 (l7
 Result_6^0
@@ -1332,4 +1316,3 @@ y_80^post)
 (= y_309^0 y_309^post))
 (= y_80^0 y_80^post))
 )
-

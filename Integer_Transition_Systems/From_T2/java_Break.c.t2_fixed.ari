@@ -16,7 +16,6 @@
 (and (= oldX0^post (+ 0 x0^0)) (= x0^post (+ 1 oldX0^post)))
 (= oldX1^0 oldX1^post))
 )
-
 (rule
 (l2 oldX0^0 oldX1^0 x0^0)
 (l3 oldX0^post oldX1^post x0^post)
@@ -25,7 +24,6 @@
 (and (= oldX0^post (+ 0 x0^0)) (= oldX1^post oldX1^post))
 (= x0^post (+ 0 oldX1^post)))
 )
-
 (rule
 (l1 oldX0^0 oldX1^0 x0^0)
 (l0 oldX0^post oldX1^post x0^post)
@@ -36,7 +34,6 @@
 (= x0^post (+ 0 oldX0^post)))
 (= oldX1^0 oldX1^post))
 )
-
 (rule
 (l1 oldX0^0 oldX1^0 x0^0)
 (l2 oldX0^post oldX1^post x0^post)
@@ -47,13 +44,11 @@
 (= x0^post (+ 0 oldX0^post)))
 (= oldX1^0 oldX1^post))
 )
-
 (rule
 (l4 oldX0^0 oldX1^0 x0^0)
 (l1 oldX0^post oldX1^post x0^post)
 :guard
 (and (and (= oldX0^post (+ 0 x0^0)) (= x0^post 0)) (= oldX1^0 oldX1^post)))
-
 (rule
 (l5 oldX0^0 oldX1^0 x0^0)
 (l4 oldX0^post oldX1^post x0^post)
@@ -62,40 +57,33 @@
 (and (= oldX0^post (+ 0 x0^0)) (= oldX1^post oldX1^post))
 (= x0^post (+ 0 oldX1^post)))
 )
-
 (rule
 (l5 oldX0^0 oldX1^0 x0^0)
 (l3 oldX0^post oldX1^post x0^post)
 :guard
 (and (and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post)) (= x0^0 x0^post)))
-
 (rule
 (l5 oldX0^0 oldX1^0 x0^0)
 (l0 oldX0^post oldX1^post x0^post)
 :guard
 (and (and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post)) (= x0^0 x0^post)))
-
 (rule
 (l5 oldX0^0 oldX1^0 x0^0)
 (l2 oldX0^post oldX1^post x0^post)
 :guard
 (and (and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post)) (= x0^0 x0^post)))
-
 (rule
 (l5 oldX0^0 oldX1^0 x0^0)
 (l1 oldX0^post oldX1^post x0^post)
 :guard
 (and (and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post)) (= x0^0 x0^post)))
-
 (rule
 (l5 oldX0^0 oldX1^0 x0^0)
 (l4 oldX0^post oldX1^post x0^post)
 :guard
 (and (and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post)) (= x0^0 x0^post)))
-
 (rule
 (l6 oldX0^0 oldX1^0 x0^0)
 (l5 oldX0^post oldX1^post x0^post)
 :guard
 (and (and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post)) (= x0^0 x0^post)))
-

@@ -15,10 +15,8 @@
 (= a^post (+ 0 ret_returnOne2^post)))
 )
 )
-
 (rule
 (l2 a^0 ret_returnOne2^0)
 (l0 a^post ret_returnOne2^post)
 :guard
 (and (= a^0 a^post) (= ret_returnOne2^0 ret_returnOne2^post)))
-

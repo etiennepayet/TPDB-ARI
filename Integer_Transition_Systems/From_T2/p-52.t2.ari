@@ -59,7 +59,6 @@ y_5^post)
 (= y_5^0 y_5^post))
 )
 )
-
 (rule
 (l1
 Result_4^0
@@ -102,7 +101,6 @@ y_5^post)
 (= x_7^0 x_7^post))
 (= y_5^0 y_5^post))
 )
-
 (rule
 (l0
 Result_4^0
@@ -154,7 +152,6 @@ y_5^post)
 (= y_5^0 y_5^post))
 )
 )
-
 (rule
 (l3
 Result_4^0
@@ -197,7 +194,6 @@ y_5^post)
 (= lt_11^0 lt_11^post))
 (= lt_12^0 lt_12^post))
 )
-
 (rule
 (l4
 Result_4^0
@@ -240,4 +236,3 @@ y_5^post)
 (= x_7^0 x_7^post))
 (= y_5^0 y_5^post))
 )
-

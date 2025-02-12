@@ -40,7 +40,6 @@ x2^post)
 (= x2^post (+ 0 oldX5^post)))
 (= oldX6^0 oldX6^post))
 )
-
 (rule
 (l2 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l1
@@ -75,7 +74,6 @@ x2^post)
 (= x1^post (+ 0 oldX4^post)))
 (= x2^post (+ 0 oldX5^post)))
 )
-
 (rule
 (l2 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l1
@@ -110,7 +108,6 @@ x2^post)
 (= x1^post (+ 0 oldX4^post)))
 (= x2^post (+ 0 oldX5^post)))
 )
-
 (rule
 (l2 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l3
@@ -147,7 +144,6 @@ x2^post)
 (= oldX5^0 oldX5^post))
 (= oldX6^0 oldX6^post))
 )
-
 (rule
 (l3 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l0
@@ -182,7 +178,6 @@ x2^post)
 (= oldX5^0 oldX5^post))
 (= oldX6^0 oldX6^post))
 )
-
 (rule
 (l3 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l2
@@ -217,7 +212,6 @@ x2^post)
 (= oldX5^0 oldX5^post))
 (= oldX6^0 oldX6^post))
 )
-
 (rule
 (l4 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l3
@@ -250,7 +244,6 @@ x2^post)
 (= oldX5^0 oldX5^post))
 (= oldX6^0 oldX6^post))
 )
-
 (rule
 (l5 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l4
@@ -283,7 +276,6 @@ x2^post)
 (= oldX5^0 oldX5^post))
 (= oldX6^0 oldX6^post))
 )
-
 (rule
 (l5 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l1
@@ -316,7 +308,6 @@ x2^post)
 (= x1^0 x1^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l5 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l0
@@ -349,7 +340,6 @@ x2^post)
 (= x1^0 x1^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l5 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l2
@@ -382,7 +372,6 @@ x2^post)
 (= x1^0 x1^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l5 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l3
@@ -415,7 +404,6 @@ x2^post)
 (= x1^0 x1^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l5 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l4
@@ -448,7 +436,6 @@ x2^post)
 (= x1^0 x1^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l6 oldX0^0 oldX1^0 oldX2^0 oldX3^0 oldX4^0 oldX5^0 oldX6^0 x0^0 x1^0 x2^0)
 (l5
@@ -481,4 +468,3 @@ x2^post)
 (= x1^0 x1^post))
 (= x2^0 x2^post))
 )
-

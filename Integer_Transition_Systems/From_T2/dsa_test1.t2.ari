@@ -9,10 +9,8 @@
 (l1 tmp^post tmp___0^post)
 :guard
 (and (= tmp^post tmp^post) (= tmp___0^post tmp___0^post)))
-
 (rule
 (l2 tmp^0 tmp___0^0)
 (l0 tmp^post tmp___0^post)
 :guard
 (and (= tmp^0 tmp^post) (= tmp___0^0 tmp___0^post)))
-

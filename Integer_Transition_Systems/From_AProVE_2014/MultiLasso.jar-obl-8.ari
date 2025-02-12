@@ -16,7 +16,6 @@
 (= (- x2 x3) arg1P))
 )
 )
-
 (rule
 (f104_0_main_LE arg1 arg2 arg3)
 (f157_0_main_LE arg1P arg2P arg3P)
@@ -25,13 +24,11 @@
 (and (and (> arg1 0) (= (+ arg1 1) arg1P)) (= (+ arg1 1) arg2P))
 (= (+ arg1 1) arg3P))
 )
-
 (rule
 (f157_0_main_LE arg1 arg2 arg3)
 (f104_0_main_LE arg1P arg2P arg3P)
 :guard
 (and (and (= 0 arg2) (= 0 arg3)) (= arg1 arg1P)))
-
 (rule
 (f157_0_main_LE arg1 arg2 arg3)
 (f157_0_main_LE arg1P arg2P arg3P)
@@ -42,5 +39,4 @@
 (= (- arg2 1) arg2P))
 (= (- arg2 1) arg3P))
 )
-
 (rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))

@@ -34,7 +34,6 @@ y_6^post)
 (= lt_8^0 lt_8^post))
 (= lt_9^0 lt_9^post))
 )
-
 (rule
 (l1 Result_4^0 cnt_15^0 cnt_20^0 lt_7^0 lt_8^0 lt_9^0 x_5^0 y_6^0)
 (l2
@@ -72,7 +71,6 @@ y_6^post)
 (= y_6^0 y_6^post))
 )
 )
-
 (rule
 (l1 Result_4^0 cnt_15^0 cnt_20^0 lt_7^0 lt_8^0 lt_9^0 x_5^0 y_6^0)
 (l4
@@ -99,7 +97,6 @@ y_6^post)
 (= x_5^0 x_5^post))
 (= y_6^0 y_6^post))
 )
-
 (rule
 (l4 Result_4^0 cnt_15^0 cnt_20^0 lt_7^0 lt_8^0 lt_9^0 x_5^0 y_6^0)
 (l5
@@ -128,7 +125,6 @@ y_6^post)
 (= x_5^0 x_5^post))
 (= y_6^0 y_6^post))
 )
-
 (rule
 (l4 Result_4^0 cnt_15^0 cnt_20^0 lt_7^0 lt_8^0 lt_9^0 x_5^0 y_6^0)
 (l5
@@ -157,7 +153,6 @@ y_6^post)
 (= x_5^0 x_5^post))
 (= y_6^0 y_6^post))
 )
-
 (rule
 (l5 Result_4^0 cnt_15^0 cnt_20^0 lt_7^0 lt_8^0 lt_9^0 x_5^0 y_6^0)
 (l3
@@ -189,7 +184,6 @@ y_6^post)
 (= y_6^0 y_6^post))
 )
 )
-
 (rule
 (l3 Result_4^0 cnt_15^0 cnt_20^0 lt_7^0 lt_8^0 lt_9^0 x_5^0 y_6^0)
 (l1
@@ -216,7 +210,6 @@ y_6^post)
 (= x_5^0 x_5^post))
 (= y_6^0 y_6^post))
 )
-
 (rule
 (l6 Result_4^0 cnt_15^0 cnt_20^0 lt_7^0 lt_8^0 lt_9^0 x_5^0 y_6^0)
 (l0
@@ -243,4 +236,3 @@ y_6^post)
 (= x_5^0 x_5^post))
 (= y_6^0 y_6^post))
 )
-

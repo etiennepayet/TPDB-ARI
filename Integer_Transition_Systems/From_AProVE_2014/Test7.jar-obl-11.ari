@@ -18,7 +18,6 @@
 (and (and (and (<= arg1P arg1) (> arg2 (- 1))) (> arg1 0)) (> arg1P 0))
 (= arg2 arg2P))
 )
-
 (rule
 (f1_0_main_ConstantStackPush arg1 arg2 arg3)
 (f148_0_main_InvokeMethod arg1P arg2P arg3P)
@@ -27,25 +26,21 @@
 (and (and (and (<= arg1P arg1) (> arg2 (- 1))) (> arg1 0)) (> arg1P 0))
 (= arg2 arg2P))
 )
-
 (rule
 (f148_0_main_InvokeMethod arg1 arg2 arg3)
 (f341_0_main_GE arg1P arg2P arg3P)
 :guard
 (and (and (> arg1 0) (> arg2 (- 1))) (= 0 arg1P)))
-
 (rule
 (f341_0_main_GE arg1 arg2 arg3)
 (f475_0_main_GE arg1P arg2P arg3P)
 :guard
 (and (and (< arg1 3) (= arg1 arg1P)) (= 0 arg2P)))
-
 (rule
 (f475_0_main_GE arg1 arg2 arg3)
 (f341_0_main_GE arg1P arg2P arg3P)
 :guard
 (and (<= arg3 arg2) (= (+ arg1 1) arg1P)))
-
 (rule
 (f475_0_main_GE arg1 arg2 arg3)
 (f475_0_main_GE arg1P arg2P arg3P)
@@ -56,7 +51,6 @@
 (= (+ arg2 1) arg2P))
 (= arg3 arg3P))
 )
-
 (rule
 (f1_0_main_ConstantStackPush arg1 arg2 arg3)
 (f165_0_mk_LE arg1P arg2P arg3P)
@@ -65,13 +59,11 @@
 (and (and (> arg1 0) (> arg2 (- 1))) (= (- arg2 1) arg1P))
 (= arg2 arg2P))
 )
-
 (rule
 (f148_0_main_InvokeMethod arg1 arg2 arg3)
 (f165_0_mk_LE arg1P arg2P arg3P)
 :guard
 (and (and (> arg1 0) (= (- arg2 1) arg1P)) (= arg2 arg2P)))
-
 (rule
 (f148_0_main_InvokeMethod arg1 arg2 arg3)
 (f165_0_mk_LE arg1P arg2P arg3P)
@@ -80,19 +72,16 @@
 (and (and (> arg1 0) (> arg2 (- 1))) (= (- arg2 1) arg1P))
 (= arg2 arg2P))
 )
-
 (rule
 (f165_0_mk_LE arg1 arg2 arg3)
 (f165_0_mk_LE arg1P arg2P arg3P)
 :guard
 (and (and (> arg2 0) (= (- arg1 1) arg1P)) (= arg1 arg2P)))
-
 (rule
 (f341_0_main_GE arg1 arg2 arg3)
 (f291_0_length_NULL arg1P arg2P arg3P)
 :guard
 (and (and (> arg1P (- 1)) (> arg2P (- 1))) (< arg1 3)))
-
 (rule
 (f291_0_length_NULL arg1 arg2 arg3)
 (f291_0_length_NULL arg1P arg2P arg3P)
@@ -111,7 +100,6 @@
 (> arg1P (- 1)))
 (> arg2P (- 1)))
 )
-
 (rule
 (f475_0_main_GE arg1 arg2 arg3)
 (f541_0_bubble_NULL arg1P arg2P arg3P)
@@ -120,7 +108,6 @@
 (and (and (and (> arg3 0) (> arg3 arg2)) (< arg1 3)) (> arg2P (- 1)))
 (> arg1P (- 1)))
 )
-
 (rule
 (f541_0_bubble_NULL arg1 arg2 arg3)
 (f541_0_bubble_NULL arg1P arg2P arg3P)
@@ -142,7 +129,6 @@
 (> arg2P 0))
 )
 )
-
 (rule
 (f541_0_bubble_NULL arg1 arg2 arg3)
 (f541_0_bubble_NULL arg1P arg2P arg3P)
@@ -164,8 +150,6 @@
 (> arg2P 0))
 )
 )
-
 (rule
 (__init arg1 arg2 arg3)
 (f1_0_main_ConstantStackPush arg1P arg2P arg3P))
-

@@ -24,7 +24,6 @@
 (= y6^0 y6^post))
 (= y8^0 y8^post))
 )
-
 (rule
 (l2 i^0 j^0 y4^0 y6^0 y8^0)
 (l3 i^post j^post y4^post y6^post y8^post)
@@ -37,7 +36,6 @@
 (= y6^0 y6^post))
 (= y8^0 y8^post))
 )
-
 (rule
 (l2 i^0 j^0 y4^0 y6^0 y8^0)
 (l0 i^post j^post y4^post y6^post y8^post)
@@ -50,7 +48,6 @@
 (= y6^0 y6^post))
 (= y8^0 y8^post))
 )
-
 (rule
 (l4 i^0 j^0 y4^0 y6^0 y8^0)
 (l3 i^post j^post y4^post y6^post y8^post)
@@ -61,7 +58,6 @@
 (= y6^0 y6^post))
 (= y8^0 y8^post))
 )
-
 (rule
 (l5 i^0 j^0 y4^0 y6^0 y8^0)
 (l2 i^post j^post y4^post y6^post y8^post)
@@ -72,7 +68,6 @@
 (= y6^0 y6^post))
 (= y8^0 y8^post))
 )
-
 (rule
 (l6 i^0 j^0 y4^0 y6^0 y8^0)
 (l4 i^post j^post y4^post y6^post y8^post)
@@ -83,7 +78,6 @@
 (= y6^0 y6^post))
 (= y8^0 y8^post))
 )
-
 (rule
 (l7 i^0 j^0 y4^0 y6^0 y8^0)
 (l8 i^post j^post y4^post y6^post y8^post)
@@ -96,7 +90,6 @@
 (= y6^0 y6^post))
 (= y8^0 y8^post))
 )
-
 (rule
 (l7 i^0 j^0 y4^0 y6^0 y8^0)
 (l6 i^post j^post y4^post y6^post y8^post)
@@ -109,7 +102,6 @@
 (= y4^0 y4^post))
 (= y6^0 y6^post))
 )
-
 (rule
 (l3 i^0 j^0 y4^0 y6^0 y8^0)
 (l7 i^post j^post y4^post y6^post y8^post)
@@ -120,7 +112,6 @@
 (= y6^0 y6^post))
 (= y8^0 y8^post))
 )
-
 (rule
 (l9 i^0 j^0 y4^0 y6^0 y8^0)
 (l5 i^post j^post y4^post y6^post y8^post)
@@ -131,7 +122,6 @@
 (= y6^0 y6^post))
 (= y8^0 y8^post))
 )
-
 (rule
 (l10 i^0 j^0 y4^0 y6^0 y8^0)
 (l9 i^post j^post y4^post y6^post y8^post)
@@ -142,7 +132,6 @@
 (= y6^0 y6^post))
 (= y8^0 y8^post))
 )
-
 (rule
 (l1 i^0 j^0 y4^0 y6^0 y8^0)
 (l10 i^post j^post y4^post y6^post y8^post)
@@ -153,7 +142,6 @@
 (= y4^0 y4^post))
 (= y8^0 y8^post))
 )
-
 (rule
 (l11 i^0 j^0 y4^0 y6^0 y8^0)
 (l5 i^post j^post y4^post y6^post y8^post)
@@ -164,7 +152,6 @@
 (= y6^0 y6^post))
 (= y8^0 y8^post))
 )
-
 (rule
 (l12 i^0 j^0 y4^0 y6^0 y8^0)
 (l11 i^post j^post y4^post y6^post y8^post)
@@ -175,4 +162,3 @@
 (= y6^0 y6^post))
 (= y8^0 y8^post))
 )
-

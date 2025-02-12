@@ -20,7 +20,6 @@
 (> arg1 0))
 )
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f234_0_slide95_FieldAccess arg1P arg2P arg3P)
@@ -32,13 +31,11 @@
 (> arg1 0))
 )
 )
-
 (rule
 (f234_0_slide95_FieldAccess arg1 arg2 arg3)
 (f411_0_slide95_EQ arg1P arg2P arg3P)
 :guard
 (and (and (and (> arg2 0) (= arg1 arg1P)) (= arg2 arg2P)) (= arg2 arg3P)))
-
 (rule
 (f411_0_slide95_EQ arg1 arg2 arg3)
 (|f411_0_slide95_EQ'| arg1P arg2P arg3P)
@@ -68,7 +65,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (|f411_0_slide95_EQ'| arg1 arg2 arg3)
 (f411_0_slide95_EQ arg1P arg2P arg3P)
@@ -100,7 +96,6 @@
 (>= (- arg1 (* 2 arg1P)) 0))
 )
 )
-
 (rule
 (f411_0_slide95_EQ arg1 arg2 arg3)
 (|f411_0_slide95_EQ'| arg1P arg2P arg3P)
@@ -126,7 +121,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (|f411_0_slide95_EQ'| arg1 arg2 arg3)
 (f411_0_slide95_EQ arg1P arg2P arg3P)
@@ -154,7 +148,6 @@
 (>= (- arg1 (* 2 arg1P)) 0))
 )
 )
-
 (rule
 (f411_0_slide95_EQ arg1 arg2 arg3)
 (|f411_0_slide95_EQ'| arg1P arg2P arg3P)
@@ -176,7 +169,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (|f411_0_slide95_EQ'| arg1 arg2 arg3)
 (f411_0_slide95_EQ arg1P arg2P arg3P)
@@ -204,7 +196,6 @@
 (= arg2P arg3P))
 )
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f196_0_create_LE arg1P arg2P arg3P)
@@ -216,11 +207,9 @@
 (= (- x36 1) arg1P))
 )
 )
-
 (rule
 (f196_0_create_LE arg1 arg2 arg3)
 (f196_0_create_LE arg1P arg2P arg3P)
 :guard
 (and (> arg1 0) (= (- arg1 1) arg1P)))
-
 (rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))

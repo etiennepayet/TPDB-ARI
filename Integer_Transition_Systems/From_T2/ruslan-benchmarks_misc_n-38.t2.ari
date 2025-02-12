@@ -37,7 +37,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l2 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l0
@@ -58,7 +57,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l2 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l0
@@ -79,7 +77,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l2 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l3
@@ -100,7 +97,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l4 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l2
@@ -121,7 +117,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l4 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l2
@@ -142,7 +137,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l4 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l3
@@ -163,7 +157,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l5 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l4
@@ -188,7 +181,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l5 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l6
@@ -213,7 +205,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l6 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l7
@@ -234,7 +225,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l3 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l8
@@ -259,7 +249,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l3 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l8
@@ -284,7 +273,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l3 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l6
@@ -311,7 +299,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l9 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l3
@@ -332,7 +319,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l10 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l3
@@ -357,7 +343,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l10 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l9
@@ -380,7 +365,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l10 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l9
@@ -403,7 +387,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l11 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l10
@@ -424,7 +407,6 @@ tmp___0^post)
 (= nPacketsOld^0 nPacketsOld^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l12 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l11
@@ -445,7 +427,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l13 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l11
@@ -470,7 +451,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l13 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l12
@@ -493,7 +473,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l13 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l12
@@ -516,7 +495,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l14 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l13
@@ -537,7 +515,6 @@ tmp___0^post)
 (= nPacketsOld^0 nPacketsOld^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l1 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l14
@@ -558,7 +535,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l8 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l5
@@ -579,7 +555,6 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l15 loop_count^0 loop_max^0 nPacketsOld^0 nPackets^0 tmp^0 tmp___0^0)
 (l8
@@ -600,4 +575,3 @@ tmp___0^post)
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-

@@ -37,7 +37,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l0 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l2 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -56,7 +55,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l3 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l4 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -71,7 +69,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l5 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l6 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -88,7 +85,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l5 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l1 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -103,7 +99,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l7 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l2 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -122,7 +117,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l7 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l5 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -141,7 +135,6 @@
 (= nodecount^0 nodecount^post))
 (= source^0 source^post))
 )
-
 (rule
 (l8 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l9 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -156,7 +149,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l10 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l11 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -173,7 +165,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l12 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l8 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -192,7 +183,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l12 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l10 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -211,7 +201,6 @@
 (= nodecount^0 nodecount^post))
 (= source^0 source^post))
 )
-
 (rule
 (l11 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l12 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -226,7 +215,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l9 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l6 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -245,7 +233,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l9 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l11 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -264,7 +251,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l13 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l14 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -279,7 +265,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l14 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l3 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -296,7 +281,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l15 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l13 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -315,7 +299,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l15 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l13 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -334,7 +317,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l15 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l14 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -355,7 +337,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l4 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l8 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -374,7 +355,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l4 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l15 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -393,7 +373,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l6 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l7 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -408,7 +387,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l2 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l0 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -423,7 +401,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l16 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l3 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -438,7 +415,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l17 edgecount^0 i^0 j^0 nodecount^0 source^0 x^0 y^0)
 (l16 edgecount^post i^post j^post nodecount^post source^post x^post y^post)
@@ -453,4 +429,3 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-

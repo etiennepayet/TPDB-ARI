@@ -10,7 +10,6 @@
 (f74_0_main_LE arg1P arg2P)
 :guard
 (and (and (> arg2 (- 1)) (> arg1P (- 1))) (> arg1 0)))
-
 (rule
 (f74_0_main_LE arg1 arg2)
 (|f74_0_main_LE'| arg1P arg2P)
@@ -19,7 +18,6 @@
 ((x5 Int))
 (and (and (= (- arg1 (* 2 x5)) 0) (> arg1 0)) (= arg1 arg1P)))
 )
-
 (rule
 (|f74_0_main_LE'| arg1 arg2)
 (f74_0_main_LE arg1P arg2P)
@@ -33,5 +31,4 @@
 (= (- arg1 1) arg1P))
 )
 )
-
 (rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2P))

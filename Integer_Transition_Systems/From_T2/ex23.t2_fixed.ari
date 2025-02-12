@@ -17,7 +17,6 @@
 (= y^0 y^post))
 (= z^0 z^post))
 )
-
 (rule
 (l0 counter^0 y^0 z^0)
 (l2 counter^post y^post z^post)
@@ -28,7 +27,6 @@
 (= counter^post (+ 1 counter^0)))
 (= y^0 y^post))
 )
-
 (rule
 (l3 counter^0 y^0 z^0)
 (l2 counter^post y^post z^post)
@@ -39,7 +37,6 @@
 (= counter^0 counter^post))
 (= y^0 y^post))
 )
-
 (rule
 (l3 counter^0 y^0 z^0)
 (l1 counter^post y^post z^post)
@@ -48,22 +45,18 @@
 (and (and (<= 128 (+ 0 y^0)) (= counter^0 counter^post)) (= y^0 y^post))
 (= z^0 z^post))
 )
-
 (rule
 (l2 counter^0 y^0 z^0)
 (l0 counter^post y^post z^post)
 :guard
 (and (and (= counter^0 counter^post) (= y^0 y^post)) (= z^0 z^post)))
-
 (rule
 (l4 counter^0 y^0 z^0)
 (l3 counter^post y^post z^post)
 :guard
 (and (and (= counter^post 0) (= y^0 y^post)) (= z^0 z^post)))
-
 (rule
 (l5 counter^0 y^0 z^0)
 (l4 counter^post y^post z^post)
 :guard
 (and (and (= counter^0 counter^post) (= y^0 y^post)) (= z^0 z^post)))
-

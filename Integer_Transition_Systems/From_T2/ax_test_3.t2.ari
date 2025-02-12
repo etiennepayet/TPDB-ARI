@@ -15,5 +15,4 @@
 (l2 p^post)
 :guard
 (exists ((p^1 Int)) (and (= p^1 0) (= p^post 1))))
-
 (rule (l4 p^0) (l3 p^post) :guard (= p^0 p^post))

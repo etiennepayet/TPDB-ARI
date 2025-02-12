@@ -19,25 +19,21 @@
 (l1 i4^post j5^post k6^post)
 :guard
 (and (and (= i4^0 i4^post) (= j5^0 j5^post)) (= k6^0 k6^post)))
-
 (rule
 (l2 i4^0 j5^0 k6^0)
 (l3 i4^post j5^post k6^post)
 :guard
 (and (and (= i4^0 i4^post) (= j5^0 j5^post)) (= k6^0 k6^post)))
-
 (rule
 (l4 i4^0 j5^0 k6^0)
 (l5 i4^post j5^post k6^post)
 :guard
 (and (and (= i4^0 i4^post) (= j5^0 j5^post)) (= k6^0 k6^post)))
-
 (rule
 (l6 i4^0 j5^0 k6^0)
 (l7 i4^post j5^post k6^post)
 :guard
 (and (and (= i4^0 i4^post) (= j5^0 j5^post)) (= k6^0 k6^post)))
-
 (rule
 (l8 i4^0 j5^0 k6^0)
 (l6 i4^post j5^post k6^post)
@@ -46,7 +42,6 @@
 (and (and (<= 6 (+ 0 k6^0)) (= j5^post (+ 1 j5^0))) (= i4^0 i4^post))
 (= k6^0 k6^post))
 )
-
 (rule
 (l8 i4^0 j5^0 k6^0)
 (l9 i4^post j5^post k6^post)
@@ -55,7 +50,6 @@
 (and (and (<= (+ 0 k6^0) 5) (= k6^post (+ 1 k6^0))) (= i4^0 i4^post))
 (= j5^0 j5^post))
 )
-
 (rule
 (l7 i4^0 j5^0 k6^0)
 (l4 i4^post j5^post k6^post)
@@ -64,7 +58,6 @@
 (and (and (<= 6 (+ 0 j5^0)) (= i4^post (+ 1 i4^0))) (= j5^0 j5^post))
 (= k6^0 k6^post))
 )
-
 (rule
 (l7 i4^0 j5^0 k6^0)
 (l9 i4^post j5^post k6^post)
@@ -73,7 +66,6 @@
 (and (and (<= (+ 0 j5^0) 5) (= k6^post 1)) (= i4^0 i4^post))
 (= j5^0 j5^post))
 )
-
 (rule
 (l5 i4^0 j5^0 k6^0)
 (l10 i4^post j5^post k6^post)
@@ -82,7 +74,6 @@
 (and (and (<= 6 (+ 0 i4^0)) (= i4^0 i4^post)) (= j5^0 j5^post))
 (= k6^0 k6^post))
 )
-
 (rule
 (l5 i4^0 j5^0 k6^0)
 (l6 i4^post j5^post k6^post)
@@ -91,13 +82,11 @@
 (and (and (<= (+ 0 i4^0) 5) (= j5^post 1)) (= i4^0 i4^post))
 (= k6^0 k6^post))
 )
-
 (rule
 (l9 i4^0 j5^0 k6^0)
 (l8 i4^post j5^post k6^post)
 :guard
 (and (and (= i4^0 i4^post) (= j5^0 j5^post)) (= k6^0 k6^post)))
-
 (rule
 (l3 i4^0 j5^0 k6^0)
 (l0 i4^post j5^post k6^post)
@@ -106,7 +95,6 @@
 (and (and (<= 6 (+ 0 j5^0)) (= i4^post (+ 1 i4^0))) (= j5^0 j5^post))
 (= k6^0 k6^post))
 )
-
 (rule
 (l3 i4^0 j5^0 k6^0)
 (l2 i4^post j5^post k6^post)
@@ -115,7 +103,6 @@
 (and (and (<= (+ 0 j5^0) 5) (= j5^post (+ 1 j5^0))) (= i4^0 i4^post))
 (= k6^0 k6^post))
 )
-
 (rule
 (l1 i4^0 j5^0 k6^0)
 (l4 i4^post j5^post k6^post)
@@ -124,7 +111,6 @@
 (and (and (<= 6 (+ 0 i4^0)) (= i4^post 1)) (= j5^0 j5^post))
 (= k6^0 k6^post))
 )
-
 (rule
 (l1 i4^0 j5^0 k6^0)
 (l2 i4^post j5^post k6^post)
@@ -133,16 +119,13 @@
 (and (and (<= (+ 0 i4^0) 5) (= j5^post 1)) (= i4^0 i4^post))
 (= k6^0 k6^post))
 )
-
 (rule
 (l11 i4^0 j5^0 k6^0)
 (l0 i4^post j5^post k6^post)
 :guard
 (and (and (= i4^post 1) (= j5^0 j5^post)) (= k6^0 k6^post)))
-
 (rule
 (l12 i4^0 j5^0 k6^0)
 (l11 i4^post j5^post k6^post)
 :guard
 (and (and (= i4^0 i4^post) (= j5^0 j5^post)) (= k6^0 k6^post)))
-

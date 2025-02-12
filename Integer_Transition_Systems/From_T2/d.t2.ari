@@ -32,7 +32,6 @@
 (= x_12^0 x_12^post))
 )
 )
-
 (rule
 (l1 elem_13^0 l_11^0 len_98^0 x_12^0)
 (l0 elem_13^post l_11^post len_98^post x_12^post)
@@ -43,7 +42,6 @@
 (= len_98^0 len_98^post))
 (= x_12^0 x_12^post))
 )
-
 (rule
 (l2 elem_13^0 l_11^0 len_98^0 x_12^0)
 (l0 elem_13^post l_11^post len_98^post x_12^post)
@@ -54,7 +52,6 @@
 (= len_98^0 len_98^post))
 (= x_12^0 x_12^post))
 )
-
 (rule
 (l3 elem_13^0 l_11^0 len_98^0 x_12^0)
 (l2 elem_13^post l_11^post len_98^post x_12^post)
@@ -65,4 +62,3 @@
 (= len_98^0 len_98^post))
 (= x_12^0 x_12^post))
 )
-

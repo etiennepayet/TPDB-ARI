@@ -32,7 +32,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l0 __const_100^0 i2^0 i^0 r^0)
 (l2 __const_100^post i2^post i^post r^post)
@@ -45,7 +44,6 @@
 (= i^0 i^post))
 (= r^0 r^post))
 )
-
 (rule
 (l3 __const_100^0 i2^0 i^0 r^0)
 (l1 __const_100^post i2^post i^post r^post)
@@ -56,7 +54,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l4 __const_100^0 i2^0 i^0 r^0)
 (l5 __const_100^post i2^post i^post r^post)
@@ -67,7 +64,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l5 __const_100^0 i2^0 i^0 r^0)
 (l3 __const_100^post i2^post i^post r^post)
@@ -78,7 +74,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l6 __const_100^0 i2^0 i^0 r^0)
 (l0 __const_100^post i2^post i^post r^post)
@@ -89,7 +84,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l7 __const_100^0 i2^0 i^0 r^0)
 (l4 __const_100^post i2^post i^post r^post)
@@ -100,7 +94,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l7 __const_100^0 i2^0 i^0 r^0)
 (l4 __const_100^post i2^post i^post r^post)
@@ -111,7 +104,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l7 __const_100^0 i2^0 i^0 r^0)
 (l5 __const_100^post i2^post i^post r^post)
@@ -122,7 +114,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l8 __const_100^0 i2^0 i^0 r^0)
 (l7 __const_100^post i2^post i^post r^post)
@@ -133,7 +124,6 @@
 (= i^0 i^post))
 (= i2^0 i2^post))
 )
-
 (rule
 (l9 __const_100^0 i2^0 i^0 r^0)
 (l8 __const_100^post i2^post i^post r^post)
@@ -144,7 +134,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l9 __const_100^0 i2^0 i^0 r^0)
 (l3 __const_100^post i2^post i^post r^post)
@@ -155,7 +144,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l9 __const_100^0 i2^0 i^0 r^0)
 (l8 __const_100^post i2^post i^post r^post)
@@ -166,7 +154,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l10 __const_100^0 i2^0 i^0 r^0)
 (l11 __const_100^post i2^post i^post r^post)
@@ -179,7 +166,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l10 __const_100^0 i2^0 i^0 r^0)
 (l9 __const_100^post i2^post i^post r^post)
@@ -192,7 +178,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l12 __const_100^0 i2^0 i^0 r^0)
 (l6 __const_100^post i2^post i^post r^post)
@@ -203,7 +188,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l1 __const_100^0 i2^0 i^0 r^0)
 (l10 __const_100^post i2^post i^post r^post)
@@ -214,7 +198,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l13 __const_100^0 i2^0 i^0 r^0)
 (l14 __const_100^post i2^post i^post r^post)
@@ -225,7 +208,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l14 __const_100^0 i2^0 i^0 r^0)
 (l12 __const_100^post i2^post i^post r^post)
@@ -236,7 +218,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l15 __const_100^0 i2^0 i^0 r^0)
 (l13 __const_100^post i2^post i^post r^post)
@@ -247,7 +228,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l15 __const_100^0 i2^0 i^0 r^0)
 (l13 __const_100^post i2^post i^post r^post)
@@ -258,7 +238,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l15 __const_100^0 i2^0 i^0 r^0)
 (l14 __const_100^post i2^post i^post r^post)
@@ -269,7 +248,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l16 __const_100^0 i2^0 i^0 r^0)
 (l15 __const_100^post i2^post i^post r^post)
@@ -280,7 +258,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l2 __const_100^0 i2^0 i^0 r^0)
 (l16 __const_100^post i2^post i^post r^post)
@@ -291,7 +268,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l2 __const_100^0 i2^0 i^0 r^0)
 (l12 __const_100^post i2^post i^post r^post)
@@ -302,7 +278,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l2 __const_100^0 i2^0 i^0 r^0)
 (l16 __const_100^post i2^post i^post r^post)
@@ -313,7 +288,6 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l17 __const_100^0 i2^0 i^0 r^0)
 (l6 __const_100^post i2^post i^post r^post)
@@ -327,7 +301,6 @@
 (= r^0 r^post))
 )
 )
-
 (rule
 (l18 __const_100^0 i2^0 i^0 r^0)
 (l17 __const_100^post i2^post i^post r^post)
@@ -338,4 +311,3 @@
 (= i2^0 i2^post))
 (= r^0 r^post))
 )
-

@@ -3,127 +3,96 @@
 (fun
 l0
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l1
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l10
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l11
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l12
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l13
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l14
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l15
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l16
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l17
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l18
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l19
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l2
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l20
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l21
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l22
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l23
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l24
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l25
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l26
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l27
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l28
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l29
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l3
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l30
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l4
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l5
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l6
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l7
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l8
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l9
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint l30)
 (rule
 (l0
@@ -193,7 +162,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l2
 N^0
@@ -264,7 +232,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l4
 N^0
@@ -337,7 +304,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l5
 N^0
@@ -408,7 +374,6 @@ z^post)
 (= rrep^0 rrep^post))
 (= z^0 z^post))
 )
-
 (rule
 (l5
 N^0
@@ -479,7 +444,6 @@ z^post)
 (= rrep^0 rrep^post))
 (= z^0 z^post))
 )
-
 (rule
 (l6
 N^0
@@ -554,7 +518,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l6
 N^0
@@ -629,7 +592,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l7
 N^0
@@ -700,7 +662,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l7
 N^0
@@ -771,7 +732,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l7
 N^0
@@ -844,7 +804,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l8
 N^0
@@ -915,7 +874,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l8
 N^0
@@ -990,7 +948,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l9
 N^0
@@ -1061,7 +1018,6 @@ z^post)
 (= rrep^0 rrep^post))
 (= s_ab^0 s_ab^post))
 )
-
 (rule
 (l9
 N^0
@@ -1132,7 +1088,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l10
 N^0
@@ -1205,7 +1160,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l11
 N^0
@@ -1276,7 +1230,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l11
 N^0
@@ -1347,7 +1300,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l13
 N^0
@@ -1418,7 +1370,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l13
 N^0
@@ -1489,7 +1440,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l14
 N^0
@@ -1560,7 +1510,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l14
 N^0
@@ -1631,7 +1580,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l15
 N^0
@@ -1700,7 +1648,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l12
 N^0
@@ -1771,7 +1718,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l12
 N^0
@@ -1842,7 +1788,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l16
 N^0
@@ -1913,7 +1858,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l16
 N^0
@@ -1984,7 +1928,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l16
 N^0
@@ -2057,7 +2000,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l17
 N^0
@@ -2130,7 +2072,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l17
 N^0
@@ -2201,7 +2142,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l17
 N^0
@@ -2272,7 +2212,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l18
 N^0
@@ -2343,7 +2282,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l18
 N^0
@@ -2414,7 +2352,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l18
 N^0
@@ -2489,7 +2426,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l19
 N^0
@@ -2558,7 +2494,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l20
 N^0
@@ -2629,7 +2564,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l20
 N^0
@@ -2700,7 +2634,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l21
 N^0
@@ -2775,7 +2708,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l21
 N^0
@@ -2850,7 +2782,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l22
 N^0
@@ -2921,7 +2852,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l22
 N^0
@@ -2994,7 +2924,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l23
 N^0
@@ -3065,7 +2994,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l23
 N^0
@@ -3140,7 +3068,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l24
 N^0
@@ -3211,7 +3138,6 @@ z^post)
 (= rrep^0 rrep^post))
 (= s_ab^0 s_ab^post))
 )
-
 (rule
 (l24
 N^0
@@ -3282,7 +3208,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l25
 N^0
@@ -3355,7 +3280,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l3
 N^0
@@ -3428,7 +3352,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l26
 N^0
@@ -3497,7 +3420,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l27
 N^0
@@ -3568,7 +3490,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l27
 N^0
@@ -3639,7 +3560,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l28
 N^0
@@ -3710,7 +3630,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l28
 N^0
@@ -3781,7 +3700,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l1
 N^0
@@ -3852,7 +3770,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l1
 N^0
@@ -3923,7 +3840,6 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-
 (rule
 (l30
 N^0
@@ -3992,4 +3908,3 @@ z^post)
 (= s_ab^0 s_ab^post))
 (= z^0 z^post))
 )
-

@@ -15,7 +15,6 @@
 (and (= hi^post hi^post) (= __const_99^0 __const_99^post))
 (= lo^0 lo^post))
 )
-
 (rule
 (l0 __const_99^0 hi^0 lo^0)
 (l1 __const_99^post hi^post lo^post)
@@ -24,7 +23,6 @@
 (and (= lo^post lo^post) (= __const_99^0 __const_99^post))
 (= hi^0 hi^post))
 )
-
 (rule
 (l2 __const_99^0 hi^0 lo^0)
 (l3 __const_99^post hi^post lo^post)
@@ -35,7 +33,6 @@
 (= hi^0 hi^post))
 (= lo^0 lo^post))
 )
-
 (rule
 (l2 __const_99^0 hi^0 lo^0)
 (l0 __const_99^post hi^post lo^post)
@@ -46,7 +43,6 @@
 (= hi^0 hi^post))
 (= lo^0 lo^post))
 )
-
 (rule
 (l1 __const_99^0 hi^0 lo^0)
 (l2 __const_99^post hi^post lo^post)
@@ -55,7 +51,6 @@
 (and (= __const_99^0 __const_99^post) (= hi^0 hi^post))
 (= lo^0 lo^post))
 )
-
 (rule
 (l4 __const_99^0 hi^0 lo^0)
 (l1 __const_99^post hi^post lo^post)
@@ -64,7 +59,6 @@
 (and (= hi^post 0) (= lo^post (+ 0 __const_99^0)))
 (= __const_99^0 __const_99^post))
 )
-
 (rule
 (l5 __const_99^0 hi^0 lo^0)
 (l4 __const_99^post hi^post lo^post)
@@ -73,4 +67,3 @@
 (and (= __const_99^0 __const_99^post) (= hi^0 hi^post))
 (= lo^0 lo^post))
 )
-

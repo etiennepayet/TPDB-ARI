@@ -15,7 +15,6 @@
 (= (- 20) arg2P))
 (= arg2 arg3P))
 )
-
 (rule
 (f437_0_loop_aux_GT arg1 arg2 arg3)
 (f509_0_loop_aux_InvokeMethod arg1P arg2P arg3P)
@@ -28,7 +27,6 @@
 (= (* (- 1) arg3) arg2P))
 (= arg1 arg3P))
 )
-
 (rule
 (f437_0_loop_aux_GT arg1 arg2 arg3)
 (f509_0_loop_aux_InvokeMethod arg1P arg2P arg3P)
@@ -43,7 +41,6 @@
 (= (* (- 1) arg3) arg2P))
 (= arg1 arg3P))
 )
-
 (rule
 (f509_0_loop_aux_InvokeMethod arg1 arg2 arg3)
 (f437_0_loop_aux_GT arg1P arg2P arg3P)
@@ -52,7 +49,6 @@
 (and (and (<= arg1 arg3) (= arg3 arg1P)) (= (- 0 arg3) arg2P))
 (= arg2 arg3P))
 )
-
 (rule
 (f437_0_loop_aux_GT arg1 arg2 arg3)
 (f437_0_loop_aux_GT arg1P arg2P arg3P)
@@ -71,7 +67,6 @@
 (= (- 0 (+ arg1 1)) arg2P))
 (= (- arg3 1) arg3P))
 )
-
 (rule
 (f437_0_loop_aux_GT arg1 arg2 arg3)
 (f437_0_loop_aux_GT arg1P arg2P arg3P)
@@ -90,7 +85,6 @@
 (= (- 0 (+ arg1 1)) arg2P))
 (= (- arg3 1) arg3P))
 )
-
 (rule
 (f437_0_loop_aux_GT arg1 arg2 arg3)
 (f437_0_loop_aux_GT arg1P arg2P arg3P)
@@ -101,5 +95,4 @@
 (= 1 arg2P))
 (= 0 arg3P))
 )
-
 (rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))

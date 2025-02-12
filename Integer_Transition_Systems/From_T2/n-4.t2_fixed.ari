@@ -28,7 +28,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l2 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l3 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -47,7 +46,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l2 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l5 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -62,7 +60,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l5 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l6 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -77,7 +74,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l5 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l6 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -92,7 +88,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l6 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l4 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -105,7 +100,6 @@
 (= x_5^0 x_5^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l4 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l2 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -118,7 +112,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l2 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l1 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -133,7 +126,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l1 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l7 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -148,7 +140,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l1 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l8 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -163,7 +154,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l7 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l3 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -182,7 +172,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l7 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l9 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -197,7 +186,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l9 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l10 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -212,7 +200,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l9 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l10 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -227,7 +214,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l10 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l2 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -240,7 +226,6 @@
 (= x_5^0 x_5^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l7 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l1 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -255,7 +240,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l3 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l11 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -274,7 +258,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l11 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l3 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -287,7 +270,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l3 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l12 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -302,7 +284,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l12 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l13 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -317,7 +298,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l12 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l13 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -332,7 +312,6 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l13 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l2 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -345,7 +324,6 @@
 (= x_5^0 x_5^post))
 (= z_7^0 z_7^post))
 )
-
 (rule
 (l14 Result_4^0 tmp_8^0 x_5^0 y_6^0 z_7^0)
 (l0 Result_4^post tmp_8^post x_5^post y_6^post z_7^post)
@@ -358,4 +336,3 @@
 (= y_6^0 y_6^post))
 (= z_7^0 z_7^post))
 )
-

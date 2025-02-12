@@ -14,7 +14,6 @@
 (= 0 arg2P))
 (= arg2 arg3P))
 )
-
 (rule
 (f61_0_main_GE arg1 arg2 arg3)
 (f61_0_main_GE arg1P arg2P arg3P)
@@ -34,8 +33,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (__init arg1 arg2 arg3)
 (f1_0_main_ConstantStackPush arg1P arg2P arg3P))
-

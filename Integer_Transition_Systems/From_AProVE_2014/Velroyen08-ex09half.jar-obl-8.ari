@@ -17,7 +17,6 @@
 (= arg2 arg3P))
 (= arg2 arg4P))
 )
-
 (rule
 (f74_0_loop_LE arg1 arg2 arg3 arg4)
 (|f74_0_loop_LE'| arg1P arg2P arg3P arg4P)
@@ -37,7 +36,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (|f74_0_loop_LE'| arg1 arg2 arg3 arg4)
 (f74_0_loop_LE arg1P arg2P arg3P arg4P)
@@ -59,5 +57,4 @@
 (= arg4 arg4P))
 )
 )
-
 (rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))

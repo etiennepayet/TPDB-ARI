@@ -24,7 +24,6 @@
 (= rt_11^0 rt_11^post))
 (= st_14^0 st_14^post))
 )
-
 (rule
 (l2 __const_10^0 a_20^0 i_13^0 i_21^0 rt_11^0 st_14^0)
 (l1 __const_10^post a_20^post i_13^post i_21^post rt_11^post st_14^post)
@@ -54,7 +53,6 @@
 (= st_14^0 st_14^post))
 )
 )
-
 (rule
 (l3 __const_10^0 a_20^0 i_13^0 i_21^0 rt_11^0 st_14^0)
 (l1 __const_10^post a_20^post i_13^post i_21^post rt_11^post st_14^post)
@@ -75,7 +73,6 @@
 (= rt_11^0 rt_11^post))
 (= st_14^0 st_14^post))
 )
-
 (rule
 (l1 __const_10^0 a_20^0 i_13^0 i_21^0 rt_11^0 st_14^0)
 (l4 __const_10^post a_20^post i_13^post i_21^post rt_11^post st_14^post)
@@ -92,7 +89,6 @@
 (= i_21^0 i_21^post))
 (= st_14^0 st_14^post))
 )
-
 (rule
 (l1 __const_10^0 a_20^0 i_13^0 i_21^0 rt_11^0 st_14^0)
 (l5 __const_10^post a_20^post i_13^post i_21^post rt_11^post st_14^post)
@@ -115,7 +111,6 @@
 (= rt_11^0 rt_11^post))
 (= st_14^0 st_14^post))
 )
-
 (rule
 (l5 __const_10^0 a_20^0 i_13^0 i_21^0 rt_11^0 st_14^0)
 (l1 __const_10^post a_20^post i_13^post i_21^post rt_11^post st_14^post)
@@ -130,7 +125,6 @@
 (= rt_11^0 rt_11^post))
 (= st_14^0 st_14^post))
 )
-
 (rule
 (l6 __const_10^0 a_20^0 i_13^0 i_21^0 rt_11^0 st_14^0)
 (l0 __const_10^post a_20^post i_13^post i_21^post rt_11^post st_14^post)
@@ -145,4 +139,3 @@
 (= rt_11^0 rt_11^post))
 (= st_14^0 st_14^post))
 )
-

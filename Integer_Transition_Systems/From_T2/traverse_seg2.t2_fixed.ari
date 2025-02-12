@@ -46,7 +46,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l1
 (->
@@ -93,7 +92,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l10
 (->
@@ -140,7 +138,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l11
 (->
@@ -187,7 +184,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l12
 (->
@@ -234,7 +230,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l13
 (->
@@ -281,7 +276,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l14
 (->
@@ -328,7 +322,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l15
 (->
@@ -375,7 +368,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l16
 (->
@@ -422,7 +414,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l17
 (->
@@ -469,7 +460,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l18
 (->
@@ -516,7 +506,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l19
 (->
@@ -563,7 +552,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l2
 (->
@@ -610,7 +598,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l20
 (->
@@ -657,7 +644,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l21
 (->
@@ -704,7 +690,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l22
 (->
@@ -751,7 +736,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l23
 (->
@@ -798,7 +782,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l24
 (->
@@ -845,7 +828,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l25
 (->
@@ -892,7 +874,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l26
 (->
@@ -939,7 +920,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l27
 (->
@@ -986,7 +966,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l28
 (->
@@ -1033,7 +1012,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l29
 (->
@@ -1080,7 +1058,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l3
 (->
@@ -1127,7 +1104,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l30
 (->
@@ -1174,7 +1150,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l31
 (->
@@ -1221,7 +1196,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l32
 (->
@@ -1268,7 +1242,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l33
 (->
@@ -1315,7 +1288,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l34
 (->
@@ -1362,7 +1334,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l35
 (->
@@ -1409,7 +1380,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l36
 (->
@@ -1456,7 +1426,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l37
 (->
@@ -1503,7 +1472,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l38
 (->
@@ -1550,7 +1518,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l39
 (->
@@ -1597,7 +1564,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l4
 (->
@@ -1644,7 +1610,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l40
 (->
@@ -1691,7 +1656,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l41
 (->
@@ -1738,7 +1702,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l42
 (->
@@ -1785,7 +1748,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l43
 (->
@@ -1832,7 +1794,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l44
 (->
@@ -1879,7 +1840,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l45
 (->
@@ -1926,7 +1886,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l46
 (->
@@ -1973,7 +1932,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l47
 (->
@@ -2020,7 +1978,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l48
 (->
@@ -2067,7 +2024,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l49
 (->
@@ -2114,7 +2070,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l5
 (->
@@ -2161,7 +2116,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l50
 (->
@@ -2208,7 +2162,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l51
 (->
@@ -2255,7 +2208,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l52
 (->
@@ -2302,7 +2254,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l53
 (->
@@ -2349,7 +2300,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l54
 (->
@@ -2396,7 +2346,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l55
 (->
@@ -2443,7 +2392,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l56
 (->
@@ -2490,7 +2438,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l57
 (->
@@ -2537,7 +2484,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l58
 (->
@@ -2584,7 +2530,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l59
 (->
@@ -2631,7 +2576,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l6
 (->
@@ -2678,7 +2622,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l60
 (->
@@ -2725,7 +2668,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l61
 (->
@@ -2772,7 +2714,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l62
 (->
@@ -2819,7 +2760,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l63
 (->
@@ -2866,7 +2806,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l64
 (->
@@ -2913,7 +2852,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l65
 (->
@@ -2960,7 +2898,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l7
 (->
@@ -3007,7 +2944,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l8
 (->
@@ -3054,7 +2990,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l9
 (->
@@ -3101,7 +3036,6 @@ Int
 Int
 Int)
 )
-
 (entrypoint l65)
 (rule
 (l0
@@ -3310,7 +3244,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_18^0 y_18^post))
 )
 )
-
 (rule
 (l0
 a_118^0
@@ -3497,7 +3430,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l2
 a_118^0
@@ -3670,7 +3602,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l3
 a_118^0
@@ -3949,7 +3880,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= x_176^0 x_176^post))
 )
 )
-
 (rule
 (l3
 a_118^0
@@ -4169,7 +4099,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l6
 a_118^0
@@ -4354,7 +4283,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= x_SLAM_f_24^0 x_SLAM_f_24^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l6
 a_118^0
@@ -4531,7 +4459,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l8
 a_118^0
@@ -4706,7 +4633,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l8
 a_118^0
@@ -4881,7 +4807,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l9
 a_118^0
@@ -5070,7 +4995,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l10
 a_118^0
@@ -5245,7 +5169,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l10
 a_118^0
@@ -5420,7 +5343,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l11
 a_118^0
@@ -5595,7 +5517,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l11
 a_118^0
@@ -5770,7 +5691,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l12
 a_118^0
@@ -5945,7 +5865,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l12
 a_118^0
@@ -6120,7 +6039,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l13
 a_118^0
@@ -6307,7 +6225,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l7
 a_118^0
@@ -6480,7 +6397,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l14
 a_118^0
@@ -6661,7 +6577,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= x_SLAM_f_24^0 x_SLAM_f_24^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l15
 a_118^0
@@ -6836,7 +6751,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l15
 a_118^0
@@ -7011,7 +6925,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l16
 a_118^0
@@ -7190,7 +7103,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l14
 a_118^0
@@ -7367,7 +7279,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l17
 a_118^0
@@ -7542,7 +7453,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l17
 a_118^0
@@ -7717,7 +7627,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l18
 a_118^0
@@ -7898,7 +7807,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l19
 a_118^0
@@ -8073,7 +7981,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l19
 a_118^0
@@ -8248,7 +8155,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l20
 a_118^0
@@ -8423,7 +8329,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l20
 a_118^0
@@ -8598,7 +8503,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l21
 a_118^0
@@ -8773,7 +8677,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l21
 a_118^0
@@ -8948,7 +8851,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l22
 a_118^0
@@ -9127,7 +9029,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l23
 a_118^0
@@ -9304,7 +9205,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l24
 a_118^0
@@ -9479,7 +9379,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l24
 a_118^0
@@ -9654,7 +9553,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l25
 a_118^0
@@ -9847,7 +9745,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l26
 a_118^0
@@ -10022,7 +9919,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l26
 a_118^0
@@ -10197,7 +10093,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l27
 a_118^0
@@ -10372,7 +10267,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l27
 a_118^0
@@ -10547,7 +10441,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l28
 a_118^0
@@ -10722,7 +10615,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l28
 a_118^0
@@ -10897,7 +10789,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l29
 a_118^0
@@ -11080,7 +10971,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l30
 a_118^0
@@ -11283,7 +11173,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_25^0 y_25^post))
 )
 )
-
 (rule
 (l31
 a_118^0
@@ -11480,7 +11369,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= x_131^0 x_131^post))
 (= x_176^0 x_176^post))
 )
-
 (rule
 (l32
 a_118^0
@@ -11655,7 +11543,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l32
 a_118^0
@@ -11830,7 +11717,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l33
 a_118^0
@@ -12009,7 +11895,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l31
 a_118^0
@@ -12186,7 +12071,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l35
 a_118^0
@@ -12361,7 +12245,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l35
 a_118^0
@@ -12536,7 +12419,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l36
 a_118^0
@@ -12729,7 +12611,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l37
 a_118^0
@@ -12904,7 +12785,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l37
 a_118^0
@@ -13079,7 +12959,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l38
 a_118^0
@@ -13254,7 +13133,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l38
 a_118^0
@@ -13429,7 +13307,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l39
 a_118^0
@@ -13616,7 +13493,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l34
 a_118^0
@@ -13789,7 +13665,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l40
 a_118^0
@@ -14012,7 +13887,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= x_176^0 x_176^post))
 )
 )
-
 (rule
 (l40
 a_118^0
@@ -14186,7 +14060,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l41
 a_118^0
@@ -14361,7 +14234,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l41
 a_118^0
@@ -14536,7 +14408,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l42
 a_118^0
@@ -14727,7 +14598,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l43
 a_118^0
@@ -14902,7 +14772,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l43
 a_118^0
@@ -15077,7 +14946,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l44
 a_118^0
@@ -15280,7 +15148,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= x_131^0 x_131^post))
 (= x_176^0 x_176^post))
 )
-
 (rule
 (l45
 a_118^0
@@ -15455,7 +15322,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l45
 a_118^0
@@ -15630,7 +15496,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l46
 a_118^0
@@ -15809,7 +15674,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l47
 a_118^0
@@ -15984,7 +15848,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l47
 a_118^0
@@ -16159,7 +16022,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l48
 a_118^0
@@ -16354,7 +16216,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l49
 a_118^0
@@ -16529,7 +16390,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l49
 a_118^0
@@ -16704,7 +16564,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l50
 a_118^0
@@ -16879,7 +16738,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l50
 a_118^0
@@ -17054,7 +16912,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l51
 a_118^0
@@ -17237,7 +17094,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= x_SLAM_f_24^0 x_SLAM_f_24^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l52
 a_118^0
@@ -17412,7 +17268,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l52
 a_118^0
@@ -17587,7 +17442,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l53
 a_118^0
@@ -17792,7 +17646,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= x_131^0 x_131^post))
 (= x_176^0 x_176^post))
 )
-
 (rule
 (l54
 a_118^0
@@ -17967,7 +17820,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l54
 a_118^0
@@ -18142,7 +17994,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l55
 a_118^0
@@ -18321,7 +18172,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l53
 a_118^0
@@ -18498,7 +18348,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l56
 a_118^0
@@ -18673,7 +18522,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l56
 a_118^0
@@ -18848,7 +18696,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l57
 a_118^0
@@ -19029,7 +18876,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l58
 a_118^0
@@ -19204,7 +19050,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l58
 a_118^0
@@ -19379,7 +19224,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l59
 a_118^0
@@ -19554,7 +19398,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l59
 a_118^0
@@ -19729,7 +19572,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l60
 a_118^0
@@ -19908,7 +19750,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l1
 a_118^0
@@ -20148,7 +19989,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= x_176^0 x_176^post))
 )
 )
-
 (rule
 (l1
 a_118^0
@@ -20325,7 +20165,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l61
 a_118^0
@@ -20500,7 +20339,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l61
 a_118^0
@@ -20675,7 +20513,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l62
 a_118^0
@@ -20868,7 +20705,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l63
 a_118^0
@@ -21043,7 +20879,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l63
 a_118^0
@@ -21218,7 +21053,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l64
 a_118^0
@@ -21403,7 +21237,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l5
 a_118^0
@@ -21610,7 +21443,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_18^0 y_18^post))
 )
 )
-
 (rule
 (l5
 a_118^0
@@ -21832,7 +21664,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-
 (rule
 (l65
 a_118^0
@@ -22005,4 +21836,3 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= y_18^0 y_18^post))
 (= y_25^0 y_25^post))
 )
-

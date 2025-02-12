@@ -4,86 +4,66 @@
 (fun
 f1037_0_createNode_Return
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun f1_0_main_Load (-> Int Int Int Int Int Int Int Int Int Int Int Int))
 (fun f2045_0_random_GT (-> Int Int Int Int Int Int Int Int Int Int Int Int))
 (fun
 f243_0_main_InvokeMethod
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f2703_0_createTree_LE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f2736_0_main_InvokeMethod
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f2748_0_main_InvokeMethod
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f2820_0_createTree_NONNULL
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f2824_0_main_InvokeMethod
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f2917_0_createTree_FieldAccess
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f2969_0_createTree_LE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f3061_0_createTree_FieldAccess
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f337_0_createTree_Return
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f3774_0_lessleaves_NONNULL
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f3815_0_append_Return
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f3836_0_append_NONNULL
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4062_0_lessleaves_InvokeMethod
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4063_0_lessleaves_InvokeMethod
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f61_0_createTree_Return
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f674_0_createTree_Return
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f675_0_createTree_Return
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun f716_0_random_GT (-> Int Int Int Int Int Int Int Int Int Int Int Int))
 (fun
 f835_0_createTree_NE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11)
@@ -101,7 +81,6 @@ arg10P
 arg11P)
 :guard
 (and (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)) (= 0 arg2P)))
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11)
 (f243_0_main_InvokeMethod
@@ -118,7 +97,6 @@ arg10P
 arg11P)
 :guard
 (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)))
-
 (rule
 (f61_0_createTree_Return
 arg1
@@ -146,7 +124,6 @@ arg10P
 arg11P)
 :guard
 (and (> arg1P 0) (= 0 arg2P)))
-
 (rule
 (f243_0_main_InvokeMethod
 arg1
@@ -174,7 +151,6 @@ arg10P
 arg11P)
 :guard
 (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)))
-
 (rule
 (f337_0_createTree_Return
 arg1
@@ -217,7 +193,6 @@ arg11P)
 (> arg3P (- 1)))
 (> arg4P (- 1)))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11)
 (f2736_0_main_InvokeMethod
@@ -234,7 +209,6 @@ arg10P
 arg11P)
 :guard
 (and (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)) (> arg2P 0)))
-
 (rule
 (f674_0_createTree_Return
 arg1
@@ -277,7 +251,6 @@ arg11P)
 (= arg3 arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f243_0_main_InvokeMethod
 arg1
@@ -305,7 +278,6 @@ arg10P
 arg11P)
 :guard
 (and (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)) (> arg2P 0)))
-
 (rule
 (f675_0_createTree_Return
 arg1
@@ -346,7 +318,6 @@ arg11P)
 (<= (+ arg3 2) arg2))
 (= arg3 arg3P))
 )
-
 (rule
 (f2748_0_main_InvokeMethod
 arg1
@@ -393,7 +364,6 @@ arg11P)
 (> arg4P 0))
 (<= (+ arg3 2) arg2))
 )
-
 (rule
 (f2736_0_main_InvokeMethod
 arg1
@@ -436,7 +406,6 @@ arg11P)
 (<= (+ arg4 2) arg2))
 (= arg4 arg3P))
 )
-
 (rule
 (f2824_0_main_InvokeMethod
 arg1
@@ -489,7 +458,6 @@ arg11P)
 (<= (+ arg4 2) arg2))
 (<= (+ arg3 2) arg2))
 )
-
 (rule
 (f2736_0_main_InvokeMethod
 arg1
@@ -526,7 +494,6 @@ arg11P)
 (> arg4P 0))
 (<= (+ arg4 2) arg2))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11)
 (f716_0_random_GT
@@ -543,7 +510,6 @@ arg10P
 arg11P)
 :guard
 (and (> arg1 0) (> arg2 (- 1))))
-
 (rule
 (f243_0_main_InvokeMethod
 arg1
@@ -571,7 +537,6 @@ arg10P
 arg11P)
 :guard
 (exists ((x79 Int)) (and (> arg1 0) (> x79 (- 1)))))
-
 (rule
 (f2736_0_main_InvokeMethod
 arg1
@@ -605,7 +570,6 @@ arg11P)
 (<= (+ arg4 2) arg2))
 )
 )
-
 (rule
 (f716_0_random_GT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11)
 (f835_0_createTree_NE
@@ -628,7 +592,6 @@ arg11P)
 (= (+ x88 1) arg3P))
 )
 )
-
 (rule
 (f716_0_random_GT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11)
 (f835_0_createTree_NE
@@ -651,7 +614,6 @@ arg11P)
 (= (+ x90 1) arg3P))
 )
 )
-
 (rule
 (f1037_0_createNode_Return
 arg1
@@ -682,7 +644,6 @@ arg11P)
 (and (and (and (> arg2P 1) (> arg1P 1)) (= arg1 arg3P)) (= arg2 arg4P))
 (= arg3 arg5P))
 )
-
 (rule
 (f835_0_createTree_NE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11)
 (f2703_0_createTree_LE
@@ -706,7 +667,6 @@ arg11P)
 (= arg2 arg4P))
 (= arg3 arg5P))
 )
-
 (rule
 (f835_0_createTree_NE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11)
 (f2703_0_createTree_LE
@@ -728,7 +688,6 @@ arg11P)
 (= arg1 arg3P))
 (= arg2 arg4P))
 )
-
 (rule
 (f2703_0_createTree_LE
 arg1
@@ -785,7 +744,6 @@ arg11P)
 (= arg4 arg5P))
 (= arg5 arg6P))
 )
-
 (rule
 (f2820_0_createTree_NONNULL
 arg1
@@ -836,7 +794,6 @@ arg11P)
 (= arg5 arg4P))
 (= arg6 arg5P))
 )
-
 (rule
 (f2820_0_createTree_NONNULL
 arg1
@@ -893,7 +850,6 @@ arg11P)
 (= arg8 arg6P))
 (= arg9 arg7P))
 )
-
 (rule
 (f2820_0_createTree_NONNULL
 arg1
@@ -948,7 +904,6 @@ arg11P)
 (= arg8 arg6P))
 (= arg9 arg7P))
 )
-
 (rule
 (f2703_0_createTree_LE
 arg1
@@ -1003,7 +958,6 @@ arg11P)
 (= arg4 arg5P))
 (= (+ arg5 1) arg6P))
 )
-
 (rule
 (f2703_0_createTree_LE
 arg1
@@ -1058,7 +1012,6 @@ arg11P)
 (= arg4 arg5P))
 (= (+ arg5 1) arg6P))
 )
-
 (rule
 (f2917_0_createTree_FieldAccess
 arg1
@@ -1097,7 +1050,6 @@ arg11P)
 (= arg4 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f2917_0_createTree_FieldAccess
 arg1
@@ -1150,7 +1102,6 @@ arg11P)
 (= arg4 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f2969_0_createTree_LE
 arg1
@@ -1207,7 +1158,6 @@ arg11P)
 (= arg7 arg7P))
 (= arg8 arg8P))
 )
-
 (rule
 (f2969_0_createTree_LE
 arg1
@@ -1254,7 +1204,6 @@ arg11P)
 (= arg5 arg4P))
 (= arg6 arg5P))
 )
-
 (rule
 (f2969_0_createTree_LE
 arg1
@@ -1307,7 +1256,6 @@ arg11P)
 (= arg6 arg5P))
 (= arg7 arg6P))
 )
-
 (rule
 (f2969_0_createTree_LE
 arg1
@@ -1358,7 +1306,6 @@ arg11P)
 (= arg5 arg4P))
 (= arg7 arg6P))
 )
-
 (rule
 (f3061_0_createTree_FieldAccess
 arg1
@@ -1397,7 +1344,6 @@ arg11P)
 (= arg4 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f3061_0_createTree_FieldAccess
 arg1
@@ -1450,7 +1396,6 @@ arg11P)
 (= arg4 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f3774_0_lessleaves_NONNULL
 arg1
@@ -1501,7 +1446,6 @@ arg11P)
 (<= (+ arg5P 2) arg2))
 (<= (+ arg6P 4) arg2))
 )
-
 (rule
 (f3774_0_lessleaves_NONNULL
 arg1
@@ -1550,7 +1494,6 @@ arg11P)
 (<= (+ arg5P 2) arg2))
 (<= (+ arg6P 4) arg2))
 )
-
 (rule
 (f3774_0_lessleaves_NONNULL
 arg1
@@ -1583,7 +1526,6 @@ arg11P)
 (> arg4 0))
 (> arg1P (- 1)))
 )
-
 (rule
 (f3815_0_append_Return
 arg1
@@ -1620,7 +1562,6 @@ arg11P)
 (<= (+ arg6 4) arg1))
 (<= (+ arg6 2) arg3))
 )
-
 (rule
 (f3774_0_lessleaves_NONNULL
 arg1
@@ -1661,7 +1602,6 @@ arg11P)
 (> arg4 0))
 (> arg1P (- 1)))
 )
-
 (rule
 (f3774_0_lessleaves_NONNULL
 arg1
@@ -1722,7 +1662,6 @@ arg11P)
 (> arg3P (- 1)))
 (> arg4P (- 1)))
 )
-
 (rule
 (f3815_0_append_Return
 arg1
@@ -1773,7 +1712,6 @@ arg11P)
 (<= (+ arg6 4) arg1))
 (<= (+ arg6 2) arg3))
 )
-
 (rule
 (f3774_0_lessleaves_NONNULL
 arg1
@@ -1844,7 +1782,6 @@ arg11P)
 (<= (+ arg7P 2) arg4))
 (<= (+ arg8P 4) arg4))
 )
-
 (rule
 (f3774_0_lessleaves_NONNULL
 arg1
@@ -1909,7 +1846,6 @@ arg11P)
 (<= (+ arg7P 2) arg4))
 (<= (+ arg8P 4) arg4))
 )
-
 (rule
 (f3815_0_append_Return
 arg1
@@ -1974,7 +1910,6 @@ arg11P)
 (= arg5 arg6P))
 (= arg6 arg10P))
 )
-
 (rule
 (f3815_0_append_Return
 arg1
@@ -2037,7 +1972,6 @@ arg11P)
 (= arg5 arg6P))
 (= arg6 arg10P))
 )
-
 (rule
 (f4062_0_lessleaves_InvokeMethod
 arg1
@@ -2096,7 +2030,6 @@ arg11P)
 (<= (+ arg8 4) arg2))
 (<= (+ arg8 2) arg4))
 )
-
 (rule
 (f4063_0_lessleaves_InvokeMethod
 arg1
@@ -2159,7 +2092,6 @@ arg11P)
 (<= (+ arg10 2) arg3))
 (<= (+ arg11 2) arg4))
 )
-
 (rule
 (f835_0_createTree_NE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11)
 (f2045_0_random_GT
@@ -2179,7 +2111,6 @@ arg11P)
 (and (and (and (> arg1 0) (> arg2 (- 1))) (> arg3 0)) (= arg2 arg2P))
 (= arg3 arg3P))
 )
-
 (rule
 (f2820_0_createTree_NONNULL
 arg1
@@ -2222,7 +2153,6 @@ arg11P)
 (= arg5 arg2P))
 (= arg6 arg3P))
 )
-
 (rule
 (f2969_0_createTree_LE
 arg1
@@ -2263,7 +2193,6 @@ arg11P)
 (= arg5 arg2P))
 (= arg6 arg3P))
 )
-
 (rule
 (f3836_0_append_NONNULL
 arg1
@@ -2291,7 +2220,6 @@ arg10P
 arg11P)
 :guard
 (and (and (<= (+ arg1P 1) arg1) (> arg1 0)) (> arg1P (- 1))))
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11)
 (f1_0_main_Load
@@ -2307,4 +2235,3 @@ arg9P
 arg10P
 arg11P)
 )
-

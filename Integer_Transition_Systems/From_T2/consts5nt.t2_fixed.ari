@@ -15,22 +15,18 @@
 (<= 111 (+ 0 x^post)))
 (= y^0 y^post))
 )
-
 (rule
 (l1 x^0 y^0)
 (l0 x^post y^post)
 :guard
 (and (= x^0 x^post) (= y^0 y^post)))
-
 (rule
 (l2 x^0 y^0)
 (l0 x^post y^post)
 :guard
 (and (= y^post 3000) (= x^0 x^post)))
-
 (rule
 (l3 x^0 y^0)
 (l2 x^post y^post)
 :guard
 (and (= x^0 x^post) (= y^0 y^post)))
-

@@ -9,17 +9,14 @@
 (f41_0_main_GE arg1P)
 :guard
 (= 0 arg1P))
-
 (rule
 (f41_0_main_GE arg1)
 (f41_0_main_GE arg1P)
 :guard
 (and (< arg1 50) (= 51 arg1P)))
-
 (rule
 (f41_0_main_GE arg1)
 (f41_0_main_GE arg1P)
 :guard
 (and (> arg1 49) (= 49 arg1P)))
-
 (rule (__init arg1) (f1_0_main_ConstantStackPush arg1P))

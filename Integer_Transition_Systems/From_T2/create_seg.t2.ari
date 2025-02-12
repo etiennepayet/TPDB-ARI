@@ -3,31 +3,24 @@
 (fun
 l0
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l1
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l2
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l3
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l4
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l5
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l6
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint l6)
 (rule
 (l0
@@ -135,7 +128,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_22^post)
 (= tmp_23^0 tmp_23^post))
 )
 )
-
 (rule
 (l2
 head_16^0
@@ -232,7 +224,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_22^post)
 (= temp0_15^0 temp0_15^post))
 )
 )
-
 (rule
 (l2
 head_16^0
@@ -358,7 +349,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_22^post)
 (= temp0_15^0 temp0_15^post))
 (= temp0_20^0 temp0_20^post))
 )
-
 (rule
 (l4
 head_16^0
@@ -456,7 +446,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_22^post)
 (= temp0_15^0 temp0_15^post))
 )
 )
-
 (rule
 (l4
 head_16^0
@@ -547,7 +536,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= temp0_15^0 temp0_15^post))
 (= temp0_20^0 temp0_20^post))
 )
-
 (rule
 (l5
 head_16^0
@@ -624,7 +612,6 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= temp_26^0 temp_26^post))
 (= tmp_23^0 tmp_23^post))
 )
-
 (rule
 (l1
 head_16^0
@@ -715,7 +702,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_22^post)
 (= temp0_15^0 temp0_15^post))
 )
 )
-
 (rule
 (l1
 head_16^0
@@ -839,7 +825,6 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_22^post)
 (= temp0_15^0 temp0_15^post))
 (= temp0_20^0 temp0_20^post))
 )
-
 (rule
 (l6
 head_16^0
@@ -916,4 +901,3 @@ result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
 (= temp_26^0 temp_26^post))
 (= tmp_23^0 tmp_23^post))
 )
-

@@ -25,7 +25,6 @@
 (= WItemsNum^0 WItemsNum^post))
 (= __const_5^0 __const_5^post))
 )
-
 (rule
 (l0 WItemsNum^0 __const_5^0 tmp1^0)
 (l2 WItemsNum^post __const_5^post tmp1^post)
@@ -38,7 +37,6 @@
 (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l3 WItemsNum^0 __const_5^0 tmp1^0)
 (l4 WItemsNum^post __const_5^post tmp1^post)
@@ -47,7 +45,6 @@
 (and (= WItemsNum^0 WItemsNum^post) (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l4 WItemsNum^0 __const_5^0 tmp1^0)
 (l0 WItemsNum^post __const_5^post tmp1^post)
@@ -56,7 +53,6 @@
 (and (= WItemsNum^0 WItemsNum^post) (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l5 WItemsNum^0 __const_5^0 tmp1^0)
 (l6 WItemsNum^post __const_5^post tmp1^post)
@@ -65,7 +61,6 @@
 (and (= WItemsNum^0 WItemsNum^post) (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l7 WItemsNum^0 __const_5^0 tmp1^0)
 (l8 WItemsNum^post __const_5^post tmp1^post)
@@ -74,7 +69,6 @@
 (and (= WItemsNum^0 WItemsNum^post) (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l9 WItemsNum^0 __const_5^0 tmp1^0)
 (l10 WItemsNum^post __const_5^post tmp1^post)
@@ -83,7 +77,6 @@
 (and (= WItemsNum^0 WItemsNum^post) (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l10 WItemsNum^0 __const_5^0 tmp1^0)
 (l11 WItemsNum^post __const_5^post tmp1^post)
@@ -92,7 +85,6 @@
 (and (= WItemsNum^0 WItemsNum^post) (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l11 WItemsNum^0 __const_5^0 tmp1^0)
 (l10 WItemsNum^post __const_5^post tmp1^post)
@@ -101,7 +93,6 @@
 (and (= WItemsNum^0 WItemsNum^post) (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l6 WItemsNum^0 __const_5^0 tmp1^0)
 (l3 WItemsNum^post __const_5^post tmp1^post)
@@ -112,7 +103,6 @@
 (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l6 WItemsNum^0 __const_5^0 tmp1^0)
 (l5 WItemsNum^post __const_5^post tmp1^post)
@@ -123,7 +113,6 @@
 (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l1 WItemsNum^0 __const_5^0 tmp1^0)
 (l5 WItemsNum^post __const_5^post tmp1^post)
@@ -136,7 +125,6 @@
 (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l1 WItemsNum^0 __const_5^0 tmp1^0)
 (l2 WItemsNum^post __const_5^post tmp1^post)
@@ -147,7 +135,6 @@
 (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l1 WItemsNum^0 __const_5^0 tmp1^0)
 (l2 WItemsNum^post __const_5^post tmp1^post)
@@ -158,7 +145,6 @@
 (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l2 WItemsNum^0 __const_5^0 tmp1^0)
 (l4 WItemsNum^post __const_5^post tmp1^post)
@@ -171,7 +157,6 @@
 (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l2 WItemsNum^0 __const_5^0 tmp1^0)
 (l4 WItemsNum^post __const_5^post tmp1^post)
@@ -184,7 +169,6 @@
 (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l12 WItemsNum^0 __const_5^0 tmp1^0)
 (l3 WItemsNum^post __const_5^post tmp1^post)
@@ -198,7 +182,6 @@
 (= tmp1^0 tmp1^post))
 )
 )
-
 (rule
 (l13 WItemsNum^0 __const_5^0 tmp1^0)
 (l12 WItemsNum^post __const_5^post tmp1^post)
@@ -207,4 +190,3 @@
 (and (= WItemsNum^0 WItemsNum^post) (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
-

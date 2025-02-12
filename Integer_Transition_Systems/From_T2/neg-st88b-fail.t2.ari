@@ -25,7 +25,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l1 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l2 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -36,7 +35,6 @@
 (= __const_5^0 __const_5^post))
 (= __rho_1_^0 __rho_1_^post))
 )
-
 (rule
 (l3 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l4 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -47,7 +45,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l5 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l6 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -58,7 +55,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l7 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l8 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -69,7 +65,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l6 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l5 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -82,7 +77,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l6 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l0 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -95,7 +89,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l8 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l9 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -106,7 +99,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l9 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l8 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -117,7 +109,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l10 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l1 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -132,7 +123,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l10 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l1 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -147,7 +137,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l11 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l10 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -160,7 +149,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l11 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l5 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -173,7 +161,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l2 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l10 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -188,7 +175,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l2 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l11 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -203,7 +189,6 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-
 (rule
 (l12 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l0 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -219,7 +204,6 @@
 (= __rho_2_^0 __rho_2_^post))
 )
 )
-
 (rule
 (l13 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
 (l12 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
@@ -230,4 +214,3 @@
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
 )
-

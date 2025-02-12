@@ -18,7 +18,6 @@
 (= x^post (+ 0 x^3)))
 )
 )
-
 (rule
 (l0 x^0)
 (l2 x^post)
@@ -27,6 +26,5 @@
 ((x^1 Int))
 (and (and (<= 1 (+ 0 x^0)) (= x^1 (+ 0 x^0))) (= x^post (+ -1 x^1))))
 )
-
 (rule (l2 x^0) (l0 x^post) :guard (= x^post (+ 0 x^0)))
 (rule (l3 x^0) (l2 x^post) :guard (= x^0 x^post))

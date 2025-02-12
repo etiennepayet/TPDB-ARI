@@ -91,7 +91,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l2
 __disjvr_0^0
@@ -150,7 +149,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l4
 __disjvr_0^0
@@ -209,7 +207,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l5
 __disjvr_0^0
@@ -268,7 +265,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l6
 __disjvr_0^0
@@ -323,7 +319,6 @@ x^post)
 (= r0^0 r0^post))
 (= x^0 x^post))
 )
-
 (rule
 (l6
 __disjvr_0^0
@@ -378,7 +373,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l8
 __disjvr_0^0
@@ -433,7 +427,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l6
 __disjvr_0^0
@@ -488,7 +481,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l7
 __disjvr_0^0
@@ -545,7 +537,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l9
 __disjvr_0^0
@@ -600,7 +591,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l7
 __disjvr_0^0
@@ -655,7 +645,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l7
 __disjvr_0^0
@@ -710,7 +699,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l10
 __disjvr_0^0
@@ -765,7 +753,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l11
 __disjvr_0^0
@@ -822,7 +809,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l12
 __disjvr_0^0
@@ -877,7 +863,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l11
 __disjvr_0^0
@@ -932,7 +917,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l11
 __disjvr_0^0
@@ -987,7 +971,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l13
 __disjvr_0^0
@@ -1042,7 +1025,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l14
 __disjvr_0^0
@@ -1099,7 +1081,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l15
 __disjvr_0^0
@@ -1154,7 +1135,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l14
 __disjvr_0^0
@@ -1209,7 +1189,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l14
 __disjvr_0^0
@@ -1264,7 +1243,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l16
 __disjvr_0^0
@@ -1319,7 +1297,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l17
 __disjvr_0^0
@@ -1376,7 +1353,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l18
 __disjvr_0^0
@@ -1431,7 +1407,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l17
 __disjvr_0^0
@@ -1486,7 +1461,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l17
 __disjvr_0^0
@@ -1541,7 +1515,6 @@ x^post)
 (= r0^0 r0^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l19
 __disjvr_0^0
@@ -1598,7 +1571,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l20
 __disjvr_0^0
@@ -1653,7 +1625,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l19
 __disjvr_0^0
@@ -1708,7 +1679,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l19
 __disjvr_0^0
@@ -1763,7 +1733,6 @@ x^post)
 (= r0^0 r0^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l21
 __disjvr_0^0
@@ -1820,7 +1789,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l22
 __disjvr_0^0
@@ -1875,7 +1843,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l21
 __disjvr_0^0
@@ -1930,7 +1897,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l21
 __disjvr_0^0
@@ -1985,7 +1951,6 @@ x^post)
 (= r0^0 r0^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l23
 __disjvr_0^0
@@ -2042,7 +2007,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l24
 __disjvr_0^0
@@ -2097,7 +2061,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l23
 __disjvr_0^0
@@ -2152,7 +2115,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l23
 __disjvr_0^0
@@ -2207,7 +2169,6 @@ x^post)
 (= r0^0 r0^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l25
 __disjvr_0^0
@@ -2264,7 +2225,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l26
 __disjvr_0^0
@@ -2319,7 +2279,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l25
 __disjvr_0^0
@@ -2374,7 +2333,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l25
 __disjvr_0^0
@@ -2429,7 +2387,6 @@ x^post)
 (= r0^0 r0^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l27
 __disjvr_0^0
@@ -2486,7 +2443,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l28
 __disjvr_0^0
@@ -2541,7 +2497,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l27
 __disjvr_0^0
@@ -2596,7 +2551,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l27
 __disjvr_0^0
@@ -2651,7 +2605,6 @@ x^post)
 (= r0^0 r0^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l29
 __disjvr_0^0
@@ -2706,7 +2659,6 @@ x^post)
 (= r0^0 r0^post))
 (= x^0 x^post))
 )
-
 (rule
 (l29
 __disjvr_0^0
@@ -2761,7 +2713,6 @@ x^post)
 (= r0^0 r0^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l29
 __disjvr_0^0
@@ -2816,7 +2767,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l30
 __disjvr_0^0
@@ -2871,7 +2821,6 @@ x^post)
 (= r0^0 r0^post))
 (= x^0 x^post))
 )
-
 (rule
 (l30
 __disjvr_0^0
@@ -2926,7 +2875,6 @@ x^post)
 (= r0^0 r0^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l30
 __disjvr_0^0
@@ -2981,7 +2929,6 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l31
 __disjvr_0^0
@@ -3036,4 +2983,3 @@ x^post)
 (= x^0 x^post))
 (= x1^0 x1^post))
 )
-

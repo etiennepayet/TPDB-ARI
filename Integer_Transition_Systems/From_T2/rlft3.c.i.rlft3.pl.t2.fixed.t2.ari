@@ -27,7 +27,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l1
 (->
@@ -55,7 +54,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l10
 (->
@@ -83,7 +81,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l11
 (->
@@ -111,7 +108,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l12
 (->
@@ -139,7 +135,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l13
 (->
@@ -167,7 +162,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l14
 (->
@@ -195,7 +189,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l15
 (->
@@ -223,7 +216,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l16
 (->
@@ -251,7 +243,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l17
 (->
@@ -279,7 +270,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l18
 (->
@@ -307,7 +297,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l19
 (->
@@ -335,7 +324,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l2
 (->
@@ -363,7 +351,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l20
 (->
@@ -391,7 +378,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l21
 (->
@@ -419,7 +405,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l22
 (->
@@ -447,7 +432,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l23
 (->
@@ -475,7 +459,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l24
 (->
@@ -503,7 +486,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l25
 (->
@@ -531,7 +513,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l26
 (->
@@ -559,7 +540,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l3
 (->
@@ -587,7 +567,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l4
 (->
@@ -615,7 +594,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l5
 (->
@@ -643,7 +621,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l6
 (->
@@ -671,7 +648,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l7
 (->
@@ -699,7 +675,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l8
 (->
@@ -727,7 +702,6 @@ Int
 Int
 Int)
 )
-
 (fun
 l9
 (->
@@ -755,7 +729,6 @@ Int
 Int
 Int)
 )
-
 (entrypoint l26)
 (rule
 (l0
@@ -845,7 +818,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l2
 c1^0
@@ -936,7 +908,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l2
 c1^0
@@ -1027,7 +998,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l2
 c1^0
@@ -1120,7 +1090,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l3
 c1^0
@@ -1209,7 +1178,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l5
 c1^0
@@ -1300,7 +1268,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l6
 c1^0
@@ -1393,7 +1360,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l6
 c1^0
@@ -1484,7 +1450,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l6
 c1^0
@@ -1575,7 +1540,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l4
 c1^0
@@ -1664,7 +1628,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l8
 c1^0
@@ -1755,7 +1718,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l9
 c1^0
@@ -1844,7 +1806,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l10
 c1^0
@@ -1937,7 +1898,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l10
 c1^0
@@ -2028,7 +1988,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l10
 c1^0
@@ -2119,7 +2078,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l11
 c1^0
@@ -2210,7 +2168,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l11
 c1^0
@@ -2301,7 +2258,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l11
 c1^0
@@ -2394,7 +2350,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l12
 c1^0
@@ -2487,7 +2442,6 @@ wtemp^post)
 (= wpi^0 wpi^post))
 (= wpr^0 wpr^post))
 )
-
 (rule
 (l12
 c1^0
@@ -2578,7 +2532,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l7
 c1^0
@@ -2667,7 +2620,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l14
 c1^0
@@ -2756,7 +2708,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l14
 c1^0
@@ -2845,7 +2796,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l13
 c1^0
@@ -2934,7 +2884,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l16
 c1^0
@@ -3023,7 +2972,6 @@ wtemp^post)
 (= wpr^0 wpr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l17
 c1^0
@@ -3114,7 +3062,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l18
 c1^0
@@ -3207,7 +3154,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l18
 c1^0
@@ -3298,7 +3244,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l18
 c1^0
@@ -3389,7 +3334,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l19
 c1^0
@@ -3480,7 +3424,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l19
 c1^0
@@ -3571,7 +3514,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l15
 c1^0
@@ -3660,7 +3602,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l20
 c1^0
@@ -3751,7 +3692,6 @@ wtemp^post)
 (= wi^0 wi^post))
 (= wr^0 wr^post))
 )
-
 (rule
 (l22
 c1^0
@@ -3844,7 +3784,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l22
 c1^0
@@ -3942,7 +3881,6 @@ wtemp^post)
 (= wtemp^0 wtemp^post))
 )
 )
-
 (rule
 (l24
 c1^0
@@ -4031,7 +3969,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l25
 c1^0
@@ -4122,7 +4059,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l25
 c1^0
@@ -4213,7 +4149,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l23
 c1^0
@@ -4302,7 +4237,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l21
 c1^0
@@ -4393,7 +4327,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l21
 c1^0
@@ -4484,7 +4417,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l21
 c1^0
@@ -4577,7 +4509,6 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-
 (rule
 (l26
 c1^0
@@ -4666,4 +4597,3 @@ wtemp^post)
 (= wr^0 wr^post))
 (= wtemp^0 wtemp^post))
 )
-

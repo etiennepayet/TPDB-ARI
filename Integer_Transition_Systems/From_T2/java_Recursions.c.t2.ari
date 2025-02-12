@@ -95,7 +95,6 @@ x4^post)
 (= x3^post (+ 0 oldX8^post)))
 (= x4^post (+ 0 oldX9^post)))
 )
-
 (rule
 (l2
 oldX0^0
@@ -158,7 +157,6 @@ x4^post)
 (= x3^post (+ 0 oldX8^post)))
 (= x4^post (+ 0 oldX9^post)))
 )
-
 (rule
 (l2
 oldX0^0
@@ -221,7 +219,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l4
 oldX0^0
@@ -286,7 +283,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l4
 oldX0^0
@@ -351,7 +347,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l3
 oldX0^0
@@ -414,7 +409,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l5
 oldX0^0
@@ -477,7 +471,6 @@ x4^post)
 (= x3^post (+ 0 oldX8^post)))
 (= x4^post (+ 0 oldX9^post)))
 )
-
 (rule
 (l7
 oldX0^0
@@ -540,7 +533,6 @@ x4^post)
 (= x3^post (+ 0 oldX8^post)))
 (= x4^post (+ 0 oldX9^post)))
 )
-
 (rule
 (l9
 oldX0^0
@@ -603,7 +595,6 @@ x4^post)
 (= x3^post (+ 0 oldX8^post)))
 (= x4^post (+ 0 oldX9^post)))
 )
-
 (rule
 (l9
 oldX0^0
@@ -666,7 +657,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l11
 oldX0^0
@@ -729,7 +719,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l12
 oldX0^0
@@ -794,7 +783,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l12
 oldX0^0
@@ -859,7 +847,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l13
 oldX0^0
@@ -922,7 +909,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l14
 oldX0^0
@@ -985,7 +971,6 @@ x4^post)
 (= x3^post (+ 0 oldX8^post)))
 (= x4^post (+ 0 oldX9^post)))
 )
-
 (rule
 (l16
 oldX0^0
@@ -1048,7 +1033,6 @@ x4^post)
 (= x3^post (+ 0 oldX8^post)))
 (= x4^post (+ 0 oldX9^post)))
 )
-
 (rule
 (l16
 oldX0^0
@@ -1111,7 +1095,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l18
 oldX0^0
@@ -1176,7 +1159,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l18
 oldX0^0
@@ -1241,7 +1223,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l17
 oldX0^0
@@ -1304,7 +1285,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l19
 oldX0^0
@@ -1369,7 +1349,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l19
 oldX0^0
@@ -1434,7 +1413,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l20
 oldX0^0
@@ -1497,7 +1475,6 @@ x4^post)
 (= x3^post (+ 0 oldX8^post)))
 (= x4^post (+ 0 oldX9^post)))
 )
-
 (rule
 (l22
 oldX0^0
@@ -1560,7 +1537,6 @@ x4^post)
 (= x3^post (+ 0 oldX8^post)))
 (= x4^post (+ 0 oldX9^post)))
 )
-
 (rule
 (l22
 oldX0^0
@@ -1623,7 +1599,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l24
 oldX0^0
@@ -1688,7 +1663,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l24
 oldX0^0
@@ -1753,7 +1727,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l23
 oldX0^0
@@ -1816,7 +1789,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l25
 oldX0^0
@@ -1879,7 +1851,6 @@ x4^post)
 (= x3^post (+ 0 oldX8^post)))
 (= x4^post (+ 0 oldX9^post)))
 )
-
 (rule
 (l27
 oldX0^0
@@ -1942,7 +1913,6 @@ x4^post)
 (= x3^post (+ 0 oldX8^post)))
 (= x4^post (+ 0 oldX9^post)))
 )
-
 (rule
 (l27
 oldX0^0
@@ -2005,7 +1975,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l29
 oldX0^0
@@ -2070,7 +2039,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l29
 oldX0^0
@@ -2135,7 +2103,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l28
 oldX0^0
@@ -2198,7 +2165,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l10
 oldX0^0
@@ -2261,7 +2227,6 @@ x4^post)
 (= oldX8^0 oldX8^post))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -2324,7 +2289,6 @@ x4^post)
 (= x4^post (+ 0 oldX8^post)))
 (= oldX9^0 oldX9^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -2387,7 +2351,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -2450,7 +2413,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -2513,7 +2475,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -2576,7 +2537,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -2639,7 +2599,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -2702,7 +2661,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -2765,7 +2723,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -2828,7 +2785,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -2891,7 +2847,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -2954,7 +2909,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3017,7 +2971,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3080,7 +3033,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3143,7 +3095,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3206,7 +3157,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3269,7 +3219,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3332,7 +3281,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3395,7 +3343,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3458,7 +3405,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3521,7 +3467,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3584,7 +3529,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3647,7 +3591,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3710,7 +3653,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3773,7 +3715,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3836,7 +3777,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3899,7 +3839,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -3962,7 +3901,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -4025,7 +3963,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -4088,7 +4025,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -4151,7 +4087,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l30
 oldX0^0
@@ -4214,7 +4149,6 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-
 (rule
 (l31
 oldX0^0
@@ -4277,4 +4211,3 @@ x4^post)
 (= x3^0 x3^post))
 (= x4^0 x4^post))
 )
-

@@ -22,7 +22,6 @@
 (<= 0 (+ -1 k_243^post)))
 (= k_208^0 k_208^post))
 )
-
 (rule
 (l2 ___patmp1^0 ___patmp2^0 k_208^0 k_243^0 len_263^0)
 (l3 ___patmp1^post ___patmp2^post k_208^post k_243^post len_263^post)
@@ -35,7 +34,6 @@
 (= k_243^0 k_243^post))
 (= len_263^0 len_263^post))
 )
-
 (rule
 (l4 ___patmp1^0 ___patmp2^0 k_208^0 k_243^0 len_263^0)
 (l0 ___patmp1^post ___patmp2^post k_208^post k_243^post len_263^post)
@@ -48,4 +46,3 @@
 (= k_243^0 k_243^post))
 (= len_263^0 len_263^post))
 )
-

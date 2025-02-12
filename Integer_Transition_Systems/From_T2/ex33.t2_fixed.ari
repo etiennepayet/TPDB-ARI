@@ -21,7 +21,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l2 ___len9^0 ___val8^0 tmp10^0 tmp^0 tmp___0^0 tmp___1^0)
 (l0 ___len9^post ___val8^post tmp10^post tmp^post tmp___0^post tmp___1^post)
@@ -36,7 +35,6 @@
 (= tmp10^0 tmp10^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l3 ___len9^0 ___val8^0 tmp10^0 tmp^0 tmp___0^0 tmp___1^0)
 (l0 ___len9^post ___val8^post tmp10^post tmp^post tmp___0^post tmp___1^post)
@@ -55,7 +53,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l3 ___len9^0 ___val8^0 tmp10^0 tmp^0 tmp___0^0 tmp___1^0)
 (l2 ___len9^post ___val8^post tmp10^post tmp^post tmp___0^post tmp___1^post)
@@ -72,7 +69,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l3 ___len9^0 ___val8^0 tmp10^0 tmp^0 tmp___0^0 tmp___1^0)
 (l2 ___len9^post ___val8^post tmp10^post tmp^post tmp___0^post tmp___1^post)
@@ -89,7 +85,6 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-
 (rule
 (l4 ___len9^0 ___val8^0 tmp10^0 tmp^0 tmp___0^0 tmp___1^0)
 (l3 ___len9^post ___val8^post tmp10^post tmp^post tmp___0^post tmp___1^post)
@@ -104,7 +99,6 @@
 (= tmp10^0 tmp10^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l5 ___len9^0 ___val8^0 tmp10^0 tmp^0 tmp___0^0 tmp___1^0)
 (l4 ___len9^post ___val8^post tmp10^post tmp^post tmp___0^post tmp___1^post)
@@ -119,4 +113,3 @@
 (= tmp___0^0 tmp___0^post))
 (= tmp___1^0 tmp___1^post))
 )
-

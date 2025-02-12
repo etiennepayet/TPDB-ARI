@@ -60,7 +60,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l0
 data16^0
@@ -107,7 +106,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l2
 data16^0
@@ -154,7 +152,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l4
 data16^0
@@ -201,7 +198,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l5
 data16^0
@@ -250,7 +246,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l5
 data16^0
@@ -299,7 +294,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l5
 data16^0
@@ -348,7 +342,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l6
 data16^0
@@ -395,7 +388,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l6
 data16^0
@@ -442,7 +434,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l7
 data16^0
@@ -489,7 +480,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l8
 data16^0
@@ -540,7 +530,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l8
 data16^0
@@ -589,7 +578,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l8
 data16^0
@@ -638,7 +626,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l1
 data16^0
@@ -685,7 +672,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l10
 data16^0
@@ -732,7 +718,6 @@ val13^post)
 (= tmp^0 tmp^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l9
 data16^0
@@ -781,7 +766,6 @@ val13^post)
 (= tmp^0 tmp^post))
 (= val10^0 val10^post))
 )
-
 (rule
 (l9
 data16^0
@@ -830,7 +814,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l9
 data16^0
@@ -879,7 +862,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l11
 data16^0
@@ -926,7 +908,6 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-
 (rule
 (l12
 data16^0
@@ -973,4 +954,3 @@ val13^post)
 (= val10^0 val10^post))
 (= val13^0 val13^post))
 )
-

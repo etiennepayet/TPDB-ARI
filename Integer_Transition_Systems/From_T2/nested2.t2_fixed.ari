@@ -21,7 +21,6 @@
 (= y_28^0 y_28^post))
 (= y_33^0 y_33^post))
 )
-
 (rule
 (l1 x_13^0 x_27^0 x_32^0 y_16^0 y_28^0 y_33^0)
 (l2 x_13^post x_27^post x_32^post y_16^post y_28^post y_33^post)
@@ -40,7 +39,6 @@
 (= y_28^0 y_28^post))
 (= y_33^0 y_33^post))
 )
-
 (rule
 (l3 x_13^0 x_27^0 x_32^0 y_16^0 y_28^0 y_33^0)
 (l2 x_13^post x_27^post x_32^post y_16^post y_28^post y_33^post)
@@ -69,7 +67,6 @@
 (= x_32^0 x_32^post))
 (= y_33^0 y_33^post))
 )
-
 (rule
 (l2 x_13^0 x_27^0 x_32^0 y_16^0 y_28^0 y_33^0)
 (l1 x_13^post x_27^post x_32^post y_16^post y_28^post y_33^post)
@@ -86,7 +83,6 @@
 (= y_28^0 y_28^post))
 (= y_33^0 y_33^post))
 )
-
 (rule
 (l2 x_13^0 x_27^0 x_32^0 y_16^0 y_28^0 y_33^0)
 (l4 x_13^post x_27^post x_32^post y_16^post y_28^post y_33^post)
@@ -113,7 +109,6 @@
 (= x_27^0 x_27^post))
 (= y_28^0 y_28^post))
 )
-
 (rule
 (l4 x_13^0 x_27^0 x_32^0 y_16^0 y_28^0 y_33^0)
 (l2 x_13^post x_27^post x_32^post y_16^post y_28^post y_33^post)
@@ -126,7 +121,6 @@
 (= y_28^0 y_28^post))
 (= y_33^0 y_33^post))
 )
-
 (rule
 (l5 x_13^0 x_27^0 x_32^0 y_16^0 y_28^0 y_33^0)
 (l0 x_13^post x_27^post x_32^post y_16^post y_28^post y_33^post)
@@ -139,4 +133,3 @@
 (= y_28^0 y_28^post))
 (= y_33^0 y_33^post))
 )
-

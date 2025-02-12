@@ -75,7 +75,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l2
 __const_9^0
@@ -122,7 +121,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___2^0 tmp___2^post))
 )
-
 (rule
 (l3
 __const_9^0
@@ -173,7 +171,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___2^0 tmp___2^post))
 )
-
 (rule
 (l3
 __const_9^0
@@ -222,7 +219,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l3
 __const_9^0
@@ -271,7 +267,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l4
 __const_9^0
@@ -322,7 +317,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___2^0 tmp___2^post))
 )
-
 (rule
 (l4
 __const_9^0
@@ -371,7 +365,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l4
 __const_9^0
@@ -420,7 +413,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l5
 __const_9^0
@@ -467,7 +459,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l7
 __const_9^0
@@ -514,7 +505,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l8
 __const_9^0
@@ -561,7 +551,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l10
 __const_9^0
@@ -608,7 +597,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l11
 __const_9^0
@@ -655,7 +643,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l11
 __const_9^0
@@ -702,7 +689,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l11
 __const_9^0
@@ -749,7 +735,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l12
 __const_9^0
@@ -796,7 +781,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l12
 __const_9^0
@@ -843,7 +827,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l12
 __const_9^0
@@ -890,7 +873,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l13
 __const_9^0
@@ -941,7 +923,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l13
 __const_9^0
@@ -990,7 +971,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l13
 __const_9^0
@@ -1039,7 +1019,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l14
 __const_9^0
@@ -1086,7 +1065,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l15
 __const_9^0
@@ -1133,7 +1111,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l16
 __const_9^0
@@ -1180,7 +1157,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l16
 __const_9^0
@@ -1227,7 +1203,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l16
 __const_9^0
@@ -1274,7 +1249,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l17
 __const_9^0
@@ -1325,7 +1299,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l17
 __const_9^0
@@ -1374,7 +1347,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l17
 __const_9^0
@@ -1423,7 +1395,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l18
 __const_9^0
@@ -1470,7 +1441,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l20
 __const_9^0
@@ -1521,7 +1491,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l20
 __const_9^0
@@ -1570,7 +1539,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l20
 __const_9^0
@@ -1619,7 +1587,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l21
 __const_9^0
@@ -1668,7 +1635,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l21
 __const_9^0
@@ -1717,7 +1683,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l22
 __const_9^0
@@ -1764,7 +1729,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l23
 __const_9^0
@@ -1811,7 +1775,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l23
 __const_9^0
@@ -1858,7 +1821,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l6
 __const_9^0
@@ -1905,7 +1867,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l24
 __const_9^0
@@ -1952,7 +1913,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l24
 __const_9^0
@@ -1999,7 +1959,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l25
 __const_9^0
@@ -2050,7 +2009,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l25
 __const_9^0
@@ -2099,7 +2057,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l25
 __const_9^0
@@ -2148,7 +2105,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l19
 __const_9^0
@@ -2197,7 +2153,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l19
 __const_9^0
@@ -2246,7 +2201,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l9
 __const_9^0
@@ -2295,7 +2249,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l9
 __const_9^0
@@ -2344,7 +2297,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l26
 __const_9^0
@@ -2391,7 +2343,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l27
 __const_9^0
@@ -2438,4 +2389,3 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-

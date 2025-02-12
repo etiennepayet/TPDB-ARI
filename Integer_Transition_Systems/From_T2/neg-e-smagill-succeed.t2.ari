@@ -25,7 +25,6 @@
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l2 ___rho_1_^0 ___rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l3 ___rho_1_^post ___rho_2_^post c^post curr_serv^post resp^post servers^post)
@@ -40,7 +39,6 @@
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l4 ___rho_1_^0 ___rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l5 ___rho_1_^post ___rho_2_^post c^post curr_serv^post resp^post servers^post)
@@ -55,7 +53,6 @@
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l5 ___rho_1_^0 ___rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l4 ___rho_1_^post ___rho_2_^post c^post curr_serv^post resp^post servers^post)
@@ -70,7 +67,6 @@
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l6 ___rho_1_^0 ___rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l0 ___rho_1_^post ___rho_2_^post c^post curr_serv^post resp^post servers^post)
@@ -89,7 +85,6 @@
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l6 ___rho_1_^0 ___rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l0 ___rho_1_^post ___rho_2_^post c^post curr_serv^post resp^post servers^post)
@@ -106,7 +101,6 @@
 (= ___rho_2_^0 ___rho_2_^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l1 ___rho_1_^0 ___rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l6 ___rho_1_^post ___rho_2_^post c^post curr_serv^post resp^post servers^post)
@@ -123,7 +117,6 @@
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l1 ___rho_1_^0 ___rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l4 ___rho_1_^post ___rho_2_^post c^post curr_serv^post resp^post servers^post)
@@ -140,7 +133,6 @@
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l7 ___rho_1_^0 ___rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l4 ___rho_1_^post ___rho_2_^post c^post curr_serv^post resp^post servers^post)
@@ -157,7 +149,6 @@
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l7 ___rho_1_^0 ___rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l0 ___rho_1_^post ___rho_2_^post c^post curr_serv^post resp^post servers^post)
@@ -174,7 +165,6 @@
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l8 ___rho_1_^0 ___rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l7 ___rho_1_^post ___rho_2_^post c^post curr_serv^post resp^post servers^post)
@@ -191,7 +181,6 @@
 (= curr_serv^post (+ 0 servers^post)))
 (= ___rho_1_^0 ___rho_1_^post))
 )
-
 (rule
 (l9 ___rho_1_^0 ___rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l8 ___rho_1_^post ___rho_2_^post c^post curr_serv^post resp^post servers^post)
@@ -206,4 +195,3 @@
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-

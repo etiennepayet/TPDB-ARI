@@ -17,7 +17,6 @@
 (and (and (= x^post (+ -1 x^0)) (= y^post (+ -1 y^0))) (= i^0 i^post))
 (= j^0 j^post))
 )
-
 (rule
 (l2 i^0 j^0 x^0 y^0)
 (l3 i^post j^post x^post y^post)
@@ -30,7 +29,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l2 i^0 j^0 x^0 y^0)
 (l0 i^post j^post x^post y^post)
@@ -41,7 +39,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l2 i^0 j^0 x^0 y^0)
 (l0 i^post j^post x^post y^post)
@@ -52,7 +49,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l1 i^0 j^0 x^0 y^0)
 (l2 i^post j^post x^post y^post)
@@ -61,7 +57,6 @@
 (and (and (= i^0 i^post) (= j^0 j^post)) (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l4 i^0 j^0 x^0 y^0)
 (l5 i^post j^post x^post y^post)
@@ -70,7 +65,6 @@
 (and (and (= i^0 i^post) (= j^0 j^post)) (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l3 i^0 j^0 x^0 y^0)
 (l4 i^post j^post x^post y^post)
@@ -81,7 +75,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l3 i^0 j^0 x^0 y^0)
 (l4 i^post j^post x^post y^post)
@@ -92,7 +85,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l3 i^0 j^0 x^0 y^0)
 (l4 i^post j^post x^post y^post)
@@ -107,7 +99,6 @@
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l6 i^0 j^0 x^0 y^0)
 (l1 i^post j^post x^post y^post)
@@ -116,7 +107,6 @@
 (and (and (= x^post (+ 0 i^0)) (= y^post (+ 0 j^0))) (= i^0 i^post))
 (= j^0 j^post))
 )
-
 (rule
 (l7 i^0 j^0 x^0 y^0)
 (l6 i^post j^post x^post y^post)
@@ -125,4 +115,3 @@
 (and (and (= i^0 i^post) (= j^0 j^post)) (= x^0 x^post))
 (= y^0 y^post))
 )
-

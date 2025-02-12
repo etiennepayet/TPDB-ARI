@@ -81,7 +81,6 @@ z_10^post)
 (= z_10^0 z_10^post))
 )
 )
-
 (rule
 (l0
 Result_4^0
@@ -151,7 +150,6 @@ z_10^post)
 (= z_10^0 z_10^post))
 )
 )
-
 (rule
 (l3
 Result_4^0
@@ -212,7 +210,6 @@ z_10^post)
 (= y_9^0 y_9^post))
 (= z_10^0 z_10^post))
 )
-
 (rule
 (l3
 Result_4^0
@@ -273,7 +270,6 @@ z_10^post)
 (= y_9^0 y_9^post))
 (= z_10^0 z_10^post))
 )
-
 (rule
 (l2
 Result_4^0
@@ -338,7 +334,6 @@ z_10^post)
 (= y_9^0 y_9^post))
 (= z_10^0 z_10^post))
 )
-
 (rule
 (l6
 Result_4^0
@@ -410,7 +405,6 @@ z_10^post)
 (= z_10^0 z_10^post))
 )
 )
-
 (rule
 (l6
 Result_4^0
@@ -471,7 +465,6 @@ z_10^post)
 (= y_9^0 y_9^post))
 (= z_10^0 z_10^post))
 )
-
 (rule
 (l1
 Result_4^0
@@ -532,7 +525,6 @@ z_10^post)
 (= y_9^0 y_9^post))
 (= z_10^0 z_10^post))
 )
-
 (rule
 (l7
 Result_4^0
@@ -591,7 +583,6 @@ z_10^post)
 (= x_8^0 x_8^post))
 (= z_10^0 z_10^post))
 )
-
 (rule
 (l5
 Result_4^0
@@ -663,7 +654,6 @@ z_10^post)
 (= z_10^0 z_10^post))
 )
 )
-
 (rule
 (l5
 Result_4^0
@@ -724,7 +714,6 @@ z_10^post)
 (= y_9^0 y_9^post))
 (= z_10^0 z_10^post))
 )
-
 (rule
 (l8
 Result_4^0
@@ -783,7 +772,6 @@ z_10^post)
 (= y_9^0 y_9^post))
 (= z_10^0 z_10^post))
 )
-
 (rule
 (l9
 Result_4^0
@@ -851,7 +839,6 @@ z_10^post)
 (= z_10^0 z_10^post))
 )
 )
-
 (rule
 (l10
 Result_4^0
@@ -921,7 +908,6 @@ z_10^post)
 (= z_10^0 z_10^post))
 )
 )
-
 (rule
 (l10
 Result_4^0
@@ -989,7 +975,6 @@ z_10^post)
 (= z_10^0 z_10^post))
 )
 )
-
 (rule
 (l11
 Result_4^0
@@ -1057,7 +1042,6 @@ z_10^post)
 (= z_10^0 z_10^post))
 )
 )
-
 (rule
 (l12
 Result_4^0
@@ -1116,4 +1100,3 @@ z_10^post)
 (= y_9^0 y_9^post))
 (= z_10^0 z_10^post))
 )
-

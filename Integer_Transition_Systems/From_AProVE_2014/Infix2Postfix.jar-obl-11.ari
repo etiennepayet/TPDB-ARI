@@ -4,18 +4,15 @@
 (fun
 f1944_0_buildExpression_GT
 (-> Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun f1999_0_toPostfix_NULL (-> Int Int Int Int Int Int Int Int Int Int Int))
 (fun f1_0_main_Load (-> Int Int Int Int Int Int Int Int Int Int Int))
 (fun
 f2554_0_buildExpression_GE
 (-> Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun f2578_0_toPostfix_NULL (-> Int Int Int Int Int Int Int Int Int Int Int))
 (fun
 f2651_0_buildExpression_GT
 (-> Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
@@ -43,7 +40,6 @@ arg10P)
 (= 1 arg3P))
 (= arg2 arg4P))
 )
-
 (rule
 (f1944_0_buildExpression_GT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f2554_0_buildExpression_GE
@@ -74,7 +70,6 @@ arg10P)
 (= 1 arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f1944_0_buildExpression_GT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f2651_0_buildExpression_GT
@@ -121,7 +116,6 @@ arg10P)
 (= 98 arg9P))
 (= 41 arg10P))
 )
-
 (rule
 (f2554_0_buildExpression_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f2554_0_buildExpression_GE
@@ -152,7 +146,6 @@ arg10P)
 (= (+ arg3 1) arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f2651_0_buildExpression_GT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1944_0_buildExpression_GT
@@ -193,7 +186,6 @@ arg10P)
 (= (+ arg3 1) arg3P))
 (= arg5 arg4P))
 )
-
 (rule
 (f1944_0_buildExpression_GT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f2651_0_buildExpression_GT
@@ -240,7 +232,6 @@ arg10P)
 (= 98 arg9P))
 (= 41 arg10P))
 )
-
 (rule
 (f2651_0_buildExpression_GT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1944_0_buildExpression_GT
@@ -281,7 +272,6 @@ arg10P)
 (= (+ arg3 1) arg3P))
 (= arg5 arg4P))
 )
-
 (rule
 (f2554_0_buildExpression_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1999_0_toPostfix_NULL
@@ -318,7 +308,6 @@ arg10P)
 (> arg3P (- 1)))
 (> arg4P (- 1)))
 )
-
 (rule
 (f1999_0_toPostfix_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1999_0_toPostfix_NULL
@@ -357,7 +346,6 @@ arg10P)
 (> arg3P (- 1)))
 (> arg4P (- 1)))
 )
-
 (rule
 (f1999_0_toPostfix_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f2578_0_toPostfix_NULL
@@ -380,7 +368,6 @@ arg10P)
 (> arg4 (- 1)))
 (> arg1P (- 1)))
 )
-
 (rule
 (f1999_0_toPostfix_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1999_0_toPostfix_NULL
@@ -421,7 +408,6 @@ arg10P)
 (> arg3P (- 1)))
 (> arg4P (- 1)))
 )
-
 (rule
 (f1999_0_toPostfix_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1999_0_toPostfix_NULL
@@ -462,7 +448,6 @@ arg10P)
 (> arg3P (- 1)))
 (> arg4P (- 1)))
 )
-
 (rule
 (f1999_0_toPostfix_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1999_0_toPostfix_NULL
@@ -503,7 +488,6 @@ arg10P)
 (> arg3P (- 1)))
 (> arg4P (- 1)))
 )
-
 (rule
 (f1999_0_toPostfix_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1999_0_toPostfix_NULL
@@ -544,7 +528,6 @@ arg10P)
 (> arg3P (- 1)))
 (> arg4P (- 1)))
 )
-
 (rule
 (f1999_0_toPostfix_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1999_0_toPostfix_NULL
@@ -586,7 +569,6 @@ arg10P)
 (> arg4P (- 1)))
 )
 )
-
 (rule
 (f1999_0_toPostfix_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1999_0_toPostfix_NULL
@@ -628,7 +610,6 @@ arg10P)
 (> arg4P (- 1)))
 )
 )
-
 (rule
 (f1999_0_toPostfix_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1999_0_toPostfix_NULL
@@ -667,7 +648,6 @@ arg10P)
 (> arg3P 45))
 (> arg4P (- 1)))
 )
-
 (rule
 (f1999_0_toPostfix_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1999_0_toPostfix_NULL
@@ -706,7 +686,6 @@ arg10P)
 (> arg3P 47))
 (> arg4P (- 1)))
 )
-
 (rule
 (f1999_0_toPostfix_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1999_0_toPostfix_NULL
@@ -745,7 +724,6 @@ arg10P)
 (> arg3P 0))
 (> arg4P (- 1)))
 )
-
 (rule
 (f2578_0_toPostfix_NULL arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f2578_0_toPostfix_NULL
@@ -761,8 +739,6 @@ arg9P
 arg10P)
 :guard
 (and (and (<= (+ arg1P 1) arg1) (> arg1 0)) (> arg1P (- 1))))
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P arg9P arg10P))
-

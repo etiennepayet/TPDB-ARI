@@ -27,7 +27,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l0 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l2 i2^post j3^post k4^post l5^post x1^post)
@@ -40,7 +39,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l3 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l0 i2^post j3^post k4^post l5^post x1^post)
@@ -51,7 +49,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l2 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l4 i2^post j3^post k4^post l5^post x1^post)
@@ -62,7 +59,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l1 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l5 i2^post j3^post k4^post l5^post x1^post)
@@ -73,7 +69,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l6 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l7 i2^post j3^post k4^post l5^post x1^post)
@@ -84,7 +79,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l8 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l9 i2^post j3^post k4^post l5^post x1^post)
@@ -95,7 +89,6 @@
 (= k4^0 k4^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l9 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l10 i2^post j3^post k4^post l5^post x1^post)
@@ -106,7 +99,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l11 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l8 i2^post j3^post k4^post l5^post x1^post)
@@ -117,7 +109,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l11 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l1 i2^post j3^post k4^post l5^post x1^post)
@@ -128,7 +119,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l11 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l8 i2^post j3^post k4^post l5^post x1^post)
@@ -139,7 +129,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l10 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l6 i2^post j3^post k4^post l5^post x1^post)
@@ -152,7 +141,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l10 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l11 i2^post j3^post k4^post l5^post x1^post)
@@ -165,7 +153,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l7 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l2 i2^post j3^post k4^post l5^post x1^post)
@@ -178,7 +165,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l7 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l9 i2^post j3^post k4^post l5^post x1^post)
@@ -191,7 +177,6 @@
 (= k4^0 k4^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l4 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l3 i2^post j3^post k4^post l5^post x1^post)
@@ -204,7 +189,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l4 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l6 i2^post j3^post k4^post l5^post x1^post)
@@ -217,7 +201,6 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-
 (rule
 (l12 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l3 i2^post j3^post k4^post l5^post x1^post)
@@ -228,7 +211,6 @@
 (= k4^0 k4^post))
 (= l5^0 l5^post))
 )
-
 (rule
 (l13 i2^0 j3^0 k4^0 l5^0 x1^0)
 (l12 i2^post j3^post k4^post l5^post x1^post)
@@ -239,4 +221,3 @@
 (= l5^0 l5^post))
 (= x1^0 x1^post))
 )
-

@@ -37,7 +37,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l0 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l2 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -56,7 +55,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l3 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l0 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -73,7 +71,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l4 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l0 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -94,7 +91,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l4 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l3 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -113,7 +109,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l4 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l3 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -132,7 +127,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l5 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l4 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -151,7 +145,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l5 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l4 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -170,7 +163,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l5 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l6 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -191,7 +183,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l6 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l7 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -208,7 +199,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l8 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l9 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -227,7 +217,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l8 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l6 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -246,7 +235,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l10 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l8 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -263,7 +251,6 @@
 (= n^0 n^post))
 (= r^0 r^post))
 )
-
 (rule
 (l11 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l10 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -282,7 +269,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l11 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l10 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -301,7 +287,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l11 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l10 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -320,7 +305,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l9 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l5 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -337,7 +321,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l12 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l10 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -356,7 +339,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l12 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l10 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -375,7 +357,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l12 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l11 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -396,7 +377,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l1 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l6 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -415,7 +395,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l1 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l12 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -434,7 +413,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l13 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l9 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -453,7 +431,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l13 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l6 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -472,7 +449,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l14 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l13 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -489,7 +465,6 @@
 (= n^0 n^post))
 (= r^0 r^post))
 )
-
 (rule
 (l15 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l14 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -508,7 +483,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l15 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l14 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -527,7 +501,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l15 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l14 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -546,7 +519,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l2 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l14 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -565,7 +537,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l2 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l14 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -584,7 +555,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l2 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l15 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -605,7 +575,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l16 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l9 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -620,7 +589,6 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-
 (rule
 (l17 __const_255^0 c^0 d^0 f^0 n^0 r^0 s^0)
 (l16 __const_255^post c^post d^post f^post n^post r^post s^post)
@@ -637,4 +605,3 @@
 (= r^0 r^post))
 (= s^0 s^post))
 )
-

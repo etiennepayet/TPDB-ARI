@@ -18,7 +18,6 @@
 (= 0 arg2P))
 (= arg2 arg3P))
 )
-
 (rule
 (f101_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9)
 (f255_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P arg9P)
@@ -33,7 +32,6 @@
 (= (* 2 arg2) arg4P))
 (= arg3 arg5P))
 )
-
 (rule
 (f255_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9)
 (f101_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P arg9P)
@@ -48,7 +46,6 @@
 (= (+ arg2 1) arg2P))
 (= arg5 arg3P))
 )
-
 (rule
 (f255_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9)
 (f292_0_main_LT arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P arg9P)
@@ -71,7 +68,6 @@
 (= (+ arg2 arg3) arg5P))
 (= arg5 arg6P))
 )
-
 (rule
 (f292_0_main_LT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9)
 (f255_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P arg9P)
@@ -86,7 +82,6 @@
 (= arg3 arg4P))
 (= arg6 arg5P))
 )
-
 (rule
 (f292_0_main_LT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9)
 (f422_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P arg9P)
@@ -117,7 +112,6 @@
 (= (+ (+ (* 2 arg2) (* 3 arg4)) (* 4 arg5)) arg7P))
 (= arg6 arg8P))
 )
-
 (rule
 (f422_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9)
 (f292_0_main_LT arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P arg9P)
@@ -134,7 +128,6 @@
 (= (- arg5 1) arg5P))
 (= arg8 arg6P))
 )
-
 (rule
 (f422_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9)
 (f448_0_main_LT arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P arg9P)
@@ -171,7 +164,6 @@
 (= (+ (+ (+ (* 1000 arg2) (* 100 arg4)) (* 10 arg5)) arg6) arg8P))
 (= arg8 arg9P))
 )
-
 (rule
 (f448_0_main_LT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9)
 (f422_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P arg9P)
@@ -192,7 +184,6 @@
 (= arg6 arg7P))
 (= arg9 arg8P))
 )
-
 (rule
 (f448_0_main_LT arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9)
 (f448_0_main_LT arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P arg9P)
@@ -215,7 +206,6 @@
 (= (- arg8 1) arg8P))
 (= arg9 arg9P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9)
 (f1_0_main_ConstantStackPush
@@ -229,4 +219,3 @@ arg7P
 arg8P
 arg9P)
 )
-

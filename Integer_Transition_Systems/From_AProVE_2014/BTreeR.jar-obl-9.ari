@@ -14,7 +14,6 @@
 (f480_0_main_InvokeMethod arg1P arg2P arg3P)
 :guard
 (and (and (> arg1 0) (> arg1P 2)) (= 0 arg2)))
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f480_0_main_InvokeMethod arg1P arg2P arg3P)
@@ -23,7 +22,6 @@
 (and (and (<= (- arg1P 1) arg1) (> arg1 0)) (> arg1P 1))
 (= 0 arg2))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f481_0_main_InvokeMethod arg1P arg2P arg3P)
@@ -32,7 +30,6 @@
 ((x6 Int))
 (and (and (and (> arg1 0) (> x6 (- 1))) (> arg1P 2)) (= 1 arg2)))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f481_0_main_InvokeMethod arg1P arg2P arg3P)
@@ -46,7 +43,6 @@
 (= 1 arg2))
 )
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f482_0_main_InvokeMethod arg1P arg2P arg3P)
@@ -66,7 +62,6 @@
 (> arg2P 2))
 )
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f482_0_main_InvokeMethod arg1P arg2P arg3P)
@@ -88,13 +83,11 @@
 (> arg2P 1))
 )
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f193_0__init__LE arg1P arg2P arg3P)
 :guard
 (and (and (> arg1 0) (= 0 arg2)) (= 10 arg1P)))
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f193_0__init__LE arg1P arg2P arg3P)
@@ -103,7 +96,6 @@
 ((x69 Int))
 (and (and (and (> arg1 0) (> x69 (- 1))) (= 1 arg2)) (= 10 arg1P)))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
 (f193_0__init__LE arg1P arg2P arg3P)
@@ -119,13 +111,11 @@
 (= (+ (* x27 x28) 10) arg1P))
 )
 )
-
 (rule
 (f193_0__init__LE arg1 arg2 arg3)
 (f193_0__init__LE arg1P arg2P arg3P)
 :guard
 (and (and (> arg1 1) (< (- arg1 1) arg1)) (= (- arg1 1) arg1P)))
-
 (rule
 (f193_0__init__LE arg1 arg2 arg3)
 (f518_0__init__InvokeMethod arg1P arg2P arg3P)
@@ -134,7 +124,6 @@
 (and (and (< (- arg1 1) arg1) (> arg1P 4)) (> arg1 1))
 (= (- arg1 1) arg2P))
 )
-
 (rule
 (f193_0__init__LE arg1 arg2 arg3)
 (f518_0__init__InvokeMethod arg1P arg2P arg3P)
@@ -143,13 +132,11 @@
 (and (and (< (- arg1 1) arg1) (> arg1P 3)) (> arg1 1))
 (= (- arg1 1) arg2P))
 )
-
 (rule
 (f518_0__init__InvokeMethod arg1 arg2 arg3)
 (f193_0__init__LE arg1P arg2P arg3P)
 :guard
 (and (and (> arg1 2) (> arg2 0)) (= arg2 arg1P)))
-
 (rule
 (f480_0_main_InvokeMethod arg1 arg2 arg3)
 (f388_0_height_NONNULL arg1P arg2P arg3P)
@@ -160,7 +147,6 @@
 (> arg1P 0))
 (> arg2P (- 1)))
 )
-
 (rule
 (f481_0_main_InvokeMethod arg1 arg2 arg3)
 (f388_0_height_NONNULL arg1P arg2P arg3P)
@@ -171,7 +157,6 @@
 (> arg1P 0))
 (> arg2P (- 1)))
 )
-
 (rule
 (f482_0_main_InvokeMethod arg1 arg2 arg3)
 (f388_0_height_NONNULL arg1P arg2P arg3P)
@@ -189,7 +174,6 @@
 (> arg2P (- 1)))
 )
 )
-
 (rule
 (f388_0_height_NONNULL arg1 arg2 arg3)
 (f388_0_height_NONNULL arg1P arg2P arg3P)
@@ -206,7 +190,6 @@
 (> arg1P 0))
 (> arg2P (- 1)))
 )
-
 (rule
 (f388_0_height_NONNULL arg1 arg2 arg3)
 (f388_0_height_NONNULL arg1P arg2P arg3P)
@@ -219,5 +202,4 @@
 (> arg1P 0))
 (> arg2P (- 1)))
 )
-
 (rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))

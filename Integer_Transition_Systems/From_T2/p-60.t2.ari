@@ -29,7 +29,6 @@ x_6^post)
 (= i_5^0 i_5^post))
 (= x_6^0 x_6^post))
 )
-
 (rule
 (l0 Result_4^0 __cil_tmp4_8^0 __const_100^0 __retres3_7^0 i_5^0 x_6^0)
 (l2
@@ -54,7 +53,6 @@ x_6^post)
 (= __retres3_7^0 __retres3_7^post))
 (= x_6^0 x_6^post))
 )
-
 (rule
 (l2 Result_4^0 __cil_tmp4_8^0 __const_100^0 __retres3_7^0 i_5^0 x_6^0)
 (l0
@@ -75,7 +73,6 @@ x_6^post)
 (= i_5^0 i_5^post))
 (= x_6^0 x_6^post))
 )
-
 (rule
 (l3 Result_4^0 __cil_tmp4_8^0 __const_100^0 __retres3_7^0 i_5^0 x_6^0)
 (l4
@@ -96,7 +93,6 @@ x_6^post)
 (= __retres3_7^0 __retres3_7^post))
 (= x_6^0 x_6^post))
 )
-
 (rule
 (l4 Result_4^0 __cil_tmp4_8^0 __const_100^0 __retres3_7^0 i_5^0 x_6^0)
 (l1
@@ -121,7 +117,6 @@ x_6^post)
 (= i_5^0 i_5^post))
 (= x_6^0 x_6^post))
 )
-
 (rule
 (l4 Result_4^0 __cil_tmp4_8^0 __const_100^0 __retres3_7^0 i_5^0 x_6^0)
 (l0
@@ -146,7 +141,6 @@ x_6^post)
 (= __retres3_7^0 __retres3_7^post))
 (= x_6^0 x_6^post))
 )
-
 (rule
 (l5 Result_4^0 __cil_tmp4_8^0 __const_100^0 __retres3_7^0 i_5^0 x_6^0)
 (l3
@@ -167,4 +161,3 @@ x_6^post)
 (= i_5^0 i_5^post))
 (= x_6^0 x_6^post))
 )
-

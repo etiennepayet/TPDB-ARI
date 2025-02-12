@@ -27,7 +27,6 @@
 (= 0 arg2P))
 (= arg2 arg3P))
 )
-
 (rule
 (f452_0_main_GE arg1 arg2 arg3 arg4)
 (|f452_0_main_GE'| arg1P arg2P arg3P arg4P)
@@ -45,7 +44,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (|f452_0_main_GE'| arg1 arg2 arg3 arg4)
 (f276_0_sin_GT arg1P arg2P arg3P arg4P)
@@ -65,7 +63,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (f452_0_main_GE arg1 arg2 arg3 arg4)
 (|f452_0_main_GE'| arg1P arg2P arg3P arg4P)
@@ -85,7 +82,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (|f452_0_main_GE'| arg1 arg2 arg3 arg4)
 (f307_0_cos_GT arg1P arg2P arg3P arg4P)
@@ -111,7 +107,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (f452_0_main_GE arg1 arg2 arg3 arg4)
 (|f452_0_main_GE'| arg1P arg2P arg3P arg4P)
@@ -133,7 +128,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (|f452_0_main_GE'| arg1 arg2 arg3 arg4)
 (f342_0_exp_GT arg1P arg2P arg3P arg4P)
@@ -163,7 +157,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (f452_0_main_GE arg1 arg2 arg3 arg4)
 (|f452_0_main_GE'| arg1P arg2P arg3P arg4P)
@@ -189,7 +182,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (|f452_0_main_GE'| arg1 arg2 arg3 arg4)
 (f697_0_main_GE arg1P arg2P arg3P arg4P)
@@ -223,7 +215,6 @@
 (= arg3 arg4P))
 )
 )
-
 (rule
 (f697_0_main_GE arg1 arg2 arg3 arg4)
 (f697_0_main_GE arg1P arg2P arg3P arg4P)
@@ -236,7 +227,6 @@
 (= (+ arg3 1) arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f452_0_main_GE arg1 arg2 arg3 arg4)
 (f452_0_main_GE arg1P arg2P arg3P arg4P)
@@ -249,7 +239,6 @@
 (= 1 arg2P))
 (= arg3 arg3P))
 )
-
 (rule
 (f697_0_main_GE arg1 arg2 arg3 arg4)
 (f452_0_main_GE arg1P arg2P arg3P arg4P)
@@ -262,7 +251,6 @@
 (= (+ arg2 1) arg2P))
 (= arg4 arg3P))
 )
-
 (rule
 (f452_0_main_GE arg1 arg2 arg3 arg4)
 (|f452_0_main_GE'| arg1P arg2P arg3P arg4P)
@@ -288,7 +276,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (|f452_0_main_GE'| arg1 arg2 arg3 arg4)
 (f452_0_main_GE arg1P arg2P arg3P arg4P)
@@ -322,7 +309,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (f452_0_main_GE arg1 arg2 arg3 arg4)
 (|f452_0_main_GE'| arg1P arg2P arg3P arg4P)
@@ -346,7 +332,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (|f452_0_main_GE'| arg1 arg2 arg3 arg4)
 (f452_0_main_GE arg1P arg2P arg3P arg4P)
@@ -376,7 +361,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (f452_0_main_GE arg1 arg2 arg3 arg4)
 (|f452_0_main_GE'| arg1P arg2P arg3P arg4P)
@@ -398,7 +382,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (|f452_0_main_GE'| arg1 arg2 arg3 arg4)
 (f452_0_main_GE arg1P arg2P arg3P arg4P)
@@ -422,13 +405,11 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (f276_0_sin_GT arg1 arg2 arg3 arg4)
 (f345_0_power_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (and (> arg2 0) (> arg1 0)) (= arg2 arg1P)))
-
 (rule
 (f276_0_sin_GT arg1 arg2 arg3 arg4)
 (f566_0_sin_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -439,13 +420,11 @@
 (= arg1 arg2P))
 (= (+ (* 2 arg2) 1) arg3P))
 )
-
 (rule
 (f566_0_sin_InvokeMethod arg1 arg2 arg3 arg4)
 (f345_0_power_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (and (and (> arg2 0) (> arg3 1)) (> arg1 0)) (= arg3 arg1P)))
-
 (rule
 (f566_0_sin_InvokeMethod arg1 arg2 arg3 arg4)
 (f453_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -454,7 +433,6 @@
 (and (and (and (> arg2 0) (> arg1 0)) (> (* 2 arg1) 0)) (> arg3 1))
 (= (+ (* 2 arg1) 1) arg1P))
 )
-
 (rule
 (f566_0_sin_InvokeMethod arg1 arg2 arg3 arg4)
 (|f566_0_sin_InvokeMethod'| arg1P arg2P arg3P arg4P)
@@ -469,7 +447,6 @@
 (= arg2 arg2P))
 (= arg3 arg3P))
 )
-
 (rule
 (|f566_0_sin_InvokeMethod'| arg1 arg2 arg3 arg4)
 (f276_0_sin_GT arg1P arg2P arg3P arg4P)
@@ -489,13 +466,11 @@
 (= (- arg1 1) arg2P))
 )
 )
-
 (rule
 (f307_0_cos_GT arg1 arg2 arg3 arg4)
 (f345_0_power_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (and (> arg2 0) (> arg1 0)) (= arg2 arg1P)))
-
 (rule
 (f307_0_cos_GT arg1 arg2 arg3 arg4)
 (f552_0_cos_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -504,13 +479,11 @@
 (and (and (and (> arg2 0) (> arg1 0)) (= arg2 arg1P)) (= arg1 arg2P))
 (= (* 2 arg2) arg3P))
 )
-
 (rule
 (f552_0_cos_InvokeMethod arg1 arg2 arg3 arg4)
 (f345_0_power_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (and (and (> arg3 1) (> arg2 0)) (> arg1 0)) (= arg3 arg1P)))
-
 (rule
 (f552_0_cos_InvokeMethod arg1 arg2 arg3 arg4)
 (f453_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -519,7 +492,6 @@
 (and (and (and (> arg2 0) (> arg1 0)) (> (* 2 arg1) 1)) (> arg3 1))
 (= (* 2 arg1) arg1P))
 )
-
 (rule
 (f552_0_cos_InvokeMethod arg1 arg2 arg3 arg4)
 (|f552_0_cos_InvokeMethod'| arg1P arg2P arg3P arg4P)
@@ -534,7 +506,6 @@
 (= arg2 arg2P))
 (= arg3 arg3P))
 )
-
 (rule
 (|f552_0_cos_InvokeMethod'| arg1 arg2 arg3 arg4)
 (f307_0_cos_GT arg1P arg2P arg3P arg4P)
@@ -554,13 +525,11 @@
 (= (- arg1 1) arg2P))
 )
 )
-
 (rule
 (f342_0_exp_GT arg1 arg2 arg3 arg4)
 (f345_0_power_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (and (> arg2 0) (> arg1 0)) (= arg2 arg1P)))
-
 (rule
 (f638_0_exp_InvokeMethod arg1 arg2 arg3 arg4)
 (f342_0_exp_GT arg1P arg2P arg3P arg4P)
@@ -569,31 +538,26 @@
 (and (and (and (< arg3 arg1) (> arg2 0)) (> arg1 0)) (= arg2 arg1P))
 (= arg3 arg2P))
 )
-
 (rule
 (f345_0_power_GT arg1 arg2 arg3 arg4)
 (f345_0_power_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (> arg1 0) (= (- arg1 1) arg1P)))
-
 (rule
 (f453_0_fact_GT arg1 arg2 arg3 arg4)
 (f453_0_fact_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (and (> arg1 0) (< (- arg1 1) arg1)) (= (- arg1 1) arg1P)))
-
 (rule
 (f342_0_exp_GT arg1 arg2 arg3 arg4)
 (f453_0_fact_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (and (> arg2 0) (> arg1 0)) (= arg2 arg1P)))
-
 (rule
 (f342_0_exp_GT arg1 arg2 arg3 arg4)
 (|f342_0_exp_GT'| arg1P arg2P arg3P arg4P)
 :guard
 (and (and (and (> arg2 0) (> arg1 0)) (= arg1 arg1P)) (= arg2 arg2P)))
-
 (rule
 (|f342_0_exp_GT'| arg1 arg2 arg3 arg4)
 (f638_0_exp_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -611,13 +575,11 @@
 (= (- arg2 1) arg3P))
 )
 )
-
 (rule
 (f342_0_exp_GT arg1 arg2 arg3 arg4)
 (|f342_0_exp_GT'| arg1P arg2P arg3P arg4P)
 :guard
 (and (and (and (> arg1 0) (> arg2 0)) (= arg1 arg1P)) (= arg2 arg2P)))
-
 (rule
 (|f342_0_exp_GT'| arg1 arg2 arg3 arg4)
 (f638_0_exp_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -635,8 +597,6 @@
 (= (- arg2 1) arg3P))
 )
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4)
 (f1_0_main_ConstantStackPush arg1P arg2P arg3P arg4P))
-

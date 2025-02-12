@@ -19,7 +19,6 @@
 (= 0 arg4P))
 (= arg2 arg5P))
 )
-
 (rule
 (f221_0_generate_GE arg1 arg2 arg3 arg4 arg5)
 (f221_0_generate_GE arg1P arg2P arg3P arg4P arg5P)
@@ -36,7 +35,6 @@
 (= (- arg5 1) arg3P))
 (= arg5 arg5P))
 )
-
 (rule
 (f221_0_generate_GE arg1 arg2 arg3 arg4 arg5)
 (f348_0_duplicate_EQ arg1P arg2P arg3P arg4P arg5P)
@@ -45,13 +43,11 @@
 (and (and (and (<= arg3 arg2) (> arg4 0)) (> arg2P arg4)) (> arg1 0))
 (= 1 arg1P))
 )
-
 (rule
 (f221_0_generate_GE arg1 arg2 arg3 arg4 arg5)
 (f348_0_duplicate_EQ arg1P arg2P arg3P arg4P arg5P)
 :guard
 (and (and (and (> arg1 0) (<= arg3 arg2)) (= 1 arg1P)) (= 1 arg2P)))
-
 (rule
 (f348_0_duplicate_EQ arg1 arg2 arg3 arg4 arg5)
 (f348_0_duplicate_EQ arg1P arg2P arg3P arg4P arg5P)
@@ -65,7 +61,6 @@
 (= 1 arg1P))
 )
 )
-
 (rule
 (f348_0_duplicate_EQ arg1 arg2 arg3 arg4 arg5)
 (f348_0_duplicate_EQ arg1P arg2P arg3P arg4P arg5P)
@@ -77,7 +72,6 @@
 (= 1 arg2P))
 )
 )
-
 (rule
 (f348_0_duplicate_EQ arg1 arg2 arg3 arg4 arg5)
 (f348_0_duplicate_EQ arg1P arg2P arg3P arg4P arg5P)
@@ -95,7 +89,6 @@
 (= 0 arg2P))
 )
 )
-
 (rule
 (f348_0_duplicate_EQ arg1 arg2 arg3 arg4 arg5)
 (f348_0_duplicate_EQ arg1P arg2P arg3P arg4P arg5P)
@@ -107,8 +100,6 @@
 (= 2 arg2P))
 )
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P))
-

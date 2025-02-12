@@ -23,7 +23,6 @@
 (= st_15^0 st_15^post))
 (= x_14^0 x_14^post))
 )
-
 (rule
 (l2 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l4 b_16^post rt_11^post st_15^post x_14^post)
@@ -36,7 +35,6 @@
 (= st_15^0 st_15^post))
 (= x_14^0 x_14^post))
 )
-
 (rule
 (l2 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l4 b_16^post rt_11^post st_15^post x_14^post)
@@ -49,7 +47,6 @@
 (= st_15^0 st_15^post))
 (= x_14^0 x_14^post))
 )
-
 (rule
 (l4 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l3 b_16^post rt_11^post st_15^post x_14^post)
@@ -64,7 +61,6 @@
 (= rt_11^0 rt_11^post))
 (= st_15^0 st_15^post))
 )
-
 (rule
 (l1 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l5 b_16^post rt_11^post st_15^post x_14^post)
@@ -79,7 +75,6 @@
 (= st_15^0 st_15^post))
 (= x_14^0 x_14^post))
 )
-
 (rule
 (l1 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l6 b_16^post rt_11^post st_15^post x_14^post)
@@ -92,7 +87,6 @@
 (= st_15^0 st_15^post))
 (= x_14^0 x_14^post))
 )
-
 (rule
 (l1 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l6 b_16^post rt_11^post st_15^post x_14^post)
@@ -105,7 +99,6 @@
 (= st_15^0 st_15^post))
 (= x_14^0 x_14^post))
 )
-
 (rule
 (l6 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l3 b_16^post rt_11^post st_15^post x_14^post)
@@ -120,7 +113,6 @@
 (= rt_11^0 rt_11^post))
 (= st_15^0 st_15^post))
 )
-
 (rule
 (l7 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l5 b_16^post rt_11^post st_15^post x_14^post)
@@ -135,7 +127,6 @@
 (= st_15^0 st_15^post))
 (= x_14^0 x_14^post))
 )
-
 (rule
 (l7 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l8 b_16^post rt_11^post st_15^post x_14^post)
@@ -148,7 +139,6 @@
 (= st_15^0 st_15^post))
 (= x_14^0 x_14^post))
 )
-
 (rule
 (l7 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l8 b_16^post rt_11^post st_15^post x_14^post)
@@ -161,7 +151,6 @@
 (= st_15^0 st_15^post))
 (= x_14^0 x_14^post))
 )
-
 (rule
 (l8 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l9 b_16^post rt_11^post st_15^post x_14^post)
@@ -174,7 +163,6 @@
 (= st_15^0 st_15^post))
 (= x_14^0 x_14^post))
 )
-
 (rule
 (l8 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l9 b_16^post rt_11^post st_15^post x_14^post)
@@ -187,7 +175,6 @@
 (= st_15^0 st_15^post))
 (= x_14^0 x_14^post))
 )
-
 (rule
 (l9 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l1 b_16^post rt_11^post st_15^post x_14^post)
@@ -203,7 +190,6 @@
 (= st_15^0 st_15^post))
 )
 )
-
 (rule
 (l3 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l7 b_16^post rt_11^post st_15^post x_14^post)
@@ -214,7 +200,6 @@
 (= rt_11^0 rt_11^post))
 (= st_15^0 st_15^post))
 )
-
 (rule
 (l10 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l7 b_16^post rt_11^post st_15^post x_14^post)
@@ -225,7 +210,6 @@
 (= rt_11^0 rt_11^post))
 (= st_15^0 st_15^post))
 )
-
 (rule
 (l11 b_16^0 rt_11^0 st_15^0 x_14^0)
 (l0 b_16^post rt_11^post st_15^post x_14^post)
@@ -236,4 +220,3 @@
 (= st_15^0 st_15^post))
 (= x_14^0 x_14^post))
 )
-

@@ -247,7 +247,6 @@ z^post)
 (= n^0 n^post))
 )
 )
-
 (rule
 (l1 c1^0 c2^0 m^0 max^0 n^0 pi^0 pos^0 seq^0 wpos^0 z^0)
 (l0
@@ -278,7 +277,6 @@ z^post)
 (= wpos^0 wpos^post))
 (= z^0 z^post))
 )
-
 (rule
 (l2 c1^0 c2^0 m^0 max^0 n^0 pi^0 pos^0 seq^0 wpos^0 z^0)
 (l0
@@ -340,7 +338,6 @@ z^post)
 (= c2^0 c2^post))
 )
 )
-
 (rule
 (l3 c1^0 c2^0 m^0 max^0 n^0 pi^0 pos^0 seq^0 wpos^0 z^0)
 (l2
@@ -371,4 +368,3 @@ z^post)
 (= wpos^0 wpos^post))
 (= z^0 z^post))
 )
-

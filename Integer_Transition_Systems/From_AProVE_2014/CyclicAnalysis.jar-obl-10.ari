@@ -27,7 +27,6 @@
 (> arg3P 3))
 (= 0 arg5P))
 )
-
 (rule
 (f165_0_appendNewList_LE arg1 arg2 arg3 arg4 arg5)
 (f200_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -45,7 +44,6 @@
 (> arg1P 4))
 )
 )
-
 (rule
 (f165_0_appendNewList_LE arg1 arg2 arg3 arg4 arg5)
 (f200_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
@@ -62,7 +60,6 @@
 (> arg3 3))
 (> arg1P 6))
 )
-
 (rule
 (f165_0_appendNewList_LE arg1 arg2 arg3 arg4 arg5)
 (f165_0_appendNewList_LE arg1P arg2P arg3P arg4P arg5P)
@@ -87,7 +84,6 @@
 (> arg3P 2))
 (= (- arg4 1) arg4P))
 )
-
 (rule
 (f165_0_appendNewList_LE arg1 arg2 arg3 arg4 arg5)
 (f165_0_appendNewList_LE arg1P arg2P arg3P arg4P arg5P)
@@ -124,7 +120,6 @@
 (= (- arg4 1) arg4P))
 (= 1 arg5P))
 )
-
 (rule
 (f200_0_random_ArrayAccess arg1 arg2 arg3 arg4 arg5)
 (f314_0_appendNewList_LE arg1P arg2P arg3P arg4P arg5P)
@@ -137,7 +132,6 @@
 (> arg1P 3))
 (= 0 arg3P))
 )
-
 (rule
 (f314_0_appendNewList_LE arg1 arg2 arg3 arg4 arg5)
 (f314_0_appendNewList_LE arg1P arg2P arg3P arg4P arg5P)
@@ -148,7 +142,6 @@
 (> arg1P 2))
 (= (- arg2 1) arg2P))
 )
-
 (rule
 (f314_0_appendNewList_LE arg1 arg2 arg3 arg4 arg5)
 (f314_0_appendNewList_LE arg1P arg2P arg3P arg4P arg5P)
@@ -161,7 +154,6 @@
 (= (- arg2 1) arg2P))
 (= 1 arg3P))
 )
-
 (rule
 (f314_0_appendNewList_LE arg1 arg2 arg3 arg4 arg5)
 (f387_0_length_NULL arg1P arg2P arg3P arg4P arg5P)
@@ -170,14 +162,11 @@
 (and (and (<= (+ arg1P 2) arg1) (< arg2 2)) (> arg1 2))
 (> arg1P 0))
 )
-
 (rule
 (f387_0_length_NULL arg1 arg2 arg3 arg4 arg5)
 (f387_0_length_NULL arg1P arg2P arg3P arg4P arg5P)
 :guard
 (and (and (<= (+ arg1P 1) arg1) (> arg1 0)) (> arg1P (- 1))))
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P))
-

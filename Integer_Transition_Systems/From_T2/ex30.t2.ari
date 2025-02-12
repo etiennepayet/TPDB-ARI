@@ -22,7 +22,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l2 i10^0 i13^0 n12^0 n9^0 n^0 tmp^0 tmp___0^0)
 (l3 i10^post i13^post n12^post n9^post n^post tmp^post tmp___0^post)
@@ -41,7 +40,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l2 i10^0 i13^0 n12^0 n9^0 n^0 tmp^0 tmp___0^0)
 (l4 i10^post i13^post n12^post n9^post n^post tmp^post tmp___0^post)
@@ -60,7 +58,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l4 i10^0 i13^0 n12^0 n9^0 n^0 tmp^0 tmp___0^0)
 (l2 i10^post i13^post n12^post n9^post n^post tmp^post tmp___0^post)
@@ -75,7 +72,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l1 i10^0 i13^0 n12^0 n9^0 n^0 tmp^0 tmp___0^0)
 (l4 i10^post i13^post n12^post n9^post n^post tmp^post tmp___0^post)
@@ -94,7 +90,6 @@
 (= n9^0 n9^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l1 i10^0 i13^0 n12^0 n9^0 n^0 tmp^0 tmp___0^0)
 (l0 i10^post i13^post n12^post n9^post n^post tmp^post tmp___0^post)
@@ -113,7 +108,6 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l5 i10^0 i13^0 n12^0 n9^0 n^0 tmp^0 tmp___0^0)
 (l0 i10^post i13^post n12^post n9^post n^post tmp^post tmp___0^post)
@@ -128,7 +122,6 @@
 (= n12^0 n12^post))
 (= tmp___0^0 tmp___0^post))
 )
-
 (rule
 (l6 i10^0 i13^0 n12^0 n9^0 n^0 tmp^0 tmp___0^0)
 (l5 i10^post i13^post n12^post n9^post n^post tmp^post tmp___0^post)
@@ -143,4 +136,3 @@
 (= tmp^0 tmp^post))
 (= tmp___0^0 tmp___0^post))
 )
-

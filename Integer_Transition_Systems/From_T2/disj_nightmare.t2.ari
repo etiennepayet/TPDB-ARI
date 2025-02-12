@@ -3,79 +3,60 @@
 (fun
 l0
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l1
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l10
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l11
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l12
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l13
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l14
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l15
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l16
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l17
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l18
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l2
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l3
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l4
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l5
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l6
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l7
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l8
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 l9
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint l18)
 (rule
 (l0
@@ -147,7 +128,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l1
 __disjvr_0^0
@@ -220,7 +200,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l3
 __disjvr_0^0
@@ -293,7 +272,6 @@ y^post)
 (= __disjvr_9^0 __disjvr_9^post))
 (= y^0 y^post))
 )
-
 (rule
 (l4
 __disjvr_0^0
@@ -366,7 +344,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l5
 __disjvr_0^0
@@ -439,7 +416,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l6
 __disjvr_0^0
@@ -512,7 +488,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l7
 __disjvr_0^0
@@ -585,7 +560,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l8
 __disjvr_0^0
@@ -658,7 +632,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l9
 __disjvr_0^0
@@ -731,7 +704,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l10
 __disjvr_0^0
@@ -804,7 +776,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l11
 __disjvr_0^0
@@ -877,7 +848,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l12
 __disjvr_0^0
@@ -950,7 +920,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l13
 __disjvr_0^0
@@ -1023,7 +992,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l14
 __disjvr_0^0
@@ -1096,7 +1064,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l15
 __disjvr_0^0
@@ -1169,7 +1136,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l16
 __disjvr_0^0
@@ -1242,7 +1208,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l17
 __disjvr_0^0
@@ -1315,7 +1280,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l2
 __disjvr_0^0
@@ -1386,7 +1350,6 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-
 (rule
 (l18
 __disjvr_0^0
@@ -1457,4 +1420,3 @@ y^post)
 (= x^0 x^post))
 (= y^0 y^post))
 )
-

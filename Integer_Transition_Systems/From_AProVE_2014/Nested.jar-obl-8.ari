@@ -10,23 +10,19 @@
 (f139_0_main_GE arg1P arg2P)
 :guard
 (= 0 arg1P))
-
 (rule
 (f139_0_main_GE arg1 arg2)
 (f169_0_main_GE arg1P arg2P)
 :guard
 (and (and (< arg1 10) (= arg1 arg1P)) (= 3 arg2P)))
-
 (rule
 (f169_0_main_GE arg1 arg2)
 (f139_0_main_GE arg1P arg2P)
 :guard
 (and (> arg2 11) (= (+ arg1 1) arg1P)))
-
 (rule
 (f169_0_main_GE arg1 arg2)
 (f169_0_main_GE arg1P arg2P)
 :guard
 (and (and (< arg2 12) (= arg1 arg1P)) (= (+ arg2 1) arg2P)))
-
 (rule (__init arg1 arg2) (f1_0_main_ConstantStackPush arg1P arg2P))

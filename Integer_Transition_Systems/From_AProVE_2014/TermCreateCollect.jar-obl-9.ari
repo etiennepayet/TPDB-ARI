@@ -21,7 +21,6 @@
 (> arg2P 3))
 )
 )
-
 (rule
 (f1220_0_create_Return arg1 arg2 arg3 arg4 arg5)
 (f2311_0_getVariables_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -46,7 +45,6 @@
 (= arg4 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
 (f804_0_create_GT arg1P arg2P arg3P arg4P arg5P)
@@ -55,7 +53,6 @@
 (and (and (and (> arg1P (- 1)) (> arg2 0)) (> arg1 0)) (= arg2 arg2P))
 (= 1 arg3P))
 )
-
 (rule
 (f804_0_create_GT arg1 arg2 arg3 arg4 arg5)
 (f2072_0_create_GE arg1P arg2P arg3P arg4P arg5P)
@@ -72,7 +69,6 @@
 (= arg2 arg4P))
 (= (+ arg3 1) arg5P))
 )
-
 (rule
 (f2072_0_create_GE arg1 arg2 arg3 arg4 arg5)
 (f804_0_create_GT arg1P arg2P arg3P arg4P arg5P)
@@ -87,7 +83,6 @@
 (= arg4 arg2P))
 (= arg5 arg3P))
 )
-
 (rule
 (f2072_0_create_GE arg1 arg2 arg3 arg4 arg5)
 (f2072_0_create_GE arg1P arg2P arg3P arg4P arg5P)
@@ -104,7 +99,6 @@
 (= arg3 arg3P))
 (= arg4 arg4P))
 )
-
 (rule
 (f2311_0_getVariables_InvokeMethod arg1 arg2 arg3 arg4 arg5)
 (f2992_0_collectVariables_NULL arg1P arg2P arg3P arg4P arg5P)
@@ -132,7 +126,6 @@
 (= arg3 arg3P))
 )
 )
-
 (rule
 (f2992_0_collectVariables_NULL arg1 arg2 arg3 arg4 arg5)
 (f2992_0_collectVariables_NULL arg1P arg2P arg3P arg4P arg5P)
@@ -149,7 +142,6 @@
 (> arg2P (- 1)))
 (= arg3 arg3P))
 )
-
 (rule
 (f2992_0_collectVariables_NULL arg1 arg2 arg3 arg4 arg5)
 (f2992_0_collectVariables_NULL arg1P arg2P arg3P arg4P arg5P)
@@ -162,7 +154,6 @@
 (> arg2P (- 1)))
 (= arg3 arg3P))
 )
-
 (rule
 (f2992_0_collectVariables_NULL arg1 arg2 arg3 arg4 arg5)
 (f2992_0_collectVariables_NULL arg1P arg2P arg3P arg4P arg5P)
@@ -175,8 +166,6 @@
 (> arg2P (- 1)))
 (= arg3 arg3P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P))
-

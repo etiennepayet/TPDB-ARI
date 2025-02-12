@@ -13,19 +13,16 @@
 (l1 len^post tmp^post)
 :guard
 (and (= len^post (+ 1 len^0)) (= tmp^0 tmp^post)))
-
 (rule
 (l2 len^0 tmp^0)
 (l0 len^post tmp^post)
 :guard
 (and (and (<= 5 (+ 0 len^0)) (= len^0 len^post)) (= tmp^0 tmp^post)))
-
 (rule
 (l2 len^0 tmp^0)
 (l0 len^post tmp^post)
 :guard
 (and (and (<= (+ 1 len^0) 4) (= len^0 len^post)) (= tmp^0 tmp^post)))
-
 (rule
 (l2 len^0 tmp^0)
 (l0 len^post tmp^post)
@@ -34,7 +31,6 @@
 (and (and (<= (+ 0 len^0) 4) (<= 4 (+ 0 len^0))) (= len^post 0))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l3 len^0 tmp^0)
 (l4 len^post tmp^post)
@@ -43,34 +39,28 @@
 (and (and (<= (+ 0 tmp^0) 0) (<= 0 (+ 0 tmp^0))) (= len^0 len^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l3 len^0 tmp^0)
 (l2 len^post tmp^post)
 :guard
 (and (and (<= 1 (+ 0 tmp^0)) (= len^0 len^post)) (= tmp^0 tmp^post)))
-
 (rule
 (l3 len^0 tmp^0)
 (l2 len^post tmp^post)
 :guard
 (and (and (<= (+ 1 tmp^0) 0) (= len^0 len^post)) (= tmp^0 tmp^post)))
-
 (rule
 (l1 len^0 tmp^0)
 (l3 len^post tmp^post)
 :guard
 (and (= tmp^post tmp^post) (= len^0 len^post)))
-
 (rule
 (l5 len^0 tmp^0)
 (l1 len^post tmp^post)
 :guard
 (and (= len^post 0) (= tmp^0 tmp^post)))
-
 (rule
 (l6 len^0 tmp^0)
 (l5 len^post tmp^post)
 :guard
 (and (= len^0 len^post) (= tmp^0 tmp^post)))
-

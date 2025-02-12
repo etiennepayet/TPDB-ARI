@@ -23,7 +23,6 @@
 (= dobreak^0 dobreak^post))
 (= n^0 n^post))
 )
-
 (rule
 (l2 A^0 R^0 ___rho_1_^0 ___rho_2_^0 dobreak^0 n^0)
 (l3 A^post R^post ___rho_1_^post ___rho_2_^post dobreak^post n^post)
@@ -36,7 +35,6 @@
 (= dobreak^0 dobreak^post))
 (= n^0 n^post))
 )
-
 (rule
 (l4 A^0 R^0 ___rho_1_^0 ___rho_2_^0 dobreak^0 n^0)
 (l5 A^post R^post ___rho_1_^post ___rho_2_^post dobreak^post n^post)
@@ -49,7 +47,6 @@
 (= dobreak^0 dobreak^post))
 (= n^0 n^post))
 )
-
 (rule
 (l6 A^0 R^0 ___rho_1_^0 ___rho_2_^0 dobreak^0 n^0)
 (l7 A^post R^post ___rho_1_^post ___rho_2_^post dobreak^post n^post)
@@ -62,7 +59,6 @@
 (= dobreak^0 dobreak^post))
 (= n^0 n^post))
 )
-
 (rule
 (l7 A^0 R^0 ___rho_1_^0 ___rho_2_^0 dobreak^0 n^0)
 (l6 A^post R^post ___rho_1_^post ___rho_2_^post dobreak^post n^post)
@@ -75,7 +71,6 @@
 (= dobreak^0 dobreak^post))
 (= n^0 n^post))
 )
-
 (rule
 (l3 A^0 R^0 ___rho_1_^0 ___rho_2_^0 dobreak^0 n^0)
 (l2 A^post R^post ___rho_1_^post ___rho_2_^post dobreak^post n^post)
@@ -90,7 +85,6 @@
 (= dobreak^0 dobreak^post))
 (= n^0 n^post))
 )
-
 (rule
 (l3 A^0 R^0 ___rho_1_^0 ___rho_2_^0 dobreak^0 n^0)
 (l0 A^post R^post ___rho_1_^post ___rho_2_^post dobreak^post n^post)
@@ -110,7 +104,6 @@
 (= n^0 n^post))
 )
 )
-
 (rule
 (l1 A^0 R^0 ___rho_1_^0 ___rho_2_^0 dobreak^0 n^0)
 (l2 A^post R^post ___rho_1_^post ___rho_2_^post dobreak^post n^post)
@@ -130,7 +123,6 @@
 (= dobreak^0 dobreak^post))
 )
 )
-
 (rule
 (l1 A^0 R^0 ___rho_1_^0 ___rho_2_^0 dobreak^0 n^0)
 (l6 A^post R^post ___rho_1_^post ___rho_2_^post dobreak^post n^post)
@@ -145,7 +137,6 @@
 (= dobreak^0 dobreak^post))
 (= n^0 n^post))
 )
-
 (rule
 (l8 A^0 R^0 ___rho_1_^0 ___rho_2_^0 dobreak^0 n^0)
 (l0 A^post R^post ___rho_1_^post ___rho_2_^post dobreak^post n^post)
@@ -158,7 +149,6 @@
 (= ___rho_2_^0 ___rho_2_^post))
 (= n^0 n^post))
 )
-
 (rule
 (l9 A^0 R^0 ___rho_1_^0 ___rho_2_^0 dobreak^0 n^0)
 (l8 A^post R^post ___rho_1_^post ___rho_2_^post dobreak^post n^post)
@@ -171,4 +161,3 @@
 (= dobreak^0 dobreak^post))
 (= n^0 n^post))
 )
-

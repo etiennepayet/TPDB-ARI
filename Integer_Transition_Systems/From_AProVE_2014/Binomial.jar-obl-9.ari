@@ -17,7 +17,6 @@
 (= 0 arg2P))
 (= arg2 arg3P))
 )
-
 (rule
 (f179_0_main_GT arg1 arg2 arg3 arg4)
 (f535_0_main_GT arg1P arg2P arg3P arg4P)
@@ -34,7 +33,6 @@
 (= 0 arg3P))
 (= arg3 arg4P))
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (f179_0_main_GT arg1P arg2P arg3P arg4P)
@@ -49,7 +47,6 @@
 (= (+ arg2 1) arg2P))
 (= arg4 arg3P))
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (f350_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -60,7 +57,6 @@
 (> arg1 0))
 (= arg3 arg1P))
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (f350_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -69,7 +65,6 @@
 (and (and (and (>= arg4 arg2) (>= arg4 arg3)) (<= arg3 arg2)) (> arg1 0))
 (= arg2 arg1P))
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (f350_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -85,7 +80,6 @@
 (= arg2 arg1P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (f350_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -96,7 +90,6 @@
 (= 0 arg2))
 (= arg3 arg1P))
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (f350_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -112,7 +105,6 @@
 (= arg3 arg1P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (f350_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -130,7 +122,6 @@
 (= arg3 arg1P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (f350_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -152,7 +143,6 @@
 (= (- arg3 arg2) arg1P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (f350_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -163,7 +153,6 @@
 (= 0 arg2))
 (= (- 0 arg3) arg1P))
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (f350_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -181,7 +170,6 @@
 (= (- 0 arg3) arg1P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (f350_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -203,7 +191,6 @@
 (= (- arg2 arg3) arg1P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (f350_0_fact_GT arg1P arg2P arg3P arg4P)
@@ -225,7 +212,6 @@
 (= (- arg2 arg3) arg1P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (|f535_0_main_GT'| arg1P arg2P arg3P arg4P)
@@ -251,7 +237,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (|f535_0_main_GT'| arg1 arg2 arg3 arg4)
 (f535_0_main_GT arg1P arg2P arg3P arg4P)
@@ -279,7 +264,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (|f535_0_main_GT'| arg1P arg2P arg3P arg4P)
@@ -301,7 +285,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (|f535_0_main_GT'| arg1 arg2 arg3 arg4)
 (f535_0_main_GT arg1P arg2P arg3P arg4P)
@@ -325,7 +308,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (|f535_0_main_GT'| arg1P arg2P arg3P arg4P)
@@ -353,7 +335,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (|f535_0_main_GT'| arg1 arg2 arg3 arg4)
 (f535_0_main_GT arg1P arg2P arg3P arg4P)
@@ -383,7 +364,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (|f535_0_main_GT'| arg1P arg2P arg3P arg4P)
@@ -411,7 +391,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (|f535_0_main_GT'| arg1 arg2 arg3 arg4)
 (f535_0_main_GT arg1P arg2P arg3P arg4P)
@@ -441,7 +420,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (|f535_0_main_GT'| arg1P arg2P arg3P arg4P)
@@ -475,7 +453,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (|f535_0_main_GT'| arg1 arg2 arg3 arg4)
 (f535_0_main_GT arg1P arg2P arg3P arg4P)
@@ -511,7 +488,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (|f535_0_main_GT'| arg1P arg2P arg3P arg4P)
@@ -545,7 +521,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (|f535_0_main_GT'| arg1 arg2 arg3 arg4)
 (f535_0_main_GT arg1P arg2P arg3P arg4P)
@@ -581,7 +556,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (f535_0_main_GT arg1 arg2 arg3 arg4)
 (|f535_0_main_GT'| arg1P arg2P arg3P arg4P)
@@ -615,7 +589,6 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (|f535_0_main_GT'| arg1 arg2 arg3 arg4)
 (f535_0_main_GT arg1P arg2P arg3P arg4P)
@@ -651,14 +624,11 @@
 (= arg4 arg4P))
 )
 )
-
 (rule
 (f350_0_fact_GT arg1 arg2 arg3 arg4)
 (f350_0_fact_GT arg1P arg2P arg3P arg4P)
 :guard
 (and (and (> arg1 0) (< (- arg1 1) arg1)) (= (- arg1 1) arg1P)))
-
 (rule
 (__init arg1 arg2 arg3 arg4)
 (f1_0_main_ConstantStackPush arg1P arg2P arg3P arg4P))
-

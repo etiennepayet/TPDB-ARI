@@ -16,7 +16,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (|f1_0_main_Load'| arg1 arg2)
 (f126_0_test_LE arg1P arg2P)
@@ -32,11 +31,9 @@
 (= (- x6 (* 100 x7)) arg1P))
 )
 )
-
 (rule
 (f126_0_test_LE arg1 arg2)
 (f126_0_test_LE arg1P arg2P)
 :guard
 (and (> arg1 0) (= (- arg1 1) arg1P)))
-
 (rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2P))

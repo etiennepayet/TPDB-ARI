@@ -34,7 +34,6 @@ servers^post)
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l2 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l3
@@ -58,7 +57,6 @@ servers^post)
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l4 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l5
@@ -82,7 +80,6 @@ servers^post)
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l5 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l4
@@ -106,7 +103,6 @@ servers^post)
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l6 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l0
@@ -134,7 +130,6 @@ servers^post)
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l6 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l0
@@ -160,7 +155,6 @@ servers^post)
 (= __rho_2_^0 __rho_2_^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l1 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l6
@@ -186,7 +180,6 @@ servers^post)
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l1 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l4
@@ -212,7 +205,6 @@ servers^post)
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l7 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l4
@@ -238,7 +230,6 @@ servers^post)
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l7 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l0
@@ -264,7 +255,6 @@ servers^post)
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-
 (rule
 (l8 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l7
@@ -290,7 +280,6 @@ servers^post)
 (= __const_5^0 __const_5^post))
 (= __rho_1_^0 __rho_1_^post))
 )
-
 (rule
 (l9 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
 (l8
@@ -314,4 +303,3 @@ servers^post)
 (= resp^0 resp^post))
 (= servers^0 servers^post))
 )
-

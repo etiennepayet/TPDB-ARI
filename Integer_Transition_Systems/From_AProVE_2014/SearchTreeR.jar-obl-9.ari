@@ -23,7 +23,6 @@
 (= 0 arg3P))
 (= 2 arg5P))
 )
-
 (rule
 (f672_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6)
 (f672_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -57,7 +56,6 @@
 (= (+ arg5 1) arg5P))
 )
 )
-
 (rule
 (f672_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6)
 (f672_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -91,7 +89,6 @@
 (= (+ arg5 1) arg5P))
 )
 )
-
 (rule
 (f672_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6)
 (f672_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -125,7 +122,6 @@
 (= (+ arg5 1) arg5P))
 )
 )
-
 (rule
 (f672_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6)
 (f672_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -159,7 +155,6 @@
 (= (+ arg5 1) arg5P))
 )
 )
-
 (rule
 (f672_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6)
 (f765_0_insert_GT arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -185,7 +180,6 @@
 (= arg6 arg3P))
 )
 )
-
 (rule
 (f765_0_insert_GT arg1 arg2 arg3 arg4 arg5 arg6)
 (f765_0_insert_GT arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -200,7 +194,6 @@
 (<= (+ arg3P 4) arg1))
 (= arg2 arg2P))
 )
-
 (rule
 (f765_0_insert_GT arg1 arg2 arg3 arg4 arg5 arg6)
 (f765_0_insert_GT arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -215,8 +208,6 @@
 (<= (+ arg3P 4) arg1))
 (= arg2 arg2P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P))
-

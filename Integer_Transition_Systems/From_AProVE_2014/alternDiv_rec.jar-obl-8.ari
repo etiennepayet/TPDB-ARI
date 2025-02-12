@@ -9,7 +9,6 @@
 (f50_0_loop_EQ arg1P arg2P)
 :guard
 (and (and (> arg1 0) (> arg2 (- 1))) (= arg2 arg1P)))
-
 (rule
 (f50_0_loop_EQ arg1 arg2)
 (f50_0_loop_EQ arg1P arg2P)
@@ -18,7 +17,6 @@
 (and (and (and (< arg1 2) (< arg1 0)) (< 0 (* (- 1) arg1))) (< arg1 1))
 (= (+ (* (- 1) arg1) 1) arg1P))
 )
-
 (rule
 (f50_0_loop_EQ arg1 arg2)
 (f50_0_loop_EQ arg1P arg2P)
@@ -27,5 +25,4 @@
 (and (> arg1 0) (> 2 (* (- 1) arg1)))
 (= (- (* (- 1) arg1) 1) arg1P))
 )
-
 (rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2P))

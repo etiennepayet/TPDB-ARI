@@ -10,7 +10,6 @@
 (f375_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
 :guard
 (and (and (= 0 arg1P) (= 0 arg2P)) (= 0 arg3P)))
-
 (rule
 (f375_0_dif_GE arg1 arg2 arg3 arg4 arg5)
 (f484_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
@@ -23,7 +22,6 @@
 (= 0 arg4P))
 (= 0 arg5P))
 )
-
 (rule
 (f484_0_dif_GE arg1 arg2 arg3 arg4 arg5)
 (f375_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
@@ -34,7 +32,6 @@
 (= (+ arg2 1) arg2P))
 (= (+ arg2 1) arg3P))
 )
-
 (rule
 (f484_0_dif_GE arg1 arg2 arg3 arg4 arg5)
 (f375_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
@@ -45,7 +42,6 @@
 (= (+ arg2 1) arg2P))
 (= (+ arg2 1) arg3P))
 )
-
 (rule
 (f484_0_dif_GE arg1 arg2 arg3 arg4 arg5)
 (f484_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
@@ -67,7 +63,6 @@
 (= (+ arg4 1) arg5P))
 )
 )
-
 (rule
 (f484_0_dif_GE arg1 arg2 arg3 arg4 arg5)
 (f484_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
@@ -89,7 +84,6 @@
 (= (+ arg4 1) arg5P))
 )
 )
-
 (rule
 (f484_0_dif_GE arg1 arg2 arg3 arg4 arg5)
 (f375_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
@@ -104,7 +98,6 @@
 (= (+ arg2 1) arg2P))
 (= (+ arg2 1) arg3P))
 )
-
 (rule
 (f484_0_dif_GE arg1 arg2 arg3 arg4 arg5)
 (f484_0_dif_GE arg1P arg2P arg3P arg4P arg5P)
@@ -121,8 +114,6 @@
 (= arg4 arg4P))
 (= arg4 arg5P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
 (f1_0_main_ConstantStackPush arg1P arg2P arg3P arg4P arg5P))
-

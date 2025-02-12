@@ -28,7 +28,6 @@
 (and (and (<= 100 (+ 0 i^0)) (= i^post 0)) (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l0 i2^0 i^0 r^0)
 (l2 i2^post i^post r^post)
@@ -37,73 +36,61 @@
 (and (and (<= (+ 1 i^0) 100) (= i2^post (+ 0 i^0))) (= i^0 i^post))
 (= r^0 r^post))
 )
-
 (rule
 (l3 i2^0 i^0 r^0)
 (l1 i2^post i^post r^post)
 :guard
 (and (and (= i^post (+ 1 i^0)) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l4 i2^0 i^0 r^0)
 (l5 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l5 i2^0 i^0 r^0)
 (l3 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l6 i2^0 i^0 r^0)
 (l0 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l7 i2^0 i^0 r^0)
 (l4 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l7 i2^0 i^0 r^0)
 (l4 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l7 i2^0 i^0 r^0)
 (l5 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l8 i2^0 i^0 r^0)
 (l7 i2^post i^post r^post)
 :guard
 (and (and (= r^post r^post) (= i^0 i^post)) (= i2^0 i2^post)))
-
 (rule
 (l9 i2^0 i^0 r^0)
 (l8 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l9 i2^0 i^0 r^0)
 (l3 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l9 i2^0 i^0 r^0)
 (l8 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l10 i2^0 i^0 r^0)
 (l11 i2^post i^post r^post)
@@ -112,7 +99,6 @@
 (and (and (<= 100 (+ 0 i^0)) (= i^0 i^post)) (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l10 i2^0 i^0 r^0)
 (l9 i2^post i^post r^post)
@@ -121,73 +107,61 @@
 (and (and (<= (+ 1 i^0) 100) (= i^0 i^post)) (= i2^0 i2^post))
 (= r^0 r^post))
 )
-
 (rule
 (l12 i2^0 i^0 r^0)
 (l6 i2^post i^post r^post)
 :guard
 (and (and (= i^post (+ 1 i^0)) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l1 i2^0 i^0 r^0)
 (l10 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l13 i2^0 i^0 r^0)
 (l14 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l14 i2^0 i^0 r^0)
 (l12 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l15 i2^0 i^0 r^0)
 (l13 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l15 i2^0 i^0 r^0)
 (l13 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l15 i2^0 i^0 r^0)
 (l14 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l16 i2^0 i^0 r^0)
 (l15 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l2 i2^0 i^0 r^0)
 (l16 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l2 i2^0 i^0 r^0)
 (l12 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l2 i2^0 i^0 r^0)
 (l16 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-
 (rule
 (l17 i2^0 i^0 r^0)
 (l6 i2^post i^post r^post)
@@ -196,10 +170,8 @@
 ((i^1 Int))
 (and (and (and (= i^1 0) (= i^post 0)) (= i2^0 i2^post)) (= r^0 r^post)))
 )
-
 (rule
 (l18 i2^0 i^0 r^0)
 (l17 i2^post i^post r^post)
 :guard
 (and (and (= i^0 i^post) (= i2^0 i2^post)) (= r^0 r^post)))
-

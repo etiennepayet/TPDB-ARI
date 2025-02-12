@@ -23,7 +23,6 @@
 (and (<= 6 (+ 0 WItemsNum^0)) (= tmp1^post tmp1^post))
 (= WItemsNum^0 WItemsNum^post))
 )
-
 (rule
 (l0 WItemsNum^0 tmp1^0)
 (l2 WItemsNum^post tmp1^post)
@@ -32,49 +31,41 @@
 (and (<= (+ 0 WItemsNum^0) 5) (= WItemsNum^0 WItemsNum^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l3 WItemsNum^0 tmp1^0)
 (l4 WItemsNum^post tmp1^post)
 :guard
 (and (= WItemsNum^0 WItemsNum^post) (= tmp1^0 tmp1^post)))
-
 (rule
 (l4 WItemsNum^0 tmp1^0)
 (l0 WItemsNum^post tmp1^post)
 :guard
 (and (= WItemsNum^0 WItemsNum^post) (= tmp1^0 tmp1^post)))
-
 (rule
 (l5 WItemsNum^0 tmp1^0)
 (l6 WItemsNum^post tmp1^post)
 :guard
 (and (= WItemsNum^0 WItemsNum^post) (= tmp1^0 tmp1^post)))
-
 (rule
 (l7 WItemsNum^0 tmp1^0)
 (l8 WItemsNum^post tmp1^post)
 :guard
 (and (= WItemsNum^0 WItemsNum^post) (= tmp1^0 tmp1^post)))
-
 (rule
 (l9 WItemsNum^0 tmp1^0)
 (l10 WItemsNum^post tmp1^post)
 :guard
 (and (= WItemsNum^0 WItemsNum^post) (= tmp1^0 tmp1^post)))
-
 (rule
 (l10 WItemsNum^0 tmp1^0)
 (l11 WItemsNum^post tmp1^post)
 :guard
 (and (= WItemsNum^0 WItemsNum^post) (= tmp1^0 tmp1^post)))
-
 (rule
 (l11 WItemsNum^0 tmp1^0)
 (l10 WItemsNum^post tmp1^post)
 :guard
 (and (= WItemsNum^0 WItemsNum^post) (= tmp1^0 tmp1^post)))
-
 (rule
 (l6 WItemsNum^0 tmp1^0)
 (l3 WItemsNum^post tmp1^post)
@@ -83,7 +74,6 @@
 (and (<= (+ 0 WItemsNum^0) 2) (= WItemsNum^0 WItemsNum^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l6 WItemsNum^0 tmp1^0)
 (l5 WItemsNum^post tmp1^post)
@@ -92,7 +82,6 @@
 (and (<= 3 (+ 0 WItemsNum^0)) (= WItemsNum^post (+ -1 WItemsNum^0)))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l1 WItemsNum^0 tmp1^0)
 (l5 WItemsNum^post tmp1^post)
@@ -103,7 +92,6 @@
 (= WItemsNum^0 WItemsNum^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l1 WItemsNum^0 tmp1^0)
 (l2 WItemsNum^post tmp1^post)
@@ -112,7 +100,6 @@
 (and (<= 1 (+ 0 tmp1^0)) (= WItemsNum^0 WItemsNum^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l1 WItemsNum^0 tmp1^0)
 (l2 WItemsNum^post tmp1^post)
@@ -121,7 +108,6 @@
 (and (<= (+ 1 tmp1^0) 0) (= WItemsNum^0 WItemsNum^post))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l2 WItemsNum^0 tmp1^0)
 (l4 WItemsNum^post tmp1^post)
@@ -130,7 +116,6 @@
 (and (<= 6 (+ 0 WItemsNum^0)) (= WItemsNum^post (+ 1 WItemsNum^0)))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l2 WItemsNum^0 tmp1^0)
 (l4 WItemsNum^post tmp1^post)
@@ -139,7 +124,6 @@
 (and (<= (+ 0 WItemsNum^0) 5) (= WItemsNum^post (+ 1 WItemsNum^0)))
 (= tmp1^0 tmp1^post))
 )
-
 (rule
 (l12 WItemsNum^0 tmp1^0)
 (l3 WItemsNum^post tmp1^post)
@@ -151,10 +135,8 @@
 (= tmp1^0 tmp1^post))
 )
 )
-
 (rule
 (l13 WItemsNum^0 tmp1^0)
 (l12 WItemsNum^post tmp1^post)
 :guard
 (and (= WItemsNum^0 WItemsNum^post) (= tmp1^0 tmp1^post)))
-

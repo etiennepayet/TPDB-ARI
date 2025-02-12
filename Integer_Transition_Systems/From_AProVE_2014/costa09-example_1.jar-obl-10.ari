@@ -11,7 +11,6 @@
 (f108_0_add_GT arg1P arg2P arg3P)
 :guard
 (and (and (= 0 arg1P) (= 0 arg2P)) (= 0 arg3P)))
-
 (rule
 (f108_0_add_GT arg1 arg2 arg3)
 (f108_0_add_GT arg1P arg2P arg3P)
@@ -26,7 +25,6 @@
 (= (+ arg2 1) arg2P))
 (= (+ arg2 1) arg3P))
 )
-
 (rule
 (f108_0_add_GT arg1 arg2 arg3)
 (f208_0_add_GT arg1P arg2P arg3P)
@@ -35,7 +33,6 @@
 (and (and (and (> arg2 1000) (= arg2 arg3)) (= 0 arg1P)) (= 0 arg2P))
 (= 0 arg3P))
 )
-
 (rule
 (f208_0_add_GT arg1 arg2 arg3)
 (f208_0_add_GT arg1P arg2P arg3P)
@@ -50,7 +47,6 @@
 (= (+ arg2 2) arg2P))
 (= (+ arg2 2) arg3P))
 )
-
 (rule
 (f208_0_add_GT arg1 arg2 arg3)
 (f311_0_add_GT arg1P arg2P arg3P)
@@ -59,7 +55,6 @@
 (and (and (and (> arg2 1000) (= arg2 arg3)) (= 0 arg1P)) (= 0 arg2P))
 (= 0 arg3P))
 )
-
 (rule
 (f311_0_add_GT arg1 arg2 arg3)
 (f311_0_add_GT arg1P arg2P arg3P)
@@ -74,8 +69,6 @@
 (= (+ arg2 3) arg2P))
 (= (+ arg2 3) arg3P))
 )
-
 (rule
 (__init arg1 arg2 arg3)
 (f1_0_main_ConstantStackPush arg1P arg2P arg3P))
-

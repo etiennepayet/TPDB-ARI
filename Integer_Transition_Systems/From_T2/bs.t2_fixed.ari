@@ -31,7 +31,6 @@ x2^post)
 (= up5^0 up5^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l0 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
 (l2
@@ -55,7 +54,6 @@ x2^post)
 (= tmp^0 tmp^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l0 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
 (l1
@@ -79,7 +77,6 @@ x2^post)
 (= up5^0 up5^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l3 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
 (l4
@@ -107,7 +104,6 @@ x2^post)
 (= up5^0 up5^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l3 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
 (l0
@@ -133,7 +129,6 @@ x2^post)
 (= up5^0 up5^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l2 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
 (l3
@@ -157,7 +152,6 @@ x2^post)
 (= up5^0 up5^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l1 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
 (l2
@@ -181,7 +175,6 @@ x2^post)
 (= up5^0 up5^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l1 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
 (l2
@@ -205,7 +198,6 @@ x2^post)
 (= tmp^0 tmp^post))
 (= x2^0 x2^post))
 )
-
 (rule
 (l5 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
 (l2
@@ -227,7 +219,6 @@ x2^post)
 (= ret_binary_search7^0 ret_binary_search7^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l6 fvalue3^0 low6^0 mid4^0 ret_binary_search7^0 tmp^0 up5^0 x2^0)
 (l5
@@ -251,4 +242,3 @@ x2^post)
 (= up5^0 up5^post))
 (= x2^0 x2^post))
 )
-

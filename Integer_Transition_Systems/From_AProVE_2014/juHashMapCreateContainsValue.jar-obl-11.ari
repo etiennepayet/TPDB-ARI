@@ -4,51 +4,39 @@
 (fun
 f1755_0_equals_CheckCast
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f1_0_main_Load
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4007_0_createMap_LE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4085_0_random_ArrayAccess
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4571_0_containsValue_GE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4672_0_containsValue_NULL
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4731_0_containsValue_EQ
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4768_0_put_NULL
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4846_0_put_EQ
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f5292_0_transfer_GE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f5387_0_transfer_ArrayAccess
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f603_0_createMap_Return
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint __init)
 (rule
 (f1_0_main_Load
@@ -89,7 +77,6 @@ arg14P)
 (= arg2 arg2P))
 )
 )
-
 (rule
 (f603_0_createMap_Return
 arg1
@@ -136,7 +123,6 @@ arg14P)
 (= arg5 arg4P))
 (= 12 arg5P))
 )
-
 (rule
 (f1_0_main_Load
 arg1
@@ -185,7 +171,6 @@ arg14P)
 (= 0 arg6P))
 (= 12 arg7P))
 )
-
 (rule
 (f4007_0_createMap_LE
 arg1
@@ -245,7 +230,6 @@ arg14P)
 (= (+ arg4 2) arg4P))
 )
 )
-
 (rule
 (f4085_0_random_ArrayAccess
 arg1
@@ -299,7 +283,6 @@ arg14P)
 (= arg3 arg3P))
 )
 )
-
 (rule
 (f4571_0_containsValue_GE
 arg1
@@ -340,7 +323,6 @@ arg14P)
 (= arg2 arg2P))
 (= arg3 arg5P))
 )
-
 (rule
 (f4672_0_containsValue_NULL
 arg1
@@ -385,7 +367,6 @@ arg14P)
 (= (+ arg2 1) arg2P))
 (= arg5 arg3P))
 )
-
 (rule
 (f4672_0_containsValue_NULL
 arg1
@@ -424,7 +405,6 @@ arg14P)
 (> arg2P 0))
 (<= (+ arg3P 2) arg3))
 )
-
 (rule
 (f4672_0_containsValue_NULL
 arg1
@@ -489,7 +469,6 @@ arg14P)
 (= arg4 arg5P))
 (= arg5 arg6P))
 )
-
 (rule
 (f4672_0_containsValue_NULL
 arg1
@@ -554,7 +533,6 @@ arg14P)
 (= arg4 arg5P))
 (= arg5 arg6P))
 )
-
 (rule
 (f4672_0_containsValue_NULL
 arg1
@@ -607,7 +585,6 @@ arg14P)
 (= arg4 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f4672_0_containsValue_NULL
 arg1
@@ -660,7 +637,6 @@ arg14P)
 (= arg4 arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (f4731_0_containsValue_EQ
 arg1
@@ -723,7 +699,6 @@ arg14P)
 (= arg5 arg4P))
 (= arg6 arg5P))
 )
-
 (rule
 (f4007_0_createMap_LE
 arg1
@@ -791,7 +766,6 @@ arg14P)
 (= arg7 arg8P))
 )
 )
-
 (rule
 (f4768_0_put_NULL
 arg1
@@ -836,7 +810,6 @@ arg14P)
 (<= (+ arg3P 2) arg4))
 (>= arg4 (+ arg2 2)))
 )
-
 (rule
 (f4768_0_put_NULL
 arg1
@@ -907,7 +880,6 @@ arg14P)
 (= arg8 arg8P))
 (= arg2 arg11P))
 )
-
 (rule
 (f4768_0_put_NULL
 arg1
@@ -978,7 +950,6 @@ arg14P)
 (= arg8 arg8P))
 (= arg2 arg11P))
 )
-
 (rule
 (f4768_0_put_NULL
 arg1
@@ -1040,7 +1011,6 @@ arg14P)
 (= arg8 arg8P))
 )
 )
-
 (rule
 (f4768_0_put_NULL
 arg1
@@ -1102,7 +1072,6 @@ arg14P)
 (= arg8 arg8P))
 )
 )
-
 (rule
 (f4768_0_put_NULL
 arg1
@@ -1165,7 +1134,6 @@ arg14P)
 (= arg7 arg7P))
 (= arg8 arg8P))
 )
-
 (rule
 (f4768_0_put_NULL
 arg1
@@ -1228,7 +1196,6 @@ arg14P)
 (= arg7 arg7P))
 (= arg8 arg8P))
 )
-
 (rule
 (f4846_0_put_EQ
 arg1
@@ -1297,7 +1264,6 @@ arg14P)
 (= arg7 arg7P))
 (= arg8 arg8P))
 )
-
 (rule
 (f4768_0_put_NULL
 arg1
@@ -1370,7 +1336,6 @@ arg14P)
 (= (* 2 arg6) arg7P))
 (= arg6 arg8P))
 )
-
 (rule
 (f4768_0_put_NULL
 arg1
@@ -1441,7 +1406,6 @@ arg14P)
 (= (* 2 arg6) arg7P))
 (= arg6 arg8P))
 )
-
 (rule
 (f5292_0_transfer_GE
 arg1
@@ -1518,7 +1482,6 @@ arg14P)
 (= arg8 arg10P))
 (= arg7 arg14P))
 )
-
 (rule
 (f5387_0_transfer_ArrayAccess
 arg1
@@ -1633,7 +1596,6 @@ arg14P)
 (= arg10 arg10P))
 (= arg14 arg14P))
 )
-
 (rule
 (f5292_0_transfer_GE
 arg1
@@ -1706,7 +1668,6 @@ arg14P)
 (= arg7 arg7P))
 (= arg8 arg8P))
 )
-
 (rule
 (f5387_0_transfer_ArrayAccess
 arg1
@@ -1797,7 +1758,6 @@ arg14P)
 (= arg14 arg7P))
 (= arg10 arg8P))
 )
-
 (rule
 (__init
 arg1
@@ -1830,4 +1790,3 @@ arg12P
 arg13P
 arg14P)
 )
-

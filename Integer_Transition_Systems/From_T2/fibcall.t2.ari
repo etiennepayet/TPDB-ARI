@@ -40,7 +40,6 @@ tmp^post)
 (= n3^0 n3^post))
 (= temp7^0 temp7^post))
 )
-
 (rule
 (l0 Fnew5^0 Fold6^0 __const_30^0 a^0 ans8^0 i4^0 n3^0 ret_fib9^0 temp7^0 tmp^0)
 (l2
@@ -75,7 +74,6 @@ tmp^post)
 (= ret_fib9^0 ret_fib9^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l2 Fnew5^0 Fold6^0 __const_30^0 a^0 ans8^0 i4^0 n3^0 ret_fib9^0 temp7^0 tmp^0)
 (l0
@@ -108,7 +106,6 @@ tmp^post)
 (= temp7^0 temp7^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l3 Fnew5^0 Fold6^0 __const_30^0 a^0 ans8^0 i4^0 n3^0 ret_fib9^0 temp7^0 tmp^0)
 (l2
@@ -141,7 +138,6 @@ tmp^post)
 (= temp7^0 temp7^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l4 Fnew5^0 Fold6^0 __const_30^0 a^0 ans8^0 i4^0 n3^0 ret_fib9^0 temp7^0 tmp^0)
 (l3
@@ -174,4 +170,3 @@ tmp^post)
 (= temp7^0 temp7^post))
 (= tmp^0 tmp^post))
 )
-

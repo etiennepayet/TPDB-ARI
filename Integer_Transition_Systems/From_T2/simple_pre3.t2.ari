@@ -18,7 +18,6 @@
 (= ret_returnOne3^0 ret_returnOne3^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l0 a^0 ret_returnOne3^0 tmp^0)
 (l1 a^post ret_returnOne3^post tmp^post)
@@ -29,7 +28,6 @@
 (= ret_returnOne3^0 ret_returnOne3^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l0 a^0 ret_returnOne3^0 tmp^0)
 (l2 a^post ret_returnOne3^post tmp^post)
@@ -40,7 +38,6 @@
 (= a^0 a^post))
 (= ret_returnOne3^0 ret_returnOne3^post))
 )
-
 (rule
 (l2 a^0 ret_returnOne3^0 tmp^0)
 (l3 a^post ret_returnOne3^post tmp^post)
@@ -49,7 +46,6 @@
 (and (= a^0 a^post) (= ret_returnOne3^0 ret_returnOne3^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l4 a^0 ret_returnOne3^0 tmp^0)
 (l0 a^post ret_returnOne3^post tmp^post)
@@ -60,7 +56,6 @@
 (= ret_returnOne3^0 ret_returnOne3^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l4 a^0 ret_returnOne3^0 tmp^0)
 (l0 a^post ret_returnOne3^post tmp^post)
@@ -71,7 +66,6 @@
 (= ret_returnOne3^0 ret_returnOne3^post))
 (= tmp^0 tmp^post))
 )
-
 (rule
 (l4 a^0 ret_returnOne3^0 tmp^0)
 (l2 a^post ret_returnOne3^post tmp^post)
@@ -82,7 +76,6 @@
 (= a^0 a^post))
 (= ret_returnOne3^0 ret_returnOne3^post))
 )
-
 (rule
 (l1 a^0 ret_returnOne3^0 tmp^0)
 (l2 a^post ret_returnOne3^post tmp^post)
@@ -91,7 +84,6 @@
 (and (= tmp^post 0) (= a^0 a^post))
 (= ret_returnOne3^0 ret_returnOne3^post))
 )
-
 (rule
 (l5 a^0 ret_returnOne3^0 tmp^0)
 (l4 a^post ret_returnOne3^post tmp^post)
@@ -105,7 +97,6 @@
 (= tmp^0 tmp^post))
 )
 )
-
 (rule
 (l6 a^0 ret_returnOne3^0 tmp^0)
 (l5 a^post ret_returnOne3^post tmp^post)
@@ -114,4 +105,3 @@
 (and (= a^0 a^post) (= ret_returnOne3^0 ret_returnOne3^post))
 (= tmp^0 tmp^post))
 )
-

@@ -55,7 +55,6 @@ ret_complex6^post)
 (= b^0 b^post))
 (= b5^0 b5^post))
 )
-
 (rule
 (l0
 __const_10^0
@@ -100,7 +99,6 @@ ret_complex6^post)
 (= b5^0 b5^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-
 (rule
 (l3
 __const_10^0
@@ -143,7 +141,6 @@ ret_complex6^post)
 (= b5^0 b5^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-
 (rule
 (l2
 __const_10^0
@@ -186,7 +183,6 @@ ret_complex6^post)
 (= b5^0 b5^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-
 (rule
 (l5
 __const_10^0
@@ -231,7 +227,6 @@ ret_complex6^post)
 (= b5^0 b5^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-
 (rule
 (l5
 __const_10^0
@@ -278,7 +273,6 @@ ret_complex6^post)
 (= b5^0 b5^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-
 (rule
 (l6
 __const_10^0
@@ -323,7 +317,6 @@ ret_complex6^post)
 (= b5^0 b5^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-
 (rule
 (l6
 __const_10^0
@@ -368,7 +361,6 @@ ret_complex6^post)
 (= b5^0 b5^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-
 (rule
 (l7
 __const_10^0
@@ -413,7 +405,6 @@ ret_complex6^post)
 (= b^0 b^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-
 (rule
 (l7
 __const_10^0
@@ -458,7 +449,6 @@ ret_complex6^post)
 (= b^0 b^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-
 (rule
 (l4
 __const_10^0
@@ -503,7 +493,6 @@ ret_complex6^post)
 (= b^0 b^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-
 (rule
 (l4
 __const_10^0
@@ -548,7 +537,6 @@ ret_complex6^post)
 (= b5^0 b5^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-
 (rule
 (l8
 __const_10^0
@@ -589,7 +577,6 @@ ret_complex6^post)
 (= __const_5^0 __const_5^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-
 (rule
 (l9
 __const_10^0
@@ -632,4 +619,3 @@ ret_complex6^post)
 (= b5^0 b5^post))
 (= ret_complex6^0 ret_complex6^post))
 )
-

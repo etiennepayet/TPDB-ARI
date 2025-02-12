@@ -15,13 +15,11 @@
 (and (and (<= (+ arg1P 1) arg1) (> arg2 0)) (> arg1 0))
 (> arg1P (- 1)))
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
 (f1795_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
 :guard
 (and (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)) (> arg2P 2)))
-
 (rule
 (f456_0_createTree_Return arg1 arg2 arg3 arg4)
 (f1795_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -40,7 +38,6 @@
 (<= (+ arg3 2) arg2))
 (= arg3 arg3P))
 )
-
 (rule
 (f1795_0_main_InvokeMethod arg1 arg2 arg3 arg4)
 (f2097_0_flatten_NULL arg1P arg2P arg3P arg4P)
@@ -54,7 +51,6 @@
 (<= (+ arg3 2) arg2))
 )
 )
-
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
 (f1759_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -71,7 +67,6 @@
 (> arg2P 2))
 (= 1 arg4P))
 )
-
 (rule
 (f1759_0_createTree_LE arg1 arg2 arg3 arg4)
 (f1759_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -92,7 +87,6 @@
 (= (- arg3 1) arg3P))
 (= (+ arg4 1) arg4P))
 )
-
 (rule
 (f1759_0_createTree_LE arg1 arg2 arg3 arg4)
 (f1759_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -116,7 +110,6 @@
 (= (+ arg4 1) arg4P))
 )
 )
-
 (rule
 (f1759_0_createTree_LE arg1 arg2 arg3 arg4)
 (f1759_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -136,7 +129,6 @@
 (= (+ arg4 1) arg4P))
 )
 )
-
 (rule
 (f1759_0_createTree_LE arg1 arg2 arg3 arg4)
 (f1759_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -151,7 +143,6 @@
 (= (- arg3 1) arg3P))
 (= (+ arg4 1) arg4P))
 )
-
 (rule
 (f1759_0_createTree_LE arg1 arg2 arg3 arg4)
 (f1759_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -176,7 +167,6 @@
 (= (- arg3 1) arg3P))
 (= (+ arg4 1) arg4P))
 )
-
 (rule
 (f1759_0_createTree_LE arg1 arg2 arg3 arg4)
 (f1759_0_createTree_LE arg1P arg2P arg3P arg4P)
@@ -206,17 +196,14 @@
 (= (+ arg4 1) arg4P))
 )
 )
-
 (rule
 (f2097_0_flatten_NULL arg1 arg2 arg3 arg4)
 (f2097_0_flatten_NULL arg1P arg2P arg3P arg4P)
 :guard
 (and (and (<= (+ arg1P 2) arg1) (> arg1 1)) (> arg1P (- 1))))
-
 (rule
 (f2097_0_flatten_NULL arg1 arg2 arg3 arg4)
 (f2097_0_flatten_NULL arg1P arg2P arg3P arg4P)
 :guard
 (and (and (<= (- arg1P 2) arg1) (> arg1 2)) (> arg1P 2)))
-
 (rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))

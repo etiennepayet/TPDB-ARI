@@ -78,7 +78,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l2
 ___lengthofvisited^0
@@ -127,7 +126,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l4
 ___lengthofvisited^0
@@ -176,7 +174,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l6
 ___lengthofvisited^0
@@ -225,7 +222,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l8
 ___lengthofvisited^0
@@ -276,7 +272,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l8
 ___lengthofvisited^0
@@ -327,7 +322,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l8
 ___lengthofvisited^0
@@ -378,7 +372,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l9
 ___lengthofvisited^0
@@ -429,7 +422,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l9
 ___lengthofvisited^0
@@ -480,7 +472,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l9
 ___lengthofvisited^0
@@ -531,7 +522,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l10
 ___lengthofvisited^0
@@ -580,7 +570,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l12
 ___lengthofvisited^0
@@ -627,7 +616,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l14
 ___lengthofvisited^0
@@ -676,7 +664,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l14
 ___lengthofvisited^0
@@ -723,7 +710,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l14
 ___lengthofvisited^0
@@ -772,7 +758,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l15
 ___lengthofvisited^0
@@ -823,7 +808,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l15
 ___lengthofvisited^0
@@ -874,7 +858,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l16
 ___lengthofvisited^0
@@ -921,7 +904,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l7
 ___lengthofvisited^0
@@ -970,7 +952,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l19
 ___lengthofvisited^0
@@ -1019,7 +1000,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l19
 ___lengthofvisited^0
@@ -1066,7 +1046,6 @@ sourceflag^post)
 (= min^0 min^post))
 (= nodecount^0 nodecount^post))
 )
-
 (rule
 (l19
 ___lengthofvisited^0
@@ -1115,7 +1094,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l20
 ___lengthofvisited^0
@@ -1164,7 +1142,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l20
 ___lengthofvisited^0
@@ -1215,7 +1192,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l21
 ___lengthofvisited^0
@@ -1262,7 +1238,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l23
 ___lengthofvisited^0
@@ -1311,7 +1286,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l23
 ___lengthofvisited^0
@@ -1360,7 +1334,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l22
 ___lengthofvisited^0
@@ -1409,7 +1382,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l24
 ___lengthofvisited^0
@@ -1458,7 +1430,6 @@ sourceflag^post)
 (= min^0 min^post))
 (= nodecount^0 nodecount^post))
 )
-
 (rule
 (l24
 ___lengthofvisited^0
@@ -1509,7 +1480,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l18
 ___lengthofvisited^0
@@ -1558,7 +1528,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l18
 ___lengthofvisited^0
@@ -1607,7 +1576,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l11
 ___lengthofvisited^0
@@ -1656,7 +1624,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l11
 ___lengthofvisited^0
@@ -1705,7 +1672,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l17
 ___lengthofvisited^0
@@ -1754,7 +1720,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l25
 ___lengthofvisited^0
@@ -1801,7 +1766,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l5
 ___lengthofvisited^0
@@ -1852,7 +1816,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l5
 ___lengthofvisited^0
@@ -1903,7 +1866,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l5
 ___lengthofvisited^0
@@ -1954,7 +1916,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l3
 ___lengthofvisited^0
@@ -2003,7 +1964,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l3
 ___lengthofvisited^0
@@ -2052,7 +2012,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l13
 ___lengthofvisited^0
@@ -2101,7 +2060,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l1
 ___lengthofvisited^0
@@ -2150,7 +2108,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l1
 ___lengthofvisited^0
@@ -2199,7 +2156,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l27
 ___lengthofvisited^0
@@ -2246,7 +2202,6 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-
 (rule
 (l28
 ___lengthofvisited^0
@@ -2295,4 +2250,3 @@ sourceflag^post)
 (= nodecount^0 nodecount^post))
 (= sourceflag^0 sourceflag^post))
 )
-

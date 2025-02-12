@@ -4,47 +4,36 @@
 (fun
 f1_0_main_Load
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f2790_0_equals_CheckCast
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f3465_0_createMap_LE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f3543_0_random_ArrayAccess
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4179_0_removeEntryForKey_NULL
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4196_0_put_NULL
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4304_0_put_EQ
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4319_0_removeEntryForKey_EQ
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4838_0_transfer_GE
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f4933_0_transfer_ArrayAccess
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
 f609_0_createMap_Return
 (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint __init)
 (rule
 (f1_0_main_Load
@@ -83,7 +72,6 @@ arg13P)
 (= arg2 arg2P))
 )
 )
-
 (rule
 (f609_0_createMap_Return
 arg1
@@ -128,7 +116,6 @@ arg13P)
 (= arg5 arg4P))
 (= 12 arg5P))
 )
-
 (rule
 (f1_0_main_Load
 arg1
@@ -175,7 +162,6 @@ arg13P)
 (= 0 arg6P))
 (= 12 arg7P))
 )
-
 (rule
 (f3465_0_createMap_LE
 arg1
@@ -233,7 +219,6 @@ arg13P)
 (= (+ arg4 2) arg4P))
 )
 )
-
 (rule
 (f3543_0_random_ArrayAccess
 arg1
@@ -295,7 +280,6 @@ arg13P)
 (= arg5 arg8P))
 )
 )
-
 (rule
 (f4179_0_removeEntryForKey_NULL
 arg1
@@ -363,7 +347,6 @@ arg13P)
 (= arg8 arg8P))
 )
 )
-
 (rule
 (f4179_0_removeEntryForKey_NULL
 arg1
@@ -431,7 +414,6 @@ arg13P)
 (= arg8 arg8P))
 )
 )
-
 (rule
 (f4179_0_removeEntryForKey_NULL
 arg1
@@ -480,7 +462,6 @@ arg13P)
 (<= (+ arg3P 2) arg4))
 (>= arg4 (+ arg2 2)))
 )
-
 (rule
 (f4179_0_removeEntryForKey_NULL
 arg1
@@ -561,7 +542,6 @@ arg13P)
 (= arg8 arg9P))
 (= arg2 arg11P))
 )
-
 (rule
 (f4179_0_removeEntryForKey_NULL
 arg1
@@ -642,7 +622,6 @@ arg13P)
 (= arg8 arg9P))
 (= arg2 arg11P))
 )
-
 (rule
 (f4179_0_removeEntryForKey_NULL
 arg1
@@ -713,7 +692,6 @@ arg13P)
 (= arg7 arg7P))
 (= arg8 arg8P))
 )
-
 (rule
 (f4179_0_removeEntryForKey_NULL
 arg1
@@ -784,7 +762,6 @@ arg13P)
 (= arg7 arg7P))
 (= arg8 arg8P))
 )
-
 (rule
 (f4319_0_removeEntryForKey_EQ
 arg1
@@ -859,7 +836,6 @@ arg13P)
 (= arg8 arg7P))
 (= arg9 arg8P))
 )
-
 (rule
 (f3465_0_createMap_LE
 arg1
@@ -927,7 +903,6 @@ arg13P)
 (= arg7 arg9P))
 )
 )
-
 (rule
 (f4196_0_put_NULL
 arg1
@@ -968,7 +943,6 @@ arg13P)
 (<= (+ arg3P 2) arg4))
 (>= arg4 (+ arg2 2)))
 )
-
 (rule
 (f4196_0_put_NULL
 arg1
@@ -1033,7 +1007,6 @@ arg13P)
 (= arg9 arg7P))
 (= arg2 arg9P))
 )
-
 (rule
 (f4196_0_put_NULL
 arg1
@@ -1098,7 +1071,6 @@ arg13P)
 (= arg9 arg7P))
 (= arg2 arg9P))
 )
-
 (rule
 (f4196_0_put_NULL
 arg1
@@ -1160,7 +1132,6 @@ arg13P)
 (= arg9 arg9P))
 )
 )
-
 (rule
 (f4196_0_put_NULL
 arg1
@@ -1222,7 +1193,6 @@ arg13P)
 (= arg9 arg9P))
 )
 )
-
 (rule
 (f4196_0_put_NULL
 arg1
@@ -1283,7 +1253,6 @@ arg13P)
 (= arg8 arg8P))
 (= arg9 arg9P))
 )
-
 (rule
 (f4196_0_put_NULL
 arg1
@@ -1344,7 +1313,6 @@ arg13P)
 (= arg8 arg8P))
 (= arg9 arg9P))
 )
-
 (rule
 (f4304_0_put_EQ
 arg1
@@ -1407,7 +1375,6 @@ arg13P)
 (= arg6 arg8P))
 (= arg7 arg9P))
 )
-
 (rule
 (f4196_0_put_NULL
 arg1
@@ -1478,7 +1445,6 @@ arg13P)
 (= (* 2 arg7) arg7P))
 (= arg7 arg8P))
 )
-
 (rule
 (f4196_0_put_NULL
 arg1
@@ -1547,7 +1513,6 @@ arg13P)
 (= (* 2 arg7) arg7P))
 (= arg7 arg8P))
 )
-
 (rule
 (f4838_0_transfer_GE
 arg1
@@ -1622,7 +1587,6 @@ arg13P)
 (= arg8 arg10P))
 (= arg7 arg13P))
 )
-
 (rule
 (f4933_0_transfer_ArrayAccess
 arg1
@@ -1729,7 +1693,6 @@ arg13P)
 (= arg10 arg10P))
 (= arg13 arg13P))
 )
-
 (rule
 (f4838_0_transfer_GE
 arg1
@@ -1800,7 +1763,6 @@ arg13P)
 (= arg7 arg7P))
 (= arg8 arg8P))
 )
-
 (rule
 (f4933_0_transfer_ArrayAccess
 arg1
@@ -1887,7 +1849,6 @@ arg13P)
 (= arg13 arg7P))
 (= arg10 arg8P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11 arg12 arg13)
 (f1_0_main_Load
@@ -1905,4 +1866,3 @@ arg11P
 arg12P
 arg13P)
 )
-

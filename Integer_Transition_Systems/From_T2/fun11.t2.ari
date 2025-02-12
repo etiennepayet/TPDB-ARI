@@ -52,7 +52,6 @@ x_10^post)
 (= nondet_8^0 nondet_8^post))
 (= temp5_9^0 temp5_9^post))
 )
-
 (rule
 (l2
 Result_6^0
@@ -95,7 +94,6 @@ x_10^post)
 (= temp6_11^0 temp6_11^post))
 (= x_10^0 x_10^post))
 )
-
 (rule
 (l2
 Result_6^0
@@ -134,7 +132,6 @@ x_10^post)
 (= temp6_11^0 temp6_11^post))
 (= x_10^0 x_10^post))
 )
-
 (rule
 (l5
 Result_6^0
@@ -175,7 +172,6 @@ x_10^post)
 (= temp6_11^0 temp6_11^post))
 (= x_10^0 x_10^post))
 )
-
 (rule
 (l6
 Result_6^0
@@ -216,7 +212,6 @@ x_10^post)
 (= temp5_9^0 temp5_9^post))
 (= temp6_11^0 temp6_11^post))
 )
-
 (rule
 (l4
 Result_6^0
@@ -259,7 +254,6 @@ x_10^post)
 (= temp6_11^0 temp6_11^post))
 (= x_10^0 x_10^post))
 )
-
 (rule
 (l4
 Result_6^0
@@ -298,7 +292,6 @@ x_10^post)
 (= temp6_11^0 temp6_11^post))
 (= x_10^0 x_10^post))
 )
-
 (rule
 (l8
 Result_6^0
@@ -339,7 +332,6 @@ x_10^post)
 (= temp6_11^0 temp6_11^post))
 (= x_10^0 x_10^post))
 )
-
 (rule
 (l9
 Result_6^0
@@ -380,7 +372,6 @@ x_10^post)
 (= temp5_9^0 temp5_9^post))
 (= temp6_11^0 temp6_11^post))
 )
-
 (rule
 (l7
 Result_6^0
@@ -419,7 +410,6 @@ x_10^post)
 (= temp6_11^0 temp6_11^post))
 (= x_10^0 x_10^post))
 )
-
 (rule
 (l1
 Result_6^0
@@ -462,7 +452,6 @@ x_10^post)
 (= temp6_11^0 temp6_11^post))
 (= x_10^0 x_10^post))
 )
-
 (rule
 (l1
 Result_6^0
@@ -501,7 +490,6 @@ x_10^post)
 (= temp6_11^0 temp6_11^post))
 (= x_10^0 x_10^post))
 )
-
 (rule
 (l10
 Result_6^0
@@ -542,7 +530,6 @@ x_10^post)
 (= temp6_11^0 temp6_11^post))
 (= x_10^0 x_10^post))
 )
-
 (rule
 (l11
 Result_6^0
@@ -583,7 +570,6 @@ x_10^post)
 (= temp5_9^0 temp5_9^post))
 (= temp6_11^0 temp6_11^post))
 )
-
 (rule
 (l12
 Result_6^0
@@ -622,4 +608,3 @@ x_10^post)
 (= temp6_11^0 temp6_11^post))
 (= x_10^0 x_10^post))
 )
-

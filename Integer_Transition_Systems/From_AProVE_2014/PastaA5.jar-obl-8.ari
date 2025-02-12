@@ -14,7 +14,6 @@
 (> arg1 0))
 (= (+ arg1P 1) arg3P))
 )
-
 (rule
 (f150_0_main_LT arg1 arg2 arg3)
 (f150_0_main_LT arg1P arg2P arg3P)
@@ -25,5 +24,4 @@
 (= arg2 arg2P))
 (= (+ arg1 2) arg3P))
 )
-
 (rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))

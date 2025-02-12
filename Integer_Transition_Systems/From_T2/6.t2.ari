@@ -14,7 +14,6 @@
 (l3 pc_Loop^post)
 :guard
 (exists ((pc_Loop^1 Int)) (and (= pc_Loop^1 3) (= pc_Loop^post 2))))
-
 (rule (l3 pc_Loop^0) (l2 pc_Loop^post) :guard (= pc_Loop^0 pc_Loop^post))
 (rule (l4 pc_Loop^0) (l2 pc_Loop^post) :guard (= pc_Loop^post 2))
 (rule (l5 pc_Loop^0) (l4 pc_Loop^post) :guard (= pc_Loop^0 pc_Loop^post))

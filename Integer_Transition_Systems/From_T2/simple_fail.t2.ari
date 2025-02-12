@@ -9,5 +9,4 @@
 (l1 a^post)
 :guard
 (exists ((a^1 Int)) (and (= a^1 1) (= a^post -1))))
-
 (rule (l2 a^0) (l0 a^post) :guard (= a^0 a^post))

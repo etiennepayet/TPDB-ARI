@@ -17,13 +17,11 @@
 (= t^0 t^post))
 (= y^0 y^post))
 )
-
 (rule
 (l1 t^0 x^0 y^0)
 (l0 t^post x^post y^post)
 :guard
 (and (and (= t^0 t^post) (= x^0 x^post)) (= y^0 y^post)))
-
 (rule
 (l2 t^0 x^0 y^0)
 (l0 t^post x^post y^post)
@@ -63,10 +61,8 @@
 (= y^0 y^post))
 )
 )
-
 (rule
 (l3 t^0 x^0 y^0)
 (l2 t^post x^post y^post)
 :guard
 (and (and (= t^0 t^post) (= x^0 x^post)) (= y^0 y^post)))
-

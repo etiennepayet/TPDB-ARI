@@ -21,7 +21,6 @@
 (= 0 arg2P))
 (= arg2 arg3P))
 )
-
 (rule
 (f626_0_main_GE arg1 arg2 arg3 arg4)
 (f675_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -39,7 +38,6 @@
 (= arg3 arg4P))
 )
 )
-
 (rule
 (f626_0_main_GE arg1 arg2 arg3 arg4)
 (f60_0_power_GT arg1P arg2P arg3P arg4P)
@@ -48,7 +46,6 @@
 (and (and (and (> arg3 arg2) (> arg3 0)) (> arg2P (- 1))) (> arg1 0))
 (= arg3 arg1P))
 )
-
 (rule
 (f626_0_main_GE arg1 arg2 arg3 arg4)
 (f675_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -63,7 +60,6 @@
 (= 1 arg3P))
 (= arg3 arg4P))
 )
-
 (rule
 (f626_0_main_GE arg1 arg2 arg3 arg4)
 (f675_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -83,7 +79,6 @@
 (= arg3 arg4P))
 )
 )
-
 (rule
 (f675_0_main_InvokeMethod arg1 arg2 arg3 arg4)
 (f712_0_main_ArrayAccess arg1P arg2P arg3P arg4P)
@@ -96,7 +91,6 @@
 (= arg2 arg2P))
 (= arg4 arg3P))
 )
-
 (rule
 (f712_0_main_ArrayAccess arg1 arg2 arg3 arg4)
 (f60_0_power_GT arg1P arg2P arg3P arg4P)
@@ -105,7 +99,6 @@
 (and (and (and (> arg3 0) (> arg2P (- 1))) (< arg2 arg3)) (> arg1 0))
 (= arg3 arg1P))
 )
-
 (rule
 (f712_0_main_ArrayAccess arg1 arg2 arg3 arg4)
 (f753_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -123,7 +116,6 @@
 (= arg3 arg4P))
 )
 )
-
 (rule
 (f712_0_main_ArrayAccess arg1 arg2 arg3 arg4)
 (f753_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -138,7 +130,6 @@
 (= 1 arg3P))
 (= arg3 arg4P))
 )
-
 (rule
 (f712_0_main_ArrayAccess arg1 arg2 arg3 arg4)
 (f753_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -158,7 +149,6 @@
 (= arg3 arg4P))
 )
 )
-
 (rule
 (f753_0_main_InvokeMethod arg1 arg2 arg3 arg4)
 (f626_0_main_GE arg1P arg2P arg3P arg4P)
@@ -171,7 +161,6 @@
 (= (+ arg2 1) arg2P))
 (= arg4 arg3P))
 )
-
 (rule
 (f753_0_main_InvokeMethod arg1 arg2 arg3 arg4)
 (f626_0_main_GE arg1P arg2P arg3P arg4P)
@@ -184,7 +173,6 @@
 (= (+ arg2 1) arg2P))
 (= arg4 arg3P))
 )
-
 (rule
 (f60_0_power_GT arg1 arg2 arg3 arg4)
 (|f60_0_power_GT'| arg1P arg2P arg3P arg4P)
@@ -200,7 +188,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (|f60_0_power_GT'| arg1 arg2 arg3 arg4)
 (f60_0_power_GT arg1P arg2P arg3P arg4P)
@@ -217,32 +204,26 @@
 (>= (- arg2 (* 2 arg2P)) 0))
 (= (* arg1 arg1) arg1P))
 )
-
 (rule
 (f675_0_main_InvokeMethod arg1 arg2 arg3 arg4)
 (f116_0_even_NE arg1P arg2P arg3P arg4P)
 :guard
 (and (and (and (> arg3 0) (> arg4 0)) (> arg1 0)) (= arg3 arg1P)))
-
 (rule
 (f753_0_main_InvokeMethod arg1 arg2 arg3 arg4)
 (f168_0_odd_NE arg1P arg2P arg3P arg4P)
 :guard
 (and (and (and (> arg3 0) (> arg4 0)) (> arg1 0)) (= arg3 arg1P)))
-
 (rule
 (f116_0_even_NE arg1 arg2 arg3 arg4)
 (f168_0_odd_NE arg1P arg2P arg3P arg4P)
 :guard
 (and (and (> arg1 1) (< (- arg1 1) arg1)) (= (- arg1 1) arg1P)))
-
 (rule
 (f168_0_odd_NE arg1 arg2 arg3 arg4)
 (f116_0_even_NE arg1P arg2P arg3P arg4P)
 :guard
 (and (and (> arg1 1) (< (- arg1 1) arg1)) (= (- arg1 1) arg1P)))
-
 (rule
 (__init arg1 arg2 arg3 arg4)
 (f1_0_main_ConstantStackPush arg1P arg2P arg3P arg4P))
-

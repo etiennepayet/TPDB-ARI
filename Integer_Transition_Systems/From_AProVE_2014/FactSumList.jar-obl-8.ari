@@ -10,7 +10,6 @@
 (f83_0_doSum_NONNULL arg1P arg2P arg3P arg4P arg5P arg6P)
 :guard
 (> arg1P 3))
-
 (rule
 (f83_0_doSum_NONNULL arg1 arg2 arg3 arg4 arg5 arg6)
 (f160_0_factorial_GT arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -29,7 +28,6 @@
 (= 1 arg3P))
 (= 1 arg4P))
 )
-
 (rule
 (f160_0_factorial_GT arg1 arg2 arg3 arg4 arg5 arg6)
 (f83_0_doSum_NONNULL arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -48,7 +46,6 @@
 (<= (+ arg5 2) arg1))
 (= arg3 arg4))
 )
-
 (rule
 (f160_0_factorial_GT arg1 arg2 arg3 arg4 arg5 arg6)
 (f160_0_factorial_GT arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -79,8 +76,6 @@
 (= (+ arg3 1) arg4P))
 (= arg5 arg5P))
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6)
 (f1_0_main_New arg1P arg2P arg3P arg4P arg5P arg6P))
-

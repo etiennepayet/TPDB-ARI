@@ -46,7 +46,6 @@ scale7^post)
 (= j9^0 j9^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l2
 acc12^0
@@ -83,7 +82,6 @@ scale7^post)
 (= j9^0 j9^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l2
 acc12^0
@@ -122,7 +120,6 @@ scale7^post)
 (= j9^0 j9^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l1
 acc12^0
@@ -157,7 +154,6 @@ scale7^post)
 (= j9^0 j9^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l4
 acc12^0
@@ -192,7 +188,6 @@ scale7^post)
 (= j9^0 j9^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l4
 acc12^0
@@ -227,7 +222,6 @@ scale7^post)
 (= j9^0 j9^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l4
 acc12^0
@@ -262,7 +256,6 @@ scale7^post)
 (= j9^0 j9^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l3
 acc12^0
@@ -297,7 +290,6 @@ scale7^post)
 (= j9^0 j9^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l6
 acc12^0
@@ -334,7 +326,6 @@ scale7^post)
 (= j9^0 j9^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l6
 acc12^0
@@ -371,7 +362,6 @@ scale7^post)
 (= in_len4^0 in_len4^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l7
 acc12^0
@@ -406,7 +396,6 @@ scale7^post)
 (= j9^0 j9^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l5
 acc12^0
@@ -443,7 +432,6 @@ scale7^post)
 (= j9^0 j9^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l5
 acc12^0
@@ -480,7 +468,6 @@ scale7^post)
 (= in_len4^0 in_len4^post))
 (= scale7^0 scale7^post))
 )
-
 (rule
 (l9
 acc12^0
@@ -513,7 +500,6 @@ scale7^post)
 (= acc12^0 acc12^post))
 (= j9^0 j9^post))
 )
-
 (rule
 (l10
 acc12^0
@@ -548,4 +534,3 @@ scale7^post)
 (= j9^0 j9^post))
 (= scale7^0 scale7^post))
 )
-

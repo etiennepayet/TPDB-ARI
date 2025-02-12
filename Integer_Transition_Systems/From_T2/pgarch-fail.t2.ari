@@ -78,7 +78,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l0
 ___rho_1_^0
@@ -141,7 +140,6 @@ wakend^post)
 (= tmp99^0 tmp99^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l3
 ___rho_1_^0
@@ -204,7 +202,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l5
 ___rho_1_^0
@@ -267,7 +264,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l7
 ___rho_1_^0
@@ -330,7 +326,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l8
 ___rho_1_^0
@@ -397,7 +392,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l8
 ___rho_1_^0
@@ -464,7 +458,6 @@ wakend^post)
 (= tmp99^0 tmp99^post))
 (= tt1^0 tt1^post))
 )
-
 (rule
 (l9
 ___rho_1_^0
@@ -529,7 +522,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l9
 ___rho_1_^0
@@ -592,7 +584,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l1
 ___rho_1_^0
@@ -657,7 +648,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l1
 ___rho_1_^0
@@ -720,7 +710,6 @@ wakend^post)
 (= tmp99^0 tmp99^post))
 (= tt1^0 tt1^post))
 )
-
 (rule
 (l6
 ___rho_1_^0
@@ -783,7 +772,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l10
 ___rho_1_^0
@@ -846,7 +834,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l2
 ___rho_1_^0
@@ -911,7 +898,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l2
 ___rho_1_^0
@@ -976,7 +962,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-
 (rule
 (l11
 ___rho_1_^0
@@ -1044,7 +1029,6 @@ wakend^post)
 (= tt1^0 tt1^post))
 )
 )
-
 (rule
 (l12
 ___rho_1_^0
@@ -1107,4 +1091,3 @@ wakend^post)
 (= tt1^0 tt1^post))
 (= wakend^0 wakend^post))
 )
-

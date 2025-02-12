@@ -14,7 +14,6 @@
 (and (= x^post (+ -1 x^0)) (= __const_300^0 __const_300^post))
 (= __disjvr_0^0 __disjvr_0^post))
 )
-
 (rule
 (l2 __const_300^0 __disjvr_0^0 x^0)
 (l1 __const_300^post __disjvr_0^post x^post)
@@ -25,7 +24,6 @@
 (= __disjvr_0^0 __disjvr_0^post))
 (= x^0 x^post))
 )
-
 (rule
 (l1 __const_300^0 __disjvr_0^0 x^0)
 (l0 __const_300^post __disjvr_0^post x^post)
@@ -34,7 +32,6 @@
 (and (= __const_300^0 __const_300^post) (= __disjvr_0^0 __disjvr_0^post))
 (= x^0 x^post))
 )
-
 (rule
 (l3 __const_300^0 __disjvr_0^0 x^0)
 (l0 __const_300^post __disjvr_0^post x^post)
@@ -43,7 +40,6 @@
 (and (= x^post (+ 0 __const_300^0)) (= __const_300^0 __const_300^post))
 (= __disjvr_0^0 __disjvr_0^post))
 )
-
 (rule
 (l4 __const_300^0 __disjvr_0^0 x^0)
 (l3 __const_300^post __disjvr_0^post x^post)
@@ -52,4 +48,3 @@
 (and (= __const_300^0 __const_300^post) (= __disjvr_0^0 __disjvr_0^post))
 (= x^0 x^post))
 )
-

@@ -14,13 +14,11 @@
 (f1549_0_search_LT arg1P arg2P arg3P)
 :guard
 (and (and (> arg1 0) (> arg2 (- 1))) (= 0 arg1P)))
-
 (rule
 (f1549_0_search_LT arg1 arg2 arg3)
 (f1911_0_search_GE arg1P arg2P arg3P)
 :guard
 (exists ((x2 Int)) (and (and (< arg1 x2) (= arg1 arg1P)) (= 0 arg2P))))
-
 (rule
 (f1911_0_search_GE arg1 arg2 arg3)
 (f1911_0_search_GE arg1P arg2P arg3P)
@@ -32,7 +30,6 @@
 (= (+ arg2 1) arg2P))
 )
 )
-
 (rule
 (f1911_0_search_GE arg1 arg2 arg3)
 (f1549_0_search_LT arg1P arg2P arg3P)
@@ -48,7 +45,6 @@
 (= (+ arg1 1) arg1P))
 )
 )
-
 (rule
 (f1911_0_search_GE arg1 arg2 arg3)
 (f1911_0_search_GE arg1P arg2P arg3P)
@@ -66,25 +62,21 @@
 (= (+ arg2 1) arg2P))
 )
 )
-
 (rule
 (f1549_0_search_LT arg1 arg2 arg3)
 (f1944_0_displayChessboard_GE arg1P arg2P arg3P)
 :guard
 (exists ((x15 Int)) (and (>= arg1 x15) (= 0 arg1P))))
-
 (rule
 (f1944_0_displayChessboard_GE arg1 arg2 arg3)
 (f2167_0_displayChessboard_GE arg1P arg2P arg3P)
 :guard
 (exists ((x17 Int)) (and (and (< arg1 x17) (= arg1 arg1P)) (= 0 arg2P))))
-
 (rule
 (f2167_0_displayChessboard_GE arg1 arg2 arg3)
 (f1944_0_displayChessboard_GE arg1P arg2P arg3P)
 :guard
 (exists ((x19 Int)) (and (>= arg2 x19) (= (+ arg1 1) arg1P))))
-
 (rule
 (f2167_0_displayChessboard_GE arg1 arg2 arg3)
 (f2167_0_displayChessboard_GE arg1P arg2P arg3P)
@@ -96,7 +88,6 @@
 (= (+ arg2 1) arg2P))
 )
 )
-
 (rule
 (f2167_0_displayChessboard_GE arg1 arg2 arg3)
 (f2167_0_displayChessboard_GE arg1P arg2P arg3P)
@@ -108,7 +99,6 @@
 (= (+ arg2 1) arg2P))
 )
 )
-
 (rule
 (f2167_0_displayChessboard_GE arg1 arg2 arg3)
 (f2167_0_displayChessboard_GE arg1P arg2P arg3P)
@@ -120,7 +110,6 @@
 (= (+ arg2 1) arg2P))
 )
 )
-
 (rule
 (f1911_0_search_GE arg1 arg2 arg3)
 (f1876_0_safeMove_GE arg1P arg2P arg3P)
@@ -132,7 +121,6 @@
 (= arg1 arg3P))
 )
 )
-
 (rule
 (f1876_0_safeMove_GE arg1 arg2 arg3)
 (f1969_0_safeMove_NE arg1P arg2P arg3P)
@@ -150,7 +138,6 @@
 (= 1 arg3P))
 )
 )
-
 (rule
 (f1876_0_safeMove_GE arg1 arg2 arg3)
 (f1969_0_safeMove_NE arg1P arg2P arg3P)
@@ -168,7 +155,6 @@
 (= 0 arg3P))
 )
 )
-
 (rule
 (f1876_0_safeMove_GE arg1 arg2 arg3)
 (f1876_0_safeMove_GE arg1P arg2P arg3P)
@@ -179,7 +165,6 @@
 (= (+ arg2 1) arg2P))
 (= arg3 arg3P))
 )
-
 (rule
 (f1969_0_safeMove_NE arg1 arg2 arg3)
 (f1876_0_safeMove_GE arg1P arg2P arg3P)
@@ -188,7 +173,6 @@
 (and (and (= 1 arg3) (= 0 arg1P)) (= (+ arg2 1) arg2P))
 (= arg1 arg3P))
 )
-
 (rule
 (f1969_0_safeMove_NE arg1 arg2 arg3)
 (f1876_0_safeMove_GE arg1P arg2P arg3P)
@@ -197,5 +181,4 @@
 (and (and (= 0 arg3) (= 1 arg1P)) (= (+ arg2 1) arg2P))
 (= arg1 arg3P))
 )
-
 (rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))

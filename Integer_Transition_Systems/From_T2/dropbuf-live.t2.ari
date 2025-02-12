@@ -16,7 +16,6 @@
 (= NLocBuffer^post NLocBuffer^post))
 (= NBuffers^post NBuffers^post))
 )
-
 (rule
 (l2 A^0 NBuffers^0 NLocBuffer^0 R^0 istemp^0)
 (l0 A^post NBuffers^post NLocBuffer^post R^post istemp^post)
@@ -29,4 +28,3 @@
 (= R^0 R^post))
 (= istemp^0 istemp^post))
 )
-

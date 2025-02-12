@@ -73,7 +73,6 @@ x3^post)
 (= oldX6^0 oldX6^post))
 (= oldX7^0 oldX7^post))
 )
-
 (rule
 (l0
 __const_7^0
@@ -134,7 +133,6 @@ x3^post)
 (= oldX6^0 oldX6^post))
 (= oldX7^0 oldX7^post))
 )
-
 (rule
 (l2
 __const_7^0
@@ -193,7 +191,6 @@ x3^post)
 (= x2^0 x2^post))
 (= x3^0 x3^post))
 )
-
 (rule
 (l3
 __const_7^0
@@ -254,7 +251,6 @@ x3^post)
 (= oldX6^0 oldX6^post))
 (= oldX7^0 oldX7^post))
 )
-
 (rule
 (l3
 __const_7^0
@@ -315,7 +311,6 @@ x3^post)
 (= oldX6^0 oldX6^post))
 (= oldX7^0 oldX7^post))
 )
-
 (rule
 (l4
 __const_7^0
@@ -374,7 +369,6 @@ x3^post)
 (= oldX6^0 oldX6^post))
 (= oldX7^0 oldX7^post))
 )
-
 (rule
 (l5
 __const_7^0
@@ -435,7 +429,6 @@ x3^post)
 (= oldX6^0 oldX6^post))
 (= oldX7^0 oldX7^post))
 )
-
 (rule
 (l5
 __const_7^0
@@ -496,7 +489,6 @@ x3^post)
 (= oldX6^0 oldX6^post))
 (= oldX7^0 oldX7^post))
 )
-
 (rule
 (l6
 __const_7^0
@@ -555,7 +547,6 @@ x3^post)
 (= oldX6^0 oldX6^post))
 (= oldX7^0 oldX7^post))
 )
-
 (rule
 (l7
 __const_7^0
@@ -614,7 +605,6 @@ x3^post)
 (= __const_7^0 __const_7^post))
 (= __const_8^0 __const_8^post))
 )
-
 (rule
 (l9
 __const_7^0
@@ -673,7 +663,6 @@ x3^post)
 (= oldX6^0 oldX6^post))
 (= oldX7^0 oldX7^post))
 )
-
 (rule
 (l9
 __const_7^0
@@ -732,7 +721,6 @@ x3^post)
 (= oldX6^0 oldX6^post))
 (= oldX7^0 oldX7^post))
 )
-
 (rule
 (l1
 __const_7^0
@@ -791,7 +779,6 @@ x3^post)
 (= __const_7^0 __const_7^post))
 (= __const_8^0 __const_8^post))
 )
-
 (rule
 (l10
 __const_7^0
@@ -850,7 +837,6 @@ x3^post)
 (= oldX6^0 oldX6^post))
 (= oldX7^0 oldX7^post))
 )
-
 (rule
 (l10
 __const_7^0
@@ -909,7 +895,6 @@ x3^post)
 (= x2^0 x2^post))
 (= x3^0 x3^post))
 )
-
 (rule
 (l10
 __const_7^0
@@ -968,7 +953,6 @@ x3^post)
 (= x2^0 x2^post))
 (= x3^0 x3^post))
 )
-
 (rule
 (l10
 __const_7^0
@@ -1027,7 +1011,6 @@ x3^post)
 (= x2^0 x2^post))
 (= x3^0 x3^post))
 )
-
 (rule
 (l10
 __const_7^0
@@ -1086,7 +1069,6 @@ x3^post)
 (= x2^0 x2^post))
 (= x3^0 x3^post))
 )
-
 (rule
 (l10
 __const_7^0
@@ -1145,7 +1127,6 @@ x3^post)
 (= x2^0 x2^post))
 (= x3^0 x3^post))
 )
-
 (rule
 (l10
 __const_7^0
@@ -1204,7 +1185,6 @@ x3^post)
 (= x2^0 x2^post))
 (= x3^0 x3^post))
 )
-
 (rule
 (l10
 __const_7^0
@@ -1263,7 +1243,6 @@ x3^post)
 (= x2^0 x2^post))
 (= x3^0 x3^post))
 )
-
 (rule
 (l10
 __const_7^0
@@ -1322,7 +1301,6 @@ x3^post)
 (= x2^0 x2^post))
 (= x3^0 x3^post))
 )
-
 (rule
 (l10
 __const_7^0
@@ -1381,7 +1359,6 @@ x3^post)
 (= x2^0 x2^post))
 (= x3^0 x3^post))
 )
-
 (rule
 (l11
 __const_7^0
@@ -1440,4 +1417,3 @@ x3^post)
 (= x2^0 x2^post))
 (= x3^0 x3^post))
 )
-

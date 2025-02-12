@@ -12,40 +12,33 @@
 (l1 hi^post lo^post)
 :guard
 (and (= hi^post hi^post) (= lo^0 lo^post)))
-
 (rule
 (l0 hi^0 lo^0)
 (l1 hi^post lo^post)
 :guard
 (and (= lo^post lo^post) (= hi^0 hi^post)))
-
 (rule
 (l2 hi^0 lo^0)
 (l3 hi^post lo^post)
 :guard
 (and (and (<= (+ 0 lo^0) (+ 0 hi^0)) (= hi^0 hi^post)) (= lo^0 lo^post)))
-
 (rule
 (l2 hi^0 lo^0)
 (l0 hi^post lo^post)
 :guard
 (and (and (<= (+ 1 hi^0) (+ 0 lo^0)) (= hi^0 hi^post)) (= lo^0 lo^post)))
-
 (rule
 (l1 hi^0 lo^0)
 (l2 hi^post lo^post)
 :guard
 (and (= hi^0 hi^post) (= lo^0 lo^post)))
-
 (rule
 (l4 hi^0 lo^0)
 (l1 hi^post lo^post)
 :guard
 (and (= hi^post 0) (= lo^post 99)))
-
 (rule
 (l5 hi^0 lo^0)
 (l4 hi^post lo^post)
 :guard
 (and (= hi^0 hi^post) (= lo^0 lo^post)))
-

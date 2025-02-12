@@ -21,7 +21,6 @@
 (= __const_300^0 __const_300^post))
 (= __const_400^0 __const_400^post))
 )
-
 (rule
 (l1 __const_100^0 __const_200^0 __const_300^0 __const_400^0 x^0)
 (l0 __const_100^post __const_200^post __const_300^post __const_400^post x^post)
@@ -38,7 +37,6 @@
 (= __const_300^0 __const_300^post))
 (= __const_400^0 __const_400^post))
 )
-
 (rule
 (l2 __const_100^0 __const_200^0 __const_300^0 __const_400^0 x^0)
 (l0 __const_100^post __const_200^post __const_300^post __const_400^post x^post)
@@ -55,7 +53,6 @@
 (= __const_300^0 __const_300^post))
 (= __const_400^0 __const_400^post))
 )
-
 (rule
 (l2 __const_100^0 __const_200^0 __const_300^0 __const_400^0 x^0)
 (l1 __const_100^post __const_200^post __const_300^post __const_400^post x^post)
@@ -72,7 +69,6 @@
 (= __const_300^0 __const_300^post))
 (= __const_400^0 __const_400^post))
 )
-
 (rule
 (l3 __const_100^0 __const_200^0 __const_300^0 __const_400^0 x^0)
 (l2 __const_100^post __const_200^post __const_300^post __const_400^post x^post)
@@ -85,4 +81,3 @@
 (= __const_400^0 __const_400^post))
 (= x^0 x^post))
 )
-

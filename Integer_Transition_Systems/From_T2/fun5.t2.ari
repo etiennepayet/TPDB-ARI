@@ -48,7 +48,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l2
 __disjvr_0^0
@@ -89,7 +88,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l0
 __disjvr_0^0
@@ -130,7 +128,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l3
 __disjvr_0^0
@@ -171,7 +168,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l4
 __disjvr_0^0
@@ -216,7 +212,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l4
 __disjvr_0^0
@@ -261,7 +256,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l4
 __disjvr_0^0
@@ -304,7 +298,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l4
 __disjvr_0^0
@@ -347,7 +340,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l1
 __disjvr_0^0
@@ -392,7 +384,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l1
 __disjvr_0^0
@@ -437,7 +428,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l1
 __disjvr_0^0
@@ -480,7 +470,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l1
 __disjvr_0^0
@@ -523,7 +512,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l5
 __disjvr_0^0
@@ -578,7 +566,6 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-
 (rule
 (l6
 __disjvr_0^0
@@ -617,4 +604,3 @@ wntext^post)
 (= wnt^0 wnt^post))
 (= wntext^0 wntext^post))
 )
-

@@ -22,7 +22,6 @@
 (= arg2 arg2P))
 )
 )
-
 (rule
 (|f1_0_main_Load'| arg1 arg2 arg3 arg4 arg5)
 (f1321_0_main_LE arg1P arg2P arg3P arg4P arg5P)
@@ -43,7 +42,6 @@
 (= (+ (* 100 arg2) arg3P) arg4P))
 (= 0 arg5P))
 )
-
 (rule
 (f1321_0_main_LE arg1 arg2 arg3 arg4 arg5)
 (f1321_0_main_LE arg1P arg2P arg3P arg4P arg5P)
@@ -65,7 +63,6 @@
 (= arg5 arg5P))
 )
 )
-
 (rule
 (f1321_0_main_LE arg1 arg2 arg3 arg4 arg5)
 (f1321_0_main_LE arg1P arg2P arg3P arg4P arg5P)
@@ -93,7 +90,6 @@
 (= (+ arg5 1) arg5P))
 )
 )
-
 (rule
 (f1321_0_main_LE arg1 arg2 arg3 arg4 arg5)
 (f1321_0_main_LE arg1P arg2P arg3P arg4P arg5P)
@@ -125,7 +121,6 @@
 (= (+ arg5 2) arg5P))
 )
 )
-
 (rule
 (f1321_0_main_LE arg1 arg2 arg3 arg4 arg5)
 (f1321_0_main_LE arg1P arg2P arg3P arg4P arg5P)
@@ -157,8 +152,6 @@
 (= (+ arg5 2) arg5P))
 )
 )
-
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
 (f1_0_main_Load arg1P arg2P arg3P arg4P arg5P))
-

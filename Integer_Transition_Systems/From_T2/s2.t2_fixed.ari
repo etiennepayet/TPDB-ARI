@@ -45,7 +45,6 @@
 (= temp0!15^0 temp0!15^post))
 )
 )
-
 (rule
 (l1 i!14^0 i!22^0 result!12^0 temp0!15^0)
 (l2 i!14^post i!22^post result!12^post temp0!15^post)
@@ -58,7 +57,6 @@
 (= i!22^0 i!22^post))
 (= temp0!15^0 temp0!15^post))
 )
-
 (rule
 (l1 i!14^0 i!22^0 result!12^0 temp0!15^0)
 (l3 i!14^post i!22^post result!12^post temp0!15^post)
@@ -77,7 +75,6 @@
 (= result!12^0 result!12^post))
 (= temp0!15^0 temp0!15^post))
 )
-
 (rule
 (l3 i!14^0 i!22^0 result!12^0 temp0!15^0)
 (l1 i!14^post i!22^post result!12^post temp0!15^post)
@@ -88,7 +85,6 @@
 (= result!12^0 result!12^post))
 (= temp0!15^0 temp0!15^post))
 )
-
 (rule
 (l4 i!14^0 i!22^0 result!12^0 temp0!15^0)
 (l0 i!14^post i!22^post result!12^post temp0!15^post)
@@ -99,4 +95,3 @@
 (= result!12^0 result!12^post))
 (= temp0!15^0 temp0!15^post))
 )
-

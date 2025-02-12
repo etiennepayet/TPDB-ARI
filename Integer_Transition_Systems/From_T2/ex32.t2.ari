@@ -26,7 +26,6 @@
 (= i6^0 i6^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l0 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l2 __const_999^post i2^post i34^post i6^post i8^post)
@@ -41,7 +40,6 @@
 (= i6^0 i6^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l3 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l1 __const_999^post i2^post i34^post i6^post i8^post)
@@ -56,7 +54,6 @@
 (= i6^0 i6^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l3 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l1 __const_999^post i2^post i34^post i6^post i8^post)
@@ -71,7 +68,6 @@
 (= i6^0 i6^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l3 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l2 __const_999^post i2^post i34^post i6^post i8^post)
@@ -88,7 +84,6 @@
 (= i6^0 i6^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l2 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l0 __const_999^post i2^post i34^post i6^post i8^post)
@@ -101,7 +96,6 @@
 (= i6^0 i6^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l4 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l5 __const_999^post i2^post i34^post i6^post i8^post)
@@ -114,7 +108,6 @@
 (= i6^0 i6^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l6 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l7 __const_999^post i2^post i34^post i6^post i8^post)
@@ -129,7 +122,6 @@
 (= i6^0 i6^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l6 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l8 __const_999^post i2^post i34^post i6^post i8^post)
@@ -144,7 +136,6 @@
 (= i34^0 i34^post))
 (= i6^0 i6^post))
 )
-
 (rule
 (l8 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l6 __const_999^post i2^post i34^post i6^post i8^post)
@@ -157,7 +148,6 @@
 (= i6^0 i6^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l5 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l8 __const_999^post i2^post i34^post i6^post i8^post)
@@ -172,7 +162,6 @@
 (= i34^0 i34^post))
 (= i6^0 i6^post))
 )
-
 (rule
 (l5 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l4 __const_999^post i2^post i34^post i6^post i8^post)
@@ -187,7 +176,6 @@
 (= i34^0 i34^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l1 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l4 __const_999^post i2^post i34^post i6^post i8^post)
@@ -200,7 +188,6 @@
 (= i34^0 i34^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l9 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l3 __const_999^post i2^post i34^post i6^post i8^post)
@@ -213,7 +200,6 @@
 (= i6^0 i6^post))
 (= i8^0 i8^post))
 )
-
 (rule
 (l10 __const_999^0 i2^0 i34^0 i6^0 i8^0)
 (l9 __const_999^post i2^post i34^post i6^post i8^post)
@@ -226,4 +212,3 @@
 (= i6^0 i6^post))
 (= i8^0 i8^post))
 )
-

@@ -71,7 +71,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l2
 bDomain^0
@@ -114,7 +113,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___2^0 tmp___2^post))
 )
-
 (rule
 (l3
 bDomain^0
@@ -161,7 +159,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___2^0 tmp___2^post))
 )
-
 (rule
 (l3
 bDomain^0
@@ -206,7 +203,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l3
 bDomain^0
@@ -251,7 +247,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l4
 bDomain^0
@@ -298,7 +293,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___2^0 tmp___2^post))
 )
-
 (rule
 (l4
 bDomain^0
@@ -343,7 +337,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l4
 bDomain^0
@@ -388,7 +381,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l5
 bDomain^0
@@ -431,7 +423,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l7
 bDomain^0
@@ -474,7 +465,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l8
 bDomain^0
@@ -517,7 +507,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l10
 bDomain^0
@@ -560,7 +549,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l11
 bDomain^0
@@ -603,7 +591,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l11
 bDomain^0
@@ -646,7 +633,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l11
 bDomain^0
@@ -689,7 +675,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l12
 bDomain^0
@@ -732,7 +717,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l12
 bDomain^0
@@ -775,7 +759,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l12
 bDomain^0
@@ -818,7 +801,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l13
 bDomain^0
@@ -865,7 +847,6 @@ tmp___3^post)
 (= tmp___1^0 tmp___1^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l13
 bDomain^0
@@ -910,7 +891,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l13
 bDomain^0
@@ -955,7 +935,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l14
 bDomain^0
@@ -998,7 +977,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l15
 bDomain^0
@@ -1041,7 +1019,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l16
 bDomain^0
@@ -1084,7 +1061,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l16
 bDomain^0
@@ -1127,7 +1103,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l16
 bDomain^0
@@ -1170,7 +1145,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l17
 bDomain^0
@@ -1217,7 +1191,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l17
 bDomain^0
@@ -1262,7 +1235,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l17
 bDomain^0
@@ -1307,7 +1279,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l18
 bDomain^0
@@ -1350,7 +1321,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l20
 bDomain^0
@@ -1397,7 +1367,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l20
 bDomain^0
@@ -1442,7 +1411,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l20
 bDomain^0
@@ -1487,7 +1455,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l21
 bDomain^0
@@ -1532,7 +1499,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l21
 bDomain^0
@@ -1577,7 +1543,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l22
 bDomain^0
@@ -1620,7 +1585,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l23
 bDomain^0
@@ -1663,7 +1627,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l23
 bDomain^0
@@ -1706,7 +1669,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l6
 bDomain^0
@@ -1749,7 +1711,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l24
 bDomain^0
@@ -1792,7 +1753,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l24
 bDomain^0
@@ -1835,7 +1795,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l25
 bDomain^0
@@ -1882,7 +1841,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l25
 bDomain^0
@@ -1927,7 +1885,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l25
 bDomain^0
@@ -1972,7 +1929,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l19
 bDomain^0
@@ -2017,7 +1973,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l19
 bDomain^0
@@ -2062,7 +2017,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l9
 bDomain^0
@@ -2107,7 +2061,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l9
 bDomain^0
@@ -2152,7 +2105,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l26
 bDomain^0
@@ -2193,7 +2145,6 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
 (rule
 (l27
 bDomain^0
@@ -2236,4 +2187,3 @@ tmp___3^post)
 (= tmp___2^0 tmp___2^post))
 (= tmp___3^0 tmp___3^post))
 )
-
