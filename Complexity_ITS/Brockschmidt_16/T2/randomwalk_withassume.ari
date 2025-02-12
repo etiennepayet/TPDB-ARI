@@ -11,7 +11,6 @@
   (f21 A (- B 1) C D E F 0)
   :guard
   (and (and (and (>= F 1) (>= E F)) (>= B 1)) (>= 0 C)))
-
 (rule
   (f10 A B C D E F G)
   (f21 (+ A 1) (+ A 1) H D E F I)
@@ -22,29 +21,24 @@
       (>= 0 B))
     (>= 0 C))
   )
-
 (rule
   (f10 A B C D E F G)
   (f21 A B (- C 1) D E F H)
   :guard
   (and (and (and (and (>= H 0) (>= 1 H)) (>= F 1)) (>= C 1)) (>= E F)))
-
 (rule
   (f21 A B C D E F G)
   (f10 A B C D E (- F 1) G)
   :guard
   (and (>= (+ E 1) A) (>= 0 G)))
-
 (rule
   (f21 A B C D E F G)
   (f10 A B C D E (+ F 1) G)
   :guard
   (and (>= (+ E 1) A) (>= G 1)))
-
 (rule
   (f10 A B C D E F G)
   (f32 A B C D E F G)
   :guard
   (and (>= 0 F) (>= E F)))
-
 (rule (f10 A B C D E F G) (f32 A B C D E F G) :guard (>= F (+ 1 E)))

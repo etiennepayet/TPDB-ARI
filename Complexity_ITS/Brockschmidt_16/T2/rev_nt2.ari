@@ -36,7 +36,6 @@
     Int
     Int)
   )
-
 (fun
   f26
   (->
@@ -73,7 +72,6 @@
     Int
     Int)
   )
-
 (fun
   f6
   (->
@@ -110,20 +108,17 @@
     Int
     Int)
   )
-
 (entrypoint f26)
 (rule
   (f11 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1)
   (f11 A B B B E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1)
   :guard
   (>= A (+ B 1)))
-
 (rule
   (f11 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1)
   (f11 A B B B E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1)
   :guard
   (>= B (+ A 1)))
-
 (rule
   (f6 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1)
   (f6
@@ -160,7 +155,6 @@
     E1)
   :guard
   (and (and (>= E (+ F 1)) (>= G 0)) (>= H 1)))
-
 (rule
   (f6 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1)
   (f6
@@ -197,7 +191,6 @@
     E1)
   :guard
   (and (and (>= F (+ E 1)) (>= G 0)) (>= H 1)))
-
 (rule
   (f26 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1)
   (f6
@@ -234,7 +227,6 @@
     E1)
   :guard
   (exists ((I1 Int)) (>= E (+ I1 1))))
-
 (rule
   (f26 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1)
   (f6
@@ -271,16 +263,13 @@
     E1)
   :guard
   (exists ((I1 Int)) (>= I1 (+ E 1))))
-
 (rule
   (f6 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1)
   (f11 A J1 J1 J1 F F G H I J K L M F1 O P Q R S T U V W X Y G1 A1 B1 C1 D1 H1)
   :guard
   (and (and (and (>= A (+ J1 1)) (>= G 0)) (>= H 1)) (= F E)))
-
 (rule
   (f6 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1)
   (f11 A J1 J1 J1 F F G H I J K L M F1 O P Q R S T U V W X Y G1 A1 B1 C1 D1 H1)
   :guard
   (and (and (and (>= J1 (+ A 1)) (>= G 0)) (>= H 1)) (= F E)))
-

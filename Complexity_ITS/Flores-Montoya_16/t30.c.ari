@@ -18,11 +18,9 @@
 (rule
   (eval_start_start v__0 v__01 v_x v_y)
   (eval_start_bb0_in v__0 v__01 v_x v_y))
-
 (rule
   (eval_start_bb0_in v__0 v__01 v_x v_y)
   (eval_start_0 v__0 v__01 v_x v_y))
-
 (rule (eval_start_0 v__0 v__01 v_x v_y) (eval_start_1 v__0 v__01 v_x v_y))
 (rule (eval_start_1 v__0 v__01 v_x v_y) (eval_start_2 v__0 v__01 v_x v_y))
 (rule (eval_start_2 v__0 v__01 v_x v_y) (eval_start_3 v__0 v__01 v_x v_y))
@@ -36,18 +34,14 @@
   (eval_start_bb2_in v__0 v__01 v_x v_y)
   :guard
   (> v__0 0))
-
 (rule
   (eval_start_bb1_in v__0 v__01 v_x v_y)
   (eval_start_bb3_in v__0 v__01 v_x v_y)
   :guard
   (<= v__0 0))
-
 (rule
   (eval_start_bb2_in v__0 v__01 v_x v_y)
   (eval_start_bb1_in v__01 (- v__0 1) v_x v_y))
-
 (rule
   (eval_start_bb3_in v__0 v__01 v_x v_y)
   (eval_start_stop v__0 v__01 v_x v_y))
-

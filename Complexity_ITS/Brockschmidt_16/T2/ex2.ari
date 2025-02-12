@@ -12,5 +12,4 @@
   (f14 A B (+ C 1) D)
   :guard
   (exists ((E Int)) (>= E (+ C 1))))
-
 (rule (f14 A B C D) (f22 A B C D) :guard (exists ((E Int)) (>= C E)))

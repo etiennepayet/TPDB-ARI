@@ -12,6 +12,5 @@
   (f18 A (- B 1) F)
   :guard
   (exists ((D Int) (E Int)) (>= D (+ E 1))))
-
 (rule (f18 A B C) (f15 (+ A 1) B C))
 (rule (f15 A B C) (f28 A B C) :guard (>= A 11))

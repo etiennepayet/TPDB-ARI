@@ -8,17 +8,14 @@
   (eval (- A 1) B C)
   :guard
   (and (and (>= (+ A B) (+ C 1)) (>= C 0)) (>= A 1)))
-
 (rule
   (eval A B C)
   (eval A (- B 1) C)
   :guard
   (and (and (and (>= (+ A B) (+ C 1)) (>= C 0)) (>= 0 A)) (>= B 1)))
-
 (rule
   (eval A B C)
   (eval A B C)
   :guard
   (and (and (and (>= (+ A B) (+ C 1)) (>= C 0)) (>= 0 A)) (>= 0 B)))
-
 (rule (start A B C) (eval A B C))

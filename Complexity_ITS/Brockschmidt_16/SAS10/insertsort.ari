@@ -15,7 +15,6 @@
     (and (and (and (and (>= 1 A) (= B C)) (= D E)) (= F A)) (= G H))
     (= I J))
   )
-
 (rule
   (start A B C D E F G H I J)
   (lbl31 A K C D E F G H 1 J)
@@ -24,7 +23,6 @@
     (and (and (and (and (>= A 2) (= B C)) (= D E)) (= F A)) (= G H))
     (= I J))
   )
-
 (rule
   (lbl43 A B C D E F G H I J)
   (lbl43 A B C D E F (- G 1) H I J)
@@ -35,25 +33,21 @@
       (>= A (+ I 1)))
     (= F A))
   )
-
 (rule
   (lbl43 A B C D E F G H I J)
   (lbl13 A B C I E F G H (+ 1 I) J)
   :guard
   (and (and (and (>= I (+ G 2)) (>= (+ G 1) 0)) (>= A (+ I 1))) (= F A)))
-
 (rule
   (lbl31 A B C D E F G H I J)
   (lbl43 A B C D E F (- I 2) H I J)
   :guard
   (and (and (>= I 1) (>= A (+ I 1))) (= F A)))
-
 (rule
   (lbl31 A B C D E F G H I J)
   (lbl13 A B C I E F (- I 1) H (+ 1 I) J)
   :guard
   (and (and (>= I 1) (>= A (+ I 1))) (= F A)))
-
 (rule
   (lbl13 A B C D E F G H I J)
   (stop A B C D E F G H I J)
@@ -64,7 +58,6 @@
       (= I A))
     (= (+ D 1) A))
   )
-
 (rule
   (lbl13 A B C D E F G H I J)
   (lbl31 A K C D E F G H I J)
@@ -79,5 +72,4 @@
       (= F A))
     (= I (+ D 1)))
   )
-
 (rule (start0 A B C D E F G H I J) (start A C C E E A H H J J))

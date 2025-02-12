@@ -17,25 +17,21 @@
   (evalSequentialSinglebb5in A B)
   :guard
   (>= A B))
-
 (rule
   (evalSequentialSinglebb1in A B)
   (evalSequentialSinglebb2in A B)
   :guard
   (>= B (+ A 1)))
-
 (rule
   (evalSequentialSinglebb2in A B)
   (evalSequentialSinglebbin A B)
   :guard
   (exists ((C Int)) (>= 0 (+ C 1))))
-
 (rule
   (evalSequentialSinglebb2in A B)
   (evalSequentialSinglebbin A B)
   :guard
   (exists ((C Int)) (>= C 1)))
-
 (rule (evalSequentialSinglebb2in A B) (evalSequentialSinglebb5in A B))
 (rule (evalSequentialSinglebbin A B) (evalSequentialSinglebb1in (+ A 1) B))
 (rule
@@ -43,12 +39,10 @@
   (evalSequentialSinglebb4in A B)
   :guard
   (>= B (+ A 1)))
-
 (rule
   (evalSequentialSinglebb5in A B)
   (evalSequentialSinglereturnin A B)
   :guard
   (>= A B))
-
 (rule (evalSequentialSinglebb4in A B) (evalSequentialSinglebb5in (+ A 1) B))
 (rule (evalSequentialSinglereturnin A B) (evalSequentialSinglestop A B))

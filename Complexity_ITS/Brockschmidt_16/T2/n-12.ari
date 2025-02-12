@@ -11,6 +11,5 @@
   (f2 (+ (- 1) A) D C)
   :guard
   (and (>= 0 (+ D 1)) (>= A 0)))
-
 (rule (f2 A B C) (f2 A 0 C) :guard (>= A 0))
 (rule (f2 A B C) (f300 A B D) :guard (>= 0 (+ A 1)))

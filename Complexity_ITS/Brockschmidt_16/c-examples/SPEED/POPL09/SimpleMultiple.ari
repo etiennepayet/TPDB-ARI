@@ -16,31 +16,25 @@
   (evalSimpleMultiplebbin A B C D)
   :guard
   (>= C (+ B 1)))
-
 (rule
   (evalSimpleMultiplebb3in A B C D)
   (evalSimpleMultiplereturnin A B C D)
   :guard
   (>= B C))
-
 (rule
   (evalSimpleMultiplebbin A B C D)
   (evalSimpleMultiplebb1in A B C D)
   :guard
   (>= D (+ A 1)))
-
 (rule
   (evalSimpleMultiplebbin A B C D)
   (evalSimpleMultiplebb2in A B C D)
   :guard
   (>= A D))
-
 (rule
   (evalSimpleMultiplebb1in A B C D)
   (evalSimpleMultiplebb3in (+ A 1) B C D))
-
 (rule
   (evalSimpleMultiplebb2in A B C D)
   (evalSimpleMultiplebb3in A (+ B 1) C D))
-
 (rule (evalSimpleMultiplereturnin A B C D) (evalSimpleMultiplestop A B C D))

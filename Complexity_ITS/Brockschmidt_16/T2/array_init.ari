@@ -11,5 +11,4 @@
   (f11 A)
   :guard
   (exists ((B Int)) (and (>= A 10) (>= 0 (+ B 1)))))
-
 (rule (f3 A) (f11 A) :guard (>= A 10))

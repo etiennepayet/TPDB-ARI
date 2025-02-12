@@ -11,11 +11,9 @@
   (f0 H B C I J K G)
   :guard
   (and (>= 0 (+ J 1)) (>= B (+ A 1))))
-
 (rule
   (f0 A B C D E F G)
   (f0 H B C I J K G)
   :guard
   (and (>= J 1) (>= B (+ A 1))))
-
 (rule (f1 A B C D E F G) (f0 A B C D E F H))

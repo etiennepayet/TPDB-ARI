@@ -43,7 +43,6 @@
     Int
     Int)
   )
-
 (fun
   f10
   (->
@@ -87,7 +86,6 @@
     Int
     Int)
   )
-
 (fun
   f12
   (->
@@ -131,7 +129,6 @@
     Int
     Int)
   )
-
 (fun
   f13
   (->
@@ -175,7 +172,6 @@
     Int
     Int)
   )
-
 (fun
   f16
   (->
@@ -219,7 +215,6 @@
     Int
     Int)
   )
-
 (fun
   f7
   (->
@@ -263,7 +258,6 @@
     Int
     Int)
   )
-
 (fun
   f8
   (->
@@ -307,7 +301,6 @@
     Int
     Int)
   )
-
 (fun
   f9
   (->
@@ -351,7 +344,6 @@
     Int
     Int)
   )
-
 (entrypoint f9)
 (rule
   (f12
@@ -437,7 +429,6 @@
     ((N1 Int))
     (and (and (and (>= A 0) (>= M1 2)) (>= N1 M1)) (= B 1)))
   )
-
 (rule
   (f13
     A
@@ -519,7 +510,6 @@
     L1)
   :guard
   (and (>= M1 2) (>= I 0)))
-
 (rule
   (f16
     A
@@ -601,7 +591,6 @@
     L1)
   :guard
   (and (and (>= B 0) (>= G 0)) (>= M1 2)))
-
 (rule
   (f1
     A
@@ -683,7 +672,6 @@
     L1)
   :guard
   (and (>= Q (+ A 1)) (>= A 0)))
-
 (rule
   (f1
     A
@@ -770,7 +758,6 @@
       (>= G M1))
     (= B 0))
   )
-
 (rule
   (f7
     A
@@ -852,7 +839,6 @@
     L1)
   :guard
   (and (and (>= M1 2) (>= A1 0)) (= B1 0)))
-
 (rule
   (f7
     A
@@ -934,7 +920,6 @@
     L1)
   :guard
   (and (and (>= M1 2) (>= A1 0)) (= B1 G1)))
-
 (rule
   (f8
     A
@@ -1016,7 +1001,6 @@
     L1)
   :guard
   (and (and (>= M1 2) (>= H1 0)) (= B1 0)))
-
 (rule
   (f8
     A
@@ -1098,7 +1082,6 @@
     L1)
   :guard
   (and (and (>= M1 2) (>= H1 0)) (= B1 G1)))
-
 (rule
   (f13
     A
@@ -1183,7 +1166,6 @@
     ((O1 Int))
     (and (and (and (and (>= O1 2) (>= M1 2)) (= M 0)) (= I 0)) (= B 1)))
   )
-
 (rule
   (f16
     A
@@ -1268,7 +1250,6 @@
     ((O1 Int))
     (and (and (and (and (>= O1 2) (>= M1 2)) (>= B 0)) (>= G 0)) (= M 0)))
   )
-
 (rule
   (f9
     A
@@ -1350,7 +1331,6 @@
     2)
   :guard
   (>= M1 2))
-
 (rule
   (f9
     A
@@ -1435,7 +1415,6 @@
     ((V1 Int) (W1 Int) (X1 Int))
     (and (and (and (>= 0 V1) (>= 0 W1)) (>= 0 M1)) (>= 0 X1)))
   )
-
 (rule
   (f9
     A
@@ -1517,4 +1496,3 @@
     L1)
   :guard
   (= S 0))
-

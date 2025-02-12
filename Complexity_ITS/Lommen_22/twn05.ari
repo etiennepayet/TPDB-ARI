@@ -12,5 +12,4 @@
   (l2 (+ (* 5 A) (* C C)) (* 2 B) C D E F)
   :guard
   (and (< A (* B B)) (> A 0)))
-
 (rule (l2 A B C D E F) (l1 D E F D E (- F 1)) :guard (> F 0))

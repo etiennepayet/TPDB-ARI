@@ -55,7 +55,6 @@
     Int
     Int)
   )
-
 (fun
   f10
   (->
@@ -111,7 +110,6 @@
     Int
     Int)
   )
-
 (fun
   f116
   (->
@@ -167,7 +165,6 @@
     Int
     Int)
   )
-
 (fun
   f12
   (->
@@ -223,7 +220,6 @@
     Int
     Int)
   )
-
 (fun
   f13
   (->
@@ -279,7 +275,6 @@
     Int
     Int)
   )
-
 (fun
   f300
   (->
@@ -335,7 +330,6 @@
     Int
     Int)
   )
-
 (fun
   f7
   (->
@@ -391,7 +385,6 @@
     Int
     Int)
   )
-
 (fun
   f8
   (->
@@ -447,7 +440,6 @@
     Int
     Int)
   )
-
 (fun
   f9
   (->
@@ -503,7 +495,6 @@
     Int
     Int)
   )
-
 (entrypoint f9)
 (rule
   (f12
@@ -613,7 +604,6 @@
     ((Y1 Int))
     (and (and (and (>= A 2) (>= Y1 A)) (>= B 0)) (= C 1)))
   )
-
 (rule
   (f13
     A
@@ -719,7 +709,6 @@
     X1)
   :guard
   (and (>= E 0) (>= A 2)))
-
 (rule
   (f116
     A
@@ -825,7 +814,6 @@
     X1)
   :guard
   (and (>= F O) (= P 1)))
-
 (rule
   (f1
     A
@@ -931,7 +919,6 @@
     X1)
   :guard
   (and (>= B 0) (>= Q (+ B 1))))
-
 (rule
   (f1
     A
@@ -1040,7 +1027,6 @@
     (and (and (and (and (>= A 2) (>= C2 A)) (>= F A)) (>= B Q)) (>= B 0))
     (= C 0))
   )
-
 (rule
   (f7
     A
@@ -1146,7 +1132,6 @@
     X1)
   :guard
   (>= B1 0))
-
 (rule
   (f7
     A
@@ -1252,7 +1237,6 @@
     X1)
   :guard
   (and (>= B1 0) (= G1 D1)))
-
 (rule
   (f8
     A
@@ -1363,7 +1347,6 @@
       (= U 0))
     (= J1 V))
   )
-
 (rule
   (f8
     A
@@ -1469,7 +1452,6 @@
     X1)
   :guard
   (and (>= E1 0) (= G1 D1)))
-
 (rule
   (f13
     A
@@ -1575,7 +1557,6 @@
     X1)
   :guard
   (and (and (and (>= A 2) (= U 0)) (= E 0)) (= C 1)))
-
 (rule
   (f116
     A
@@ -1681,7 +1662,6 @@
     X1)
   :guard
   (and (and (and (and (>= A 2) (>= C 0)) (>= F 0)) (= P 0)) (= U M1)))
-
 (rule
   (f116
     A
@@ -1790,7 +1770,6 @@
     (and (and (and (and (>= Z1 0) (>= A 2)) (>= C 0)) (>= F 0)) (= U 0))
     (= P 0))
   )
-
 (rule
   (f9
     A
@@ -1896,7 +1875,6 @@
     X1)
   :guard
   (and (>= Z1 2) (= S W)))
-
 (rule
   (f9
     A
@@ -2002,7 +1980,6 @@
     X1)
   :guard
   (>= 0 F2))
-
 (rule
   (f9
     A
@@ -2108,4 +2085,3 @@
     P2)
   :guard
   (and (= S 0) (= W 0)))
-

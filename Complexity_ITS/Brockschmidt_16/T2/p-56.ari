@@ -12,10 +12,8 @@
   (f300 A B C (+ 1 D) (+ 1 E))
   :guard
   (and (>= E 0) (>= 0 (+ 2 D))))
-
 (rule
   (f300 A B C D E)
   (f300 A B C (+ 1 D) (+ 1 E))
   :guard
   (and (>= 0 (+ 2 E)) (>= 0 (+ 2 D))))
-

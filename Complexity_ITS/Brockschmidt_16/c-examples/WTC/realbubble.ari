@@ -19,37 +19,31 @@
   (evalrealbubblebb4in A 0 0 D)
   :guard
   (>= A 1))
-
 (rule
   (evalrealbubblebb7in A B C D)
   (evalrealbubblereturnin A B C D)
   :guard
   (>= 0 A))
-
 (rule
   (evalrealbubblebb4in A B C D)
   (evalrealbubblebb1in A B C D)
   :guard
   (>= A (+ B 1)))
-
 (rule
   (evalrealbubblebb4in A B C D)
   (evalrealbubblebb5in A B C D)
   :guard
   (>= B A))
-
 (rule
   (evalrealbubblebb1in A B C D)
   (evalrealbubblebb2in A B C D)
   :guard
   (exists ((E Int) (F Int)) (>= E (+ F 1))))
-
 (rule
   (evalrealbubblebb1in A B C D)
   (evalrealbubblebb3in A B C C)
   :guard
   (exists ((E Int) (F Int)) (>= F E)))
-
 (rule (evalrealbubblebb2in A B C D) (evalrealbubblebb3in A B C 1))
 (rule (evalrealbubblebb3in A B C D) (evalrealbubblebb4in A (+ B 1) D D))
 (rule
@@ -57,18 +51,15 @@
   (evalrealbubblereturnin A B C D)
   :guard
   (= C 0))
-
 (rule
   (evalrealbubblebb5in A B C D)
   (evalrealbubblebb6in A B C D)
   :guard
   (>= 0 (+ C 1)))
-
 (rule
   (evalrealbubblebb5in A B C D)
   (evalrealbubblebb6in A B C D)
   :guard
   (>= C 1))
-
 (rule (evalrealbubblebb6in A B C D) (evalrealbubblebb7in (- A 1) B C D))
 (rule (evalrealbubblereturnin A B C D) (evalrealbubblestop A B C D))

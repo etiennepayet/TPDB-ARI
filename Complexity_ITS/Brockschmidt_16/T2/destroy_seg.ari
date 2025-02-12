@@ -37,7 +37,6 @@
     Int
     Int)
   )
-
 (fun
   f10
   (->
@@ -75,7 +74,6 @@
     Int
     Int)
   )
-
 (fun
   f3
   (->
@@ -113,7 +111,6 @@
     Int
     Int)
   )
-
 (fun
   f4
   (->
@@ -151,7 +148,6 @@
     Int
     Int)
   )
-
 (fun
   f9
   (->
@@ -189,7 +185,6 @@
     Int
     Int)
   )
-
 (entrypoint f3)
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
@@ -228,7 +223,6 @@
     F1)
   :guard
   (and (>= A (+ B 1)) (>= B 0)))
-
 (rule
   (f9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f10 A B C D E F G H I J K M M M G1 H1 H1 J S T U V W X Y Z A1 B1 C1 D1 E1 F1)
@@ -237,7 +231,6 @@
     ((I1 Int))
     (and (and (and (>= I1 (+ J 1)) (>= K 0)) (>= H1 (+ I1 1))) (>= G1 2)))
   )
-
 (rule
   (f9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f10 A B C D E F G H I J K M M M G1 H1 H1 J S T U V W X Y Z A1 B1 C1 D1 E1 F1)
@@ -246,7 +239,6 @@
     ((I1 Int))
     (and (and (and (>= I1 (+ J 1)) (>= K 0)) (>= I1 (+ H1 1))) (>= G1 2)))
   )
-
 (rule
   (f9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f10 A B C D E F G H I J K M M M G1 H1 H1 J S T U V W X Y Z A1 B1 C1 D1 E1 F1)
@@ -255,7 +247,6 @@
     ((I1 Int))
     (and (and (and (>= J (+ I1 1)) (>= K 0)) (>= H1 (+ I1 1))) (>= G1 2)))
   )
-
 (rule
   (f9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f10 A B C D E F G H I J K M M M G1 H1 H1 J S T U V W X Y Z A1 B1 C1 D1 E1 F1)
@@ -264,7 +255,6 @@
     ((I1 Int))
     (and (and (and (>= J (+ I1 1)) (>= K 0)) (>= I1 (+ H1 1))) (>= G1 2)))
   )
-
 (rule
   (f9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f4
@@ -302,7 +292,6 @@
     F1)
   :guard
   (and (and (and (>= K 0) (>= G1 (+ J1 1))) (>= H1 2)) (= M J)))
-
 (rule
   (f9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f4
@@ -340,7 +329,6 @@
     F1)
   :guard
   (and (and (and (>= K 0) (>= J1 (+ G1 1))) (>= H1 2)) (= M J)))
-
 (rule
   (f10 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f10
@@ -381,7 +369,6 @@
     ((J1 Int))
     (and (and (and (>= J1 (+ J 1)) (>= T 0)) (>= H1 (+ J1 1))) (>= G1 2)))
   )
-
 (rule
   (f10 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f10
@@ -422,7 +409,6 @@
     ((J1 Int))
     (and (and (and (>= J1 (+ J 1)) (>= T 0)) (>= J1 (+ H1 1))) (>= G1 2)))
   )
-
 (rule
   (f10 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f10
@@ -463,7 +449,6 @@
     ((J1 Int))
     (and (and (and (>= J (+ J1 1)) (>= T 0)) (>= H1 (+ J1 1))) (>= G1 2)))
   )
-
 (rule
   (f10 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f10
@@ -504,7 +489,6 @@
     ((J1 Int))
     (and (and (and (>= J (+ J1 1)) (>= T 0)) (>= J1 (+ H1 1))) (>= G1 2)))
   )
-
 (rule
   (f10 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f4
@@ -542,7 +526,6 @@
     F1)
   :guard
   (and (and (>= G1 2) (>= T 0)) (= M J)))
-
 (rule
   (f3 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f4
@@ -580,7 +563,6 @@
     F1)
   :guard
   (exists ((O1 Int) (P1 Int)) (and (and (>= 0 O1) (>= 0 I1)) (>= 0 P1))))
-
 (rule
   (f3 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f1
@@ -618,7 +600,6 @@
     F1)
   :guard
   (>= J1 2))
-
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f10
@@ -670,7 +651,6 @@
       (>= N (+ C 1)))
     )
   )
-
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f10
@@ -720,7 +700,6 @@
       (>= G1 2))
     )
   )
-
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f10
@@ -770,7 +749,6 @@
       (>= G1 2))
     )
   )
-
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f10
@@ -822,7 +800,6 @@
       (>= C (+ N 1)))
     )
   )
-
 (rule
   (f3 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f4
@@ -860,7 +837,6 @@
     F1)
   :guard
   (and (>= 0 1) (>= G1 (+ U1 1))))
-
 (rule
   (f3 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f4
@@ -898,7 +874,6 @@
     F1)
   :guard
   (and (>= 0 1) (>= U1 (+ G1 1))))
-
 (rule
   (f3 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f4
@@ -936,7 +911,6 @@
     F1)
   :guard
   (and (>= 0 1) (>= G1 (+ U1 1))))
-
 (rule
   (f3 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1 E1 F1)
   (f4
@@ -974,4 +948,3 @@
     F1)
   :guard
   (and (>= 0 1) (>= U1 (+ G1 1))))
-

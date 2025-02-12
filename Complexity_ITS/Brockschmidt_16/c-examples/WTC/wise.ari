@@ -17,7 +17,6 @@
   (evalwisebb6in B A)
   :guard
   (and (>= A 0) (>= B 0)))
-
 (rule (evalwisebb6in A B) (evalwisebb3in A B) :guard (>= B (+ A 3)))
 (rule (evalwisebb6in A B) (evalwisebb3in A B) :guard (>= A (+ B 3)))
 (rule
@@ -25,7 +24,6 @@
   (evalwisereturnin A B)
   :guard
   (and (>= (+ 2 A) B) (>= (+ 2 B) A)))
-
 (rule (evalwisebb3in A B) (evalwisebb4in A B) :guard (>= A (+ B 1)))
 (rule (evalwisebb3in A B) (evalwisebb5in A B) :guard (>= B A))
 (rule (evalwisebb4in A B) (evalwisebb6in A (+ B 1)))

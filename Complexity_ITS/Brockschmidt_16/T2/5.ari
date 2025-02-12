@@ -11,7 +11,6 @@
   (f2 0 O P 3 N 0 O P 3 N 2 L M)
   :guard
   (and (>= 7 N) (>= N 1)))
-
 (rule
   (f4 A B C D E F G H I J K L M)
   (f2 0 O P N Q 0 O P N Q 2 L M)
@@ -26,7 +25,6 @@
       (>= Q 1))
     (>= N 1))
   )
-
 (rule
   (f1 A B C D E F G H I J K L M)
   (f1 O P N 2 Q O P N 2 Q 1 L M)
@@ -42,7 +40,6 @@
       (>= O 0))
     )
   )
-
 (rule
   (f2 A B C D E F G H I J K L M)
   (f1 O P N 2 Q O P N 2 Q 1 L M)
@@ -58,7 +55,6 @@
       (>= O 0))
     )
   )
-
 (rule
   (f4 A B C D E F G H I J K L M)
   (f1 O P N 2 Q O P N 2 Q 1 L M)
@@ -78,7 +74,6 @@
       (>= O 0))
     )
   )
-
 (rule
   (f4 A B C D E F G H I J K L M)
   (f1 O P N 2 Q O P N 2 Q 1 L M)
@@ -94,7 +89,6 @@
       (>= O 0))
     )
   )
-
 (rule
   (f2 A B C D E F G H I J K L M)
   (f4 O P N Q 2 O P N Q 2 4 L M)
@@ -118,7 +112,6 @@
       (>= O 0))
     )
   )
-
 (rule
   (f2 A B C D E F G H I J K L M)
   (f4 O P N Q 7 O P N Q 7 4 L M)
@@ -142,4 +135,3 @@
       (>= O 0))
     )
   )
-

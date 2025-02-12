@@ -15,13 +15,11 @@
   (f8 (+ A 1) B (+ C 1) E)
   :guard
   (and (>= B (+ A 1)) (>= 0 (+ E 1))))
-
 (rule
   (f8 A B C D)
   (f8 (+ A 1) B (+ C 1) E)
   :guard
   (and (>= B (+ A 1)) (>= E 1)))
-
 (rule (f16 A B C D) (f4 A B C D) :guard (>= 0 C))
 (rule (f16 A B C D) (f4 (- A 1) B C D) :guard (>= C 1))
 (rule (f4 A B C D) (f20 A B C D) :guard (>= A B))

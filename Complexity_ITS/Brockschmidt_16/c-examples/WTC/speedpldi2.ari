@@ -14,42 +14,35 @@
   (evalspeedpldi2bb5in B 0 A)
   :guard
   (and (>= A 0) (>= B 1)))
-
 (rule
   (evalspeedpldi2entryin A B C)
   (evalspeedpldi2returnin A B C)
   :guard
   (>= 0 (+ A 1)))
-
 (rule
   (evalspeedpldi2entryin A B C)
   (evalspeedpldi2returnin A B C)
   :guard
   (>= 0 B))
-
 (rule
   (evalspeedpldi2bb5in A B C)
   (evalspeedpldi2bb2in A B C)
   :guard
   (>= C 1))
-
 (rule
   (evalspeedpldi2bb5in A B C)
   (evalspeedpldi2returnin A B C)
   :guard
   (>= 0 C))
-
 (rule
   (evalspeedpldi2bb2in A B C)
   (evalspeedpldi2bb3in A B C)
   :guard
   (>= A (+ B 1)))
-
 (rule
   (evalspeedpldi2bb2in A B C)
   (evalspeedpldi2bb5in A 0 C)
   :guard
   (>= B A))
-
 (rule (evalspeedpldi2bb3in A B C) (evalspeedpldi2bb5in A (+ B 1) (- C 1)))
 (rule (evalspeedpldi2returnin A B C) (evalspeedpldi2stop A B C))

@@ -10,31 +10,26 @@
   (stop A B C D 0 F D H)
   :guard
   (and (and (and (and (>= 0 A) (= B C)) (= D A)) (= E F)) (= G H)))
-
 (rule
   (start A B C D E F G H)
   (cut A B C D 0 F (- D 1) H)
   :guard
   (and (and (and (and (>= A 2) (= B C)) (= D A)) (= E F)) (= G H)))
-
 (rule
   (start A B C D E F G H)
   (stop A B C D 0 F (- D 1) H)
   :guard
   (and (and (and (and (= D 1) (= B C)) (= A 1)) (= E F)) (= G H)))
-
 (rule
   (start A B C D E F G H)
   (cut A 0 C D 1 F (- D 1) H)
   :guard
   (and (and (and (and (>= A 2) (= B C)) (= D A)) (= E F)) (= G H)))
-
 (rule
   (start A B C D E F G H)
   (stop A 0 C D 0 F (- D 1) H)
   :guard
   (and (and (and (and (= D 1) (= B C)) (= A 1)) (= E F)) (= G H)))
-
 (rule
   (cut A B C D E F G H)
   (cut A B C D (- E 1) F (- G 1) H)
@@ -47,7 +42,6 @@
       (>= A (+ G E)))
     (= D A))
   )
-
 (rule
   (cut A B C D E F G H)
   (stop A B C D (- E 1) F (- G 1) H)
@@ -58,7 +52,6 @@
       (= G 1))
     (= D A))
   )
-
 (rule
   (cut A B C D E F G H)
   (cut A B C D 0 F (- G 1) H)
@@ -71,7 +64,6 @@
       (>= A (+ G E)))
     (= D A))
   )
-
 (rule
   (cut A B C D E F G H)
   (stop A B C D 0 F (- G 1) H)
@@ -82,7 +74,6 @@
       (= G 1))
     (= D A))
   )
-
 (rule
   (cut A B C D E F G H)
   (cut A E C D (+ 1 E) F (- G 1) H)
@@ -95,7 +86,6 @@
       (>= A (+ G E)))
     (= D A))
   )
-
 (rule
   (cut A B C D E F G H)
   (stop A E C D (+ 1 E) F (- G 1) H)
@@ -106,7 +96,6 @@
       (= G 1))
     (= D A))
   )
-
 (rule
   (cut A B C D E F G H)
   (cut A E C D 0 F (- G 1) H)
@@ -119,7 +108,6 @@
       (>= A (+ G E)))
     (= D A))
   )
-
 (rule
   (cut A B C D E F G H)
   (stop A E C D 0 F (- G 1) H)
@@ -128,5 +116,4 @@
     (and (and (and (>= A 1) (>= A 2)) (= G 1)) (= (+ E 1) A))
     (= D A))
   )
-
 (rule (start0 A B C D E F G H) (start A C C A F F H H))

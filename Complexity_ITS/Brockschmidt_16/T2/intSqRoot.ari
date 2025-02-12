@@ -10,11 +10,9 @@
   (f6 A E C E)
   :guard
   (and (>= B (+ A 2)) (>= (* E E) (+ C 1))))
-
 (rule
   (f6 A B C D)
   (f6 E B C E)
   :guard
   (and (>= B (+ A 2)) (>= C (* E E))))
-
 (rule (f6 A B C D) (f16 A B C D) :guard (>= (+ A 1) B))

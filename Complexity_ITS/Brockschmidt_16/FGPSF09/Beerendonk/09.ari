@@ -8,5 +8,4 @@
   (eval (- A 1) B (- C 1))
   :guard
   (and (>= A (+ B 1)) (>= C (+ B 1))))
-
 (rule (start A B C) (eval A B C))

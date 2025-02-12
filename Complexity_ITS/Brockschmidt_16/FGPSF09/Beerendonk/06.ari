@@ -8,5 +8,4 @@
   (eval (* 2 B))
   :guard
   (and (>= (* 2 B) 0) (= A (+ 1 (* 2 B)))))
-
 (rule (start A) (eval A))

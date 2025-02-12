@@ -13,6 +13,5 @@
   (f0 1 B C D)
   :guard
   (exists ((E Int)) (and (>= 9 E) (= A 0))))
-
 (rule (f2 A B C D) (f0 2 B C 2) :guard (>= 9 A))
 (rule (f3 A B C D) (f0 0 B C D))

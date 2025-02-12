@@ -35,7 +35,6 @@
     Int
     Int)
   )
-
 (fun
   f101
   (->
@@ -71,7 +70,6 @@
     Int
     Int)
   )
-
 (fun
   f107
   (->
@@ -107,7 +105,6 @@
     Int
     Int)
   )
-
 (fun
   f110
   (->
@@ -143,7 +140,6 @@
     Int
     Int)
   )
-
 (fun
   f126
   (->
@@ -179,7 +175,6 @@
     Int
     Int)
   )
-
 (fun
   f138
   (->
@@ -215,7 +210,6 @@
     Int
     Int)
   )
-
 (fun
   f141
   (->
@@ -251,7 +245,6 @@
     Int
     Int)
   )
-
 (fun
   f147
   (->
@@ -287,7 +280,6 @@
     Int
     Int)
   )
-
 (fun
   f150
   (->
@@ -323,7 +315,6 @@
     Int
     Int)
   )
-
 (fun
   f166
   (->
@@ -359,7 +350,6 @@
     Int
     Int)
   )
-
 (fun
   f178
   (->
@@ -395,7 +385,6 @@
     Int
     Int)
   )
-
 (fun
   f18
   (->
@@ -431,7 +420,6 @@
     Int
     Int)
   )
-
 (fun
   f181
   (->
@@ -467,7 +455,6 @@
     Int
     Int)
   )
-
 (fun
   f187
   (->
@@ -503,7 +490,6 @@
     Int
     Int)
   )
-
 (fun
   f190
   (->
@@ -539,7 +525,6 @@
     Int
     Int)
   )
-
 (fun
   f207
   (->
@@ -575,7 +560,6 @@
     Int
     Int)
   )
-
 (fun
   f21
   (->
@@ -611,7 +595,6 @@
     Int
     Int)
   )
-
 (fun
   f27
   (->
@@ -647,7 +630,6 @@
     Int
     Int)
   )
-
 (fun
   f30
   (->
@@ -683,7 +665,6 @@
     Int
     Int)
   )
-
 (fun
   f46
   (->
@@ -719,7 +700,6 @@
     Int
     Int)
   )
-
 (fun
   f58
   (->
@@ -755,7 +735,6 @@
     Int
     Int)
   )
-
 (fun
   f61
   (->
@@ -791,7 +770,6 @@
     Int
     Int)
   )
-
 (fun
   f67
   (->
@@ -827,7 +805,6 @@
     Int
     Int)
   )
-
 (fun
   f70
   (->
@@ -863,7 +840,6 @@
     Int
     Int)
   )
-
 (fun
   f86
   (->
@@ -899,7 +875,6 @@
     Int
     Int)
   )
-
 (fun
   f98
   (->
@@ -935,325 +910,264 @@
     Int
     Int)
   )
-
 (entrypoint f0)
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f18 100 0 C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f18 100 10 C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f18 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f21 A B B D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= 0 (+ B 1)))
-
 (rule
   (f18 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f21 A B B D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= B 1))
-
 (rule
   (f18 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f46 A 0 0 D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (= B 0))
-
 (rule
   (f21 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f27 A B C 0 E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f21 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f27 A B C 10 E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f27 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f46 A B C 0 0 F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (= D 0))
-
 (rule
   (f27 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f30 A B C D D 0 G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= 0 (+ D 1)))
-
 (rule
   (f27 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f30 A B C D D 0 G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= D 1))
-
 (rule
   (f46 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f58 A B C D E F 200 0 I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f46 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f58 A B C D E F 200 10 I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f58 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f61 A B C D E F G H H J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= 0 (+ H 1)))
-
 (rule
   (f58 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f61 A B C D E F G H H J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= H 1))
-
 (rule
   (f58 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f86 A B C D E F G 0 0 J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (= H 0))
-
 (rule
   (f61 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f67 A B C D E F G H I 0 K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f61 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f67 A B C D E F G H I 10 K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f67 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f86 A B C D E F G H I 0 0 L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (= J 0))
-
 (rule
   (f67 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f70 A B C D E F G H I J J 0 M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= 0 (+ J 1)))
-
 (rule
   (f67 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f70 A B C D E F G H I J J 0 M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= J 1))
-
 (rule
   (f86 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f98 A B C D E F G H I J K L 50 0 O P Q R S T U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f86 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f98 A B C D E F G H I J K L 50 10 O P Q R S T U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f98 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f101 A B C D E F G H I J K L M N N P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= 0 (+ N 1)))
-
 (rule
   (f98 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f101 A B C D E F G H I J K L M N N P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= N 1))
-
 (rule
   (f98 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f126 A B C D E F G H I J K L M 0 0 P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (= N 0))
-
 (rule
   (f101 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f107 A B C D E F G H I J K L M N O 0 Q R S T U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f101 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f107 A B C D E F G H I J K L M N O 10 Q R S T U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f107 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f126 A B C D E F G H I J K L M N O 0 0 R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (= P 0))
-
 (rule
   (f107 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f110 A B C D E F G H I J K L M N O P P 0 S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= 0 (+ P 1)))
-
 (rule
   (f107 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f110 A B C D E F G H I J K L M N O P P 0 S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= P 1))
-
 (rule
   (f126 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f138 A B C D E F G H I J K L M N O P Q R 20 0 U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f126 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f138 A B C D E F G H I J K L M N O P Q R 20 10 U V W X Y Z A1 B1 C1 D1))
-
 (rule
   (f138 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f141 A B C D E F G H I J K L M N O P Q R S T T V W X Y Z A1 B1 C1 D1)
   :guard
   (>= 0 (+ T 1)))
-
 (rule
   (f138 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f141 A B C D E F G H I J K L M N O P Q R S T T V W X Y Z A1 B1 C1 D1)
   :guard
   (>= T 1))
-
 (rule
   (f138 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f166 A B C D E F G H I J K L M N O P Q R S 0 0 V W X Y Z A1 B1 C1 D1)
   :guard
   (= T 0))
-
 (rule
   (f141 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f147 A B C D E F G H I J K L M N O P Q R S T U 0 W X Y Z A1 B1 C1 D1))
-
 (rule
   (f141 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f147 A B C D E F G H I J K L M N O P Q R S T U 10 W X Y Z A1 B1 C1 D1))
-
 (rule
   (f147 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f166 A B C D E F G H I J K L M N O P Q R S T U 0 0 X Y Z A1 B1 C1 D1)
   :guard
   (= V 0))
-
 (rule
   (f147 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f150 A B C D E F G H I J K L M N O P Q R S T U V V 0 Y Z A1 B1 C1 D1)
   :guard
   (>= 0 (+ V 1)))
-
 (rule
   (f147 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f150 A B C D E F G H I J K L M N O P Q R S T U V V 0 Y Z A1 B1 C1 D1)
   :guard
   (>= V 1))
-
 (rule
   (f166 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f178 A B C D E F G H I J K L M N O P Q R S T U V W X 200 0 A1 B1 C1 D1))
-
 (rule
   (f166 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f178 A B C D E F G H I J K L M N O P Q R S T U V W X 200 10 A1 B1 C1 D1))
-
 (rule
   (f178 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f181 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Z B1 C1 D1)
   :guard
   (>= 0 (+ Z 1)))
-
 (rule
   (f178 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f181 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Z B1 C1 D1)
   :guard
   (>= Z 1))
-
 (rule
   (f181 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f187 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 0 C1 D1))
-
 (rule
   (f181 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f187 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 10 C1 D1))
-
 (rule
   (f187 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f190 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 B1 0)
   :guard
   (>= 0 (+ B1 1)))
-
 (rule
   (f187 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f190 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 B1 0)
   :guard
   (>= B1 1))
-
 (rule
   (f178 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f207 A B C D E F G H I J K L M N O P Q R S T U V W X Y 0 0 B1 C1 D1)
   :guard
   (= Z 0))
-
 (rule
   (f187 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f207 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 0 0 D1)
   :guard
   (= B1 0))
-
 (rule
   (f190 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f190 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 (+ D1 1))
   :guard
   (>= Y (+ D1 1)))
-
 (rule
   (f190 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f207 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= D1 Y))
-
 (rule
   (f150 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f150 A B C D E F G H I J K L M N O P Q R S T U V W (+ X 1) Y Z A1 B1 C1 D1)
   :guard
   (>= S (+ X 1)))
-
 (rule
   (f150 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f166 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= X S))
-
 (rule
   (f110 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f110 A B C D E F G H I J K L M N O P Q (+ R 1) S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= M (+ R 1)))
-
 (rule
   (f110 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f126 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= R M))
-
 (rule
   (f70 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f70 A B C D E F G H I J K (+ L 1) M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= G (+ L 1)))
-
 (rule
   (f70 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f86 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= L G))
-
 (rule
   (f30 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f30 A B C D E (+ F 1) G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= A (+ F 1)))
-
 (rule
   (f30 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   (f46 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A1 B1 C1 D1)
   :guard
   (>= F A))
-

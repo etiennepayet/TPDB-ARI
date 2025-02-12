@@ -15,26 +15,22 @@
   (f11 A B C D E F G H I J K)
   :guard
   (>= A (+ 1 B)))
-
 (rule (f0 A B C D E F G H I J K) (f11 A 10 20 1 20 0 0 H I J K))
 (rule
   (f11 A B C D E F G H I J K)
   (f11 A B C D E F 1 H I J K)
   :guard
   (and (>= D E) (= G 0)))
-
 (rule
   (f11 A B C D E F G H I J K)
   (f11 A B C D E F 1 H I J K)
   :guard
   (and (and (>= (+ D 1) E) (>= E (+ 2 D))) (= G 0)))
-
 (rule
   (f11 A B C D E F G H I J K)
   (f11 A B C D (+ D 1) F 1 H I J K)
   :guard
   (and (= E (+ D 1)) (= G 0)))
-
 (rule
   (f11 A B C D E F G H I J K)
   (f11 A B C D (+ D 1) F 1 N I J K)
@@ -43,96 +39,80 @@
     ((L Int) (M Int))
     (and (and (>= L (+ M 1)) (= E (+ D 1))) (= G 0)))
   )
-
 (rule
   (f11 A B C D E F G H I J K)
   (f40 E B C D E F 0 N L (+ D 1) M)
   :guard
   (and (>= E (+ 2 D)) (= G 0)))
-
 (rule
   (f40 A B C D E F G H I J K)
   (f59 A B C D E F G H I J K)
   :guard
   (>= 0 (+ F 1)))
-
 (rule
   (f40 A B C D E F G H I J K)
   (f59 A B C D E F G H I J K)
   :guard
   (>= F 1))
-
 (rule
   (f40 A B C D E F G H I J K)
   (f43 A B C D E 0 G H I (+ J 1) K)
   :guard
   (= F 0))
-
 (rule
   (f43 A B C D E F G H I J K)
   (f43 A B C D E F G H I (+ J 1) K)
   :guard
   (exists ((N Int)) (>= K (+ N 1))))
-
 (rule (f48 A B C D E F G H I J K) (f48 (- A 1) B C D E F G H I J K))
 (rule
   (f54 A B C D E F G H I J K)
   (f40 A B C D E F G H I J K)
   :guard
   (>= 0 (+ F 1)))
-
 (rule
   (f54 A B C D E F G H I J K)
   (f40 A B C D E F G H I J K)
   :guard
   (>= F 1))
-
 (rule
   (f54 A B C D E F G H I J K)
   (f40 A B C D E 0 G N I J K)
   :guard
   (= F 0))
-
 (rule
   (f59 A B C D E F G H I J K)
   (f63 A B C D E F G H I J K)
   :guard
   (>= B (+ A 1)))
-
 (rule
   (f59 A B C D E F G H I J K)
   (f63 A B C D (- A 1) F G H I J K)
   :guard
   (>= A B))
-
 (rule
   (f63 A B C D E F G H I J K)
   (f11 A B C J E F G H I J K)
   :guard
   (>= B A))
-
 (rule
   (f48 A B C D E F G H I J K)
   (f54 A B C D E F G H I J K)
   :guard
   (>= A J))
-
 (rule
   (f48 A B C D E F G H I J K)
   (f54 A B C D E 1 G H I J K)
   :guard
   (>= J (+ A 1)))
-
 (rule (f43 A B C D E F G H I J K) (f48 (- A 1) B C D E F G H I J K))
 (rule
   (f11 A B C D E F G H I J K)
   (f69 A B C D E F G H I J K)
   :guard
   (>= 0 (+ G 1)))
-
 (rule
   (f11 A B C D E F G H I J K)
   (f69 A B C D E F G H I J K)
   :guard
   (>= G 1))
-

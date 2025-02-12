@@ -10,23 +10,19 @@
   (stop A B C D)
   :guard
   (and (and (>= 1 A) (= B C)) (= D A)))
-
 (rule
   (start A B C D)
   (lbl32 A B C (- D 1))
   :guard
   (and (and (>= A 2) (= B C)) (= D A)))
-
 (rule
   (lbl32 A B C D)
   (stop A B C D)
   :guard
   (and (and (>= A 2) (= D 1)) (= B C)))
-
 (rule
   (lbl32 A B C D)
   (lbl32 A B C (- D 1))
   :guard
   (and (and (and (>= D 2) (>= D 1)) (>= A (+ D 1))) (= B C)))
-
 (rule (start0 A B C D) (start A C C A))

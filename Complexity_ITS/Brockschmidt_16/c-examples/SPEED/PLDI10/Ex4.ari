@@ -21,13 +21,11 @@
   (evalEx4bb1in A B C D)
   :guard
   (exists ((E Int)) (>= 0 (+ E 1))))
-
 (rule
   (evalEx4bb3in A B C D)
   (evalEx4bb1in A B C D)
   :guard
   (exists ((E Int)) (>= E 1)))
-
 (rule (evalEx4bb3in A B C D) (evalEx4bb4in C D C D))
 (rule (evalEx4bb1in A B C D) (evalEx4bb2in A B 1 (- D 1)))
 (rule (evalEx4returnin A B C D) (evalEx4stop A B C D))

@@ -30,31 +30,25 @@
   (eval_start_bb2_in v_n v_x_0 v_y_0)
   :guard
   (< v_x_0 v_n))
-
 (rule
   (eval_start_bb1_in v_n v_x_0 v_y_0)
   (eval_start_bb3_in v_n v_x_0 v_y_0)
   :guard
   (>= v_x_0 v_n))
-
 (rule
   (eval_start_bb2_in v_n v_x_0 v_y_0)
   (eval_start_bb1_in v_n (+ v_x_0 1) (+ v_y_0 1)))
-
 (rule
   (eval_start_bb3_in v_n v_x_0 v_y_0)
   (eval_start_bb4_in v_n v_x_0 v_y_0)
   :guard
   (> v_y_0 0))
-
 (rule
   (eval_start_bb3_in v_n v_x_0 v_y_0)
   (eval_start_bb5_in v_n v_x_0 v_y_0)
   :guard
   (<= v_y_0 0))
-
 (rule
   (eval_start_bb4_in v_n v_x_0 v_y_0)
   (eval_start_bb1_in v_n v_x_0 (- v_y_0 1)))
-
 (rule (eval_start_bb5_in v_n v_x_0 v_y_0) (eval_start_stop v_n v_x_0 v_y_0))

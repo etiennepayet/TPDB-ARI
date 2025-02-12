@@ -26,13 +26,11 @@
   (eval_start_bb2_in v_n v_x_0)
   :guard
   (< v_x_0 v_n))
-
 (rule
   (eval_start_bb1_in v_n v_x_0)
   (eval_start_bb3_in v_n v_x_0)
   :guard
   (>= v_x_0 v_n))
-
 (rule (eval_start_bb2_in v_n v_x_0) (eval_start_5 v_n v_x_0))
 (rule (eval_start_5 v_n v_x_0) (eval_start_6 v_n v_x_0))
 (rule (eval_start_6 v_n v_x_0) (eval_start_bb1_in v_n (+ v_x_0 1)))

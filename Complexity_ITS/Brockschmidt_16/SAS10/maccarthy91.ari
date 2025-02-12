@@ -12,19 +12,16 @@
   (stop A (- H 10) C 1 E H G H)
   :guard
   (and (and (and (and (>= A 101) (= B C)) (= D E)) (= F G)) (= H A)))
-
 (rule
   (start A B C D E F G H)
   (lbl111 A B C 2 E (+ 11 H) G H)
   :guard
   (and (and (and (and (>= 100 A) (= B C)) (= D E)) (= F G)) (= H A)))
-
 (rule
   (lbl161 A B C D E F G H)
   (stop A B C D E F G H)
   :guard
   (and (and (and (and (>= 89 A) (= D 1)) (= H A)) (= F 101)) (= B 91)))
-
 (rule
   (lbl161 A B C D E F G H)
   (lbl161 A (- F 20) C (- D 1) E (- F 10) G H)
@@ -35,7 +32,6 @@
       (= F 101))
     (= B 91))
   )
-
 (rule
   (lbl161 A B C D E F G H)
   (lbl221 A B C D E (+ 1 F) G H)
@@ -44,7 +40,6 @@
     (and (and (and (and (>= 0 2) (>= 89 A)) (= H A)) (= F 101)) (= D 1))
     (= B 91))
   )
-
 (rule
   (lbl161 A B C D E F G H)
   (lbl221 A B C D E (+ 1 F) G H)
@@ -53,7 +48,6 @@
     (and (and (and (and (>= 0 1) (>= 89 A)) (= H A)) (= F 101)) (= D 1))
     (= B 91))
   )
-
 (rule
   (lbl161 A B C D E F G H)
   (lbl221 A B C (- D 1) E (- F 9) G H)
@@ -64,7 +58,6 @@
       (= D 1))
     (= B 91))
   )
-
 (rule
   (lbl221 A B C D E F G H)
   (stop A B C D E F G H)
@@ -79,7 +72,6 @@
       (= H A))
     (= B C))
   )
-
 (rule
   (lbl221 A B C D E F G H)
   (lbl161 A (- F 20) C (- D 1) E (- F 10) G H)
@@ -88,7 +80,6 @@
     (and (and (and (and (>= 99 A) (>= 89 A)) (= F 111)) (= D 2)) (= H A))
     (= B C))
   )
-
 (rule
   (lbl221 A B C D E F G H)
   (lbl221 A B C D E (+ 1 F) G H)
@@ -105,7 +96,6 @@
       (= H A))
     (= B C))
   )
-
 (rule
   (lbl221 A B C D E F G H)
   (lbl221 A B C D E (+ 1 F) G H)
@@ -120,7 +110,6 @@
       (= H A))
     (= B C))
   )
-
 (rule
   (lbl221 A B C D E F G H)
   (lbl221 A B C (- D 1) E (- F 9) G H)
@@ -133,7 +122,6 @@
       (= H A))
     (= B C))
   )
-
 (rule
   (lbl111 A B C D E F G H)
   (lbl111 A B C (+ 1 D) E (+ 11 F) G H)
@@ -148,7 +136,6 @@
       (= B C))
     (= (+ F 11) (+ (* 11 D) A)))
   )
-
 (rule
   (lbl111 A B C D E F G H)
   (stop A B C D E F G H)
@@ -163,13 +150,11 @@
       (= B C))
     (= (+ F 11) (+ (* 11 D) A)))
   )
-
 (rule
   (lbl111 A B C D E F G H)
   (lbl161 A (- F 20) C (- D 1) E (- F 10) G H)
   :guard
   (and (and (and (and (= F 111) (= D 2)) (= H 100)) (= B C)) (= A 100)))
-
 (rule
   (lbl111 A B C D E F G H)
   (lbl221 A B C D E (+ 1 F) G H)
@@ -186,7 +171,6 @@
       (= B C))
     (= (+ F 11) (+ (* 11 D) A)))
   )
-
 (rule
   (lbl111 A B C D E F G H)
   (lbl221 A B C D E (+ 1 F) G H)
@@ -203,7 +187,6 @@
       (= B C))
     (= (+ F 11) (+ (* 11 D) A)))
   )
-
 (rule
   (lbl111 A B C D E F G H)
   (lbl221 A B C (- D 1) E (- F 9) G H)
@@ -216,5 +199,4 @@
       (= B C))
     (= (+ A (* 11 D)) 122))
   )
-
 (rule (start0 A B C D E F G H) (start A C C E E G G A))

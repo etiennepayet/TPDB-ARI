@@ -14,18 +14,15 @@
   (evalterminatebbin A B C)
   :guard
   (and (>= 100 B) (>= A C)))
-
 (rule
   (evalterminatebb1in A B C)
   (evalterminatereturnin A B C)
   :guard
   (>= B 101))
-
 (rule
   (evalterminatebb1in A B C)
   (evalterminatereturnin A B C)
   :guard
   (>= C (+ A 1)))
-
 (rule (evalterminatebbin A B C) (evalterminatebb1in (- A 1) C (+ B 1)))
 (rule (evalterminatereturnin A B C) (evalterminatestop A B C))

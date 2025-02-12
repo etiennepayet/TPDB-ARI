@@ -17,51 +17,43 @@
   (evalEx5bb3in A B 0 B E)
   :guard
   (>= B (+ A 1)))
-
 (rule (evalEx5bb6in A B C D E) (evalEx5returnin A B C D E) :guard (>= A B))
 (rule
   (evalEx5bb3in A B C D E)
   (evalEx5bb1in A B C D E)
   :guard
   (exists ((F Int)) (>= 0 (+ F 1))))
-
 (rule
   (evalEx5bb3in A B C D E)
   (evalEx5bb1in A B C D E)
   :guard
   (exists ((F Int)) (>= F 1)))
-
 (rule (evalEx5bb3in A B C D E) (evalEx5bb4in A B C D E))
 (rule
   (evalEx5bb1in A B C D E)
   (evalEx5bb2in A B C D (- D 1))
   :guard
   (exists ((F Int)) (>= 0 (+ F 1))))
-
 (rule
   (evalEx5bb1in A B C D E)
   (evalEx5bb2in A B C D (- D 1))
   :guard
   (exists ((F Int)) (and (>= 0 (+ F 1)) (>= F 1))))
-
 (rule
   (evalEx5bb1in A B C D E)
   (evalEx5bb2in A B C D (- D 1))
   :guard
   (exists ((F Int)) (>= F 1)))
-
 (rule
   (evalEx5bb1in A B C D E)
   (evalEx5bb3in A B C (- D 1) E)
   :guard
   (>= 0 1))
-
 (rule
   (evalEx5bb1in A B C D E)
   (evalEx5bb3in A B C (- D 1) E)
   :guard
   (>= 0 1))
-
 (rule (evalEx5bb1in A B C D E) (evalEx5bb2in A B C D D) :guard (>= 0 1))
 (rule (evalEx5bb1in A B C D E) (evalEx5bb2in A B C D D) :guard (>= 0 1))
 (rule (evalEx5bb1in A B C D E) (evalEx5bb3in A B C D E))
@@ -71,12 +63,10 @@
   (evalEx5bb6in (+ A 1) D C D E)
   :guard
   (= C 0))
-
 (rule
   (evalEx5bb4in A B C D E)
   (evalEx5bb6in A D C D E)
   :guard
   (>= 0 (+ C 1)))
-
 (rule (evalEx5bb4in A B C D E) (evalEx5bb6in A D C D E) :guard (>= C 1))
 (rule (evalEx5returnin A B C D E) (evalEx5stop A B C D E))

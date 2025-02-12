@@ -40,7 +40,6 @@
     v_i_0
     v_j_0)
   )
-
 (rule
   (eval_realshellsort_bb0_in
     v_0
@@ -51,39 +50,30 @@
     v_i_0
     v_j_0)
   (eval_realshellsort_0 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0))
-
 (rule
   (eval_realshellsort_0 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0)
   (eval_realshellsort_1 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0))
-
 (rule
   (eval_realshellsort_1 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0)
   (eval_realshellsort_2 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0))
-
 (rule
   (eval_realshellsort_2 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0)
   (eval_realshellsort_3 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0))
-
 (rule
   (eval_realshellsort_3 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0)
   (eval_realshellsort_4 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0))
-
 (rule
   (eval_realshellsort_4 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0)
   (eval_realshellsort_5 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0))
-
 (rule
   (eval_realshellsort_5 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0)
   (eval_realshellsort_6 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0))
-
 (rule
   (eval_realshellsort_6 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0)
   (eval_realshellsort_7 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0))
-
 (rule
   (eval_realshellsort_7 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0)
   (eval_realshellsort_bb1_in v_0 v_21 v_5 v_array_size v_array_size v_i_0 v_j_0))
-
 (rule
   (eval_realshellsort_bb1_in
     v_0
@@ -103,7 +93,6 @@
     v_j_0)
   :guard
   (and (and (= v_array_size_sink 0) (= nondef_0 0)) (> nondef_0 0)))
-
 (rule
   (eval_realshellsort_bb1_in
     v_0
@@ -130,7 +119,6 @@
       (< (- v_array_size_sink (* 2 nondef_0)) 2))
     (> nondef_0 0))
   )
-
 (rule
   (eval_realshellsort_bb1_in
     v_0
@@ -157,7 +145,6 @@
       (< (+ (- v_array_size_sink) (* 2 nondef_0)) 2))
     (> nondef_0 0))
   )
-
 (rule
   (eval_realshellsort_bb1_in
     v_0
@@ -180,7 +167,6 @@
     ((nondef_0 Int))
     (and (and (= v_array_size_sink 0) (= nondef_0 0)) (<= nondef_0 0)))
   )
-
 (rule
   (eval_realshellsort_bb1_in
     v_0
@@ -210,7 +196,6 @@
       (<= nondef_0 0))
     )
   )
-
 (rule
   (eval_realshellsort_bb1_in
     v_0
@@ -240,7 +225,6 @@
       (<= nondef_0 0))
     )
   )
-
 (rule
   (eval_realshellsort_bb2_in
     v_0
@@ -260,7 +244,6 @@
     v_j_0)
   :guard
   (< v_i_0 v_array_size))
-
 (rule
   (eval_realshellsort_bb2_in
     v_0
@@ -273,7 +256,6 @@
   (eval_realshellsort_bb1_in v_0 v_21 v_5 v_array_size v_0 v_i_0 v_j_0)
   :guard
   (>= v_i_0 v_array_size))
-
 (rule
   (eval_realshellsort_bb3_in
     v_0
@@ -292,7 +274,6 @@
     v_i_0
     v_i_0)
   )
-
 (rule
   (eval_realshellsort_bb4_in
     v_0
@@ -312,7 +293,6 @@
     v_j_0)
   :guard
   (>= v_j_0 v_0))
-
 (rule
   (eval_realshellsort_bb4_in
     v_0
@@ -332,7 +312,6 @@
     v_j_0)
   :guard
   (< v_j_0 v_0))
-
 (rule
   (eval_realshellsort_bb5_in
     v_0
@@ -352,7 +331,6 @@
     v_j_0)
   :guard
   (exists ((nondef_2 Int)) (> nondef_2 v_5)))
-
 (rule
   (eval_realshellsort_bb5_in
     v_0
@@ -372,7 +350,6 @@
     v_j_0)
   :guard
   (exists ((nondef_2 Int)) (<= nondef_2 v_5)))
-
 (rule
   (eval_realshellsort_bb6_in
     v_0
@@ -391,7 +368,6 @@
     v_i_0
     (- v_j_0 v_0))
   )
-
 (rule
   (eval_realshellsort__critedge_in
     v_0
@@ -410,11 +386,9 @@
     v_i_0
     v_j_0)
   )
-
 (rule
   (eval_realshellsort_27 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0)
   (eval_realshellsort_28 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0))
-
 (rule
   (eval_realshellsort_28 v_0 v_21 v_5 v_array_size v_array_size_sink v_i_0 v_j_0)
   (eval_realshellsort_bb2_in
@@ -426,7 +400,6 @@
     v_21
     v_j_0)
   )
-
 (rule
   (eval_realshellsort_bb7_in
     v_0
@@ -445,4 +418,3 @@
     v_i_0
     v_j_0)
   )
-

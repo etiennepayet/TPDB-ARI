@@ -3,269 +3,220 @@
 (fun
   f1
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f10
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f14
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f2
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f23
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f27
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f42
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f44
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f46
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f48
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f52
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f59
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f63
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint f2)
 (rule
   (f48 A B C D E F G H I J K L M N O P Q)
   (f52 A B C D E F G H I J K L M N O P Q)
   :guard
   (>= A 1))
-
 (rule
   (f52 A B C D E F G H I J K L M N O P Q)
   (f46 A B C D E F G H I J K L M N O P Q)
   :guard
   (>= 0 B))
-
 (rule
   (f2 A B C D E F G H I J K L M N O P Q)
   (f10 A B C D 0 1 0 H I J K L M N O P Q)
   :guard
   (and (>= C 0) (>= D 1)))
-
 (rule
   (f10 A B C D E F G H I J K L M N O P Q)
   (f14 A B C D E F G 1 I J K L M N O P Q)
   :guard
   (and (>= D (+ G 1)) (>= 0 G)))
-
 (rule
   (f10 A B C D E F G H I J K L M N O P Q)
   (f14 A B C D E F G 0 I J K L M N O P Q)
   :guard
   (and (>= D (+ G 1)) (>= G 1)))
-
 (rule
   (f14 A B C D E F G H I J K L M N O P Q)
   (f23 A B C D E F G H I 1 L L M N O P Q)
   :guard
   (and (and (>= I 0) (>= (+ G 1) D)) (>= 1 I)))
-
 (rule
   (f14 A B C D E F G H I J K L M N O P Q)
   (f23 A B C D E F G H I 0 L L M N O P Q)
   :guard
   (and (and (>= I 0) (>= D (+ 2 G))) (>= 1 I)))
-
 (rule
   (f23 A B C D E F G H I J K L M N O P Q)
   (f27 A B C D (+ E 1) F G H I J K L M N O P Q)
   :guard
   (and (and (>= I 1) (>= 0 C)) (>= 0 E)))
-
 (rule
   (f23 A B C D E F G H I J K L M N O P Q)
   (f27 A B C D (+ E 1) F G H I J K L M N O P Q)
   :guard
   (and (and (>= I 1) (>= 0 C)) (= E 1)))
-
 (rule
   (f23 A B C D E F G H I J K L M N O P Q)
   (f27 A B C D 0 (+ F 1) G H I J K L M N O P Q)
   :guard
   (and (>= E 2) (= C 0)))
-
 (rule
   (f23 A B C D E F G H I J K L M N O P Q)
   (f27 A B (- C 1) D E F G H I J K L M N O P Q)
   :guard
   (>= C 1))
-
 (rule
   (f27 A B C D E F G H I J K L M N O P Q)
   (f42 H J C D E F G H I J K L 1 K O P Q)
   :guard
   (and (>= M 1) (>= I 1)))
-
 (rule
   (f27 A B C D E F G H I J K L M N O P Q)
   (f42 H J C D E F G H I J K L 1 K K P Q)
   :guard
   (and (>= 0 M) (>= I 1)))
-
 (rule
   (f42 A B C D E F G H I J K L M N O P Q)
   (f44 A B C D E F G H I J K L M N N P Q)
   :guard
   (and (>= 0 (+ A 1)) (= N O)))
-
 (rule
   (f42 A B C D E F G H I J K L M N O P Q)
   (f44 A B C D E F G H I J K L M N N P Q)
   :guard
   (and (>= A 1) (= N O)))
-
 (rule
   (f42 A B C D E F G H I J K L M N O P Q)
   (f48 0 B C D E F G H I J K L M N N P Q)
   :guard
   (and (= A 0) (= N O)))
-
 (rule
   (f44 A B C D E F G H I J K L M N O P Q)
   (f46 A 0 C D E F G H I J K L M N O 1 Q)
   :guard
   (= B 0))
-
 (rule
   (f44 A B C D E F G H I J K L M N O P Q)
   (f48 A B C D E F G H I J K L M N O P Q)
   :guard
   (>= 0 (+ B 1)))
-
 (rule
   (f44 A B C D E F G H I J K L M N O P Q)
   (f48 A B C D E F G H I J K L M N O P Q)
   :guard
   (>= B 1))
-
 (rule
   (f48 A B C D E F G H I J K L M N O P Q)
   (f46 A B C D E F G H I J K L M N O 2 Q)
   :guard
   (and (>= 0 B) (>= 0 A)))
-
 (rule
   (f48 A B C D E F G H I J K L M N O P Q)
   (f52 A B C D E F G H I J K L M N O P Q)
   :guard
   (and (>= B 1) (>= 0 A)))
-
 (rule
   (f52 A B C D E F G H I J K L M N O P Q)
   (f46 A B C D E F G H I J K L M N O 3 Q)
   :guard
   (>= B 1))
-
 (rule
   (f42 A B C D E F G H I J K L M N O P Q)
   (f59 A B C D E F G H I J K L M N O P Q)
   :guard
   (and (and (>= Q 0) (>= N (+ O 1))) (>= 1 Q)))
-
 (rule
   (f42 A B C D E F G H I J K L M N O P Q)
   (f59 A B C D E F G H I J K L M N O P Q)
   :guard
   (and (and (>= Q 0) (>= O (+ 1 N))) (>= 1 Q)))
-
 (rule
   (f46 A B C D E F G H I J K L M N O P Q)
   (f59 A B C D E F G H I J K L M N 0 P Q)
   :guard
   (and (and (>= Q 0) (>= O 1)) (>= 1 Q)))
-
 (rule
   (f46 A B C D E F G H I J K L M N O P Q)
   (f59 A B C D E F G H I J K L M N 1 P Q)
   :guard
   (and (and (>= Q 0) (>= 0 O)) (>= 1 Q)))
-
 (rule
   (f59 A B C D E F G H I J K L M N O P Q)
   (f63 A B C D (+ E 1) F G H I J K L M N O P Q)
   :guard
   (and (and (>= Q 1) (>= 0 C)) (>= 0 E)))
-
 (rule
   (f59 A B C D E F G H I J K L M N O P Q)
   (f63 A B C D (+ E 1) F G H I J K L M N O P Q)
   :guard
   (and (and (>= Q 1) (>= 0 C)) (= E 1)))
-
 (rule
   (f59 A B C D E F G H I J K L M N O P Q)
   (f63 A B C D 0 (+ F 1) G H I J K L M N O P Q)
   :guard
   (and (>= E 2) (= C 0)))
-
 (rule
   (f59 A B C D E F G H I J K L M N O P Q)
   (f63 A B (- C 1) D E F G H I J K L M N O P Q)
   :guard
   (>= C 1))
-
 (rule
   (f63 A B C D E F G H I J K L M N O P Q)
   (f23 A B C D E F G H I J K L M N O P Q)
   :guard
   (and (and (and (>= I 0) (>= 1 I)) (>= 0 Q)) (>= D F)))
-
 (rule
   (f63 A B C D E F G H I J K L M N O P Q)
   (f23 A B C D E F G H I J K L M N O P Q)
   :guard
   (and (and (and (>= I 0) (>= 1 I)) (>= Q 2)) (>= D F)))
-
 (rule
   (f27 A B C D E F G H I J K L M N O P Q)
   (f23 A B C D E F G H I J K L M N O P Q)
   :guard
   (and (>= D F) (= I 0)))
-
 (rule
   (f63 A B C D E F G H I J K L M N O P Q)
   (f10 A B C D E F (+ G 1) H I J K 0 M N O P 1)
   :guard
   (and (and (>= L 1) (>= D F)) (= Q 1)))
-
 (rule
   (f63 A B C D E F G H I J K L M N O P Q)
   (f10 A B C D E F (+ G 1) H I J K 1 M N O P 1)
   :guard
   (and (and (>= 0 L) (>= D F)) (= Q 1)))
-
 (rule
   (f10 A B C D E F G H I J K L M N O P Q)
   (f1 A B C D E F G H I J K L M N O P Q)
   :guard
   (>= G D))
-

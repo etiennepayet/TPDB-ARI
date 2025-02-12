@@ -12,7 +12,6 @@
   (l2 A B C D (- T1 1) (+ B C) (+ T3 (* T1 T1)))
   :guard
   (> T1 0))
-
 (rule (l2 A B C D T1 T2 T3) (l3 A B C D T1 (- T2 1) T3) :guard (> T2 0))
 (rule (l3 A B C D T1 T2 T3) (l2 A D A D T1 T2 T3))
 (rule (l2 A B C D T1 T2 T3) (l1 A B C B T1 T2 T3))

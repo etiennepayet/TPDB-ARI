@@ -11,10 +11,8 @@
   (f2 A L M N O O G H P Q R)
   :guard
   (>= H 1))
-
 (rule
   (f300 A B C D E F G H I J K)
   (f1 A L M D N P O H Q N R)
   :guard
   (>= 0 H))
-

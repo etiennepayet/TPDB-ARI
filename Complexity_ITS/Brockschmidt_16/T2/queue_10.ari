@@ -13,14 +13,12 @@
   (f14 A A C)
   :guard
   (exists ((D Int)) (and (>= 9 A) (>= 9 D))))
-
 (rule (f8 A B C) (f14 A A C) :guard (>= 9 A))
 (rule
   (f23 A B C)
   (f28 A B D)
   :guard
   (exists ((E Int)) (and (>= 9 A) (>= 0 (+ E 1)))))
-
 (rule (f23 A B C) (f28 A B D) :guard (>= 9 A))
 (rule (f23 A B C) (f23 (+ A 1) B C) :guard (>= 9 A))
 (rule (f28 A B C) (f23 (+ A 1) B C))

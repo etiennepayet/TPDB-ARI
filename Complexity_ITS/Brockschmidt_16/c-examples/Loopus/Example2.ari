@@ -3,15 +3,12 @@
 (fun
   evalbinsearchStepSize2bb10in
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   evalbinsearchStepSize2bb12in
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   evalbinsearchStepSize2bb13in
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun evalbinsearchStepSize2bb1in (-> Int Int Int Int Int Int Int Int Int Int))
 (fun evalbinsearchStepSize2bb2in (-> Int Int Int Int Int Int Int Int Int Int))
 (fun evalbinsearchStepSize2bb3in (-> Int Int Int Int Int Int Int Int Int Int))
@@ -23,64 +20,53 @@
 (fun
   evalbinsearchStepSize2entryin
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   evalbinsearchStepSize2returnin
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun evalbinsearchStepSize2start (-> Int Int Int Int Int Int Int Int Int Int))
 (fun evalbinsearchStepSize2stop (-> Int Int Int Int Int Int Int Int Int Int))
 (entrypoint evalbinsearchStepSize2start)
 (rule
   (evalbinsearchStepSize2start A B C D E F G H I)
   (evalbinsearchStepSize2entryin A B C D E F G H I))
-
 (rule
   (evalbinsearchStepSize2entryin A B C D E F G H I)
   (evalbinsearchStepSize2bbin 0 0 4 A E F G H I))
-
 (rule
   (evalbinsearchStepSize2bbin A B C D E F G H I)
   (evalbinsearchStepSize2returnin A B C D E F G H I)
   :guard
   (= C 1))
-
 (rule
   (evalbinsearchStepSize2bbin A B C D E F G H I)
   (evalbinsearchStepSize2bb1in A B C D J F G H I)
   :guard
   (>= 0 C))
-
 (rule
   (evalbinsearchStepSize2bbin A B C D E F G H I)
   (evalbinsearchStepSize2bb1in A B C D J F G H I)
   :guard
   (>= C 2))
-
 (rule
   (evalbinsearchStepSize2bb1in A B C D E F G H I)
   (evalbinsearchStepSize2bb2in A B C D E F G H I)
   :guard
   (>= 0 (+ B 1)))
-
 (rule
   (evalbinsearchStepSize2bb1in A B C D E F G H I)
   (evalbinsearchStepSize2bb2in A B C D E F G H I)
   :guard
   (>= B 1))
-
 (rule
   (evalbinsearchStepSize2bb1in A B C D E F G H I)
   (evalbinsearchStepSize2bb3in A B C D E C G H I)
   :guard
   (= B 0))
-
 (rule
   (evalbinsearchStepSize2bb2in A B C D E F G H I)
   (evalbinsearchStepSize2bb3in A B C D E 0 G H I)
   :guard
   (= C 0))
-
 (rule
   (evalbinsearchStepSize2bb2in A B C D E F G H I)
   (evalbinsearchStepSize2bb3in A B C D E J G H I)
@@ -89,7 +75,6 @@
     (and (and (>= C 1) (>= J 0)) (>= C (* 2 J)))
     (>= (+ 1 (* 2 J)) C))
   )
-
 (rule
   (evalbinsearchStepSize2bb2in A B C D E F G H I)
   (evalbinsearchStepSize2bb3in A B C D E J G H I)
@@ -98,55 +83,46 @@
     (and (and (>= 0 (+ C 1)) (>= 0 J)) (>= (* 2 J) C))
     (>= (+ 1 C) (* 2 J)))
   )
-
 (rule
   (evalbinsearchStepSize2bb3in A B C D E F G H I)
   (evalbinsearchStepSize2bb4in A B C D E F G H I)
   :guard
   (>= E (+ G 1)))
-
 (rule
   (evalbinsearchStepSize2bb3in A B C D E F G H I)
   (evalbinsearchStepSize2bb9in A B C D E F G H I)
   :guard
   (>= G E))
-
 (rule
   (evalbinsearchStepSize2bb4in A B C D E F G H I)
   (evalbinsearchStepSize2bb6in A B C D E F G H I)
   :guard
   (and (= A 1) (= B 0)))
-
 (rule
   (evalbinsearchStepSize2bb4in A B C D E F G H I)
   (evalbinsearchStepSize2bb7in A B C D E F G B F)
   :guard
   (>= 0 A))
-
 (rule
   (evalbinsearchStepSize2bb4in A B C D E F G H I)
   (evalbinsearchStepSize2bb7in A B C D E F G B F)
   :guard
   (>= A 2))
-
 (rule
   (evalbinsearchStepSize2bb4in A B C D E F G H I)
   (evalbinsearchStepSize2bb7in A B C D E F G B F)
   :guard
   (>= 0 (+ B 1)))
-
 (rule
   (evalbinsearchStepSize2bb4in A B C D E F G H I)
   (evalbinsearchStepSize2bb7in A B C D E F G B F)
   :guard
   (>= B 1))
-
 (rule
   (evalbinsearchStepSize2bb6in A B C D E F G H I)
   (evalbinsearchStepSize2bb7in A B C D E F G 1 0)
   :guard
   (= F 0))
-
 (rule
   (evalbinsearchStepSize2bb6in A B C D E F G H I)
   (evalbinsearchStepSize2bb7in A B C D E F G 1 J)
@@ -155,7 +131,6 @@
     (and (and (>= F 1) (>= J 0)) (>= F (* 2 J)))
     (>= (+ 1 (* 2 J)) F))
   )
-
 (rule
   (evalbinsearchStepSize2bb6in A B C D E F G H I)
   (evalbinsearchStepSize2bb7in A B C D E F G 1 J)
@@ -164,67 +139,56 @@
     (and (and (>= 0 (+ F 1)) (>= 0 J)) (>= (* 2 J) F))
     (>= (+ 1 F) (* 2 J)))
   )
-
 (rule
   (evalbinsearchStepSize2bb7in A B C D E F G H I)
   (evalbinsearchStepSize2returnin A B C D E F G H I)
   :guard
   (>= (+ D I) 256))
-
 (rule
   (evalbinsearchStepSize2bb7in A B C D E F G H I)
   (evalbinsearchStepSize2bbin 2 H I (+ D I) E F G H I)
   :guard
   (>= 255 (+ D I)))
-
 (rule
   (evalbinsearchStepSize2bb9in A B C D E F G H I)
   (evalbinsearchStepSize2bb10in A B C D E F G H I)
   :guard
   (>= G (+ E 1)))
-
 (rule
   (evalbinsearchStepSize2bb9in A B C D E F G H I)
   (evalbinsearchStepSize2returnin A B C D E F G H I)
   :guard
   (>= E G))
-
 (rule
   (evalbinsearchStepSize2bb10in A B C D E F G H I)
   (evalbinsearchStepSize2bb12in A B C D E F G H I)
   :guard
   (and (= A 2) (= B 0)))
-
 (rule
   (evalbinsearchStepSize2bb10in A B C D E F G H I)
   (evalbinsearchStepSize2bb13in A B C D E F G B F)
   :guard
   (>= 1 A))
-
 (rule
   (evalbinsearchStepSize2bb10in A B C D E F G H I)
   (evalbinsearchStepSize2bb13in A B C D E F G B F)
   :guard
   (>= A 3))
-
 (rule
   (evalbinsearchStepSize2bb10in A B C D E F G H I)
   (evalbinsearchStepSize2bb13in A B C D E F G B F)
   :guard
   (>= 0 (+ B 1)))
-
 (rule
   (evalbinsearchStepSize2bb10in A B C D E F G H I)
   (evalbinsearchStepSize2bb13in A B C D E F G B F)
   :guard
   (>= B 1))
-
 (rule
   (evalbinsearchStepSize2bb12in A B C D E F G H I)
   (evalbinsearchStepSize2bb13in A B C D E F G 1 0)
   :guard
   (= F 0))
-
 (rule
   (evalbinsearchStepSize2bb12in A B C D E F G H I)
   (evalbinsearchStepSize2bb13in A B C D E F G 1 J)
@@ -233,7 +197,6 @@
     (and (and (>= F 1) (>= J 0)) (>= F (* 2 J)))
     (>= (+ 1 (* 2 J)) F))
   )
-
 (rule
   (evalbinsearchStepSize2bb12in A B C D E F G H I)
   (evalbinsearchStepSize2bb13in A B C D E F G 1 J)
@@ -242,20 +205,16 @@
     (and (and (>= 0 (+ F 1)) (>= 0 J)) (>= (* 2 J) F))
     (>= (+ 1 F) (* 2 J)))
   )
-
 (rule
   (evalbinsearchStepSize2bb13in A B C D E F G H I)
   (evalbinsearchStepSize2returnin A B C D E F G H I)
   :guard
   (>= I (+ D 1)))
-
 (rule
   (evalbinsearchStepSize2bb13in A B C D E F G H I)
   (evalbinsearchStepSize2bbin 1 H I (- D I) E F G H I)
   :guard
   (>= D I))
-
 (rule
   (evalbinsearchStepSize2returnin A B C D E F G H I)
   (evalbinsearchStepSize2stop A B C D E F G H I))
-

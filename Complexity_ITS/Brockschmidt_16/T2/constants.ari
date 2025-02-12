@@ -18,4 +18,3 @@
   (f5 A (+ 1 B) G H E G)
   :guard
   (and (>= A (+ 1 B)) (= C 0)))
-

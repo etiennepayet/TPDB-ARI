@@ -3,39 +3,30 @@
 (fun
   lbl101
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   lbl121
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   lbl123
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   lbl21
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   lbl53
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   lbl71
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   start
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   start0
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   stop
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint start0)
 (rule
   (start A B C D E F G H I J K L M N O P)
@@ -49,7 +40,6 @@
       (= M N))
     (= O P))
   )
-
 (rule
   (lbl121 A B C D E F G H I J K L M N O P)
   (lbl123 A B C D E F A H I J K L M N O P)
@@ -70,7 +60,6 @@
       (= I L))
     (= (+ M 1) L))
   )
-
 (rule
   (lbl123 A B C D E F G H I J K L M N O P)
   (stop A B C D E F G H I J K L M N O P)
@@ -91,7 +80,6 @@
       (= (+ M 1) L))
     (= A 0))
   )
-
 (rule
   (lbl123 A B C D E F G H I J K L M N O P)
   (lbl121 Q B C D E F G H 0 J K L M N O P)
@@ -114,7 +102,6 @@
       (= (+ M 1) L))
     (= G A))
   )
-
 (rule
   (lbl123 A B C D E F G H I J K L M N O P)
   (lbl71 A B Q D 0 F G H 0 J K L M N O P)
@@ -137,7 +124,6 @@
       (= (+ M 1) L))
     (= G A))
   )
-
 (rule
   (lbl101 A B C D E F G H I J K L M N O P)
   (lbl101 A B C D (- E G) F G H I J K L M N O P)
@@ -152,7 +138,6 @@
       (>= E 0))
     (= K L))
   )
-
 (rule
   (lbl101 A B C D E F G H I J K L M N O P)
   (lbl53 A B C D E F G H (+ 1 I) J K L I N O P)
@@ -165,7 +150,6 @@
       (>= E 0))
     (= K L))
   )
-
 (rule
   (lbl71 A B C D E F G H I J K L M N O P)
   (lbl101 A B C D (- E G) F G H I J K L M N O P)
@@ -180,7 +164,6 @@
       (= I E))
     (= K L))
   )
-
 (rule
   (lbl71 A B C D E F G H I J K L M N O P)
   (lbl53 A B C D E F G H (+ 1 I) J K L I N O P)
@@ -193,7 +176,6 @@
       (= I E))
     (= K L))
   )
-
 (rule
   (lbl53 A B C D E F G H I J K L M N O P)
   (lbl121 Q B C D E F G H I J K L M N O P)
@@ -208,7 +190,6 @@
       (= K L))
     (= (+ M 1) L))
   )
-
 (rule
   (lbl53 A B C D E F G H I J K L M N O P)
   (lbl71 A B Q D I F G H I J K L M N O P)
@@ -225,7 +206,6 @@
       (= I (+ M 1)))
     (= K L))
   )
-
 (rule
   (lbl21 A B C D E F G H I J K L M N O P)
   (stop A B C D E F O H I J K L M N O P)
@@ -244,7 +224,6 @@
       (= I J))
     (= K L))
   )
-
 (rule
   (lbl21 A B C D E F G H I J K L M N O P)
   (lbl71 A B Q D 0 F O H 0 J K L M N O P)
@@ -263,8 +242,6 @@
       (= I J))
     (= K L))
   )
-
 (rule
   (start0 A B C D E F G H I J K L M N O P)
   (start B B D D F F H H J J L L N N P P))
-

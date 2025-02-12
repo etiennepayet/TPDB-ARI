@@ -16,48 +16,40 @@
   (evalfreturnin A B C D E F G)
   :guard
   (>= C D))
-
 (rule
   (evalfbb5in A B C D E F G)
   (evalfbbin A B C D (+ C 1) F G)
   :guard
   (>= D (+ C 1)))
-
 (rule
   (evalfbbin A B C D E F G)
   (evalfbb1in A B C D E B G)
   :guard
   (exists ((H Int)) (>= 0 (+ H 1))))
-
 (rule
   (evalfbbin A B C D E F G)
   (evalfbb1in A B C D E B G)
   :guard
   (exists ((H Int)) (>= H 1)))
-
 (rule (evalfbbin A B C D E F G) (evalfbb3in A B C D E A G))
 (rule
   (evalfbb1in A B C D E F G)
   (evalfbb5in A (+ F 1) E D E F G)
   :guard
   (>= F G))
-
 (rule
   (evalfbb1in A B C D E F G)
   (evalfbb1in A B C D E (+ F 1) G)
   :guard
   (>= G (+ F 1)))
-
 (rule
   (evalfbb3in A B C D E F G)
   (evalfbb5in (+ F 1) B E D E F G)
   :guard
   (>= F G))
-
 (rule
   (evalfbb3in A B C D E F G)
   (evalfbb3in A B C D E (+ F 1) G)
   :guard
   (>= G (+ F 1)))
-
 (rule (evalfreturnin A B C D E F G) (evalfstop A B C D E F G))

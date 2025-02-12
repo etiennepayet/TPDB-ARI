@@ -15,13 +15,11 @@
   (evalfbb3in C B A)
   :guard
   (and (>= A 1) (>= B (+ A 1))))
-
 (rule
   (evalfbb3in A B C)
   (evalfbbin A B C)
   :guard
   (and (>= C 1) (>= B (+ C 1))))
-
 (rule (evalfbb3in A B C) (evalfreturnin A B C) :guard (>= 0 C))
 (rule (evalfbb3in A B C) (evalfreturnin A B C) :guard (>= C B))
 (rule (evalfbbin A B C) (evalfbb1in A B C) :guard (>= A 1))

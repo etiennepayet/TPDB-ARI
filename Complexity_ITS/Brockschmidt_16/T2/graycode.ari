@@ -18,80 +18,67 @@
   (f63 A B C D E F G H I J K L)
   :guard
   (>= 0 (+ A 1)))
-
 (rule
   (f62 A B C D E F G H I J K L)
   (f63 A B C D E F G H I J K L)
   :guard
   (>= A 1))
-
 (rule (f0 A B C D E F G H I J K L) (f13 1 12 1 1 M 0 G H I J K L))
 (rule
   (f13 A B C D E F G H I J K L)
   (f13 A B C D E (+ F 1) G H I J K L)
   :guard
   (>= B (+ F 1)))
-
 (rule
   (f19 A B C D E F G H I J K L)
   (f22 A B C D E F G H I J K L)
   :guard
   (and (>= 0 (+ C 1)) (>= B (+ F 1))))
-
 (rule
   (f19 A B C D E F G H I J K L)
   (f22 A B C D E F G H I J K L)
   :guard
   (and (>= C 1) (>= B (+ F 1))))
-
 (rule
   (f22 A B C D E F G H I J K L)
   (f19 A B 1 D E (+ F 1) 1 H I J K L)
   :guard
   (exists ((M Int) (N Int)) (and (>= M 0) (>= B (+ N 1)))))
-
 (rule
   (f22 A B C D E F G H I J K L)
   (f19 A B 0 D E (+ F 1) 0 H I J K L)
   :guard
   (exists ((M Int)) (>= M 0)))
-
 (rule
   (f22 A B C D E F G H I J K L)
   (f19 A B 0 D E (+ F 1) 0 H I J K L)
   :guard
   (exists ((M Int)) (>= 0 (+ M 1))))
-
 (rule
   (f19 A B C D E F G H I J K L)
   (f19 A B 0 D E (+ F 1) 0 H I J K L)
   :guard
   (and (>= B (+ F 1)) (= C 0)))
-
 (rule
   (f32 A B C D E F G H I J K L)
   (f35 A B C D E F G (+ F 1) I J K L)
   :guard
   (>= B (+ 2 F)))
-
 (rule
   (f35 A B C D E F G H I J K L)
   (f38 A B C D E F G H I J K L)
   :guard
   (and (>= 0 (+ A 1)) (>= B (+ H 1))))
-
 (rule
   (f35 A B C D E F G H I J K L)
   (f38 A B C D E F G H I J K L)
   :guard
   (and (>= A 1) (>= B (+ H 1))))
-
 (rule
   (f38 A B C D E F G H I J K L)
   (f35 1 B C D E F G (+ H 1) 1 J K L)
   :guard
   (exists ((M Int) (N Int)) (>= M (+ N 1))))
-
 (rule (f38 A B C D E F G H I J K L) (f35 1 B C D E F G (+ H 1) 1 J K L))
 (rule (f38 A B C D E F G H I J K L) (f35 0 B C D E F G (+ H 1) 0 J K L))
 (rule
@@ -99,107 +86,89 @@
   (f35 0 B C D E F G (+ H 1) 0 J K L)
   :guard
   (and (>= B (+ H 1)) (= A 0)))
-
 (rule
   (f48 A B C D E F G H I J K L)
   (f52 A B C D E F G H I M K L)
   :guard
   (and (>= 0 (+ D 1)) (>= B (+ 2 F))))
-
 (rule
   (f48 A B C D E F G H I J K L)
   (f52 A B C D E F G H I M K L)
   :guard
   (and (>= D 1) (>= B (+ 2 F))))
-
 (rule
   (f52 A B C D E F G H I J K L)
   (f48 A B C 1 E (+ F 1) G H I J 1 L)
   :guard
   (>= 0 (+ J 1)))
-
 (rule
   (f52 A B C D E F G H I J K L)
   (f48 A B C 1 E (+ F 1) G H I J 1 L)
   :guard
   (>= J 1))
-
 (rule
   (f52 A B C D E F G H I J K L)
   (f48 A B C 0 E (+ F 1) G H I 0 0 L)
   :guard
   (= J 0))
-
 (rule (f52 A B C D E F G H I J K L) (f48 A B C 0 E (+ F 1) G H I J 0 L))
 (rule
   (f48 A B C D E F G H I J K L)
   (f48 A B C 0 E (+ F 1) G H I M 0 L)
   :guard
   (and (>= B (+ 2 F)) (= D 0)))
-
 (rule
   (f63 A B C D E F G H I J K L)
   (f71 A B C D E F G H I J K 0)
   :guard
   (>= 0 (+ D 1)))
-
 (rule
   (f63 A B C D E F G H I J K L)
   (f71 A B C D E F G H I J K 0)
   :guard
   (>= D 1))
-
 (rule
   (f63 A B C D E F G H I J K L)
   (f71 A B C 0 E F G H I J K 1)
   :guard
   (= D 0))
-
 (rule
   (f62 A B C D E F G H I J K L)
   (f71 0 B C D E F G H I J K 1)
   :guard
   (= A 0))
-
 (rule
   (f48 A B C D E F G H I J K L)
   (f62 A B C D E F G H I J K L)
   :guard
   (and (>= 0 (+ C 1)) (>= (+ F 1) B)))
-
 (rule
   (f48 A B C D E F G H I J K L)
   (f62 A B C D E F G H I J K L)
   :guard
   (and (>= C 1) (>= (+ F 1) B)))
-
 (rule
   (f48 A B C D E F G H I J K L)
   (f71 A B 0 D E F G H I J K 1)
   :guard
   (and (>= (+ F 1) B) (= C 0)))
-
 (rule
   (f35 A B C D E F G H I J K L)
   (f32 A B C D E (+ F 1) G H I J K L)
   :guard
   (>= H B))
-
 (rule
   (f32 A B C D E F G H I J K L)
   (f48 A B C D E 0 G H I J K L)
   :guard
   (>= (+ F 1) B))
-
 (rule
   (f19 A B C D E F G H I J K L)
   (f32 A B C D E 0 G H I J K L)
   :guard
   (>= F B))
-
 (rule
   (f13 A B C D E F G H I J K L)
   (f19 A B C D E 0 G H I J K L)
   :guard
   (>= F B))
-

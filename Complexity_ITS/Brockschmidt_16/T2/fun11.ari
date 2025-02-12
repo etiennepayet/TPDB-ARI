@@ -10,37 +10,31 @@
   (f2 (+ 1 A) G G D E F)
   :guard
   (and (>= G 1) (>= A 1)))
-
 (rule
   (f2 A B C D E F)
   (f2 (+ 1 A) G G D E F)
   :guard
   (and (>= 0 (+ G 1)) (>= A 1)))
-
 (rule (f2 A B C D E F) (f0 A 0 0 G E F))
 (rule
   (f3 A B C D E F)
   (f2 (+ 1 A) G G D E F)
   :guard
   (and (>= G 1) (>= A 1)))
-
 (rule
   (f3 A B C D E F)
   (f2 (+ 1 A) G G D E F)
   :guard
   (and (>= 0 (+ G 1)) (>= A 1)))
-
 (rule (f3 A B C D E F) (f0 A 0 0 G E F))
 (rule
   (f4 A B C D E F)
   (f2 (+ 1 H) G G D H H)
   :guard
   (and (>= G 1) (>= H 1)))
-
 (rule
   (f4 A B C D E F)
   (f2 (+ 1 H) G G D H H)
   :guard
   (and (>= 0 (+ G 1)) (>= H 1)))
-
 (rule (f4 A B C D E F) (f0 G 0 0 H G G))

@@ -9,4 +9,3 @@
   (l1 (* (- 2) A) (- (* 3 B) (* 2 (* C C C))) C)
   :guard
   (and (< (+ (* A A) (* C C C C C)) B) (distinct A 0)))
-

@@ -10,37 +10,31 @@
   (f2 (+ (- 1) E) B C)
   :guard
   (exists ((D Int)) (and (and (>= 0 (+ A 1)) (>= 0 D)) (>= B 1))))
-
 (rule
   (f2 A B C)
   (f2 (+ (- 1) E) B C)
   :guard
   (exists ((D Int)) (and (and (>= 0 (+ A 1)) (>= 0 D)) (>= 0 B))))
-
 (rule
   (f2 A B C)
   (f2 (+ 1 E) B C)
   :guard
   (exists ((D Int)) (and (>= D 2) (>= 0 (+ A 1)))))
-
 (rule
   (f2 A B C)
   (f2 (+ (- 1) E) B C)
   :guard
   (exists ((D Int)) (and (and (>= A 1) (>= 0 (+ 2 D))) (>= B 1))))
-
 (rule
   (f2 A B C)
   (f2 (+ (- 1) E) B C)
   :guard
   (exists ((D Int)) (and (and (>= A 1) (>= 0 (+ 2 D))) (>= 0 B))))
-
 (rule
   (f2 A B C)
   (f2 (+ 1 E) B C)
   :guard
   (exists ((D Int)) (and (>= D 0) (>= A 1))))
-
 (rule (f2 A B C) (f300 0 B E) :guard (>= 0 (+ A 1)))
 (rule (f2 A B C) (f300 0 B E) :guard (>= A 1))
 (rule (f2 A B C) (f300 A B E) :guard (= A 0))

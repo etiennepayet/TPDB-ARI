@@ -11,7 +11,6 @@
   (l2 X6 X6 2 X3 X6 X6 (- X6 Y))
   :guard
   (and (< 0 Y) (<= Y X6)))
-
 (rule (l2 X1 X2 X3 X4 Y1 Y2 X6) (l1 X1 X2 X3 X4 Y1 Y2 X6))
 (rule
   (l2 X1 X2 X3 X4 Y1 Y2 X6)
@@ -28,11 +27,9 @@
     (< (- (* X4 X4) (* X3 X3 X3 X3 X3)) (- (* 2 Y1) Y2))
     (distinct X4 0))
   )
-
 (rule (l1 X1 X2 X3 X4 Y1 Y2 X6) (l3 X1 X2 X3 X4 Y1 Y2 X1) :guard (<= X6 0))
 (rule
   (l3 X1 X2 X3 X4 Y1 Y2 X6)
   (l3 X1 X2 X3 X4 Y1 Y2 (- X6 1))
   :guard
   (> X6 0))
-

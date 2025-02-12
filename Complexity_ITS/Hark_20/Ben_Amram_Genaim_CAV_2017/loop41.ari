@@ -9,4 +9,3 @@
   (l1 (+ (+ A A) B) C (+ C 1) D)
   :guard
   (and (>= (+ A B) 0) (<= A D)))
-

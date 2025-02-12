@@ -10,6 +10,5 @@
   (f4 E B)
   :guard
   (exists ((C Int) (D Int)) (and (>= B (+ A 1)) (>= C (+ D 1)))))
-
 (rule (f4 A B) (f4 A E) :guard (>= B (+ A 1)))
 (rule (f4 A B) (f11 A B) :guard (>= A B))

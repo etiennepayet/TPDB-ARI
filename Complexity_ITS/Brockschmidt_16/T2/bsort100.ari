@@ -16,19 +16,16 @@
   (f33 A B C D E F G)
   :guard
   (and (>= 99 F) (>= (+ F D) 101)))
-
 (rule
   (f22 A B C D E F G)
   (f22 A B C D E (+ F 1) G)
   :guard
   (and (>= 99 F) (>= 100 (+ D F))))
-
 (rule
   (f22 A B C D E F G)
   (f22 A B C D 0 (+ F 1) H)
   :guard
   (and (>= 99 F) (>= 100 (+ D F))))
-
 (rule (f33 A B C D E F G) (f18 A B C (+ D 1) 0 F G) :guard (= E 0))
 (rule (f18 A B C D E F G) (f40 A B C D E F G) :guard (>= D 100))
 (rule (f33 A B C D E F G) (f40 A B C D E F G) :guard (>= 0 (+ E 1)))

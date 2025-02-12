@@ -9,25 +9,21 @@
   (f2 (+ (- 1) D) B)
   :guard
   (exists ((C Int)) (and (>= 0 C) (>= 0 (+ A 1)))))
-
 (rule
   (f2 A B)
   (f2 (+ 1 D) B)
   :guard
   (exists ((C Int)) (and (>= C 2) (>= 0 (+ A 1)))))
-
 (rule
   (f2 A B)
   (f2 (+ (- 1) D) B)
   :guard
   (exists ((C Int)) (and (>= 0 (+ 2 C)) (>= A 1))))
-
 (rule
   (f2 A B)
   (f2 (+ 1 D) B)
   :guard
   (exists ((C Int)) (and (>= C 0) (>= A 1))))
-
 (rule (f3 A B) (f2 A B))
 (rule (f2 A B) (f300 0 D) :guard (>= 0 (+ A 1)))
 (rule (f2 A B) (f300 0 D) :guard (>= A 1))

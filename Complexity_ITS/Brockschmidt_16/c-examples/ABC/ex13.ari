@@ -20,27 +20,23 @@
   (evalfreturnin A B C D E F)
   :guard
   (>= D (+ A 1)))
-
 (rule (evalfbb5in A B C D E F) (evalfbb1in A B C D E F) :guard (>= C E))
 (rule
   (evalfbb5in A B C D E F)
   (evalfbb6in A B C D E F)
   :guard
   (>= E (+ C 1)))
-
 (rule (evalfbb1in A B C D E F) (evalfbb3in A B C D E (- D E)))
 (rule
   (evalfbb3in A B C D E F)
   (evalfbb2in A B C D E F)
   :guard
   (>= (+ D E) F))
-
 (rule
   (evalfbb3in A B C D E F)
   (evalfbb4in A B C D E F)
   :guard
   (>= F (+ (+ D E) 1)))
-
 (rule (evalfbb2in A B C D E F) (evalfbb3in A B C D E (+ F 1)))
 (rule (evalfbb4in A B C D E F) (evalfbb5in A B C D (+ E 1) F))
 (rule (evalfbb6in A B C D E F) (evalfbb7in A B C (+ D 1) E F))

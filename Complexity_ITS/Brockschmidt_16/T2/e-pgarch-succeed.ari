@@ -3,81 +3,65 @@
 (fun
   f0
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f21
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f29
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f41
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f43
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   f46
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint f0)
 (rule
   (f21 A B C D E F G H I J K L M N O P Q)
   (f29 A B C D E F G H I J K L M N O P Q)
   :guard
   (>= 0 A))
-
 (rule
   (f41 A B C D E F G H I J K L M N O P Q)
   (f41 A B C D E F G H I J K L M N O P Q))
-
 (rule
   (f43 A B C D E F G H I J K L M N O P Q)
   (f46 A B C D E F G H I J K L M N O P Q))
-
 (rule
   (f29 A B C D E F G H I J K L M N O P Q)
   (f41 A R C D E F G H I J K L M N O P Q)
   :guard
   (>= A 1))
-
 (rule
   (f29 A B C D E F G H I J K L M N O P Q)
   (f41 A S C 0 R R R H I J K L M N O P Q)
   :guard
   (and (>= 0 A) (>= (+ 999 C) R)))
-
 (rule
   (f29 A B C D E F G H I J K L M N O P Q)
   (f41 1 S C 0 R R R H I J K L M N O P Q)
   :guard
   (and (>= 0 A) (>= R (+ C 1000))))
-
 (rule
   (f21 A B C D E F G H I J K L M N O P Q)
   (f29 0 B R D E F G 0 R R K L M N O P Q)
   :guard
   (>= A 1))
-
 (rule
   (f0 A B C D E F G H I J K L M N O P Q)
   (f21 1 B C D E F G H I J K R K N O P Q)
   :guard
   (>= 0 K))
-
 (rule
   (f0 A B C D E F G H I J K L M N O P Q)
   (f21 1 B C D E F G H I J S R 0 1 S S S)
   :guard
   (and (>= S 1) (>= K 1)))
-
 (rule
   (f0 A B C D E F G H I J K L M N O P Q)
   (f41 1 B C D E F G H I J S R 0 1 S S S)
   :guard
   (and (>= 0 S) (>= K 1)))
-

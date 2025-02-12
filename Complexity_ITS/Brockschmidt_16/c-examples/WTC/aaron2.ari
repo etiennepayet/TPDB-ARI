@@ -16,37 +16,31 @@
   (evalaaron2returnin A B C)
   :guard
   (>= 0 (+ A 1)))
-
 (rule
   (evalaaron2bb6in A B C)
   (evalaaron2returnin A B C)
   :guard
   (>= B (+ C 1)))
-
 (rule
   (evalaaron2bb6in A B C)
   (evalaaron2returnin A B C)
   :guard
   (>= 0 (+ A 1)))
-
 (rule
   (evalaaron2bb6in A B C)
   (evalaaron2bb3in A B C)
   :guard
   (and (>= C B) (>= A 0)))
-
 (rule
   (evalaaron2bb3in A B C)
   (evalaaron2bb4in A B C)
   :guard
   (exists ((D Int)) (>= 0 (+ D 1))))
-
 (rule
   (evalaaron2bb3in A B C)
   (evalaaron2bb4in A B C)
   :guard
   (exists ((D Int)) (>= D 1)))
-
 (rule (evalaaron2bb3in A B C) (evalaaron2bb5in A B C))
 (rule (evalaaron2bb4in A B C) (evalaaron2bb6in A B (- (- C A) 1)))
 (rule (evalaaron2bb5in A B C) (evalaaron2bb6in A (+ (+ B A) 1) C))

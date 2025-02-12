@@ -28,12 +28,10 @@
   (eval_easy2_bb2_in v__0 v_z)
   :guard
   (> v__0 0))
-
 (rule
   (eval_easy2_bb1_in v__0 v_z)
   (eval_easy2_bb3_in v__0 v_z)
   :guard
   (<= v__0 0))
-
 (rule (eval_easy2_bb2_in v__0 v_z) (eval_easy2_bb1_in (- v__0 1) v_z))
 (rule (eval_easy2_bb3_in v__0 v_z) (eval_easy2_stop v__0 v_z))

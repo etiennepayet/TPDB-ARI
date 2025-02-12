@@ -11,19 +11,16 @@
   (stop A B C F E F)
   :guard
   (and (and (and (>= 0 A) (= B C)) (= D E)) (= F A)))
-
 (rule
   (start A B C D E F)
   (lbl62 A (- F 1) C F E F)
   :guard
   (and (and (and (>= A 1) (= B C)) (= D E)) (= F A)))
-
 (rule
   (lbl72 A B C D E F)
   (stop A B C D E F)
   :guard
   (and (and (and (>= A 1) (= D 0)) (= B 0)) (= F A)))
-
 (rule
   (lbl72 A B C D E F)
   (lbl72 A F C (- D 1) E F)
@@ -34,7 +31,6 @@
       (= B 0))
     (= F A))
   )
-
 (rule
   (lbl72 A B C D E F)
   (lbl62 A (- F 1) C D E F)
@@ -45,13 +41,11 @@
       (= B 0))
     (= F A))
   )
-
 (rule
   (lbl62 A B C D E F)
   (lbl72 A B C (- D 1) E F)
   :guard
   (and (and (and (and (>= A D) (>= A 1)) (>= D 1)) (= B 0)) (= F A)))
-
 (rule
   (lbl62 A B C D E F)
   (lbl62 A (- B 1) C D E F)
@@ -62,5 +56,4 @@
       (>= D 1))
     (= F A))
   )
-
 (rule (start0 A B C D E F) (start A C C E E A))

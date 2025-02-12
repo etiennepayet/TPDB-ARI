@@ -15,7 +15,6 @@
     E)
   :guard
   (> A 0))
-
 (rule (l1 A B C D E) (l2 A B C D E))
 (rule (l2 A B C D E) (l2 A (- B 1) C (- D 1) E) :guard (> (+ B D) 0))
 (rule (l2 A B C D E) (l1 E (* 2 E) (* 3 E) A (- E 1)) :guard (> E 0))

@@ -17,7 +17,6 @@
       (= J K))
     (= L A))
   )
-
 (rule
   (start A B C D E F G H I J K L)
   (stop A B C D E F G H I J K L)
@@ -28,7 +27,6 @@
       (= J K))
     (= L A))
   )
-
 (rule
   (start A B C D E F G H I J K L)
   (stop A B C D E F G H I J K L)
@@ -39,7 +37,6 @@
       (= J K))
     (= L A))
   )
-
 (rule
   (start A B C D E F G H I J K L)
   (stop A B C D E F G H I 0 K L)
@@ -54,7 +51,6 @@
       (= J K))
     (= L A))
   )
-
 (rule
   (start A B C D E F G H I J K L)
   (lbl131 A B C D E F G 0 I 1 K L)
@@ -69,7 +65,6 @@
       (= J K))
     (= L A))
   )
-
 (rule
   (start A B C D E F G H I J K L)
   (lbl121 A B C D E 0 G 1 I 0 K L)
@@ -84,7 +79,6 @@
       (= J K))
     (= A 0))
   )
-
 (rule
   (start A B C D E F G H I J K L)
   (lbl111 A B C D E 1 G 1 I 0 K L)
@@ -99,7 +93,6 @@
       (= J K))
     (= L A))
   )
-
 (rule
   (lbl131 A B C D E F G H I J K L)
   (stop A B C D E F G H I J K L)
@@ -118,7 +111,6 @@
       (= D E))
     (= B C))
   )
-
 (rule
   (lbl131 A B C D E F G H I J K L)
   (lbl131 A B C D E F G 0 I (+ 1 J) K L)
@@ -137,7 +129,6 @@
       (= E 0))
     (= B C))
   )
-
 (rule
   (lbl131 A B C D E F G H I J K L)
   (lbl121 A B C D E J G 1 I J K L)
@@ -160,7 +151,6 @@
       (= D E))
     (= B C))
   )
-
 (rule
   (lbl131 A B C D E F G H I J K L)
   (lbl111 A B C D E (+ 1 J) G 1 I J K L)
@@ -183,7 +173,6 @@
       (= D E))
     (= B C))
   )
-
 (rule
   (lbl121 A B C D E F G H I J K L)
   (lbl131 A B C D E F G H I (+ 1 J) K L)
@@ -200,7 +189,6 @@
       (= D E))
     (= B C))
   )
-
 (rule
   (lbl121 A B C D E F G H I J K L)
   (lbl121 A B C D E J G (+ 1 H) I J K L)
@@ -221,7 +209,6 @@
       (= D E))
     (= B C))
   )
-
 (rule
   (lbl121 A B C D E F G H I J K L)
   (lbl111 A B C D E (+ 1 J) G (+ 1 H) I J K L)
@@ -244,7 +231,6 @@
       (= D E))
     (= B C))
   )
-
 (rule
   (lbl111 A B C D E F G H I J K L)
   (lbl121 A B C D E F G H I F K L)
@@ -261,7 +247,6 @@
       (= D E))
     (= B C))
   )
-
 (rule
   (lbl111 A B C D E F G H I J K L)
   (lbl111 A B C D E (+ 1 F) G H I J K L)
@@ -280,5 +265,4 @@
       (= D E))
     (= B C))
   )
-
 (rule (start0 A B C D E F G H I J K L) (start A C C E E G G I I K K A))

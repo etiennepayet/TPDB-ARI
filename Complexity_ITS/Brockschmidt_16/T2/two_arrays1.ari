@@ -17,49 +17,41 @@
   (f17 A B C (+ D 1) E F G H I)
   :guard
   (>= 49 D))
-
 (rule
   (f27 A B C D E F G H I)
   (f27 A B C D (+ E 1) F G H I)
   :guard
   (>= 49 E))
-
 (rule
   (f37 A B C D E F G H I)
   (f37 A B C D E (+ F 1) G H I)
   :guard
   (>= 49 F))
-
 (rule
   (f45 A B C D E F G H I)
   (f45 (+ A 1) B C D E F G H I)
   :guard
   (>= 49 A))
-
 (rule
   (f55 A B C D E F G H I)
   (f55 A B C D E F (+ G 1) H I)
   :guard
   (>= 49 G))
-
 (rule
   (f65 A B C D E F G H I)
   (f65 A B C D E F G (+ H 1) I)
   :guard
   (>= 49 H))
-
 (rule
   (f75 A B C D E F G H I)
   (f75 A B C D E F G H (+ I 1))
   :guard
   (>= 49 I))
-
 (rule
   (f83 A B C D E F G H I)
   (f83 (+ A 1) B C D E F G H I)
   :guard
   (>= 49 A))
-
 (rule (f83 A B C D E F G H I) (f93 A B C D E F G H I) :guard (>= A 50))
 (rule (f75 A B C D E F G H I) (f83 0 B C D E F G H I) :guard (>= I 50))
 (rule (f65 A B C D E F G H I) (f75 A B C D E F G H 0) :guard (>= H 50))

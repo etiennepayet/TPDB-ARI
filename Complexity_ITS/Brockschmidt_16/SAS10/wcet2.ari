@@ -11,13 +11,11 @@
   (stop A B C D E F G H)
   :guard
   (and (and (and (and (>= A 5) (= B C)) (= D E)) (= F G)) (= H A)))
-
 (rule
   (start A B C D E F G H)
   (lbl92 A B C H E 0 G (+ 1 H))
   :guard
   (and (and (and (and (>= 2 A) (= B C)) (= D E)) (= F G)) (= H A)))
-
 (rule
   (start A B C D E F G H)
   (lbl82 A 0 C D E 1 G H)
@@ -26,7 +24,6 @@
     (and (and (and (and (>= A 3) (>= 4 A)) (= B C)) (= D E)) (= F G))
     (= H A))
   )
-
 (rule
   (lbl92 A B C D E F G H)
   (stop A B C D E F G H)
@@ -35,7 +32,6 @@
     (and (and (and (>= D 4) (>= D A)) (>= (+ F 10) (* 5 D))) (>= F 0))
     (= H (+ D 1)))
   )
-
 (rule
   (lbl92 A B C D E F G H)
   (lbl92 A B C H E 0 G (+ 1 H))
@@ -44,7 +40,6 @@
     (and (and (and (>= 1 D) (>= D A)) (>= (+ F 10) (* 5 D))) (>= F 0))
     (= H (+ D 1)))
   )
-
 (rule
   (lbl92 A B C D E F G H)
   (lbl82 A 0 C D E 1 G H)
@@ -55,7 +50,6 @@
       (>= F 0))
     (= H (+ D 1)))
   )
-
 (rule
   (lbl82 A B C D E F G H)
   (lbl92 A B C H E F G (+ 1 H))
@@ -66,13 +60,11 @@
       (>= 4 H))
     (= F (+ B 1)))
   )
-
 (rule
   (lbl82 A B C D E F G H)
   (lbl92 A B C H E F G (+ 1 H))
   :guard
   (and (and (and (and (>= H A) (>= H 3)) (>= 4 H)) (= F 10)) (= B 9)))
-
 (rule
   (lbl82 A B C D E F G H)
   (lbl82 A F C D E (+ 1 F) G H)
@@ -83,5 +75,4 @@
       (>= 4 H))
     (= F (+ B 1)))
   )
-
 (rule (start0 A B C D E F G H) (start A C C E E G G A))

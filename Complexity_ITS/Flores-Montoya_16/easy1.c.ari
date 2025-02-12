@@ -26,29 +26,24 @@
   (eval_easy1_bb2_in v_0 v_x_0)
   :guard
   (< v_x_0 40))
-
 (rule
   (eval_easy1_bb1_in v_0 v_x_0)
   (eval_easy1_bb3_in v_0 v_x_0)
   :guard
   (>= v_x_0 40))
-
 (rule
   (eval_easy1_bb2_in v_0 v_x_0)
   (eval_easy1_bb1_in v_0 (+ v_x_0 1))
   :guard
   (= v_0 0))
-
 (rule
   (eval_easy1_bb2_in v_0 v_x_0)
   (eval_easy1_bb1_in v_0 (+ v_x_0 2))
   :guard
   (< v_0 0))
-
 (rule
   (eval_easy1_bb2_in v_0 v_x_0)
   (eval_easy1_bb1_in v_0 (+ v_x_0 2))
   :guard
   (> v_0 0))
-
 (rule (eval_easy1_bb3_in v_0 v_x_0) (eval_easy1_stop v_0 v_x_0))

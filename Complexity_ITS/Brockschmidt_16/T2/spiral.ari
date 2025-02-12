@@ -12,31 +12,26 @@
   (f2 A (- B 1))
   :guard
   (and (and (and (>= A B) (>= B 2)) (>= A 1)) (>= (+ A B) 2)))
-
 (rule
   (f2 A B)
   (f2 A (- B 1))
   :guard
   (and (and (and (>= A B) (>= B 2)) (>= 0 (+ A 1))) (>= (+ A B) 2)))
-
 (rule
   (f2 A B)
   (f2 A (- B 1))
   :guard
   (and (and (and (>= A B) (>= 0 B)) (>= A 1)) (>= (+ A B) 2)))
-
 (rule
   (f2 A B)
   (f2 A (- B 1))
   :guard
   (and (and (and (>= A B) (>= 0 B)) (>= 0 (+ A 1))) (>= (+ A B) 2)))
-
 (rule
   (f2 A B)
   (f2 (- A 1) B)
   :guard
   (and (and (and (>= 1 (+ A B)) (>= A (+ B 1))) (>= A 2)) (>= B 1)))
-
 (rule
   (f2 A B)
   (f2 (- A 1) B)
@@ -45,13 +40,11 @@
     (and (and (>= 1 (+ A B)) (>= A (+ B 1))) (>= A 2))
     (>= 0 (+ B 1)))
   )
-
 (rule
   (f2 A B)
   (f2 (- A 1) B)
   :guard
   (and (and (and (>= 1 (+ A B)) (>= A (+ B 1))) (>= 0 A)) (>= B 1)))
-
 (rule
   (f2 A B)
   (f2 (- A 1) B)
@@ -60,13 +53,11 @@
     (and (and (>= 1 (+ A B)) (>= A (+ B 1))) (>= 0 A))
     (>= 0 (+ B 1)))
   )
-
 (rule
   (f2 A B)
   (f2 A (+ B 1))
   :guard
   (and (and (and (>= B A) (>= B 0)) (>= A 1)) (>= 0 (+ (+ B A) 1))))
-
 (rule
   (f2 A B)
   (f2 A (+ B 1))
@@ -75,7 +66,6 @@
     (and (and (>= B A) (>= B 0)) (>= 0 (+ A 1)))
     (>= 0 (+ (+ B A) 1)))
   )
-
 (rule
   (f2 A B)
   (f2 A (+ B 1))
@@ -84,7 +74,6 @@
     (and (and (>= B A) (>= 0 (+ B 2))) (>= A 1))
     (>= 0 (+ (+ B A) 1)))
   )
-
 (rule
   (f2 A B)
   (f2 A (+ B 1))
@@ -93,13 +82,11 @@
     (and (and (>= B A) (>= 0 (+ B 2))) (>= 0 (+ A 1)))
     (>= 0 (+ (+ B A) 1)))
   )
-
 (rule
   (f2 A B)
   (f2 (+ A 1) B)
   :guard
   (and (and (and (>= (+ B A) 0) (>= B (+ A 1))) (>= A 0)) (>= B 1)))
-
 (rule
   (f2 A B)
   (f2 (+ A 1) B)
@@ -108,7 +95,6 @@
     (and (and (>= (+ B A) 0) (>= B (+ A 1))) (>= A 0))
     (>= 0 (+ B 1)))
   )
-
 (rule
   (f2 A B)
   (f2 (+ A 1) B)
@@ -117,7 +103,6 @@
     (and (and (>= (+ B A) 0) (>= B (+ A 1))) (>= 0 (+ A 2)))
     (>= B 1))
   )
-
 (rule
   (f2 A B)
   (f2 (+ A 1) B)
@@ -126,4 +111,3 @@
     (and (and (>= (+ B A) 0) (>= B (+ A 1))) (>= 0 (+ A 2)))
     (>= 0 (+ B 1)))
   )
-

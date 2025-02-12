@@ -25,7 +25,6 @@
     Int
     Int)
   )
-
 (fun
   lbl111
   (->
@@ -51,7 +50,6 @@
     Int
     Int)
   )
-
 (fun
   lbl121
   (->
@@ -77,7 +75,6 @@
     Int
     Int)
   )
-
 (fun
   lbl123
   (->
@@ -103,7 +100,6 @@
     Int
     Int)
   )
-
 (fun
   lbl133
   (->
@@ -129,7 +125,6 @@
     Int
     Int)
   )
-
 (fun
   lbl271
   (->
@@ -155,7 +150,6 @@
     Int
     Int)
   )
-
 (fun
   lbl281
   (->
@@ -181,7 +175,6 @@
     Int
     Int)
   )
-
 (fun
   lbl43
   (->
@@ -207,7 +200,6 @@
     Int
     Int)
   )
-
 (fun
   lbl71
   (->
@@ -233,7 +225,6 @@
     Int
     Int)
   )
-
 (fun
   start
   (->
@@ -259,7 +250,6 @@
     Int
     Int)
   )
-
 (fun
   start0
   (->
@@ -285,7 +275,6 @@
     Int
     Int)
   )
-
 (fun
   stop
   (->
@@ -311,7 +300,6 @@
     Int
     Int)
   )
-
 (entrypoint start0)
 (rule
   (start A B C D E F G H I J K L M N O P Q R S T)
@@ -331,7 +319,6 @@
       (= R S))
     (= T A))
   )
-
 (rule
   (start A B C D E F G H I J K L M N O P Q R S T)
   (lbl71 A B C D E F G H I U K L M N O 1 Q 1 S T)
@@ -350,7 +337,6 @@
       (= R S))
     (= T A))
   )
-
 (rule
   (lbl271 A B C D E F G H I J K L M N O P Q R S T)
   (lbl133 A B C D E F G H I J K P M N O (+ 1 P) Q R S T)
@@ -369,7 +355,6 @@
       (= R N))
     (= T A))
   )
-
 (rule
   (lbl271 A B C D E F G H I J K L M N O P Q R S T)
   (lbl281 A B C D E F G H I J K L M (+ 1 (* 2 R)) O P Q T S T)
@@ -388,7 +373,6 @@
       (= R N))
     (= T A))
   )
-
 (rule
   (lbl271 A B C D E F G H I J K L M N O P Q R S T)
   (lbl271 A B C D E F G H I J K L M (+ 1 (* 2 R)) O P Q (+ 1 (* 2 R)) S T)
@@ -407,7 +391,6 @@
       (= R N))
     (= T A))
   )
-
 (rule
   (lbl271 A B C D E F G H I J K L M N O P Q R S T)
   (lbl281 A B C D E F G H I J K L M (+ 2 (* 2 R)) O P Q T S T)
@@ -426,7 +409,6 @@
       (= R N))
     (= T A))
   )
-
 (rule
   (lbl271 A B C D E F G H I J K L M N O P Q R S T)
   (lbl271 A B C D E F G H I J K L M (+ 2 (* 2 R)) O P Q (+ 2 (* 2 R)) S T)
@@ -445,7 +427,6 @@
       (= R N))
     (= T A))
   )
-
 (rule
   (lbl281 A B C D E F G H I J K L M N O P Q R S T)
   (lbl133 A B C D E F G H I J K P M N O (+ 1 P) Q R S T)
@@ -462,7 +443,6 @@
       (= T A))
     (= R A))
   )
-
 (rule
   (lbl281 A B C D E F G H I J K L M N O P Q R S T)
   (lbl281 A B C D E F G H I J K L M (+ 1 (* 2 R)) O P Q T S T)
@@ -479,7 +459,6 @@
       (= T A))
     (= R A))
   )
-
 (rule
   (lbl281 A B C D E F G H I J K L M N O P Q R S T)
   (lbl271 A B C D E F G H I J K L M (+ 1 (* 2 R)) O P Q (+ 1 (* 2 R)) S T)
@@ -496,7 +475,6 @@
       (= T A))
     (= R A))
   )
-
 (rule
   (lbl281 A B C D E F G H I J K L M N O P Q R S T)
   (lbl281 A B C D E F G H I J K L M (+ 2 (* 2 R)) O P Q T S T)
@@ -513,7 +491,6 @@
       (= T A))
     (= R A))
   )
-
 (rule
   (lbl281 A B C D E F G H I J K L M N O P Q R S T)
   (lbl271 A B C D E F G H I J K L M (+ 2 (* 2 R)) O P Q (+ 2 (* 2 R)) S T)
@@ -530,7 +507,6 @@
       (= T A))
     (= R A))
   )
-
 (rule
   (lbl133 A B C D E F G H I J K L M N O P Q R S T)
   (stop A B C D E F G H I J K L M N O P Q R S T)
@@ -551,7 +527,6 @@
       (= P (+ L 1)))
     (= T A))
   )
-
 (rule
   (lbl133 A B C D E F G H I J K L M N O P Q R S T)
   (lbl133 A B C D E F G H I J K P M 0 O (+ 1 P) Q 0 S T)
@@ -570,7 +545,6 @@
       (= (+ P 2) A))
     (= (+ L 3) A))
   )
-
 (rule
   (lbl133 A B C D E F G H I J K L M N O P Q R S T)
   (lbl281 A B C D E F G H I J K L M 1 O P Q T S T)
@@ -591,7 +565,6 @@
       (= P (+ L 1)))
     (= T A))
   )
-
 (rule
   (lbl133 A B C D E F G H I J K L M N O P Q R S T)
   (lbl271 A B C D E F G H I J K L M 1 O P Q 1 S T)
@@ -612,7 +585,6 @@
       (= P (+ L 1)))
     (= T A))
   )
-
 (rule
   (lbl133 A B C D E F G H I J K L M N O P Q R S T)
   (lbl281 A B C D E F G H I J K L M 2 O P Q T S T)
@@ -633,7 +605,6 @@
       (= P (+ L 1)))
     (= T A))
   )
-
 (rule
   (lbl133 A B C D E F G H I J K L M N O P Q R S T)
   (lbl271 A B C D E F G H I J K L M 2 O P Q 2 S T)
@@ -654,7 +625,6 @@
       (= P (+ L 1)))
     (= T A))
   )
-
 (rule
   (lbl71 A B C D E F G H I J K L M N O P Q R S T)
   (lbl101 A B C U E F G H I J K L M N O P Q R S T)
@@ -673,7 +643,6 @@
       (= N O))
     (= L M))
   )
-
 (rule
   (lbl71 A B C D E F G H I J K L M N O P Q R S T)
   (lbl43 A P C D E F G H I J K L M N O (+ 1 P) Q R S T)
@@ -690,7 +659,6 @@
       (= N O))
     (= L M))
   )
-
 (rule
   (lbl121 A B C D E F G H I J K L M N O P Q R S T)
   (lbl123 A B C D E F G H I J K L M N O P Q H S T)
@@ -719,7 +687,6 @@
       (= N O))
     (= T A))
   )
-
 (rule
   (lbl123 A B C D E F G H I J K L M N O P Q R S T)
   (lbl71 A B C D E F G H I U K L M N O P Q R S T)
@@ -772,7 +739,6 @@
       (= T A))
     (= N O))
   )
-
 (rule
   (lbl111 A B C D E F G H I J K L M N O P Q R S T)
   (lbl121 A B C D E F G U I J K L M N O P Q R S T)
@@ -797,7 +763,6 @@
       (= N O))
     (= T A))
   )
-
 (rule
   (lbl101 A B C D E F G H I J K L M N O P Q R S T)
   (lbl111 A B C D E U G H I J K L M N O P Q R S T)
@@ -818,7 +783,6 @@
       (= N O))
     (= T A))
   )
-
 (rule
   (lbl43 A B C D E F G H I J K L M N O P Q R S T)
   (lbl71 A B C D E F G H I U K L M N O P Q P S T)
@@ -839,7 +803,6 @@
       (= N O))
     (= T A))
   )
-
 (rule
   (lbl43 A B C D E F G H I J K L M N O P Q R S T)
   (stop A B C D E F G H I J K L M N O 0 Q R S T)
@@ -862,7 +825,6 @@
       (= N O))
     (= T A))
   )
-
 (rule
   (lbl43 A B C D E F G H I J K L M N O P Q R S T)
   (lbl133 A B C D E F G H I J K 0 M 0 O 1 Q 0 S T)
@@ -883,7 +845,6 @@
       (= N O))
     (= A 2))
   )
-
 (rule
   (lbl43 A B C D E F G H I J K L M N O P Q R S T)
   (lbl281 A B C D E F G H I J K L M 1 O 0 Q T S T)
@@ -904,7 +865,6 @@
       (= N O))
     (= T A))
   )
-
 (rule
   (lbl43 A B C D E F G H I J K L M N O P Q R S T)
   (lbl271 A B C D E F G H I J K L M 1 O 0 Q 1 S T)
@@ -925,7 +885,6 @@
       (= N O))
     (= T A))
   )
-
 (rule
   (lbl43 A B C D E F G H I J K L M N O P Q R S T)
   (lbl281 A B C D E F G H I J K L M 2 O 0 Q T S T)
@@ -948,7 +907,6 @@
       (= N O))
     (= T A))
   )
-
 (rule
   (lbl43 A B C D E F G H I J K L M N O P Q R S T)
   (lbl271 A B C D E F G H I J K L M 2 O 0 Q 2 S T)
@@ -971,8 +929,6 @@
       (= N O))
     (= T A))
   )
-
 (rule
   (start0 A B C D E F G H I J K L M N O P Q R S T)
   (start A C C E E G G I I K K M M O O Q Q S S A))
-

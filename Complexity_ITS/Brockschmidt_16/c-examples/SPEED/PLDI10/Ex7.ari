@@ -13,7 +13,6 @@
   (evalEx7bb3in A B (+ A 1))
   :guard
   (and (>= A 1) (>= B (+ A 1))))
-
 (rule (evalEx7bb3in A B C) (evalEx7bbin A B C) :guard (>= A (+ C 1)))
 (rule (evalEx7bb3in A B C) (evalEx7bbin A B C) :guard (>= C (+ A 1)))
 (rule (evalEx7bb3in A B C) (evalEx7returnin A B C) :guard (= C A))

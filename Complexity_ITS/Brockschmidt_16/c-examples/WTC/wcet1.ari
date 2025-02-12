@@ -17,45 +17,38 @@
   (evalwcet1returnin A B C D)
   :guard
   (>= 0 A))
-
 (rule
   (evalwcet1bbin A B C D)
   (evalwcet1bb1in A B C D)
   :guard
   (exists ((E Int)) (>= 0 (+ E 1))))
-
 (rule
   (evalwcet1bbin A B C D)
   (evalwcet1bb1in A B C D)
   :guard
   (exists ((E Int)) (>= E 1)))
-
 (rule (evalwcet1bbin A B C D) (evalwcet1bb4in A B C D))
 (rule
   (evalwcet1bb1in A B C D)
   (evalwcet1bb6in A B C 0)
   :guard
   (>= (+ B 1) A))
-
 (rule
   (evalwcet1bb1in A B C D)
   (evalwcet1bb6in A B C (+ B 1))
   :guard
   (>= A (+ B 2)))
-
 (rule (evalwcet1bb4in A B C D) (evalwcet1bb5in A B C D) :guard (>= 1 B))
 (rule
   (evalwcet1bb4in A B C D)
   (evalwcet1bb6in A B C (- B 1))
   :guard
   (>= B 2))
-
 (rule (evalwcet1bb5in A B C D) (evalwcet1bb6in A B C 0))
 (rule
   (evalwcet1bb6in A B C D)
   (evalwcet1bbin A D (- C 1) D)
   :guard
   (>= C 2))
-
 (rule (evalwcet1bb6in A B C D) (evalwcet1returnin A B C D) :guard (>= 1 C))
 (rule (evalwcet1returnin A B C D) (evalwcet1stop A B C D))

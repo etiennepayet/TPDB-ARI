@@ -8,6 +8,5 @@
   (f1 A B 2)
   :guard
   (and (and (and (>= A 0) (>= 3 A)) (>= 3 B)) (>= B 0)))
-
 (rule (f1 A B C) (f1 A (+ B 1) C) :guard (>= (+ C A) (+ (* 2 B) 1)))
 (rule (f1 A B C) (f1 A (- B 1) C) :guard (>= (* 2 B) (+ (+ 2 C) A)))

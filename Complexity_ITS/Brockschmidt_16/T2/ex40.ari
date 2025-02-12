@@ -15,4 +15,3 @@
   (f14 A B)
   :guard
   (exists ((C Int)) (and (and (>= 0 (+ C 1)) (>= A 0)) (>= B (+ A 1)))))
-

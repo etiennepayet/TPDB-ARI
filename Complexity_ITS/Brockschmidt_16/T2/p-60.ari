@@ -9,7 +9,6 @@
   (f300 (+ 1 A) B C D E)
   :guard
   (and (>= 100 A) (>= B 1)))
-
 (rule (f300 A B C D E) (f3 A B 0 0 0) :guard (>= A 101))
 (rule (f2 A B C D E) (f300 1 B C D E) :guard (>= B 1))
 (rule (f2 A B C D E) (f3 0 B 0 0 0) :guard (>= 0 B))

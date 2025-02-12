@@ -10,11 +10,9 @@
   (l1 (* 2 X1) (* 3 X2) Y1 Y2)
   :guard
   (and (< X2 X1) (> X2 0)))
-
 (rule (l1 X1 X2 Y1 Y2) (l2 X1 X2 Y1 Y2))
 (rule
   (l2 X1 X2 Y1 Y2)
   (l2 X1 X2 (+ Y1 Y2) (- Y2 T))
   :guard
   (and (> Y1 0) (> T 0)))
-

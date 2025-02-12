@@ -16,13 +16,11 @@
   (f31 A L C K E F G H I J)
   :guard
   (and (>= 0 A) (>= (+ 999 C) K)))
-
 (rule
   (f24 A B C D E F G H I J)
   (f31 1 L C K E F G H I J)
   :guard
   (and (>= 0 A) (>= K (+ C 1000))))
-
 (rule (f18 A B C D E F G H I J) (f24 0 B K D K F G H I J) :guard (>= A 1))
 (rule (f0 A B C D E F G H I J) (f18 1 B C D E K K H I J) :guard (>= 0 K))
 (rule
@@ -30,10 +28,8 @@
   (f18 1 B C D E K 0 1 L L)
   :guard
   (and (>= K 1) (>= L 1)))
-
 (rule
   (f0 A B C D E F G H I J)
   (f31 1 B C D E K 0 1 L L)
   :guard
   (and (>= K 1) (>= 0 L)))
-

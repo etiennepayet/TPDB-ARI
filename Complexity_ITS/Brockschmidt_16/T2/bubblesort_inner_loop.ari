@@ -12,5 +12,4 @@
   (f23 A B C D)
   :guard
   (exists ((E Int)) (and (>= A 4) (>= 0 (+ E 1)))))
-
 (rule (f8 A B C D) (f23 A B C D) :guard (>= A 4))

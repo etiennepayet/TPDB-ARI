@@ -21,7 +21,6 @@
 (rule
   (eval_ex2_start v_3 v_n v_x_0 v_y_0)
   (eval_ex2_bb0_in v_3 v_n v_x_0 v_y_0))
-
 (rule (eval_ex2_bb0_in v_3 v_n v_x_0 v_y_0) (eval_ex2_0 v_3 v_n v_x_0 v_y_0))
 (rule (eval_ex2_0 v_3 v_n v_x_0 v_y_0) (eval_ex2_1 v_3 v_n v_x_0 v_y_0))
 (rule (eval_ex2_1 v_3 v_n v_x_0 v_y_0) (eval_ex2_2 v_3 v_n v_x_0 v_y_0))
@@ -33,38 +32,31 @@
   (eval_ex2_bb2_in v_3 v_n v_x_0 v_x_0)
   :guard
   (<= v_x_0 v_n))
-
 (rule
   (eval_ex2_bb1_in v_3 v_n v_x_0 v_y_0)
   (eval_ex2_bb5_in v_3 v_n v_x_0 v_y_0)
   :guard
   (> v_x_0 v_n))
-
 (rule
   (eval_ex2_bb2_in v_3 v_n v_x_0 v_y_0)
   (eval_ex2_bb3_in v_3 v_n v_x_0 v_y_0)
   :guard
   (<= v_y_0 v_n))
-
 (rule
   (eval_ex2_bb2_in v_3 v_n v_x_0 v_y_0)
   (eval_ex2_bb4_in v_3 v_n v_x_0 v_y_0)
   :guard
   (> v_y_0 v_n))
-
 (rule (eval_ex2_bb3_in v_3 v_n v_x_0 v_y_0) (eval_ex2_5 v_3 v_n v_x_0 v_y_0))
 (rule (eval_ex2_5 v_3 v_n v_x_0 v_y_0) (eval_ex2_6 v_3 v_n v_x_0 v_y_0))
 (rule
   (eval_ex2_6 v_3 v_n v_x_0 v_y_0)
   (eval_ex2_bb2_in v_3 v_n v_x_0 (+ v_y_0 1)))
-
 (rule
   (eval_ex2_bb4_in v_3 v_n v_x_0 v_y_0)
   (eval_ex2_9 (+ v_x_0 1) v_n v_x_0 v_y_0))
-
 (rule (eval_ex2_9 v_3 v_n v_x_0 v_y_0) (eval_ex2_10 v_3 v_n v_x_0 v_y_0))
 (rule (eval_ex2_10 v_3 v_n v_x_0 v_y_0) (eval_ex2_bb1_in v_3 v_n v_3 v_y_0))
 (rule
   (eval_ex2_bb5_in v_3 v_n v_x_0 v_y_0)
   (eval_ex2_stop v_3 v_n v_x_0 v_y_0))
-

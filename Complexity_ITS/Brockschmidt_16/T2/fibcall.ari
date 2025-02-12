@@ -10,5 +10,4 @@
   (f7 A B (+ C D) C (+ E 1) C G H I)
   :guard
   (>= B E))
-
 (rule (f7 A B C D E F G H I) (f19 A B C D E F C C C) :guard (>= E (+ 1 B)))

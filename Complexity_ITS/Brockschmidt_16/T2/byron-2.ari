@@ -10,17 +10,14 @@
   (f0 A B (+ (- 1) C) G 0 H)
   :guard
   (and (>= A 1) (>= C 3)))
-
 (rule
   (f0 A B C D E F)
   (f0 (+ (- 1) A) B I G H F)
   :guard
   (and (>= 0 (+ H 1)) (>= A 1)))
-
 (rule
   (f0 A B C D E F)
   (f0 (+ (- 1) A) B I G H F)
   :guard
   (and (>= H 1) (>= A 1)))
-
 (rule (f1 A B C D E F) (f0 A B C D E F))

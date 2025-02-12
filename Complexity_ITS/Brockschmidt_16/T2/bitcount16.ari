@@ -10,11 +10,9 @@
   (f5 A (+ B 1) (+ C 1) 1 E F G H I J)
   :guard
   (>= 15 C))
-
 (rule
   (f5 A B C D E F G H I J)
   (f5 A B (+ C 1) 0 E F G H I J)
   :guard
   (>= 15 C))
-
 (rule (f5 A B C D E F G H I J) (f27 A B C D B B K L L L) :guard (>= C 16))

@@ -25,7 +25,6 @@
     Int
     Int)
   )
-
 (fun
   f101
   (->
@@ -51,7 +50,6 @@
     Int
     Int)
   )
-
 (fun
   f14
   (->
@@ -77,7 +75,6 @@
     Int
     Int)
   )
-
 (fun
   f57
   (->
@@ -103,7 +100,6 @@
     Int
     Int)
   )
-
 (fun
   f6
   (->
@@ -129,18 +125,15 @@
     Int
     Int)
   )
-
 (entrypoint f0)
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T)
   (f6 0 0 C D E F G H I J K L M N O P Q R S T))
-
 (rule
   (f6 A B C D E F G H I J K L M N O P Q R S T)
   (f6 U (+ B 1) C D E F G H I J K L M N O P Q R S T)
   :guard
   (>= 63 B))
-
 (rule
   (f14 A B C D E F G H I J K L M N O P Q R S T)
   (f14
@@ -166,7 +159,6 @@
     J1)
   :guard
   (>= C 0))
-
 (rule
   (f57 A B C D E F G H I J K L M N O P Q R S T)
   (f57
@@ -192,22 +184,18 @@
     J1)
   :guard
   (>= C 0))
-
 (rule
   (f57 A B C D E F G H I J K L M N O P Q R S T)
   (f101 A B C D E F G H I J K L M N O P Q R S T)
   :guard
   (>= 0 (+ C 1)))
-
 (rule
   (f14 A B C D E F G H I J K L M N O P Q R S T)
   (f57 A B 7 D E F G H I J K L M N O P Q R S T)
   :guard
   (>= 0 (+ C 1)))
-
 (rule
   (f6 A B C D E F G H I J K L M N O P Q R S T)
   (f14 A B 7 D E F G H I J K L M N O P Q R S T)
   :guard
   (>= B 64))
-

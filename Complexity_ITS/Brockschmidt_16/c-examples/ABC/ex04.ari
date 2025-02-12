@@ -18,7 +18,6 @@
   (evalfbb5in A B 0 D)
   :guard
   (and (and (>= (* (* B B) B) 0) (>= 0 (* (* B B) B))) (>= 0 (+ 1 A))))
-
 (rule
   (evalfbb7in A B C D)
   (evalfbb5in A B 0 D)
@@ -32,7 +31,6 @@
       (>= E (+ 1 A)))
     )
   )
-
 (rule
   (evalfbb7in A B C D)
   (evalfbb5in A B 0 D)
@@ -46,13 +44,11 @@
       (>= (+ 1 (* (* B B) B)) (* 2 E)))
     )
   )
-
 (rule
   (evalfbb7in A B C D)
   (evalfreturnin A B C D)
   :guard
   (and (and (>= (* (* B B) B) 0) (>= 0 (* (* B B) B))) (>= A 0)))
-
 (rule
   (evalfbb7in A B C D)
   (evalfreturnin A B C D)
@@ -66,7 +62,6 @@
       (>= A E))
     )
   )
-
 (rule
   (evalfbb7in A B C D)
   (evalfreturnin A B C D)
@@ -80,7 +75,6 @@
       (>= (+ 1 (* (* B B) B)) (* 2 E)))
     )
   )
-
 (rule (evalfbb5in A B C D) (evalfbb3in A B C 0) :guard (>= B (+ 1 C)))
 (rule (evalfbb5in A B C D) (evalfbb6in A B C D) :guard (>= C B))
 (rule (evalfbb3in A B C D) (evalfbb2in A B C D) :guard (>= C (+ 1 D)))

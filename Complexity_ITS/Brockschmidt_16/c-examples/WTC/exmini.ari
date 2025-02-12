@@ -14,13 +14,11 @@
   (evalexminibbin A B C)
   :guard
   (and (>= 100 B) (>= A C)))
-
 (rule (evalexminibb1in A B C) (evalexminireturnin A B C) :guard (>= B 101))
 (rule
   (evalexminibb1in A B C)
   (evalexminireturnin A B C)
   :guard
   (>= C (+ A 1)))
-
 (rule (evalexminibbin A B C) (evalexminibb1in (- A 1) C (+ B 1)))
 (rule (evalexminireturnin A B C) (evalexministop A B C))

@@ -9,10 +9,8 @@
   (l1 (* 2 X1) (* 3 X2) (* 4 X3))
   :guard
   (and (< X3 X1) (> X3 0)))
-
 (rule
   (l1 X1 X2 X3)
   (l1 (* 2 X1) (* 3 X2) (* 4 X3))
   :guard
   (and (< X3 X2) (> X3 0)))
-

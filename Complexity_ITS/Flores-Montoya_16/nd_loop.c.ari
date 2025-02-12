@@ -25,23 +25,19 @@
   (eval_nd_loop_bb1_in v_0 v_0)
   :guard
   (and (and (<= (- v_0 v_x_0) 2) (>= (- v_0 v_x_0) 1)) (< v_0 10)))
-
 (rule
   (eval_nd_loop_5 v_0 v_x_0)
   (eval_nd_loop_bb2_in v_0 v_x_0)
   :guard
   (> (- v_0 v_x_0) 2))
-
 (rule
   (eval_nd_loop_5 v_0 v_x_0)
   (eval_nd_loop_bb2_in v_0 v_x_0)
   :guard
   (< (- v_0 v_x_0) 1))
-
 (rule
   (eval_nd_loop_5 v_0 v_x_0)
   (eval_nd_loop_bb2_in v_0 v_x_0)
   :guard
   (>= v_0 10))
-
 (rule (eval_nd_loop_bb2_in v_0 v_x_0) (eval_nd_loop_stop v_0 v_x_0))

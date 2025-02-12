@@ -15,6 +15,5 @@
   (l4 A (* (- 2) B) C D E)
   :guard
   (and (< (+ (* B B) (* D D D D D)) C) (distinct B 0)))
-
 (rule (l4 A B C D E) (l3 A B (- (* 3 C) (* 2 (* D D D))) D E))
 (rule (l3 A B C D E) (l1 (- A 1) B C D E))

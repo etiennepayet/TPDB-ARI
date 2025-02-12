@@ -13,13 +13,11 @@
   (a A B C D E F G H)
   :guard
   (and (and (and (and (>= A 1) (= B A)) (= C D)) (= E F)) (= G H)))
-
 (rule
   (a A B C D E F G H)
   (d A B 1 D E F G H)
   :guard
   (and (and (and (and (>= A 1) (= G H)) (= E F)) (= C D)) (= B A)))
-
 (rule
   (d A B C D E F G H)
   (b A B C D E F (+ 1 C) H)
@@ -28,13 +26,11 @@
     (and (and (and (>= A (+ C 1)) (>= A C)) (>= A 1)) (>= C 1))
     (= B A))
   )
-
 (rule
   (d A B C D E F G H)
   (halt A B C D E F G H)
   :guard
   (and (and (>= A 1) (= C A)) (= B A)))
-
 (rule
   (b A B C D E F G H)
   (d A B (+ 1 C) D E F G H)
@@ -43,7 +39,6 @@
     (and (and (and (>= A (+ C 1)) (>= C 1)) (>= A C)) (= G (+ A 1)))
     (= B A))
   )
-
 (rule
   (b A B C D E F G H)
   (c A B C D B F G H)
@@ -54,7 +49,6 @@
       (>= G (+ C 1)))
     (= B A))
   )
-
 (rule
   (c A B C D E F G H)
   (c A B C D (- E 1) F G H)
@@ -67,7 +61,6 @@
       (>= G (+ C 1)))
     (= B A))
   )
-
 (rule
   (c A B C D E F G H)
   (b A B C D E F (+ 1 G) H)
@@ -78,5 +71,4 @@
       (= C E))
     (= B A))
   )
-
 (rule (start0 A B C D E F G H) (start A A D D F F H H))

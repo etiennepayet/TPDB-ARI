@@ -14,19 +14,16 @@
   (f49 A B C (+ C 1) E F G)
   :guard
   (and (>= A (+ D 1)) (= C D)))
-
 (rule
   (f49 A B C D E F G)
   (f49 A B C (+ D 1) E F G)
   :guard
   (and (>= A (+ D 1)) (>= C (+ D 1))))
-
 (rule
   (f49 A B C D E F G)
   (f49 A B C (+ D 1) E F G)
   :guard
   (and (>= A (+ D 1)) (>= D (+ 1 C))))
-
 (rule (f57 A B C D E F G) (f60 A B C D 0 F G) :guard (>= A (+ D 1)))
 (rule (f60 A B C D E F G) (f60 A B C D (+ E 1) H I) :guard (>= B (+ E 1)))
 (rule (f71 A B C D E F G) (f77 A B C D E H I) :guard (>= B (+ D 1)))

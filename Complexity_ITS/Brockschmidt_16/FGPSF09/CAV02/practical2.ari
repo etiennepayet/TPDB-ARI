@@ -20,7 +20,6 @@
   (eval5 A B C (- A 10))
   :guard
   (and (>= A 101) (= C 1)))
-
 (rule (eval7 A B C D) (eval9 A B C D) :guard (>= 100 A))
 (rule (eval7 A B C D) (eval9 A B C D) :guard (>= 2 C))
 (rule (eval7 A B C D) (eval9 A B C D) :guard (>= C 0))

@@ -10,6 +10,5 @@
   (l1 (+ X1 (* 2 X2)) (+ (* 3 X1) (* 4 X2)) (- X3 1))
   :guard
   (> X3 0))
-
 (rule (l1 X1 X2 X3) (l2 X1 X2 X3))
 (rule (l2 X1 X2 X3) (l2 (- X1 1) X2 X3) :guard (> X1 0))

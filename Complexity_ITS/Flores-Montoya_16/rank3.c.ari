@@ -22,55 +22,42 @@
 (fun
   eval_rank2__critedge1_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_rank2__critedge_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_rank2_bb0_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_rank2_bb1_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_rank2_bb2_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_rank2_bb3_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_rank2_bb4_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_rank2_bb5_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_rank2_bb6_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_rank2_bb7_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_rank2_bb8_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_rank2_bb9_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_rank2_start
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun eval_rank2_stop (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
 (entrypoint eval_rank2_start)
 (rule
@@ -101,7 +88,6 @@
     v_y_1
     v_y_2)
   )
-
 (rule
   (eval_rank2_bb0_in
     v_10
@@ -117,43 +103,33 @@
     v_y_1
     v_y_2)
   (eval_rank2_0 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_0 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_1 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_1 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_2 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_2 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_3 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_3 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_4 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_4 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_5 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_5 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_6 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_6 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_7 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_7 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_8 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_8 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_bb1_in v_10 v_14 v_15 v_16 v_5 v_m v_m v_x_1 v_x_2 v_m v_y_1 v_y_2))
-
 (rule
   (eval_rank2_bb1_in
     v_10
@@ -183,7 +159,6 @@
     v_y_2)
   :guard
   (>= v_x_0 2))
-
 (rule
   (eval_rank2_bb1_in
     v_10
@@ -213,7 +188,6 @@
     v_y_2)
   :guard
   (< v_x_0 2))
-
 (rule
   (eval_rank2_bb2_in
     v_10
@@ -242,7 +216,6 @@
     (- (+ v_y_0 v_x_0) 1)
     v_y_2)
   )
-
 (rule
   (eval_rank2_bb3_in
     v_10
@@ -272,7 +245,6 @@
     v_y_2)
   :guard
   (>= v_y_1 (+ v_x_1 1)))
-
 (rule
   (eval_rank2_bb3_in
     v_10
@@ -302,7 +274,6 @@
     v_y_2)
   :guard
   (< v_y_1 (+ v_x_1 1)))
-
 (rule
   (eval_rank2_bb4_in
     v_10
@@ -318,7 +289,6 @@
     v_y_1
     v_y_2)
   (eval_rank2_14 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_14 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_15
@@ -335,7 +305,6 @@
     v_y_1
     v_y_2)
   )
-
 (rule
   (eval_rank2_15 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_bb5_in
@@ -353,7 +322,6 @@
     v_y_2)
   :guard
   (> v_5 0))
-
 (rule
   (eval_rank2_15 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2__critedge_in
@@ -371,7 +339,6 @@
     v_y_2)
   :guard
   (<= v_5 0))
-
 (rule
   (eval_rank2_bb5_in
     v_10
@@ -400,7 +367,6 @@
     v_y_1
     (- v_y_1 1))
   )
-
 (rule
   (eval_rank2_bb6_in
     v_10
@@ -430,7 +396,6 @@
     v_y_2)
   :guard
   (>= v_y_2 (+ v_x_2 3)))
-
 (rule
   (eval_rank2_bb6_in
     v_10
@@ -460,7 +425,6 @@
     v_y_2)
   :guard
   (< v_y_2 (+ v_x_2 3)))
-
 (rule
   (eval_rank2_bb7_in
     v_10
@@ -476,7 +440,6 @@
     v_y_1
     v_y_2)
   (eval_rank2_20 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_20 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_21
@@ -493,7 +456,6 @@
     v_y_1
     v_y_2)
   )
-
 (rule
   (eval_rank2_21 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_bb8_in
@@ -511,7 +473,6 @@
     v_y_2)
   :guard
   (> v_10 0))
-
 (rule
   (eval_rank2_21 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2__critedge1_in
@@ -529,7 +490,6 @@
     v_y_2)
   :guard
   (<= v_10 0))
-
 (rule
   (eval_rank2_bb8_in
     v_10
@@ -558,7 +518,6 @@
     v_y_1
     (- v_y_2 2))
   )
-
 (rule
   (eval_rank2__critedge1_in
     v_10
@@ -587,11 +546,9 @@
     v_y_1
     v_y_2)
   )
-
 (rule
   (eval_rank2_26 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_27 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_27 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_bb3_in
@@ -608,7 +565,6 @@
     v_14
     v_y_2)
   )
-
 (rule
   (eval_rank2__critedge_in
     v_10
@@ -637,11 +593,9 @@
     v_y_1
     v_y_2)
   )
-
 (rule
   (eval_rank2_29 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_30 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_30 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_31
@@ -658,11 +612,9 @@
     v_y_1
     v_y_2)
   )
-
 (rule
   (eval_rank2_31 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_32 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2))
-
 (rule
   (eval_rank2_32 v_10 v_14 v_15 v_16 v_5 v_m v_x_0 v_x_1 v_x_2 v_y_0 v_y_1 v_y_2)
   (eval_rank2_bb1_in
@@ -679,7 +631,6 @@
     v_y_1
     v_y_2)
   )
-
 (rule
   (eval_rank2_bb9_in
     v_10
@@ -708,4 +659,3 @@
     v_y_1
     v_y_2)
   )
-

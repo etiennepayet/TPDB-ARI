@@ -16,13 +16,11 @@
   (f4 (- (- 1) A) B 1)
   :guard
   (and (>= 0 (+ A 1)) (>= 0 C)))
-
 (rule
   (f3 A B C)
   (f4 (- (- 1) A) B 1)
   :guard
   (and (>= 0 (+ A 1)) (>= C 2)))
-
 (rule (f3 A B C) (f4 (- (- 1) A) B 1) :guard (and (>= A 1) (>= 0 C)))
 (rule (f3 A B C) (f4 (- (- 1) A) B 1) :guard (and (>= A 1) (>= C 2)))
 (rule (f4 A B C) (f3 (- 1 A) B 0) :guard (and (>= 0 (+ A 1)) (= C 1)))

@@ -14,11 +14,9 @@
     (+ (* A A) D))
   :guard
   (> A 0))
-
 (rule (l1 A B C D) (l2 A B C D))
 (rule
   (l2 A B C D)
   (l2 A (- B 1) (- C 1) (- D 1))
   :guard
   (> (+ (+ B C) D) 0))
-

@@ -21,61 +21,51 @@
   (f16 A B (+ C A) D 2 F)
   :guard
   (and (>= 0 E) (>= D (+ 1 F))))
-
 (rule
   (f9 A B C D E F)
   (f16 A B (+ C A) D 2 F)
   :guard
   (and (>= E 2) (>= D (+ 1 F))))
-
 (rule
   (f9 A B C D E F)
   (f16 A B (+ C A) D 2 F)
   :guard
   (and (and (>= 0 (+ B 1)) (>= D (+ 1 F))) (= E 1)))
-
 (rule
   (f9 A B C D E F)
   (f16 A B (+ C A) D 2 F)
   :guard
   (and (and (>= B 1) (>= D (+ 1 F))) (= E 1)))
-
 (rule
   (f9 A B C D E F)
   (f16 (- A 1) 1 (- (+ C A) 1) D 2 F)
   :guard
   (and (and (>= D (+ 1 F)) (= B 0)) (= E 1)))
-
 (rule
   (f9 A B C D E F)
   (f25 A B (- C A) D 1 F)
   :guard
   (and (>= 1 E) (>= F (+ D 1))))
-
 (rule
   (f9 A B C D E F)
   (f25 A B (- C A) D 1 F)
   :guard
   (and (>= E 3) (>= F (+ D 1))))
-
 (rule
   (f9 A B C D E F)
   (f25 A B (- C A) D 1 F)
   :guard
   (and (and (>= 0 (+ B 1)) (>= F (+ D 1))) (= E 2)))
-
 (rule
   (f9 A B C D E F)
   (f25 A B (- C A) D 1 F)
   :guard
   (and (and (>= B 1) (>= F (+ D 1))) (= E 2)))
-
 (rule
   (f9 A B C D E F)
   (f25 (- A 1) 1 (- C (+ A 1)) D 1 F)
   :guard
   (and (and (>= F (+ D 1)) (= B 0)) (= E 2)))
-
 (rule (f5 A B C D E F) (f30 1 B C D E F) :guard (= A 1))
 (rule (f16 A B C D E F) (f30 A B C D E F) :guard (>= C 256))
 (rule (f25 A B C D E F) (f30 A B C D E F) :guard (>= 0 (+ C 1)))

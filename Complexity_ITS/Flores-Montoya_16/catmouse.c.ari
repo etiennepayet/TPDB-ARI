@@ -16,7 +16,6 @@
 (rule
   (eval_catmouse_start v_m v_n v_x_0)
   (eval_catmouse_bb0_in v_m v_n v_x_0))
-
 (rule (eval_catmouse_bb0_in v_m v_n v_x_0) (eval_catmouse_0 v_m v_n v_x_0))
 (rule (eval_catmouse_0 v_m v_n v_x_0) (eval_catmouse_1 v_m v_n v_x_0))
 (rule (eval_catmouse_1 v_m v_n v_x_0) (eval_catmouse_2 v_m v_n v_x_0))
@@ -29,26 +28,21 @@
   (eval_catmouse_bb2_in v_m v_n v_x_0)
   :guard
   (<= v_x_0 v_n))
-
 (rule
   (eval_catmouse_bb1_in v_m v_n v_x_0)
   (eval_catmouse_bb3_in v_m v_n v_x_0)
   :guard
   (> v_x_0 v_n))
-
 (rule
   (eval_catmouse_bb2_in v_m v_n v_x_0)
   (eval_catmouse_bb1_in v_m v_n (+ v_x_0 1))
   :guard
   (<= v_x_0 v_m))
-
 (rule
   (eval_catmouse_bb2_in v_m v_n v_x_0)
   (eval_catmouse_bb1_in v_m v_n (- v_x_0 1))
   :guard
   (> v_x_0 v_m))
-
 (rule
   (eval_catmouse_bb3_in v_m v_n v_x_0)
   (eval_catmouse_stop v_m v_n v_x_0))
-

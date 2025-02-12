@@ -11,6 +11,5 @@
   (f1 (+ 1 A) A C)
   :guard
   (exists ((D Int)) (and (>= B D) (= A B))))
-
 (rule (f1 A B C) (f300 A B D) :guard (and (>= A B) (>= A (+ B 1))))
 (rule (f1 A B C) (f300 A B D) :guard (and (>= A B) (>= B (+ A 1))))

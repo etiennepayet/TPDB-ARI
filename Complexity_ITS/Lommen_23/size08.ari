@@ -10,6 +10,5 @@
   (l1 (+ A (* (* B B) C)) (- B (* 2 (* C C))) C)
   :guard
   (> (+ A (* B B)) 0))
-
 (rule (l1 A B C) (l2 A (* B B) C) :guard (<= A 0))
 (rule (l2 A B C) (l2 A (- B 1) C) :guard (> B 0))

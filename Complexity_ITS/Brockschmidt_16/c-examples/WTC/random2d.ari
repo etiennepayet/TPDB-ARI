@@ -27,143 +27,120 @@
   (evalrandom2dbbin A B C D)
   :guard
   (>= B (+ A 1)))
-
 (rule
   (evalrandom2dbb10in A B C D)
   (evalrandom2dreturnin A B C D)
   :guard
   (>= A B))
-
 (rule
   (evalrandom2dbbin A B C D)
   (evalrandom2dbb2in A B (+ A 1) E)
   :guard
   (and (>= E 0) (>= 3 E)))
-
 (rule
   (evalrandom2dbbin A B C D)
   (evalrandom2dbb10in (+ A 1) B C D)
   :guard
   (exists ((E Int)) (>= 0 (+ E 1))))
-
 (rule
   (evalrandom2dbbin A B C D)
   (evalrandom2dbb10in (+ A 1) B C D)
   :guard
   (exists ((E Int)) (>= E 4)))
-
 (rule (evalrandom2dbb2in A B C D) (evalrandom2dNodeBlock9in A B C D))
 (rule
   (evalrandom2dNodeBlock9in A B C D)
   (evalrandom2dNodeBlockin A B C D)
   :guard
   (>= 1 D))
-
 (rule
   (evalrandom2dNodeBlock9in A B C D)
   (evalrandom2dNodeBlock7in A B C D)
   :guard
   (>= D 2))
-
 (rule
   (evalrandom2dNodeBlockin A B C D)
   (evalrandom2dLeafBlockin A B C D)
   :guard
   (>= 0 D))
-
 (rule
   (evalrandom2dNodeBlockin A B C D)
   (evalrandom2dLeafBlock1in A B C D)
   :guard
   (>= D 1))
-
 (rule
   (evalrandom2dLeafBlockin A B C D)
   (evalrandom2dbb3in A B C D)
   :guard
   (= D 0))
-
 (rule
   (evalrandom2dLeafBlockin A B C D)
   (evalrandom2dNewDefaultin A B C D)
   :guard
   (>= 0 (+ D 1)))
-
 (rule
   (evalrandom2dLeafBlockin A B C D)
   (evalrandom2dNewDefaultin A B C D)
   :guard
   (>= D 1))
-
 (rule (evalrandom2dbb3in A B C D) (evalrandom2dbb10in C B C D))
 (rule
   (evalrandom2dLeafBlock1in A B C D)
   (evalrandom2dbb5in A B C D)
   :guard
   (= D 1))
-
 (rule
   (evalrandom2dLeafBlock1in A B C D)
   (evalrandom2dNewDefaultin A B C D)
   :guard
   (>= 0 D))
-
 (rule
   (evalrandom2dLeafBlock1in A B C D)
   (evalrandom2dNewDefaultin A B C D)
   :guard
   (>= D 2))
-
 (rule (evalrandom2dbb5in A B C D) (evalrandom2dbb10in C B C D))
 (rule
   (evalrandom2dNodeBlock7in A B C D)
   (evalrandom2dLeafBlock3in A B C D)
   :guard
   (>= 2 D))
-
 (rule
   (evalrandom2dNodeBlock7in A B C D)
   (evalrandom2dLeafBlock5in A B C D)
   :guard
   (>= D 3))
-
 (rule
   (evalrandom2dLeafBlock3in A B C D)
   (evalrandom2dbb7in A B C D)
   :guard
   (= D 2))
-
 (rule
   (evalrandom2dLeafBlock3in A B C D)
   (evalrandom2dNewDefaultin A B C D)
   :guard
   (>= 1 D))
-
 (rule
   (evalrandom2dLeafBlock3in A B C D)
   (evalrandom2dNewDefaultin A B C D)
   :guard
   (>= D 3))
-
 (rule (evalrandom2dbb7in A B C D) (evalrandom2dbb10in C B C D))
 (rule
   (evalrandom2dLeafBlock5in A B C D)
   (evalrandom2dbb9in A B C D)
   :guard
   (= D 3))
-
 (rule
   (evalrandom2dLeafBlock5in A B C D)
   (evalrandom2dNewDefaultin A B C D)
   :guard
   (>= 2 D))
-
 (rule
   (evalrandom2dLeafBlock5in A B C D)
   (evalrandom2dNewDefaultin A B C D)
   :guard
   (>= D 4))
-
 (rule (evalrandom2dbb9in A B C D) (evalrandom2dbb10in C B C D))
 (rule (evalrandom2dNewDefaultin A B C D) (evalrandom2dbb10in C B C D))
 (rule (evalrandom2dreturnin A B C D) (evalrandom2dstop A B C D))

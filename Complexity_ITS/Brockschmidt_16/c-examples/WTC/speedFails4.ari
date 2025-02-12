@@ -15,37 +15,31 @@
   (evalspeedFails4bb6in 1 C A B)
   :guard
   (>= A 1))
-
 (rule
   (evalspeedFails4entryin A B C D)
   (evalspeedFails4bb6in (- 1) C A B)
   :guard
   (>= 0 A))
-
 (rule
   (evalspeedFails4bb6in A B C D)
   (evalspeedFails4bb3in A B C D)
   :guard
   (>= B D))
-
 (rule
   (evalspeedFails4bb6in A B C D)
   (evalspeedFails4returnin A B C D)
   :guard
   (>= D (+ B 1)))
-
 (rule
   (evalspeedFails4bb3in A B C D)
   (evalspeedFails4bb4in A B C D)
   :guard
   (>= C 1))
-
 (rule
   (evalspeedFails4bb3in A B C D)
   (evalspeedFails4bb5in A B C D)
   :guard
   (>= 0 C))
-
 (rule (evalspeedFails4bb4in A B C D) (evalspeedFails4bb6in A B C (+ D A)))
 (rule (evalspeedFails4bb5in A B C D) (evalspeedFails4bb6in A B C (- D A)))
 (rule (evalspeedFails4returnin A B C D) (evalspeedFails4stop A B C D))

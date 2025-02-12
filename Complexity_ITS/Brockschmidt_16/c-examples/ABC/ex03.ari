@@ -20,14 +20,12 @@
   (evalfreturnin A B C D E)
   :guard
   (>= A (+ B 1)))
-
 (rule (evalfbb8in A B C D E) (evalfbb6in A B C (+ A 1) E) :guard (>= A C))
 (rule
   (evalfbb8in A B C D E)
   (evalfbb10in (+ A 1) B C D E)
   :guard
   (>= C (+ A 1)))
-
 (rule (evalfbb6in A B C D E) (evalfbb4in A B C D 1) :guard (>= B D))
 (rule (evalfbb6in A B C D E) (evalfbb7in A B C D E) :guard (>= D (+ B 1)))
 (rule (evalfbb4in A B C D E) (evalfbb3in A B C D E) :guard (>= D E))

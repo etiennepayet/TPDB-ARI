@@ -53,7 +53,6 @@
     Int
     Int)
   )
-
 (fun
   f75
   (->
@@ -107,7 +106,6 @@
     Int
     Int)
   )
-
 (entrypoint f0)
 (rule
   (f0
@@ -209,4 +207,3 @@
     D2
     D2)
   )
-

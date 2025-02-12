@@ -23,7 +23,6 @@
     Int
     Int)
   )
-
 (fun
   f2
   (->
@@ -47,7 +46,6 @@
     Int
     Int)
   )
-
 (fun
   f3
   (->
@@ -71,7 +69,6 @@
     Int
     Int)
   )
-
 (fun
   f300
   (->
@@ -95,39 +92,32 @@
     Int
     Int)
   )
-
 (entrypoint f300)
 (rule
   (f300 A B C D E F G H I J K L M N O P Q R)
   (f1 S T U V W F G H I J K L M N O P Q R))
-
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R)
   (f1 A B C D E F G 256 S T U V W Y O P Q R)
   :guard
   (exists ((X Int)) (and (and (>= G (+ 1 F)) (>= X 1)) (= H 256))))
-
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R)
   (f1 A B C D E F G H S T U V W N O P Q R)
   :guard
   (and (>= G (+ 1 F)) (>= 0 H)))
-
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R)
   (f3 A B C D E F G H S T K L M N 0 0 0 R)
   :guard
   (>= F G))
-
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R)
   (f2 A B C D E F G H S T U V W Y H H H X)
   :guard
   (and (and (>= H 1) (>= G (+ 1 F))) (>= H 257)))
-
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R)
   (f2 A B C D E F G H S T U V W Y H H H X)
   :guard
   (and (and (>= H 1) (>= G (+ 1 F))) (>= 255 H)))
-

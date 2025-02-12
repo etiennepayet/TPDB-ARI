@@ -16,7 +16,6 @@
   (evalfbb3in A B 0 0)
   :guard
   (and (>= A 1) (>= B (+ A 1))))
-
 (rule (evalfbb3in A B C D) (evalfreturnin A B C D) :guard (>= D B))
 (rule (evalfbb3in A B C D) (evalfbb4in A B C D) :guard (>= B (+ D 1)))
 (rule
@@ -24,13 +23,11 @@
   (evalfbbin A B C D)
   :guard
   (exists ((E Int)) (>= 0 (+ E 1))))
-
 (rule
   (evalfbb4in A B C D)
   (evalfbbin A B C D)
   :guard
   (exists ((E Int)) (>= E 1)))
-
 (rule (evalfbb4in A B C D) (evalfreturnin A B C D))
 (rule (evalfbbin A B C D) (evalfbb1in A B C D) :guard (>= A (+ C 1)))
 (rule (evalfbbin A B C D) (evalfbb2in A B C D) :guard (>= C A))

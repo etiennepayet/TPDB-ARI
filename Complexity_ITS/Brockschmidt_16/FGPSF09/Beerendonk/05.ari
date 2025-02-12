@@ -16,5 +16,4 @@
       (= A (* 2 C)))
     )
   )
-
 (rule (start A) (eval A))

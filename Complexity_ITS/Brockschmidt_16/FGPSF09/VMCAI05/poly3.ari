@@ -8,11 +8,9 @@
   (eval (- A 1) B (- C 1))
   :guard
   (and (>= A 0) (>= (* (* B B) B) C)))
-
 (rule
   (eval A B C)
   (eval A (+ B C) (- C 1))
   :guard
   (and (>= A 0) (>= (* (* B B) B) C)))
-
 (rule (start A B C) (eval A B C))

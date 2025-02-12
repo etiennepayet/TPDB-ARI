@@ -8,13 +8,11 @@
   (eval 0)
   :guard
   (exists ((B Int)) (and (and (>= (* 2 B) 0) (>= 0 (* 2 B))) (= A 1))))
-
 (rule
   (eval A)
   (eval (* 2 B))
   :guard
   (and (and (>= (* 2 B) 0) (>= (+ 2 (* 2 B)) 0)) (= A (+ 1 (* 2 B)))))
-
 (rule
   (eval A)
   (eval B)
@@ -40,7 +38,6 @@
       (= A 1))
     )
   )
-
 (rule
   (eval A)
   (eval B)
@@ -66,5 +63,4 @@
       (= A (* 2 D)))
     )
   )
-
 (rule (start A) (eval A))

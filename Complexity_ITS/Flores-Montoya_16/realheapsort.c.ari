@@ -41,61 +41,50 @@
 (rule
   (eval_realheapsort_start v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb0_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_bb0_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_0 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_0 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_1 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_1 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_2 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_2 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb1_in v_33 v_90 v_N v_j_0 v_j_1 1 v_k_1 v_m_0)
   :guard
   (> v_N 2))
-
 (rule
   (eval_realheapsort_2 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb16_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (<= v_N 2))
-
 (rule
   (eval_realheapsort_bb1_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in v_33 v_90 v_N v_k_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (<= v_k_0 (- v_N 1)))
-
 (rule
   (eval_realheapsort_bb1_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb5_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (> v_k_0 (- v_N 1)))
-
 (rule
   (eval_realheapsort_bb2_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb3_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (> v_j_0 0))
-
 (rule
   (eval_realheapsort_bb2_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort__critedge_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (<= v_j_0 0))
-
 (rule
   (eval_realheapsort_bb3_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (exists ((nondef_0 Int)) (and (= (+ v_j_0 1) 0) (= nondef_0 0))))
-
 (rule
   (eval_realheapsort_bb3_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
@@ -109,7 +98,6 @@
       (< (- v_j_0 (+ (* 2 nondef_0) 1)) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb3_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
@@ -123,13 +111,11 @@
       (< (- (+ (- v_j_0) (* 2 nondef_0)) 1) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb3_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort__critedge_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (exists ((nondef_0 Int)) (and (= (+ v_j_0 1) 0) (= nondef_0 0))))
-
 (rule
   (eval_realheapsort_bb3_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort__critedge_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
@@ -143,7 +129,6 @@
       (< (- v_j_0 (+ (* 2 nondef_0) 1)) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb3_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort__critedge_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
@@ -157,7 +142,6 @@
       (< (- (+ (- v_j_0) (* 2 nondef_0)) 1) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -181,7 +165,6 @@
       (= nondef_3 0))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -209,7 +192,6 @@
       (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -237,7 +219,6 @@
       (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -265,7 +246,6 @@
       (= nondef_3 0))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -297,7 +277,6 @@
       (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -329,7 +308,6 @@
       (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -357,7 +335,6 @@
       (= nondef_3 0))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -389,7 +366,6 @@
       (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -421,7 +397,6 @@
       (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -451,7 +426,6 @@
       (= nondef_3 0))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -485,7 +459,6 @@
       (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -519,7 +492,6 @@
       (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -553,7 +525,6 @@
       (= nondef_3 0))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -591,7 +562,6 @@
       (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -629,7 +599,6 @@
       (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -663,7 +632,6 @@
       (= nondef_3 0))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -701,7 +669,6 @@
       (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -739,7 +706,6 @@
       (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -769,7 +735,6 @@
       (= nondef_3 0))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -803,7 +768,6 @@
       (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -837,7 +801,6 @@
       (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -871,7 +834,6 @@
       (= nondef_3 0))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -909,7 +871,6 @@
       (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -947,7 +908,6 @@
       (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -981,7 +941,6 @@
       (= nondef_3 0))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -1019,7 +978,6 @@
       (< (- v_j_0 (+ (* 2 nondef_3) 1)) 2))
     )
   )
-
 (rule
   (eval_realheapsort_bb4_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb2_in
@@ -1057,117 +1015,92 @@
       (< (- (+ (- v_j_0) (* 2 nondef_3)) 1) 2))
     )
   )
-
 (rule
   (eval_realheapsort__critedge_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_28 (+ v_k_0 1) v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_28 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_29 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_29 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb1_in v_33 v_90 v_N v_j_0 v_j_1 v_33 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_bb5_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_30 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_30 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_31 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_31 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_32 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_32 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_33 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_33 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_34 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_34 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_35 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_35 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_36 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_36 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_37 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_37 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_38 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_38 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_39 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_39 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb6_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 0 v_m_0))
-
 (rule
   (eval_realheapsort_bb6_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb7_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (<= v_k_1 (- v_N 2)))
-
 (rule
   (eval_realheapsort_bb6_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb16_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (> v_k_1 (- v_N 2)))
-
 (rule
   (eval_realheapsort_bb7_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb8_in v_33 v_90 v_N v_j_0 0 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_bb8_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb9_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (<= (+ (* 2 v_j_1) 1) (- (- v_N v_k_1) 2)))
-
 (rule
   (eval_realheapsort_bb8_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb15_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (> (+ (* 2 v_j_1) 1) (- (- v_N v_k_1) 2)))
-
 (rule
   (eval_realheapsort_bb9_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb11_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (= (+ (* 2 v_j_1) 1) (- (- v_N v_k_1) 2)))
-
 (rule
   (eval_realheapsort_bb9_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb10_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (< (+ (* 2 v_j_1) 1) (- (- v_N v_k_1) 2)))
-
 (rule
   (eval_realheapsort_bb9_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb10_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   :guard
   (> (+ (* 2 v_j_1) 1) (- (- v_N v_k_1) 2)))
-
 (rule
   (eval_realheapsort_bb10_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb11_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_bb10_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb12_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_bb11_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb13_in
@@ -1180,7 +1113,6 @@
     v_k_1
     (+ (* 2 v_j_1) 1))
   )
-
 (rule
   (eval_realheapsort_bb12_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb13_in
@@ -1193,32 +1125,24 @@
     v_k_1
     (+ (* 2 v_j_1) 2))
   )
-
 (rule
   (eval_realheapsort_bb13_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb14_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_bb13_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb8_in v_33 v_90 v_N v_j_0 v_N v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_bb14_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb8_in v_33 v_90 v_N v_j_0 v_m_0 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_bb15_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_85 v_33 (+ v_k_1 1) v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_85 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_86 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-
 (rule
   (eval_realheapsort_86 v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_bb6_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_90 v_m_0))
-
 (rule
   (eval_realheapsort_bb16_in v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0)
   (eval_realheapsort_stop v_33 v_90 v_N v_j_0 v_j_1 v_k_0 v_k_1 v_m_0))
-

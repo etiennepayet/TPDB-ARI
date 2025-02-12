@@ -9,4 +9,3 @@
   (l1 (* 2 X1) (* 3 X2) (* 4 X3))
   :guard
   (and (< (* X3 X3) (* X1 X2)) (distinct X3 0)))
-

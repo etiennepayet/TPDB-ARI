@@ -16,72 +16,57 @@
 (rule
   (eval_speedDis2_start v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_bb0_in v__0 v__01 v_n v_x v_z))
-
 (rule
   (eval_speedDis2_bb0_in v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_0 v__0 v__01 v_n v_x v_z))
-
 (rule
   (eval_speedDis2_0 v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_1 v__0 v__01 v_n v_x v_z))
-
 (rule
   (eval_speedDis2_1 v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_2 v__0 v__01 v_n v_x v_z))
-
 (rule
   (eval_speedDis2_2 v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_3 v__0 v__01 v_n v_x v_z))
-
 (rule
   (eval_speedDis2_3 v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_4 v__0 v__01 v_n v_x v_z))
-
 (rule
   (eval_speedDis2_4 v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_5 v__0 v__01 v_n v_x v_z))
-
 (rule
   (eval_speedDis2_5 v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_bb1_in v_x v_z v_n v_x v_z))
-
 (rule
   (eval_speedDis2_bb1_in v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_bb2_in v__0 v__01 v_n v_x v_z)
   :guard
   (< v__0 v_n))
-
 (rule
   (eval_speedDis2_bb1_in v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_bb3_in v__0 v__01 v_n v_x v_z)
   :guard
   (>= v__0 v_n))
-
 (rule
   (eval_speedDis2_bb2_in v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_bb1_in (+ v__0 1) v__01 v_n v_x v_z)
   :guard
   (and (> v__01 v__0) (> v__01 v__0)))
-
 (rule
   (eval_speedDis2_bb2_in v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_bb1_in v__0 v__01 v_n v_x v_z)
   :guard
   (and (> v__01 v__0) (<= v__01 v__0)))
-
 (rule
   (eval_speedDis2_bb2_in v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_bb1_in (+ v__0 1) (+ v__01 1) v_n v_x v_z)
   :guard
   (and (<= v__01 v__0) (> v__01 v__0)))
-
 (rule
   (eval_speedDis2_bb2_in v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_bb1_in v__0 (+ v__01 1) v_n v_x v_z)
   :guard
   (and (<= v__01 v__0) (<= v__01 v__0)))
-
 (rule
   (eval_speedDis2_bb3_in v__0 v__01 v_n v_x v_z)
   (eval_speedDis2_stop v__0 v__01 v_n v_x v_z))
-

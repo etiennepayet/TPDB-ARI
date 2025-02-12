@@ -9,4 +9,3 @@
   (f1 B)
   :guard
   (exists ((C Int)) (and (and (>= 1 B) (>= (+ B 1) 0)) (>= C 2))))
-

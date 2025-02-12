@@ -24,7 +24,6 @@
       (>= (+ E 1) D))
     )
   )
-
 (rule
   (eval A B)
   (eval A D)
@@ -46,5 +45,4 @@
       (>= E D))
     )
   )
-
 (rule (start A B) (eval A B))

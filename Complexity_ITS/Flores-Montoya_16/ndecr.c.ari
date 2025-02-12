@@ -24,15 +24,12 @@
   (eval_ndecr_bb2_in v_0 v_i_0 v_n)
   :guard
   (> v_i_0 1))
-
 (rule
   (eval_ndecr_bb1_in v_0 v_i_0 v_n)
   (eval_ndecr_bb3_in v_0 v_i_0 v_n)
   :guard
   (<= v_i_0 1))
-
 (rule
   (eval_ndecr_bb2_in v_0 v_i_0 v_n)
   (eval_ndecr_bb1_in v_0 (- v_i_0 1) v_n))
-
 (rule (eval_ndecr_bb3_in v_0 v_i_0 v_n) (eval_ndecr_stop v_0 v_i_0 v_n))

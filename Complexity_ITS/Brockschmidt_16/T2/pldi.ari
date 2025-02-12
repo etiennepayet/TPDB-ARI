@@ -13,12 +13,10 @@
   (f7 A (- B 1) C E)
   :guard
   (and (>= B (+ C 1)) (>= 0 (+ E 1))))
-
 (rule
   (f7 A B C D)
   (f7 A (- B 1) C E)
   :guard
   (and (>= B (+ C 1)) (>= E 1)))
-
 (rule (f7 A B C D) (f4 (+ A 1) B C D) :guard (>= C B))
 (rule (f4 A B C D) (f19 A B C D) :guard (>= A B))

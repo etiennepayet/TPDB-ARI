@@ -14,21 +14,18 @@
   (f27 A B C D E G)
   :guard
   (exists ((H Int)) (>= 0 (+ H 1))))
-
 (rule (f27 A B C D E F) (f27 A B C D E G))
 (rule
   (f42 A B C D E F)
   (f42 A B C D E F)
   :guard
   (exists ((G Int) (H Int)) (>= G (+ H 1))))
-
 (rule (f42 A B C D E F) (f42 A B C D E F))
 (rule
   (f55 A B C D E F)
   (f55 A B C D E F)
   :guard
   (exists ((G Int) (H Int)) (>= G (+ H 1))))
-
 (rule (f55 A B C D E F) (f55 A B C D E F))
 (rule (f55 A B C D E F) (f66 A B C D E F))
 (rule (f42 A B C D E F) (f55 A B C D E F))

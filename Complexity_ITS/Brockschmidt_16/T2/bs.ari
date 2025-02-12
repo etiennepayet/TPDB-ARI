@@ -11,7 +11,6 @@
   (f12 A B C D I F G)
   :guard
   (exists ((H Int)) (and (>= C B) (>= A (+ H 1)))))
-
 (rule (f6 A B C D E F G) (f12 A B C D I F G) :guard (>= C B))
 (rule (f6 A B C D E F G) (f6 A B (- B 1) I H F G) :guard (>= C B))
 (rule (f12 A B C D E F G) (f6 A B (- E 1) D E F G))

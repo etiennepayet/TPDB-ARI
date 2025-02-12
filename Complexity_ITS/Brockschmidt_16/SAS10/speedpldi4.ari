@@ -13,13 +13,11 @@
   (stop A B C D E F)
   :guard
   (and (and (and (>= 0 A) (= B C)) (= D A)) (= E F)))
-
 (rule
   (start A B C D E F)
   (lbl6 A B C D E F)
   :guard
   (and (and (and (and (>= A 1) (>= A C)) (= B C)) (= D A)) (= E F)))
-
 (rule
   (start A B C D E F)
   (lbl121 A B C D (- B D) F)
@@ -28,13 +26,11 @@
     (and (and (and (>= A 1) (>= C (+ A 1))) (= B C)) (= D A))
     (= E F))
   )
-
 (rule
   (lbl6 A B C D E F)
   (stop A B C D E F)
   :guard
   (and (and (and (and (>= A 1) (>= A C)) (= E F)) (= D A)) (= B C)))
-
 (rule
   (lbl111 A B C D E F)
   (cut A B C D E F)
@@ -43,7 +39,6 @@
     (and (and (and (>= C (+ A 1)) (>= A 2)) (= E 0)) (= D A))
     (= B C))
   )
-
 (rule
   (lbl111 A B C D E F)
   (lbl111 A B C D (- E 1) F)
@@ -58,7 +53,6 @@
       (= D A))
     (= B C))
   )
-
 (rule
   (lbl111 A B C D E F)
   (lbl121 A B C D (- E D) F)
@@ -71,7 +65,6 @@
       (= D A))
     (= B C))
   )
-
 (rule
   (lbl121 A B C D E F)
   (cut A B C D E F)
@@ -82,7 +75,6 @@
       (= D A))
     (= B C))
   )
-
 (rule
   (lbl121 A B C D E F)
   (lbl111 A B C D (- E 1) F)
@@ -97,7 +89,6 @@
       (= D A))
     (= B C))
   )
-
 (rule
   (lbl121 A B C D E F)
   (lbl121 A B C D (- E D) F)
@@ -112,7 +103,6 @@
       (= D A))
     (= B C))
   )
-
 (rule
   (cut A B C D E F)
   (stop A B C D E F)
@@ -121,5 +111,4 @@
     (and (and (and (>= A 1) (>= C (+ A 1))) (= E 0)) (= D A))
     (= B C))
   )
-
 (rule (start0 A B C D E F) (start A C C A F F))

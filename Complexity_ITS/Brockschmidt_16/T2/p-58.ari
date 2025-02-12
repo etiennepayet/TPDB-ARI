@@ -10,12 +10,10 @@
   (f2 A B C D)
   :guard
   (and (and (>= A C) (>= B (+ 1 A))) (>= C (+ 1 B))))
-
 (rule
   (f1 A B C D)
   (f300 A B C E)
   :guard
   (and (and (>= C (+ 1 B)) (>= B (+ 1 A))) (>= C (+ 1 A))))
-
 (rule (f1 A B C D) (f300 A B C E) :guard (and (>= B (+ 1 A)) (>= B C)))
 (rule (f1 A B C D) (f300 A B C E) :guard (>= A B))

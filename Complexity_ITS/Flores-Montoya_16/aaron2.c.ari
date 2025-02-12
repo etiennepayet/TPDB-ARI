@@ -18,82 +18,65 @@
 (rule
   (eval_aaron2_start v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_bb0_in v__01 v__02 v_3 v_tx v_x v_y))
-
 (rule
   (eval_aaron2_bb0_in v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_0 v__01 v__02 v_3 v_tx v_x v_y))
-
 (rule
   (eval_aaron2_0 v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_1 v__01 v__02 v_3 v_tx v_x v_y))
-
 (rule
   (eval_aaron2_1 v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_2 v__01 v__02 v_3 v_tx v_x v_y))
-
 (rule
   (eval_aaron2_2 v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_3 v__01 v__02 v_3 v_tx v_x v_y))
-
 (rule
   (eval_aaron2_3 v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_bb1_in v_x v_y v_3 v_tx v_x v_y)
   :guard
   (>= v_tx 0))
-
 (rule
   (eval_aaron2_3 v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_bb5_in v__01 v__02 v_3 v_tx v_x v_y)
   :guard
   (< v_tx 0))
-
 (rule
   (eval_aaron2_bb1_in v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_bb5_in v__01 v__02 v_3 v_tx v_x v_y)
   :guard
   (< v__01 v__02))
-
 (rule
   (eval_aaron2_bb1_in v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_bb5_in v__01 v__02 v_3 v_tx v_x v_y)
   :guard
   (< v_tx 0))
-
 (rule
   (eval_aaron2_bb1_in v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_bb2_in v__01 v__02 v_3 v_tx v_x v_y)
   :guard
   (and (>= v__01 v__02) (>= v_tx 0)))
-
 (rule
   (eval_aaron2_bb2_in v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_4 v__01 v__02 v_3 v_tx v_x v_y))
-
 (rule
   (eval_aaron2_4 v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_5 v__01 v__02 nondef_0 v_tx v_x v_y))
-
 (rule
   (eval_aaron2_5 v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_bb3_in v__01 v__02 v_3 v_tx v_x v_y)
   :guard
   (> v_3 0))
-
 (rule
   (eval_aaron2_5 v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_bb4_in v__01 v__02 v_3 v_tx v_x v_y)
   :guard
   (<= v_3 0))
-
 (rule
   (eval_aaron2_bb3_in v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_bb1_in (- (- v__01 v_tx) 1) v__02 v_3 v_tx v_x v_y))
-
 (rule
   (eval_aaron2_bb4_in v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_bb1_in v__01 (+ (+ v__02 v_tx) 1) v_3 v_tx v_x v_y))
-
 (rule
   (eval_aaron2_bb5_in v__01 v__02 v_3 v_tx v_x v_y)
   (eval_aaron2_stop v__01 v__02 v_3 v_tx v_x v_y))
-

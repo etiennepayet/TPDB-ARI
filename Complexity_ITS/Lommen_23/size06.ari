@@ -13,6 +13,5 @@
   (l2 (+ A (* C C)) (+ B 1) (+ C 1))
   :guard
   (< A (* B B)))
-
 (rule (l2 A B C) (l3 A B C) :guard (>= A (* B B)))
 (rule (l3 A B C) (l3 (- A 1) B C) :guard (> A 0))

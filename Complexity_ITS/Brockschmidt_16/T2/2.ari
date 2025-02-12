@@ -10,46 +10,38 @@
   (f11 A P B O E F G H I J K L M N)
   :guard
   (and (>= A 0) (>= B 1)))
-
 (rule
   (f11 A B C D E F G H I J K L M N)
   (f11 A P B O E F G H I J K L M N)
   :guard
   (and (>= A 0) (>= 0 (+ B 1))))
-
 (rule
   (f16 A B C D E F G H I J K L M N)
   (f16 A B C D E F (+ G 1) O O O K L M N)
   :guard
   (and (>= E 0) (>= F (+ G 2))))
-
 (rule
   (f11 A B C D E F G H I J K L M N)
   (f13 A 0 C D E F G H I J O L M N)
   :guard
   (and (>= A 0) (= B 0)))
-
 (rule
   (f16 A B C D E F G H I J K L M N)
   (f11 A R P Q E F G H I J O J J N)
   :guard
   (and (and (>= (+ 1 G) F) (>= P 1)) (>= E 0)))
-
 (rule
   (f16 A B C D E F G H I J K L M N)
   (f11 A R P Q E F G H I J O J J N)
   :guard
   (and (and (>= (+ 1 G) F) (>= 0 (+ P 1))) (>= E 0)))
-
 (rule
   (f300 A B C D E F G H I J K L M N)
   (f16 A B C D E F 1 O O O K L M P)
   :guard
   (>= F 2))
-
 (rule
   (f300 A B C D E F G H I J K L M N)
   (f13 A 0 C D E F 0 H I 0 O 0 0 P)
   :guard
   (>= 1 F))
-

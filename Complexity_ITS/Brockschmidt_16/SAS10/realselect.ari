@@ -19,7 +19,6 @@
       (= L M))
     (= N A))
   )
-
 (rule
   (start A B C D E F G H I J K L M N)
   (lbl53 A B C 1 E F G 0 I 2 K 0 M N)
@@ -32,7 +31,6 @@
       (= L M))
     (= N A))
   )
-
 (rule
   (start A B C D E F G H I J K L M N)
   (lbl53 A B C 1 E F G 1 I 2 K 0 M N)
@@ -45,7 +43,6 @@
       (= L M))
     (= N A))
   )
-
 (rule
   (lbl91 A B C D E F G H I J K L M N)
   (lbl13 A L C D E F G H I J K (+ 1 L) M N)
@@ -58,7 +55,6 @@
       (= (+ L 1) D))
     (= J A))
   )
-
 (rule
   (lbl53 A B C D E F G H I J K L M N)
   (lbl91 A B C D E O G H I J K L M N)
@@ -71,7 +67,6 @@
       (= (+ L 1) D))
     (= N A))
   )
-
 (rule
   (lbl53 A B C D E F G H I J K L M N)
   (lbl53 A B C J E F G H I (+ 1 J) K L M N)
@@ -86,7 +81,6 @@
       (= (+ L 1) D))
     (= N A))
   )
-
 (rule
   (lbl53 A B C D E F G H I J K L M N)
   (lbl53 A B C J E F G J I (+ 1 J) K L M N)
@@ -101,7 +95,6 @@
       (= (+ L 1) D))
     (= N A))
   )
-
 (rule
   (lbl13 A B C D E F G H I J K L M N)
   (stop A B C D E F G H I J K L M N)
@@ -116,7 +109,6 @@
       (= N A))
     (= J A))
   )
-
 (rule
   (lbl13 A B C D E F G H I J K L M N)
   (lbl53 A B C (+ 1 L) E F G L I (+ 2 L) K L M N)
@@ -133,7 +125,6 @@
       (= N A))
     (= J A))
   )
-
 (rule
   (lbl13 A B C D E F G H I J K L M N)
   (lbl53 A B C (+ 1 L) E F G (+ 1 L) I (+ 2 L) K L M N)
@@ -150,8 +141,6 @@
       (= N A))
     (= J A))
   )
-
 (rule
   (start0 A B C D E F G H I J K L M N)
   (start A C C E E G G I I K K M M A))
-

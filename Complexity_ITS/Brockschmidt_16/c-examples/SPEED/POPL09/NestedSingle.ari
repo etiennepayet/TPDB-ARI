@@ -17,37 +17,31 @@
   (evalNestedSinglebb2in A B A)
   :guard
   (>= B (+ A 1)))
-
 (rule
   (evalNestedSinglebb5in A B C)
   (evalNestedSinglereturnin A B C)
   :guard
   (>= A B))
-
 (rule
   (evalNestedSinglebb2in A B C)
   (evalNestedSinglebb4in A B C)
   :guard
   (>= C B))
-
 (rule
   (evalNestedSinglebb2in A B C)
   (evalNestedSinglebb3in A B C)
   :guard
   (>= B (+ C 1)))
-
 (rule
   (evalNestedSinglebb3in A B C)
   (evalNestedSinglebb1in A B C)
   :guard
   (exists ((D Int)) (>= 0 (+ D 1))))
-
 (rule
   (evalNestedSinglebb3in A B C)
   (evalNestedSinglebb1in A B C)
   :guard
   (exists ((D Int)) (>= D 1)))
-
 (rule (evalNestedSinglebb3in A B C) (evalNestedSinglebb4in A B C))
 (rule (evalNestedSinglebb1in A B C) (evalNestedSinglebb2in A B (+ C 1)))
 (rule (evalNestedSinglebb4in A B C) (evalNestedSinglebb5in (+ C 1) B C))

@@ -16,18 +16,15 @@
   (evalrandom1dreturnin A B)
   :guard
   (>= B (+ A 1)))
-
 (rule
   (evalrandom1dbb1in A B)
   (evalrandom1dbb5in A (+ B 1))
   :guard
   (exists ((C Int)) (>= 0 (+ C 1))))
-
 (rule
   (evalrandom1dbb1in A B)
   (evalrandom1dbb5in A (+ B 1))
   :guard
   (exists ((C Int)) (>= C 1)))
-
 (rule (evalrandom1dbb1in A B) (evalrandom1dbb5in A (+ B 1)))
 (rule (evalrandom1dreturnin A B) (evalrandom1dstop A B))

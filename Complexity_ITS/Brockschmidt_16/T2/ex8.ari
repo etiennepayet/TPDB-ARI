@@ -13,14 +13,12 @@
   (f24 A B C D E)
   :guard
   (exists ((F Int)) (>= 0 (+ F 1))))
-
 (rule (f24 A B C D E) (f24 A B C D E))
 (rule
   (f37 A B C D E)
   (f37 A B C D E)
   :guard
   (exists ((F Int) (G Int)) (>= F (+ G 1))))
-
 (rule (f37 A B C D E) (f37 A B C D E))
 (rule (f37 A B C D E) (f48 A B C D E))
 (rule (f24 A B C D E) (f37 A B C D E))

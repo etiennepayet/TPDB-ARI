@@ -27,43 +27,36 @@
   (evalrealheapsortbb6in A 1 C D)
   :guard
   (>= A 3))
-
 (rule
   (evalrealheapsortentryin A B C D)
   (evalrealheapsortreturnin A B C D)
   :guard
   (>= 2 A))
-
 (rule
   (evalrealheapsortbb6in A B C D)
   (evalrealheapsortbb3in A B B D)
   :guard
   (>= A (+ 1 B)))
-
 (rule
   (evalrealheapsortbb6in A B C D)
   (evalrealheapsortbb7in A B C D)
   :guard
   (>= B A))
-
 (rule
   (evalrealheapsortbb3in A B C D)
   (evalrealheapsortbb5in A B C D)
   :guard
   (>= 0 C))
-
 (rule
   (evalrealheapsortbb3in A B C D)
   (evalrealheapsortbb4in A B C D)
   :guard
   (>= C 1))
-
 (rule
   (evalrealheapsortbb4in A B C D)
   (evalrealheapsortbb2in A B C D)
   :guard
   (= (+ C 1) 0))
-
 (rule
   (evalrealheapsortbb4in A B C D)
   (evalrealheapsortbb2in A B C D)
@@ -75,7 +68,6 @@
       (>= (* 2 E) C))
     )
   )
-
 (rule
   (evalrealheapsortbb4in A B C D)
   (evalrealheapsortbb2in A B C D)
@@ -87,13 +79,11 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule
   (evalrealheapsortbb4in A B C D)
   (evalrealheapsortbb5in A B C D)
   :guard
   (= (+ C 1) 0))
-
 (rule
   (evalrealheapsortbb4in A B C D)
   (evalrealheapsortbb5in A B C D)
@@ -105,7 +95,6 @@
       (>= (* 2 E) C))
     )
   )
-
 (rule
   (evalrealheapsortbb4in A B C D)
   (evalrealheapsortbb5in A B C D)
@@ -117,13 +106,11 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- 1) D)
   :guard
   (= (+ C 1) 0))
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -134,7 +121,6 @@
       (>= (+ 1 (* 2 E)) 0))
     (= (+ C 1) 0))
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -143,7 +129,6 @@
     (and (and (and (>= 0 1) (>= 0 E)) (= (+ C 1) 0)) (>= (* 2 E) (+ C 1)))
     (>= (+ 2 C) (* 2 E)))
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- 1) D)
@@ -157,7 +142,6 @@
       (= (+ C 1) 0))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -177,7 +161,6 @@
       (= (+ C 1) 0))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -197,7 +180,6 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- 1) D)
@@ -209,7 +191,6 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -227,7 +208,6 @@
       (>= (+ 2 C) (* 2 F)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -245,7 +225,6 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- 1) D)
@@ -259,7 +238,6 @@
       (= (+ C 1) 0))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -279,7 +257,6 @@
       (= (+ C 1) 0))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -299,7 +276,6 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- 1) D)
@@ -319,7 +295,6 @@
       (= (+ C 1) 0))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -343,7 +318,6 @@
       (>= (* 2 E) C))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -369,7 +343,6 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- 1) D)
@@ -389,7 +362,6 @@
       (>= (+ 2 C) (* 2 F)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -415,7 +387,6 @@
       (>= (+ 2 C) (* 2 G)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -441,7 +412,6 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- 1) D)
@@ -453,7 +423,6 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -471,7 +440,6 @@
       (>= (+ 2 C) (* 2 F)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -489,7 +457,6 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- 1) D)
@@ -507,7 +474,6 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -531,7 +497,6 @@
       (>= (+ 2 C) (* 2 F)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -555,7 +520,6 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- 1) D)
@@ -573,7 +537,6 @@
       (>= (+ 2 C) (* 2 F)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -597,7 +560,6 @@
       (>= (+ 2 C) (* 2 G)))
     )
   )
-
 (rule
   (evalrealheapsortbb2in A B C D)
   (evalrealheapsortbb3in A B (- E 1) D)
@@ -619,7 +581,6 @@
       (>= (+ 2 C) (* 2 E)))
     )
   )
-
 (rule (evalrealheapsortbb5in A B C D) (evalrealheapsortbb6in A (+ B 1) C D))
 (rule (evalrealheapsortbb7in A B C D) (evalrealheapsortbb18in A 0 C D))
 (rule
@@ -627,59 +588,49 @@
   (evalrealheapsortbb8in A B C D)
   :guard
   (>= A (+ 2 B)))
-
 (rule
   (evalrealheapsortbb18in A B C D)
   (evalrealheapsortreturnin A B C D)
   :guard
   (>= (+ B 1) A))
-
 (rule (evalrealheapsortbb8in A B C D) (evalrealheapsortbb16in A B 0 D))
 (rule
   (evalrealheapsortbb16in A B C D)
   (evalrealheapsortbb9in A B C D)
   :guard
   (>= A (+ (+ B 3) (* 2 C))))
-
 (rule
   (evalrealheapsortbb16in A B C D)
   (evalrealheapsortbb17in A B C D)
   :guard
   (>= (+ (+ (* 2 C) 2) B) A))
-
 (rule
   (evalrealheapsortbb9in A B C D)
   (evalrealheapsortbb11in A B C D)
   :guard
   (= A (+ (+ (* 2 C) 3) B)))
-
 (rule
   (evalrealheapsortbb9in A B C D)
   (evalrealheapsortbb10in A B C D)
   :guard
   (>= A (+ (+ B 4) (* 2 C))))
-
 (rule
   (evalrealheapsortbb9in A B C D)
   (evalrealheapsortbb10in A B C D)
   :guard
   (>= (+ (+ (* 2 C) 2) B) A))
-
 (rule (evalrealheapsortbb10in A B C D) (evalrealheapsortbb11in A B C D))
 (rule (evalrealheapsortbb10in A B C D) (evalrealheapsortbb12in A B C D))
 (rule
   (evalrealheapsortbb11in A B C D)
   (evalrealheapsortbb13in A B C (+ (* 2 C) 1)))
-
 (rule
   (evalrealheapsortbb12in A B C D)
   (evalrealheapsortbb13in A B C (+ (* 2 C) 2)))
-
 (rule (evalrealheapsortbb13in A B C D) (evalrealheapsortbb14in A B C D))
 (rule (evalrealheapsortbb13in A B C D) (evalrealheapsortbb16in A B A D))
 (rule (evalrealheapsortbb14in A B C D) (evalrealheapsortbb16in A B D D))
 (rule
   (evalrealheapsortbb17in A B C D)
   (evalrealheapsortbb18in A (+ B 1) C D))
-
 (rule (evalrealheapsortreturnin A B C D) (evalrealheapsortstop A B C D))

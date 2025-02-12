@@ -13,116 +13,91 @@
 (fun
   eval_speedNestedMultiple__critedge_in
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_speedNestedMultiple_bb0_in
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_speedNestedMultiple_bb1_in
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_speedNestedMultiple_bb2_in
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_speedNestedMultiple_bb3_in
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_speedNestedMultiple_bb4_in
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_speedNestedMultiple_bb5_in
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_speedNestedMultiple_start
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_speedNestedMultiple_stop
   (-> Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint eval_speedNestedMultiple_start)
 (rule
   (eval_speedNestedMultiple_start v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_bb0_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_bb0_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_0 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_0 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_1 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_1 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_2 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_2 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_3 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_3 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_4 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_4 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_5 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_5 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_bb1_in v_x v_y v__1 v_2 v_5 v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_bb1_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_bb2_in v__0 v__01 v__01 v_2 v_5 v_m v_n v_x v_y)
   :guard
   (< v__0 v_n))
-
 (rule
   (eval_speedNestedMultiple_bb1_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_bb5_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   :guard
   (>= v__0 v_n))
-
 (rule
   (eval_speedNestedMultiple_bb2_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_bb3_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   :guard
   (< v__1 v_m))
-
 (rule
   (eval_speedNestedMultiple_bb2_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple__critedge_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   :guard
   (>= v__1 v_m))
-
 (rule
   (eval_speedNestedMultiple_bb3_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_6 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_6 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_7 v__0 v__01 v__1 nondef_0 v_5 v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_7 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_bb4_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   :guard
   (> v_2 0))
-
 (rule
   (eval_speedNestedMultiple_7 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple__critedge_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   :guard
   (<= v_2 0))
-
 (rule
   (eval_speedNestedMultiple_bb4_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_bb2_in
@@ -136,20 +111,15 @@
     v_x
     v_y)
   )
-
 (rule
   (eval_speedNestedMultiple__critedge_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_11 v__0 v__01 v__1 v_2 (+ v__0 1) v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_11 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_12 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_12 v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_bb1_in v_5 v__1 v__1 v_2 v_5 v_m v_n v_x v_y))
-
 (rule
   (eval_speedNestedMultiple_bb5_in v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y)
   (eval_speedNestedMultiple_stop v__0 v__01 v__1 v_2 v_5 v_m v_n v_x v_y))
-

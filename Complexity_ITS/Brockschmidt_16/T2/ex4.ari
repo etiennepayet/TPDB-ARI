@@ -16,13 +16,11 @@
   (f16 (+ A 1) B C D A H H)
   :guard
   (and (>= 9 A) (>= 0 (+ H 1))))
-
 (rule
   (f16 A B C D E F G)
   (f16 (+ A 1) B C D A H H)
   :guard
   (and (>= 9 A) (>= H 1)))
-
 (rule (f16 A B C D E F G) (f28 A B C D A 0 0) :guard (>= 9 A))
 (rule (f10 A B C D E F G) (f16 0 B C D E F G) :guard (>= A 10))
 (rule (f9 A B C D E F G) (f16 0 B 0 0 E F G) :guard (= C 0))

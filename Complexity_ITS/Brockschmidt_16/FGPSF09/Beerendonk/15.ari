@@ -9,11 +9,9 @@
   (eval A (- B 1))
   :guard
   (and (and (>= (+ A B) 1) (>= 0 A)) (>= B 1)))
-
 (rule
   (eval A B)
   (eval A B)
   :guard
   (and (and (>= (+ A B) 1) (>= 0 A)) (>= 0 B)))
-
 (rule (start A B) (eval A B))

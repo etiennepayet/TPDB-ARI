@@ -3,135 +3,102 @@
 (fun
   eval_bin_search_StepSize2_0
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_1
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_10
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_11
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_12
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_13
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_14
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_15
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_16
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_17
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_2
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_3
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_4
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_5
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_6
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_7
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_8
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_9
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb0_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb10_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb11_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb12_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb1_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb2_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb3_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb4_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb5_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb6_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb7_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb8_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_bb9_in
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_start
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (fun
   eval_bin_search_StepSize2_stop
   (-> Int Int Int Int Int Int Int Int Int Int Int Int Int))
-
 (entrypoint eval_bin_search_StepSize2_start)
 (rule
   (eval_bin_search_StepSize2_start
@@ -161,7 +128,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_bb0_in
     v__0
@@ -190,7 +156,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_0
     v__0
@@ -219,7 +184,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_1
     v__0
@@ -248,7 +212,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_2
     v__0
@@ -277,7 +240,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_3
     v__0
@@ -306,7 +268,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_4
     v__0
@@ -335,7 +296,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_5
     v__0
@@ -364,7 +324,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_6
     v__0
@@ -393,7 +352,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_7
     v__0
@@ -422,7 +380,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_8
     v__0
@@ -451,7 +408,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_9
     v__0
@@ -480,7 +436,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_10
     v__0
@@ -509,7 +464,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_11
     v__0
@@ -538,7 +492,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_12
     v__0
@@ -567,7 +520,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_13
     v__0
@@ -596,7 +548,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_14
     v__0
@@ -625,7 +576,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_15
     v__0
@@ -654,7 +604,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_bb1_in
     v__0
@@ -683,7 +632,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_16
     v__0
@@ -712,7 +660,6 @@
     v_r
     v_s)
   )
-
 (rule
   (eval_bin_search_StepSize2_17
     v__0
@@ -742,7 +689,6 @@
     v_s)
   :guard
   (= v_c_0 1))
-
 (rule
   (eval_bin_search_StepSize2_17
     v__0
@@ -772,7 +718,6 @@
     v_s)
   :guard
   (< v_c_0 1))
-
 (rule
   (eval_bin_search_StepSize2_17
     v__0
@@ -802,7 +747,6 @@
     v_s)
   :guard
   (> v_c_0 1))
-
 (rule
   (eval_bin_search_StepSize2_bb2_in
     v__0
@@ -832,7 +776,6 @@
     v_s)
   :guard
   (< v_f_0 0))
-
 (rule
   (eval_bin_search_StepSize2_bb2_in
     v__0
@@ -862,7 +805,6 @@
     v_s)
   :guard
   (> v_f_0 0))
-
 (rule
   (eval_bin_search_StepSize2_bb2_in
     v__0
@@ -892,7 +834,6 @@
     v_s)
   :guard
   (= v_f_0 0))
-
 (rule
   (eval_bin_search_StepSize2_bb3_in
     v__0
@@ -922,7 +863,6 @@
     v_s)
   :guard
   (and (= v_c_0 0) (= nondef_1 0)))
-
 (rule
   (eval_bin_search_StepSize2_bb3_in
     v__0
@@ -955,7 +895,6 @@
     (and (and (> v_c_0 0) (>= nondef_1 0)) (>= (- v_c_0 (* 2 nondef_1)) 0))
     (< (- v_c_0 (* 2 nondef_1)) 2))
   )
-
 (rule
   (eval_bin_search_StepSize2_bb3_in
     v__0
@@ -990,7 +929,6 @@
       (>= (+ (- v_c_0) (* 2 nondef_1)) 0))
     (< (+ (- v_c_0) (* 2 nondef_1)) 2))
   )
-
 (rule
   (eval_bin_search_StepSize2_bb4_in
     v__0
@@ -1020,7 +958,6 @@
     v_s)
   :guard
   (> v_0 v_r))
-
 (rule
   (eval_bin_search_StepSize2_bb4_in
     v__0
@@ -1050,7 +987,6 @@
     v_s)
   :guard
   (<= v_0 v_r))
-
 (rule
   (eval_bin_search_StepSize2_bb5_in
     v__0
@@ -1080,7 +1016,6 @@
     v_s)
   :guard
   (< v_d_0 1))
-
 (rule
   (eval_bin_search_StepSize2_bb5_in
     v__0
@@ -1110,7 +1045,6 @@
     v_s)
   :guard
   (> v_d_0 1))
-
 (rule
   (eval_bin_search_StepSize2_bb5_in
     v__0
@@ -1140,7 +1074,6 @@
     v_s)
   :guard
   (< v_f_0 0))
-
 (rule
   (eval_bin_search_StepSize2_bb5_in
     v__0
@@ -1170,7 +1103,6 @@
     v_s)
   :guard
   (> v_f_0 0))
-
 (rule
   (eval_bin_search_StepSize2_bb5_in
     v__0
@@ -1200,7 +1132,6 @@
     v_s)
   :guard
   (and (= v_d_0 1) (= v_f_0 0)))
-
 (rule
   (eval_bin_search_StepSize2_bb6_in
     v__0
@@ -1230,7 +1161,6 @@
     v_s)
   :guard
   (and (= v_c_1 0) (= nondef_2 0)))
-
 (rule
   (eval_bin_search_StepSize2_bb6_in
     v__0
@@ -1263,7 +1193,6 @@
     (and (and (> v_c_1 0) (>= nondef_2 0)) (>= (- v_c_1 (* 2 nondef_2)) 0))
     (< (- v_c_1 (* 2 nondef_2)) 2))
   )
-
 (rule
   (eval_bin_search_StepSize2_bb6_in
     v__0
@@ -1298,7 +1227,6 @@
       (>= (+ (- v_c_1) (* 2 nondef_2)) 0))
     (< (+ (- v_c_1) (* 2 nondef_2)) 2))
   )
-
 (rule
   (eval_bin_search_StepSize2_bb7_in
     v__0
@@ -1328,7 +1256,6 @@
     v_s)
   :guard
   (> (+ v__0 v_c_2) 255))
-
 (rule
   (eval_bin_search_StepSize2_bb7_in
     v__0
@@ -1358,7 +1285,6 @@
     v_s)
   :guard
   (<= (+ v__0 v_c_2) 255))
-
 (rule
   (eval_bin_search_StepSize2_bb8_in
     v__0
@@ -1388,7 +1314,6 @@
     v_s)
   :guard
   (< v_0 v_r))
-
 (rule
   (eval_bin_search_StepSize2_bb8_in
     v__0
@@ -1418,7 +1343,6 @@
     v_s)
   :guard
   (>= v_0 v_r))
-
 (rule
   (eval_bin_search_StepSize2_bb9_in
     v__0
@@ -1448,7 +1372,6 @@
     v_s)
   :guard
   (< v_d_0 2))
-
 (rule
   (eval_bin_search_StepSize2_bb9_in
     v__0
@@ -1478,7 +1401,6 @@
     v_s)
   :guard
   (> v_d_0 2))
-
 (rule
   (eval_bin_search_StepSize2_bb9_in
     v__0
@@ -1508,7 +1430,6 @@
     v_s)
   :guard
   (< v_f_0 0))
-
 (rule
   (eval_bin_search_StepSize2_bb9_in
     v__0
@@ -1538,7 +1459,6 @@
     v_s)
   :guard
   (> v_f_0 0))
-
 (rule
   (eval_bin_search_StepSize2_bb9_in
     v__0
@@ -1568,7 +1488,6 @@
     v_s)
   :guard
   (and (= v_d_0 2) (= v_f_0 0)))
-
 (rule
   (eval_bin_search_StepSize2_bb10_in
     v__0
@@ -1598,7 +1517,6 @@
     v_s)
   :guard
   (and (= v_c_1 0) (= nondef_3 0)))
-
 (rule
   (eval_bin_search_StepSize2_bb10_in
     v__0
@@ -1631,7 +1549,6 @@
     (and (and (> v_c_1 0) (>= nondef_3 0)) (>= (- v_c_1 (* 2 nondef_3)) 0))
     (< (- v_c_1 (* 2 nondef_3)) 2))
   )
-
 (rule
   (eval_bin_search_StepSize2_bb10_in
     v__0
@@ -1666,7 +1583,6 @@
       (>= (+ (- v_c_1) (* 2 nondef_3)) 0))
     (< (+ (- v_c_1) (* 2 nondef_3)) 2))
   )
-
 (rule
   (eval_bin_search_StepSize2_bb11_in
     v__0
@@ -1696,7 +1612,6 @@
     v_s)
   :guard
   (< (- v__0 v_c_3) 0))
-
 (rule
   (eval_bin_search_StepSize2_bb11_in
     v__0
@@ -1726,7 +1641,6 @@
     v_s)
   :guard
   (>= (- v__0 v_c_3) 0))
-
 (rule
   (eval_bin_search_StepSize2_bb12_in
     v__0
@@ -1755,4 +1669,3 @@
     v_r
     v_s)
   )
-

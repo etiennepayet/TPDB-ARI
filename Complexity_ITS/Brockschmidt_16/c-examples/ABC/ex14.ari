@@ -25,7 +25,6 @@
   (evalfbb7in A B C D E)
   :guard
   (>= D (+ (+ B C) 1)))
-
 (rule (evalfbb4in A B C D E) (evalfbb3in A B C D E) :guard (>= D E))
 (rule (evalfbb4in A B C D E) (evalfbb5in A B C D E) :guard (>= E (+ D 1)))
 (rule (evalfbb3in A B C D E) (evalfbb4in A B C D (+ E 1)))

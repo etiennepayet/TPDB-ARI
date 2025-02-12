@@ -9,6 +9,5 @@
   (zip3 (- A 1) (- B 1) (- C 1))
   :guard
   (and (and (>= A 1) (>= B 1)) (>= C 1)))
-
 (rule (group3 A B C) (group3 (- A 3) B C) :guard (>= A 4))
 (rule (start A B C) (zip3 A B C))

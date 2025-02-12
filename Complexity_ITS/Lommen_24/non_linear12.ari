@@ -14,7 +14,6 @@
     (- X4 1))
   :guard
   (> X4 0))
-
 (rule
   (l1 X1 X2 X3 X4)
   (l1
@@ -24,6 +23,5 @@
     (- X4 2))
   :guard
   (> X4 0))
-
 (rule (l1 X1 X2 X3 X4) (l2 X1 X2 X3 X1) :guard (<= X4 0))
 (rule (l2 X1 X2 X3 X4) (l2 X1 X2 X3 (- X4 1)) :guard (> X4 0))

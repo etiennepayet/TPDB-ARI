@@ -8,5 +8,4 @@
   (eval C (- B 1) (+ A 1))
   :guard
   (and (>= 100 A) (>= B C)))
-
 (rule (start A B C) (eval A B C))

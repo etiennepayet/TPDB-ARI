@@ -10,13 +10,11 @@
   (stop A B C D E F G H)
   :guard
   (and (and (and (and (>= A 101) (= B C)) (= D E)) (= F G)) (= H A)))
-
 (rule
   (start A B C D E F G H)
   (stop A B C D E F G H)
   :guard
   (and (and (and (and (>= G (+ E 1)) (= B C)) (= D E)) (= F G)) (= H A)))
-
 (rule
   (start A B C D E F G H)
   (lbl71 A H C (- D 1) E (+ 1 H) G F)
@@ -25,7 +23,6 @@
     (and (and (and (and (>= E G) (>= 100 A)) (= B C)) (= D E)) (= F G))
     (= H A))
   )
-
 (rule
   (lbl71 A B C D E F G H)
   (stop A B C D E F G H)
@@ -44,7 +41,6 @@
       (= F (+ B 1)))
     (= (+ (+ (+ H B) 1) D) (+ (+ A G) E)))
   )
-
 (rule
   (lbl71 A B C D E F G H)
   (stop A B C D E F G H)
@@ -59,7 +55,6 @@
       (= F (+ B 1)))
     (= (+ (+ (+ H B) 1) D) (+ (+ A G) E)))
   )
-
 (rule
   (lbl71 A B C D E F G H)
   (lbl71 A H C (- D 1) E (+ 1 H) G F)
@@ -80,5 +75,4 @@
       (= F (+ B 1)))
     (= (+ (+ (+ H B) 1) D) (+ (+ A G) E)))
   )
-
 (rule (start0 A B C D E F G H) (start A C C E E G G A))

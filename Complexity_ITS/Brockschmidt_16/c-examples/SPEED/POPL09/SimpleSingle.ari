@@ -14,12 +14,10 @@
   (evalSimpleSinglebbin A B)
   :guard
   (>= B (+ A 1)))
-
 (rule
   (evalSimpleSinglebb3in A B)
   (evalSimpleSinglereturnin A B)
   :guard
   (>= A B))
-
 (rule (evalSimpleSinglebbin A B) (evalSimpleSinglebb3in (+ A 1) B))
 (rule (evalSimpleSinglereturnin A B) (evalSimpleSinglestop A B))

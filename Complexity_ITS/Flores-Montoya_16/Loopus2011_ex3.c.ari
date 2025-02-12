@@ -24,35 +24,29 @@
   (eval_ex3_bb2_in v__0 v_b v_x)
   :guard
   (and (< 0 v__0) (< v__0 255)))
-
 (rule
   (eval_ex3_bb1_in v__0 v_b v_x)
   (eval_ex3_bb3_in v__0 v_b v_x)
   :guard
   (>= 0 v__0))
-
 (rule
   (eval_ex3_bb1_in v__0 v_b v_x)
   (eval_ex3_bb3_in v__0 v_b v_x)
   :guard
   (>= v__0 255))
-
 (rule
   (eval_ex3_bb2_in v__0 v_b v_x)
   (eval_ex3_bb1_in (+ v__0 1) v_b v_x)
   :guard
   (< v_b 0))
-
 (rule
   (eval_ex3_bb2_in v__0 v_b v_x)
   (eval_ex3_bb1_in (+ v__0 1) v_b v_x)
   :guard
   (> v_b 0))
-
 (rule
   (eval_ex3_bb2_in v__0 v_b v_x)
   (eval_ex3_bb1_in (- v__0 1) v_b v_x)
   :guard
   (= v_b 0))
-
 (rule (eval_ex3_bb3_in v__0 v_b v_x) (eval_ex3_stop v__0 v_b v_x))

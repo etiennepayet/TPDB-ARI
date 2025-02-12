@@ -18,7 +18,6 @@
   (evalwcet2bb1in A B)
   :guard
   (and (>= A 3) (>= 9 B)))
-
 (rule (evalwcet2bb2in A B) (evalwcet2bb4in A B) :guard (>= 2 A))
 (rule (evalwcet2bb2in A B) (evalwcet2bb4in A B) :guard (>= B 10))
 (rule (evalwcet2bb1in A B) (evalwcet2bb2in A (+ B 1)))

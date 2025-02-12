@@ -17,49 +17,41 @@
   (f17 A B C (+ D 1) E F G H I J)
   :guard
   (>= E (+ D 1)))
-
 (rule
   (f27 A B C D E F G H I J)
   (f27 A B C D E (+ F 1) G H I J)
   :guard
   (>= E (+ F 1)))
-
 (rule
   (f37 A B C D E F G H I J)
   (f37 A B C D E F (+ G 1) H I J)
   :guard
   (>= E (+ G 1)))
-
 (rule
   (f45 A B C D E F G H I J)
   (f45 (+ A 1) B C D E F G H I J)
   :guard
   (>= E (+ A 1)))
-
 (rule
   (f55 A B C D E F G H I J)
   (f55 A B C D E F G (+ H 1) I J)
   :guard
   (>= E (+ H 1)))
-
 (rule
   (f65 A B C D E F G H I J)
   (f65 A B C D E F G H (+ I 1) J)
   :guard
   (>= E (+ I 1)))
-
 (rule
   (f75 A B C D E F G H I J)
   (f75 A B C D E F G H I (+ J 1))
   :guard
   (>= E (+ J 1)))
-
 (rule
   (f83 A B C D E F G H I J)
   (f83 (+ A 1) B C D E F G H I J)
   :guard
   (>= E (+ A 1)))
-
 (rule (f83 A B C D E F G H I J) (f93 A B C D E F G H I J) :guard (>= A E))
 (rule (f75 A B C D E F G H I J) (f83 0 B C D E F G H I J) :guard (>= J E))
 (rule (f65 A B C D E F G H I J) (f75 A B C D E F G H I 0) :guard (>= I E))

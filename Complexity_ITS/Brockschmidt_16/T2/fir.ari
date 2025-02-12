@@ -13,25 +13,21 @@
   (f25 A B C D E F I (+ H 1))
   :guard
   (>= E (+ H 1)))
-
 (rule (f41 A B C D E F G H) (f15 A B C D E (+ F 1) G H) :guard (>= E B))
 (rule
   (f41 A B C D E F G H)
   (f15 A B C D (+ E 1) (+ F 1) G H)
   :guard
   (>= B (+ E 1)))
-
 (rule
   (f25 A B C D E F G H)
   (f41 A B C D E F G H)
   :guard
   (exists ((I Int) (J Int)) (and (>= H E) (>= I (+ J 1)))))
-
 (rule (f25 A B C D E F G H) (f41 A B C D E F G H) :guard (>= H E))
 (rule
   (f25 A B C D E F G H)
   (f15 A B C D (- E 1) (+ F 1) G H)
   :guard
   (>= H E))
-
 (rule (f15 A B C D E F G H) (f48 A B C D E F G H) :guard (>= F A))
