@@ -21,5 +21,5 @@
 (rule (insert n (cons m l) X Y) (cons (X n m) (insert (Y n m) l X Y)))
 (rule (dosort nil X Y) nil)
 (rule (dosort (cons n l) X Y) (insert n (dosort l X Y) X Y))
-(rule (ascending_sort l) (dosort l (lambda ((x nat) (y nat)) (min x y) (lambda ((x nat) (y nat)) (max x y)))
-(rule (descending_sort l) (dosort l (lambda ((x nat) (y nat)) (max x y) (lambda ((x nat) (y nat)) (min x y)))
+(rule (ascending_sort l) (dosort l (lambda ((x nat) (y nat)) (min x y)) (lambda ((x nat) (y nat)) (max x y))))
+(rule (descending_sort l) (dosort l (lambda ((x nat) (y nat)) (max x y)) (lambda ((x nat) (y nat)) (min x y))))

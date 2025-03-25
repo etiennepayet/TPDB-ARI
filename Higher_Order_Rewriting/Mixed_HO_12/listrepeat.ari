@@ -26,4 +26,4 @@
 (rule (hrepeat (s n) F l) (hrepeat (uhalf n) F (F l)))
 (rule (tail (cons n l)) l)
 (rule (head (cons n l)) n)
-(rule (hshuffle l) (hrepeat (head l) (lambda ((z list)) (shuffle z) (tail l)))
+(rule (hshuffle l) (hrepeat (head l) (lambda ((z list)) (shuffle z)) (tail l)))

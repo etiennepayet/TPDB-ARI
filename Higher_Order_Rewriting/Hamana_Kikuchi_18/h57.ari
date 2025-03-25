@@ -9,4 +9,4 @@
 (fun s (-> nat nat))
 (rule (foldr F Y nil) Y)
 (rule (foldr G V (cons W P)) (G W (foldr G V P)))
-(rule (length X1) (foldr (lambda ((%G nat) (%F nat)) (s %F) O X1))
+(rule (length X1) (foldr (lambda ((%G nat) (%F nat)) (s %F)) O X1))

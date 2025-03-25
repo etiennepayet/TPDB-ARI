@@ -10,6 +10,6 @@
 (rule (rec O X Z) X)
 (rule (rec (s U) V I) (I U (rec U V I)))
 (rule (succ2 P X1) (s X1))
-(rule (plus Y1 U1) (rec Y1 U1 (lambda ((%G nat) (%F nat)) (succ2 %G %F)))
+(rule (plus Y1 U1) (rec Y1 U1 (lambda ((%G nat) (%F nat)) (succ2 %G %F))))
 (rule (plus3 V1 W1 P1) (plus V1 (plus W1 P1)))
-(rule (mult X2 Y2) (rec X2 O (lambda ((%I nat) (%H nat)) (plus3 Y2 %I %H)))
+(rule (mult X2 Y2) (rec X2 O (lambda ((%I nat) (%H nat)) (plus3 Y2 %I %H))))

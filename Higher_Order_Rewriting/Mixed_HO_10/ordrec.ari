@@ -8,4 +8,4 @@
 (fun s (-> ord ord))
 (rule (rec O U X W) U)
 (rule (rec (s x) U X W) (X x (rec x U X W)))
-(rule (rec (lim F) U X W) (W F (lambda ((n nat)) (rec (F n) U X W)))
+(rule (rec (lim F) U X W) (W F (lambda ((n nat)) (rec (F n) U X W))))

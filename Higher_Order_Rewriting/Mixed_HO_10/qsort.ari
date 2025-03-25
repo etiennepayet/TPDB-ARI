@@ -27,4 +27,4 @@
 (rule (filter p nil) nil)
 (rule (filter p (cons x xs)) (if (p x) (cons x (filter p xs)) (filter p xs)))
 (rule (qsort nil) nil)
-(rule (qsort (cons x xs)) (app (qsort (filter (lambda ((z nat)) (le z x) xs)) (app (cons x nil) (qsort (filter (lambda ((z nat)) (gr z x) xs)))))
+(rule (qsort (cons x xs)) (app (qsort (filter (lambda ((z nat)) (le z x)) xs)) (app (cons x nil) (qsort (filter (lambda ((z nat)) (gr z x)) xs)))))

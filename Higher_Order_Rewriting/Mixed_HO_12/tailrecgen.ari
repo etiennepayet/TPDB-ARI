@@ -12,7 +12,7 @@
 (rule (dec (s x) (s d)) (dec x d))
 (rule (grec O d U F) U)
 (rule (grec (s x) (s d) U F) (grec (dec x d) (s d) (F U x) F))
-(rule (sumlog x) (grec x (s (s O)) O (lambda ((z1 nat) (z2 nat)) (+ (log2 (s z2) O) z1)))
+(rule (sumlog x) (grec x (s (s O)) O (lambda ((z1 nat) (z2 nat)) (+ (log2 (s z2) O) z1))))
 (rule (+ O x) x)
 (rule (+ (s x) y) (s (+ x y)))
 (rule (log2 (s O) O) O)

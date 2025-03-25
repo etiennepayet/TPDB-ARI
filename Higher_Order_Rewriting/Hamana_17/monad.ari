@@ -4,5 +4,5 @@
 (fun bind (-> Ta (-> a Ta) Ta))
 (fun return (-> a Ta))
 (rule (bind (return X) Z) (Z X))
-(rule (bind U (lambda ((y a)) (return y)) U)
-(rule (bind (bind V I) J) (bind V (lambda ((y a)) (bind (I y) J)))
+(rule (bind U (lambda ((y a)) (return y))) U)
+(rule (bind (bind V I) J) (bind V (lambda ((y a)) (bind (I y) J))))

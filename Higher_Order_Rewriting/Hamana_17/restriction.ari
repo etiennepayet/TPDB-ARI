@@ -2,5 +2,5 @@
 (sort A)
 (sort N)
 (fun New (-> (-> N A) A))
-(rule (New (lambda ((y N)) X) X)
-(rule (New (lambda ((x N)) (New (lambda ((y N)) (Z x y))) (New (lambda ((x N)) (New (lambda ((y N)) (Z y x))))
+(rule (New (lambda ((y N)) X)) X)
+(rule (New (lambda ((x N)) (New (lambda ((y N)) (Z x y))))) (New (lambda ((x N)) (New (lambda ((y N)) (Z y x))))))

@@ -9,4 +9,4 @@
 (rule (+ x (s y)) (s (+ x y)))
 (rule (rec O U F) U)
 (rule (rec (s x) U F) (F x (rec x U F)))
-(rule (* x y) (rec y O (lambda ((z1 nat) (z2 nat)) (+ x z2)))
+(rule (* x y) (rec y O (lambda ((z1 nat) (z2 nat)) (+ x z2))))

@@ -1,5 +1,7 @@
 (format higher-order)
 (sort nat)
+(fun @ (-> (-> nat nat) nat nat))
 (fun f (-> nat nat nat))
 (fun g (-> (-> nat nat) nat))
-(rule (f (g (lambda ((x nat)) (f x x)) (g (lambda ((x nat)) (f x x))) ((lambda ((x nat)) (f x x) (g (lambda ((x nat)) (f x x))))
+(rule (f (g (lambda ((x nat)) (f x x))) (g (lambda ((x nat)) (f x x)))) (@ (lambda ((x nat)) (f x x)) (g (lambda ((x nat)) (f x x)))))
+(rule (@ (lambda ((x nat)) (Z x)) Y) (Z Y))

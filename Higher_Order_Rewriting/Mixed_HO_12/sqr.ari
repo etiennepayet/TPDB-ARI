@@ -14,7 +14,7 @@
 (rule (dec (s x) (s d)) (dec x d))
 (rule (rec O d U F) U)
 (rule (rec (s x) (s d) U F) (rec (dec x d) (s d) (F U x) F))
-(rule (sumsqr x) (rec x (s O) O (lambda ((z1 nat) (z2 nat)) (+ (sqr (p (s z2) O)) z1)))
+(rule (sumsqr x) (rec x (s O) O (lambda ((z1 nat) (z2 nat)) (+ (sqr (p (s z2) O)) z1))))
 (rule (+ O x) x)
 (rule (+ (s x) y) (s (+ x y)))
 (rule (quad O) O)

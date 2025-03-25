@@ -5,5 +5,5 @@
 (fun b B)
 (fun c B)
 (fun f (-> (-> A B) B))
-(rule (f (lambda ((x A)) a) b)
-(rule b (f (lambda ((x A)) c))
+(rule (f (lambda ((x A)) a)) b)
+(rule b (f (lambda ((x A)) c)))

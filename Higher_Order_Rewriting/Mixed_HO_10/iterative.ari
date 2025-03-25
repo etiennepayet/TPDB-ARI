@@ -7,4 +7,4 @@
 (rule (g x y F) (f (f x F) F))
 (rule (f x F) b)
 (rule b a)
-(rule (f b (lambda ((z o)) (g z z F)) (g (f a (lambda ((z o)) (g z z F)) (f b (lambda ((z o)) b) F))
+(rule (f b (lambda ((z o)) (g z z F))) (g (f a (lambda ((z o)) (g z z F))) (f b (lambda ((z o)) b)) F))

@@ -9,4 +9,4 @@
 (fun sum (-> natlist nat))
 (rule (foldl F Y nil) Y)
 (rule (foldl G V (cons W P)) (foldl G (G V W) P))
-(rule (sum X1) (foldl (lambda ((%G nat) (%F nat)) (plus %G %F) O X1))
+(rule (sum X1) (foldl (lambda ((%G nat) (%F nat)) (plus %G %F)) O X1))

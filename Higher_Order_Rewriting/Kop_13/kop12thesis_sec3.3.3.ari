@@ -2,4 +2,4 @@
 (sort o)
 (fun f (-> (-> o o) o))
 (fun g (-> o o))
-(rule (f g) (f (lambda ((x o)) (g x)))
+(rule (f g) (f (lambda ((x o)) (g x))))

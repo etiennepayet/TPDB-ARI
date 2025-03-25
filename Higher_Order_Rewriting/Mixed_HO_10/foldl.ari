@@ -10,5 +10,5 @@
 (fun sum (-> list nat))
 (rule (foldl F x nil) x)
 (rule (foldl F x (cons y l)) (foldl F (F x y) l))
-(rule plusc (lambda ((x nat) (y nat)) (plus x y))
+(rule plusc (lambda ((x nat) (y nat)) (plus x y)))
 (rule (sum l) (foldl plusc O l))

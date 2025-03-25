@@ -22,4 +22,4 @@
 (rule (from M (cons H Z)) (if (lteq M H) (cons H Z) (from M Z)))
 (rule (chain F nil) nil)
 (rule (chain F (cons H Z)) (cons (F H) (chain F (from (F H) Z))))
-(rule (incch X) (chain (lambda ((x N)) (s x) X))
+(rule (incch X) (chain (lambda ((x N)) (s x)) X))

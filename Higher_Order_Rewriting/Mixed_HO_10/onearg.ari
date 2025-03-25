@@ -18,6 +18,6 @@
 (rule (pred (s X)) X)
 (rule (id X) X)
 (rule (eq O) nul)
-(rule (eq (s X)) (lambda ((z nat)) (eq X (pred z)))
+(rule (eq (s X)) (lambda ((z nat)) (eq X (pred z))))
 (rule (add O) id)
-(rule (add (s X)) (lambda ((z nat)) (add X (s z)))
+(rule (add (s X)) (lambda ((z nat)) (add X (s z))))

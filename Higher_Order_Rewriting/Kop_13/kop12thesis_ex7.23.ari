@@ -7,4 +7,4 @@
 (fun s (-> o o))
 (rule (f F Y O) O)
 (rule (f F Y (s X)) (g X (either X (F Y))))
-(rule (g Y X) (f (lambda ((y o)) (s O) X Y))
+(rule (g Y X) (f (lambda ((y o)) (s O)) X Y))

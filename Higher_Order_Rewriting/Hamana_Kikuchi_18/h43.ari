@@ -9,4 +9,4 @@
 (rule (xplus Y (s U)) (s (xplus Y U)))
 (rule (rec O V I) V)
 (rule (rec (s P) X1 Z1) (Z1 P (rec P X1 Z1)))
-(rule (xtimes U1 V1) (rec V1 O (lambda ((%G nat) (%F nat)) (xplus U1 %F)))
+(rule (xtimes U1 V1) (rec V1 O (lambda ((%G nat) (%F nat)) (xplus U1 %F))))

@@ -7,4 +7,4 @@
 (fun z O)
 (rule (plus z X) X)
 (rule (plus (s Y) U) (s (plus Y U)))
-(rule (plus (lim H) W) (lim (lambda ((y N)) (plus (H y) W)))
+(rule (plus (lim H) W) (lim (lambda ((y N)) (plus (H y) W))))

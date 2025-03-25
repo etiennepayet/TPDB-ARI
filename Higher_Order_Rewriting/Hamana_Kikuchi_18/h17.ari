@@ -7,5 +7,5 @@
 (fun o (-> (-> a a) (-> a a) a a))
 (rule (map F nil) nil)
 (rule (map Z (cons U V)) (cons (Z U) (map Z V)))
-(rule (map I (map J X1)) (map (lambda ((%W a)) (o I J %W) X1))
+(rule (map I (map J X1)) (map (lambda ((%W a)) (o I J %W)) X1))
 (rule (o Z1 G1 V1) (Z1 (G1 V1)))

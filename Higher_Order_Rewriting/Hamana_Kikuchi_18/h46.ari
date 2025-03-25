@@ -8,4 +8,4 @@
 (rule (rec O X Z) X)
 (rule (rec (s U) V I) (I U (rec U V I)))
 (rule (succ P X1) (s X1))
-(rule (plus Y1 U1) (rec Y1 U1 (lambda ((%G nat) (%F nat)) (succ %G %F)))
+(rule (plus Y1 U1) (rec Y1 U1 (lambda ((%G nat) (%F nat)) (succ %G %F))))

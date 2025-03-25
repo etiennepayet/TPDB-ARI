@@ -6,6 +6,6 @@
 (fun s (-> nat nat))
 (rule (rec F Y O) Y)
 (rule (rec G V (s W)) (G W (rec G V W)))
-(rule (add P X1) (rec (lambda ((%G nat) (%F nat)) (s %F) P X1))
+(rule (add P X1) (rec (lambda ((%G nat) (%F nat)) (s %F)) P X1))
 (rule (add Y1 O) Y1)
 (rule (add U1 (s V1)) (s (add U1 V1)))

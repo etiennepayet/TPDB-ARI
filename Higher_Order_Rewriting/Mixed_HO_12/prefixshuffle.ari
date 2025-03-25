@@ -27,7 +27,7 @@
 (rule (fst (p x y)) x)
 (rule (pshuffle l) (p l (shuffle l)))
 (rule (prefixshuffle z nil) (pcons z pnil))
-(rule (prefixshuffle z (cons n l)) (pcons z (prefixshuffle (apply2 (lambda ((x pair) (y nat)) (pshuffle (app (fst x) (cons y nil))) z n) (reverse l))))
+(rule (prefixshuffle z (cons n l)) (pcons z (prefixshuffle (apply2 (lambda ((x pair) (y nat)) (pshuffle (app (fst x) (cons y nil)))) z n) (reverse l))))
 (rule (apply2 F z O) z)
 (rule (apply2 F z (s n)) (F z (s n)))
 (rule (pps l) (prefixshuffle (p nil nil) l))

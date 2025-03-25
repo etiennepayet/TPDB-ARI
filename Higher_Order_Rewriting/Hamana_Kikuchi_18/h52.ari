@@ -12,4 +12,4 @@
 (rule (foldl G V (cons W P)) (foldl G (G V W) P))
 (rule (plusc X1 O) X1)
 (rule (plusc Y1 (s U1)) (s (plusc Y1 U1)))
-(rule (sum V1) (foldl (lambda ((%G nat) (%F nat)) (plusc %G %F) O V1))
+(rule (sum V1) (foldl (lambda ((%G nat) (%F nat)) (plusc %G %F)) O V1))

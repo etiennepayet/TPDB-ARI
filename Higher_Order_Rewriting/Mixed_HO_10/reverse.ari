@@ -12,6 +12,6 @@
 (rule (app (cons x xs) ys) (cons x (app xs ys)))
 (rule (foldl F xs nil) xs)
 (rule (foldl F xs (cons y ys)) (foldl F (F xs y) ys))
-(rule iconsc (lambda ((xs list) (x nat)) (cons x xs))
+(rule iconsc (lambda ((xs list) (x nat)) (cons x xs)))
 (rule (reverse xs) (foldl iconsc nil xs))
-(rule (reverse1 xs) (foldl (lambda ((lx list) (x nat)) (app (cons x nil) lx) nil xs))
+(rule (reverse1 xs) (foldl (lambda ((lx list) (x nat)) (app (cons x nil) lx)) nil xs))

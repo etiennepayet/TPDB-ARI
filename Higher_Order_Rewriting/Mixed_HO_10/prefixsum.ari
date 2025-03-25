@@ -9,4 +9,4 @@
 (rule (map F nil) nil)
 (rule (map F (cons x xs)) (cons (F x) (map F xs)))
 (rule (ps nil) nil)
-(rule (ps (cons x xs)) (cons x (ps (map (lambda ((y nat)) (+ x y) xs))))
+(rule (ps (cons x xs)) (cons x (ps (map (lambda ((y nat)) (+ x y)) xs))))

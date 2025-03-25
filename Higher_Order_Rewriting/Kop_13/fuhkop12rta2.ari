@@ -22,4 +22,4 @@
 (rule (collapse nil) O)
 (rule (collapse (cons F L)) (F (collapse L)))
 (rule (build O) nil)
-(rule (build (s X)) (cons (lambda ((y nat)) (gcd y X) (build X)))
+(rule (build (s X)) (cons (lambda ((y nat)) (gcd y X)) (build X)))
