@@ -1,0 +1,20 @@
+; geometric distribution generator together with a multiplication algorithm
+
+(format PTRS)
+
+(fun start 0)
+(fun plus 2)
+(fun times 2)
+(fun geo 1)
+(fun s 1)
+(fun O 0)
+
+(prule (geo x) (((geo (s x)) :prob 1 ) (x :prob 1 )))
+
+(prule start (((plus (geo O) (geo O)) :prob 1 )))
+
+(prule (plus (s x) y) (((s (plus x y)) :prob 1 )))
+(prule (plus O y) ((y :prob 1 )))
+
+(prule (times (s x) y) (((plus (times x y) y) :prob 1 )))
+(prule (times O y) ((O :prob 1 )))

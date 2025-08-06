@@ -1,0 +1,21 @@
+; geometric distribution generator together with 
+; a division function q(...) and a double function d(...)
+; The constant runtime of the diceroller and constant size increase
+; does not increase the asymptotic linear runtime of q(...)
+
+(format PTRS)
+
+(fun start 2)
+(fun q 3)
+(fun d 1)
+(fun geo 1)
+(fun s 1)
+(fun O 0)
+
+(prule (start x y) (((q (geo (s x)) y y) :prob 1 )))
+(prule (geo x) (((geo (d x)) :prob 1 ) (x :prob 1 )))
+(prule (q (s x) (s y) z) (((q x y z) :prob 1 )))
+(prule (q x O (s z)) (((s (q x (s z) (s z))) :prob 1 )))
+(prule (q O (s y) (s z)) ((O :prob 1 )))
+(prule (d O) ((O :prob 1 )))
+(prule (d (s x)) (((s (s (d x))) :prob 1 )))
