@@ -7,7 +7,7 @@
 (fun listdrop 1)
 (fun nil 0)
 (fun s 1)
-(fun 0 0)
+(fun O 0)
 
 (prule (listdrop nil) ((nil :prob 1 )))
 (prule (listdrop (cons x xs)) (((cons x (listdrop xs)) :prob 1 ) ((cons x nil) :prob 1 )))

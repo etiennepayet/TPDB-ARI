@@ -7,7 +7,7 @@
 (fun treedrop 1)
 (fun leaf 0)
 (fun s 1)
-(fun 0 0)
+(fun O 0)
 
 (prule (treedrop leaf) ((leaf :prob 1 )))
 (prule (treedrop (tree val xs ys)) (((tree val (treedrop xs) (treedrop ys)) :prob 1 ) ((tree val leaf (treedrop ys)) :prob 1 ) ((tree val (treedrop xs) leaf) :prob 1 ) ((tree val leaf leaf) :prob 1 )))
