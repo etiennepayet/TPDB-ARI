@@ -1,0 +1,15 @@
+; geometric distribution generator together with a function that has exponential worst-case complexity
+
+(format PTRS)
+
+(fun start 0)
+(fun g 2)
+(fun f 1)
+(fun geo 1)
+(fun s 1)
+(fun O 0)
+
+(prule start (((f (geo O)) :prob 1 )))
+(prule (geo x) (((geo (s x)) :prob 1 ) (x :prob 1 )))
+(prule (f (s x)) (((f (g x x)) :prob 1 )))
+(prule (f (g x y)) (((g (f x) (f y)) :prob 1 )))

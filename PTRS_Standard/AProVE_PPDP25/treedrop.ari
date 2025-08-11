@@ -1,0 +1,13 @@
+; Probabilistic algorithm on a tree, that drops a random subtree.
+; This algorithm is non-trivial but still has constant expected runtime.
+
+(format PTRS)
+
+(fun tree 3)
+(fun treedrop 1)
+(fun leaf 0)
+(fun s 1)
+(fun O 0)
+
+(prule (treedrop leaf) ((leaf :prob 1 )))
+(prule (treedrop (tree val xs ys)) (((tree val (treedrop xs) (treedrop ys)) :prob 1 ) ((tree val leaf (treedrop ys)) :prob 1 ) ((tree val (treedrop xs) leaf) :prob 1 ) ((tree val leaf leaf) :prob 1 )))
