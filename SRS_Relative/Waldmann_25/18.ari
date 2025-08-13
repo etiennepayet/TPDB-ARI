@@ -1,0 +1,7 @@
+(format TRS)
+(fun a 1)
+(fun c 1)
+(fun b 1)
+(rule (a (c x)) (b (b (c (a x)))))
+(rule (a (a x)) (b (b (a (a x)))) :cost 0)
+(rule (b (c x)) (c (a (a (b x)))) :cost 0)
