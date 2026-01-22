@@ -538,7 +538,7 @@ pIrb^post)
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 k4^0)) (= k4^post (+ -1 k4^0))) (= keR^1 1))
+(and (and (<= 1 (+ 0 k4^0)) (= k4^post (+ (- 1) k4^0))) (= keR^1 1))
 (= keR^post 0))
 (= IsochResourceData^0 IsochResourceData^post))
 (= ResourceIrp^0 ResourceIrp^post))

@@ -130,7 +130,7 @@
 (and
 (and
 (and
-(and (= i^post (+ -1 i^0)) (= j^post 0))
+(and (= i^post (+ (- 1) i^0)) (= j^post 0))
 (= __const_100^0 __const_100^post))
 (= k^0 k^post))
 (= tmp^0 tmp^post))

@@ -102,7 +102,7 @@
 (and
 (and
 (and
-(and (<= (+ 0 i^0) (+ 0 j^0)) (= i^post (+ -1 i^0)))
+(and (<= (+ 0 i^0) (+ 0 j^0)) (= i^post (+ (- 1) i^0)))
 (= j^0 j^post))
 (= tmp5^0 tmp5^post))
 (= x3^0 x3^post))

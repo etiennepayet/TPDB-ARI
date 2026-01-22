@@ -2041,7 +2041,7 @@ tmp___5^post)
 (and
 (and
 (and
-(and (<= (+ 1 n^0) (+ 0 k^0)) (= i^post (+ -1 i^0)))
+(and (<= (+ 1 n^0) (+ 0 k^0)) (= i^post (+ (- 1) i^0)))
 (= __const_30^0 __const_30^post))
 (= b^0 b^post))
 (= c^0 c^post))
@@ -3043,7 +3043,7 @@ tmp___5^post)
 (and
 (and
 (and (<= (+ 1 g^0) 0) (= tmp___4^post tmp___4^post))
-(= tmp___5^post (+ 0 (* -1 tmp___4^post))))
+(= tmp___5^post (+ 0 (* (- 1) tmp___4^post))))
 (= __const_30^0 __const_30^post))
 (= b^0 b^post))
 (= c^0 c^post))
@@ -4698,7 +4698,7 @@ tmp___5^post)
 (and
 (and
 (and
-(and (<= (+ 0 m^0) (+ -1 n^0)) (= tmp^post tmp^post))
+(and (<= (+ 0 m^0) (+ (- 1) n^0)) (= tmp^post tmp^post))
 (= tmp___0^post tmp___0^post))
 (= dd^post (+ (+ 0 tmp^post) tmp___0^post)))
 (= tmp___1^post tmp___1^post))

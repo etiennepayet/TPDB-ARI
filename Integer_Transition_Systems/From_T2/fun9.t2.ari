@@ -209,7 +209,7 @@
 (and
 (and
 (and
-(and (<= 1 (+ 0 e^0)) (= e^post (+ -1 e^0)))
+(and (<= 1 (+ 0 e^0)) (= e^post (+ (- 1) e^0)))
 (= olde^post (+ 0 e^post)))
 (= b^0 b^post))
 (= f^0 f^post))
@@ -411,7 +411,7 @@
 (and
 (and
 (and
-(and (<= 1 (+ 0 x^0)) (= x^post (+ -1 x^0)))
+(and (<= 1 (+ 0 x^0)) (= x^post (+ (- 1) x^0)))
 (= olde^post (+ 0 e^0)))
 (= b^0 b^post))
 (= e^0 e^post))

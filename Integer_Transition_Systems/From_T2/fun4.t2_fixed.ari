@@ -49,7 +49,7 @@
 (and
 (and
 (and
-(<= (+ -1 (* 2 deltaext^0)) (+ (+ 0 c0^0) wnt^0))
+(<= (+ (- 1) (* 2 deltaext^0)) (+ (+ 0 c0^0) wnt^0))
 (<= (+ (+ 0 c0^0) wnt^0) (+ 0 (* 2 deltaext^0))))
 (= deltaext_new^post (+ 0 deltaext^0)))
 (= c0^0 c0^post))
@@ -64,8 +64,8 @@
 (and
 (and
 (and
-(<= (+ (+ 1 c0^0) wnt^0) (+ -1 (* 2 deltaext^0)))
-(= deltaext_new^post (+ -1 deltaext^0)))
+(<= (+ (+ 1 c0^0) wnt^0) (+ (- 1) (* 2 deltaext^0)))
+(= deltaext_new^post (+ (- 1) deltaext^0)))
 (= c0^0 c0^post))
 (= deltaext^0 deltaext^post))
 (= wnt^0 wnt^post))

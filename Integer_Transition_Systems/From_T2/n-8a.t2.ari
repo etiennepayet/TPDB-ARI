@@ -16,7 +16,9 @@
 (and
 (and
 (and
-(and (<= (+ (+ 0 (* -1 x_5^0)) y_6^0) 0) (= Result_4^post Result_4^post))
+(and
+(<= (+ (+ 0 (* (- 1) x_5^0)) y_6^0) 0)
+(= Result_4^post Result_4^post))
 (= cnt_15^0 cnt_15^post))
 (= lt_9^0 lt_9^post))
 (= p_8^0 p_8^post))
@@ -37,7 +39,9 @@
 (and
 (and
 (and
-(and (<= 0 (+ (+ -1 (* -1 x_5^0)) y_6^0)) (= lt_9^1 (+ 0 cnt_15^0)))
+(and
+(<= 0 (+ (+ (- 1) (* (- 1) x_5^0)) y_6^0))
+(= lt_9^1 (+ 0 cnt_15^0)))
 (= lt_9^post lt_9^post))
 (= Result_4^0 Result_4^post))
 (= cnt_15^0 cnt_15^post))

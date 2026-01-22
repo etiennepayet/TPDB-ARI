@@ -11,7 +11,7 @@
 (exists
 ((a^1 Int))
 (and
-(and (= a^1 -1) (= ret_returnOne2^post 1))
+(and (= a^1 (- 1)) (= ret_returnOne2^post 1))
 (= a^post (+ 0 ret_returnOne2^post)))
 )
 )

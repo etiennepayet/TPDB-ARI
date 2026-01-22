@@ -1736,7 +1736,7 @@ y8^post)
 (and
 (and (= tmp___0^post (+ 0 ret_foo14^0)) (= j^post (+ 0 tmp___0^post)))
 (= x15^post 3))
-(= y16^post (+ 0 (* -1 __const_6^0))))
+(= y16^post (+ 0 (* (- 1) __const_6^0))))
 (= i17^post 0))
 (= __const_6^0 __const_6^post))
 (= i^0 i^post))
@@ -2531,7 +2531,7 @@ y8^post)
 (and
 (and
 (and (= tmp^post (+ 0 ret_foo10^0)) (= i^post (+ 0 tmp^post)))
-(= x11^post -3))
+(= x11^post (- 3)))
 (= y12^post 4))
 (= i13^post 0))
 (= __const_6^0 __const_6^post))

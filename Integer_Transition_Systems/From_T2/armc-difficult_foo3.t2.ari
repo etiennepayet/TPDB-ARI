@@ -1001,7 +1001,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 z^0)) (= z^post (+ -1 z^0))) (= N^0 N^post))
+(and (and (<= 1 (+ 0 z^0)) (= z^post (+ (- 1) z^0))) (= N^0 N^post))
 (= br^0 br^post))
 (= bs^0 bs^post))
 (= c1^0 c1^post))
@@ -3121,7 +3121,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 z^0)) (= z^post (+ -1 z^0))) (= N^0 N^post))
+(and (and (<= 1 (+ 0 z^0)) (= z^post (+ (- 1) z^0))) (= N^0 N^post))
 (= br^0 br^post))
 (= bs^0 bs^post))
 (= c1^0 c1^post))
@@ -3473,7 +3473,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= (+ 1 i^0) (+ -1 N^0)) (= ls^post 0)) (= N^0 N^post))
+(and (and (<= (+ 1 i^0) (+ (- 1) N^0)) (= ls^post 0)) (= N^0 N^post))
 (= br^0 br^post))
 (= bs^0 bs^post))
 (= c1^0 c1^post))
@@ -3543,7 +3543,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= (+ -1 N^0) (+ 0 i^0)) (= ls^post 1)) (= N^0 N^post))
+(and (and (<= (+ (- 1) N^0) (+ 0 i^0)) (= ls^post 1)) (= N^0 N^post))
 (= br^0 br^post))
 (= bs^0 bs^post))
 (= c1^0 c1^post))

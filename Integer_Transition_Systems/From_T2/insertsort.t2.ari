@@ -30,7 +30,7 @@
 :guard
 (and
 (and
-(and (= temp^post temp^post) (= j^post (+ -1 j^0)))
+(and (= temp^post temp^post) (= j^post (+ (- 1) j^0)))
 (= __const_10^0 __const_10^post))
 (= i^0 i^post))
 )

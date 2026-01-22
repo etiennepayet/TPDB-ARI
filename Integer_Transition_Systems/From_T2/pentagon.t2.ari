@@ -32,9 +32,9 @@
 (and
 (and
 (and
-(and (<= (+ 1 e^0) 0) (= e^post (+ 0 (* -1 e^0))))
-(= d^post (+ (+ 0 d^0) (* -1 e^post))))
-(= a^post (+ (+ 0 a^0) (* -1 e^post))))
+(and (<= (+ 1 e^0) 0) (= e^post (+ 0 (* (- 1) e^0))))
+(= d^post (+ (+ 0 d^0) (* (- 1) e^post))))
+(= a^post (+ (+ 0 a^0) (* (- 1) e^post))))
 (= b^0 b^post))
 (= c^0 c^post))
 (= sum^0 sum^post))
@@ -60,9 +60,9 @@
 (and
 (and
 (and
-(and (<= (+ 1 d^0) 0) (= d^post (+ 0 (* -1 d^0))))
-(= c^post (+ (+ 0 c^0) (* -1 d^post))))
-(= e^post (+ (+ 0 (* -1 d^post)) e^0)))
+(and (<= (+ 1 d^0) 0) (= d^post (+ 0 (* (- 1) d^0))))
+(= c^post (+ (+ 0 c^0) (* (- 1) d^post))))
+(= e^post (+ (+ 0 (* (- 1) d^post)) e^0)))
 (= a^0 a^post))
 (= b^0 b^post))
 (= sum^0 sum^post))
@@ -88,9 +88,9 @@
 (and
 (and
 (and
-(and (<= (+ 1 c^0) 0) (= c^post (+ 0 (* -1 c^0))))
-(= b^post (+ (+ 0 b^0) (* -1 c^post))))
-(= d^post (+ (+ 0 (* -1 c^post)) d^0)))
+(and (<= (+ 1 c^0) 0) (= c^post (+ 0 (* (- 1) c^0))))
+(= b^post (+ (+ 0 b^0) (* (- 1) c^post))))
+(= d^post (+ (+ 0 (* (- 1) c^post)) d^0)))
 (= a^0 a^post))
 (= e^0 e^post))
 (= sum^0 sum^post))
@@ -116,9 +116,9 @@
 (and
 (and
 (and
-(and (<= (+ 1 b^0) 0) (= b^post (+ 0 (* -1 b^0))))
-(= a^post (+ (+ 0 a^0) (* -1 b^post))))
-(= c^post (+ (+ 0 (* -1 b^post)) c^0)))
+(and (<= (+ 1 b^0) 0) (= b^post (+ 0 (* (- 1) b^0))))
+(= a^post (+ (+ 0 a^0) (* (- 1) b^post))))
+(= c^post (+ (+ 0 (* (- 1) b^post)) c^0)))
 (= d^0 d^post))
 (= e^0 e^post))
 (= sum^0 sum^post))
@@ -144,9 +144,9 @@
 (and
 (and
 (and
-(and (<= (+ 1 a^0) 0) (= a^post (+ 0 (* -1 a^0))))
-(= b^post (+ (+ 0 (* -1 a^post)) b^0)))
-(= e^post (+ (+ 0 (* -1 a^post)) e^0)))
+(and (<= (+ 1 a^0) 0) (= a^post (+ 0 (* (- 1) a^0))))
+(= b^post (+ (+ 0 (* (- 1) a^post)) b^0)))
+(= e^post (+ (+ 0 (* (- 1) a^post)) e^0)))
 (= c^0 c^post))
 (= d^0 d^post))
 (= sum^0 sum^post))

@@ -1465,7 +1465,7 @@ wtemp^post)
 (and
 (and
 (and
-(and (<= (+ (+ -1 i3^0) ip1^0) (+ 0 i1^0)) (= wtemp^post (+ 0 wr^0)))
+(and (<= (+ (+ (- 1) i3^0) ip1^0) (+ 0 i1^0)) (= wtemp^post (+ 0 wr^0)))
 (= wr^post wr^post))
 (= wi^post wi^post))
 (= i3^post (+ (+ 0 i3^0) ip1^0)))
@@ -1577,7 +1577,7 @@ wtemp^post)
 (and
 (and
 (and
-(and (<= (+ 0 i1^0) (+ (+ -2 i3^0) ip1^0)) (= i1^0 i1^post))
+(and (<= (+ 0 i1^0) (+ (+ (- 2) i3^0) ip1^0)) (= i1^0 i1^post))
 (= i2^0 i2^post))
 (= i2rev^0 i2rev^post))
 (= i3^0 i3^post))
@@ -2022,7 +2022,7 @@ wtemp^post)
 (and
 (and
 (and (<= (+ 0 ip2^0) (+ 0 ifp1^0)) (= nprev^post nprev^post))
-(= idim^post (+ -1 idim^0)))
+(= idim^post (+ (- 1) idim^0)))
 (= i1^0 i1^post))
 (= i2^0 i2^post))
 (= i2rev^0 i2rev^post))
@@ -2579,7 +2579,7 @@ wtemp^post)
 (and
 (and
 (<= (+ 1 ibit^0) (+ 0 i2rev^0))
-(= i2rev^post (+ (+ 0 i2rev^0) (* -1 ibit^0))))
+(= i2rev^post (+ (+ 0 i2rev^0) (* (- 1) ibit^0))))
 (= ibit^post ibit^post))
 (= i1^0 i1^post))
 (= i2^0 i2^post))
@@ -3248,7 +3248,7 @@ wtemp^post)
 (and
 (and
 (<= (+ 0 i3^0) (+ 0 ip3^0))
-(= i3rev^post (+ (+ (+ 0 (* -1 i2^0)) i2rev^0) i3^0)))
+(= i3rev^post (+ (+ (+ 0 (* (- 1) i2^0)) i2rev^0) i3^0)))
 (= tempr^1 tempr^1))
 (= tempr^post tempr^post))
 (= i3^post (+ (+ 0 i3^0) ip2^0)))
@@ -3470,7 +3470,7 @@ wtemp^post)
 (and
 (and
 (and
-(and (<= (+ (+ -1 i2^0) ip1^0) (+ 0 i1^0)) (= i1^0 i1^post))
+(and (<= (+ (+ (- 1) i2^0) ip1^0) (+ 0 i1^0)) (= i1^0 i1^post))
 (= i2^0 i2^post))
 (= i2rev^0 i2rev^post))
 (= i3^0 i3^post))
@@ -3582,7 +3582,7 @@ wtemp^post)
 (and
 (and
 (and
-(and (<= (+ 0 i1^0) (+ (+ -2 i2^0) ip1^0)) (= i1^0 i1^post))
+(and (<= (+ 0 i1^0) (+ (+ (- 2) i2^0) ip1^0)) (= i1^0 i1^post))
 (= i2^0 i2^post))
 (= i2rev^0 i2rev^post))
 (= i3^0 i3^post))

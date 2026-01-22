@@ -22,7 +22,7 @@
 (l2 oldX0^post oldX1^post x0^post)
 :guard
 (and
-(and (= oldX0^post (+ 0 x0^0)) (= x0^post (+ -2 oldX0^post)))
+(and (= oldX0^post (+ 0 x0^0)) (= x0^post (+ (- 2) oldX0^post)))
 (= oldX1^0 oldX1^post))
 )
 (rule
@@ -30,7 +30,7 @@
 (l2 oldX0^post oldX1^post x0^post)
 :guard
 (and
-(and (= oldX0^post (+ 0 x0^0)) (= x0^post (+ -1 oldX0^post)))
+(and (= oldX0^post (+ 0 x0^0)) (= x0^post (+ (- 1) oldX0^post)))
 (= oldX1^0 oldX1^post))
 )
 (rule

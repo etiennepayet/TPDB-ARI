@@ -14,7 +14,7 @@
 (and
 (and
 (and
-(and (<= (+ 10 (* -1 x_6^0)) 0) (= ___retres3_7^post 0))
+(and (<= (+ 10 (* (- 1) x_6^0)) 0) (= ___retres3_7^post 0))
 (= ___cil_tmp4_8^post (+ 0 ___retres3_7^post)))
 (= Result_4^post (+ 0 ___cil_tmp4_8^post)))
 (= i_5^0 i_5^post))
@@ -29,7 +29,7 @@
 (and
 (and
 (and
-(and (<= 0 (+ 9 (* -1 x_6^0))) (<= (+ -100 i_5^0) 0))
+(and (<= 0 (+ 9 (* (- 1) x_6^0))) (<= (+ (- 100) i_5^0) 0))
 (= ___retres3_7^post 0))
 (= ___cil_tmp4_8^post (+ 0 ___retres3_7^post)))
 (= Result_4^post (+ 0 ___cil_tmp4_8^post)))
@@ -45,8 +45,8 @@
 (and
 (and
 (and
-(and (<= 0 (+ 9 (* -1 x_6^0))) (<= 0 (+ -101 i_5^0)))
-(= i_5^post (+ -1 i_5^0)))
+(and (<= 0 (+ 9 (* (- 1) x_6^0))) (<= 0 (+ (- 101) i_5^0)))
+(= i_5^post (+ (- 1) i_5^0)))
 (= Result_4^0 Result_4^post))
 (= ___cil_tmp4_8^0 ___cil_tmp4_8^post))
 (= ___retres3_7^0 ___retres3_7^post))

@@ -375,7 +375,7 @@ wakend^post)
 (and
 (and
 (and
-(<= (+ (+ 1 curtime^0) (* -1 last_copy_time^0)) 1000)
+(<= (+ (+ 1 curtime^0) (* (- 1) last_copy_time^0)) 1000)
 (= ___rho_1_^0 ___rho_1_^post))
 (= a33^0 a33^post))
 (= a55^0 a55^post))
@@ -441,7 +441,7 @@ wakend^post)
 (and
 (and
 (and
-(<= 1000 (+ (+ 0 curtime^0) (* -1 last_copy_time^0)))
+(<= 1000 (+ (+ 0 curtime^0) (* (- 1) last_copy_time^0)))
 (= wakend^post 1))
 (= ___rho_1_^0 ___rho_1_^post))
 (= a33^0 a33^post))

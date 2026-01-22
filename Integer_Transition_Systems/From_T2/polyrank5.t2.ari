@@ -12,7 +12,7 @@
 :guard
 (and
 (and
-(and (and (<= 1 (+ 0 x^0)) (= x^post (+ -1 x^0))) (= a^0 a^post))
+(and (and (<= 1 (+ 0 x^0)) (= x^post (+ (- 1) x^0))) (= a^0 a^post))
 (= y^0 y^post))
 (= z^0 z^post))
 )
@@ -34,7 +34,7 @@
 (and (<= 1 (+ 0 x^0)) (= x^post (+ (+ 0 x^0) y^0)))
 (= y^post (+ (+ 0 y^0) z^0)))
 (= z^post (+ (+ 0 a^0) z^0)))
-(= a^post (+ -1 a^0)))
+(= a^post (+ (- 1) a^0)))
 )
 (rule
 (l2 a^0 x^0 y^0 z^0)

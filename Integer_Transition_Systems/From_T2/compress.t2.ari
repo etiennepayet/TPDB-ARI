@@ -5481,7 +5481,7 @@ tmp___115^post)
 (and
 (and
 (and
-(and (<= 1 (+ 0 i21^0)) (= i21^post (+ -1 i21^0)))
+(and (<= 1 (+ 0 i21^0)) (= i21^post (+ (- 1) i21^0)))
 (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
@@ -6756,7 +6756,7 @@ tmp___115^post)
 (and
 (and
 (and
-(and (= i6^post (+ (+ 0 (* -1 disp9^0)) i6^0)) (= InCnt^0 InCnt^post))
+(and (= i6^post (+ (+ 0 (* (- 1) disp9^0)) i6^0)) (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
 (= __const_2147483647^0 __const_2147483647^post))
@@ -7013,11 +7013,11 @@ tmp___115^post)
 (and
 (and
 (<= (+ 0 __const_65536^0) (+ 0 fcode5^0))
-(= hshift11^post (+ (+ 0 __const_8^0) (* -1 hshift11^0))))
+(= hshift11^post (+ (+ 0 __const_8^0) (* (- 1) hshift11^0))))
 (= hsize_reg10^post (+ 0 hsize^0)))
 (= hsize___019^post (+ 0 hsize_reg10^post)))
-(= m122^post -1))
-(= i21^post (+ (+ 0 (* -1 __const_16^0)) hsize___019^post)))
+(= m122^post (- 1)))
+(= i21^post (+ (+ 0 (* (- 1) __const_16^0)) hsize___019^post)))
 (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
@@ -7527,7 +7527,7 @@ tmp___115^post)
 (and
 (and
 (and
-(= i29^post (+ (+ 0 (* -1 __const_16^0)) i29^0))
+(= i29^post (+ (+ 0 (* (- 1) __const_16^0)) i29^0))
 (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
@@ -8549,7 +8549,7 @@ tmp___115^post)
 (and
 (and
 (and
-(and (<= 1 (+ 0 tmp___017^0)) (= InCnt^post (+ -1 InCnt^0)))
+(and (<= 1 (+ 0 tmp___017^0)) (= InCnt^post (+ (- 1) InCnt^0)))
 (= ret_getbyte18^post ret_getbyte18^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
@@ -9062,7 +9062,7 @@ tmp___115^post)
 (and
 (and
 (and (<= 1 (+ 0 InCnt^0)) (= tmp___017^post (+ 0 apsim_InCnt^0)))
-(= apsim_InCnt^post (+ -1 apsim_InCnt^0)))
+(= apsim_InCnt^post (+ (- 1) apsim_InCnt^0)))
 (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
@@ -10340,7 +10340,7 @@ tmp___115^post)
 (and
 (and
 (and
-(and (= c37^post c37^post) (= bits33^post (+ -1 bits33^0)))
+(and (= c37^post c37^post) (= bits33^post (+ (- 1) bits33^0)))
 (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
@@ -22608,7 +22608,7 @@ tmp___115^post)
 (and
 (and
 (and (<= (+ 0 __const_8^0) (+ 0 bits33^0)) (= code31^post code31^post))
-(= bits33^post (+ (+ 0 (* -1 __const_8^0)) bits33^0)))
+(= bits33^post (+ (+ 0 (* (- 1) __const_8^0)) bits33^0)))
 (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
@@ -23374,7 +23374,7 @@ tmp___115^post)
 (and
 (and
 (and (<= 0 (+ 0 code31^0)) (= r_off32^post r_off32^post))
-(= bits33^post (+ (+ (+ 0 (* -1 __const_8^0)) bits33^0) r_off32^post)))
+(= bits33^post (+ (+ (+ 0 (* (- 1) __const_8^0)) bits33^0) r_off32^post)))
 (= code31^post code31^post))
 (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
@@ -23885,7 +23885,7 @@ tmp___115^post)
 (and
 (and
 (and
-(and (<= 1 (+ 0 i29^0)) (= i29^post (+ -1 i29^0)))
+(and (<= 1 (+ 0 i29^0)) (= i29^post (+ (- 1) i29^0)))
 (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
@@ -25163,8 +25163,8 @@ tmp___115^post)
 (and
 (and (<= (+ 0 rat26^0) (+ 0 ratio^0)) (= ratio^post 0))
 (= hsize___027^post (+ 0 hsize^0)))
-(= m130^post -1))
-(= i29^post (+ (+ 0 (* -1 __const_16^0)) hsize___027^post)))
+(= m130^post (- 1)))
+(= i29^post (+ (+ 0 (* (- 1) __const_16^0)) hsize___027^post)))
 (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
@@ -33097,7 +33097,7 @@ tmp___115^post)
 (and
 (and
 (and
-(= disp9^post (+ (+ 0 hsize_reg10^0) (* -1 i6^0)))
+(= disp9^post (+ (+ 0 hsize_reg10^0) (* (- 1) i6^0)))
 (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
@@ -35137,7 +35137,7 @@ tmp___115^post)
 (and
 (and
 (and
-(and (<= 1 (+ 0 tmp___024^0)) (= InCnt^post (+ -1 InCnt^0)))
+(and (<= 1 (+ 0 tmp___024^0)) (= InCnt^post (+ (- 1) InCnt^0)))
 (= ret_getbyte25^post ret_getbyte25^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
@@ -35650,7 +35650,7 @@ tmp___115^post)
 (and
 (and
 (and (<= 1 (+ 0 InCnt^0)) (= tmp___024^post (+ 0 apsim_InCnt^0)))
-(= apsim_InCnt^post (+ -1 apsim_InCnt^0)))
+(= apsim_InCnt^post (+ (- 1) apsim_InCnt^0)))
 (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))
@@ -36417,7 +36417,7 @@ tmp___115^post)
 (and
 (and
 (and
-(= i21^post (+ (+ 0 (* -1 __const_16^0)) i21^0))
+(= i21^post (+ (+ 0 (* (- 1) __const_16^0)) i21^0))
 (= InCnt^0 InCnt^post))
 (= __const_10000^0 __const_10000^post))
 (= __const_16^0 __const_16^post))

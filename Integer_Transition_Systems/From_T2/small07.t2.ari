@@ -72,7 +72,7 @@
 (l4 c^post ox^post x^post y^post)
 :guard
 (and
-(and (and (= y^post (+ -1 y^0)) (= c^0 c^post)) (= ox^0 ox^post))
+(and (and (= y^post (+ (- 1) y^0)) (= c^0 c^post)) (= ox^0 ox^post))
 (= x^0 x^post))
 )
 (rule
@@ -80,7 +80,7 @@
 (l4 c^post ox^post x^post y^post)
 :guard
 (and
-(and (and (= x^post (+ -1 x^0)) (= c^0 c^post)) (= ox^0 ox^post))
+(and (and (= x^post (+ (- 1) x^0)) (= c^0 c^post)) (= ox^0 ox^post))
 (= y^0 y^post))
 )
 (rule

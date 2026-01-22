@@ -13,8 +13,8 @@
 (and
 (and
 (and
-(<= (+ (+ 1 c0^0) wnt^0) (+ -1 (* 2 deltaext^0)))
-(= deltaext^post (+ -1 deltaext^0)))
+(<= (+ (+ 1 c0^0) wnt^0) (+ (- 1) (* 2 deltaext^0)))
+(= deltaext^post (+ (- 1) deltaext^0)))
 (= c0^0 c0^post))
 (= wnt^0 wnt^post))
 )

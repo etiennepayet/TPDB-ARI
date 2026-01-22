@@ -850,7 +850,7 @@ tmp___4^post)
 (and
 (and
 (and
-(and (<= (+ -1 nDim^0) (+ 0 ni^0)) (= __const_10^0 __const_10^post))
+(and (<= (+ (- 1) nDim^0) (+ 0 ni^0)) (= __const_10^0 __const_10^post))
 (= bDomain^0 bDomain^post))
 (= bExists^0 bExists^post))
 (= bSorted^0 bSorted^post))
@@ -906,7 +906,7 @@ tmp___4^post)
 (and
 (and
 (and
-(and (<= (+ 1 ni^0) (+ -1 nDim^0)) (= __const_10^0 __const_10^post))
+(and (<= (+ 1 ni^0) (+ (- 1) nDim^0)) (= __const_10^0 __const_10^post))
 (= bDomain^0 bDomain^post))
 (= bExists^0 bExists^post))
 (= bSorted^0 bSorted^post))

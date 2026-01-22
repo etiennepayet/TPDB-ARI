@@ -26,7 +26,7 @@
 (and
 (and
 (and
-(and (<= 0 (+ -1 (* -1 x_5^0))) (= Result_4^post Result_4^post))
+(and (<= 0 (+ (- 1) (* (- 1) x_5^0))) (= Result_4^post Result_4^post))
 (= __disjvr_0^0 __disjvr_0^post))
 (= tmp_6^0 tmp_6^post))
 (= x_5^0 x_5^post))
@@ -40,7 +40,7 @@
 (and
 (and
 (and
-(and (<= (+ 0 (* -1 x_5^0)) 0) (= tmp_6^post tmp_6^post))
+(and (<= (+ 0 (* (- 1) x_5^0)) 0) (= tmp_6^post tmp_6^post))
 (<= (+ 0 tmp_6^post) 0))
 (<= 0 (+ 0 tmp_6^post)))
 (= Result_4^0 Result_4^post))
@@ -64,7 +64,7 @@
 (and
 (and
 (and
-(and (<= (+ 0 (* -1 x_5^0)) 0) (= tmp_6^post tmp_6^post))
+(and (<= (+ 0 (* (- 1) x_5^0)) 0) (= tmp_6^post tmp_6^post))
 (= Result_4^0 Result_4^post))
 (= __disjvr_0^0 __disjvr_0^post))
 (= x_5^0 x_5^post))
@@ -87,7 +87,7 @@
 :guard
 (and
 (and
-(and (= x_5^post (+ -1 x_5^0)) (= Result_4^0 Result_4^post))
+(and (= x_5^post (+ (- 1) x_5^0)) (= Result_4^0 Result_4^post))
 (= __disjvr_0^0 __disjvr_0^post))
 (= tmp_6^0 tmp_6^post))
 )

@@ -214,7 +214,7 @@ scale7^post)
 (and
 (and
 (and
-(and (= acc_length11^post (+ -1 acc_length11^0)) (= acc12^0 acc12^post))
+(and (= acc_length11^post (+ (- 1) acc_length11^0)) (= acc12^0 acc12^post))
 (= coef_len210^0 coef_len210^post))
 (= coef_len6^0 coef_len6^post))
 (= i8^0 i8^post))

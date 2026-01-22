@@ -17,7 +17,7 @@
 (and
 (and
 (and
-(and (<= (+ 0 (* -1 x^0)) 0) (= Result^post Result^post))
+(and (<= (+ 0 (* (- 1) x^0)) 0) (= Result^post Result^post))
 (= __const_99^0 __const_99^post))
 (= __disjvr_0^0 __disjvr_0^post))
 (= x^0 x^post))
@@ -31,7 +31,7 @@
 (and
 (and
 (and
-(and (<= 0 (+ -1 (* -1 x^0))) (= Result^0 Result^post))
+(and (<= 0 (+ (- 1) (* (- 1) x^0))) (= Result^0 Result^post))
 (= __const_99^0 __const_99^post))
 (= __disjvr_0^0 __disjvr_0^post))
 (= x^0 x^post))
@@ -85,10 +85,10 @@
 (and
 (and
 (and
-(and (<= 0 (+ -1 (* -1 x^0))) (<= (+ 0 y^0) -1))
-(<= -1 (+ 0 y^0)))
+(and (<= 0 (+ (- 1) (* (- 1) x^0))) (<= (+ 0 y^0) (- 1)))
+(<= (- 1) (+ 0 y^0)))
 (= y^post (+ 1 y^0)))
-(= x^post (+ (+ 0 (* -1 __const_99^0)) x^0)))
+(= x^post (+ (+ 0 (* (- 1) __const_99^0)) x^0)))
 (= Result^0 Result^post))
 (= __const_99^0 __const_99^post))
 (= __disjvr_0^0 __disjvr_0^post))

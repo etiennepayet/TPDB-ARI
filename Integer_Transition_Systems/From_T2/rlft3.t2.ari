@@ -976,7 +976,7 @@ wtemp^post)
 (and
 (and
 (and
-(and (and (<= (+ 1 isign^0) -1) (= c1^0 c1^post)) (= c2^0 c2^post))
+(and (and (<= (+ 1 isign^0) (- 1)) (= c1^0 c1^post)) (= c2^0 c2^post))
 (= h1i^0 h1i^post))
 (= h1r^0 h1r^post))
 (= h2i^0 h2i^post))
@@ -1067,7 +1067,9 @@ wtemp^post)
 (and
 (and
 (and
-(and (and (<= (+ 0 isign^0) -1) (<= -1 (+ 0 isign^0))) (= c1^0 c1^post))
+(and
+(and (<= (+ 0 isign^0) (- 1)) (<= (- 1) (+ 0 isign^0)))
+(= c1^0 c1^post))
 (= c2^0 c2^post))
 (= h1i^0 h1i^post))
 (= h1r^0 h1r^post))
@@ -1334,7 +1336,7 @@ wtemp^post)
 (and
 (and
 (and
-(and (= j2^post (+ (+ 2 (* -1 i2^0)) nn2^0)) (= c1^0 c1^post))
+(and (= j2^post (+ (+ 2 (* (- 1) i2^0)) nn2^0)) (= c1^0 c1^post))
 (= c2^0 c2^post))
 (= h1i^0 h1i^post))
 (= h1r^0 h1r^post))
@@ -3128,7 +3130,7 @@ wtemp^post)
 (and
 (and
 (and
-(and (= j1___0^post (+ (+ 2 (* -1 i1^0)) nn1^0)) (= c1^0 c1^post))
+(and (= j1___0^post (+ (+ 2 (* (- 1) i1^0)) nn1^0)) (= c1^0 c1^post))
 (= c2^0 c2^post))
 (= h1i^0 h1i^post))
 (= h1r^0 h1r^post))

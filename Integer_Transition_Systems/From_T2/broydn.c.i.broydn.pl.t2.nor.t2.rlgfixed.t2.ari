@@ -14615,7 +14615,7 @@ tmp___9^post)
 (and
 (and
 (and
-(and (<= (+ 1 i^0) (+ 0 j^0)) (= i^post (+ -1 i^0)))
+(and (<= (+ 1 i^0) (+ 0 j^0)) (= i^post (+ (- 1) i^0)))
 (= __const_200^0 __const_200^post))
 (= den^0 den^post))
 (= f^0 f^post))

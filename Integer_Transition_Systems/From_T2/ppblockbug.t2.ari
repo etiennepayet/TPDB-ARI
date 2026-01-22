@@ -388,7 +388,7 @@ status^post)
 (and
 (and
 (and
-(and (= i^post (+ -1 i^0)) (= DName^0 DName^post))
+(and (= i^post (+ (- 1) i^0)) (= DName^0 DName^post))
 (= IoCreateDevice^0 IoCreateDevice^post))
 (= PPBlockInits^0 PPBlockInits^post))
 (= PPBunlockInits^0 PPBunlockInits^post))

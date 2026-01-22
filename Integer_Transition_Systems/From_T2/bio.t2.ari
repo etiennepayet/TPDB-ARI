@@ -8729,7 +8729,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell0_notchic^0) (+ 0 cell0_p21^0))
-(= cell0_p21_new^post (+ -1 cell0_p21^0)))
+(= cell0_p21_new^post (+ (- 1) cell0_p21^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -9702,7 +9702,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ (+ 0 cell0_gt1^0) cell0_gt2^0) (+ 0 (* 2 cell0_delta^0)))
-(<= (+ -1 (* 2 cell0_delta^0)) (+ (+ 0 cell0_gt1^0) cell0_gt2^0)))
+(<= (+ (- 1) (* 2 cell0_delta^0)) (+ (+ 0 cell0_gt1^0) cell0_gt2^0)))
 (= cell0_delta_new^post (+ 0 cell0_delta^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -10188,8 +10188,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ (+ 1 cell0_gt1^0) cell0_gt2^0) (+ -1 (* 2 cell0_delta^0)))
-(= cell0_delta_new^post (+ -1 cell0_delta^0)))
+(<= (+ (+ 1 cell0_gt1^0) cell0_gt2^0) (+ (- 1) (* 2 cell0_delta^0)))
+(= cell0_delta_new^post (+ (- 1) cell0_delta^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -11649,7 +11649,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell0_notchic^0) (+ 0 cell0_gt2^0))
-(= cell0_gt2_new^post (+ -1 cell0_gt2^0)))
+(= cell0_gt2_new^post (+ (- 1) cell0_gt2^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -13106,7 +13106,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 2 cell3_delta^0) (+ 0 (* 2 cell4_deltaext^0)))
-(<= (+ -1 (* 2 cell4_deltaext^0)) (+ 2 cell3_delta^0)))
+(<= (+ (- 1) (* 2 cell4_deltaext^0)) (+ 2 cell3_delta^0)))
 (= cell4_deltaext_new^post (+ 0 cell4_deltaext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -13592,8 +13592,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 3 cell3_delta^0) (+ -1 (* 2 cell4_deltaext^0)))
-(= cell4_deltaext_new^post (+ -1 cell4_deltaext^0)))
+(<= (+ 3 cell3_delta^0) (+ (- 1) (* 2 cell4_deltaext^0)))
+(= cell4_deltaext_new^post (+ (- 1) cell4_deltaext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -15543,7 +15543,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell0_deltaext^0) (+ 0 cell0_notchic^0))
-(= cell0_notchic_new^post (+ -1 cell0_notchic^0)))
+(= cell0_notchic_new^post (+ (- 1) cell0_notchic^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -16029,7 +16029,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= 1 (+ 0 cell0_notchic^0))
-(= cell0_notchic_new^post (+ -1 cell0_notchic^0)))
+(= cell0_notchic_new^post (+ (- 1) cell0_notchic^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -17491,7 +17491,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell3_wnt^0) (+ 0 (* 2 cell4_wntext^0)))
-(= cell4_wntext_new^post (+ -1 cell4_wntext^0)))
+(= cell4_wntext_new^post (+ (- 1) cell4_wntext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -18463,8 +18463,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell4_wnt^0) (+ 3 (* -1 cell4_p21^0)))
-(<= (+ 3 (* -1 cell4_p21^0)) (+ 0 cell4_wnt^0)))
+(<= (+ 0 cell4_wnt^0) (+ 3 (* (- 1) cell4_p21^0)))
+(<= (+ 3 (* (- 1) cell4_p21^0)) (+ 0 cell4_wnt^0)))
 (= cell4_wnt_new^post (+ 0 cell4_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -18950,8 +18950,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell4_p21^0)) (+ 0 cell4_wnt^0))
-(= cell4_wnt_new^post (+ -1 cell4_wnt^0)))
+(<= (+ 4 (* (- 1) cell4_p21^0)) (+ 0 cell4_wnt^0))
+(= cell4_wnt_new^post (+ (- 1) cell4_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -19436,7 +19436,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell4_wnt^0) (+ 3 (* -1 cell4_p21^0)))
+(<= (+ 1 cell4_wnt^0) (+ 3 (* (- 1) cell4_p21^0)))
 (= cell4_wnt_new^post (+ 1 cell4_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -20411,7 +20411,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell4_notchic^0) (+ 0 cell4_p21^0))
-(= cell4_p21_new^post (+ -1 cell4_p21^0)))
+(= cell4_p21_new^post (+ (- 1) cell4_p21^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -21384,7 +21384,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ (+ 0 cell4_gt1^0) cell4_gt2^0) (+ 0 (* 2 cell4_delta^0)))
-(<= (+ -1 (* 2 cell4_delta^0)) (+ (+ 0 cell4_gt1^0) cell4_gt2^0)))
+(<= (+ (- 1) (* 2 cell4_delta^0)) (+ (+ 0 cell4_gt1^0) cell4_gt2^0)))
 (= cell4_delta_new^post (+ 0 cell4_delta^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -21870,8 +21870,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ (+ 1 cell4_gt1^0) cell4_gt2^0) (+ -1 (* 2 cell4_delta^0)))
-(= cell4_delta_new^post (+ -1 cell4_delta^0)))
+(<= (+ (+ 1 cell4_gt1^0) cell4_gt2^0) (+ (- 1) (* 2 cell4_delta^0)))
+(= cell4_delta_new^post (+ (- 1) cell4_delta^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -23331,7 +23331,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell4_notchic^0) (+ 0 cell4_gt2^0))
-(= cell4_gt2_new^post (+ -1 cell4_gt2^0)))
+(= cell4_gt2_new^post (+ (- 1) cell4_gt2^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -25281,7 +25281,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell4_deltaext^0) (+ 0 cell4_notchic^0))
-(= cell4_notchic_new^post (+ -1 cell4_notchic^0)))
+(= cell4_notchic_new^post (+ (- 1) cell4_notchic^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -25767,7 +25767,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= 4 (+ 0 cell4_notchic^0))
-(= cell4_notchic_new^post (+ -1 cell4_notchic^0)))
+(= cell4_notchic_new^post (+ (- 1) cell4_notchic^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -27229,7 +27229,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell4_bcat^0) (+ 0 cell4_gt1^0))
-(= cell4_gt1_new^post (+ -1 cell4_gt1^0)))
+(= cell4_gt1_new^post (+ (- 1) cell4_gt1^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -28201,8 +28201,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell4_bcat^0) (+ 3 (* -1 cell4_axin^0)))
-(<= (+ 3 (* -1 cell4_axin^0)) (+ 0 cell4_bcat^0)))
+(<= (+ 0 cell4_bcat^0) (+ 3 (* (- 1) cell4_axin^0)))
+(<= (+ 3 (* (- 1) cell4_axin^0)) (+ 0 cell4_bcat^0)))
 (= cell4_bcat_new^post (+ 0 cell4_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -28688,8 +28688,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell4_axin^0)) (+ 0 cell4_bcat^0))
-(= cell4_bcat_new^post (+ -1 cell4_bcat^0)))
+(<= (+ 4 (* (- 1) cell4_axin^0)) (+ 0 cell4_bcat^0))
+(= cell4_bcat_new^post (+ (- 1) cell4_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -29174,7 +29174,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell4_bcat^0) (+ 3 (* -1 cell4_axin^0)))
+(<= (+ 1 cell4_bcat^0) (+ 3 (* (- 1) cell4_axin^0)))
 (= cell4_bcat_new^post (+ 1 cell4_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -29661,8 +29661,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell4_axin^0) (+ 3 (* -1 cell4_dsh^0)))
-(<= (+ 3 (* -1 cell4_dsh^0)) (+ 0 cell4_axin^0)))
+(<= (+ 0 cell4_axin^0) (+ 3 (* (- 1) cell4_dsh^0)))
+(<= (+ 3 (* (- 1) cell4_dsh^0)) (+ 0 cell4_axin^0)))
 (= cell4_axin_new^post (+ 0 cell4_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -30148,8 +30148,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell4_dsh^0)) (+ 0 cell4_axin^0))
-(= cell4_axin_new^post (+ -1 cell4_axin^0)))
+(<= (+ 4 (* (- 1) cell4_dsh^0)) (+ 0 cell4_axin^0))
+(= cell4_axin_new^post (+ (- 1) cell4_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -30634,7 +30634,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell4_axin^0) (+ 3 (* -1 cell4_dsh^0)))
+(<= (+ 1 cell4_axin^0) (+ 3 (* (- 1) cell4_dsh^0)))
 (= cell4_axin_new^post (+ 1 cell4_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -31609,7 +31609,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell4_frizzled^0) (+ 0 cell4_dsh^0))
-(= cell4_dsh_new^post (+ -1 cell4_dsh^0)))
+(= cell4_dsh_new^post (+ (- 1) cell4_dsh^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -33069,7 +33069,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell0_bcat^0) (+ 0 cell0_gt1^0))
-(= cell0_gt1_new^post (+ -1 cell0_gt1^0)))
+(= cell0_gt1_new^post (+ (- 1) cell0_gt1^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -34529,7 +34529,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell4_wntext^0) (+ 0 cell4_frizzled^0))
-(= cell4_frizzled_new^post (+ -1 cell4_frizzled^0)))
+(= cell4_frizzled_new^post (+ (- 1) cell4_frizzled^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -35502,7 +35502,10 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ (+ 0 cell2_delta^0) cell4_delta^0) (+ 0 (* 2 cell3_deltaext^0)))
-(<= (+ -1 (* 2 cell3_deltaext^0)) (+ (+ 0 cell2_delta^0) cell4_delta^0)))
+(<=
+(+ (- 1) (* 2 cell3_deltaext^0))
+(+ (+ 0 cell2_delta^0) cell4_delta^0))
+)
 (= cell3_deltaext_new^post (+ 0 cell3_deltaext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -35988,8 +35991,10 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ (+ 1 cell2_delta^0) cell4_delta^0) (+ -1 (* 2 cell3_deltaext^0)))
-(= cell3_deltaext_new^post (+ -1 cell3_deltaext^0)))
+(<=
+(+ (+ 1 cell2_delta^0) cell4_delta^0)
+(+ (- 1) (* 2 cell3_deltaext^0)))
+(= cell3_deltaext_new^post (+ (- 1) cell3_deltaext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -37449,7 +37454,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ (+ 1 cell2_wnt^0) cell4_wnt^0) (+ 0 (* 2 cell3_wntext^0)))
-(= cell3_wntext_new^post (+ -1 cell3_wntext^0)))
+(= cell3_wntext_new^post (+ (- 1) cell3_wntext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -38421,8 +38426,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell3_wnt^0) (+ 3 (* -1 cell3_p21^0)))
-(<= (+ 3 (* -1 cell3_p21^0)) (+ 0 cell3_wnt^0)))
+(<= (+ 0 cell3_wnt^0) (+ 3 (* (- 1) cell3_p21^0)))
+(<= (+ 3 (* (- 1) cell3_p21^0)) (+ 0 cell3_wnt^0)))
 (= cell3_wnt_new^post (+ 0 cell3_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -38908,8 +38913,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell3_p21^0)) (+ 0 cell3_wnt^0))
-(= cell3_wnt_new^post (+ -1 cell3_wnt^0)))
+(<= (+ 4 (* (- 1) cell3_p21^0)) (+ 0 cell3_wnt^0))
+(= cell3_wnt_new^post (+ (- 1) cell3_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -39394,7 +39399,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell3_wnt^0) (+ 3 (* -1 cell3_p21^0)))
+(<= (+ 1 cell3_wnt^0) (+ 3 (* (- 1) cell3_p21^0)))
 (= cell3_wnt_new^post (+ 1 cell3_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -40369,7 +40374,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell3_notchic^0) (+ 0 cell3_p21^0))
-(= cell3_p21_new^post (+ -1 cell3_p21^0)))
+(= cell3_p21_new^post (+ (- 1) cell3_p21^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -41342,7 +41347,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ (+ 0 cell3_gt1^0) cell3_gt2^0) (+ 0 (* 2 cell3_delta^0)))
-(<= (+ -1 (* 2 cell3_delta^0)) (+ (+ 0 cell3_gt1^0) cell3_gt2^0)))
+(<= (+ (- 1) (* 2 cell3_delta^0)) (+ (+ 0 cell3_gt1^0) cell3_gt2^0)))
 (= cell3_delta_new^post (+ 0 cell3_delta^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -41828,8 +41833,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ (+ 1 cell3_gt1^0) cell3_gt2^0) (+ -1 (* 2 cell3_delta^0)))
-(= cell3_delta_new^post (+ -1 cell3_delta^0)))
+(<= (+ (+ 1 cell3_gt1^0) cell3_gt2^0) (+ (- 1) (* 2 cell3_delta^0)))
+(= cell3_delta_new^post (+ (- 1) cell3_delta^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -43289,7 +43294,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell3_notchic^0) (+ 0 cell3_gt2^0))
-(= cell3_gt2_new^post (+ -1 cell3_gt2^0)))
+(= cell3_gt2_new^post (+ (- 1) cell3_gt2^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -45239,7 +45244,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell3_deltaext^0) (+ 0 cell3_notchic^0))
-(= cell3_notchic_new^post (+ -1 cell3_notchic^0)))
+(= cell3_notchic_new^post (+ (- 1) cell3_notchic^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -45725,7 +45730,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= 4 (+ 0 cell3_notchic^0))
-(= cell3_notchic_new^post (+ -1 cell3_notchic^0)))
+(= cell3_notchic_new^post (+ (- 1) cell3_notchic^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -47187,7 +47192,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell3_bcat^0) (+ 0 cell3_gt1^0))
-(= cell3_gt1_new^post (+ -1 cell3_gt1^0)))
+(= cell3_gt1_new^post (+ (- 1) cell3_gt1^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -48159,8 +48164,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell3_bcat^0) (+ 3 (* -1 cell3_axin^0)))
-(<= (+ 3 (* -1 cell3_axin^0)) (+ 0 cell3_bcat^0)))
+(<= (+ 0 cell3_bcat^0) (+ 3 (* (- 1) cell3_axin^0)))
+(<= (+ 3 (* (- 1) cell3_axin^0)) (+ 0 cell3_bcat^0)))
 (= cell3_bcat_new^post (+ 0 cell3_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -48646,8 +48651,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell3_axin^0)) (+ 0 cell3_bcat^0))
-(= cell3_bcat_new^post (+ -1 cell3_bcat^0)))
+(<= (+ 4 (* (- 1) cell3_axin^0)) (+ 0 cell3_bcat^0))
+(= cell3_bcat_new^post (+ (- 1) cell3_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -49132,7 +49137,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell3_bcat^0) (+ 3 (* -1 cell3_axin^0)))
+(<= (+ 1 cell3_bcat^0) (+ 3 (* (- 1) cell3_axin^0)))
 (= cell3_bcat_new^post (+ 1 cell3_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -49619,8 +49624,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell0_bcat^0) (+ 3 (* -1 cell0_axin^0)))
-(<= (+ 3 (* -1 cell0_axin^0)) (+ 0 cell0_bcat^0)))
+(<= (+ 0 cell0_bcat^0) (+ 3 (* (- 1) cell0_axin^0)))
+(<= (+ 3 (* (- 1) cell0_axin^0)) (+ 0 cell0_bcat^0)))
 (= cell0_bcat_new^post (+ 0 cell0_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -50106,8 +50111,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell0_axin^0)) (+ 0 cell0_bcat^0))
-(= cell0_bcat_new^post (+ -1 cell0_bcat^0)))
+(<= (+ 4 (* (- 1) cell0_axin^0)) (+ 0 cell0_bcat^0))
+(= cell0_bcat_new^post (+ (- 1) cell0_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -50592,7 +50597,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell0_bcat^0) (+ 3 (* -1 cell0_axin^0)))
+(<= (+ 1 cell0_bcat^0) (+ 3 (* (- 1) cell0_axin^0)))
 (= cell0_bcat_new^post (+ 1 cell0_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -51079,8 +51084,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell3_axin^0) (+ 3 (* -1 cell3_dsh^0)))
-(<= (+ 3 (* -1 cell3_dsh^0)) (+ 0 cell3_axin^0)))
+(<= (+ 0 cell3_axin^0) (+ 3 (* (- 1) cell3_dsh^0)))
+(<= (+ 3 (* (- 1) cell3_dsh^0)) (+ 0 cell3_axin^0)))
 (= cell3_axin_new^post (+ 0 cell3_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -51566,8 +51571,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell3_dsh^0)) (+ 0 cell3_axin^0))
-(= cell3_axin_new^post (+ -1 cell3_axin^0)))
+(<= (+ 4 (* (- 1) cell3_dsh^0)) (+ 0 cell3_axin^0))
+(= cell3_axin_new^post (+ (- 1) cell3_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -52052,7 +52057,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell3_axin^0) (+ 3 (* -1 cell3_dsh^0)))
+(<= (+ 1 cell3_axin^0) (+ 3 (* (- 1) cell3_dsh^0)))
 (= cell3_axin_new^post (+ 1 cell3_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -53027,7 +53032,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell3_frizzled^0) (+ 0 cell3_dsh^0))
-(= cell3_dsh_new^post (+ -1 cell3_dsh^0)))
+(= cell3_dsh_new^post (+ (- 1) cell3_dsh^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -54487,7 +54492,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell3_wntext^0) (+ 0 cell3_frizzled^0))
-(= cell3_frizzled_new^post (+ -1 cell3_frizzled^0)))
+(= cell3_frizzled_new^post (+ (- 1) cell3_frizzled^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -55460,7 +55465,10 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ (+ 0 cell1_delta^0) cell3_delta^0) (+ 0 (* 2 cell2_deltaext^0)))
-(<= (+ -1 (* 2 cell2_deltaext^0)) (+ (+ 0 cell1_delta^0) cell3_delta^0)))
+(<=
+(+ (- 1) (* 2 cell2_deltaext^0))
+(+ (+ 0 cell1_delta^0) cell3_delta^0))
+)
 (= cell2_deltaext_new^post (+ 0 cell2_deltaext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -55946,8 +55954,10 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ (+ 1 cell1_delta^0) cell3_delta^0) (+ -1 (* 2 cell2_deltaext^0)))
-(= cell2_deltaext_new^post (+ -1 cell2_deltaext^0)))
+(<=
+(+ (+ 1 cell1_delta^0) cell3_delta^0)
+(+ (- 1) (* 2 cell2_deltaext^0)))
+(= cell2_deltaext_new^post (+ (- 1) cell2_deltaext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -57407,7 +57417,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ (+ 1 cell1_wnt^0) cell3_wnt^0) (+ 0 (* 2 cell2_wntext^0)))
-(= cell2_wntext_new^post (+ -1 cell2_wntext^0)))
+(= cell2_wntext_new^post (+ (- 1) cell2_wntext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -58379,8 +58389,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell2_wnt^0) (+ 3 (* -1 cell2_p21^0)))
-(<= (+ 3 (* -1 cell2_p21^0)) (+ 0 cell2_wnt^0)))
+(<= (+ 0 cell2_wnt^0) (+ 3 (* (- 1) cell2_p21^0)))
+(<= (+ 3 (* (- 1) cell2_p21^0)) (+ 0 cell2_wnt^0)))
 (= cell2_wnt_new^post (+ 0 cell2_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -58866,8 +58876,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell2_p21^0)) (+ 0 cell2_wnt^0))
-(= cell2_wnt_new^post (+ -1 cell2_wnt^0)))
+(<= (+ 4 (* (- 1) cell2_p21^0)) (+ 0 cell2_wnt^0))
+(= cell2_wnt_new^post (+ (- 1) cell2_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -59352,7 +59362,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell2_wnt^0) (+ 3 (* -1 cell2_p21^0)))
+(<= (+ 1 cell2_wnt^0) (+ 3 (* (- 1) cell2_p21^0)))
 (= cell2_wnt_new^post (+ 1 cell2_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -60327,7 +60337,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell2_notchic^0) (+ 0 cell2_p21^0))
-(= cell2_p21_new^post (+ -1 cell2_p21^0)))
+(= cell2_p21_new^post (+ (- 1) cell2_p21^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -61300,7 +61310,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ (+ 0 cell2_gt1^0) cell2_gt2^0) (+ 0 (* 2 cell2_delta^0)))
-(<= (+ -1 (* 2 cell2_delta^0)) (+ (+ 0 cell2_gt1^0) cell2_gt2^0)))
+(<= (+ (- 1) (* 2 cell2_delta^0)) (+ (+ 0 cell2_gt1^0) cell2_gt2^0)))
 (= cell2_delta_new^post (+ 0 cell2_delta^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -61786,8 +61796,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ (+ 1 cell2_gt1^0) cell2_gt2^0) (+ -1 (* 2 cell2_delta^0)))
-(= cell2_delta_new^post (+ -1 cell2_delta^0)))
+(<= (+ (+ 1 cell2_gt1^0) cell2_gt2^0) (+ (- 1) (* 2 cell2_delta^0)))
+(= cell2_delta_new^post (+ (- 1) cell2_delta^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -63247,7 +63257,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell2_notchic^0) (+ 0 cell2_gt2^0))
-(= cell2_gt2_new^post (+ -1 cell2_gt2^0)))
+(= cell2_gt2_new^post (+ (- 1) cell2_gt2^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -65197,7 +65207,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell2_deltaext^0) (+ 0 cell2_notchic^0))
-(= cell2_notchic_new^post (+ -1 cell2_notchic^0)))
+(= cell2_notchic_new^post (+ (- 1) cell2_notchic^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -65683,7 +65693,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= 4 (+ 0 cell2_notchic^0))
-(= cell2_notchic_new^post (+ -1 cell2_notchic^0)))
+(= cell2_notchic_new^post (+ (- 1) cell2_notchic^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -66657,8 +66667,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell0_axin^0) (+ 3 (* -1 cell0_dsh^0)))
-(<= (+ 3 (* -1 cell0_dsh^0)) (+ 0 cell0_axin^0)))
+(<= (+ 0 cell0_axin^0) (+ 3 (* (- 1) cell0_dsh^0)))
+(<= (+ 3 (* (- 1) cell0_dsh^0)) (+ 0 cell0_axin^0)))
 (= cell0_axin_new^post (+ 0 cell0_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -67144,8 +67154,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell0_dsh^0)) (+ 0 cell0_axin^0))
-(= cell0_axin_new^post (+ -1 cell0_axin^0)))
+(<= (+ 4 (* (- 1) cell0_dsh^0)) (+ 0 cell0_axin^0))
+(= cell0_axin_new^post (+ (- 1) cell0_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_bcat^0 cell0_bcat^post))
 (= cell0_bcat_new^0 cell0_bcat_new^post))
@@ -67630,7 +67640,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell0_axin^0) (+ 3 (* -1 cell0_dsh^0)))
+(<= (+ 1 cell0_axin^0) (+ 3 (* (- 1) cell0_dsh^0)))
 (= cell0_axin_new^post (+ 1 cell0_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -68605,7 +68615,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell2_bcat^0) (+ 0 cell2_gt1^0))
-(= cell2_gt1_new^post (+ -1 cell2_gt1^0)))
+(= cell2_gt1_new^post (+ (- 1) cell2_gt1^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -69577,8 +69587,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell2_bcat^0) (+ 3 (* -1 cell2_axin^0)))
-(<= (+ 3 (* -1 cell2_axin^0)) (+ 0 cell2_bcat^0)))
+(<= (+ 0 cell2_bcat^0) (+ 3 (* (- 1) cell2_axin^0)))
+(<= (+ 3 (* (- 1) cell2_axin^0)) (+ 0 cell2_bcat^0)))
 (= cell2_bcat_new^post (+ 0 cell2_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -70064,8 +70074,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell2_axin^0)) (+ 0 cell2_bcat^0))
-(= cell2_bcat_new^post (+ -1 cell2_bcat^0)))
+(<= (+ 4 (* (- 1) cell2_axin^0)) (+ 0 cell2_bcat^0))
+(= cell2_bcat_new^post (+ (- 1) cell2_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -70550,7 +70560,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell2_bcat^0) (+ 3 (* -1 cell2_axin^0)))
+(<= (+ 1 cell2_bcat^0) (+ 3 (* (- 1) cell2_axin^0)))
 (= cell2_bcat_new^post (+ 1 cell2_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -71037,8 +71047,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell2_axin^0) (+ 3 (* -1 cell2_dsh^0)))
-(<= (+ 3 (* -1 cell2_dsh^0)) (+ 0 cell2_axin^0)))
+(<= (+ 0 cell2_axin^0) (+ 3 (* (- 1) cell2_dsh^0)))
+(<= (+ 3 (* (- 1) cell2_dsh^0)) (+ 0 cell2_axin^0)))
 (= cell2_axin_new^post (+ 0 cell2_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -71524,8 +71534,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell2_dsh^0)) (+ 0 cell2_axin^0))
-(= cell2_axin_new^post (+ -1 cell2_axin^0)))
+(<= (+ 4 (* (- 1) cell2_dsh^0)) (+ 0 cell2_axin^0))
+(= cell2_axin_new^post (+ (- 1) cell2_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -72010,7 +72020,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell2_axin^0) (+ 3 (* -1 cell2_dsh^0)))
+(<= (+ 1 cell2_axin^0) (+ 3 (* (- 1) cell2_dsh^0)))
 (= cell2_axin_new^post (+ 1 cell2_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -72985,7 +72995,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell2_frizzled^0) (+ 0 cell2_dsh^0))
-(= cell2_dsh_new^post (+ -1 cell2_dsh^0)))
+(= cell2_dsh_new^post (+ (- 1) cell2_dsh^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -74445,7 +74455,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell2_wntext^0) (+ 0 cell2_frizzled^0))
-(= cell2_frizzled_new^post (+ -1 cell2_frizzled^0)))
+(= cell2_frizzled_new^post (+ (- 1) cell2_frizzled^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -75418,7 +75428,10 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ (+ 0 cell0_delta^0) cell2_delta^0) (+ 0 (* 2 cell1_deltaext^0)))
-(<= (+ -1 (* 2 cell1_deltaext^0)) (+ (+ 0 cell0_delta^0) cell2_delta^0)))
+(<=
+(+ (- 1) (* 2 cell1_deltaext^0))
+(+ (+ 0 cell0_delta^0) cell2_delta^0))
+)
 (= cell1_deltaext_new^post (+ 0 cell1_deltaext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -75904,8 +75917,10 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ (+ 1 cell0_delta^0) cell2_delta^0) (+ -1 (* 2 cell1_deltaext^0)))
-(= cell1_deltaext_new^post (+ -1 cell1_deltaext^0)))
+(<=
+(+ (+ 1 cell0_delta^0) cell2_delta^0)
+(+ (- 1) (* 2 cell1_deltaext^0)))
+(= cell1_deltaext_new^post (+ (- 1) cell1_deltaext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -77365,7 +77380,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ (+ 1 cell0_wnt^0) cell2_wnt^0) (+ 0 (* 2 cell1_wntext^0)))
-(= cell1_wntext_new^post (+ -1 cell1_wntext^0)))
+(= cell1_wntext_new^post (+ (- 1) cell1_wntext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -78337,8 +78352,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell1_wnt^0) (+ 3 (* -1 cell1_p21^0)))
-(<= (+ 3 (* -1 cell1_p21^0)) (+ 0 cell1_wnt^0)))
+(<= (+ 0 cell1_wnt^0) (+ 3 (* (- 1) cell1_p21^0)))
+(<= (+ 3 (* (- 1) cell1_p21^0)) (+ 0 cell1_wnt^0)))
 (= cell1_wnt_new^post (+ 0 cell1_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -78824,8 +78839,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell1_p21^0)) (+ 0 cell1_wnt^0))
-(= cell1_wnt_new^post (+ -1 cell1_wnt^0)))
+(<= (+ 4 (* (- 1) cell1_p21^0)) (+ 0 cell1_wnt^0))
+(= cell1_wnt_new^post (+ (- 1) cell1_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -79310,7 +79325,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell1_wnt^0) (+ 3 (* -1 cell1_p21^0)))
+(<= (+ 1 cell1_wnt^0) (+ 3 (* (- 1) cell1_p21^0)))
 (= cell1_wnt_new^post (+ 1 cell1_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -80285,7 +80300,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell1_notchic^0) (+ 0 cell1_p21^0))
-(= cell1_p21_new^post (+ -1 cell1_p21^0)))
+(= cell1_p21_new^post (+ (- 1) cell1_p21^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -81258,7 +81273,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ (+ 0 cell1_gt1^0) cell1_gt2^0) (+ 0 (* 2 cell1_delta^0)))
-(<= (+ -1 (* 2 cell1_delta^0)) (+ (+ 0 cell1_gt1^0) cell1_gt2^0)))
+(<= (+ (- 1) (* 2 cell1_delta^0)) (+ (+ 0 cell1_gt1^0) cell1_gt2^0)))
 (= cell1_delta_new^post (+ 0 cell1_delta^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -81744,8 +81759,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ (+ 1 cell1_gt1^0) cell1_gt2^0) (+ -1 (* 2 cell1_delta^0)))
-(= cell1_delta_new^post (+ -1 cell1_delta^0)))
+(<= (+ (+ 1 cell1_gt1^0) cell1_gt2^0) (+ (- 1) (* 2 cell1_delta^0)))
+(= cell1_delta_new^post (+ (- 1) cell1_delta^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -83205,7 +83220,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell0_frizzled^0) (+ 0 cell0_dsh^0))
-(= cell0_dsh_new^post (+ -1 cell0_dsh^0)))
+(= cell0_dsh_new^post (+ (- 1) cell0_dsh^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -84665,7 +84680,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell1_notchic^0) (+ 0 cell1_gt2^0))
-(= cell1_gt2_new^post (+ -1 cell1_gt2^0)))
+(= cell1_gt2_new^post (+ (- 1) cell1_gt2^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -86615,7 +86630,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell1_deltaext^0) (+ 0 cell1_notchic^0))
-(= cell1_notchic_new^post (+ -1 cell1_notchic^0)))
+(= cell1_notchic_new^post (+ (- 1) cell1_notchic^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -87101,7 +87116,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= 3 (+ 0 cell1_notchic^0))
-(= cell1_notchic_new^post (+ -1 cell1_notchic^0)))
+(= cell1_notchic_new^post (+ (- 1) cell1_notchic^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -88563,7 +88578,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell1_bcat^0) (+ 0 cell1_gt1^0))
-(= cell1_gt1_new^post (+ -1 cell1_gt1^0)))
+(= cell1_gt1_new^post (+ (- 1) cell1_gt1^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -89535,8 +89550,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell1_bcat^0) (+ 3 (* -1 cell1_axin^0)))
-(<= (+ 3 (* -1 cell1_axin^0)) (+ 0 cell1_bcat^0)))
+(<= (+ 0 cell1_bcat^0) (+ 3 (* (- 1) cell1_axin^0)))
+(<= (+ 3 (* (- 1) cell1_axin^0)) (+ 0 cell1_bcat^0)))
 (= cell1_bcat_new^post (+ 0 cell1_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -90022,8 +90037,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell1_axin^0)) (+ 0 cell1_bcat^0))
-(= cell1_bcat_new^post (+ -1 cell1_bcat^0)))
+(<= (+ 4 (* (- 1) cell1_axin^0)) (+ 0 cell1_bcat^0))
+(= cell1_bcat_new^post (+ (- 1) cell1_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -90508,7 +90523,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell1_bcat^0) (+ 3 (* -1 cell1_axin^0)))
+(<= (+ 1 cell1_bcat^0) (+ 3 (* (- 1) cell1_axin^0)))
 (= cell1_bcat_new^post (+ 1 cell1_bcat^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -90995,8 +91010,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell1_axin^0) (+ 3 (* -1 cell1_dsh^0)))
-(<= (+ 3 (* -1 cell1_dsh^0)) (+ 0 cell1_axin^0)))
+(<= (+ 0 cell1_axin^0) (+ 3 (* (- 1) cell1_dsh^0)))
+(<= (+ 3 (* (- 1) cell1_dsh^0)) (+ 0 cell1_axin^0)))
 (= cell1_axin_new^post (+ 0 cell1_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -91482,8 +91497,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell1_dsh^0)) (+ 0 cell1_axin^0))
-(= cell1_axin_new^post (+ -1 cell1_axin^0)))
+(<= (+ 4 (* (- 1) cell1_dsh^0)) (+ 0 cell1_axin^0))
+(= cell1_axin_new^post (+ (- 1) cell1_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -91968,7 +91983,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell1_axin^0) (+ 3 (* -1 cell1_dsh^0)))
+(<= (+ 1 cell1_axin^0) (+ 3 (* (- 1) cell1_dsh^0)))
 (= cell1_axin_new^post (+ 1 cell1_axin^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -92943,7 +92958,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell1_frizzled^0) (+ 0 cell1_dsh^0))
-(= cell1_dsh_new^post (+ -1 cell1_dsh^0)))
+(= cell1_dsh_new^post (+ (- 1) cell1_dsh^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -94403,7 +94418,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell1_wntext^0) (+ 0 cell1_frizzled^0))
-(= cell1_frizzled_new^post (+ -1 cell1_frizzled^0)))
+(= cell1_frizzled_new^post (+ (- 1) cell1_frizzled^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -95376,7 +95391,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 2 cell1_delta^0) (+ 0 (* 2 cell0_deltaext^0)))
-(<= (+ -1 (* 2 cell0_deltaext^0)) (+ 2 cell1_delta^0)))
+(<= (+ (- 1) (* 2 cell0_deltaext^0)) (+ 2 cell1_delta^0)))
 (= cell0_deltaext_new^post (+ 0 cell0_deltaext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -95862,8 +95877,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 3 cell1_delta^0) (+ -1 (* 2 cell0_deltaext^0)))
-(= cell0_deltaext_new^post (+ -1 cell0_deltaext^0)))
+(<= (+ 3 cell1_delta^0) (+ (- 1) (* 2 cell0_deltaext^0)))
+(= cell0_deltaext_new^post (+ (- 1) cell0_deltaext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -97323,7 +97338,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 4 cell1_wnt^0) (+ 0 (* 2 cell0_wntext^0)))
-(= cell0_wntext_new^post (+ -1 cell0_wntext^0)))
+(= cell0_wntext_new^post (+ (- 1) cell0_wntext^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -98295,8 +98310,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 0 cell0_wnt^0) (+ 3 (* -1 cell0_p21^0)))
-(<= (+ 3 (* -1 cell0_p21^0)) (+ 0 cell0_wnt^0)))
+(<= (+ 0 cell0_wnt^0) (+ 3 (* (- 1) cell0_p21^0)))
+(<= (+ 3 (* (- 1) cell0_p21^0)) (+ 0 cell0_wnt^0)))
 (= cell0_wnt_new^post (+ 0 cell0_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -98782,8 +98797,8 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 4 (* -1 cell0_p21^0)) (+ 0 cell0_wnt^0))
-(= cell0_wnt_new^post (+ -1 cell0_wnt^0)))
+(<= (+ 4 (* (- 1) cell0_p21^0)) (+ 0 cell0_wnt^0))
+(= cell0_wnt_new^post (+ (- 1) cell0_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))
@@ -99268,7 +99283,7 @@ cell4_wntext_new^post)
 (and
 (and
 (and
-(<= (+ 1 cell0_wnt^0) (+ 3 (* -1 cell0_p21^0)))
+(<= (+ 1 cell0_wnt^0) (+ 3 (* (- 1) cell0_p21^0)))
 (= cell0_wnt_new^post (+ 1 cell0_wnt^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
@@ -100243,7 +100258,7 @@ cell4_wntext_new^post)
 (and
 (and
 (<= (+ 1 cell0_wntext^0) (+ 0 cell0_frizzled^0))
-(= cell0_frizzled_new^post (+ -1 cell0_frizzled^0)))
+(= cell0_frizzled_new^post (+ (- 1) cell0_frizzled^0)))
 (= cell0_axin^0 cell0_axin^post))
 (= cell0_axin_new^0 cell0_axin_new^post))
 (= cell0_bcat^0 cell0_bcat^post))

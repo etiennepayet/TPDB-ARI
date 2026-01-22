@@ -32,7 +32,9 @@
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 a^0)) (= a^post (+ -1 a^0))) (= b^post (+ 1 b^0)))
+(and
+(and (<= 1 (+ 0 a^0)) (= a^post (+ (- 1) a^0)))
+(= b^post (+ 1 b^0)))
 (= i^0 i^post))
 (= n^0 n^post))
 (= tmp^0 tmp^post))
@@ -63,7 +65,7 @@
 :guard
 (and
 (and
-(and (and (= i^post (+ -1 i^0)) (= a^0 a^post)) (= b^0 b^post))
+(and (and (= i^post (+ (- 1) i^0)) (= a^0 a^post)) (= b^0 b^post))
 (= n^0 n^post))
 (= tmp^0 tmp^post))
 )
@@ -83,7 +85,7 @@
 :guard
 (and
 (and
-(and (and (= a^post (+ -1 a^0)) (= b^post (+ 1 b^0))) (= i^0 i^post))
+(and (and (= a^post (+ (- 1) a^0)) (= b^post (+ 1 b^0))) (= i^0 i^post))
 (= n^0 n^post))
 (= tmp^0 tmp^post))
 )
@@ -168,7 +170,9 @@
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 b^0)) (= b^post (+ -1 b^0))) (= i^post (+ -1 a^0)))
+(and
+(and (<= 1 (+ 0 b^0)) (= b^post (+ (- 1) b^0)))
+(= i^post (+ (- 1) a^0)))
 (= a^0 a^post))
 (= n^0 n^post))
 (= tmp^0 tmp^post))

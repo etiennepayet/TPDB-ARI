@@ -64,7 +64,7 @@
 (= nd_12^post nd_12^post))
 (<= 0 (+ 0 rv_15^post)))
 (<= (+ 0 rv_15^post) 0))
-(= y_17^post (+ -1 y_17^0)))
+(= y_17^post (+ (- 1) y_17^0)))
 (= st_16^post st_16^post))
 (<= 2 (+ 0 y_17^post)))
 (= rt_11^0 rt_11^post))
@@ -159,7 +159,7 @@
 (and
 (and
 (and
-(and (= x_13^post (+ -1 x_13^0)) (= nd_12^1 nd_12^1))
+(and (= x_13^post (+ (- 1) x_13^0)) (= nd_12^1 nd_12^1))
 (= y_17^post (+ 0 nd_12^1)))
 (= nd_12^post nd_12^post))
 (= rt_11^0 rt_11^post))

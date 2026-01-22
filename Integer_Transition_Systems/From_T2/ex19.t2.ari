@@ -14,7 +14,9 @@
 (l1 i^post j^post x^post y^post)
 :guard
 (and
-(and (and (= x^post (+ -1 x^0)) (= y^post (+ -1 y^0))) (= i^0 i^post))
+(and
+(and (= x^post (+ (- 1) x^0)) (= y^post (+ (- 1) y^0)))
+(= i^0 i^post))
 (= j^0 j^post))
 )
 (rule

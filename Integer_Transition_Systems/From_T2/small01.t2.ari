@@ -10,7 +10,7 @@
 (l0 __disjvr_0^0 x^0)
 (l2 __disjvr_0^post x^post)
 :guard
-(and (= x^post (+ -1 x^0)) (= __disjvr_0^0 __disjvr_0^post)))
+(and (= x^post (+ (- 1) x^0)) (= __disjvr_0^0 __disjvr_0^post)))
 (rule
 (l2 __disjvr_0^0 x^0)
 (l1 __disjvr_0^post x^post)

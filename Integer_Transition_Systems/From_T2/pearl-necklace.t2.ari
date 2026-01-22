@@ -18,7 +18,9 @@
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 i4^0)) (= i4^post (+ -1 i4^0))) (= i1^0 i1^post))
+(and
+(and (<= 1 (+ 0 i4^0)) (= i4^post (+ (- 1) i4^0)))
+(= i1^0 i1^post))
 (= i2^0 i2^post))
 (= i3^0 i3^post))
 (= n^0 n^post))
@@ -90,7 +92,9 @@
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 i2^0)) (= i2^post (+ -1 i2^0))) (= i1^0 i1^post))
+(and
+(and (<= 1 (+ 0 i2^0)) (= i2^post (+ (- 1) i2^0)))
+(= i1^0 i1^post))
 (= i3^0 i3^post))
 (= i4^0 i4^post))
 (= n^0 n^post))

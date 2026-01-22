@@ -89,7 +89,7 @@
 :guard
 (and
 (and
-(and (= j^post (+ -1 j^0)) (= n^post (+ -1 n^0)))
+(and (= j^post (+ (- 1) j^0)) (= n^post (+ (- 1) n^0)))
 (= guard^0 guard^post))
 (= i^0 i^post))
 )

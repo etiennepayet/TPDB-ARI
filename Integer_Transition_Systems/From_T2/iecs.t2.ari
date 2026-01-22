@@ -10,7 +10,7 @@
 (l1 x^post y^post)
 :guard
 (and
-(and (<= 1 (+ 0 x^0)) (= x^post (+ (+ 0 x^0) (* -1 y^0))))
+(and (<= 1 (+ 0 x^0)) (= x^post (+ (+ 0 x^0) (* (- 1) y^0))))
 (= y^post (+ 1 y^0)))
 )
 (rule

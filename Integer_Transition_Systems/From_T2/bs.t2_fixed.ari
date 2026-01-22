@@ -47,7 +47,7 @@ x2^post)
 (and
 (and
 (and
-(and (= up5^post (+ -1 low6^0)) (= fvalue3^post fvalue3^post))
+(and (= up5^post (+ (- 1) low6^0)) (= fvalue3^post fvalue3^post))
 (= low6^0 low6^post))
 (= mid4^0 mid4^post))
 (= ret_binary_search7^0 ret_binary_search7^post))
@@ -191,7 +191,7 @@ x2^post)
 (and
 (and
 (and
-(and (= up5^post (+ -1 mid4^0)) (= fvalue3^0 fvalue3^post))
+(and (= up5^post (+ (- 1) mid4^0)) (= fvalue3^0 fvalue3^post))
 (= low6^0 low6^post))
 (= mid4^0 mid4^post))
 (= ret_binary_search7^0 ret_binary_search7^post))
@@ -214,7 +214,7 @@ x2^post)
 (and
 (and
 (and (and (= x2^post 8) (= low6^post 0)) (= up5^post 14))
-(= fvalue3^post -1))
+(= fvalue3^post (- 1)))
 (= mid4^0 mid4^post))
 (= ret_binary_search7^0 ret_binary_search7^post))
 (= tmp^0 tmp^post))

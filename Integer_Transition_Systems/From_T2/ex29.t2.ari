@@ -318,7 +318,7 @@ tmp___1^post)
 (and
 (and
 (and
-(and (<= (+ 0 tmp___1^0) -1) (<= -1 (+ 0 tmp___1^0)))
+(and (<= (+ 0 tmp___1^0) (- 1)) (<= (- 1) (+ 0 tmp___1^0)))
 (= __len21^post (+ 0 __const_100^0)))
 (= tmp22^post tmp22^post))
 (= __const_100^0 __const_100^post))
@@ -447,7 +447,7 @@ tmp___1^post)
 (and
 (and
 (and
-(and (<= (+ 1 tmp___1^0) -1) (= __const_100^0 __const_100^post))
+(and (<= (+ 1 tmp___1^0) (- 1)) (= __const_100^0 __const_100^post))
 (= __len21^0 __len21^post))
 (= ret_my_malloc10^0 ret_my_malloc10^post))
 (= ret_my_malloc14^0 ret_my_malloc14^post))

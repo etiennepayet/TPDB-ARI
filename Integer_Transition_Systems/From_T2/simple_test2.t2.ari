@@ -21,7 +21,10 @@
 :guard
 (exists
 ((x^1 Int) (x^2 Int))
-(and (and (and (= x^1 0) (= y^post (+ -1 y^0))) (= x^2 1)) (= x^post 0)))
+(and
+(and (and (= x^1 0) (= y^post (+ (- 1) y^0))) (= x^2 1))
+(= x^post 0))
+)
 )
 (rule
 (l3 x^0 y^0)

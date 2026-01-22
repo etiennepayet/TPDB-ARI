@@ -10,7 +10,7 @@
 (l1 __const_200^post x^post)
 :guard
 (and
-(and (= x^post (+ -1 x^0)) (<= (+ 1 __const_200^0) (+ 0 x^post)))
+(and (= x^post (+ (- 1) x^0)) (<= (+ 1 __const_200^0) (+ 0 x^post)))
 (= __const_200^0 __const_200^post))
 )
 (rule

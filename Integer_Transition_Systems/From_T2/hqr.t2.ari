@@ -5189,8 +5189,8 @@ z^post)
 (and
 (and
 (and (<= (+ 0 l^0) (+ 0 m^0)) (= z^post z^post))
-(= r^1 (+ (+ 0 x^0) (* -1 z^post))))
-(= s^1 (+ (+ 0 y^0) (* -1 z^post))))
+(= r^1 (+ (+ 0 x^0) (* (- 1) z^post))))
+(= s^1 (+ (+ 0 y^0) (* (- 1) z^post))))
 (= p^1 p^1))
 (= q^1 q^1))
 (= r^2 r^2))
@@ -8909,7 +8909,7 @@ z^post)
 (and
 (and
 (and
-(and (= nn^post (+ -2 nn^0)) (= __const_10^0 __const_10^post))
+(and (= nn^post (+ (- 2) nn^0)) (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
 (= anorm^0 anorm^post))
@@ -10991,7 +10991,7 @@ z^post)
 (and
 (and
 (and (<= (+ 1 p^0) 0) (= tmp___7^post tmp___7^post))
-(= tmp___8^post (+ 0 (* -1 tmp___7^post))))
+(= tmp___8^post (+ 0 (* (- 1) tmp___7^post))))
 (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
@@ -12380,7 +12380,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 1 l^0) (+ -1 nn^0)) (= __const_10^0 __const_10^post))
+(and (<= (+ 1 l^0) (+ (- 1) nn^0)) (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
 (= anorm^0 anorm^post))
@@ -12613,7 +12613,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 0 l^0) (+ -1 nn^0)) (<= (+ -1 nn^0) (+ 0 l^0)))
+(and (<= (+ 0 l^0) (+ (- 1) nn^0)) (<= (+ (- 1) nn^0) (+ 0 l^0)))
 (= p^post p^post))
 (= q^post q^post))
 (= tmp___4^post tmp___4^post))
@@ -13076,7 +13076,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ -1 nn^0) (+ 0 l^0)) (= __const_10^0 __const_10^post))
+(and (<= (+ (- 1) nn^0) (+ 0 l^0)) (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
 (= anorm^0 anorm^post))
@@ -13308,7 +13308,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 1 l^0) (+ -1 nn^0)) (= __const_10^0 __const_10^post))
+(and (<= (+ 1 l^0) (+ (- 1) nn^0)) (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
 (= anorm^0 anorm^post))
@@ -14007,7 +14007,7 @@ z^post)
 (and
 (and (<= (+ 0 l^0) (+ 0 nn^0)) (<= (+ 0 nn^0) (+ 0 l^0)))
 (= tmp___3^post (+ 0 nn^0)))
-(= nn^post (+ -1 nn^0)))
+(= nn^post (+ (- 1) nn^0)))
 (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
@@ -14697,7 +14697,7 @@ z^post)
 (and
 (and
 (and
-(and (= l^post (+ -1 l^0)) (= __const_10^0 __const_10^post))
+(and (= l^post (+ (- 1) l^0)) (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
 (= anorm^0 anorm^post))
@@ -19331,7 +19331,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 0 k^0) (+ -1 nn^0)) (<= (+ -1 nn^0) (+ 0 k^0)))
+(and (<= (+ 0 k^0) (+ (- 1) nn^0)) (<= (+ (- 1) nn^0) (+ 0 k^0)))
 (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
@@ -19796,7 +19796,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 1 k^0) (+ -1 nn^0)) (= __const_10^0 __const_10^post))
+(and (<= (+ 1 k^0) (+ (- 1) nn^0)) (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
 (= anorm^0 anorm^post))
@@ -21417,7 +21417,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 0 k^0) (+ -1 nn^0)) (<= (+ -1 nn^0) (+ 0 k^0)))
+(and (<= (+ 0 k^0) (+ (- 1) nn^0)) (<= (+ (- 1) nn^0) (+ 0 k^0)))
 (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
@@ -21882,7 +21882,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 1 k^0) (+ -1 nn^0)) (= __const_10^0 __const_10^post))
+(and (<= (+ 1 k^0) (+ (- 1) nn^0)) (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
 (= anorm^0 anorm^post))
@@ -25828,7 +25828,7 @@ z^post)
 (and
 (and (<= (+ 1 p^0) 0) (= tmp___30^post tmp___30^post))
 (= tmp___31^post tmp___31^post))
-(= s^post (+ 0 (* -1 tmp___31^post))))
+(= s^post (+ 0 (* (- 1) tmp___31^post))))
 (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
@@ -27677,7 +27677,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 0 k^0) (+ -1 nn^0)) (<= (+ -1 nn^0) (+ 0 k^0)))
+(and (<= (+ 0 k^0) (+ (- 1) nn^0)) (<= (+ (- 1) nn^0) (+ 0 k^0)))
 (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
@@ -28142,7 +28142,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 1 k^0) (+ -1 nn^0)) (= __const_10^0 __const_10^post))
+(and (<= (+ 1 k^0) (+ (- 1) nn^0)) (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
 (= anorm^0 anorm^post))
@@ -29532,7 +29532,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 0 k^0) (+ -1 nn^0)) (= __const_10^0 __const_10^post))
+(and (<= (+ 0 k^0) (+ (- 1) nn^0)) (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
 (= anorm^0 anorm^post))
@@ -32077,7 +32077,7 @@ z^post)
 (and
 (and
 (and
-(and (= m^post (+ -1 m^0)) (= __const_10^0 __const_10^post))
+(and (= m^post (+ (- 1) m^0)) (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= __const_30^0 __const_30^post))
 (= anorm^0 anorm^post))

@@ -177,8 +177,8 @@ wntext^post)
 (and
 (and
 (and
-(<= (+ (+ 0 deltaext^0) wntext^0) (+ -1 (* 2 delta^0)))
-(<= (+ -1 (* 2 delta^0)) (+ (+ 0 deltaext^0) wntext^0)))
+(<= (+ (+ 0 deltaext^0) wntext^0) (+ (- 1) (* 2 delta^0)))
+(<= (+ (- 1) (* 2 delta^0)) (+ (+ 0 deltaext^0) wntext^0)))
 (= delta_new^post (+ 0 delta^0)))
 (= delta^0 delta^post))
 (= deltaext^0 deltaext^post))
@@ -234,8 +234,8 @@ wntext^post)
 (and
 (and
 (and
-(<= (+ (+ 1 deltaext^0) wntext^0) (+ -1 (* 2 delta^0)))
-(= delta_new^post (+ -1 delta^0)))
+(<= (+ (+ 1 deltaext^0) wntext^0) (+ (- 1) (* 2 delta^0)))
+(= delta_new^post (+ (- 1) delta^0)))
 (= delta^0 delta^post))
 (= deltaext^0 deltaext^post))
 (= deltaext_new^0 deltaext_new^post))
@@ -289,8 +289,8 @@ wntext^post)
 (and
 (and
 (and
-(<= (+ 2 wnt^0) (+ -1 (* 2 deltaext^0)))
-(<= (+ -1 (* 2 deltaext^0)) (+ 2 wnt^0)))
+(<= (+ 2 wnt^0) (+ (- 1) (* 2 deltaext^0)))
+(<= (+ (- 1) (* 2 deltaext^0)) (+ 2 wnt^0)))
 (= deltaext_new^post (+ 0 deltaext^0)))
 (= delta^0 delta^post))
 (= delta_new^0 delta_new^post))
@@ -346,8 +346,8 @@ wntext^post)
 (and
 (and
 (and
-(<= (+ 3 wnt^0) (+ -1 (* 2 deltaext^0)))
-(= deltaext_new^post (+ -1 deltaext^0)))
+(<= (+ 3 wnt^0) (+ (- 1) (* 2 deltaext^0)))
+(= deltaext_new^post (+ (- 1) deltaext^0)))
 (= delta^0 delta^post))
 (= delta_new^0 delta_new^post))
 (= deltaext^0 deltaext^post))

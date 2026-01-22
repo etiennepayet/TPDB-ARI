@@ -2961,7 +2961,7 @@ tmp___5^post)
 (and
 (and
 (and
-(and (<= (+ -1 n2^0) (+ 0 ni1^0)) (= nj^post (+ 1 nj^0)))
+(and (<= (+ (- 1) n2^0) (+ 0 ni1^0)) (= nj^post (+ 1 nj^0)))
 (= bCols^0 bCols^post))
 (= bDomain^0 bDomain^post))
 (= bRows^0 bRows^post))
@@ -3057,7 +3057,7 @@ tmp___5^post)
 (and
 (and
 (and
-(and (<= (+ 1 ni1^0) (+ -1 n2^0)) (= ni2^post (+ 1 ni1^0)))
+(and (<= (+ 1 ni1^0) (+ (- 1) n2^0)) (= ni2^post (+ 1 ni1^0)))
 (= bCols^0 bCols^post))
 (= bDomain^0 bDomain^post))
 (= bRows^0 bRows^post))
@@ -4577,7 +4577,7 @@ tmp___5^post)
 (and
 (and
 (and
-(and (<= (+ -1 n2^0) (+ 0 nj1^0)) (= ni^post (+ 1 ni^0)))
+(and (<= (+ (- 1) n2^0) (+ 0 nj1^0)) (= ni^post (+ 1 ni^0)))
 (= bCols^0 bCols^post))
 (= bDomain^0 bDomain^post))
 (= bRows^0 bRows^post))
@@ -4673,7 +4673,7 @@ tmp___5^post)
 (and
 (and
 (and
-(and (<= (+ 1 nj1^0) (+ -1 n2^0)) (= nj2^post (+ 1 nj1^0)))
+(and (<= (+ 1 nj1^0) (+ (- 1) n2^0)) (= nj2^post (+ 1 nj1^0)))
 (= bCols^0 bCols^post))
 (= bDomain^0 bDomain^post))
 (= bRows^0 bRows^post))

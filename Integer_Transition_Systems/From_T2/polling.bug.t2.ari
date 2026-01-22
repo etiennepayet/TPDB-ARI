@@ -9167,7 +9167,9 @@ x77^post)
 (and
 (and
 (and
-(and (<= (+ 1 status___09^0) -1) (= PowerStateIsAC^0 PowerStateIsAC^post))
+(and
+(<= (+ 1 status___09^0) (- 1))
+(= PowerStateIsAC^0 PowerStateIsAC^post))
 (= WarmPollPeriod^0 WarmPollPeriod^post))
 (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
@@ -9584,7 +9586,7 @@ x77^post)
 (and
 (and
 (and
-(and (<= -1 (+ 0 status___09^0)) (<= (+ 0 status___09^0) -1))
+(and (<= (- 1) (+ 0 status___09^0)) (<= (+ 0 status___09^0) (- 1)))
 (= ret_nondet3538^post (+ 0 x3437^0)))
 (= tmp___320^post (+ 0 ret_nondet3538^post)))
 (= PowerStateIsAC^0 PowerStateIsAC^post))

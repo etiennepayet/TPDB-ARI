@@ -12,7 +12,7 @@
 ((a^1 Int))
 (and
 (and
-(and (= a^1 -1) (= x2^post (+ 0 a^1)))
+(and (= a^1 (- 1)) (= x2^post (+ 0 a^1)))
 (= ret_incr3^post (+ 0 x2^post)))
 (= a^post (+ 0 ret_incr3^post)))
 )

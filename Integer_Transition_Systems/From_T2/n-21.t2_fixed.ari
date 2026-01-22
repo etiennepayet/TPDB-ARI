@@ -13,7 +13,7 @@
 :guard
 (and
 (and
-(and (<= (+ 20 (* -1 x_5^0)) 0) (= Result_4^post Result_4^post))
+(and (<= (+ 20 (* (- 1) x_5^0)) 0) (= Result_4^post Result_4^post))
 (= x_5^0 x_5^post))
 (= y_6^0 y_6^post))
 )
@@ -23,7 +23,7 @@
 :guard
 (and
 (and
-(and (<= 0 (+ 19 (* -1 x_5^0))) (= Result_4^0 Result_4^post))
+(and (<= 0 (+ 19 (* (- 1) x_5^0))) (= Result_4^0 Result_4^post))
 (= x_5^0 x_5^post))
 (= y_6^0 y_6^post))
 )
@@ -41,7 +41,7 @@
 :guard
 (and
 (and
-(and (<= (+ 30 (* -1 y_6^0)) 0) (= x_5^post (+ -1 x_5^0)))
+(and (<= (+ 30 (* (- 1) y_6^0)) 0) (= x_5^post (+ (- 1) x_5^0)))
 (= Result_4^0 Result_4^post))
 (= y_6^0 y_6^post))
 )
@@ -51,7 +51,7 @@
 :guard
 (and
 (and
-(and (<= 0 (+ 29 (* -1 y_6^0))) (= x_5^post (+ -1 x_5^0)))
+(and (<= 0 (+ 29 (* (- 1) y_6^0))) (= x_5^post (+ (- 1) x_5^0)))
 (= Result_4^0 Result_4^post))
 (= y_6^0 y_6^post))
 )

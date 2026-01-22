@@ -16,7 +16,7 @@
 (l2 Result_4^post x_5^post)
 :guard
 (and
-(and (= x_5^post (+ -1 x_5^0)) (<= (+ 0 (* -1 x_5^post)) 0))
+(and (= x_5^post (+ (- 1) x_5^0)) (<= (+ 0 (* (- 1) x_5^post)) 0))
 (= Result_4^0 Result_4^post))
 )
 (rule
@@ -29,7 +29,7 @@
 (l3 Result_4^post x_5^post)
 :guard
 (and
-(and (= x_5^post (+ -1 x_5^0)) (<= 0 (+ -1 (* -1 x_5^post))))
+(and (= x_5^post (+ (- 1) x_5^0)) (<= 0 (+ (- 1) (* (- 1) x_5^post))))
 (= Result_4^post Result_4^post))
 )
 (rule

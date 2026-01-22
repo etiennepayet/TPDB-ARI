@@ -2094,7 +2094,7 @@ tmp___5^post)
 (and
 (and
 (and (= tmp___4^post tmp___4^post) (= tmp___5^post tmp___5^post))
-(= sigma^post (+ 0 (* -1 tmp___5^post))))
+(= sigma^post (+ 0 (* (- 1) tmp___5^post))))
 (= i^0 i^post))
 (= j^0 j^post))
 (= k^0 k^post))

@@ -33,7 +33,7 @@
 (l3 nd^post p^post x^post)
 :guard
 (and
-(and (and (<= (+ 0 nd^0) 0) (= x^post (+ -2 x^0))) (= nd^0 nd^post))
+(and (and (<= (+ 0 nd^0) 0) (= x^post (+ (- 2) x^0))) (= nd^0 nd^post))
 (= p^0 p^post))
 )
 (rule
@@ -41,7 +41,7 @@
 (l3 nd^post p^post x^post)
 :guard
 (and
-(and (and (<= 1 (+ 0 nd^0)) (= x^post (+ -1 x^0))) (= nd^0 nd^post))
+(and (and (<= 1 (+ 0 nd^0)) (= x^post (+ (- 1) x^0))) (= nd^0 nd^post))
 (= p^0 p^post))
 )
 (rule

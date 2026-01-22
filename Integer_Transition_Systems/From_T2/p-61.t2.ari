@@ -33,7 +33,7 @@ x_6^post)
 (and
 (and
 (and
-(and (<= (+ (+ 1 __const_9^0) (* -1 x_6^0)) 0) (= __retres3_7^post 0))
+(and (<= (+ (+ 1 __const_9^0) (* (- 1) x_6^0)) 0) (= __retres3_7^post 0))
 (= __cil_tmp4_8^post (+ 0 __retres3_7^post)))
 (= Result_4^post (+ 0 __cil_tmp4_8^post)))
 (= __const_1000^0 __const_1000^post))
@@ -71,8 +71,8 @@ x_6^post)
 (and
 (and
 (and
-(<= 0 (+ (+ 0 __const_9^0) (* -1 x_6^0)))
-(<= (+ (+ 1 (* -1 __const_101^0)) i_5^0) 0))
+(<= 0 (+ (+ 0 __const_9^0) (* (- 1) x_6^0)))
+(<= (+ (+ 1 (* (- 1) __const_101^0)) i_5^0) 0))
 (= __retres3_7^post 0))
 (= __cil_tmp4_8^post (+ 0 __retres3_7^post)))
 (= Result_4^post (+ 0 __cil_tmp4_8^post)))
@@ -111,9 +111,9 @@ x_6^post)
 (and
 (and
 (and
-(<= 0 (+ (+ 0 __const_9^0) (* -1 x_6^0)))
-(<= 0 (+ (+ 0 (* -1 __const_101^0)) i_5^0)))
-(= i_5^post (+ -1 i_5^0)))
+(<= 0 (+ (+ 0 __const_9^0) (* (- 1) x_6^0)))
+(<= 0 (+ (+ 0 (* (- 1) __const_101^0)) i_5^0)))
+(= i_5^post (+ (- 1) i_5^0)))
 (= Result_4^0 Result_4^post))
 (= __cil_tmp4_8^0 __cil_tmp4_8^post))
 (= __const_1000^0 __const_1000^post))

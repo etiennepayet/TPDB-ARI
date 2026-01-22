@@ -121,7 +121,7 @@ tmp1^post)
 (and
 (and
 (and (<= (+ 0 __rho_1_^0) 0) (<= (+ 1 c^0) (+ 0 curr_serv^0)))
-(= curr_serv^post (+ -1 curr_serv^0)))
+(= curr_serv^post (+ (- 1) curr_serv^0)))
 (= __rho_1_^0 __rho_1_^post))
 (= c^0 c^post))
 (= resp^0 resp^post))
@@ -146,8 +146,8 @@ tmp1^post)
 (and
 (and
 (and
-(and (<= 1 (+ 0 __rho_1_^0)) (= c^post (+ -1 c^0)))
-(= curr_serv^post (+ -1 curr_serv^0)))
+(and (<= 1 (+ 0 __rho_1_^0)) (= c^post (+ (- 1) c^0)))
+(= curr_serv^post (+ (- 1) curr_serv^0)))
 (= resp^post (+ 1 resp^0)))
 (= __rho_1_^0 __rho_1_^post))
 (= servers^0 servers^post))

@@ -51,7 +51,7 @@
 (and
 (and
 (and
-(and (<= (+ 0 __rho_1^0) 0) (= x^post (+ -2 x^0)))
+(and (<= (+ 0 __rho_1^0) 0) (= x^post (+ (- 2) x^0)))
 (= __rho_1^0 __rho_1^post))
 (= __rho_2^0 __rho_2^post))
 (= p^0 p^post))
@@ -65,7 +65,7 @@
 (and
 (and
 (and
-(and (<= 1 (+ 0 __rho_1^0)) (= x^post (+ -1 x^0)))
+(and (<= 1 (+ 0 __rho_1^0)) (= x^post (+ (- 1) x^0)))
 (= __rho_1^0 __rho_1^post))
 (= __rho_2^0 __rho_2^post))
 (= p^0 p^post))

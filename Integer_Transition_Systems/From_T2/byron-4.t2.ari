@@ -114,7 +114,7 @@ x_14^post)
 (and
 (and
 (and (<= 1 (+ 0 b_16^0)) (<= (+ 0 b_16^0) 1))
-(= x_14^post (+ -1 x_14^0)))
+(= x_14^post (+ (- 1) x_14^0)))
 (= b_16^post 0))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
@@ -226,7 +226,7 @@ x_14^post)
 (and
 (and
 (and (<= 1 (+ 0 b_16^0)) (<= (+ 0 b_16^0) 1))
-(= x_14^post (+ -1 x_14^0)))
+(= x_14^post (+ (- 1) x_14^0)))
 (= b_16^post 0))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
@@ -375,7 +375,7 @@ x_14^post)
 (and
 (and
 (and (= x_14^1 (+ 1 x_14^0)) (= b_16^post 1))
-(= x_14^post (+ 0 (* -1 x_14^1))))
+(= x_14^post (+ 0 (* (- 1) x_14^1))))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -410,7 +410,9 @@ x_14^post)
 (and
 (and
 (and
-(and (= x_14^post (+ 0 (* -1 x_14^0))) (= __disjvr_0^0 __disjvr_0^post))
+(and
+(= x_14^post (+ 0 (* (- 1) x_14^0)))
+(= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
 (= __disjvr_3^0 __disjvr_3^post))
@@ -444,7 +446,9 @@ x_14^post)
 (and
 (and
 (and
-(and (= x_14^post (+ 0 (* -1 x_14^0))) (= __disjvr_0^0 __disjvr_0^post))
+(and
+(= x_14^post (+ 0 (* (- 1) x_14^0)))
+(= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
 (= __disjvr_3^0 __disjvr_3^post))

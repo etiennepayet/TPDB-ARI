@@ -61,7 +61,7 @@
 :guard
 (and
 (and
-(and (<= 3 (+ 0 WItemsNum^0)) (= WItemsNum^post (+ -1 WItemsNum^0)))
+(and (<= 3 (+ 0 WItemsNum^0)) (= WItemsNum^post (+ (- 1) WItemsNum^0)))
 (= ___rho_1_^0 ___rho_1_^post))
 (= ___rho_2_^0 ___rho_2_^post))
 )

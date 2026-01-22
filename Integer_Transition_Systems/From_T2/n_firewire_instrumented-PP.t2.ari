@@ -25,7 +25,7 @@
 (and
 (and
 (and
-(and (and (= K^post (+ -1 K^0)) (= N^0 N^post)) (= next^0 next^post))
+(and (and (= K^post (+ (- 1) K^0)) (= N^0 N^post)) (= next^0 next^post))
 (= pos^0 pos^post))
 (= xx^0 xx^post))
 (= yy^0 yy^post))
@@ -204,7 +204,7 @@
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 z^0)) (= z^post (+ -1 z^0))) (= K^0 K^post))
+(and (and (<= 1 (+ 0 z^0)) (= z^post (+ (- 1) z^0))) (= K^0 K^post))
 (= N^0 N^post))
 (= next^0 next^post))
 (= pos^0 pos^post))
@@ -380,7 +380,7 @@
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 z^0)) (= z^post (+ -1 z^0))) (= K^0 K^post))
+(and (and (<= 1 (+ 0 z^0)) (= z^post (+ (- 1) z^0))) (= K^0 K^post))
 (= N^0 N^post))
 (= next^0 next^post))
 (= pos^0 pos^post))

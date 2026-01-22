@@ -137,7 +137,7 @@ x_10^post)
 (and
 (and
 (and
-(and (<= 0 (+ -1 x_10^0)) (= x_10^post (+ 1 x_10^0)))
+(and (<= 0 (+ (- 1) x_10^0)) (= x_10^post (+ 1 x_10^0)))
 (= Result_6^0 Result_6^post))
 (= nondet_7^0 nondet_7^post))
 (= nondet_8^0 nondet_8^post))
@@ -247,7 +247,7 @@ x_10^post)
 (and
 (and
 (and
-(and (<= 0 (+ -1 x_10^0)) (= x_10^post (+ 1 x_10^0)))
+(and (<= 0 (+ (- 1) x_10^0)) (= x_10^post (+ 1 x_10^0)))
 (= Result_6^0 Result_6^post))
 (= nondet_7^0 nondet_7^post))
 (= nondet_8^0 nondet_8^post))
@@ -377,7 +377,7 @@ x_10^post)
 (and
 (and
 (and
-(and (<= 0 (+ -1 x_10^0)) (= x_10^post (+ 1 x_10^0)))
+(and (<= 0 (+ (- 1) x_10^0)) (= x_10^post (+ 1 x_10^0)))
 (= Result_6^0 Result_6^post))
 (= nondet_7^0 nondet_7^post))
 (= nondet_8^0 nondet_8^post))

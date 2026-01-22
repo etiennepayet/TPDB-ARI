@@ -518,7 +518,7 @@ val13^post)
 (and
 (and
 (and (<= (+ 0 ret17^0) 0) (<= 0 (+ 0 ret17^0)))
-(= i6^post (+ -1 i6^0)))
+(= i6^post (+ (- 1) i6^0)))
 (= data16^0 data16^post))
 (= data18^0 data18^post))
 (= ret17^0 ret17^post))

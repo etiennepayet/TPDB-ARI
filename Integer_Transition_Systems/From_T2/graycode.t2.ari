@@ -1350,7 +1350,7 @@ tmp___3^post)
 (and
 (and
 (and
-(and (<= (+ -1 nDim^0) (+ 0 ni^0)) (= __const_12^0 __const_12^post))
+(and (<= (+ (- 1) nDim^0) (+ 0 ni^0)) (= __const_12^0 __const_12^post))
 (= bAllDiff^0 bAllDiff^post))
 (= bDomain^0 bDomain^post))
 (= bGray^0 bGray^post))
@@ -1406,7 +1406,7 @@ tmp___3^post)
 (and
 (and
 (and
-(and (<= (+ 1 ni^0) (+ -1 nDim^0)) (= nDiff^post nDiff^post))
+(and (<= (+ 1 ni^0) (+ (- 1) nDim^0)) (= nDiff^post nDiff^post))
 (= __const_12^0 __const_12^post))
 (= bAllDiff^0 bAllDiff^post))
 (= bDomain^0 bDomain^post))
@@ -2068,7 +2068,7 @@ tmp___3^post)
 (and
 (and
 (and
-(and (<= (+ -1 nDim^0) (+ 0 ni^0)) (= ni^post 0))
+(and (<= (+ (- 1) nDim^0) (+ 0 ni^0)) (= ni^post 0))
 (= __const_12^0 __const_12^post))
 (= bAllDiff^0 bAllDiff^post))
 (= bDomain^0 bDomain^post))
@@ -2124,7 +2124,7 @@ tmp___3^post)
 (and
 (and
 (and
-(and (<= (+ 1 ni^0) (+ -1 nDim^0)) (= nj^post (+ 1 ni^0)))
+(and (<= (+ 1 ni^0) (+ (- 1) nDim^0)) (= nj^post (+ 1 ni^0)))
 (= __const_12^0 __const_12^post))
 (= bAllDiff^0 bAllDiff^post))
 (= bDomain^0 bDomain^post))

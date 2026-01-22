@@ -238,7 +238,7 @@ temp9^post)
 (and
 (and
 (and
-(and (<= (+ 0 k1^0) (+ 0 j5^0)) (= ir4^post (+ -1 j5^0)))
+(and (<= (+ 0 k1^0) (+ 0 j5^0)) (= ir4^post (+ (- 1) j5^0)))
 (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= a8^0 a8^post))
@@ -683,7 +683,7 @@ temp9^post)
 (and
 (and
 (and
-(and (= j5^post (+ -1 j5^0)) (= __const_10^0 __const_10^post))
+(and (= j5^post (+ (- 1) j5^0)) (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= a8^0 a8^post))
 (= flag10^0 flag10^post))
@@ -845,7 +845,7 @@ temp9^post)
 (and
 (and
 (and
-(and (= j5^post (+ -1 j5^0)) (= __const_10^0 __const_10^post))
+(and (= j5^post (+ (- 1) j5^0)) (= __const_10^0 __const_10^post))
 (= __const_20^0 __const_20^post))
 (= a8^0 a8^post))
 (= flag10^0 flag10^post))

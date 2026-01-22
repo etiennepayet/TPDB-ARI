@@ -2841,7 +2841,7 @@ y_next^post)
 (and
 (and
 (and
-(and (<= 1 (+ 0 fair^0)) (= fair^post (+ -1 fair^0)))
+(and (<= 1 (+ 0 fair^0)) (= fair^post (+ (- 1) fair^0)))
 (= is_aborted_next^post is_aborted_next^post))
 (= x_next^post x_next^post))
 (= y_next^post y_next^post))

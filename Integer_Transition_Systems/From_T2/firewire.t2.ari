@@ -207,7 +207,9 @@ z^post)
 (and
 (and
 (and
-(and (and (= z^post (+ -1 z^0)) (= c1^post c1^post)) (= c2^post c2^post))
+(and
+(and (= z^post (+ (- 1) z^0)) (= c1^post c1^post))
+(= c2^post c2^post))
 (= buffer^0 buffer^post))
 (= it^0 it^post))
 (= pattern^0 pattern^post))
@@ -508,7 +510,7 @@ z^post)
 (and
 (and
 (and (<= 3 (+ 0 buffer^0)) (= c2^post 1))
-(= buffer^post (+ -2 buffer^0)))
+(= buffer^post (+ (- 2) buffer^0)))
 (= c1^0 c1^post))
 (= it^0 it^post))
 (= pattern^0 pattern^post))
@@ -567,7 +569,7 @@ z^post)
 (and
 (and
 (and
-(and (<= 1 (+ 0 it^0)) (= it^post (+ -1 it^0)))
+(and (<= 1 (+ 0 it^0)) (= it^post (+ (- 1) it^0)))
 (= buffer^post (+ 0 pattern^0)))
 (= c1^0 c1^post))
 (= c2^0 c2^post))

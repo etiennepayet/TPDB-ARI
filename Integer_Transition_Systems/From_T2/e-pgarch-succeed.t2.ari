@@ -730,7 +730,7 @@ wakend^post)
 (and
 (and
 (and
-(<= (+ (+ 1 curtime^0) (* -1 last_copy_time^0)) (+ 0 __const_1000^0))
+(<= (+ (+ 1 curtime^0) (* (- 1) last_copy_time^0)) (+ 0 __const_1000^0))
 (= __const_1000^0 __const_1000^post))
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))
@@ -808,7 +808,7 @@ wakend^post)
 (and
 (and
 (and
-(<= (+ 0 __const_1000^0) (+ (+ 0 curtime^0) (* -1 last_copy_time^0)))
+(<= (+ 0 __const_1000^0) (+ (+ 0 curtime^0) (* (- 1) last_copy_time^0)))
 (= wakend^post 1))
 (= __const_1000^0 __const_1000^post))
 (= __rho_1_^0 __rho_1_^post))

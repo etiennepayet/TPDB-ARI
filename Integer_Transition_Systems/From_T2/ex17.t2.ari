@@ -39,7 +39,7 @@ tmp^post)
 (and
 (and
 (and
-(and (<= (+ 0 __const_100^0) (+ 0 i^0)) (= j^post (+ -2 i^0)))
+(and (<= (+ 0 __const_100^0) (+ 0 i^0)) (= j^post (+ (- 2) i^0)))
 (= __const_100^0 __const_100^post))
 (= i^0 i^post))
 (= j10^0 j10^post))

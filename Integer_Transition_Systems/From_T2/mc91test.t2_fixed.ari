@@ -70,8 +70,8 @@
 (= olde^post (+ 0 e^0)))
 (<= 1 (+ 0 e^0)))
 (<= 101 (+ 0 n^0)))
-(= n^post (+ -10 n^0)))
-(= e^post (+ -1 e^0)))
+(= n^post (+ (- 10) n^0)))
+(= e^post (+ (- 1) e^0)))
 )
 (rule
 (l3 copied^0 e^0 n^0 olde^0 oldn^0)
@@ -115,8 +115,10 @@
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 e^0)) (<= 101 (+ 0 n^0))) (= n^post (+ -10 n^0)))
-(= e^post (+ -1 e^0)))
+(and
+(and (<= 1 (+ 0 e^0)) (<= 101 (+ 0 n^0)))
+(= n^post (+ (- 10) n^0)))
+(= e^post (+ (- 1) e^0)))
 (= copied^0 copied^post))
 (= olde^0 olde^post))
 (= oldn^0 oldn^post))

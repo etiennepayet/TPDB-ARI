@@ -14300,7 +14300,7 @@ x___old3^post)
 (and
 (and
 (<= (+ 0 var_Le_AGp_12___rho_1_^0) 0)
-(= var_Le_AGp_12_x^post (+ -2 var_Le_AGp_12_x^0)))
+(= var_Le_AGp_12_x^post (+ (- 2) var_Le_AGp_12_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -14674,7 +14674,7 @@ x___old3^post)
 (and
 (and
 (<= 1 (+ 0 var_Le_AGp_12___rho_1_^0))
-(= var_Le_AGp_12_x^post (+ -1 var_Le_AGp_12_x^0)))
+(= var_Le_AGp_12_x^post (+ (- 1) var_Le_AGp_12_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -29559,7 +29559,7 @@ x___old3^post)
 (and
 (and
 (<= (+ 0 var_Le_AGp_9___rho_1_^0) 0)
-(= var_Le_AGp_9_x^post (+ -2 var_Le_AGp_9_x^0)))
+(= var_Le_AGp_9_x^post (+ (- 2) var_Le_AGp_9_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -29933,7 +29933,7 @@ x___old3^post)
 (and
 (and
 (<= 1 (+ 0 var_Le_AGp_9___rho_1_^0))
-(= var_Le_AGp_9_x^post (+ -1 var_Le_AGp_9_x^0)))
+(= var_Le_AGp_9_x^post (+ (- 1) var_Le_AGp_9_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -46298,7 +46298,7 @@ x___old3^post)
 (and
 (and
 (<= (+ 0 var_e_AFAGp_0___rho_1_^0) 0)
-(= var_e_AFAGp_0_x^post (+ -2 var_e_AFAGp_0_x^0)))
+(= var_e_AFAGp_0_x^post (+ (- 2) var_e_AFAGp_0_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -46672,7 +46672,7 @@ x___old3^post)
 (and
 (and
 (<= 1 (+ 0 var_e_AFAGp_0___rho_1_^0))
-(= var_e_AFAGp_0_x^post (+ -1 var_e_AFAGp_0_x^0)))
+(= var_e_AFAGp_0_x^post (+ (- 1) var_e_AFAGp_0_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -47418,7 +47418,7 @@ x___old3^post)
 (and
 (and
 (<= (+ 0 var_Le_AGp_11___rho_1_^0) 0)
-(= var_Le_AGp_11_x^post (+ -2 var_Le_AGp_11_x^0)))
+(= var_Le_AGp_11_x^post (+ (- 2) var_Le_AGp_11_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -47792,7 +47792,7 @@ x___old3^post)
 (and
 (and
 (<= 1 (+ 0 var_Le_AGp_11___rho_1_^0))
-(= var_Le_AGp_11_x^post (+ -1 var_Le_AGp_11_x^0)))
+(= var_Le_AGp_11_x^post (+ (- 1) var_Le_AGp_11_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -61933,7 +61933,7 @@ x___old3^post)
 (and
 (and
 (<= (+ 0 var_Le_AGp_13___rho_1_^0) 0)
-(= var_Le_AGp_13_x^post (+ -2 var_Le_AGp_13_x^0)))
+(= var_Le_AGp_13_x^post (+ (- 2) var_Le_AGp_13_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -62307,7 +62307,7 @@ x___old3^post)
 (and
 (and
 (<= 1 (+ 0 var_Le_AGp_13___rho_1_^0))
-(= var_Le_AGp_13_x^post (+ -1 var_Le_AGp_13_x^0)))
+(= var_Le_AGp_13_x^post (+ (- 1) var_Le_AGp_13_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))

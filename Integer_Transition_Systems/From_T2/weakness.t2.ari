@@ -13,7 +13,7 @@
 (and
 (and
 (and (<= 1 (+ 0 x^0)) (= z^post (+ (+ 0 i^0) y^0)))
-(= x^post (+ (+ 0 x^0) (* -1 z^post))))
+(= x^post (+ (+ 0 x^0) (* (- 1) z^post))))
 (= i^post (+ 1 i^0)))
 (= y^0 y^post))
 )

@@ -16,7 +16,7 @@
 (and
 (and
 (and
-(<= (+ (+ 1 __const_19^0) (* -1 x_5^0)) 0)
+(<= (+ (+ 1 __const_19^0) (* (- 1) x_5^0)) 0)
 (= Result_4^post Result_4^post))
 (= __const_19^0 __const_19^post))
 (= __const_29^0 __const_29^post))
@@ -32,7 +32,7 @@
 (and
 (and
 (and
-(<= 0 (+ (+ 0 __const_19^0) (* -1 x_5^0)))
+(<= 0 (+ (+ 0 __const_19^0) (* (- 1) x_5^0)))
 (= Result_4^0 Result_4^post))
 (= __const_19^0 __const_19^post))
 (= __const_29^0 __const_29^post))
@@ -60,8 +60,8 @@
 (and
 (and
 (and
-(<= (+ (+ 1 __const_29^0) (* -1 y_6^0)) 0)
-(= x_5^post (+ -1 x_5^0)))
+(<= (+ (+ 1 __const_29^0) (* (- 1) y_6^0)) 0)
+(= x_5^post (+ (- 1) x_5^0)))
 (= Result_4^0 Result_4^post))
 (= __const_19^0 __const_19^post))
 (= __const_29^0 __const_29^post))
@@ -76,8 +76,8 @@
 (and
 (and
 (and
-(<= 0 (+ (+ 0 __const_29^0) (* -1 y_6^0)))
-(= x_5^post (+ -1 x_5^0)))
+(<= 0 (+ (+ 0 __const_29^0) (* (- 1) y_6^0)))
+(= x_5^post (+ (- 1) x_5^0)))
 (= Result_4^0 Result_4^post))
 (= __const_19^0 __const_19^post))
 (= __const_29^0 __const_29^post))

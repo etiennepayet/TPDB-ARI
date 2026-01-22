@@ -6,7 +6,7 @@
 (fun l3 (-> Int Int))
 (fun l4 (-> Int Int))
 (entrypoint l4)
-(rule (l0 x^0) (l2 x^post) :guard (= x^post (+ -1 x^0)))
+(rule (l0 x^0) (l2 x^post) :guard (= x^post (+ (- 1) x^0)))
 (rule
 (l2 x^0)
 (l1 x^post)

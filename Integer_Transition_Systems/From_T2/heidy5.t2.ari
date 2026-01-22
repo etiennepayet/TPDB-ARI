@@ -23,7 +23,7 @@
 (l2 p^post x^post y^post)
 :guard
 (and
-(and (and (<= 1 (+ 0 y^0)) (= y^post (+ -1 y^0))) (= p^0 p^post))
+(and (and (<= 1 (+ 0 y^0)) (= y^post (+ (- 1) y^0))) (= p^0 p^post))
 (= x^0 x^post))
 )
 (rule

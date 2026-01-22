@@ -16,7 +16,7 @@
 (l1 x_1^post y_1^post)
 :guard
 (and
-(and (<= (+ 0 y_1^0) 0) (= x_1^post (+ -1 x_1^0)))
+(and (<= (+ 0 y_1^0) 0) (= x_1^post (+ (- 1) x_1^0)))
 (= y_1^0 y_1^post))
 )
 (rule

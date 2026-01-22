@@ -225,10 +225,10 @@ pid^post)
 (and
 (and
 (and (<= 2 (+ 0 conditional^0)) (= INCREASE^post INCREASE^post))
-(= MAX_MIN^post (+ (+ 0 MAX^0) (* -1 MIN^0))))
-(= NUM_MIN^post (+ (+ 0 (* -1 MIN^0)) num^0)))
+(= MAX_MIN^post (+ (+ 0 MAX^0) (* (- 1) MIN^0))))
+(= NUM_MIN^post (+ (+ 0 (* (- 1) MIN^0)) num^0)))
 (<= (+ 0 num^0) (+ 0 INCREASE^post)))
-(<= (+ 0 INCREASE^post) (+ (+ 0 MAX^0) (* -1 MIN^0))))
+(<= (+ 0 INCREASE^post) (+ (+ 0 MAX^0) (* (- 1) MIN^0))))
 (<= (+ 0 INCREASE^post) (+ 0 NUM_MIN^post)))
 (= MIN^post (+ (+ 0 INCREASE^post) MIN^0)))
 (= Q^post 1))

@@ -159,7 +159,7 @@
 (and
 (and
 (and (<= (+ 0 a4^0) (+ 0 b5^0)) (= a4^post (+ 2 a4^0)))
-(= b5^post (+ -10 b5^0)))
+(= b5^post (+ (- 10) b5^0)))
 (= a^0 a^post))
 (= answer^0 answer^post))
 (= b^0 b^post))

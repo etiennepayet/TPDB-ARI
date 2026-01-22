@@ -23,7 +23,7 @@
 :guard
 (and
 (and (<= 1 (+ 0 op2^0)) (= op1^post (+ 1 op1^0)))
-(= op2^post (+ -1 op2^0)))
+(= op2^post (+ (- 1) op2^0)))
 )
 (rule
 (l3 op1^0 op2^0)
@@ -35,7 +35,7 @@
 (l4 op1^post op2^post)
 :guard
 (and
-(and (<= 1 (+ 0 op1^0)) (= op1^post (+ -1 op1^0)))
+(and (<= 1 (+ 0 op1^0)) (= op1^post (+ (- 1) op1^0)))
 (= op2^post (+ 1 op2^0)))
 )
 (rule
@@ -43,7 +43,7 @@
 (l2 op1^post op2^post)
 :guard
 (and
-(and (<= 1 (+ 0 op2^0)) (= op2^post (+ -1 op2^0)))
+(and (<= 1 (+ 0 op2^0)) (= op2^post (+ (- 1) op2^0)))
 (= op1^0 op1^post))
 )
 (rule
@@ -56,7 +56,7 @@
 (l4 op1^post op2^post)
 :guard
 (and
-(and (<= 1 (+ 0 op1^0)) (= op1^post (+ -1 op1^0)))
+(and (<= 1 (+ 0 op1^0)) (= op1^post (+ (- 1) op1^0)))
 (= op2^post (+ 1 op2^0)))
 )
 (rule

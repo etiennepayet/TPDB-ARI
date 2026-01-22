@@ -3798,7 +3798,9 @@ tmp___1^post)
 (and
 (and
 (and
-(and (and (= c11^post (+ -1 c11^0)) (= c5^0 c5^post)) (= c8^0 c8^post))
+(and
+(and (= c11^post (+ (- 1) c11^0)) (= c5^0 c5^post))
+(= c8^0 c8^post))
 (= cnt^0 cnt^post))
 (= i12^0 i12^post))
 (= i6^0 i6^post))
@@ -24088,7 +24090,9 @@ tmp___1^post)
 (and
 (and
 (and
-(and (and (= c5^post (+ -1 c5^0)) (= c11^0 c11^post)) (= c8^0 c8^post))
+(and
+(and (= c5^post (+ (- 1) c5^0)) (= c11^0 c11^post))
+(= c8^0 c8^post))
 (= cnt^0 cnt^post))
 (= i12^0 i12^post))
 (= i6^0 i6^post))
@@ -25012,7 +25016,9 @@ tmp___1^post)
 (and
 (and
 (and
-(and (and (= c8^post (+ -1 c8^0)) (= c11^0 c11^post)) (= c5^0 c5^post))
+(and
+(and (= c8^post (+ (- 1) c8^0)) (= c11^0 c11^post))
+(= c5^0 c5^post))
 (= cnt^0 cnt^post))
 (= i12^0 i12^post))
 (= i6^0 i6^post))

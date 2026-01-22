@@ -279,7 +279,7 @@
 (l13 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -8) (= argc^0 argc^post)) (= i^0 i^post))
+(and (and (<= (+ 1 i^0) (- 8)) (= argc^0 argc^post)) (= i^0 i^post))
 (= s^0 s^post))
 )
 (rule
@@ -288,8 +288,8 @@
 :guard
 (and
 (and
-(and (<= -8 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 8) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -297,7 +297,7 @@
 (l14 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -8) (= i^post 16)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 8)) (= i^post 16)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -306,8 +306,8 @@
 :guard
 (and
 (and
-(and (<= -7 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 7) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -320,7 +320,7 @@
 (l16 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -8) (= i^post 16)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 8)) (= i^post 16)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -329,8 +329,8 @@
 :guard
 (and
 (and
-(and (<= -8 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 8) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -338,7 +338,7 @@
 (l20 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -8) (= i^post 16)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 8)) (= i^post 16)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -347,8 +347,8 @@
 :guard
 (and
 (and
-(and (<= -7 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 7) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -356,7 +356,7 @@
 (l22 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -7) (= i^post 16)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 7)) (= i^post 16)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -365,8 +365,8 @@
 :guard
 (and
 (and
-(and (<= -7 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 7) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -384,7 +384,7 @@
 (l24 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -7) (= i^post -2)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 7)) (= i^post (- 2))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -393,8 +393,8 @@
 :guard
 (and
 (and
-(and (<= -6 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 6) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -407,7 +407,7 @@
 (l30 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -7) (= i^post -2)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 7)) (= i^post (- 2))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -416,8 +416,8 @@
 :guard
 (and
 (and
-(and (<= -7 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 7) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -425,7 +425,7 @@
 (l27 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -7) (= i^post -2)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 7)) (= i^post (- 2))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -434,8 +434,8 @@
 :guard
 (and
 (and
-(and (<= -6 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 6) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -448,7 +448,7 @@
 (l34 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -5) (= i^post -2)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 5)) (= i^post (- 2))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -457,8 +457,8 @@
 :guard
 (and
 (and
-(and (<= -5 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 5) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -471,7 +471,7 @@
 (l38 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -5) (= i^post -1)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 5)) (= i^post (- 1))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -480,8 +480,8 @@
 :guard
 (and
 (and
-(and (<= -4 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 4) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -489,7 +489,7 @@
 (l42 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -5) (= i^post -1)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 5)) (= i^post (- 1))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -498,8 +498,8 @@
 :guard
 (and
 (and
-(and (<= -5 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 5) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -507,7 +507,7 @@
 (l44 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -5) (= i^post -1)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 5)) (= i^post (- 1))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -516,8 +516,8 @@
 :guard
 (and
 (and
-(and (<= -4 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 4) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -530,7 +530,7 @@
 (l46 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -3) (= i^post -1)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 3)) (= i^post (- 1))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -539,8 +539,8 @@
 :guard
 (and
 (and
-(and (<= -3 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 3) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -548,7 +548,7 @@
 (l50 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -3) (= i^post 0)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 3)) (= i^post 0)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -557,8 +557,8 @@
 :guard
 (and
 (and
-(and (<= -2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 2) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -571,7 +571,7 @@
 (l52 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -3) (= i^post 0)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 3)) (= i^post 0)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -580,8 +580,8 @@
 :guard
 (and
 (and
-(and (<= -3 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 3) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -589,7 +589,7 @@
 (l56 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -3) (= i^post 0)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 3)) (= i^post 0)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -598,8 +598,8 @@
 :guard
 (and
 (and
-(and (<= -2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 2) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -612,7 +612,7 @@
 (l58 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -2) (= i^post 0)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 2)) (= i^post 0)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -621,8 +621,8 @@
 :guard
 (and
 (and
-(and (<= -2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 2) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -635,7 +635,7 @@
 (l62 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -2) (= i^post 9)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 2)) (= i^post 9)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -644,8 +644,8 @@
 :guard
 (and
 (and
-(and (<= -1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 1) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -653,7 +653,7 @@
 (l66 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -2) (= i^post 9)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 2)) (= i^post 9)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -662,8 +662,8 @@
 :guard
 (and
 (and
-(and (<= -2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 2) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -671,7 +671,7 @@
 (l68 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -2) (= i^post 9)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 2)) (= i^post 9)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -680,8 +680,8 @@
 :guard
 (and
 (and
-(and (<= -1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 1) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -699,7 +699,7 @@
 (l70 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -1) (= i^post 9)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 1)) (= i^post 9)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -708,8 +708,8 @@
 :guard
 (and
 (and
-(and (<= -1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 1) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -717,7 +717,7 @@
 (l74 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -1) (= i^post 8)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 1)) (= i^post 8)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -727,7 +727,7 @@
 (and
 (and
 (and (<= 0 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -740,7 +740,7 @@
 (l76 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -1) (= i^post 8)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 1)) (= i^post 8)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -749,8 +749,8 @@
 :guard
 (and
 (and
-(and (<= -1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(and (<= (- 1) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -763,7 +763,7 @@
 (l80 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -1) (= i^post 8)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 1)) (= i^post 8)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -773,7 +773,7 @@
 (and
 (and
 (and (<= 0 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -791,7 +791,7 @@
 (and
 (and
 (and (<= 0 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -814,7 +814,7 @@
 (and
 (and
 (and (<= 1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -832,7 +832,7 @@
 (and
 (and
 (and (<= 0 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -850,7 +850,7 @@
 (and
 (and
 (and (<= 1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -873,7 +873,7 @@
 (and
 (and
 (and (<= 1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -896,7 +896,7 @@
 (and
 (and
 (and (<= 2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -914,7 +914,7 @@
 (and
 (and
 (and (<= 1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -937,7 +937,7 @@
 (and
 (and
 (and (<= 2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -960,7 +960,7 @@
 (and
 (and
 (and (<= 2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -978,7 +978,7 @@
 (and
 (and
 (and (<= 3 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -996,7 +996,7 @@
 (and
 (and
 (and (<= 2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1014,7 +1014,7 @@
 (and
 (and
 (and (<= 3 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ (+ 0 (* -1 argc^0)) i^0)))
+(= i^post (+ (+ 0 (* (- 1) argc^0)) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1032,7 +1032,7 @@
 (l118 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -8) (= i^post 5)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 8)) (= i^post 5)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1041,8 +1041,8 @@
 :guard
 (and
 (and
-(and (<= -8 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 8) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1055,7 +1055,7 @@
 (l122 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -8) (= i^post 16)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 8)) (= i^post 16)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1064,8 +1064,8 @@
 :guard
 (and
 (and
-(and (<= -7 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 7) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1073,7 +1073,7 @@
 (l126 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -8) (= i^post 16)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 8)) (= i^post 16)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1082,8 +1082,8 @@
 :guard
 (and
 (and
-(and (<= -8 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 8) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1096,7 +1096,7 @@
 (l128 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -8) (= i^post 16)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 8)) (= i^post 16)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1105,8 +1105,8 @@
 :guard
 (and
 (and
-(and (<= -7 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 7) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1119,7 +1119,7 @@
 (l132 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -7) (= i^post 16)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 7)) (= i^post 16)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1128,8 +1128,8 @@
 :guard
 (and
 (and
-(and (<= -7 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 7) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1137,7 +1137,7 @@
 (l136 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -7) (= i^post -2)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 7)) (= i^post (- 2))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1146,8 +1146,8 @@
 :guard
 (and
 (and
-(and (<= -6 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 6) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1155,7 +1155,7 @@
 (l138 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -7) (= i^post -2)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 7)) (= i^post (- 2))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1164,8 +1164,8 @@
 :guard
 (and
 (and
-(and (<= -7 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 7) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1178,7 +1178,7 @@
 (l140 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -7) (= i^post -2)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 7)) (= i^post (- 2))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1187,8 +1187,8 @@
 :guard
 (and
 (and
-(and (<= -6 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 6) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1196,7 +1196,7 @@
 (l144 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -5) (= i^post -2)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 5)) (= i^post (- 2))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1205,8 +1205,8 @@
 :guard
 (and
 (and
-(and (<= -5 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 5) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1219,7 +1219,7 @@
 (l146 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -5) (= i^post -1)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 5)) (= i^post (- 1))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1228,8 +1228,8 @@
 :guard
 (and
 (and
-(and (<= -4 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 4) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1242,7 +1242,7 @@
 (l150 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -5) (= i^post -1)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 5)) (= i^post (- 1))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1251,8 +1251,8 @@
 :guard
 (and
 (and
-(and (<= -5 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 5) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1260,7 +1260,7 @@
 (l154 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -5) (= i^post -1)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 5)) (= i^post (- 1))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1269,8 +1269,8 @@
 :guard
 (and
 (and
-(and (<= -4 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 4) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1283,7 +1283,7 @@
 (l156 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -3) (= i^post -1)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 3)) (= i^post (- 1))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1292,8 +1292,8 @@
 :guard
 (and
 (and
-(and (<= -3 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 3) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1301,7 +1301,7 @@
 (l157 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -3) (= i^post 0)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 3)) (= i^post 0)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1310,8 +1310,8 @@
 :guard
 (and
 (and
-(and (<= -2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 2) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1319,7 +1319,7 @@
 (l151 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -3) (= i^post 0)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 3)) (= i^post 0)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1328,8 +1328,8 @@
 :guard
 (and
 (and
-(and (<= -3 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 3) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1342,7 +1342,7 @@
 (l147 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -3) (= i^post 0)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 3)) (= i^post 0)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1351,8 +1351,8 @@
 :guard
 (and
 (and
-(and (<= -2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 2) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1365,7 +1365,7 @@
 (l141 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -2) (= i^post 0)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 2)) (= i^post 0)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1374,8 +1374,8 @@
 :guard
 (and
 (and
-(and (<= -2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 2) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1383,7 +1383,7 @@
 (l133 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -2) (= i^post 9)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 2)) (= i^post 9)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1392,8 +1392,8 @@
 :guard
 (and
 (and
-(and (<= -1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 1) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1406,7 +1406,7 @@
 (l129 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -2) (= i^post 9)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 2)) (= i^post 9)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1415,8 +1415,8 @@
 :guard
 (and
 (and
-(and (<= -2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 2) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1424,7 +1424,7 @@
 (l123 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -2) (= i^post 9)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 2)) (= i^post 9)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1433,8 +1433,8 @@
 :guard
 (and
 (and
-(and (<= -1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 1) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1447,7 +1447,7 @@
 (l119 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -1) (= i^post 9)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 1)) (= i^post 9)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1456,8 +1456,8 @@
 :guard
 (and
 (and
-(and (<= -1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 1) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1465,7 +1465,7 @@
 (l109 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -1) (= i^post 8)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 1)) (= i^post 8)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1475,7 +1475,7 @@
 (and
 (and
 (and (<= 0 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1483,7 +1483,7 @@
 (l105 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 1 i^0) -1) (= i^post 8)) (= argc^0 argc^post))
+(and (and (<= (+ 1 i^0) (- 1)) (= i^post 8)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1492,8 +1492,8 @@
 :guard
 (and
 (and
-(and (<= -1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(and (<= (- 1) (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1506,7 +1506,7 @@
 (l99 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= (+ 0 i^0) -1) (= i^post 8)) (= argc^0 argc^post))
+(and (and (<= (+ 0 i^0) (- 1)) (= i^post 8)) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1516,7 +1516,7 @@
 (and
 (and
 (and (<= 0 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1539,7 +1539,7 @@
 (and
 (and
 (and (<= 0 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1557,7 +1557,7 @@
 (and
 (and
 (and (<= 1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1580,7 +1580,7 @@
 (and
 (and
 (and (<= 0 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1603,7 +1603,7 @@
 (and
 (and
 (and (<= 1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1621,7 +1621,7 @@
 (and
 (and
 (and (<= 1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1639,7 +1639,7 @@
 (and
 (and
 (and (<= 2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1667,7 +1667,7 @@
 (and
 (and
 (and (<= 1 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1685,7 +1685,7 @@
 (and
 (and
 (and (<= 2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1708,7 +1708,7 @@
 (and
 (and
 (and (<= 2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1731,7 +1731,7 @@
 (and
 (and
 (and (<= 3 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1749,7 +1749,7 @@
 (and
 (and
 (and (<= 2 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1772,7 +1772,7 @@
 (and
 (and
 (and (<= 3 (+ 0 i^0)) (= s^post (+ (+ 0 i^0) s^0)))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= argc^0 argc^post))
 )
 (rule
@@ -1798,7 +1798,7 @@
 (l17 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 4 (+ 0 i^0)) (= i^post -6)) (= argc^0 argc^post))
+(and (and (<= 4 (+ 0 i^0)) (= i^post (- 6))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1821,7 +1821,7 @@
 (l10 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 5 (+ 0 i^0)) (= i^post -6)) (= argc^0 argc^post))
+(and (and (<= 5 (+ 0 i^0)) (= i^post (- 6))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1839,7 +1839,7 @@
 (l8 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 4 (+ 0 i^0)) (= i^post -6)) (= argc^0 argc^post))
+(and (and (<= 4 (+ 0 i^0)) (= i^post (- 6))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1862,7 +1862,7 @@
 (l6 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 1 (+ 0 i^0)) (= i^post -6)) (= argc^0 argc^post))
+(and (and (<= 1 (+ 0 i^0)) (= i^post (- 6))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1885,7 +1885,7 @@
 (l4 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 0 (+ 0 i^0)) (= i^post -5)) (= argc^0 argc^post))
+(and (and (<= 0 (+ 0 i^0)) (= i^post (- 5))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1903,7 +1903,7 @@
 (l2 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 1 (+ 0 i^0)) (= i^post -5)) (= argc^0 argc^post))
+(and (and (<= 1 (+ 0 i^0)) (= i^post (- 5))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1926,7 +1926,7 @@
 (l0 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 0 (+ 0 i^0)) (= i^post -5)) (= argc^0 argc^post))
+(and (and (<= 0 (+ 0 i^0)) (= i^post (- 5))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1944,7 +1944,7 @@
 (l160 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 0 (+ 0 i^0)) (= i^post -5)) (= argc^0 argc^post))
+(and (and (<= 0 (+ 0 i^0)) (= i^post (- 5))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1953,7 +1953,7 @@
 :guard
 (and
 (and
-(and (<= (+ 0 i^0) -1) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 0 i^0) (- 1)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ (+ 0 argc^0) i^0)))
 (= argc^0 argc^post))
 )
@@ -1962,7 +1962,7 @@
 (l162 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= -1 (+ 0 i^0)) (= i^post -4)) (= argc^0 argc^post))
+(and (and (<= (- 1) (+ 0 i^0)) (= i^post (- 4))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1971,7 +1971,7 @@
 :guard
 (and
 (and
-(and (<= (+ 1 i^0) -1) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 1 i^0) (- 1)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ (+ 0 argc^0) i^0)))
 (= argc^0 argc^post))
 )
@@ -1990,7 +1990,7 @@
 (l164 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 0 (+ 0 i^0)) (= i^post -4)) (= argc^0 argc^post))
+(and (and (<= 0 (+ 0 i^0)) (= i^post (- 4))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -1999,7 +1999,7 @@
 :guard
 (and
 (and
-(and (<= (+ 0 i^0) -1) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 0 i^0) (- 1)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ (+ 0 argc^0) i^0)))
 (= argc^0 argc^post))
 )
@@ -2013,7 +2013,7 @@
 (l166 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= -1 (+ 0 i^0)) (= i^post -4)) (= argc^0 argc^post))
+(and (and (<= (- 1) (+ 0 i^0)) (= i^post (- 4))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2022,7 +2022,7 @@
 :guard
 (and
 (and
-(and (<= (+ 1 i^0) -1) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 1 i^0) (- 1)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ (+ 0 argc^0) i^0)))
 (= argc^0 argc^post))
 )
@@ -2031,7 +2031,7 @@
 (l168 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= -1 (+ 0 i^0)) (= i^post -4)) (= argc^0 argc^post))
+(and (and (<= (- 1) (+ 0 i^0)) (= i^post (- 4))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2040,7 +2040,7 @@
 :guard
 (and
 (and
-(and (<= (+ 0 i^0) -2) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 0 i^0) (- 2)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ (+ 0 argc^0) i^0)))
 (= argc^0 argc^post))
 )
@@ -2054,7 +2054,7 @@
 (l170 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= -2 (+ 0 i^0)) (= i^post -3)) (= argc^0 argc^post))
+(and (and (<= (- 2) (+ 0 i^0)) (= i^post (- 3))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2063,7 +2063,7 @@
 :guard
 (and
 (and
-(and (<= (+ 1 i^0) -2) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 1 i^0) (- 2)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ (+ 0 argc^0) i^0)))
 (= argc^0 argc^post))
 )
@@ -2077,7 +2077,7 @@
 (l172 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= -1 (+ 0 i^0)) (= i^post -3)) (= argc^0 argc^post))
+(and (and (<= (- 1) (+ 0 i^0)) (= i^post (- 3))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2086,7 +2086,7 @@
 :guard
 (and
 (and
-(and (<= (+ 0 i^0) -2) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 0 i^0) (- 2)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ (+ 0 argc^0) i^0)))
 (= argc^0 argc^post))
 )
@@ -2095,7 +2095,7 @@
 (l174 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= -2 (+ 0 i^0)) (= i^post -3)) (= argc^0 argc^post))
+(and (and (<= (- 2) (+ 0 i^0)) (= i^post (- 3))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2104,7 +2104,7 @@
 :guard
 (and
 (and
-(and (<= (+ 1 i^0) -2) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 1 i^0) (- 2)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ (+ 0 argc^0) i^0)))
 (= argc^0 argc^post))
 )
@@ -2113,7 +2113,7 @@
 (l176 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 3 (+ 0 i^0)) (= i^post -3)) (= argc^0 argc^post))
+(and (and (<= 3 (+ 0 i^0)) (= i^post (- 3))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2305,7 +2305,7 @@
 (l194 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 4 (+ 0 i^0)) (= i^post -6)) (= argc^0 argc^post))
+(and (and (<= 4 (+ 0 i^0)) (= i^post (- 6))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2323,7 +2323,7 @@
 (l196 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 5 (+ 0 i^0)) (= i^post -6)) (= argc^0 argc^post))
+(and (and (<= 5 (+ 0 i^0)) (= i^post (- 6))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2346,7 +2346,7 @@
 (l198 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 4 (+ 0 i^0)) (= i^post -6)) (= argc^0 argc^post))
+(and (and (<= 4 (+ 0 i^0)) (= i^post (- 6))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2369,7 +2369,7 @@
 (l200 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 1 (+ 0 i^0)) (= i^post -6)) (= argc^0 argc^post))
+(and (and (<= 1 (+ 0 i^0)) (= i^post (- 6))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2387,7 +2387,7 @@
 (l202 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 0 (+ 0 i^0)) (= i^post -5)) (= argc^0 argc^post))
+(and (and (<= 0 (+ 0 i^0)) (= i^post (- 5))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2410,7 +2410,7 @@
 (l204 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 1 (+ 0 i^0)) (= i^post -5)) (= argc^0 argc^post))
+(and (and (<= 1 (+ 0 i^0)) (= i^post (- 5))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2428,7 +2428,7 @@
 (l206 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 0 (+ 0 i^0)) (= i^post -5)) (= argc^0 argc^post))
+(and (and (<= 0 (+ 0 i^0)) (= i^post (- 5))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2446,7 +2446,7 @@
 (l208 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 0 (+ 0 i^0)) (= i^post -5)) (= argc^0 argc^post))
+(and (and (<= 0 (+ 0 i^0)) (= i^post (- 5))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2455,7 +2455,7 @@
 :guard
 (and
 (and
-(and (<= (+ 0 i^0) -1) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 0 i^0) (- 1)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ 1 i^0)))
 (= argc^0 argc^post))
 )
@@ -2469,7 +2469,7 @@
 (l210 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= -1 (+ 0 i^0)) (= i^post -4)) (= argc^0 argc^post))
+(and (and (<= (- 1) (+ 0 i^0)) (= i^post (- 4))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2478,7 +2478,7 @@
 :guard
 (and
 (and
-(and (<= (+ 1 i^0) -1) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 1 i^0) (- 1)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ 1 i^0)))
 (= argc^0 argc^post))
 )
@@ -2492,7 +2492,7 @@
 (l212 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 0 (+ 0 i^0)) (= i^post -4)) (= argc^0 argc^post))
+(and (and (<= 0 (+ 0 i^0)) (= i^post (- 4))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2501,7 +2501,7 @@
 :guard
 (and
 (and
-(and (<= (+ 0 i^0) -1) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 0 i^0) (- 1)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ 1 i^0)))
 (= argc^0 argc^post))
 )
@@ -2510,7 +2510,7 @@
 (l214 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= -1 (+ 0 i^0)) (= i^post -4)) (= argc^0 argc^post))
+(and (and (<= (- 1) (+ 0 i^0)) (= i^post (- 4))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2519,7 +2519,7 @@
 :guard
 (and
 (and
-(and (<= (+ 1 i^0) -1) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 1 i^0) (- 1)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ 1 i^0)))
 (= argc^0 argc^post))
 )
@@ -2533,7 +2533,7 @@
 (l216 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= -1 (+ 0 i^0)) (= i^post -4)) (= argc^0 argc^post))
+(and (and (<= (- 1) (+ 0 i^0)) (= i^post (- 4))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2542,7 +2542,7 @@
 :guard
 (and
 (and
-(and (<= (+ 0 i^0) -2) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 0 i^0) (- 2)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ 1 i^0)))
 (= argc^0 argc^post))
 )
@@ -2556,7 +2556,7 @@
 (l218 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= -2 (+ 0 i^0)) (= i^post -3)) (= argc^0 argc^post))
+(and (and (<= (- 2) (+ 0 i^0)) (= i^post (- 3))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2565,7 +2565,7 @@
 :guard
 (and
 (and
-(and (<= (+ 1 i^0) -2) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 1 i^0) (- 2)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ 1 i^0)))
 (= argc^0 argc^post))
 )
@@ -2574,7 +2574,7 @@
 (l220 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= -1 (+ 0 i^0)) (= i^post -3)) (= argc^0 argc^post))
+(and (and (<= (- 1) (+ 0 i^0)) (= i^post (- 3))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2583,7 +2583,7 @@
 :guard
 (and
 (and
-(and (<= (+ 0 i^0) -2) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 0 i^0) (- 2)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ 1 i^0)))
 (= argc^0 argc^post))
 )
@@ -2592,7 +2592,7 @@
 (l222 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= -2 (+ 0 i^0)) (= i^post -3)) (= argc^0 argc^post))
+(and (and (<= (- 2) (+ 0 i^0)) (= i^post (- 3))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule
@@ -2601,7 +2601,7 @@
 :guard
 (and
 (and
-(and (<= (+ 1 i^0) -2) (= s^post (+ (+ 0 i^0) s^0)))
+(and (<= (+ 1 i^0) (- 2)) (= s^post (+ (+ 0 i^0) s^0)))
 (= i^post (+ 1 i^0)))
 (= argc^0 argc^post))
 )
@@ -2620,7 +2620,7 @@
 (l224 argc^post i^post s^post)
 :guard
 (and
-(and (and (<= 3 (+ 0 i^0)) (= i^post -3)) (= argc^0 argc^post))
+(and (and (<= 3 (+ 0 i^0)) (= i^post (- 3))) (= argc^0 argc^post))
 (= s^0 s^post))
 )
 (rule

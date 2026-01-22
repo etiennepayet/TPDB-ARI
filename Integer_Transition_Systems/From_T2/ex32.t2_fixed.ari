@@ -28,7 +28,9 @@
 :guard
 (and
 (and
-(and (and (<= 0 (+ 0 i34^0)) (= i34^post (+ -1 i34^0))) (= i2^0 i2^post))
+(and
+(and (<= 0 (+ 0 i34^0)) (= i34^post (+ (- 1) i34^0)))
+(= i2^0 i2^post))
 (= i6^0 i6^post))
 (= i8^0 i8^post))
 )
@@ -96,7 +98,9 @@
 :guard
 (and
 (and
-(and (and (<= 0 (+ 0 i8^0)) (= i8^post (+ -1 i8^0))) (= i2^0 i2^post))
+(and
+(and (<= 0 (+ 0 i8^0)) (= i8^post (+ (- 1) i8^0)))
+(= i2^0 i2^post))
 (= i34^0 i34^post))
 (= i6^0 i6^post))
 )
@@ -124,7 +128,9 @@
 :guard
 (and
 (and
-(and (and (<= 0 (+ 0 i6^0)) (= i6^post (+ -1 i6^0))) (= i2^0 i2^post))
+(and
+(and (<= 0 (+ 0 i6^0)) (= i6^post (+ (- 1) i6^0)))
+(= i2^0 i2^post))
 (= i34^0 i34^post))
 (= i8^0 i8^post))
 )

@@ -15,7 +15,7 @@
 :guard
 (and
 (and
-(and (<= (+ 0 (* -1 x^0)) 0) (= Result^post Result^post))
+(and (<= (+ 0 (* (- 1) x^0)) 0) (= Result^post Result^post))
 (= x^0 x^post))
 (= y^0 y^post))
 )
@@ -25,7 +25,7 @@
 :guard
 (and
 (and
-(and (<= 0 (+ -1 (* -1 x^0))) (= Result^0 Result^post))
+(and (<= 0 (+ (- 1) (* (- 1) x^0))) (= Result^0 Result^post))
 (= x^0 x^post))
 (= y^0 y^post))
 )
@@ -34,7 +34,7 @@
 (l4 Result^post x^post y^post)
 :guard
 (and
-(and (and (<= (+ 1 y^0) -1) (= Result^0 Result^post)) (= x^0 x^post))
+(and (and (<= (+ 1 y^0) (- 1)) (= Result^0 Result^post)) (= x^0 x^post))
 (= y^0 y^post))
 )
 (rule
@@ -66,10 +66,10 @@
 (and
 (and
 (and
-(and (<= 0 (+ -1 (* -1 x^0))) (<= (+ 0 y^0) -1))
-(<= -1 (+ 0 y^0)))
+(and (<= 0 (+ (- 1) (* (- 1) x^0))) (<= (+ 0 y^0) (- 1)))
+(<= (- 1) (+ 0 y^0)))
 (= y^post (+ 1 y^0)))
-(= x^post (+ -99 x^0)))
+(= x^post (+ (- 99) x^0)))
 (= Result^0 Result^post))
 )
 (rule

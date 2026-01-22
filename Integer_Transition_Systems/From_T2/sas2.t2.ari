@@ -54,7 +54,7 @@
 (and
 (and
 (and
-(and (and (= c^post (+ -1 c^0)) (= d^0 d^post)) (= f^0 f^post))
+(and (and (= c^post (+ (- 1) c^0)) (= d^0 d^post)) (= f^0 f^post))
 (= n^0 n^post))
 (= r^0 r^post))
 (= s^0 s^post))
@@ -195,7 +195,7 @@
 (and
 (and
 (and
-(and (= d^post 1) (= s^post (+ (+ 0 (* -1 c^0)) s^0)))
+(and (= d^post 1) (= s^post (+ (+ 0 (* (- 1) c^0)) s^0)))
 (= c^0 c^post))
 (= f^0 f^post))
 (= n^0 n^post))
@@ -239,7 +239,7 @@
 (and
 (and
 (and (and (<= (+ 0 f^0) 0) (<= 0 (+ 0 f^0))) (= f^post 1))
-(= c^post (+ -1 c^0)))
+(= c^post (+ (- 1) c^0)))
 (= d^0 d^post))
 (= n^0 n^post))
 (= r^0 r^post))
@@ -407,7 +407,7 @@
 (and
 (and
 (and (and (<= (+ 0 f^0) 0) (<= 0 (+ 0 f^0))) (= f^post 1))
-(= c^post (+ -1 c^0)))
+(= c^post (+ (- 1) c^0)))
 (= d^0 d^post))
 (= n^0 n^post))
 (= r^0 r^post))

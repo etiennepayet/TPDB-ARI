@@ -1571,7 +1571,7 @@ tresh^post)
 (and
 (and
 (and
-(and (<= (+ 0 j^0) (+ -1 ip^0)) (= g^post g^post))
+(and (<= (+ 0 j^0) (+ (- 1) ip^0)) (= g^post g^post))
 (= h^post h^post))
 (= j^post (+ 1 j^0)))
 (= c^0 c^post))
@@ -1901,7 +1901,7 @@ tresh^post)
 (and
 (and
 (and
-(and (<= (+ 1 theta^0) 0) (= t^post (+ 0 (* -1 t^0))))
+(and (<= (+ 1 theta^0) 0) (= t^post (+ 0 (* (- 1) t^0))))
 (= c^0 c^post))
 (= g^0 g^post))
 (= h^0 h^post))
@@ -4904,7 +4904,7 @@ tresh^post)
 (and
 (and
 (and
-(and (and (<= (+ 0 ip^0) (+ -1 n^0)) (= c^0 c^post)) (= g^0 g^post))
+(and (and (<= (+ 0 ip^0) (+ (- 1) n^0)) (= c^0 c^post)) (= g^0 g^post))
 (= h^0 h^post))
 (= i^0 i^post))
 (= ip^0 ip^post))
@@ -6444,7 +6444,7 @@ tresh^post)
 (and
 (and
 (and
-(and (and (<= (+ 0 ip^0) (+ -1 n^0)) (= c^0 c^post)) (= g^0 g^post))
+(and (and (<= (+ 0 ip^0) (+ (- 1) n^0)) (= c^0 c^post)) (= g^0 g^post))
 (= h^0 h^post))
 (= i^0 i^post))
 (= ip^0 ip^post))
@@ -8527,7 +8527,7 @@ tresh^post)
 (and
 (and
 (and
-(and (<= (+ 0 j^0) (+ -1 iq^0)) (= g^post g^post))
+(and (<= (+ 0 j^0) (+ (- 1) iq^0)) (= g^post g^post))
 (= h^post h^post))
 (= j^post (+ 1 j^0)))
 (= c^0 c^post))

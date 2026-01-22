@@ -94,7 +94,7 @@ i_5^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i_5^0)) (= i_5^post (+ (+ 0 (* -1 d_6^0)) i_5^0)))
+(and (<= 0 (+ 0 i_5^0)) (= i_5^post (+ (+ 0 (* (- 1) d_6^0)) i_5^0)))
 (= Result_4^0 Result_4^post))
 (= ___cil_tmp2_10^0 ___cil_tmp2_10^post))
 (= ___cil_tmp4_8^0 ___cil_tmp4_8^post))
@@ -156,7 +156,7 @@ i_5^post)
 (and
 (and
 (and
-(and (<= (+ 0 (* -1 d_6^0)) 0) (= ___retres3_7^post 0))
+(and (<= (+ 0 (* (- 1) d_6^0)) 0) (= ___retres3_7^post 0))
 (= ___cil_tmp4_8^post (+ 0 ___retres3_7^post)))
 (= Result_4^post (+ 0 ___cil_tmp4_8^post)))
 (= ___cil_tmp2_10^0 ___cil_tmp2_10^post))
@@ -188,7 +188,7 @@ i_5^post)
 (and
 (and
 (and
-(and (<= 0 (+ -1 (* -1 d_6^0))) (= Result_4^0 Result_4^post))
+(and (<= 0 (+ (- 1) (* (- 1) d_6^0))) (= Result_4^0 Result_4^post))
 (= ___cil_tmp2_10^0 ___cil_tmp2_10^post))
 (= ___cil_tmp4_8^0 ___cil_tmp4_8^post))
 (= ___retres1_9^0 ___retres1_9^post))

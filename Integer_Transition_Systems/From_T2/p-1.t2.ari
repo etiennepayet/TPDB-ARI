@@ -56,7 +56,7 @@ y_6^post)
 (and
 (and
 (and (= lt_8^1 (+ 0 cnt_15^0)) (= lt_9^1 (+ 0 cnt_20^0)))
-(<= (+ (+ 0 (* -1 lt_8^1)) lt_9^1) 0))
+(<= (+ (+ 0 (* (- 1) lt_8^1)) lt_9^1) 0))
 (= lt_8^post lt_8^post))
 (= lt_9^post lt_9^post))
 (= Result_4^post Result_4^post))
@@ -92,7 +92,7 @@ y_6^post)
 (and
 (and
 (and (= lt_8^1 (+ 0 cnt_15^0)) (= lt_9^1 (+ 0 cnt_20^0)))
-(<= 0 (+ (+ -1 (* -1 lt_8^1)) lt_9^1)))
+(<= 0 (+ (+ (- 1) (* (- 1) lt_8^1)) lt_9^1)))
 (= lt_8^post lt_8^post))
 (= lt_9^post lt_9^post))
 (= lt_7^1 (+ 0 cnt_15^0)))

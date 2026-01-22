@@ -246,7 +246,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 pos^0)) (= i^post (+ -1 i^0))) (= pos^post 0))
+(and (and (<= 1 (+ 0 pos^0)) (= i^post (+ (- 1) i^0))) (= pos^post 0))
 (= N^0 N^post))
 (= b_arp^0 b_arp^post))
 (= b_configured^0 b_configured^post))
@@ -382,7 +382,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 z^0)) (= z^post (+ -1 z^0))) (= N^0 N^post))
+(and (and (<= 1 (+ 0 z^0)) (= z^post (+ (- 1) z^0))) (= N^0 N^post))
 (= b_arp^0 b_arp^post))
 (= b_configured^0 b_configured^post))
 (= b_ip^0 b_ip^post))
@@ -580,7 +580,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 pos^0)) (= i^post (+ -1 i^0))) (= pos^post 0))
+(and (and (<= 1 (+ 0 pos^0)) (= i^post (+ (- 1) i^0))) (= pos^post 0))
 (= N^0 N^post))
 (= b_arp^0 b_arp^post))
 (= b_configured^0 b_configured^post))
@@ -716,7 +716,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 z^0)) (= z^post (+ -1 z^0))) (= N^0 N^post))
+(and (and (<= 1 (+ 0 z^0)) (= z^post (+ (- 1) z^0))) (= N^0 N^post))
 (= b_arp^0 b_arp^post))
 (= b_configured^0 b_configured^post))
 (= b_ip^0 b_ip^post))
@@ -948,7 +948,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 pos^0)) (= i^post (+ -1 i^0))) (= pos^post 0))
+(and (and (<= 1 (+ 0 pos^0)) (= i^post (+ (- 1) i^0))) (= pos^post 0))
 (= N^0 N^post))
 (= b_arp^0 b_arp^post))
 (= b_configured^0 b_configured^post))
@@ -1084,7 +1084,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 z^0)) (= z^post (+ -1 z^0))) (= N^0 N^post))
+(and (and (<= 1 (+ 0 z^0)) (= z^post (+ (- 1) z^0))) (= N^0 N^post))
 (= b_arp^0 b_arp^post))
 (= b_configured^0 b_configured^post))
 (= b_ip^0 b_ip^post))

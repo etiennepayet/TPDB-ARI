@@ -75,7 +75,7 @@ x2^post)
 (and
 (and
 (and
-(and (= up5^post (+ -1 low6^0)) (= fvalue3^post fvalue3^post))
+(and (= up5^post (+ (- 1) low6^0)) (= fvalue3^post fvalue3^post))
 (= __const_14^0 __const_14^post))
 (= __const_8^0 __const_8^post))
 (= low6^0 low6^post))
@@ -309,7 +309,7 @@ x2^post)
 (and
 (and
 (and
-(and (= up5^post (+ -1 mid4^0)) (= __const_14^0 __const_14^post))
+(and (= up5^post (+ (- 1) mid4^0)) (= __const_14^0 __const_14^post))
 (= __const_8^0 __const_8^post))
 (= fvalue3^0 fvalue3^post))
 (= low6^0 low6^post))
@@ -349,7 +349,7 @@ x2^post)
 (and
 (and (= x2^post (+ 0 __const_8^0)) (= low6^post 0))
 (= up5^post (+ 0 __const_14^0)))
-(= fvalue3^post -1))
+(= fvalue3^post (- 1)))
 (= __const_14^0 __const_14^post))
 (= __const_8^0 __const_8^post))
 (= mid4^0 mid4^post))

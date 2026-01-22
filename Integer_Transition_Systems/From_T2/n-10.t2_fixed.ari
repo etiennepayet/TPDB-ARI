@@ -50,7 +50,7 @@ y_6^post)
 (and
 (and
 (and (= lt_11^1 (+ 0 cnt_20^0)) (= lt_12^1 (+ 0 cnt_25^0)))
-(<= (+ (+ 0 (* -1 lt_11^1)) lt_12^1) 0))
+(<= (+ (+ 0 (* (- 1) lt_11^1)) lt_12^1) 0))
 (= lt_11^post lt_11^post))
 (= lt_12^post lt_12^post))
 (= Result_4^post Result_4^post))
@@ -107,7 +107,7 @@ y_6^post)
 (and
 (and
 (and (= lt_11^1 (+ 0 cnt_20^0)) (= lt_12^1 (+ 0 cnt_25^0)))
-(<= 0 (+ (+ -1 (* -1 lt_11^1)) lt_12^1)))
+(<= 0 (+ (+ (- 1) (* (- 1) lt_11^1)) lt_12^1)))
 (= lt_11^post lt_11^post))
 (= lt_12^post lt_12^post))
 (= tmp_9^post tmp_9^post))
@@ -210,7 +210,7 @@ y_6^post)
 (and
 (and
 (and (= lt_11^1 (+ 0 cnt_20^0)) (= lt_12^1 (+ 0 cnt_25^0)))
-(<= 0 (+ (+ -1 (* -1 lt_11^1)) lt_12^1)))
+(<= 0 (+ (+ (- 1) (* (- 1) lt_11^1)) lt_12^1)))
 (= lt_11^post lt_11^post))
 (= lt_12^post lt_12^post))
 (= tmp_9^post tmp_9^post))

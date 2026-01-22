@@ -164,7 +164,7 @@ temp9^post)
 (and
 (and
 (and
-(and (<= (+ 0 k1^0) (+ 0 j5^0)) (= ir4^post (+ -1 j5^0)))
+(and (<= (+ 0 k1^0) (+ 0 j5^0)) (= ir4^post (+ (- 1) j5^0)))
 (= a8^0 a8^post))
 (= flag10^0 flag10^post))
 (= flag211^0 flag211^post))
@@ -457,7 +457,7 @@ temp9^post)
 (and
 (and
 (and
-(and (= j5^post (+ -1 j5^0)) (= a8^0 a8^post))
+(and (= j5^post (+ (- 1) j5^0)) (= a8^0 a8^post))
 (= flag10^0 flag10^post))
 (= flag211^0 flag211^post))
 (= i3^0 i3^post))
@@ -562,7 +562,7 @@ temp9^post)
 (and
 (and
 (and
-(and (= j5^post (+ -1 j5^0)) (= a8^0 a8^post))
+(and (= j5^post (+ (- 1) j5^0)) (= a8^0 a8^post))
 (= flag10^0 flag10^post))
 (= flag211^0 flag211^post))
 (= i3^0 i3^post))

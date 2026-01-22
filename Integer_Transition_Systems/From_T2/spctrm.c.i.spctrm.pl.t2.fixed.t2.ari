@@ -4157,7 +4157,7 @@ w^post)
 (and
 (and (<= (+ 0 j^0) (+ 0 mm^0)) (= j2^post (+ 0 (* 2 j^0))))
 (= tmp___2^post tmp___2^post))
-(= w^post (+ 1 (* -1 tmp___2^post))))
+(= w^post (+ 1 (* (- 1) tmp___2^post))))
 (= j^post (+ 1 j^0)))
 (= den^0 den^post))
 (= facm^0 facm^post))
@@ -8580,7 +8580,7 @@ w^post)
 (and
 (and
 (and (<= (+ 0 j^0) (+ 0 mm^0)) (= tmp___1^post tmp___1^post))
-(= sqrarg^post (+ 1 (* -1 tmp___1^post))))
+(= sqrarg^post (+ 1 (* (- 1) tmp___1^post))))
 (= den^0 den^post))
 (= facm^0 facm^post))
 (= facp^0 facp^post))

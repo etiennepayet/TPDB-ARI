@@ -19,8 +19,8 @@
 (l2 x^post y^post z^post)
 :guard
 (and
-(and (= z^post (+ 1 z^0)) (= x^post (+ -1 x^0)))
-(= y^post (+ -1 y^0)))
+(and (= z^post (+ 1 z^0)) (= x^post (+ (- 1) x^0)))
+(= y^post (+ (- 1) y^0)))
 )
 (rule
 (l2 x^0 y^0 z^0)

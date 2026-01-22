@@ -29,7 +29,7 @@
 (and
 (and
 (and
-(and (and (<= 100 (+ 0 i^0)) (= j^post (+ -2 i^0))) (= i^0 i^post))
+(and (and (<= 100 (+ 0 i^0)) (= j^post (+ (- 2) i^0))) (= i^0 i^post))
 (= j10^0 j10^post))
 (= j6^0 j6^post))
 (= ret_check12^0 ret_check12^post))

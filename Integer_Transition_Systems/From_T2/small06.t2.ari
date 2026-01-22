@@ -58,7 +58,7 @@
 (l4 c^post ox^post x^post)
 :guard
 (and
-(and (and (<= 1 (+ 0 x^0)) (= x^post (+ -1 x^0))) (= c^0 c^post))
+(and (and (<= 1 (+ 0 x^0)) (= x^post (+ (- 1) x^0))) (= c^0 c^post))
 (= ox^0 ox^post))
 )
 (rule

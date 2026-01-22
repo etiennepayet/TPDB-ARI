@@ -10900,7 +10900,7 @@ z6363^post)
 (and
 (and
 (and
-(and (= tmp___03^post (+ 0 i^0)) (= i^post (+ -1 i^0)))
+(and (= tmp___03^post (+ 0 i^0)) (= i^post (+ (- 1) i^0)))
 (= APe4242^0 APe4242^post))
 (= APe8181^0 APe8181^post))
 (= APm4141^0 APm4141^post))
@@ -11848,7 +11848,7 @@ z6363^post)
 (and
 (and
 (and
-(and (= pollset___07373^post pollset___07373^post) (= a7474^post -1))
+(and (= pollset___07373^post pollset___07373^post) (= a7474^post (- 1)))
 (= ret_apr_pollset_poll7777^post 0))
 (= status^post (+ 0 ret_apr_pollset_poll7777^post)))
 (= APe4242^0 APe4242^post))

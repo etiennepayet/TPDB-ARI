@@ -24,7 +24,7 @@
 (and
 (and
 (<= (+ 0 x^0) (+ 0 __const_10^0))
-(= y^post (+ (+ 0 __const_10^0) (* -1 x^0))))
+(= y^post (+ (+ 0 __const_10^0) (* (- 1) x^0))))
 (= x^post (+ 1 x^0)))
 (= __const_10^0 __const_10^post))
 )

@@ -125,7 +125,7 @@ w^post)
 (and
 (and
 (and
-(and (<= (+ 1 n8^0) (+ 0 j10^0)) (= i9^post (+ -1 i9^0)))
+(and (<= (+ 1 n8^0) (+ 0 j10^0)) (= i9^post (+ (- 1) i9^0)))
 (= chkerr^0 chkerr^post))
 (= i^0 i^post))
 (= j^0 j^post))
@@ -565,7 +565,7 @@ w^post)
 (and
 (and
 (and
-(and (<= (+ 1 n8^0) (+ 0 i9^0)) (= i9^post (+ -1 n8^0)))
+(and (<= (+ 1 n8^0) (+ 0 i9^0)) (= i9^post (+ (- 1) n8^0)))
 (= chkerr^0 chkerr^post))
 (= i^0 i^post))
 (= j^0 j^post))

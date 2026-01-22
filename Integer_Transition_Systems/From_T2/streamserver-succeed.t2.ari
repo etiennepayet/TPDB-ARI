@@ -4826,7 +4826,7 @@ tmp1^post)
 (and
 (and
 (and
-(<= (+ 1 ListenSocket_OF_listen_index^0) -1)
+(<= (+ 1 ListenSocket_OF_listen_index^0) (- 1))
 (= ListenSocket_OF_listen_index^0 ListenSocket_OF_listen_index^post))
 (= MAXADDR^0 MAXADDR^post))
 (= MaxBackends^0 MaxBackends^post))
@@ -4937,8 +4937,8 @@ tmp1^post)
 (and
 (and
 (and
-(<= (+ 0 ListenSocket_OF_listen_index^0) -1)
-(<= -1 (+ 0 ListenSocket_OF_listen_index^0)))
+(<= (+ 0 ListenSocket_OF_listen_index^0) (- 1))
+(<= (- 1) (+ 0 ListenSocket_OF_listen_index^0)))
 (= ListenSocket_OF_listen_index^0 ListenSocket_OF_listen_index^post))
 (= MAXADDR^0 MAXADDR^post))
 (= MaxBackends^0 MaxBackends^post))

@@ -72,7 +72,7 @@
 (and
 (and
 (and
-(and (<= 3 (+ 0 WItemsNum^0)) (= WItemsNum^post (+ -1 WItemsNum^0)))
+(and (<= 3 (+ 0 WItemsNum^0)) (= WItemsNum^post (+ (- 1) WItemsNum^0)))
 (= __const_5^0 __const_5^post))
 (= __rho_1_^0 __rho_1_^post))
 (= __rho_2_^0 __rho_2_^post))

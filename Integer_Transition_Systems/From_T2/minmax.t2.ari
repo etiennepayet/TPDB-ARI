@@ -1759,7 +1759,7 @@ z^post)
 (and
 (and
 (<= (+ 1 z^0) (+ 0 y_promoted_2^0))
-(= tmp___1^post (+ (+ 0 y_promoted_2^0) (* -1 z^0))))
+(= tmp___1^post (+ (+ 0 y_promoted_2^0) (* (- 1) z^0))))
 (= __const_10^0 __const_10^post))
 (= a10^0 a10^post))
 (= a15^0 a15^post))

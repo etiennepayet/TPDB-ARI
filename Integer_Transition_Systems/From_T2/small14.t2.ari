@@ -123,7 +123,7 @@ z^post)
 (and
 (and
 (and
-(and (and (= y^post (+ -1 y^0)) (= x^post (+ 0 z^0))) (= c^0 c^post))
+(and (and (= y^post (+ (- 1) y^0)) (= x^post (+ 0 z^0))) (= c^0 c^post))
 (= ox^0 ox^post))
 (= oy^0 oy^post))
 (= oz^0 oz^post))
@@ -153,7 +153,7 @@ z^post)
 (and
 (and
 (and
-(and (and (= x^post (+ -1 x^0)) (= c^0 c^post)) (= ox^0 ox^post))
+(and (and (= x^post (+ (- 1) x^0)) (= c^0 c^post)) (= ox^0 ox^post))
 (= oy^0 oy^post))
 (= oz^0 oz^post))
 (= sx^0 sx^post))

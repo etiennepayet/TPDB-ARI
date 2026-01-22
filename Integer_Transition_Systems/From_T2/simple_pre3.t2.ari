@@ -92,7 +92,7 @@
 ((a^1 Int))
 (and
 (and
-(and (= a^1 -1) (= ret_returnOne3^post 1))
+(and (= a^1 (- 1)) (= ret_returnOne3^post 1))
 (= a^post (+ 0 ret_returnOne3^post)))
 (= tmp^0 tmp^post))
 )

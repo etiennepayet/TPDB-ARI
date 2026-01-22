@@ -210,7 +210,7 @@ z^post)
 (and
 (and
 (and (and (<= 1 (+ 0 pi^0)) (<= (+ 0 c2^0) 0)) (= wpos^post 0))
-(= pi^post (+ -1 pi^0)))
+(= pi^post (+ (- 1) pi^0)))
 (= c1^0 c1^post))
 (= c2^0 c2^post))
 (= m^0 m^post))
@@ -438,7 +438,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= (+ 1 c2^0) 1) (= m^post (+ -1 m^0))) (= c1^0 c1^post))
+(and (and (<= (+ 1 c2^0) 1) (= m^post (+ (- 1) m^0))) (= c1^0 c1^post))
 (= c2^0 c2^post))
 (= max^0 max^post))
 (= n^0 n^post))
@@ -570,7 +570,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 z^0)) (= z^post (+ -1 z^0))) (= c1^0 c1^post))
+(and (and (<= 1 (+ 0 z^0)) (= z^post (+ (- 1) z^0))) (= c1^0 c1^post))
 (= c2^0 c2^post))
 (= m^0 m^post))
 (= max^0 max^post))
@@ -700,7 +700,7 @@ z^post)
 (and
 (and
 (and (and (<= 1 (+ 0 pi^0)) (<= (+ 0 c1^0) 0)) (= wpos^post 0))
-(= pi^post (+ -1 pi^0)))
+(= pi^post (+ (- 1) pi^0)))
 (= c1^0 c1^post))
 (= c2^0 c2^post))
 (= m^0 m^post))
@@ -1064,7 +1064,7 @@ z^post)
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 z^0)) (= z^post (+ -1 z^0))) (= c1^0 c1^post))
+(and (and (<= 1 (+ 0 z^0)) (= z^post (+ (- 1) z^0))) (= c1^0 c1^post))
 (= c2^0 c2^post))
 (= m^0 m^post))
 (= max^0 max^post))

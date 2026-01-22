@@ -45,7 +45,7 @@
 (and
 (and
 (and
-(and (<= (+ 0 tmp___1^0) -1) (<= -1 (+ 0 tmp___1^0)))
+(and (<= (+ 0 tmp___1^0) (- 1)) (<= (- 1) (+ 0 tmp___1^0)))
 (= __val8^post 0))
 (= __len9^post __len9^post))
 (= tmp10^post tmp10^post))
@@ -78,7 +78,7 @@
 (and
 (and
 (and
-(and (<= (+ 1 tmp___1^0) -1) (= __len9^0 __len9^post))
+(and (<= (+ 1 tmp___1^0) (- 1)) (= __len9^0 __len9^post))
 (= __val8^0 __val8^post))
 (= tmp^0 tmp^post))
 (= tmp10^0 tmp10^post))

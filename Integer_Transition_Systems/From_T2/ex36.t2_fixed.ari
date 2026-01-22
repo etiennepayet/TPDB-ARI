@@ -9315,7 +9315,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i22^0)) (= i22^post (+ -1 i22^0)))
+(and (<= 0 (+ 0 i22^0)) (= i22^post (+ (- 1) i22^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -10647,7 +10647,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i20^0)) (= i20^post (+ -1 i20^0)))
+(and (<= 0 (+ 0 i20^0)) (= i20^post (+ (- 1) i20^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -14215,7 +14215,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i18^0)) (= i18^post (+ -1 i18^0)))
+(and (<= 0 (+ 0 i18^0)) (= i18^post (+ (- 1) i18^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -14883,7 +14883,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i47124^0)) (= i47124^post (+ -1 i47124^0)))
+(and (<= 0 (+ 0 i47124^0)) (= i47124^post (+ (- 1) i47124^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -15326,7 +15326,7 @@ zer^post)
 (and
 (and
 (and
-(and (= j89^post (+ -1 j89^0)) (= cmd1^0 cmd1^post))
+(and (= j89^post (+ (- 1) j89^0)) (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
 (= eb63^0 eb63^post))
@@ -15771,7 +15771,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i16^0)) (= i16^post (+ -1 i16^0)))
+(and (<= 0 (+ 0 i16^0)) (= i16^post (+ (- 1) i16^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -17105,8 +17105,8 @@ zer^post)
 (and
 (and
 (and
-(and (<= (+ 1 j89^0) 0) (= n87^post (+ -1 n87^0)))
-(= l85^post (+ -1 l85^0)))
+(and (<= (+ 1 j89^0) 0) (= n87^post (+ (- 1) n87^0)))
+(= l85^post (+ (- 1) l85^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -17996,7 +17996,7 @@ zer^post)
 (and
 (and
 (and (<= 0 (+ 0 i1343120^0)) (= ec1444121^post ec1444121^post))
-(= i1343120^post (+ -1 i1343120^0)))
+(= i1343120^post (+ (- 1) i1343120^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -18440,7 +18440,7 @@ zer^post)
 (and
 (and
 (and
-(and (= i939116^post (+ -1 i939116^0)) (= cmd1^0 cmd1^post))
+(and (= i939116^post (+ (- 1) i939116^0)) (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
 (= eb63^0 eb63^post))
@@ -19555,7 +19555,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i939116^0)) (= i939116^post (+ -1 i939116^0)))
+(and (<= 0 (+ 0 i939116^0)) (= i939116^post (+ (- 1) i939116^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -20003,7 +20003,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i737114^0)) (= i737114^post (+ -1 i737114^0)))
+(and (<= 0 (+ 0 i737114^0)) (= i737114^post (+ (- 1) i737114^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -23321,7 +23321,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i30107^0)) (= i30107^post (+ -1 i30107^0)))
+(and (<= 0 (+ 0 i30107^0)) (= i30107^post (+ (- 1) i30107^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -23544,7 +23544,7 @@ zer^post)
 (and
 (and
 (and
-(and (= j89^post (+ -1 j89^0)) (= cmd1^0 cmd1^post))
+(and (= j89^post (+ (- 1) j89^0)) (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
 (= eb63^0 eb63^post))
@@ -24427,7 +24427,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= (+ 1 j89^0) 0) (= i88^post (+ -1 i88^0)))
+(and (<= (+ 1 j89^0) 0) (= i88^post (+ (- 1) i88^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -26861,7 +26861,7 @@ zer^post)
 (and
 (and
 (and
-(= n87^post (+ (+ 0 l85^0) (* -1 m86^0)))
+(= n87^post (+ (+ 0 l85^0) (* (- 1) m86^0)))
 (= i88^post (+ 0 n87^post)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
@@ -27309,7 +27309,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i28105^0)) (= i28105^post (+ -1 i28105^0)))
+(and (<= 0 (+ 0 i28105^0)) (= i28105^post (+ (- 1) i28105^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -27977,7 +27977,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i25102^0)) (= i25102^post (+ -1 i25102^0)))
+(and (<= 0 (+ 0 i25102^0)) (= i25102^post (+ (- 1) i25102^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -29087,7 +29087,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i23100^0)) (= i23100^post (+ -1 i23100^0)))
+(and (<= 0 (+ 0 i23100^0)) (= i23100^post (+ (- 1) i23100^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -29755,7 +29755,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i2198^0)) (= i2198^post (+ -1 i2198^0)))
+(and (<= 0 (+ 0 i2198^0)) (= i2198^post (+ (- 1) i2198^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -31088,7 +31088,7 @@ zer^post)
 (and
 (and
 (and
-(and (= m86^post (+ -1 m86^0)) (= mask84^post mask84^post))
+(and (= m86^post (+ (- 1) m86^0)) (= mask84^post mask84^post))
 (= j89^post (+ 1 j89^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
@@ -34172,7 +34172,7 @@ zer^post)
 (and
 (and
 (and
-(and (= l85^post (+ -1 l85^0)) (= mask84^post mask84^post))
+(and (= l85^post (+ (- 1) l85^0)) (= mask84^post mask84^post))
 (= j89^post (+ 1 j89^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
@@ -37259,7 +37259,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i1895^0)) (= i1895^post (+ -1 i1895^0)))
+(and (<= 0 (+ 0 i1895^0)) (= i1895^post (+ (- 1) i1895^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -38147,7 +38147,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i1592^0)) (= i1592^post (+ -1 i1592^0)))
+(and (<= 0 (+ 0 i1592^0)) (= i1592^post (+ (- 1) i1592^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -38811,7 +38811,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= (+ 1 i1876^0) 0) (= i65^post (+ -1 i65^0)))
+(and (<= (+ 1 i1876^0) 0) (= i65^post (+ (- 1) i65^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -39036,7 +39036,7 @@ zer^post)
 (and
 (and
 (and (<= 0 (+ 0 i1876^0)) (= ec1977^post ec1977^post))
-(= i1876^post (+ -1 i1876^0)))
+(= i1876^post (+ (- 1) i1876^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -39702,7 +39702,7 @@ zer^post)
 (and
 (and (= eb63^post eb63^post) (= k67^post k67^post))
 (= mul64^post mul64^post))
-(= j66^post (+ -1 j66^0)))
+(= j66^post (+ (- 1) j66^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -40367,7 +40367,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i1472^0)) (= i1472^post (+ -1 i1472^0)))
+(and (<= 0 (+ 0 i1472^0)) (= i1472^post (+ (- 1) i1472^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -41697,7 +41697,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i1270^0)) (= i1270^post (+ -1 i1270^0)))
+(and (<= 0 (+ 0 i1270^0)) (= i1270^post (+ (- 1) i1270^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -42364,7 +42364,7 @@ zer^post)
 (and
 (and
 (and (<= 0 (+ 0 i1357^0)) (= ec1458^post ec1458^post))
-(= i1357^post (+ -1 i1357^0)))
+(= i1357^post (+ (- 1) i1357^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -43028,7 +43028,7 @@ zer^post)
 (and
 (and
 (and
-(and (= i953^post (+ -1 i953^0)) (= cmd1^0 cmd1^post))
+(and (= i953^post (+ (- 1) i953^0)) (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
 (= eb63^0 eb63^post))
@@ -44359,7 +44359,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i953^0)) (= i953^post (+ -1 i953^0)))
+(and (<= 0 (+ 0 i953^0)) (= i953^post (+ (- 1) i953^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -45247,7 +45247,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i751^0)) (= i751^post (+ -1 i751^0)))
+(and (<= 0 (+ 0 i751^0)) (= i751^post (+ (- 1) i751^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -46134,7 +46134,7 @@ zer^post)
 (and
 (and
 (and (<= 0 (+ 0 i43^0)) (= ec44^post ec44^post))
-(= i43^post (+ -1 i43^0)))
+(= i43^post (+ (- 1) i43^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -46800,7 +46800,7 @@ zer^post)
 (and
 (and
 (and (<= 0 (+ 0 i38^0)) (= ec39^post ec39^post))
-(= i38^post (+ -1 i38^0)))
+(= i38^post (+ (- 1) i38^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -47466,7 +47466,7 @@ zer^post)
 (and
 (and
 (and (<= 0 (+ 0 i33^0)) (= ec34^post ec34^post))
-(= i33^post (+ -1 i33^0)))
+(= i33^post (+ (- 1) i33^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -51917,7 +51917,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i29^0)) (= i29^post (+ -1 i29^0)))
+(and (<= 0 (+ 0 i29^0)) (= i29^post (+ (- 1) i29^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -53249,7 +53249,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i27^0)) (= i27^post (+ -1 i27^0)))
+(and (<= 0 (+ 0 i27^0)) (= i27^post (+ (- 1) i27^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))
@@ -54137,7 +54137,7 @@ zer^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 i24^0)) (= i24^post (+ -1 i24^0)))
+(and (<= 0 (+ 0 i24^0)) (= i24^post (+ (- 1) i24^0)))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))

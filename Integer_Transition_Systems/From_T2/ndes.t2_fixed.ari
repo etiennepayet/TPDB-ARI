@@ -20348,8 +20348,10 @@ value^post)
 (and
 (and
 (and
-(and (= tmp___020^post (+ 0 ret_getbit3439^0)) (= j13^post (+ -1 j13^0)))
-(= k14^post (+ -1 k14^0)))
+(and
+(= tmp___020^post (+ 0 ret_getbit3439^0))
+(= j13^post (+ (- 1) j13^0)))
+(= k14^post (+ (- 1) k14^0)))
 (= bitno101106^0 bitno101106^post))
 (= bitno107112^0 bitno107112^post))
 (= bitno2429^0 bitno2429^post))
@@ -31528,8 +31530,10 @@ value^post)
 (and
 (and
 (and
-(and (= tmp___727^post (+ 0 ret_getbit9398^0)) (= j13^post (+ -1 j13^0)))
-(= k14^post (+ -1 k14^0)))
+(and
+(= tmp___727^post (+ 0 ret_getbit9398^0))
+(= j13^post (+ (- 1) j13^0)))
+(= k14^post (+ (- 1) k14^0)))
 (= bitno101106^0 bitno101106^post))
 (= bitno107112^0 bitno107112^post))
 (= bitno2429^0 bitno2429^post))
@@ -42262,7 +42266,7 @@ value^post)
 (and
 (and
 (and
-(and (= j7378^post (+ -1 j7378^0)) (= bitno101106^0 bitno101106^post))
+(and (= j7378^post (+ (- 1) j7378^0)) (= bitno101106^0 bitno101106^post))
 (= bitno107112^0 bitno107112^post))
 (= bitno2429^0 bitno2429^post))
 (= bitno3035^0 bitno3035^post))
@@ -45850,7 +45854,7 @@ value^post)
 (= iss7277^post iss7277^post))
 (= itmp6570^1 itmp6570^1))
 (= itmp6570^post itmp6570^post))
-(= jj6974^post (+ -1 jj6974^0)))
+(= jj6974^post (+ (- 1) jj6974^0)))
 (= bitno101106^0 bitno101106^post))
 (= bitno107112^0 bitno107112^post))
 (= bitno2429^0 bitno2429^post))
@@ -47187,8 +47191,8 @@ value^post)
 (and
 (and
 (and
-(and (= j7378^post (+ -1 j7378^0)) (= l7479^post (+ -1 l7479^0)))
-(= m7580^post (+ -1 m7580^0)))
+(and (= j7378^post (+ (- 1) j7378^0)) (= l7479^post (+ (- 1) l7479^0)))
+(= m7580^post (+ (- 1) m7580^0)))
 (= bitno101106^0 bitno101106^post))
 (= bitno107112^0 bitno107112^post))
 (= bitno2429^0 bitno2429^post))
@@ -55678,7 +55682,7 @@ value^post)
 (and
 (and
 (and (<= (+ 0 isw9^0) 1) (<= 1 (+ 0 isw9^0)))
-(= ii11^post (+ 17 (* -1 i12^0))))
+(= ii11^post (+ 17 (* (- 1) i12^0))))
 (= bitno101106^0 bitno101106^post))
 (= bitno107112^0 bitno107112^post))
 (= bitno2429^0 bitno2429^post))
@@ -57021,8 +57025,10 @@ value^post)
 (and
 (and
 (and
-(and (= tmp___222^post (+ 0 ret_getbit6065^0)) (= j13^post (+ -1 j13^0)))
-(= k14^post (+ -1 k14^0)))
+(and
+(= tmp___222^post (+ 0 ret_getbit6065^0))
+(= j13^post (+ (- 1) j13^0)))
+(= k14^post (+ (- 1) k14^0)))
 (= bitno101106^0 bitno101106^post))
 (= bitno107112^0 bitno107112^post))
 (= bitno2429^0 bitno2429^post))
@@ -66865,9 +66871,9 @@ value^post)
 (and
 (and
 (= tmp___64853^post (+ 0 ret_getbit111116^0))
-(= j3843^post (+ -1 j3843^0)))
-(= k3944^post (+ -1 k3944^0)))
-(= l4045^post (+ -1 l4045^0)))
+(= j3843^post (+ (- 1) j3843^0)))
+(= k3944^post (+ (- 1) k3944^0)))
+(= l4045^post (+ (- 1) l4045^0)))
 (= bitno101106^0 bitno101106^post))
 (= bitno107112^0 bitno107112^post))
 (= bitno2429^0 bitno2429^post))

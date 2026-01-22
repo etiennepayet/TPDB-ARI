@@ -97,7 +97,7 @@
 (and
 (and
 (and
-(and (and (<= 1 (+ 0 n^0)) (= n^post (+ -1 n^0))) (= A^0 A^post))
+(and (and (<= 1 (+ 0 n^0)) (= n^post (+ (- 1) n^0))) (= A^0 A^post))
 (= R^0 R^post))
 (= __rho_1_^0 __rho_1_^post))
 (= dobreak^0 dobreak^post))

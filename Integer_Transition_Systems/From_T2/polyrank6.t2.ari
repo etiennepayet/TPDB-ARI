@@ -10,14 +10,17 @@
 (l1 x^post y^post z^post)
 :guard
 (and
-(and (= y^post (+ -1 y^0)) (= z^post (+ (+ 0 y^post) z^0)))
+(and (= y^post (+ (- 1) y^0)) (= z^post (+ (+ 0 y^post) z^0)))
 (= x^0 x^post))
 )
 (rule
 (l0 x^0 y^0 z^0)
 (l1 x^post y^post z^post)
 :guard
-(and (and (= x^post (+ -1 x^0)) (= y^post (+ -1 y^0))) (= z^0 z^post)))
+(and
+(and (= x^post (+ (- 1) x^0)) (= y^post (+ (- 1) y^0)))
+(= z^0 z^post))
+)
 (rule
 (l1 x^0 y^0 z^0)
 (l0 x^post y^post z^post)

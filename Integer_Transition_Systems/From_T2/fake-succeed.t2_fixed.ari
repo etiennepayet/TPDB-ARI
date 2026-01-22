@@ -59210,7 +59210,7 @@ y77^post)
 (and
 (and
 (and
-(and (<= 1 (+ 0 length^0)) (= length^post (+ -1 length^0)))
+(and (<= 1 (+ 0 length^0)) (= length^post (+ (- 1) length^0)))
 (= CancelIrp^post CancelIrp^post))
 (= ___rho_10_^post ___rho_10_^post))
 (= CancelIrql^0 CancelIrql^post))

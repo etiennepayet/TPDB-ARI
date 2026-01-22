@@ -1797,7 +1797,9 @@ sourceflag^post)
 (and
 (and
 (and
-(and (<= (+ 0 k^0) (+ -1 nodecount^0)) (<= (+ -1 nodecount^0) (+ 0 k^0)))
+(and
+(<= (+ 0 k^0) (+ (- 1) nodecount^0))
+(<= (+ (- 1) nodecount^0) (+ 0 k^0)))
 (= __lengthofvisited^0 __lengthofvisited^post))
 (= destflag^0 destflag^post))
 (= edgecount^0 edgecount^post))
@@ -1897,7 +1899,7 @@ sourceflag^post)
 (and
 (and
 (and
-(<= (+ 1 k^0) (+ -1 nodecount^0))
+(<= (+ 1 k^0) (+ (- 1) nodecount^0))
 (= __lengthofvisited^0 __lengthofvisited^post))
 (= destflag^0 destflag^post))
 (= edgecount^0 edgecount^post))
@@ -1946,7 +1948,7 @@ sourceflag^post)
 (and
 (and
 (and
-(and (<= (+ -1 nodecount^0) (+ 0 i^0)) (= k^post 0))
+(and (<= (+ (- 1) nodecount^0) (+ 0 i^0)) (= k^post 0))
 (= __lengthofvisited^0 __lengthofvisited^post))
 (= destflag^0 destflag^post))
 (= edgecount^0 edgecount^post))
@@ -1994,7 +1996,7 @@ sourceflag^post)
 (and
 (and
 (and
-(and (<= (+ 1 i^0) (+ -1 nodecount^0)) (= i^post (+ 1 i^0)))
+(and (<= (+ 1 i^0) (+ (- 1) nodecount^0)) (= i^post (+ 1 i^0)))
 (= __lengthofvisited^0 __lengthofvisited^post))
 (= destflag^0 destflag^post))
 (= edgecount^0 edgecount^post))

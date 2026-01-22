@@ -343,7 +343,7 @@ i8^post)
 (and
 (and
 (and
-(and (<= (+ 0 Index7^0) (+ 100 (* -1 i8^0))) (= Index2^0 Index2^post))
+(and (<= (+ 0 Index7^0) (+ 100 (* (- 1) i8^0))) (= Index2^0 Index2^post))
 (= Index7^0 Index7^post))
 (= Sorted5^0 Sorted5^post))
 (= Temp6^0 Temp6^post))
@@ -368,7 +368,7 @@ i8^post)
 (and
 (and
 (and
-(and (<= (+ 101 (* -1 i8^0)) (+ 0 Index7^0)) (= Index2^0 Index2^post))
+(and (<= (+ 101 (* (- 1) i8^0)) (+ 0 Index7^0)) (= Index2^0 Index2^post))
 (= Index7^0 Index7^post))
 (= Sorted5^0 Sorted5^post))
 (= Temp6^0 Temp6^post))
@@ -513,7 +513,7 @@ i8^post)
 (and
 (and
 (and
-(and (= factor^post -1) (= fact3^post (+ 0 factor^post)))
+(and (= factor^post (- 1)) (= fact3^post (+ 0 factor^post)))
 (= Index2^post 1))
 (= Index7^0 Index7^post))
 (= Sorted5^0 Sorted5^post))

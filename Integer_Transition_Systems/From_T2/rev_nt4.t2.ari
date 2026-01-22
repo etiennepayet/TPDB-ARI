@@ -19,7 +19,7 @@
 (= __patmp2^post (+ 0 k_208^0)))
 (= len_263^post (+ 0 __patmp1^post)))
 (= k_243^post (+ 0 __patmp2^post)))
-(<= 0 (+ -1 k_243^post)))
+(<= 0 (+ (- 1) k_243^post)))
 (= k_208^0 k_208^post))
 )
 (rule

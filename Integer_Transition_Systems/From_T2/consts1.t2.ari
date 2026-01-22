@@ -11,7 +11,7 @@
 (l2 __const_300^post __disjvr_0^post x^post)
 :guard
 (and
-(and (= x^post (+ -1 x^0)) (= __const_300^0 __const_300^post))
+(and (= x^post (+ (- 1) x^0)) (= __const_300^0 __const_300^post))
 (= __disjvr_0^0 __disjvr_0^post))
 )
 (rule

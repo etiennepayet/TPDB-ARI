@@ -9112,7 +9112,7 @@ z5554^post)
 (and
 (and
 (and
-(and (= pollset___06564^post pollset___06564^post) (= a6665^post -1))
+(and (= pollset___06564^post pollset___06564^post) (= a6665^post (- 1)))
 (= ret_apr_pollset_poll6968^post 0))
 (= status^post (+ 0 ret_apr_pollset_poll6968^post)))
 (= NL2423^0 NL2423^post))
@@ -30740,7 +30740,7 @@ z5554^post)
 (= pfd_reqevents^post 5))
 (= pfd_client_data^post (+ 0 lr^0)))
 (= pollset___05655^post pollset___05655^post))
-(= i^post (+ -1 i^0)))
+(= i^post (+ (- 1) i^0)))
 (= NL2423^0 NL2423^post))
 (= NL3332^0 NL3332^post))
 (= NL5150^0 NL5150^post))

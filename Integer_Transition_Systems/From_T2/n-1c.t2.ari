@@ -89,7 +89,7 @@ y_6^post)
 (and
 (and
 (and (= lt_9^1 (+ 0 cnt_16^0)) (= lt_10^1 (+ 0 cnt_21^0)))
-(<= (+ (+ 0 lt_10^1) (* -1 lt_9^1)) 0))
+(<= (+ (+ 0 lt_10^1) (* (- 1) lt_9^1)) 0))
 (= lt_9^post lt_9^post))
 (= lt_10^post lt_10^post))
 (= Result_4^post Result_4^post))
@@ -142,7 +142,7 @@ y_6^post)
 (and
 (and
 (and (= lt_9^1 (+ 0 cnt_16^0)) (= lt_10^1 (+ 0 cnt_21^0)))
-(<= 0 (+ (+ -1 lt_10^1) (* -1 lt_9^1))))
+(<= 0 (+ (+ (- 1) lt_10^1) (* (- 1) lt_9^1))))
 (= lt_9^post lt_9^post))
 (= lt_10^post lt_10^post))
 (= tmp_7^post tmp_7^post))
@@ -237,7 +237,7 @@ y_6^post)
 (and
 (and
 (and (= lt_9^1 (+ 0 cnt_16^0)) (= lt_10^1 (+ 0 cnt_21^0)))
-(<= 0 (+ (+ -1 lt_10^1) (* -1 lt_9^1))))
+(<= 0 (+ (+ (- 1) lt_10^1) (* (- 1) lt_9^1))))
 (= lt_9^post lt_9^post))
 (= lt_10^post lt_10^post))
 (= tmp_7^post tmp_7^post))

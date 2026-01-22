@@ -162,7 +162,7 @@ x_18^post)
 (and
 (and
 (and
-(<= 0 (+ (+ -2 (* -1 i_11^0)) length_10^0))
+(<= 0 (+ (+ (- 2) (* (- 1) i_11^0)) length_10^0))
 (= tmp___0_14^post tmp___0_14^post))
 (= tmp_13^post (+ 0 tmp___0_14^post)))
 (= head_12^post (+ 0 tmp_13^post)))
@@ -243,7 +243,7 @@ x_18^post)
 (and
 (and
 (and
-(<= (+ (+ -1 (* -1 i_11^0)) length_10^0) 0)
+(<= (+ (+ (- 1) (* (- 1) i_11^0)) length_10^0) 0)
 (= __cil_tmp6_15^post (+ 0 head_12^0)))
 (= Result_4^1 (+ 0 __cil_tmp6_15^post)))
 (= tmp_20^post (+ 0 Result_4^1)))
@@ -323,7 +323,9 @@ x_18^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 len_47^0)) (<= 0 (+ (+ -2 (* -1 i_11^0)) length_10^0)))
+(and
+(<= 0 (+ 0 len_47^0))
+(<= 0 (+ (+ (- 2) (* (- 1) i_11^0)) length_10^0)))
 (= tmp___0_14^post tmp___0_14^post))
 (= tmp_13^post (+ 0 tmp___0_14^post)))
 (= head_12^post (+ 0 tmp_13^post)))
@@ -475,7 +477,9 @@ x_18^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 len_47^0)) (<= (+ (+ -1 (* -1 i_11^0)) length_10^0) 0))
+(and
+(<= 0 (+ 0 len_47^0))
+(<= (+ (+ (- 1) (* (- 1) i_11^0)) length_10^0) 0))
 (= __cil_tmp6_15^post (+ 0 head_12^0)))
 (= Result_4^1 (+ 0 __cil_tmp6_15^post)))
 (<= 0 (+ 0 len_47^0)))

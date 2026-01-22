@@ -9419,7 +9419,7 @@ x___old3^post)
 (and
 (and
 (<= (+ 0 var_Le_EGp_10___rho_1_^0) 0)
-(= var_Le_EGp_10_x^post (+ -1 var_Le_EGp_10_x^0)))
+(= var_Le_EGp_10_x^post (+ (- 1) var_Le_EGp_10_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -20457,7 +20457,7 @@ x___old3^post)
 (and
 (and
 (<= (+ 0 var_e_EFEGp_0___rho_1_^0) 0)
-(= var_e_EFEGp_0_x^post (+ -1 var_e_EFEGp_0_x^0)))
+(= var_e_EFEGp_0_x^post (+ (- 1) var_e_EFEGp_0_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -21289,7 +21289,7 @@ x___old3^post)
 (and
 (and
 (<= (+ 0 var_Le_EGp_7___rho_1_^0) 0)
-(= var_Le_EGp_7_x^post (+ -1 var_Le_EGp_7_x^0)))
+(= var_Le_EGp_7_x^post (+ (- 1) var_Le_EGp_7_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))
@@ -32327,7 +32327,7 @@ x___old3^post)
 (and
 (and
 (<= (+ 0 var_Le_EGp_9___rho_1_^0) 0)
-(= var_Le_EGp_9_x^post (+ -1 var_Le_EGp_9_x^0)))
+(= var_Le_EGp_9_x^post (+ (- 1) var_Le_EGp_9_x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))

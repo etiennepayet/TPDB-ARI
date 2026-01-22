@@ -4853,8 +4853,8 @@ z^post)
 (and
 (and
 (and (<= (+ 0 l^0) (+ 0 m^0)) (= z^post z^post))
-(= r^1 (+ (+ 0 x^0) (* -1 z^post))))
-(= s^1 (+ (+ 0 y^0) (* -1 z^post))))
+(= r^1 (+ (+ 0 x^0) (* (- 1) z^post))))
+(= s^1 (+ (+ 0 y^0) (* (- 1) z^post))))
 (= p^1 p^1))
 (= q^1 q^1))
 (= r^2 r^2))
@@ -8728,7 +8728,9 @@ z^post)
 (and
 (and
 (and
-(and (and (= nn^post (+ -2 nn^0)) (= anorm^0 anorm^post)) (= i^0 i^post))
+(and
+(and (= nn^post (+ (- 2) nn^0)) (= anorm^0 anorm^post))
+(= i^0 i^post))
 (= its^0 its^post))
 (= j^0 j^post))
 (= k^0 k^post))
@@ -10227,7 +10229,7 @@ z^post)
 (and
 (and
 (and (<= (+ 1 p^0) 0) (= tmp___7^post tmp___7^post))
-(= tmp___8^post (+ 0 (* -1 tmp___7^post))))
+(= tmp___8^post (+ 0 (* (- 1) tmp___7^post))))
 (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
@@ -11516,7 +11518,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 1 l^0) (+ -1 nn^0)) (= anorm^0 anorm^post))
+(and (<= (+ 1 l^0) (+ (- 1) nn^0)) (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
 (= j^0 j^post))
@@ -11735,10 +11737,10 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 0 l^0) (+ -1 nn^0)) (<= (+ -1 nn^0) (+ 0 l^0)))
+(and (<= (+ 0 l^0) (+ (- 1) nn^0)) (<= (+ (- 1) nn^0) (+ 0 l^0)))
 (= tmp^post tmp^post))
-(<= (+ 0 (* 2 tmp^post)) (+ (+ 0 (* -1 x^0)) y^0)))
-(<= (+ (+ 0 (* -1 x^0)) y^0) (+ 0 (* 2 tmp^post))))
+(<= (+ 0 (* 2 tmp^post)) (+ (+ 0 (* (- 1) x^0)) y^0)))
+(<= (+ (+ 0 (* (- 1) x^0)) y^0) (+ 0 (* 2 tmp^post))))
 (= p^post (+ 0 tmp^post)))
 (= q^post q^post))
 (= tmp___4^post tmp___4^post))
@@ -12166,7 +12168,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ -1 nn^0) (+ 0 l^0)) (= anorm^0 anorm^post))
+(and (<= (+ (- 1) nn^0) (+ 0 l^0)) (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
 (= j^0 j^post))
@@ -12382,7 +12384,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 1 l^0) (+ -1 nn^0)) (= anorm^0 anorm^post))
+(and (<= (+ 1 l^0) (+ (- 1) nn^0)) (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
 (= j^0 j^post))
@@ -13463,7 +13465,7 @@ z^post)
 (and
 (and (<= (+ 0 l^0) (+ 0 nn^0)) (<= (+ 0 nn^0) (+ 0 l^0)))
 (= tmp___3^post (+ 0 nn^0)))
-(= nn^post (+ -1 nn^0)))
+(= nn^post (+ (- 1) nn^0)))
 (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
@@ -13888,7 +13890,9 @@ z^post)
 (and
 (and
 (and
-(and (and (= l^post (+ -1 l^0)) (= anorm^0 anorm^post)) (= i^0 i^post))
+(and
+(and (= l^post (+ (- 1) l^0)) (= anorm^0 anorm^post))
+(= i^0 i^post))
 (= its^0 its^post))
 (= j^0 j^post))
 (= k^0 k^post))
@@ -18167,7 +18171,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 0 k^0) (+ -1 nn^0)) (<= (+ -1 nn^0) (+ 0 k^0)))
+(and (<= (+ 0 k^0) (+ (- 1) nn^0)) (<= (+ (- 1) nn^0) (+ 0 k^0)))
 (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
@@ -18600,7 +18604,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 1 k^0) (+ -1 nn^0)) (= anorm^0 anorm^post))
+(and (<= (+ 1 k^0) (+ (- 1) nn^0)) (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
 (= j^0 j^post))
@@ -20745,7 +20749,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 0 k^0) (+ -1 nn^0)) (<= (+ -1 nn^0) (+ 0 k^0)))
+(and (<= (+ 0 k^0) (+ (- 1) nn^0)) (<= (+ (- 1) nn^0) (+ 0 k^0)))
 (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
@@ -21178,7 +21182,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 1 k^0) (+ -1 nn^0)) (= anorm^0 anorm^post))
+(and (<= (+ 1 k^0) (+ (- 1) nn^0)) (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
 (= j^0 j^post))
@@ -24834,7 +24838,7 @@ z^post)
 (and
 (and (<= (+ 1 p^0) 0) (= tmp___30^post tmp___30^post))
 (= tmp___31^post tmp___31^post))
-(= s^post (+ 0 (* -1 tmp___31^post))))
+(= s^post (+ 0 (* (- 1) tmp___31^post))))
 (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
@@ -26547,7 +26551,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 0 k^0) (+ -1 nn^0)) (<= (+ -1 nn^0) (+ 0 k^0)))
+(and (<= (+ 0 k^0) (+ (- 1) nn^0)) (<= (+ (- 1) nn^0) (+ 0 k^0)))
 (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
@@ -26980,7 +26984,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 1 k^0) (+ -1 nn^0)) (= anorm^0 anorm^post))
+(and (<= (+ 1 k^0) (+ (- 1) nn^0)) (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
 (= j^0 j^post))
@@ -28274,7 +28278,7 @@ z^post)
 (and
 (and
 (and
-(and (<= (+ 0 k^0) (+ -1 nn^0)) (= anorm^0 anorm^post))
+(and (<= (+ 0 k^0) (+ (- 1) nn^0)) (= anorm^0 anorm^post))
 (= i^0 i^post))
 (= its^0 its^post))
 (= j^0 j^post))
@@ -30630,7 +30634,9 @@ z^post)
 (and
 (and
 (and
-(and (and (= m^post (+ -1 m^0)) (= anorm^0 anorm^post)) (= i^0 i^post))
+(and
+(and (= m^post (+ (- 1) m^0)) (= anorm^0 anorm^post))
+(= i^0 i^post))
 (= its^0 its^post))
 (= j^0 j^post))
 (= k^0 k^post))

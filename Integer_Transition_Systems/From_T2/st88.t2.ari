@@ -109,7 +109,7 @@
 :guard
 (and
 (and
-(and (<= 3 (+ 0 WItemsNum^0)) (= WItemsNum^post (+ -1 WItemsNum^0)))
+(and (<= 3 (+ 0 WItemsNum^0)) (= WItemsNum^post (+ (- 1) WItemsNum^0)))
 (= __const_5^0 __const_5^post))
 (= tmp1^0 tmp1^post))
 )
